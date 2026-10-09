@@ -946,3 +946,15 @@ body {
   font-size: 0.85rem;
   color: var(--text-muted, #8b95a5);
 }
+
+/* near-miss (under-6) section: NHL/WNBA */
+.near-miss { margin-top: 1.25rem; padding: 0.9rem 1rem; border: 1px dashed rgba(150,150,150,0.45); border-radius: 10px; opacity: 0.82; text-align: left; }
+.nm-head { margin: 0 0 0.25rem; font-size: 0.95rem; font-weight: 600; color: #9aa0a6; }
+.nm-note { margin: 0 0 0.6rem; font-size: 0.78rem; color: #8a8f95; }
+.nm-list { list-style: none; margin: 0; padding: 0; }
+.nm-item { padding: 0.55rem 0; border-top: 1px solid rgba(150,150,150,0.2); font-size: 0.82rem; color: #a6abb1; }
+.nm-pick { font-weight: 600; color: #c2c6cb; }
+.nm-game, .nm-line { margin-top: 0.15rem; }
+.nm-gap { margin-top: 0.15rem; font-style: italic; color: #8a8f95; }
+.nm-tag { font-size: 0.7rem; padding: 0 0.35rem; border: 1px solid rgba(150,150,150,0.5); border-radius: 6px; font-weight: 400; }
+.nm-live { font-size: 0.7rem; padding: 0 0.35rem; background: #8a3b3b; color: #fff; border-radius: 6px; }

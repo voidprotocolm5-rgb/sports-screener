@@ -1,13 +1,215 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-09T18:39:49-05:00",
-  "updatedAtLabel": "Fri Oct 9, 2026 · 6:39 PM CT",
+  "updatedAt": "2026-10-09T18:51:41-05:00",
+  "updatedAtLabel": "Fri Oct 9, 2026 · 6:51 PM CT",
+  "nearMiss": {
+    "NHL": [
+      {
+        "pick": "Mark Scheifele anytime goal",
+        "game": "ANA @ WPG 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 3,
+        "xWho": "@rudebets FD +195, @RealCiciAcct SGP, @MCbets__ 3-man goals",
+        "total": 3,
+        "booksAlign": true,
+        "booksAlignWhy": "Mama Knows Bets projected 43% vs +203 (Kalshi, via MKB) break-even 33.0% → +10.0pp",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 3 more YT."
+      },
+      {
+        "pick": "Kyle Connor anytime goal",
+        "game": "ANA @ WPG 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 3,
+        "xWho": "@MCbets__ +120, @callmeauntie218 2-pick, @RealCiciAcct SGP",
+        "total": 3,
+        "booksAlign": true,
+        "booksAlignWhy": "Mama Knows Bets projected 50% vs +130 (Novig, via MKB) break-even 43.48% → +6.5pp",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 3 more YT."
+      },
+      {
+        "pick": "Cutter Gauthier anytime goal",
+        "game": "ANA @ WPG 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 2,
+        "xWho": "@MattyChucks +126, @SpenceBets42 +130",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "MKB projected 30% vs +144 break-even 40.98% → fails",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 3 more YT, booksAlign."
+      },
+      {
+        "pick": "Winnipeg ML",
+        "game": "ANA @ WPG 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 3,
+        "ytWho": "La Jugada, RollingPlayz, PickDawgz",
+        "x": 0,
+        "xWho": "",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "WPG −125 DK break-even 55.56%; GameLens 45.8%, EdgeGoat 53.1% → fails",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign."
+      },
+      {
+        "pick": "Anaheim ML",
+        "game": "ANA @ WPG 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "Tony's Picks +102",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "Model war: GameLens 54.2% vs +105 break-even 48.78% (+5.4pp) but EdgeGoat 47.7% (−1.1pp) → false",
+        "modelOnly": false,
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Neal Pionk Under 0.5 points −105",
+        "game": "ANA @ WPG 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "EdgeGoat 68.3% vs Hard Rock −105 break-even 51.22% → +17.1pp",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Cole Perfetti Under 2.5 shots −140",
+        "game": "ANA @ WPG 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "EdgeGoat 70.3% vs Hard Rock −140 break-even 58.33% → +12.0pp",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Neal Pionk Under 0.5 assists −140",
+        "game": "ANA @ WPG 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "EdgeGoat 68.5% vs Hard Rock −140 break-even 58.33% → +10.2pp",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      }
+    ],
+    "WNBA": [
+      {
+        "pick": "Golden State +4.5",
+        "game": "GS @ LV 8:30 PM CT",
+        "gameState": "pre",
+        "yt": 3,
+        "ytWho": "Sports Parlay Picks, Doc's Craig Trapp, PickDawgz",
+        "x": 0,
+        "xWho": "",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "EdgeGoat 49.0% vs −105 break-even 51.22% → fails",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign."
+      },
+      {
+        "pick": "Las Vegas −3.5",
+        "game": "GS @ LV 8:30 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "PickDawgz Brad Francis",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "EdgeGoat LV −4.5 51.8% vs −115 break-even 53.49% → fails",
+        "modelOnly": false,
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Golden State ML +165",
+        "game": "GS @ LV 8:30 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": false,
+        "booksAlignWhy": "Model war: Dimers 45.3% vs break-even 37.74% (+7.6pp) but EdgeGoat 35.7% (−2.0pp) → false",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Gabby Williams Under 19.5 points −120",
+        "game": "GS @ LV 8:30 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "EdgeGoat 63.4% vs Hard Rock −120 break-even 54.55% → +8.9pp",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Kiah Stokes Under 8.5 rebounds −150",
+        "game": "GS @ LV 8:30 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "EdgeGoat 67.2% vs Hard Rock −150 break-even 60.0% → +7.2pp",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "A'ja Wilson Under 10.5 rebounds −145",
+        "game": "GS @ LV 8:30 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "EdgeGoat 64.0% vs Hard Rock −145 break-even 59.18% → +4.8pp",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      }
+    ]
+  },
   "slate": "Fri Oct 9 2026 CT · strict 6+ sources · CFB 5 games (6:00–9:15 PM) · NBA preseason MEM@CHI 7:00 PM (no 6+ cards) · NHL ANA@WPG 7:00 PM · WNBA playoffs ATL@NY 6:30, GS@LV 8:30 PM · Soccer: Liga MX no 6+ · MLB/NFL none · Sports screener",
   "sport": "CFB",
   "defaultSport": "CFB",
   "status": "gauge",
-  "summary": "0 CLEARED / 13 GAUGE · Fri Oct 9, 2026 · 6:39 PM CT · 6:30 PM NHL/WNBA refresh · strict 6+ (firm picks) · Research only",
+  "summary": "0 CLEARED / 13 GAUGE · Fri Oct 9, 2026 · 6:51 PM CT · 6:30 PM NHL/WNBA refresh · strict 6+ (firm picks) · Research only",
   "clearedCount": 0,
   "gaugeCount": 13,
   "sports": [
@@ -56,18 +258,18 @@ window.BET_BOARD_DATA = {
   ],
   "archives": {
     "NHL": {
-      "lastSlate": "Fri Oct 9 2026 CT · NHL: SEA @ DET 6:00 PM CT (LIVE SEA 1 – DET 1, 3:57 - 1st); NYR @ WSH 6:00 PM CT (LIVE NYR 1 – WSH 0, 3:55 - 1st); PIT @ CBJ 6:00 PM CT (LIVE PIT 0 – CBJ 1, 2:36 - 1st); ANA @ WPG 7:00 PM CT",
-      "lastUpdatedAtLabel": "Fri Oct 9, 2026 · 6:39 PM CT",
+      "lastSlate": "Fri Oct 9 2026 CT · NHL: SEA @ DET 6:00 PM CT (LIVE SEA 1 – DET 1, End of 1st); NYR @ WSH 6:00 PM CT (LIVE NYR 1 – WSH 0, End of 1st); PIT @ CBJ 6:00 PM CT (LIVE PIT 0 – CBJ 1, End of 1st); ANA @ WPG 7:00 PM CT",
+      "lastUpdatedAtLabel": "Fri Oct 9, 2026 · 6:51 PM CT",
       "note": "No NHL card reaches 6 (firm YouTube picks + unique X send-it posters). SEA@DET, NYR@WSH and PIT@CBJ were already live at 6:00 PM CT and are not counted. ANA@WPG 7:00 PM CT, best counts: WPG ML 3 YT (La Jugada, RollingPlayz, PickDawgz) + 0 X (ParlayPiecesAI leg excluded as AI); ANA ML 1 YT (Tony's Picks +102); Kyle Connor anytime goal 0 YT + 3 X (@MCbets__, @callmeauntie218, @RealCiciAcct); Mark Scheifele anytime goal 0 YT + 3 X (@rudebets, @RealCiciAcct, @MCbets__; tails/quotes by @bbrownDTP and @BigBoiBets92 not double-counted); Cutter Gauthier anytime goal 0 YT + 2 X (@MattyChucks, @SpenceBets42). Model passes with too few sources: Connor anytime goal (Mama Knows Bets projected 50% vs +130 Novig, break-even 43.48%, +6.5pp), Scheifele anytime goal (MKB 43% vs +203 Kalshi, 33.0%, +10.0pp), EdgeGoat (Hard Rock): Neal Pionk Under 0.5 points −105 (+17.1pp), Cole Perfetti Under 2.5 shots −140 (+12.0pp), Pionk Under 0.5 assists −140 (+10.2pp). ANA ML +105: GameLens 54.2% passes but EdgeGoat 47.7% disagrees (model war), so booksAlign is false. X list re-scraped 6:30 PM CT (OCR of every NHL slip posted today); YouTube: 78 NHL/WNBA pick videos found, transcripts fetched for those YouTube didn't rate-limit. Empty on purpose."
     },
     "WNBA": {
-      "lastSlate": "Fri Oct 9 2026 CT · WNBA playoffs: ATL @ NY 6:30 PM CT (LIVE ATL 10 – NY 7, 5:56 - 1st); GS @ LV 8:30 PM CT",
-      "lastUpdatedAtLabel": "Fri Oct 9, 2026 · 6:39 PM CT",
+      "lastSlate": "Fri Oct 9 2026 CT · WNBA playoffs: ATL @ NY 6:30 PM CT (LIVE ATL 25 – NY 18, 0.0 - 1st); GS @ LV 8:30 PM CT",
+      "lastUpdatedAtLabel": "Fri Oct 9, 2026 · 6:51 PM CT",
       "note": "No WNBA card reaches 6. ATL@NY tipped at 6:30 PM CT (LIVE, not counted). GS@LV 8:30 PM CT, best counts: GS +4.5 3 YT (Sports Parlay Picks, Doc's Craig Trapp, PickDawgz) + 0 X; LV −3.5 1 YT (PickDawgz Brad Francis). X slips on GS@LV are prop SGP legs only (Chelsea Gray points: @BrookieJ07, @Wnbawins), under 6. All game lines fail MinEdge on EdgeGoat (GS +4.5 −105 49.0% vs 51.22%). GS ML +165: Dimers 45.3% passes (+7.6pp) but EdgeGoat 35.7% disagrees (model war) — false. Model passes with too few sources (EdgeGoat, Hard Rock): Gabby Williams Under 19.5 pts −120 (+8.9pp), Kiah Stokes Under 8.5 reb −150 (+7.2pp), A'ja Wilson Under 10.5 reb −145 (+4.8pp). Empty on purpose."
     },
     "NBA": {
       "lastSlate": "Fri Oct 9 2026 CT · NBA PRESEASON: MEM @ CHI 7:00 PM CT · HOU vs DAL (Macau) FINAL — dropped",
-      "lastUpdatedAtLabel": "Fri Oct 9, 2026 · 6:39 PM CT",
+      "lastUpdatedAtLabel": "Fri Oct 9, 2026 · 6:51 PM CT",
       "note": "No NBA card reaches 6 (firm YouTube picks + unique X send-it posters). MEM@CHI 7:00 PM CT: Bulls ML 2 (HarshitOdds; Tactical Logic model 57% < 58.7% BE), Over 1. X list re-scraped at 3:10 PM and 5:10 PM CT (189 posts since 11:45 AM, 118 images OCR'd): 0 MEM@CHI slips. YouTube uploads since noon: 0 MEM@CHI picks. Empty on purpose."
     },
     "NBA-PROPS": {
@@ -81,12 +283,12 @@ window.BET_BOARD_DATA = {
     },
     "MLB": {
       "lastSlate": "Fri Oct 9 2026 CT · MLB: no games",
-      "lastUpdatedAtLabel": "Fri Oct 9, 2026 · 6:39 PM CT",
+      "lastUpdatedAtLabel": "Fri Oct 9, 2026 · 6:51 PM CT",
       "note": "No MLB games today per ESPN. Next: ALDS Game 5 CWS@CLE Sat Oct 10. Empty on purpose."
     },
     "NFL": {
       "lastSlate": "Fri Oct 9 2026 CT · NFL: no games",
-      "lastUpdatedAtLabel": "Fri Oct 9, 2026 · 6:39 PM CT",
+      "lastUpdatedAtLabel": "Fri Oct 9, 2026 · 6:51 PM CT",
       "note": "No NFL games Friday per ESPN. Next slate Sun Oct 11. Empty on purpose."
     },
     "Rule": {
@@ -108,9 +310,9 @@ window.BET_BOARD_DATA = {
       "name": "Florida State Seminoles at Louisville Cardinals",
       "league": "football/college-football",
       "state": "in",
-      "detail": "2:50 - 1st",
+      "detail": "14:50 - 2nd",
       "start": "6:00 PM CT",
-      "score": "FSU 7 – LOU 0",
+      "score": "FSU 14 – LOU 0",
       "completed": false
     }
   },
@@ -120,7 +322,7 @@ window.BET_BOARD_DATA = {
     "contested": 3,
     "unobservedModel": 0,
     "note": "booksAlign true only via MinEdge ≥2.5pp vs BE of best observed price with a cited model (GameLens, ats.io, ESPN FPI, AccuScore, MyGameSim, KICKCAST/Masked FC/Código Fut stated %). Model war ⇒ false. Live ⇒ info only. Never invent modelWinPct.",
-    "updatedAtLabel": "Fri Oct 9, 2026 · 6:39 PM CT"
+    "updatedAtLabel": "Fri Oct 9, 2026 · 6:51 PM CT"
   },
   "researchOnly": true,
   "noBetsPlaced": true,
@@ -135,7 +337,7 @@ window.BET_BOARD_DATA = {
     "beatRate": "n/a",
     "bar": "Logic CLV ≳ half-hold",
     "note": "Fri Oct 9 slate; CLV pending until close.",
-    "updatedAtLabel": "Fri Oct 9, 2026 · 6:39 PM CT"
+    "updatedAtLabel": "Fri Oct 9, 2026 · 6:51 PM CT"
   },
   "bets": [
     {
@@ -198,7 +400,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "The Sharp Edition book table (Fri 10:01 AM ET)",
           "breakEvenPct": 59.02,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": 60.3,
           "modelSource": "ats.io ATS Quantitative Model 2026-10-09",
           "edgeVsBePct": 1.28,
@@ -206,7 +408,7 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model clears +2.5pp: ats.io ATS Quantitative Model 2026-10-09 60.3% (+1.28pp); MyGameSim 520 sims 57.5% (-1.52pp); AccuScore sim (upd Oct 8 10:59 PM ET) 53.0% (-6.02pp); ESPN Matchup Predictor (FPI) ev 401858487 39.8% (-19.22pp); GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of Iowa ML 52.4%) 47.6% (-11.42pp)."
         },
         "notes": "Not counted: Baldfather (lean), Tony's VegasWise OGs host (lean), Preferred Walk-On 20–17 (score prediction), Shiesty Sports (AI). Contested by Iowa (10 YT + 1 X).",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "IOWA @ WASH",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 10
@@ -274,7 +476,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "VegasInsider grid ~10:50 AM CT",
           "breakEvenPct": 50.0,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": null,
           "modelSource": null,
           "edgeVsBePct": null,
@@ -287,7 +489,7 @@ window.BET_BOARD_DATA = {
           "missReason": "MODEL WAR: GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) Iowa spread 2/3 65.0% (+15.00pp). ats.io projects WASH 23–20 (3-pt margin beats +2.5) and ML models split (ESPN FPI Iowa 60.2%; ats.io WASH 60.3%, MyGameSim WASH 57.5%, AccuScore WASH 53%). Model-war rule ⇒ booksAlign false."
         },
         "notes": "Not counted: leans (Steve Merril, Doc's Craig Trapp, PregameTV host, Betting News Network host). Contested by Washington (8 YT + 1 X).",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "IOWA @ WASH",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 11
@@ -351,7 +553,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "MyGameSim posted line",
           "breakEvenPct": 53.49,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": 33.7,
           "modelSource": "GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of Over 66.3%)",
           "edgeVsBePct": -19.79,
@@ -359,7 +561,7 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model clears +2.5pp: GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of Over 66.3%) 33.7% (-19.79pp)."
         },
         "notes": "NEW on this board (was 3 at 10:57, 5 with leans at noon). Not counted: StumpTheSpread ('could talk me into' — lean), PregameTV host (lean), AI picks (Shiesty Sports under; AI Sports Predictor over). Total back to 41.5 at DK (Under −112) after dipping to 40.5.",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "IOWA @ WASH",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 9
@@ -423,7 +625,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "Just Gridiron transcript (BetMGM)",
           "breakEvenPct": 51.22,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": 18.7,
           "modelSource": "GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of Over 81.3%)",
           "edgeVsBePct": -32.52,
@@ -431,7 +633,7 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model clears +2.5pp: GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of Over 81.3%) 18.7% (-32.52pp)."
         },
         "notes": "Not counted: Bad Beat Bureau (lean), Baldfather/PickDawgz Chris (mention 'under may be worth a look'). Contested: Kyle Kirms lean over. 1 X short of CLEARED's X floor and booksAlign false.",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "ISU @ BYU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 9
@@ -494,7 +696,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "ats.io book compare",
           "breakEvenPct": 51.22,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": 25.2,
           "modelSource": "GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of Over 74.8%)",
           "edgeVsBePct": -26.02,
@@ -502,7 +704,7 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model clears +2.5pp: GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of Over 74.8%) 25.2% (-26.02pp)."
         },
         "notes": "Not counted: Hitting The Books (lean). Contested: Ghost Picks Benny Over 43.5 (AI picks Shiesty/AI Sports Predictor also over — not counted).",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "WSU @ USU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 8
@@ -567,7 +769,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "Hard Rock via VegasInsider / ats.io ~10:50 AM CT",
           "breakEvenPct": 50.5,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": 65.0,
           "modelSource": "GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) SJSU spread 3/3",
           "edgeVsBePct": 14.5,
@@ -575,7 +777,7 @@ window.BET_BOARD_DATA = {
           "missReason": null
         },
         "notes": "booksAlign passes on GameLens (no conflicting cited cover model) but 0 X send-it posters → 2 short of CLEARED. Fixed vs 12:00: PickDawgz On Deck SJSU speaker and the 7zSn host are both Brad Francis — counted once. Not counted: ML-only picks (Tony's Night Moves Nico, RollingPlayz), Tipster Sports (lean), AI picks. Contested: Doc's Craig Trapp Wyoming +6.5; Pick Prophets Wyoming +6.5 (new, 5 PM pass); @jr_dimes Wyoming +4.5.",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "WYO @ SJSU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 9
@@ -644,7 +846,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "VegasInsider",
           "breakEvenPct": 52.38,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": 48.8,
           "modelSource": "GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of BYU spread 51.2%)",
           "edgeVsBePct": -3.58,
@@ -652,7 +854,7 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model clears +2.5pp: GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of BYU spread 51.2%) 48.8% (-3.58pp)."
         },
         "notes": "Most firm YouTube picks on the board (15) but 0 X send-it posters and GameLens 48.5% fails MinEdge. Not counted: Tony's VegasWise OGs host ('inclined'), Locked On Cyclones 31–17 (fan score prediction), AI Sports Predictor. Contested by BYU −10.5 (9 YT).",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "ISU @ BYU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 15
@@ -716,7 +918,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "VegasInsider",
           "breakEvenPct": 51.92,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": 35.0,
           "modelSource": "GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of WSU spread 65.0%)",
           "edgeVsBePct": -16.92,
@@ -724,7 +926,7 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model clears +2.5pp: GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of WSU spread 65.0%) 35.0% (-16.92pp)."
         },
         "notes": "Line moved to USU −4 at DK (3.5 at 3:15 PM; models were cited at −5.5). Not counted: leans (Steve Merril, APE, Hitting The Books A), Shiesty Sports (AI). Contested: WSU +5.5 (Tony's Picks, Hitting The Books B, Pro Football Network).",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "WSU @ USU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 10
@@ -787,7 +989,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "VegasInsider grid",
           "breakEvenPct": 51.22,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": 51.2,
           "modelSource": "GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) BYU spread 3/3",
           "edgeVsBePct": -0.02,
@@ -795,7 +997,7 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model clears +2.5pp: GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) BYU spread 3/3 51.2% (-0.02pp)."
         },
         "notes": "Fixed vs 12:00: fan score predictions (KSU Nation 38–17, KSL 27–13) no longer counted; Hype Train hosts' scores not counted; Shiesty Sports (AI) not counted. Line now −11.5. Contested by ISU +10.5 (15 YT).",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "ISU @ BYU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 9
@@ -857,7 +1059,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "DraftKings via ats.io",
           "breakEvenPct": 51.92,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": null,
           "modelSource": null,
           "edgeVsBePct": null,
@@ -872,7 +1074,7 @@ window.BET_BOARD_DATA = {
           "missReason": "MODEL WAR: ats.io ATS Quantitative Model 2026-10-09 (stated at Under 43.5) 57.0% (+5.08pp); GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of Over 67.4%) 32.6% (-19.32pp). Model-war rule ⇒ booksAlign false."
         },
         "notes": "Model war (ats.io vs GameLens) → booksAlign false. Not counted: PickDawgz Brad Francis (lean under). Contested: PickDawgz Yang Angle Over 42.5.",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "WYO @ SJSU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 8
@@ -885,7 +1087,7 @@ window.BET_BOARD_DATA = {
       "sport": "CFB",
       "tier": "gauge",
       "marketType": "total",
-      "game": "Florida State at Louisville · CFB Week 6 · Friday 6:00 PM CT · ESPN · LIVE FSU 7 – LOU 0 · 2:50 - 1st · checked 6:39 PM CT",
+      "game": "Florida State at Louisville · CFB Week 6 · Friday 6:00 PM CT · ESPN · LIVE FSU 14 – LOU 0 · 14:50 - 2nd · checked 6:51 PM CT",
       "pick": "Over 58.5 / 59.5",
       "line": "Best Over 59.5 −110 (ats.io, AM). BE 52.38%. DK at ~5:15 PM CT (ESPN): O/U 60.5, Over −105.",
       "gameState": "live",
@@ -938,7 +1140,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "DraftKings via ESPN ~5:15 PM CT",
           "breakEvenPct": 51.22,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": 51.9,
           "modelSource": "GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) Total: Over 2/3 (line not shown on page)",
           "edgeVsBePct": 0.68,
@@ -946,7 +1148,7 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model clears +2.5pp: GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) Total: Over 2/3 (line not shown on page) 51.9% (+0.68pp)."
         },
         "notes": "Meets ≥3 YT and ≥2 X (now 3 X), but booksAlign is false: GameLens 5:10 PM CT run Over 51.9% vs 51.22% BE at Over 60.5 −105 (+0.68pp < 2.5pp; AM run was Over 51.3% at 59.5). ats.io projects 62.0 with no over %; MyGameSim projects 71.2 but its over % is paywalled — not used. Not counted: Tipster Sports (lean over). Contested: The Bettor Mark Under 60.5, CamATL Under (alt). Total 60.5 at DK.",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "FSU @ LOU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 11
@@ -959,7 +1161,7 @@ window.BET_BOARD_DATA = {
       "sport": "CFB",
       "tier": "gauge",
       "marketType": "spread",
-      "game": "Florida State at Louisville · CFB Week 6 · Friday 6:00 PM CT · ESPN · LIVE FSU 7 – LOU 0 · 2:50 - 1st · checked 6:39 PM CT",
+      "game": "Florida State at Louisville · CFB Week 6 · Friday 6:00 PM CT · ESPN · LIVE FSU 14 – LOU 0 · 14:50 - 2nd · checked 6:51 PM CT",
       "pick": "Louisville −3.5 / −4",
       "line": "Best −3.5 −110 (BetRivers via ats.io, AM). BE 52.38%. DK at ~5:15 PM CT (ESPN): LOU −4 −112.",
       "gameState": "live",
@@ -1018,7 +1220,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "ats.io (BetRivers) ~11 AM CT",
           "breakEvenPct": 52.38,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": null,
           "modelSource": null,
           "edgeVsBePct": null,
@@ -1033,7 +1235,7 @@ window.BET_BOARD_DATA = {
           "missReason": "MODEL WAR: GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) LOU spread 3/3 54.0% (+1.62pp); ats.io ATS Quantitative Model 2026-10-09 (recommended LOU −5.5, 'model win prob 56.8%') 56.8% (+4.42pp). Model-war rule ⇒ booksAlign false."
         },
         "notes": "Not counted: leans (WagerTalk Morning Wager, APE, Betting News Network), Break The Board LOU ML parlay leg (ML), Michael McCammon 34–31 (score prediction), AI picks (AI Sports Predictor, Shiesty Sports). @Covers_josh quote-post of the same Brad Powers pick not double-counted. Also not counted: Jon Farris 'Give me Louisville' (straight-up, no spread) and @ChillyBets LOU ML SGP leg (ML on a spread card). Contested by FSU +3.5 (9 YT + 1 X).",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "FSU @ LOU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 15
@@ -1046,7 +1248,7 @@ window.BET_BOARD_DATA = {
       "sport": "CFB",
       "tier": "gauge",
       "marketType": "spread",
-      "game": "Florida State at Louisville · CFB Week 6 · Friday 6:00 PM CT · ESPN · LIVE FSU 7 – LOU 0 · 2:50 - 1st · checked 6:39 PM CT",
+      "game": "Florida State at Louisville · CFB Week 6 · Friday 6:00 PM CT · ESPN · LIVE FSU 14 – LOU 0 · 14:50 - 2nd · checked 6:51 PM CT",
       "pick": "Florida State +3.5 / +4",
       "line": "Best +3.5 −105 (DraftKings, AM). BE 51.22%. DK at ~5:15 PM CT (ESPN): FSU +4 −108.",
       "gameState": "live",
@@ -1100,7 +1302,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "DraftKings via ats.io ~11 AM CT",
           "breakEvenPct": 51.22,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-09T18:39:44-05:00",
+          "checkedAt": "2026-10-09T18:51:36-05:00",
           "modelWinPct": 46.0,
           "modelSource": "GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of LOU spread 54.0%)",
           "edgeVsBePct": -5.22,
@@ -1108,7 +1310,7 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model clears +2.5pp: GameLens AI (10k Monte Carlo + Elo + Poisson), model run 6:10 PM ET (5:10 PM CT) (complement of LOU spread 54.0%) 46.0% (-5.22pp)."
         },
         "notes": "Fixed vs 12:00 board: WagerTalk 8oWSgkwcugo host IS Sean Higgs — counted once (was 2). Contested by LOU −3.5 (14 YT + 1 X).",
-        "checkedAt": "2026-10-09T18:39:44-05:00",
+        "checkedAt": "2026-10-09T18:51:36-05:00",
         "gameKey": "FSU @ LOU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI-generated picks, ML-only on spread cards and relayed duplicates excluded) + unique X posters",
         "combinedSources": 10

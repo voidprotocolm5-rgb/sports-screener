@@ -508,6 +508,33 @@
     return '<div class="empty">No ' + escapeHtml(label) + " picks on this slate.</div>";
   }
 
+  function renderNearMiss(sportId, data) {
+    var nm = (data && data.nearMiss) || {};
+    var list = nm[sportId] || nm[normalizeSport(sportId)] || [];
+    if (!list.length) return "";
+    var rows = list.map(function (n) {
+      var live = String(n.gameState || "") === "live" ? '<span class="nm-live">LIVE</span> ' : "";
+      return (
+        '<li class="nm-item">' +
+          '<div class="nm-pick">' + live + escapeHtml(n.pick || "") + (n.modelOnly ? ' <span class="nm-tag">model-only, 0 sources</span>' : "") + "</div>" +
+          '<div class="nm-game">' + escapeHtml(n.game || "") + "</div>" +
+          '<div class="nm-line">YT ' + escapeHtml(String(n.yt)) + (n.ytWho ? " (" + escapeHtml(n.ytWho) + ")" : "") +
+            " · X " + escapeHtml(String(n.x)) + (n.xWho ? " (" + escapeHtml(n.xWho) + ")" : "") +
+            " · total " + escapeHtml(String(n.total)) + "</div>" +
+          '<div class="nm-line">booksAlign ' + (n.booksAlign ? "true" : "false") + " — " + escapeHtml(n.booksAlignWhy || "") + "</div>" +
+          '<div class="nm-gap">' + escapeHtml(n.gap || "") + "</div>" +
+        "</li>"
+      );
+    }).join("");
+    return (
+      '<section class="near-miss" aria-label="Near misses">' +
+        '<h3 class="nm-head">Near misses (under 6 sources), not on the main board</h3>' +
+        '<p class="nm-note">Research only. Not counted in gauge/cleared totals or board status.</p>' +
+        '<ul class="nm-list">' + rows + "</ul>" +
+      "</section>"
+    );
+  }
+
   function renderSportEmpty(sportId, data) {
     var archives = (data && data.archives) || {};
     var arch = archives[sportId] || archives[normalizeSport(sportId)] || null;
@@ -552,7 +579,8 @@
       '<div class="sport-empty-icon" aria-hidden="true">○</div>' +
       '<p class="sport-empty-title">No live research this slate' + escapeHtml(subLabel) + "</p>" +
       '<p class="sport-empty-body">' + body + "</p>" +
-      archiveHtml
+      archiveHtml +
+      renderNearMiss(sportId, data)
     );
   }
 
