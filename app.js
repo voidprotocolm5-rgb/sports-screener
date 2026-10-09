@@ -17,7 +17,9 @@
     { id: "MLB", label: "Baseball", nav: "Baseball", short: "MLB" },
     { id: "NFL", label: "Football (NFL)", nav: "Football", short: "NFL" },
     { id: "CFB", label: "NCAA Football", nav: "NCAA Football", short: "CFB" },
-    { id: "Soccer", label: "Soccer", nav: "Soccer", short: "Soccer" }
+    { id: "Soccer", label: "Soccer", nav: "Soccer", short: "Soccer" },
+    { id: "NHL", label: "Hockey (NHL)", nav: "NHL", short: "NHL" },
+    { id: "WNBA", label: "Basketball (WNBA)", nav: "WNBA", short: "WNBA" }
   ];
   // Category tabs always render from sports[] / DEFAULT_SPORTS — empty counts OK.
 
@@ -51,6 +53,8 @@
     if (t === "FOOTBALL" || t === "NFL") return "NFL";
     if (t === "NCAA" || t === "NCAAF" || t === "CFB" || t === "COLLEGE FOOTBALL") return "CFB";
     if (t === "SOCCER" || t === "FOOTBALL (SOCCER)" || t === "MLS" || t === "EPL") return "Soccer";
+    if (t === "HOCKEY" || t === "NHL") return "NHL";
+    if (t === "WNBA" || t === "BASKETBALL (WNBA)") return "WNBA";
     return t || "MLB";
   }
 
@@ -507,7 +511,7 @@
   function renderSportEmpty(sportId, data) {
     var archives = (data && data.archives) || {};
     var arch = archives[sportId] || archives[normalizeSport(sportId)] || null;
-    var labelMap = { MLB: "Baseball", NFL: "Football (NFL)", CFB: "NCAA Football", Soccer: "Soccer", NBA: "Basketball" };
+    var labelMap = { MLB: "Baseball", NFL: "Football (NFL)", CFB: "NCAA Football", Soccer: "Soccer", NBA: "Basketball", NHL: "Hockey (NHL)", WNBA: "Basketball (WNBA)" };
     var label = labelMap[sportId] || sportId;
     var isNba = normalizeSport(sportId) === "NBA";
     var subLabel = "";
