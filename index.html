@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#07090d" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta name="description" content="Sports screener — multi-sport research dashboard. Research only, not betting advice." />
+  <meta name="application-name" content="Sports screener" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Sports screener" />
+  <meta property="og:title" content="Sports screener" />
+  <meta property="og:description" content="Multi-sport research dashboard. Research only — not betting advice." />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Sports screener" />
+  <meta name="twitter:description" content="Multi-sport research dashboard. Research only — not betting advice." />
+  <title>Sports screener</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20261009-1200" />
+  <script src="data.js?v=20261009-1200"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div class="header-top">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <span class="brand-mark-inner"></span>
+          </span>
+          <div class="brand-text">
+            <p class="brand-kicker">Sports Scout</p>
+            <h1>Bet Board</h1>
+          </div>
+        </div>
+        <div id="status-pill" class="status-pill status-stale" role="status">—</div>
+      </div>
+
+      <div class="categories-block">
+        <p class="categories-label">Categories</p>
+        <nav class="sport-nav" id="sport-nav" aria-label="Sport categories" role="tablist"></nav>
+        <nav id="sub-nav" class="sub-nav" hidden aria-label="Basketball subcategories"></nav>
+      </div>
+
+      <div class="header-meta">
+        <p id="slate-name" class="slate">Loading…</p>
+        <p class="meta-row">
+          <span id="updated-at" class="updated">—</span>
+          <span class="dot" aria-hidden="true">·</span>
+          <span id="age" class="age">—</span>
+        </p>
+      </div>
+      <p id="summary" class="summary"></p>
+      <div id="process-bar" class="process-bar" hidden aria-label="CLV and MinEdge process"></div>
+      <div id="example-banner" class="example-banner" hidden>
+        EXAMPLE DATA — not real picks. For layout/testing only.
+      </div>
+      <div id="gauge-banner" class="gauge-banner" hidden>
+        GAUGE BOARD — best available for sizing when nothing cleared full floors.
+      </div>
+    </header>
+
+    <main class="main">
+      <div id="sport-empty" class="sport-empty" hidden></div>
+
+      <div id="board-content">
+        <section class="market-section" data-market="moneyline" aria-labelledby="sec-ml">
+          <h2 id="sec-ml" class="section-title">
+            <span class="section-label">Moneyline</span>
+            <span class="section-count" data-count="moneyline">0</span>
+          </h2>
+          <div class="cards" id="cards-moneyline"></div>
+        </section>
+
+        <section class="market-section" data-market="spread" aria-labelledby="sec-spr">
+          <h2 id="sec-spr" class="section-title">
+            <span class="section-label">Spreads / Totals</span>
+            <span class="section-count" data-count="spread">0</span>
+          </h2>
+          <div class="cards" id="cards-spread"></div>
+        </section>
+
+        <section class="market-section" data-market="prop" aria-labelledby="sec-prop">
+          <h2 id="sec-prop" class="section-title">
+            <span class="section-label">Props</span>
+            <span class="section-count" data-count="prop">0</span>
+          </h2>
+          <div class="cards" id="cards-prop"></div>
+        </section>
+
+        <aside id="skipped-note" class="skipped" hidden></aside>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p><strong>Research only.</strong> This board summarizes analysis for personal review. It does not place bets and is not financial, gambling, or investment advice. Odds and edges can be wrong.</p>
+      <p class="footer-sub">Sports screener · Auto-refresh 60s · UI v20261007-mlb1112-112320</p>
+    </footer>
+  </div>
+
+  <script src="app.js?v=20261009-1200"></script>
+</body>
+</html>
