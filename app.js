@@ -657,6 +657,13 @@
 
     var emptyEl = $("sport-empty");
     var boardEl = $("board-content");
+    var nmSlot = document.getElementById("near-miss-slot");
+    if (!nmSlot && boardEl && boardEl.parentNode) {
+      nmSlot = document.createElement("div");
+      nmSlot.id = "near-miss-slot";
+      boardEl.parentNode.insertBefore(nmSlot, boardEl.nextSibling);
+    }
+    if (nmSlot) nmSlot.innerHTML = hasBets ? renderNearMiss(activeSport, data) : "";
     if (!hasBets) {
       emptyEl.hidden = false;
       emptyEl.innerHTML = renderSportEmpty(activeSport, data);
