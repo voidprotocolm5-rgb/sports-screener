@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-10T10:41:36-05:00",
-  "updatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT",
+  "updatedAt": "2026-10-10T16:05:58-05:00",
+  "updatedAtLabel": "Sat Oct 10, 2026 · 4:05 PM CT",
   "nearMiss": {
     "CFB": [
       {
@@ -50,7 +50,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Oklahoma State −10.5 (−10.5)",
         "game": "UCF @ Oklahoma State · 11:00 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 3,
         "ytWho": "Al Demarco: Oklahoma State (top complimentary play), Doc's Sports (Nick Menken): Oklahoma State −10.5, PickDawgz (CFB picks today): Cowboys −10.5",
         "x": 0,
@@ -59,12 +59,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best OKST −10.5 −112 → BE 52.83%. GameLens spread consensus 3/3 (run at OKST −10.5) 58.7% (+5.87pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X."
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X.",
+        "result": {
+          "score": "UCF 28 – OKST 42",
+          "final": "FINAL UCF 28 – OKST 42",
+          "checkedAt": "4:05 PM CT",
+          "status": "WIN",
+          "how": "Oklahoma State margin +14 with -10.5 → +3.5"
+        }
       },
       {
         "pick": "Vanderbilt +9.5 (+9.5)",
         "game": "Ole Miss @ Vanderbilt · 2:30 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 3,
         "ytWho": "Kyle Kirms: Vanderbilt (underdog for the video), Tony's Picks: Commodores +10, Saturday Football Nerd: Vanderbilt +10.5 (pick of the week)",
         "x": 0,
@@ -73,12 +80,18 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best Vanderbilt +9.5 -108 → BE 51.92%. GameLens spread consensus (run at VAN +9.5 · 2/3) 65.0% (+13.08pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X."
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "MISS 28 – VAN 3",
+          "detail": "2:59 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "NC State +3.5 (+3.5)",
         "game": "Wake Forest @ NC State · 11:00 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 1,
         "ytWho": "Tony's Picks: NC State +3.5",
         "x": 1,
@@ -87,7 +100,14 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best NCSU +3.5 −112 → BE 52.83%. GameLens spread consensus 2/3 (run at NCSU +3.5) 59.2% (+6.37pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X.",
+        "result": {
+          "score": "WAKE 38 – NCSU 14",
+          "final": "FINAL WAKE 38 – NCSU 14",
+          "checkedAt": "4:05 PM CT",
+          "status": "LOSS",
+          "how": "NC State margin -24 with +3.5 → -20.5"
+        }
       },
       {
         "pick": "Utah −15.5 (−15.5)",
@@ -106,7 +126,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Illinois −2.5 (−2.5)",
         "game": "Illinois @ Michigan State · 2:30 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 2,
         "ytWho": "Doc's Sports (Jason Sharpe): Illinois −2.5, Tony's Picks (every-game video): lay the points with Illinois",
         "x": 0,
@@ -115,12 +135,18 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best Illinois −2.5 -120 → BE 54.55%. GameLens spread consensus (run at ILL −2.5 · 3/3) 65.0% (+10.45pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "ILL 20 – MSU 7",
+          "detail": "Halftime",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Texas A&M ML (+154)",
         "game": "Texas A&M @ Missouri · 11:00 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 1,
         "ytWho": "CBS Sports expert: Aggies to win outright",
         "x": 0,
@@ -129,12 +155,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best TA&M +154 → BE 39.37%. ESPN FPI win% 47.3% (+7.93pp); GameLens ML (complement of MIZ 57.1%) 42.9% (+3.53pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X."
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X.",
+        "result": {
+          "score": "TA&M 6 – MIZ 27",
+          "final": "FINAL TA&M 6 – MIZ 27",
+          "checkedAt": "4:05 PM CT",
+          "status": "LOSS",
+          "how": "Texas A&M lost (6-27)"
+        }
       },
       {
         "pick": "Texas A&M +4 (+4)",
         "game": "Texas A&M @ Missouri · 11:00 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 1,
         "ytWho": "Guy Boston Sports: Texas A&M +4.5",
         "x": 0,
@@ -143,12 +176,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best TA&M +4 −110 → BE 52.38%. GameLens spread consensus 2/3 (run at TA&M +3.5) 55.1% (+2.72pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X."
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X.",
+        "result": {
+          "score": "TA&M 6 – MIZ 27",
+          "final": "FINAL TA&M 6 – MIZ 27",
+          "checkedAt": "4:05 PM CT",
+          "status": "LOSS",
+          "how": "Texas A&M margin -21 with +4 → -17"
+        }
       },
       {
         "pick": "Texas ML (−325)",
         "game": "Texas vs Oklahoma (Dallas) · 2:30 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 0,
         "ytWho": "",
         "x": 1,
@@ -157,12 +197,18 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best TEX −325 → BE 76.47%. ESPN FPI win% 84.9% (+8.43pp); GameLens ML 88.0% (+11.53pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 3 more YT, 1 more X."
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 3 more YT, 1 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "TEX 14 – OU 7",
+          "detail": "10:09 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Maryland +33.5 (+33.5)",
         "game": "Maryland @ Ohio State · 3:15 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 0,
         "ytWho": "",
         "x": 1,
@@ -171,7 +217,13 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best MD +33.5 −112 → BE 52.83%. GameLens spread consensus (run at MD +33.5 · 2/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 3 more YT, 1 more X."
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 3 more YT, 1 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "MD 3 – OSU 14",
+          "detail": "15:00 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Louisiana +3 (+3)",
@@ -204,7 +256,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Eastern Michigan −5.5 (−5.5)",
         "game": "Eastern Michigan @ Akron",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 1,
         "ytWho": "Tony's Picks (every-game video): lay the points with Eastern Michigan",
         "x": 0,
@@ -213,12 +265,18 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best Eastern Michigan −5.5 -110 → BE 52.38%. GameLens spread consensus (run at EMU −6.5 · 3/3) 65.0% (+12.62pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X."
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "EMU 13 – AKR 14",
+          "detail": "Halftime",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Duke −4.5 (−4.5)",
         "game": "Duke @ Georgia Tech · 2:30 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 1,
         "ytWho": "Tony's Picks (every-game video): lay the points with Duke",
         "x": 0,
@@ -227,7 +285,13 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best Duke −4.5 -115 → BE 53.49%. GameLens spread consensus (run at DUKE −6.5 · 3/3) 56.4% (+2.91pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X."
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "DUKE 10 – GT 14",
+          "detail": "Halftime",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Minnesota −2.5 (−2.5)",
@@ -246,7 +310,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Ole Miss −9.5 (−9.5)",
         "game": "Ole Miss @ Vanderbilt · 2:30 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 4,
         "ytWho": "StumpTheSpread: Ole Miss −9.5, Fantasy Aces: give me Miss (side), Doc's Sports (Scott Rickenbach): Ole Miss −9.5 free pick, Sports Parlay Picks: Ole Miss −9.5 (+ML)",
         "x": 1,
@@ -255,12 +319,18 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best MISS −9.5 −112 → BE 52.83%. GameLens spread (complement of VAN +9.5 65.0%) 35.0% (-17.83pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 1 more X, booksAlign."
+        "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 1 more X, booksAlign.",
+        "result": {
+          "status": "LIVE",
+          "score": "MISS 28 – VAN 3",
+          "detail": "2:59 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Nebraska +8.5 (+8.5)",
         "game": "Indiana @ Nebraska · 11:00 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 3,
         "ytWho": "CFB900 (Chris Andrews): Nebraska, Guy Boston Sports: Nebraska +9.5, East Coast Edge: Nebraska +7.5",
         "x": 1,
@@ -269,12 +339,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best NEB +8.5 −110 → BE 52.38%. GameLens spread consensus 2/3 (run at NEB +7.5) 54.6% (+2.22pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more X, booksAlign."
+        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more X, booksAlign.",
+        "result": {
+          "score": "IU 20 – NEB 17",
+          "final": "FINAL IU 20 – NEB 17",
+          "checkedAt": "4:05 PM CT",
+          "status": "WIN",
+          "how": "Nebraska margin -3 with +8.5 → +5.5"
+        }
       },
       {
         "pick": "Missouri −4 (−4)",
         "game": "Texas A&M @ Missouri · 11:00 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 2,
         "ytWho": "Kyle Kirms: Missouri −3, Tony's Picks (every-game video): lay the points with Missouri",
         "x": 2,
@@ -283,12 +360,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best MIZ −4 −110 → BE 52.38%. GameLens spread (complement of TA&M +3.5 55.1%) 44.9% (-7.48pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more YT, booksAlign."
+        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more YT, booksAlign.",
+        "result": {
+          "score": "TA&M 6 – MIZ 27",
+          "final": "FINAL TA&M 6 – MIZ 27",
+          "checkedAt": "4:05 PM CT",
+          "status": "WIN",
+          "how": "Missouri margin +21 with -4 → +17"
+        }
       },
       {
         "pick": "Florida −10.5 (−10.5)",
         "game": "South Carolina @ Florida · 11:45 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 4,
         "ytWho": "StumpTheSpread: Florida −11.5, Porcelain Picks: Florida −11.5, Sports Parlay Picks: Florida −11.5 (+ML), Locked On Gators (Kevin Rogers): lay the points with the Gators",
         "x": 0,
@@ -297,7 +381,14 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best FLA −10.5 −112 → BE 52.83%. GameLens spread (complement of SC +11.5 65.0%) 35.0% (-17.83pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 2 more X, booksAlign."
+        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 2 more X, booksAlign.",
+        "result": {
+          "score": "SC 38 – FLA 19",
+          "final": "FINAL SC 38 – FLA 19",
+          "checkedAt": "4:05 PM CT",
+          "status": "LOSS",
+          "how": "Florida margin -19 with -10.5 → -29.5"
+        }
       },
       {
         "pick": "LSU −9.5 (−9.5)",
@@ -316,7 +407,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Over 57.5 (o57.5)",
         "game": "UCLA @ Oregon · 2:30 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 3,
         "ytWho": "SportsLine (Tom): Over 58.5, Porcelain Picks: Over 57.5, Brock Page: Over 58",
         "x": 1,
@@ -325,12 +416,18 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best o57.5 −115 → BE 53.49%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more X, booksAlign."
+        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more X, booksAlign.",
+        "result": {
+          "status": "LIVE",
+          "score": "UCLA 10 – ORE 6",
+          "detail": "1:40 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "North Carolina +3.5 (+3.5)",
         "game": "North Carolina @ Pittsburgh · 11:00 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 1,
         "ytWho": "Porcelain Picks: UNC +3.5",
         "x": 2,
@@ -339,12 +436,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best UNC +3.5 −112 → BE 52.83%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more YT, booksAlign."
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more YT, booksAlign.",
+        "result": {
+          "score": "UNC 21 – PITT 17",
+          "final": "FINAL UNC 21 – PITT 17",
+          "checkedAt": "4:05 PM CT",
+          "status": "WIN",
+          "how": "North Carolina margin +4 with +3.5 → +7.5"
+        }
       },
       {
         "pick": "Oklahoma +7.5 (+7.5)",
         "game": "Texas vs Oklahoma (Dallas) · 2:30 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 3,
         "ytWho": "Kyle Kirms: Oklahoma +9.5 (+ ML sprinkle), Brock Page: Oklahoma +7.5, CBS Sports expert: Oklahoma +7.5",
         "x": 0,
@@ -353,7 +457,13 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best OU +7.5 −110 → BE 52.38%. GameLens spread (complement of TEX 65.0%) 35.0% (-17.38pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign."
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign.",
+        "result": {
+          "status": "LIVE",
+          "score": "TEX 14 – OU 7",
+          "detail": "10:09 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Over 51.5 (o51.5)",
@@ -428,7 +538,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Over 60.5 (o60.5)",
         "game": "Arizona @ West Virginia · 11:00 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 1,
         "ytWho": "Beating The Odds: Over 60.5",
         "x": 1,
@@ -437,12 +547,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best o60.5 −115 → BE 53.49%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign.",
+        "result": {
+          "score": "ARIZ 52 – WVU 31",
+          "final": "FINAL ARIZ 52 – WVU 31",
+          "checkedAt": "4:05 PM CT",
+          "status": "WIN",
+          "how": "Combined 83 vs over 60.5"
+        }
       },
       {
         "pick": "South Carolina +10.5 (+10.5)",
         "game": "South Carolina @ Florida · 11:45 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 1,
         "ytWho": "Kyle Kirms: on South Carolina",
         "x": 1,
@@ -451,12 +568,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best SC +10.5 −108 → BE 51.92%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign.",
+        "result": {
+          "score": "SC 38 – FLA 19",
+          "final": "FINAL SC 38 – FLA 19",
+          "checkedAt": "4:05 PM CT",
+          "status": "WIN",
+          "how": "South Carolina margin +19 with +10.5 → +29.5"
+        }
       },
       {
         "pick": "Over 59.5 (o59.5)",
         "game": "South Carolina @ Florida · 11:45 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 1,
         "ytWho": "Doc's Sports (Nick Menken): Over 58.5 official play",
         "x": 1,
@@ -465,12 +589,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best o59.5 −105 → BE 51.22%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign.",
+        "result": {
+          "score": "SC 38 – FLA 19",
+          "final": "FINAL SC 38 – FLA 19",
+          "checkedAt": "4:05 PM CT",
+          "status": "LOSS",
+          "how": "Combined 57 vs over 59.5"
+        }
       },
       {
         "pick": "Houston ML (+114)",
         "game": "Houston @ Kansas State · 2:30 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 1,
         "ytWho": "Kyle Kirms: Houston ML",
         "x": 1,
@@ -479,7 +610,13 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best HOU +114 → BE 46.73%. GameLens ML 49.9% (+3.17pp); ESPN FPI win% 48.9% (+2.17pp). Model war, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign.",
+        "result": {
+          "status": "LIVE",
+          "score": "HOU 21 – KSU 3",
+          "detail": "1:19 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Under 51.5 (u51.5)",
@@ -512,7 +649,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Over 48.5 (o48.5)",
         "game": "Indiana @ Nebraska · 11:00 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 1,
         "ytWho": "SportsLine (Mike): Over 48.5",
         "x": 1,
@@ -521,12 +658,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best o48.5 −105 → BE 51.22%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign.",
+        "result": {
+          "score": "IU 20 – NEB 17",
+          "final": "FINAL IU 20 – NEB 17",
+          "checkedAt": "4:05 PM CT",
+          "status": "LOSS",
+          "how": "Combined 37 vs over 48.5"
+        }
       },
       {
         "pick": "Tulane +4 (+4)",
         "game": "Tulane @ Army · 11:00 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 0,
         "ytWho": "",
         "x": 0,
@@ -535,12 +679,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best TULN +4 −110 → BE 52.38%. GameLens spread consensus 2/3 (run at TULN +3.5) 65.0% (+12.62pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": true,
-        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X.",
+        "result": {
+          "score": "TULN 17 – ARMY 20",
+          "final": "FINAL TULN 17 – ARMY 20",
+          "checkedAt": "4:05 PM CT",
+          "status": "WIN",
+          "how": "Tulane margin -3 with +4 → +1"
+        }
       },
       {
         "pick": "Sacramento State +9.5 (+9.5)",
         "game": "Sacramento State @ Bowling Green · 11:00 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 0,
         "ytWho": "",
         "x": 0,
@@ -549,12 +700,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best SAC +9.5 −112 → BE 52.83%. GameLens spread consensus 2/3 (run at SAC +7.5) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": true,
-        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X.",
+        "result": {
+          "score": "SAC 10 – BGSU 38",
+          "final": "FINAL SAC 10 – BGSU 38",
+          "checkedAt": "4:05 PM CT",
+          "status": "LOSS",
+          "how": "Sacramento State margin -28 with +9.5 → -18.5"
+        }
       },
       {
         "pick": "Rice +10 (+10)",
         "game": "Rice @ East Carolina · 12:00 PM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 0,
         "ytWho": "",
         "x": 0,
@@ -563,12 +721,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best RICE +10 −110 → BE 52.38%. GameLens spread consensus 2/3 (run at RICE +9.5) 65.0% (+12.62pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": true,
-        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X.",
+        "result": {
+          "score": "RICE 12 – ECU 28",
+          "final": "FINAL RICE 12 – ECU 28",
+          "checkedAt": "4:05 PM CT",
+          "status": "LOSS",
+          "how": "Rice margin -16 with +10 → -6"
+        }
       },
       {
         "pick": "UMass +6 (+6)",
         "game": "Miami (OH) @ UMass · 1:00 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 0,
         "ytWho": "",
         "x": 0,
@@ -577,12 +742,18 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best UMass +6 -110 → BE 52.38%. GameLens spread consensus (run at MASS +2.5 · 2/3) 65.0% (+12.62pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": true,
-        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "M-OH 20 – MASS 13",
+          "detail": "2:34 - 4th",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "UConn +3.5 (+3.5)",
         "game": "UConn @ Temple",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 0,
         "ytWho": "",
         "x": 0,
@@ -591,12 +762,18 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best UConn +3.5 -108 → BE 51.92%. GameLens spread consensus (run at CONN +3.5 · 2/3) 65.0% (+13.08pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": true,
-        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "CONN 21 – TEM 17",
+          "detail": "1:52 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Tulsa +3 (+3)",
         "game": "Tulsa @ Navy",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 0,
         "ytWho": "",
         "x": 0,
@@ -605,7 +782,13 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best Tulsa +3 -115 → BE 53.49%. GameLens spread consensus (run at TLSA +2.5 · 2/3) 61.1% (+7.61pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": true,
-        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "TLSA 20 – NAVY 14",
+          "detail": "Halftime",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Coastal Carolina +4.5 (+4.5)",
@@ -624,7 +807,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Arkansas +13.5 (+13.5)",
         "game": "Tennessee @ Arkansas · 3:15 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 0,
         "ytWho": "",
         "x": 0,
@@ -633,12 +816,18 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best Arkansas +13.5 -105 → BE 51.22%. GameLens spread consensus (run at ARK +13.5 · 2/3) 65.0% (+13.78pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": true,
-        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "TENN 7 – ARK 0",
+          "detail": "10:03 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Stanford +40.5 (+40.5)",
         "game": "Stanford @ Notre Dame · 2:30 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 0,
         "ytWho": "",
         "x": 0,
@@ -647,7 +836,13 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best Stanford +40.5 -112 → BE 52.83%. GameLens spread consensus (run at STAN +38.5 · 2/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": true,
-        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "STAN 0 – ND 37",
+          "detail": "1:06 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "James Madison −7.5 (−7.5)",
@@ -666,7 +861,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Kent State +14 (+14)",
         "game": "Kent State @ Western Michigan",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 0,
         "ytWho": "",
         "x": 0,
@@ -675,12 +870,18 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best Kent State +14 -112 → BE 52.83%. GameLens spread consensus (run at KENT +13.5 · 2/3) 58.5% (+5.67pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": true,
-        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "KENT 7 – WMU 21",
+          "detail": "Halftime",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Central Michigan +2.5 (+2.5)",
         "game": "Central Michigan @ Ohio",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 0,
         "ytWho": "",
         "x": 0,
@@ -689,7 +890,13 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "booksAlignWhy": "Best Central Michigan +2.5 -112 → BE 52.83%. GameLens spread consensus (run at CMU +2.5 · 2/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": true,
-        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X.",
+        "result": {
+          "status": "LIVE",
+          "score": "CMU 0 – OHIO 31",
+          "detail": "Halftime",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "San Diego State +16.5 (+16.5)",
@@ -710,7 +917,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Both teams to score: Yes (BTTS)",
         "game": "Tottenham @ Manchester United · 11:30 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 2,
         "ytWho": "SportsLine EPL: BTTS (parlayed with Man Utd ML), thefull90: Man Utd–Spurs BTTS",
         "x": 0,
@@ -719,12 +926,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "No price observed for this market, and no cited model, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign.",
+        "result": {
+          "score": "TOT 1 – MAN 1",
+          "final": "FINAL TOT 1 – MAN 1",
+          "checkedAt": "4:05 PM CT",
+          "status": "WIN",
+          "how": "Both teams scored"
+        }
       },
       {
         "pick": "Manchester United ML (−130)",
         "game": "Tottenham @ Manchester United · 11:30 AM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 2,
         "ytWho": "SportsLine EPL: Man Utd ML (parlayed with BTTS), On the Pitch with TJ's Picks: Man Utd ML",
         "x": 0,
@@ -733,7 +947,14 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best MUN −130 → BE 56.52%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign.",
+        "result": {
+          "score": "TOT 1 – MAN 1",
+          "final": "FINAL TOT 1 – MAN 1",
+          "checkedAt": "4:05 PM CT",
+          "status": "LOSS",
+          "how": "Manchester United drew (1-1)"
+        }
       },
       {
         "pick": "Inter Miami ML (−240)",
@@ -752,7 +973,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Monaco ML (−155)",
         "game": "Toulouse @ Monaco · 1:45 PM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 2,
         "ytWho": "On the Pitch with TJ's Picks: Monaco ML, thefull90: Monaco to win (treble leg)",
         "x": 0,
@@ -761,12 +982,19 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best MON −155 → BE 60.78%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign.",
+        "result": {
+          "score": "TOU 2 – MON 2",
+          "final": "FINAL TOU 2 – MON 2",
+          "checkedAt": "4:05 PM CT",
+          "status": "LOSS",
+          "how": "Monaco drew (2-2)"
+        }
       },
       {
         "pick": "Real Madrid ML (−275)",
         "game": "Villarreal @ Real Madrid · 2:00 PM CT",
-        "gameState": "pre",
+        "gameState": "final",
         "yt": 2,
         "ytWho": "On the Pitch with TJ's Picks: Real Madrid ML (parlay piece), thefull90: Real Madrid win & BTTS",
         "x": 0,
@@ -775,7 +1003,14 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best RMA −275 → BE 73.33%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign.",
+        "result": {
+          "score": "VIL 0 – RMA 1",
+          "final": "FINAL VIL 0 – RMA 1",
+          "checkedAt": "4:05 PM CT",
+          "status": "WIN",
+          "how": "Real Madrid won (1-0)"
+        }
       }
     ],
     "MLB": [
@@ -868,7 +1103,7 @@ window.BET_BOARD_DATA = {
       {
         "pick": "Vancouver +1.5 (+1.5)",
         "game": "Vancouver @ New Jersey · 2:30 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 2,
         "ytWho": "Doc's Sports (Vernon): Vancouver puck line, Sports Parlay Picks: Vancouver +1.5",
         "x": 0,
@@ -877,12 +1112,18 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best VAN +1.5 −108 → BE 51.92%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign.",
+        "result": {
+          "status": "LIVE",
+          "score": "VAN 1 – NJ 3",
+          "detail": "1:53 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Under 6.5 (u6.5)",
         "game": "Vancouver @ New Jersey · 2:30 PM CT",
-        "gameState": "pre",
+        "gameState": "live",
         "yt": 1,
         "ytWho": "Doc's Sports (Griffin Murphy): give me the under (SGP leg)",
         "x": 1,
@@ -891,7 +1132,13 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "booksAlignWhy": "Best u6.5 −118 → BE 54.13%. GameLens total (complement of Over 52.9%, no line stated) 47.1% (-7.03pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
         "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign."
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign.",
+        "result": {
+          "status": "LIVE",
+          "score": "VAN 1 – NJ 3",
+          "detail": "1:53 - 2nd",
+          "checkedAt": "4:05 PM CT"
+        }
       },
       {
         "pick": "Carolina −1.5 (−1.5)",
@@ -999,7 +1246,7 @@ window.BET_BOARD_DATA = {
   "sport": "CFB",
   "defaultSport": "CFB",
   "status": "live",
-  "summary": "1 CLEARED / 6 GAUGE · Sat Oct 10, 2026 · 10:41 AM CT · Saturday pass complete (all sports except NFL) · strict 6+ (firm picks) · Research only",
+  "summary": "1 CLEARED / 6 GAUGE · Sat Oct 10, 2026 · 4:05 PM CT · Saturday pass complete (all sports except NFL) · strict 6+ (firm picks) · Research only · Results pass 4:05 PM CT: CLEARED 0-0-0, GAUGE 0-1-0",
   "clearedCount": 1,
   "gaugeCount": 6,
   "sports": [
@@ -1108,7 +1355,24 @@ window.BET_BOARD_DATA = {
       "backup": "/workspace/bet-board/data-backup-before-sat-20261010-1016.json"
     }
   },
-  "liveGames": {},
+  "liveGames": {
+    "CFB|TEX VS OU": "TEX 14 – OU 7 · 10:09 - 2nd",
+    "CFB|HOU @ KSU": "HOU 21 – KSU 3 · 1:19 - 2nd",
+    "CFB|UCLA @ ORE": "UCLA 10 – ORE 6 · 1:40 - 2nd",
+    "CFB|MISS @ VAN": "MISS 28 – VAN 3 · 2:59 - 2nd",
+    "CFB|ILL @ MSU": "ILL 20 – MSU 7 · Halftime",
+    "CFB|MD @ OSU": "MD 3 – OSU 14 · 15:00 - 2nd",
+    "CFB|EMU @ AKR": "EMU 13 – AKR 14 · Halftime",
+    "CFB|DUKE @ GT": "DUKE 10 – GT 14 · Halftime",
+    "CFB|M-OH @ MASS": "M-OH 20 – MASS 13 · 2:34 - 4th",
+    "CFB|CONN @ TEM": "CONN 21 – TEM 17 · 1:52 - 2nd",
+    "CFB|TLSA @ NAVY": "TLSA 20 – NAVY 14 · Halftime",
+    "CFB|TENN @ ARK": "TENN 7 – ARK 0 · 10:03 - 2nd",
+    "CFB|STAN @ ND": "STAN 0 – ND 37 · 1:06 - 2nd",
+    "CFB|KENT @ WMU": "KENT 7 – WMU 21 · Halftime",
+    "CFB|CMU @ OHIO": "CMU 0 – OHIO 31 · Halftime",
+    "NHL|VAN @ NJ": "VAN 1 – NJ 3 · 1:53 - 2nd"
+  },
   "minEdgeProcess": {
     "passed": 4,
     "failed": 3,
@@ -1141,7 +1405,7 @@ window.BET_BOARD_DATA = {
       "game": "Texas vs Oklahoma (Dallas) · 2:30 PM CT",
       "pick": "Texas −7.5",
       "line": "−7.5",
-      "gameState": "pre",
+      "gameState": "live",
       "consensusPct": 70,
       "simWinPct": 65.0,
       "ev": "+12.6pp vs BE",
@@ -1199,7 +1463,13 @@ window.BET_BOARD_DATA = {
         "gameKey": "TEX VS OU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
-      "rank": 1
+      "rank": 1,
+      "result": {
+        "status": "LIVE",
+        "score": "TEX 14 – OU 7",
+        "detail": "10:09 - 2nd",
+        "checkedAt": "4:05 PM CT"
+      }
     },
     {
       "id": "sat-cfb-4",
@@ -1354,7 +1624,7 @@ window.BET_BOARD_DATA = {
       "game": "Houston @ Kansas State · 2:30 PM CT",
       "pick": "Houston +2.5",
       "line": "+2.5",
-      "gameState": "pre",
+      "gameState": "live",
       "consensusPct": 86,
       "simWinPct": 61.7,
       "ev": "+9.3pp vs BE",
@@ -1411,7 +1681,13 @@ window.BET_BOARD_DATA = {
         "gameKey": "HOU @ KSU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
-      "rank": 4
+      "rank": 4,
+      "result": {
+        "status": "LIVE",
+        "score": "HOU 21 – KSU 3",
+        "detail": "1:19 - 2nd",
+        "checkedAt": "4:05 PM CT"
+      }
     },
     {
       "id": "sat-cfb-6",
@@ -1422,7 +1698,7 @@ window.BET_BOARD_DATA = {
       "game": "UCLA @ Oregon · 2:30 PM CT",
       "pick": "UCLA +10.5",
       "line": "+10.5",
-      "gameState": "pre",
+      "gameState": "live",
       "consensusPct": 100,
       "simWinPct": 65.0,
       "ev": "+12.2pp vs BE",
@@ -1478,7 +1754,13 @@ window.BET_BOARD_DATA = {
         "gameKey": "UCLA @ ORE",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
-      "rank": 5
+      "rank": 5,
+      "result": {
+        "status": "LIVE",
+        "score": "UCLA 10 – ORE 6",
+        "detail": "1:40 - 2nd",
+        "checkedAt": "4:05 PM CT"
+      }
     },
     {
       "id": "sat-cfb-1",
@@ -1489,7 +1771,7 @@ window.BET_BOARD_DATA = {
       "game": "Indiana @ Nebraska · 11:00 AM CT",
       "pick": "Indiana −8.5",
       "line": "−8.5",
-      "gameState": "pre",
+      "gameState": "final",
       "consensusPct": 64,
       "simWinPct": null,
       "ev": null,
@@ -1547,7 +1829,14 @@ window.BET_BOARD_DATA = {
         "gameKey": "IU @ NEB",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
-      "rank": 6
+      "rank": 6,
+      "result": {
+        "score": "IU 20 – NEB 17",
+        "final": "FINAL IU 20 – NEB 17",
+        "checkedAt": "4:05 PM CT",
+        "status": "LOSS",
+        "how": "Indiana margin +3 with -8.5 → -5.5"
+      }
     },
     {
       "id": "sat-mlb-7",
@@ -1622,5 +1911,13 @@ window.BET_BOARD_DATA = {
     "workdir": "/workspace/slate-2026-10-10/pm",
     "minSourcesPerCard": 6,
     "liveAtPublish": []
+  },
+  "resultsTally": {
+    "cleared": "0-0-0",
+    "gauge": "0-1-0",
+    "nearMiss": "9-10-0",
+    "checkedAt": "4:05 PM CT",
+    "checkedAtIso": "2026-10-10T16:05:58-05:00",
+    "label": "Results so far (W-L-P, checked 4:05 PM CT): CLEARED 0-0-0 · GAUGE 0-1-0 · Near misses (separate, not on the main board) 9-10-0. Ungraded and pending items aren't counted."
   }
 };

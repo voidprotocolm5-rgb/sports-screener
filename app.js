@@ -294,6 +294,9 @@
     return betsForSport(bets, sportId).length;
   }
 
+  var SUB_SPORTS = { NBA: true, NHL: true };
+  function hasSub(sp) { return !!SUB_SPORTS[String(sp || "").toUpperCase()]; }
+
   function parseHash() {
     var h = (location.hash || "").replace(/^#/, "").trim();
     if (!h) return { sport: null, sub: null };
@@ -308,6 +311,8 @@
     if (u === "NBA") {
       return { sport: "NBA", sub: "lines" };
     }
+    if (u === "NHL-PROPS" || u === "NHLPROPS") return { sport: "NHL", sub: "props" };
+    if (u === "NHL-LINES" || u === "NHL") return { sport: "NHL", sub: "lines" };
     return { sport: normalizeSport(raw), sub: null };
   }
 
@@ -317,9 +322,9 @@
 
   function setHash(sportId, sub) {
     var token = sportId;
-    if (normalizeSport(sportId) === "NBA") {
-      if (sub === "props") token = "NBA-PROPS";
-      else token = "NBA";
+    var nsp = normalizeSport(sportId);
+    if (hasSub(nsp)) {
+      token = sub === "props" ? nsp + "-PROPS" : nsp;
     }
     var next = "#" + encodeURIComponent(token);
     if (location.hash !== next) {
@@ -344,7 +349,7 @@
 
   function filterBySub(bets, sportId, sub) {
     var list = betsForSport(bets, sportId);
-    if (normalizeSport(sportId) !== "NBA" || !sub) return list;
+    if (!hasSub(normalizeSport(sportId)) || !sub) return list;
     if (sub === "props") return list.filter(isPropBet);
     if (sub === "lines") return list.filter(isGameLineBet);
     return list;
@@ -355,24 +360,24 @@
     var ids = sports.map(function (s) { return normalizeSport(s.id); });
     var parsed = parseHash();
     if (parsed.sport && ids.indexOf(parsed.sport) !== -1) {
-      activeSub = parsed.sport === "NBA" ? (parsed.sub || "lines") : null;
+      activeSub = hasSub(parsed.sport) ? (parsed.sub || "lines") : null;
       return parsed.sport;
     }
     if (activeSport && ids.indexOf(normalizeSport(activeSport)) !== -1) {
       var s = normalizeSport(activeSport);
-      if (s === "NBA" && !activeSub) activeSub = "lines";
-      if (s !== "NBA") activeSub = null;
+      if (hasSub(s) && !activeSub) activeSub = "lines";
+      if (!hasSub(s)) activeSub = null;
       return s;
     }
     var def = data && data.defaultSport ? normalizeSport(data.defaultSport) : null;
     if (def && ids.indexOf(def) !== -1) {
-      activeSub = def === "NBA" ? "lines" : null;
+      activeSub = hasSub(def) ? "lines" : null;
       return def;
     }
     var bets = data && data.bets ? data.bets : [];
     for (var i = 0; i < ids.length; i++) {
       if (countBySport(bets, ids[i]) > 0) {
-        activeSub = ids[i] === "NBA" ? "lines" : null;
+        activeSub = hasSub(ids[i]) ? "lines" : null;
         return ids[i];
       }
     }
@@ -408,14 +413,14 @@
   function renderSubNav(data) {
     var sub = $("sub-nav");
     if (!sub) return;
-    var show = activeSport === "NBA";
+    var show = hasSub(activeSport);
     if (!show) {
       sub.hidden = true;
       sub.innerHTML = "";
       return;
     }
     var bets = data.bets || [];
-    var allNba = betsForSport(bets, "NBA");
+    var allNba = betsForSport(bets, activeSport);
     var linesN = allNba.filter(isGameLineBet).length;
     var propsN = allNba.filter(isPropBet).length;
     if (!activeSub) activeSub = "lines";
@@ -435,6 +440,25 @@
         "</button>"
       );
     }).join("");
+  }
+
+  function renderResultBadge(r) {
+    if (!r || !r.status) return "";
+    var st = String(r.status);
+    var cls = st === "WIN" ? "res-win" : st === "LOSS" ? "res-loss" : st === "PUSH" ? "res-push" : st === "LIVE" ? "res-live" : "res-pending";
+    var txt = st === "pending" ? "RESULT PENDING" : st === "ungraded" ? "UNGRADED" : st;
+    return '<span class="res-badge ' + cls + '">' + escapeHtml(txt) + "</span>";
+  }
+  function renderResultLine(r) {
+    if (!r || !r.status) return "";
+    var bits = [];
+    if (r.status === "LIVE") bits.push("LIVE " + (r.score || "") + (r.detail ? " · " + r.detail : ""));
+    else if (r.final) bits.push(r.final);
+    else if (r.score) bits.push(r.score);
+    if (r.how) bits.push(r.how);
+    if (r.note) bits.push(r.note);
+    if (r.checkedAt) bits.push("checked " + r.checkedAt);
+    return '<p class="result-line">' + escapeHtml(bits.join(" · ")) + "</p>";
   }
 
   function renderCard(bet) {
@@ -457,6 +481,7 @@
     if (tier === "cleared") badges += '<span class="tier-tag tier-cleared">CLEARED</span>';
     else if (isGauge || tier === "gauge") badges += '<span class="tier-tag tier-gauge">GAUGE</span>';
     if (bet.rank != null) badges += '<span class="rank-badge">#' + escapeHtml(bet.rank) + "</span>";
+    badges += renderResultBadge(bet.result);
 
     var cardClass = "card";
     if (isEx) cardClass += " is-example";
@@ -478,6 +503,7 @@
           '<div class="badges">' + badges + "</div>" +
         "</div>" +
         '<p class="game">' + escapeHtml(bet.game) + "</p>" +
+        renderResultLine(bet.result) +
         '<div class="stats">' +
           '<div class="stat"><span class="stat-label">Consensus</span><span class="stat-value">' + escapeHtml(bet.consensusPct) + "%</span></div>" +
           '<div class="stat"><span class="stat-label">Sim win</span><span class="stat-value">' + simDisplay + "</span></div>" +
@@ -512,14 +538,16 @@
 
   function renderNearMiss(sportId, data) {
     var nm = (data && data.nearMiss) || {};
+    if (hasSub(normalizeSport(sportId)) && activeSub === "props") sportId = normalizeSport(sportId) + "-PROPS";
     var list = nm[sportId] || nm[normalizeSport(sportId)] || [];
     if (!list.length) return "";
     var rows = list.map(function (n) {
-      var live = String(n.gameState || "") === "live" ? '<span class="nm-live">LIVE</span> ' : "";
+      var live = n.result ? renderResultBadge(n.result) + " " : (String(n.gameState || "") === "live" ? '<span class="nm-live">LIVE</span> ' : "");
       return (
         '<li class="nm-item">' +
           '<div class="nm-pick">' + live + escapeHtml(n.pick || "") + (n.modelOnly ? ' <span class="nm-tag">model-only, 0 sources</span>' : "") + "</div>" +
           '<div class="nm-game">' + escapeHtml(n.game || "") + "</div>" +
+          renderResultLine(n.result) +
           '<div class="nm-line">YT ' + escapeHtml(String(n.yt)) + (n.ytWho ? " (" + escapeHtml(n.ytWho) + ")" : "") +
             " · X " + escapeHtml(String(n.x)) + (n.xWho ? " (" + escapeHtml(n.xWho) + ")" : "") +
             " · total " + escapeHtml(String(n.total)) + "</div>" +
@@ -542,14 +570,16 @@
     var arch = archives[sportId] || archives[normalizeSport(sportId)] || null;
     var labelMap = { MLB: "Baseball", NFL: "Football (NFL)", CFB: "NCAA Football", Soccer: "Soccer", NBA: "Basketball", NHL: "Hockey (NHL)", WNBA: "Basketball (WNBA)", TENNIS: "Tennis" };
     var label = labelMap[sportId] || sportId;
-    var isNba = normalizeSport(sportId) === "NBA";
+    var isNba = hasSub(normalizeSport(sportId));
+    var isRealNba = normalizeSport(sportId) === "NBA";
+    if (isNba && activeSub === "props" && archives[normalizeSport(sportId) + "-PROPS"]) arch = archives[normalizeSport(sportId) + "-PROPS"];
     var subLabel = "";
     if (isNba && activeSub === "props") {
       label = "Player props";
-      subLabel = " (Basketball · Player props)";
+      subLabel = " (" + (isRealNba ? "Basketball" : "Hockey") + " · Player props)";
     } else if (isNba && activeSub === "lines") {
-      label = "NBA game lines";
-      subLabel = " (Basketball · Game lines)";
+      label = (isRealNba ? "NBA" : "NHL") + " game lines";
+      subLabel = " (" + (isRealNba ? "Basketball" : "Hockey") + " · Game lines)";
     }
 
     var archiveHtml = "";
@@ -570,7 +600,7 @@
     var body =
       "No countable YouTube or send-it sources for " + escapeHtml(label) +
       " on this slate — hollow YT0/X0 cards are not shown. Check back after the next pre-slate run.";
-    if (isNba) {
+    if (isRealNba) {
       body =
         "Exhaustive YouTube + X send-it pass found no countable spoken picks or pregame slips for tonight's NBA preseason" +
         (activeSub === "props" ? " player props" : " game lines") +
@@ -599,8 +629,8 @@
   function render(data) {
     lastPayload = data;
     activeSport = resolveActiveSport(data);
-    if (activeSport === "NBA" && !activeSub) activeSub = "lines";
-    if (activeSport !== "NBA") activeSub = null;
+    if (hasSub(activeSport) && !activeSub) activeSub = "lines";
+    if (!hasSub(activeSport)) activeSub = null;
     setHash(activeSport, activeSub);
     renderSportNav(data);
     renderSubNav(data);
@@ -610,7 +640,7 @@
     pill.textContent = statusLabel(status);
     pill.className = "status-pill " + statusClass(status);
 
-    var sportBets = filterBySub(data.bets || [], activeSport, activeSport === "NBA" ? activeSub : null);
+    var sportBets = filterBySub(data.bets || [], activeSport, hasSub(activeSport) ? activeSub : null);
     var hasBets = sportBets.length > 0;
 
     // Header meta: prefer sport-scoped slate when filtering empty, keep global summary
@@ -623,6 +653,19 @@
     }
     $("slate-name").textContent = slateText;
     $("summary").textContent = hasBets ? (data.summary || "") : "";
+    var sumEl = $("summary");
+    var tallyEl = document.getElementById("results-tally");
+    if (!tallyEl && sumEl && sumEl.parentNode) {
+      tallyEl = document.createElement("p");
+      tallyEl.id = "results-tally";
+      tallyEl.className = "results-tally";
+      sumEl.parentNode.insertBefore(tallyEl, sumEl.nextSibling);
+    }
+    if (tallyEl) {
+      var rt = data.resultsTally;
+      tallyEl.hidden = !rt;
+      tallyEl.textContent = rt ? (rt.label || ("CLEARED " + rt.cleared + " · GAUGE " + rt.gauge + " · Near misses " + rt.nearMiss)) : "";
+    }
     renderProcessBar(data);
 
     var label = data.updatedAtLabel;
@@ -686,9 +729,9 @@
         }));
         // Basketball sub-filter: hide irrelevant market sections
         var hideSection = false;
-        if (activeSport === "NBA" && activeSub === "props") {
+        if (hasSub(activeSport) && activeSub === "props") {
           hideSection = market.key !== "prop";
-        } else if (activeSport === "NBA" && activeSub === "lines") {
+        } else if (hasSub(activeSport) && activeSub === "lines") {
           hideSection = market.key === "prop";
         }
         if (section) section.hidden = hideSection;
@@ -720,7 +763,7 @@
     var sport = btn.getAttribute("data-sport");
     if (!sport) return;
     activeSport = normalizeSport(sport);
-    activeSub = activeSport === "NBA" ? "lines" : null;
+    activeSub = hasSub(activeSport) ? "lines" : null;
     setHash(activeSport, activeSub);
     render(lastPayload);
   }
@@ -730,7 +773,7 @@
     if (!btn || !lastPayload) return;
     var sub = btn.getAttribute("data-sub");
     if (!sub) return;
-    activeSport = "NBA";
+    if (!hasSub(activeSport)) activeSport = "NBA";
     activeSub = sub === "props" ? "props" : "lines";
     setHash(activeSport, activeSub);
     render(lastPayload);
@@ -783,7 +826,7 @@
       var parsed = parseHash();
       if (parsed.sport) {
         activeSport = parsed.sport;
-        activeSub = parsed.sport === "NBA" ? (parsed.sub || "lines") : null;
+        activeSub = hasSub(parsed.sport) ? (parsed.sub || "lines") : null;
         render(lastPayload);
       }
     });
