@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-10T10:32:06-05:00",
-  "updatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT",
+  "updatedAt": "2026-10-10T10:35:38-05:00",
+  "updatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
   "nearMiss": {
     "CFB": [
       {
@@ -62,6 +62,20 @@ window.BET_BOARD_DATA = {
         "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X."
       },
       {
+        "pick": "North Dakota State −2.5 (−2.5)",
+        "game": "North Dakota State @ UNLV · 6:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "SportsLine (Emory): NDSU −3.5, CBS Sports expert: lay the 3.5",
+        "x": 1,
+        "xWho": "@PropBomb (Cleveland Cam): NDSU −3 −115",
+        "total": 3,
+        "booksAlign": true,
+        "booksAlignWhy": "Best NDSU −2.5 −112 → BE 52.83%. GameLens spread consensus (run at NDSU −3.5 · 3/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 1 more YT, 1 more X."
+      },
+      {
         "pick": "NC State +3.5 (+3.5)",
         "game": "Wake Forest @ NC State · 11:00 AM CT",
         "gameState": "pre",
@@ -74,20 +88,6 @@ window.BET_BOARD_DATA = {
         "booksAlignWhy": "Best NCSU +3.5 −112 → BE 52.83%. GameLens spread consensus 2/3 (run at NCSU +3.5) 59.2% (+6.37pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
         "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X."
-      },
-      {
-        "pick": "North Dakota State −2.5 (−2.5)",
-        "game": "North Dakota State @ UNLV · 6:00 PM CT",
-        "gameState": "pre",
-        "yt": 2,
-        "ytWho": "SportsLine (Emory): NDSU −3.5, CBS Sports expert: lay the 3.5",
-        "x": 0,
-        "xWho": "",
-        "total": 2,
-        "booksAlign": true,
-        "booksAlignWhy": "Best NDSU −2.5 −112 → BE 52.83%. GameLens spread consensus (run at NDSU −3.5 · 3/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
-        "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X."
       },
       {
         "pick": "Utah −15.5 (−15.5)",
@@ -496,6 +496,236 @@ window.BET_BOARD_DATA = {
         "booksAlignWhy": "No price observed for this market, and no cited model, so booksAlign is false.",
         "modelOnly": false,
         "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Manchester United ML (−130)",
+        "game": "Tottenham @ Manchester United · 11:30 AM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "SportsLine EPL: Man Utd ML (parlayed with BTTS), On the Pitch with TJ's Picks: Man Utd ML",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best MUN −130 → BE 56.52%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Inter Miami ML (−240)",
+        "game": "D.C. United @ Inter Miami · 6:30 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Shred The Spread: Miami to win (parlay leg), thefull90: Miami to win & BTTS",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best MIA −240 → BE 70.59%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Monaco ML (−155)",
+        "game": "Toulouse @ Monaco · 1:45 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "On the Pitch with TJ's Picks: Monaco ML, thefull90: Monaco to win (treble leg)",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best MON −155 → BE 60.78%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Real Madrid ML (−275)",
+        "game": "Villarreal @ Real Madrid · 2:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "On the Pitch with TJ's Picks: Real Madrid ML (parlay piece), thefull90: Real Madrid win & BTTS",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best RMA −275 → BE 73.33%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      }
+    ],
+    "MLB": [
+      {
+        "pick": "White Sox ML (+118)",
+        "game": "ALDS Game 5 · White Sox @ Guardians · 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 3,
+        "ytWho": "Silverback Bets: White Sox ML, Kyle Kirms: White Sox ML, WagerTalk: plus money on the ML (+ CHW F5)",
+        "x": 0,
+        "xWho": "",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "Best CHW +118 → BE 45.87%. GameLens ML (complement of CLE 64.6%) 35.4% (-10.47pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign."
+      },
+      {
+        "pick": "Over 7 (o7)",
+        "game": "ALDS Game 5 · White Sox @ Guardians · 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 3,
+        "ytWho": "The Bettor Mark: Over 7 −112 best bet, Doc's Sports (Scott Rickenbach): Over 7 free pick, Beast Sports Picks: Over (alt 5.5)",
+        "x": 0,
+        "xWho": "",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "Best o7 −122 → BE 54.95%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign."
+      },
+      {
+        "pick": "Under 7 (u7)",
+        "game": "ALDS Game 5 · White Sox @ Guardians · 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Guy Boston Sports: give me the under, Doc's Sports (Craig Trapp): Under 7",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best u7 +101 → BE 49.75%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      }
+    ],
+    "NHL": [
+      {
+        "pick": "Utah ML (−108)",
+        "game": "Utah @ Buffalo · 6:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Doc's Sports (Vernon): Utah Mammoth −110, Sports Parlay Picks: Utah on the road",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best UTA −108 → BE 51.92%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Anaheim ML (−122)",
+        "game": "Anaheim @ Calgary · 9:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Doc's Sports (Vernon): Ducks −120, Sports Parlay Picks: Ducks on the road",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best ANA −122 → BE 54.95%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Vegas ML (−162)",
+        "game": "Los Angeles @ Vegas · 9:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Doc's Sports (Vernon): Vegas ML, Doc's Sports (Craig Trapp): Vegas at home",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best VGK −162 → BE 61.83%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Vancouver +1.5 (+1.5)",
+        "game": "Vancouver @ New Jersey · 2:30 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Doc's Sports (Vernon): Vancouver puck line, Sports Parlay Picks: Vancouver +1.5",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best VAN +1.5 −108 → BE 51.92%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      }
+    ],
+    "TENNIS": [
+      {
+        "pick": "Alex de Minaur ML (-250)",
+        "game": "Shanghai R3 · De Minaur vs Sakamoto · Sun 12:30 AM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Alex de Minaur -250 (Fonbet) → BE 71.43%. Tennis Abstract Elo forecast (R3 win = reach R16) 85.1% (+13.67pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Francisco Cerundolo ML (+140)",
+        "game": "Shanghai R3 · F. Cerundolo vs Mensik · Sun 2:00 AM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Francisco Cerundolo +140 (Fonbet) → BE 41.67%. Tennis Abstract Elo forecast (R3 win = reach R16) 45.0% (+3.33pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Hubert Hurkacz ML (-699)",
+        "game": "Shanghai R3 · Hurkacz vs Zhou Yi · Sun 12:30 AM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Hubert Hurkacz -699 (888Sport) → BE 87.48%. Tennis Abstract Elo forecast (R3 win = reach R16) 90.6% (+3.12pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Frances Tiafoe ML (-109)",
+        "game": "Shanghai R3 · Tiafoe vs Davidovich Fokina · Sun 6:30 AM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Frances Tiafoe -109 (1xBet) → BE 52.15%. Tennis Abstract Elo forecast (R3 win = reach R16) 55.8% (+3.65pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Rafael Jodar ML (+110)",
+        "game": "Shanghai R3 · Lehecka vs Jodar",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Rafael Jodar +110 (Bet365) → BE 47.62%. Tennis Abstract Elo forecast (R3 win = reach R16) 52.4% (+4.78pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
       }
     ]
   },
@@ -503,9 +733,9 @@ window.BET_BOARD_DATA = {
   "sport": "CFB",
   "defaultSport": "CFB",
   "status": "live",
-  "summary": "1 CLEARED / 2 GAUGE · Sat Oct 10, 2026 · 10:32 AM CT · Saturday pass (CFB full slate + soccer; other sports in progress) · strict 6+ (firm picks) · Research only",
+  "summary": "1 CLEARED / 3 GAUGE · Sat Oct 10, 2026 · 10:35 AM CT · Saturday pass (CFB full slate + soccer; other sports in progress) · strict 6+ (firm picks) · Research only",
   "clearedCount": 1,
-  "gaugeCount": 2,
+  "gaugeCount": 3,
   "sports": [
     {
       "id": "CFB",
@@ -559,48 +789,48 @@ window.BET_BOARD_DATA = {
   "archives": {
     "CFB": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
       "note": "Full slate researched from YouTube, X (list), GameLens, ESPN FPI, and DK prices via ESPN. GameLens spread % is only applied at the same or a better number than today's DK line. GameLens totals don't state a line and FPI is moneyline-only, so neither is applied to spreads or totals."
     },
     "MLB": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT",
-      "note": "Pass in progress."
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "note": "ALDS Game 5 CHW@CLE (7:00 PM CT) is the only MLB game today. Sources: YouTube (firm picks), the X list, and the GameLens MLB model."
     },
     "Soccer": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT",
-      "note": "Interim: afternoon cards researched from YouTube and X. Morning European games had started, so their slips were excluded."
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "note": "Afternoon/evening cards (EPL, LaLiga, Ligue 1, internationals, MLS) researched from YouTube and the X list. Morning European games had started, so their slips were excluded. No cited soccer win-probability model was observed, so soccer booksAlign is false."
     },
     "NHL": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT",
-      "note": "Pass in progress."
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "note": "15-game slate. YouTube firm picks (Doc's Vernon/Craig Trapp/Jason Sharpe, Sports Parlay Picks, Covers) and X props (single sources each). No NHL pick reached 6. Score-prediction channels were excluded."
     },
     "NBA": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT",
-      "note": "Pass in progress."
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "note": "7 preseason games (LAC@TOR 5:30 PM CT through SA@PHX 9:30 PM CT). No firm picks from betting cappers on YouTube (results were 2K sims, team pods, or AI pick channels) and no NBA slips on the X list today, so nothing qualifies."
     },
     "WNBA": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT",
-      "note": "Pass in progress."
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "note": "No WNBA games today (ESPN shows 0). The Finals (ATL vs GSV) start later, with Game 1 listed Oct 17 by Dimers. Nothing to screen."
     },
     "TENNIS": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT",
-      "note": "Pass in progress."
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "note": "Shanghai R3 (played Sunday local, Saturday night CT) priced via OddsSafari and modeled with the Tennis Abstract Elo forecast. No tennis slips on the X list today. YouTube had one firm tennis capper (semotipster). No main cards. Wuhan qualifying and Roveret had no model coverage."
     },
     "NFL": {
       "lastSlate": "Sat Oct 10 2026 CT · NFL",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
       "note": "Not covered on Saturday per Atlas. No NFL research this pass."
     },
     "NBA-PROPS": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT",
-      "note": "Pass in progress."
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "note": "No firm NBA preseason prop picks from a human capper on YouTube or the X list today."
     },
     "Rule": {
       "note": "Strict minimum: every published card needs firm YouTube same-side picks + unique X send-it posters ≥ 6. Leans, score predictions, AI pick channels and duplicate speakers do not count. CLEARED: ≥3 YT, ≥2 X and booksAlign (MinEdge ≥2.5pp vs best-price break-even with a cited model; any conflicting cited model = model war = false). Research only."
@@ -614,11 +844,11 @@ window.BET_BOARD_DATA = {
   },
   "liveGames": {},
   "minEdgeProcess": {
-    "passed": 2,
+    "passed": 3,
     "failed": 1,
     "contested": 0,
     "note": "booksAlign true only via MinEdge ≥2.5pp vs BE of best observed price with a cited model (GameLens, ESPN FPI, ats.io, EdgeGoat, Tennis Abstract Elo, etc.). Model war ⇒ false. Live ⇒ info only. Never invent modelWinPct.",
-    "updatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT"
+    "updatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT"
   },
   "researchOnly": true,
   "noBetsPlaced": true,
@@ -628,12 +858,12 @@ window.BET_BOARD_DATA = {
     "beat": 0,
     "match": 0,
     "lose": 0,
-    "pending": 3,
+    "pending": 4,
     "unobserved": 0,
     "beatRate": "n/a",
     "bar": "Logic CLV ≳ half-hold",
     "note": "Sat Oct 10 slate; CLV pending until close.",
-    "updatedAtLabel": "Sat Oct 10, 2026 · 10:32 AM CT"
+    "updatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT"
   },
   "bets": [
     {
@@ -690,7 +920,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "DraftKings via ESPN",
           "breakEvenPct": 52.38,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-10T10:32:06-05:00",
+          "checkedAt": "2026-10-10T10:35:38-05:00",
           "modelWinPct": 65.0,
           "modelSource": "GameLens spread consensus (run at TEX −7.5 · 3/3)",
           "edgeVsBePct": 12.62,
@@ -698,7 +928,7 @@ window.BET_BOARD_DATA = {
           "missReason": null
         },
         "notes": "FPI is ML-only (TEX 84.9%) and is not applied to the spread. 65.0% looks like GameLens' display cap.",
-        "checkedAt": "2026-10-10T10:32:06-05:00",
+        "checkedAt": "2026-10-10T10:35:38-05:00",
         "gameKey": "TEX VS OU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -758,7 +988,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "DraftKings via ESPN",
           "breakEvenPct": 52.38,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-10T10:32:06-05:00",
+          "checkedAt": "2026-10-10T10:35:38-05:00",
           "modelWinPct": 61.7,
           "modelSource": "GameLens spread consensus (run at HOU +2.5 · 2/3)",
           "edgeVsBePct": 9.32,
@@ -766,7 +996,7 @@ window.BET_BOARD_DATA = {
           "missReason": null
         },
         "notes": "",
-        "checkedAt": "2026-10-10T10:32:06-05:00",
+        "checkedAt": "2026-10-10T10:35:38-05:00",
         "gameKey": "HOU @ KSU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -827,7 +1057,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "DraftKings via ESPN",
           "breakEvenPct": 52.38,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-10T10:32:06-05:00",
+          "checkedAt": "2026-10-10T10:35:38-05:00",
           "modelWinPct": 45.4,
           "modelSource": "GameLens spread (complement of NEB 54.6%)",
           "edgeVsBePct": -6.98,
@@ -835,11 +1065,78 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model clears +2.5pp: GameLens spread (complement of NEB 54.6%) 45.4% (-6.98pp)."
         },
         "notes": "Kirms and Greedo stated the side without restating the number. FPI is ML-only (IU 69.9%) and is not applied to the spread.",
-        "checkedAt": "2026-10-10T10:32:06-05:00",
+        "checkedAt": "2026-10-10T10:35:38-05:00",
         "gameKey": "IU @ NEB",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
       "rank": 3
+    },
+    {
+      "id": "sat-mlb-4",
+      "example": false,
+      "sport": "MLB",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "ALDS Game 5 · White Sox @ Guardians · 7:00 PM CT",
+      "pick": "Guardians ML",
+      "line": "−142",
+      "gameState": "pre",
+      "consensusPct": 67,
+      "simWinPct": 64.6,
+      "ev": "+5.9pp vs BE",
+      "confidence": 67,
+      "why": "YouTube 6 same side (Sean Higgs: lay it with the Guardians, Greedo Plays: Guardians ML (+ F5 ML), PickDawgz (MLB playoff picks): Guardians ML, PickDawgz (Ron's Rundown): back the Guardians ML, MLB Gambling Podcast (SGPN): give me Cleveland, Guy Boston Sports: like the Guardians (recap: Guardians, the under)); contested by White Sox ML (Silverback Bets, Kyle Kirms, WagerTalk) 3 YT. Send-it 0 unique poster(s): none. Books: Best CLE −142 → BE 58.68%. GameLens ML 3/3 64.6% (+5.92pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true. GAUGE: One-source YT6/X0: 2 send-it short.",
+      "sources": {
+        "youtube": 6,
+        "xSendIt": 0,
+        "booksAlign": true
+      },
+      "ledger": {
+        "thesis": "6 firm YT sources plus a GameLens 3/3 MinEdge pass (64.6% vs 58.68% BE). No firm X slip, so it's a GAUGE play.",
+        "yt": {
+          "sameSide": 6,
+          "strictPicks": 6,
+          "channels": [
+            "Sean Higgs: lay it with the Guardians",
+            "Greedo Plays: Guardians ML (+ F5 ML)",
+            "PickDawgz (MLB playoff picks): Guardians ML",
+            "PickDawgz (Ron's Rundown): back the Guardians ML",
+            "MLB Gambling Podcast (SGPN): give me Cleveland",
+            "Guy Boston Sports: like the Guardians (recap: Guardians, the under)"
+          ],
+          "contestedOpposite": 3,
+          "contestedSide": "White Sox ML (Silverback Bets, Kyle Kirms, WagerTalk)",
+          "contested": true
+        },
+        "sendIt": {
+          "uniquePosters": 0,
+          "whoOdds": [],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "One-source YT6/X0: 2 send-it short."
+        },
+        "booksAlign": true,
+        "booksAlignWhy": "Best CLE −142 → BE 58.68%. GameLens ML 3/3 64.6% (+5.92pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "floorGap": "One-source YT6/X0: 2 send-it short.",
+        "minEdge": {
+          "bestLine": "CLE −142",
+          "bestAmerican": -142,
+          "bestSource": "DraftKings via ESPN",
+          "breakEvenPct": 58.68,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T10:35:38-05:00",
+          "modelWinPct": 64.6,
+          "modelSource": "GameLens ML 3/3",
+          "edgeVsBePct": 5.92,
+          "path": "pass",
+          "missReason": null
+        },
+        "notes": "",
+        "checkedAt": "2026-10-10T10:35:38-05:00",
+        "gameKey": "CHW @ CLE",
+        "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
+      },
+      "rank": 1
     }
   ],
   "deepDive": {
