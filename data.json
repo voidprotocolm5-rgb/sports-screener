@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-10T16:16:57-05:00",
-  "updatedAtLabel": "Sat Oct 10, 2026 · 4:16 PM CT",
+  "updatedAt": "2026-10-10T16:38:43-05:00",
+  "updatedAtLabel": "Sat Oct 10, 2026 · 4:38 PM CT",
   "nearMiss": {
     "CFB": [
       {
@@ -1629,15 +1629,301 @@
         "thesis": "Goalies (DailyFaceoff): Stolarz (unconfirmed) vs Blackwood (confirmed). Last 15 TOR–COL meetings went over 6.5 (per The Ice Guys); Tavares out, personal (per SGPN).",
         "rank": 11
       }
+    ],
+    "UFC": [
+      {
+        "pick": "Christian Leroy Duncan ML (+100)",
+        "game": "Allen vs Duncan · main event · ~8:45 PM CT",
+        "gameState": "pre",
+        "yt": 6,
+        "ytWho": "RearNakedLocks: CLD KO, TARGETMMA: CLD KO, Alex Talks Fights: ML +101 underdog lock, Topside: CLD R1 (DK special), Mike Finch: CLD KO, TheUFCExpert: CLD R3 KO",
+        "x": 0,
+        "xWho": "",
+        "total": 6,
+        "booksAlign": false,
+        "booksAlignWhy": "Best Duncan +100 → BE 50.00%. mmamodel.ai win% 42.0% (-8.00pp); Picks Terminal v4.2 (AI profile model) 42.0% (-8.00pp); Cage Metrics v2.4 47.8% (-2.20pp). Nothing clears MinEdge, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 0 source(s). Gap to CLEARED: 2 more X, booksAlign.",
+        "rationale": "Not backed: Opposite side of the carded Allen GAUGE (8 YT); split market, so not carded. No cited model gets Duncan to the 50% break-even.",
+        "thesis": "Opposite side of the carded Allen GAUGE (8 YT); split market, so not carded. No cited model gets Duncan to the 50% break-even.",
+        "rank": 1
+      },
+      {
+        "pick": "Kai Kamaka III ML (+128)",
+        "game": "Fili vs Kamaka · ~7:25 PM CT",
+        "gameState": "pre",
+        "yt": 3,
+        "ytWho": "TARGETMMA: Kamaka 1u +128, ThatBettingDude: Kamaka by decision, By The Numbers: Kamaka",
+        "x": 1,
+        "xWho": "@trizzy_bets: Kamaka ML +130 (2u)",
+        "total": 4,
+        "booksAlign": false,
+        "booksAlignWhy": "Best Kamaka +128 → BE 43.86%. mmamodel.ai win% 46.0% (+2.14pp); Cage Metrics v2.4 57.0% (+13.14pp). Model war, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more X, booksAlign.",
+        "rationale": "Not backed: 4 sources; Cage Metrics clears comfortably but mmamodel.ai is only +2.14pp, under MinEdge, so booksAlign is false.",
+        "thesis": "4 sources; Cage Metrics clears comfortably but mmamodel.ai is only +2.14pp, under MinEdge, so booksAlign is false.",
+        "rank": 2
+      },
+      {
+        "pick": "Gerald Meerschaert ML (+252)",
+        "game": "Walker vs Meerschaert · ~6:30 PM CT",
+        "gameState": "pre",
+        "yt": 3,
+        "ytWho": "MMAnomaly: ML ½u + sub props, ThatBettingDude: Meerschaert by sub, Guy Boston Sports: Meerschaert via sub",
+        "x": 0,
+        "xWho": "",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "Best Meerschaert +252 → BE 28.41%. mmamodel.ai win% 45.0% (+16.59pp); Cage Metrics v2.4 21.0% (-7.41pp). Model war, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign.",
+        "rationale": "Not backed: 3 YT (all via submission); mmamodel.ai clears but Cage Metrics gives Walker 79% — a model war.",
+        "thesis": "3 YT (all via submission); mmamodel.ai clears but Cage Metrics gives Walker 79% — a model war.",
+        "rank": 3
+      },
+      {
+        "pick": "Jai Herbert ML (+165)",
+        "game": "Herbert vs Camilo · co-main · ~8:15 PM CT",
+        "gameState": "pre",
+        "yt": 3,
+        "ytWho": "RearNakedLocks (host 2): Herbert TKO, Gamblin' Ram: Herbert, TheUFCExpert: Herbert decision",
+        "x": 0,
+        "xWho": "",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "Best Herbert +165 → BE 37.74%. mmamodel.ai win% 46.0% (+8.26pp); Cage Metrics v2.4 28.0% (-9.74pp). Model war, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign.",
+        "rationale": "Not backed: 3 YT; mmamodel.ai clears but Cage Metrics has Camilo 72% — a model war.",
+        "thesis": "3 YT; mmamodel.ai clears but Cage Metrics has Camilo 72% — a model war.",
+        "rank": 4
+      },
+      {
+        "pick": "Otari Tanzilovi ML (+180)",
+        "game": "Wellmaker vs Tanzilovi · ~7:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Topside: Tanzilovi by decision (0.1u), Mike Finch: on the underdog",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Tanzilovi +180 → BE 35.71%. mmamodel.ai win% 50.0% (+14.29pp); Cage Metrics v2.4 58.0% (+22.29pp). Clears MinEdge on every cited model, so booksAlign is true.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X.",
+        "rationale": "Not backed: Both cited models clear the +180 break-even, but only 2 YT and 0 X back it; the crowd is on Wellmaker.",
+        "thesis": "Both cited models clear the +180 break-even, but only 2 YT and 0 X back it; the crowd is on Wellmaker.",
+        "rank": 5
+      },
+      {
+        "pick": "Ketlen Souza ML (+200)",
+        "game": "Souza vs Godinez · ~7:40 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "ThatBettingDude: Souza by decision, By The Numbers: Souza by decision",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Souza +200 → BE 33.33%. mmamodel.ai win% 44.0% (+10.67pp); Cage Metrics v2.4 40.0% (+6.67pp). Clears MinEdge on every cited model, so booksAlign is true.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X.",
+        "rationale": "Not backed: Both cited models clear the +200 break-even; source depth is only 2 YT.",
+        "thesis": "Both cited models clear the +200 break-even; source depth is only 2 YT.",
+        "rank": 6
+      }
+    ],
+    "UFC-PROPS": [
+      {
+        "pick": "Wellmaker by KO/TKO",
+        "game": "Wellmaker vs Tanzilovi · ~7:00 PM CT",
+        "gameState": "pre",
+        "marketType": "prop",
+        "yt": 5,
+        "ytWho": "RearNakedLocks: Wellmaker KO, TARGETMMA: R1 KO +340 (1u), ThatBettingDude: KO (bet), MMA Girl: R2 KO, TheUFCExpert: R2 finish",
+        "x": 0,
+        "xWho": "",
+        "total": 5,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model publishes a probability for this method/rounds prop, so booksAlign is false (no number invented).",
+        "modelOnly": false,
+        "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 2 more X, booksAlign.",
+        "rationale": "Not backed: Deepest method prop (5 YT), but no cited model prices method props, so booksAlign can't be shown; under 6.",
+        "thesis": "Deepest method prop (5 YT), but no cited model prices method props, so booksAlign can't be shown; under 6.",
+        "rank": 1
+      },
+      {
+        "pick": "Camilo by KO/TKO or inside the distance",
+        "game": "Herbert vs Camilo · ~8:15 PM CT",
+        "gameState": "pre",
+        "marketType": "prop",
+        "yt": 4,
+        "ytWho": "Alex Talks Fights: Camilo finish +115, ThatBettingDude: Camilo KO, By The Numbers: R1 KO, MMA EXPERTS: inside the distance",
+        "x": 0,
+        "xWho": "",
+        "total": 4,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model publishes a probability for this method/rounds prop, so booksAlign is false (no number invented).",
+        "modelOnly": false,
+        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 2 more X, booksAlign.",
+        "rationale": "Not backed: 4 YT on a Camilo finish; no cited method model, under 6.",
+        "thesis": "4 YT on a Camilo finish; no cited method model, under 6.",
+        "rank": 2
+      },
+      {
+        "pick": "Allen by submission",
+        "game": "Allen vs Duncan · ~8:45 PM CT",
+        "gameState": "pre",
+        "marketType": "prop",
+        "yt": 3,
+        "ytWho": "By The Numbers: R2 sub, MMA Girl: R3 sub, Guy Boston Sports: via submission",
+        "x": 0,
+        "xWho": "",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model publishes a probability for this method/rounds prop, so booksAlign is false (no number invented).",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign.",
+        "rationale": "Not backed: 3 YT; Allen's back-take vs CLD's scrambles is the path, but no cited method model.",
+        "thesis": "3 YT; Allen's back-take vs CLD's scrambles is the path, but no cited method model.",
+        "rank": 3
+      },
+      {
+        "pick": "Meerschaert by submission",
+        "game": "Walker vs Meerschaert · ~6:30 PM CT",
+        "gameState": "pre",
+        "marketType": "prop",
+        "yt": 3,
+        "ytWho": "MMAnomaly: sub props, ThatBettingDude: Meerschaert by sub, Guy Boston Sports: via submission",
+        "x": 0,
+        "xWho": "",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model publishes a probability for this method/rounds prop, so booksAlign is false (no number invented).",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign.",
+        "rationale": "Not backed: 3 YT on the sub path; opposes the carded Walker side; no cited method model.",
+        "thesis": "3 YT on the sub path; opposes the carded Walker side; no cited method model.",
+        "rank": 4
+      },
+      {
+        "pick": "Fight doesn't go the distance / Under 1.5 rds — Herbert vs Camilo",
+        "game": "Herbert vs Camilo · ~8:15 PM CT",
+        "gameState": "pre",
+        "marketType": "prop",
+        "yt": 1,
+        "ytWho": "Rparqs: fight doesn't go the distance (parlay leg)",
+        "x": 1,
+        "xWho": "@trizzy_bets: Under 1.5 rds +140 (2u)",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model publishes a probability for this method/rounds prop, so booksAlign is false (no number invented).",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign.",
+        "rationale": "Not backed: 2 sources on an early finish; different but same-direction markets; no cited rounds model.",
+        "thesis": "2 sources on an early finish; different but same-direction markets; no cited rounds model.",
+        "rank": 5
+      },
+      {
+        "pick": "Wellmaker by decision (+310)",
+        "game": "Wellmaker vs Tanzilovi · ~7:00 PM CT",
+        "gameState": "pre",
+        "marketType": "prop",
+        "yt": 1,
+        "ytWho": "RearNakedLocks (alt): decision",
+        "x": 1,
+        "xWho": "@trizzy_bets: Wellmaker by decision +310 (1u)",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model publishes a probability for this method/rounds prop, so booksAlign is false (no number invented).",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign.",
+        "rationale": "Not backed: 2 sources; it goes against the KO-heavy YT consensus.",
+        "thesis": "2 sources; it goes against the KO-heavy YT consensus.",
+        "rank": 6
+      },
+      {
+        "pick": "Allen / Duncan Under 3.5 rds (−105)",
+        "game": "Allen vs Duncan · ~8:45 PM CT",
+        "gameState": "pre",
+        "marketType": "prop",
+        "yt": 0,
+        "ytWho": "",
+        "x": 1,
+        "xWho": "@trizzy_bets: CLD/Allen Under 3.5 rds −105 (2u)",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model publishes a probability for this method/rounds prop, so booksAlign is false (no number invented).",
+        "modelOnly": false,
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 3 more YT, 1 more X, booksAlign.",
+        "rationale": "Not backed: 1 X slip; YT split between Allen subs (R2/R3) and CLD KOs is consistent but nobody else bet the total.",
+        "thesis": "1 X slip; YT split between Allen subs (R2/R3) and CLD KOs is consistent but nobody else bet the total.",
+        "rank": 7
+      },
+      {
+        "pick": "Fili / Kamaka Under 2.5 rds (+154)",
+        "game": "Fili vs Kamaka · ~7:25 PM CT",
+        "gameState": "pre",
+        "marketType": "prop",
+        "yt": 0,
+        "ytWho": "",
+        "x": 1,
+        "xWho": "@trizzy_bets: Under 2.5 rds +154 (1u)",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model publishes a probability for this method/rounds prop, so booksAlign is false (no number invented).",
+        "modelOnly": false,
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 3 more YT, 1 more X, booksAlign.",
+        "rationale": "Not backed: 1 X slip; YT (TheUFCExpert, Guy Boston, MMA EXPERTS) expect a decision, so it contradicts the crowd.",
+        "thesis": "1 X slip; YT (TheUFCExpert, Guy Boston, MMA EXPERTS) expect a decision, so it contradicts the crowd.",
+        "rank": 8
+      },
+      {
+        "pick": "Brendan Allen takedowns over",
+        "game": "Allen vs Duncan · ~8:45 PM CT",
+        "gameState": "pre",
+        "marketType": "prop",
+        "yt": 1,
+        "ytWho": "Run Pure: Allen takedowns over",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model publishes a probability for this method/rounds prop, so booksAlign is false (no number invented).",
+        "modelOnly": false,
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X, booksAlign.",
+        "rationale": "Not backed: 1 YT prop; no line or model captured.",
+        "thesis": "1 YT prop; no line or model captured.",
+        "rank": 9
+      },
+      {
+        "pick": "Otari Tanzilovi takedowns over",
+        "game": "Wellmaker vs Tanzilovi · ~7:00 PM CT",
+        "gameState": "pre",
+        "marketType": "prop",
+        "yt": 1,
+        "ytWho": "Run Pure: Tanzilovi takedowns over",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model publishes a probability for this method/rounds prop, so booksAlign is false (no number invented).",
+        "modelOnly": false,
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X, booksAlign.",
+        "rationale": "Not backed: 1 YT prop; no line or model captured.",
+        "thesis": "1 YT prop; no line or model captured.",
+        "rank": 10
+      }
     ]
   },
   "slate": "Sat Oct 10 2026 CT · Sports screener",
   "sport": "CFB",
   "defaultSport": "CFB",
   "status": "live",
-  "summary": "1 CLEARED / 6 GAUGE · Sat Oct 10, 2026 · 4:05 PM CT · Saturday pass complete (all sports except NFL) · strict 6+ (firm picks) · Research only · Results pass 4:05 PM CT: CLEARED 0-0-0, GAUGE 0-1-0",
+  "summary": "1 CLEARED / 14 GAUGE · Sat Oct 10, 2026 · 4:05 PM CT · Saturday pass complete (all sports except NFL) · strict 6+ (firm picks) · Research only · Results pass 4:05 PM CT: CLEARED 0-0-0, GAUGE 0-1-0 · UFC pass 4:38 PM CT: 8 UFC GAUGE fight cards + Tonight's Gauge",
   "clearedCount": 1,
-  "gaugeCount": 6,
+  "gaugeCount": 14,
   "sports": [
     {
       "id": "CFB",
@@ -1686,6 +1972,12 @@
       "label": "Football (NFL)",
       "nav": "NFL",
       "short": "NFL"
+    },
+    {
+      "id": "UFC",
+      "label": "UFC",
+      "nav": "UFC",
+      "short": "UFC"
     }
   ],
   "archives": {
@@ -1747,6 +2039,16 @@
       "lastSlate": "Sat Oct 10 2026 CT",
       "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 4:16 PM CT",
       "note": "No NHL player prop reached 6 firm sources (max 4: Jason Robertson and Cole Caufield anytime goal). Ranked near misses below; empty on purpose, not fake badges."
+    },
+    "UFC": {
+      "lastSlate": "Sat Oct 10 2026 CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 4:38 PM CT",
+      "note": "UFC Fight Night: Allen vs. Duncan (UFC Vegas 122, Meta APEX) · Sat Oct 10 · prelims 4:00 PM CT, main card 7:00 PM CT. 12 fights resolved via ESPN. 16 YouTube videos with firm picks counted (12 searches, ~75 results; 17 transcripts screened, 5 more blocked by YouTube rate limits; AI, lean-only and lottery-parlay videos excluded). X list: 1 unique UFC slip poster (@trizzy_bets, 6 legs); @__LordPenguin's \"made with AI\" moneyline graphic excluded; @TheCoachesDesk picks were paywalled. Cited models: mmamodel.ai, Cage Metrics v2.4 and Picks Terminal v4.2; odds are BestFightOdds best prices. 8 GAUGE fight cards, 0 CLEARED: X had at most 1 slip per side, and no favorite clears MinEdge on every cited model. Started or finished fights are excluded."
+    },
+    "UFC-PROPS": {
+      "lastSlate": "Sat Oct 10 2026 CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 4:38 PM CT",
+      "note": "UFC props (method/rounds/takedowns) from the same 16 YT videos and the @trizzy_bets slip. Nothing reaches 6 sources (max 5: Wellmaker by KO/TKO). No cited model publishes method/round probabilities, so booksAlign is false and no edge number is shown."
     }
   },
   "liveGames": {
@@ -1861,9 +2163,9 @@
       "rank": 1,
       "result": {
         "status": "LIVE",
-        "score": "TEX 14 – OU 7",
-        "detail": "10:09 - 2nd",
-        "checkedAt": "4:05 PM CT"
+        "score": "TEX 17 – OU 7",
+        "detail": "Halftime",
+        "checkedAt": "4:38 PM CT"
       }
     },
     {
@@ -2080,8 +2382,8 @@
       "result": {
         "status": "LIVE",
         "score": "HOU 21 – KSU 3",
-        "detail": "1:19 - 2nd",
-        "checkedAt": "4:05 PM CT"
+        "detail": "12:40 - 3rd",
+        "checkedAt": "4:38 PM CT"
       }
     },
     {
@@ -2153,8 +2455,8 @@
       "result": {
         "status": "LIVE",
         "score": "UCLA 10 – ORE 6",
-        "detail": "1:40 - 2nd",
-        "checkedAt": "4:05 PM CT"
+        "detail": "Halftime",
+        "checkedAt": "4:38 PM CT"
       }
     },
     {
@@ -2298,7 +2600,586 @@
         "gameKey": "CHW @ CLE",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
-      "rank": 1
+      "rank": 7
+    },
+    {
+      "id": "sat-ufc-1",
+      "example": false,
+      "sport": "UFC",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Wellmaker vs Tanzilovi (BW) · main card opener · 7:00 PM CT",
+      "pick": "Malcolm Wellmaker ML",
+      "line": "−209",
+      "gameState": "pre",
+      "consensusPct": 83,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 83,
+      "why": "Backed as GAUGE: 10 firm sources (9 YT + 1 X) clear the 6 floor; not CLEARED because X has 1 of 2 needed and no cited model clears break-even. Heavy striker vs an unproven UFC sophomore (Tanzilovi lost to Shane Collins per TheUFCExpert); most YT picks are Wellmaker by KO. YouTube 9 same side (RearNakedLocks: official lock (Wellmaker KO); Rparqs: Wellmaker; TARGETMMA: Wellmaker R1 KO +340 (1u); ThatBettingDude: Wellmaker KO (bet); By The Numbers: Wellmaker; MMA EXPERTS: Wellmaker; MMA Girl: Wellmaker R2 KO; TheUFCExpert: Wellmaker R2 finish; KennyOkoyeMMA: Wellmaker). X: @trizzy_bets: Wellmaker by decision +310 (1u). Contested: Tanzilovi: Topside (by decision 0.1u), Mike Finch (on the dog). Books: Best Wellmaker −209 → BE 67.64%. mmamodel.ai win% 50.0% (-17.64pp); Cage Metrics v2.4 42.0% (-25.64pp). No cited model clears MinEdge +2.5pp, so booksAlign is false.",
+      "rationale": "Backed as GAUGE: 10 firm sources (9 YT + 1 X) clear the 6 floor; not CLEARED because X has 1 of 2 needed and no cited model clears break-even.",
+      "sources": {
+        "youtube": 9,
+        "xSendIt": 1,
+        "booksAlign": false
+      },
+      "ledger": {
+        "thesis": "Heavy striker vs an unproven UFC sophomore (Tanzilovi lost to Shane Collins per TheUFCExpert); most YT picks are Wellmaker by KO.",
+        "yt": {
+          "sameSide": 9,
+          "strictPicks": 9,
+          "channels": [
+            "RearNakedLocks: official lock (Wellmaker KO)",
+            "Rparqs: Wellmaker",
+            "TARGETMMA: Wellmaker R1 KO +340 (1u)",
+            "ThatBettingDude: Wellmaker KO (bet)",
+            "By The Numbers: Wellmaker",
+            "MMA EXPERTS: Wellmaker",
+            "MMA Girl: Wellmaker R2 KO",
+            "TheUFCExpert: Wellmaker R2 finish",
+            "KennyOkoyeMMA: Wellmaker"
+          ],
+          "contestedOpposite": 2,
+          "contestedSide": "Tanzilovi: Topside (by decision 0.1u), Mike Finch (on the dog)",
+          "contested": true
+        },
+        "sendIt": {
+          "uniquePosters": 1,
+          "whoOdds": [
+            "@trizzy_bets: Wellmaker by decision +310 (1u)"
+          ],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "GAUGE (≥6 firm sources). Gap to CLEARED: 1 more X, booksAlign."
+        },
+        "booksAlign": false,
+        "booksAlignWhy": "Best Wellmaker −209 → BE 67.64%. mmamodel.ai win% 50.0% (-17.64pp); Cage Metrics v2.4 42.0% (-25.64pp). No cited model clears MinEdge +2.5pp, so booksAlign is false.",
+        "floorGap": "GAUGE (≥6 firm sources). Gap to CLEARED: 1 more X, booksAlign.",
+        "minEdge": {
+          "bestLine": "Wellmaker −209",
+          "bestAmerican": -209,
+          "bestSource": "BestFightOdds (best price across listed books, checked 4:25 PM CT)",
+          "breakEvenPct": 67.64,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T16:38:43-05:00",
+          "modelWinPct": null,
+          "modelSource": null,
+          "edgeVsBePct": null,
+          "path": "fail",
+          "modelWar": false,
+          "passingModels": [],
+          "failingModels": [
+            "mmamodel.ai win% 50.0% (-17.64pp)",
+            "Cage Metrics v2.4 42.0% (-25.64pp)"
+          ],
+          "missReason": "No cited model clears +2.5pp: mmamodel.ai win% 50.0% (-17.64pp); Cage Metrics v2.4 42.0% (-25.64pp)"
+        }
+      },
+      "rank": 8
+    },
+    {
+      "id": "sat-ufc-2",
+      "example": false,
+      "sport": "UFC",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Fili vs Kamaka III (FW) · ~7:25 PM CT (main card)",
+      "pick": "Andre Fili ML",
+      "line": "−149",
+      "gameState": "pre",
+      "consensusPct": 69,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 69,
+      "why": "Backed as GAUGE: 9 firm sources (9 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and no cited model clears break-even. Veteran jab/length (Fili) vs Kamaka inside boxing; YT expects a decision. Contested: the only X slip has Kamaka. YouTube 9 same side (Topside: Fili ML (½u); RearNakedLocks: Fili \"lock\"; MMAnomaly: Fili (parlay leg); Alex Talks Fights: Fili (parlay w/ Prado); MMA EXPERTS: Fili by decision; Mike Finch: Fili; TheUFCExpert: Fili decision; Guy Boston Sports: Fili via decision; KennyOkoyeMMA: Fili −150 (parlay)). X: 0 slips on this side. Contested: Kamaka: TARGETMMA (1u +128), ThatBettingDude, By The Numbers + X @trizzy_bets Kamaka ML +130 (2u). Books: Best Fili −149 → BE 59.84%. mmamodel.ai win% 54.0% (-5.84pp); Cage Metrics v2.4 43.0% (-16.84pp). No cited model clears MinEdge +2.5pp, so booksAlign is false.",
+      "rationale": "Backed as GAUGE: 9 firm sources (9 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and no cited model clears break-even.",
+      "sources": {
+        "youtube": 9,
+        "xSendIt": 0,
+        "booksAlign": false
+      },
+      "ledger": {
+        "thesis": "Veteran jab/length (Fili) vs Kamaka inside boxing; YT expects a decision. Contested: the only X slip has Kamaka.",
+        "yt": {
+          "sameSide": 9,
+          "strictPicks": 9,
+          "channels": [
+            "Topside: Fili ML (½u)",
+            "RearNakedLocks: Fili \"lock\"",
+            "MMAnomaly: Fili (parlay leg)",
+            "Alex Talks Fights: Fili (parlay w/ Prado)",
+            "MMA EXPERTS: Fili by decision",
+            "Mike Finch: Fili",
+            "TheUFCExpert: Fili decision",
+            "Guy Boston Sports: Fili via decision",
+            "KennyOkoyeMMA: Fili −150 (parlay)"
+          ],
+          "contestedOpposite": 4,
+          "contestedSide": "Kamaka: TARGETMMA (1u +128), ThatBettingDude, By The Numbers + X @trizzy_bets Kamaka ML +130 (2u)",
+          "contested": true
+        },
+        "sendIt": {
+          "uniquePosters": 0,
+          "whoOdds": [],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign."
+        },
+        "booksAlign": false,
+        "booksAlignWhy": "Best Fili −149 → BE 59.84%. mmamodel.ai win% 54.0% (-5.84pp); Cage Metrics v2.4 43.0% (-16.84pp). No cited model clears MinEdge +2.5pp, so booksAlign is false.",
+        "floorGap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign.",
+        "minEdge": {
+          "bestLine": "Fili −149",
+          "bestAmerican": -149,
+          "bestSource": "BestFightOdds (best price across listed books, checked 4:25 PM CT)",
+          "breakEvenPct": 59.84,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T16:38:43-05:00",
+          "modelWinPct": null,
+          "modelSource": null,
+          "edgeVsBePct": null,
+          "path": "fail",
+          "modelWar": false,
+          "passingModels": [],
+          "failingModels": [
+            "mmamodel.ai win% 54.0% (-5.84pp)",
+            "Cage Metrics v2.4 43.0% (-16.84pp)"
+          ],
+          "missReason": "No cited model clears +2.5pp: mmamodel.ai win% 54.0% (-5.84pp); Cage Metrics v2.4 43.0% (-16.84pp)"
+        }
+      },
+      "rank": 9
+    },
+    {
+      "id": "sat-ufc-3",
+      "example": false,
+      "sport": "UFC",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Herbert vs Camilo (LW) · co-main · ~8:15 PM CT (main card)",
+      "pick": "Matheus Camilo ML",
+      "line": "−188",
+      "gameState": "pre",
+      "consensusPct": 73,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 73,
+      "why": "Backed as GAUGE: 8 firm sources (8 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war. Younger wrestler (13 yrs) vs Herbert's 7.5\" reach; @trizzy_bets has the fight Under 1.5 rds (+140), not a side. YouTube 8 same side (RearNakedLocks (host 1): Camilo decision; TARGETMMA: Camilo +118 (1u, older price); Alex Talks Fights: Camilo finish +115 (parlay); ThatBettingDude: Camilo KO; By The Numbers: Camilo R1 KO; MMA EXPERTS: Camilo inside the distance; MMA Girl: Camilo; KennyOkoyeMMA: Camilo (wrestling)). X: 0 slips on this side. Contested: Herbert: RearNakedLocks (host 2, TKO), Gamblin' Ram, TheUFCExpert (decision, 7.5\" reach edge). Books: Best Camilo −188 → BE 65.28%. mmamodel.ai win% 54.0% (-11.28pp); Cage Metrics v2.4 72.0% (+6.72pp). Model war (cited models disagree on MinEdge), so booksAlign is false.",
+      "rationale": "Backed as GAUGE: 8 firm sources (8 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war.",
+      "sources": {
+        "youtube": 8,
+        "xSendIt": 0,
+        "booksAlign": false
+      },
+      "ledger": {
+        "thesis": "Younger wrestler (13 yrs) vs Herbert's 7.5\" reach; @trizzy_bets has the fight Under 1.5 rds (+140), not a side.",
+        "yt": {
+          "sameSide": 8,
+          "strictPicks": 8,
+          "channels": [
+            "RearNakedLocks (host 1): Camilo decision",
+            "TARGETMMA: Camilo +118 (1u, older price)",
+            "Alex Talks Fights: Camilo finish +115 (parlay)",
+            "ThatBettingDude: Camilo KO",
+            "By The Numbers: Camilo R1 KO",
+            "MMA EXPERTS: Camilo inside the distance",
+            "MMA Girl: Camilo",
+            "KennyOkoyeMMA: Camilo (wrestling)"
+          ],
+          "contestedOpposite": 3,
+          "contestedSide": "Herbert: RearNakedLocks (host 2, TKO), Gamblin' Ram, TheUFCExpert (decision, 7.5\" reach edge)",
+          "contested": true
+        },
+        "sendIt": {
+          "uniquePosters": 0,
+          "whoOdds": [],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign."
+        },
+        "booksAlign": false,
+        "booksAlignWhy": "Best Camilo −188 → BE 65.28%. mmamodel.ai win% 54.0% (-11.28pp); Cage Metrics v2.4 72.0% (+6.72pp). Model war (cited models disagree on MinEdge), so booksAlign is false.",
+        "floorGap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign.",
+        "minEdge": {
+          "bestLine": "Camilo −188",
+          "bestAmerican": -188,
+          "bestSource": "BestFightOdds (best price across listed books, checked 4:25 PM CT)",
+          "breakEvenPct": 65.28,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T16:38:43-05:00",
+          "modelWinPct": null,
+          "modelSource": null,
+          "edgeVsBePct": null,
+          "path": "contested",
+          "modelWar": true,
+          "passingModels": [
+            "Cage Metrics v2.4 72.0% (+6.72pp)"
+          ],
+          "failingModels": [
+            "mmamodel.ai win% 54.0% (-11.28pp)"
+          ],
+          "missReason": "MODEL WAR: mmamodel.ai win% 54.0% (-11.28pp); Cage Metrics v2.4 72.0% (+6.72pp)"
+        }
+      },
+      "rank": 10
+    },
+    {
+      "id": "sat-ufc-4",
+      "example": false,
+      "sport": "UFC",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Allen vs Christian Leroy Duncan (MW) · main event, 5 rds · ~8:45 PM CT (main card)",
+      "pick": "Brendan Allen ML",
+      "line": "−115",
+      "gameState": "pre",
+      "consensusPct": 57,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 57,
+      "why": "Backed as GAUGE: 8 firm sources (8 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war. Grappling-heavy Allen vs Duncan's 4\" reach and power; a genuine 8-vs-6 YT split, @trizzy_bets only has CLD/Allen Under 3.5 rds. YouTube 8 same side (Rparqs: has money on Allen; MMAnomaly: Allen by decision (bet); ThatBettingDude: Allen ML (bet); By The Numbers: Allen R2 sub; MMA EXPERTS: Allen; MMA Girl: Allen R3 sub; Guy Boston Sports: Allen via submission; KennyOkoyeMMA: Allen). X: 0 slips on this side. Contested: Duncan: RearNakedLocks (KO), TARGETMMA (KO), Alex Talks Fights (ML +101 \"underdog lock\"), Topside (R1 DK special), Mike Finch (KO), TheUFCExpert (R3 KO) — 6 YT. Books: Best Allen −115 → BE 53.49%. mmamodel.ai win% 58.0% (+4.51pp); Picks Terminal v4.2 (AI profile model) 58.0% (+4.51pp); Cage Metrics v2.4 52.2% (-1.29pp). Model war (cited models disagree on MinEdge), so booksAlign is false.",
+      "rationale": "Backed as GAUGE: 8 firm sources (8 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war.",
+      "sources": {
+        "youtube": 8,
+        "xSendIt": 0,
+        "booksAlign": false
+      },
+      "ledger": {
+        "thesis": "Grappling-heavy Allen vs Duncan's 4\" reach and power; a genuine 8-vs-6 YT split, @trizzy_bets only has CLD/Allen Under 3.5 rds.",
+        "yt": {
+          "sameSide": 8,
+          "strictPicks": 8,
+          "channels": [
+            "Rparqs: has money on Allen",
+            "MMAnomaly: Allen by decision (bet)",
+            "ThatBettingDude: Allen ML (bet)",
+            "By The Numbers: Allen R2 sub",
+            "MMA EXPERTS: Allen",
+            "MMA Girl: Allen R3 sub",
+            "Guy Boston Sports: Allen via submission",
+            "KennyOkoyeMMA: Allen"
+          ],
+          "contestedOpposite": 6,
+          "contestedSide": "Duncan: RearNakedLocks (KO), TARGETMMA (KO), Alex Talks Fights (ML +101 \"underdog lock\"), Topside (R1 DK special), Mike Finch (KO), TheUFCExpert (R3 KO) — 6 YT",
+          "contested": true
+        },
+        "sendIt": {
+          "uniquePosters": 0,
+          "whoOdds": [],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign."
+        },
+        "booksAlign": false,
+        "booksAlignWhy": "Best Allen −115 → BE 53.49%. mmamodel.ai win% 58.0% (+4.51pp); Picks Terminal v4.2 (AI profile model) 58.0% (+4.51pp); Cage Metrics v2.4 52.2% (-1.29pp). Model war (cited models disagree on MinEdge), so booksAlign is false.",
+        "floorGap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign.",
+        "minEdge": {
+          "bestLine": "Allen −115",
+          "bestAmerican": -115,
+          "bestSource": "BestFightOdds (best price across listed books, checked 4:25 PM CT)",
+          "breakEvenPct": 53.49,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T16:38:43-05:00",
+          "modelWinPct": null,
+          "modelSource": null,
+          "edgeVsBePct": null,
+          "path": "contested",
+          "modelWar": true,
+          "passingModels": [
+            "mmamodel.ai win% 58.0% (+4.51pp)",
+            "Picks Terminal v4.2 (AI profile model) 58.0% (+4.51pp)"
+          ],
+          "failingModels": [
+            "Cage Metrics v2.4 52.2% (-1.29pp)"
+          ],
+          "missReason": "MODEL WAR: mmamodel.ai win% 58.0% (+4.51pp); Picks Terminal v4.2 (AI profile model) 58.0% (+4.51pp); Cage Metrics v2.4 52.2% (-1.29pp)"
+        }
+      },
+      "rank": 11
+    },
+    {
+      "id": "sat-ufc-6",
+      "example": false,
+      "sport": "UFC",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Walker vs Meerschaert (LHW) · prelim feature · ~6:30 PM CT (last prelim)",
+      "pick": "Julius Walker ML",
+      "line": "−307",
+      "gameState": "pre",
+      "consensusPct": 70,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 70,
+      "why": "Backed as GAUGE: 7 firm sources (7 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war. Long striker vs a 38-yr-old submission threat; Walker must stuff takedowns, and the price (−307) leaves no value. YouTube 7 same side (RearNakedLocks: Walker R1 KO; Alex Talks Fights: Walker (parlay w/ Camilo); By The Numbers: Walker; MMA EXPERTS: Walker; Mike Finch: Walker TKO; TheUFCExpert: Walker R1; KennyOkoyeMMA: Walker (6'4\" striker, parlay leg)). X: 0 slips on this side. Contested: Meerschaert: MMAnomaly (ML ½u + sub), ThatBettingDude (sub), Guy Boston Sports (sub R2/R3); X @trizzy_bets Meerschaert +7.5 point spread (+165). Books: Best Walker −307 → BE 75.43%. mmamodel.ai win% 55.0% (-20.43pp); Cage Metrics v2.4 79.0% (+3.57pp). Model war (cited models disagree on MinEdge), so booksAlign is false.",
+      "rationale": "Backed as GAUGE: 7 firm sources (7 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war.",
+      "sources": {
+        "youtube": 7,
+        "xSendIt": 0,
+        "booksAlign": false
+      },
+      "ledger": {
+        "thesis": "Long striker vs a 38-yr-old submission threat; Walker must stuff takedowns, and the price (−307) leaves no value.",
+        "yt": {
+          "sameSide": 7,
+          "strictPicks": 7,
+          "channels": [
+            "RearNakedLocks: Walker R1 KO",
+            "Alex Talks Fights: Walker (parlay w/ Camilo)",
+            "By The Numbers: Walker",
+            "MMA EXPERTS: Walker",
+            "Mike Finch: Walker TKO",
+            "TheUFCExpert: Walker R1",
+            "KennyOkoyeMMA: Walker (6'4\" striker, parlay leg)"
+          ],
+          "contestedOpposite": 3,
+          "contestedSide": "Meerschaert: MMAnomaly (ML ½u + sub), ThatBettingDude (sub), Guy Boston Sports (sub R2/R3); X @trizzy_bets Meerschaert +7.5 point spread (+165)",
+          "contested": true
+        },
+        "sendIt": {
+          "uniquePosters": 0,
+          "whoOdds": [],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign."
+        },
+        "booksAlign": false,
+        "booksAlignWhy": "Best Walker −307 → BE 75.43%. mmamodel.ai win% 55.0% (-20.43pp); Cage Metrics v2.4 79.0% (+3.57pp). Model war (cited models disagree on MinEdge), so booksAlign is false.",
+        "floorGap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign.",
+        "minEdge": {
+          "bestLine": "Walker −307",
+          "bestAmerican": -307,
+          "bestSource": "BestFightOdds (best price across listed books, checked 4:25 PM CT)",
+          "breakEvenPct": 75.43,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T16:38:43-05:00",
+          "modelWinPct": null,
+          "modelSource": null,
+          "edgeVsBePct": null,
+          "path": "contested",
+          "modelWar": true,
+          "passingModels": [
+            "Cage Metrics v2.4 79.0% (+3.57pp)"
+          ],
+          "failingModels": [
+            "mmamodel.ai win% 55.0% (-20.43pp)"
+          ],
+          "missReason": "MODEL WAR: mmamodel.ai win% 55.0% (-20.43pp); Cage Metrics v2.4 79.0% (+3.57pp)"
+        }
+      },
+      "rank": 12
+    },
+    {
+      "id": "sat-ufc-7",
+      "example": false,
+      "sport": "UFC",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Frye Jr. vs Harris (HW) · prelim · ~5:00 PM CT (prelim)",
+      "pick": "RJ Harris ML",
+      "line": "−350",
+      "gameState": "pre",
+      "consensusPct": 100,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 100,
+      "why": "Backed as GAUGE: 7 firm sources (7 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and no cited model clears break-even. Heavy-handed pressure boxer vs a Frye who looked flat vs Pat; −350 means no model clears break-even. YouTube 7 same side (RearNakedLocks: give me RJ Harris (club and sub); By The Numbers: give me RJ Harris; MMA EXPERTS: Harris (stoppage); ThatBettingDude: Harris by KO; Mike Finch: Harris TKO; Guy Boston Sports: Harris R1 KO; KennyOkoyeMMA: Harris by submission). X: 0 slips on this side. Books: Best Harris −350 → BE 77.78%. mmamodel.ai win% 50.0% (-27.78pp); Cage Metrics v2.4 64.0% (-13.78pp). No cited model clears MinEdge +2.5pp, so booksAlign is false.",
+      "rationale": "Backed as GAUGE: 7 firm sources (7 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and no cited model clears break-even.",
+      "sources": {
+        "youtube": 7,
+        "xSendIt": 0,
+        "booksAlign": false
+      },
+      "ledger": {
+        "thesis": "Heavy-handed pressure boxer vs a Frye who looked flat vs Pat; −350 means no model clears break-even.",
+        "yt": {
+          "sameSide": 7,
+          "strictPicks": 7,
+          "channels": [
+            "RearNakedLocks: give me RJ Harris (club and sub)",
+            "By The Numbers: give me RJ Harris",
+            "MMA EXPERTS: Harris (stoppage)",
+            "ThatBettingDude: Harris by KO",
+            "Mike Finch: Harris TKO",
+            "Guy Boston Sports: Harris R1 KO",
+            "KennyOkoyeMMA: Harris by submission"
+          ],
+          "contestedOpposite": 0,
+          "contestedSide": "",
+          "contested": false
+        },
+        "sendIt": {
+          "uniquePosters": 0,
+          "whoOdds": [],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign."
+        },
+        "booksAlign": false,
+        "booksAlignWhy": "Best Harris −350 → BE 77.78%. mmamodel.ai win% 50.0% (-27.78pp); Cage Metrics v2.4 64.0% (-13.78pp). No cited model clears MinEdge +2.5pp, so booksAlign is false.",
+        "floorGap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign.",
+        "minEdge": {
+          "bestLine": "Harris −350",
+          "bestAmerican": -350,
+          "bestSource": "BestFightOdds (best price across listed books, checked 4:25 PM CT)",
+          "breakEvenPct": 77.78,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T16:38:43-05:00",
+          "modelWinPct": null,
+          "modelSource": null,
+          "edgeVsBePct": null,
+          "path": "fail",
+          "modelWar": false,
+          "passingModels": [],
+          "failingModels": [
+            "mmamodel.ai win% 50.0% (-27.78pp)",
+            "Cage Metrics v2.4 64.0% (-13.78pp)"
+          ],
+          "missReason": "No cited model clears +2.5pp: mmamodel.ai win% 50.0% (-27.78pp); Cage Metrics v2.4 64.0% (-13.78pp)"
+        }
+      },
+      "rank": 13
+    },
+    {
+      "id": "sat-ufc-8",
+      "example": false,
+      "sport": "UFC",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Price vs Shahbazyan (WW) · prelim · ~5:45 PM CT (prelim)",
+      "pick": "Niko Price ML",
+      "line": "+130",
+      "gameState": "pre",
+      "consensusPct": 100,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 100,
+      "why": "Backed as GAUGE: 6 firm sources (6 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war. Retirement-fight veteran dog vs a fragile Shahbazyan; MMAM 50% clears +130 but Cage Metrics has Shahbazyan 64% — a model war. YouTube 6 same side (MMAnomaly: give me Nico Price (KO + U1.5); Alex Talks Fights: Price +125 (plus-money dog play); ThatBettingDude: Price as the dog (bet); Guy Boston Sports: Price; KennyOkoyeMMA: Price late TKO; TheUFCExpert: Price R1). X: 0 slips on this side. Books: Best Price +130 → BE 43.48%. mmamodel.ai win% 50.0% (+6.52pp); Cage Metrics v2.4 36.0% (-7.48pp). Model war (cited models disagree on MinEdge), so booksAlign is false.",
+      "rationale": "Backed as GAUGE: 6 firm sources (6 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war.",
+      "sources": {
+        "youtube": 6,
+        "xSendIt": 0,
+        "booksAlign": false
+      },
+      "ledger": {
+        "thesis": "Retirement-fight veteran dog vs a fragile Shahbazyan; MMAM 50% clears +130 but Cage Metrics has Shahbazyan 64% — a model war.",
+        "yt": {
+          "sameSide": 6,
+          "strictPicks": 6,
+          "channels": [
+            "MMAnomaly: give me Nico Price (KO + U1.5)",
+            "Alex Talks Fights: Price +125 (plus-money dog play)",
+            "ThatBettingDude: Price as the dog (bet)",
+            "Guy Boston Sports: Price",
+            "KennyOkoyeMMA: Price late TKO",
+            "TheUFCExpert: Price R1"
+          ],
+          "contestedOpposite": 0,
+          "contestedSide": "",
+          "contested": false
+        },
+        "sendIt": {
+          "uniquePosters": 0,
+          "whoOdds": [],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign."
+        },
+        "booksAlign": false,
+        "booksAlignWhy": "Best Price +130 → BE 43.48%. mmamodel.ai win% 50.0% (+6.52pp); Cage Metrics v2.4 36.0% (-7.48pp). Model war (cited models disagree on MinEdge), so booksAlign is false.",
+        "floorGap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign.",
+        "minEdge": {
+          "bestLine": "Price +130",
+          "bestAmerican": 130,
+          "bestSource": "BestFightOdds (best price across listed books, checked 4:25 PM CT)",
+          "breakEvenPct": 43.48,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T16:38:43-05:00",
+          "modelWinPct": null,
+          "modelSource": null,
+          "edgeVsBePct": null,
+          "path": "contested",
+          "modelWar": true,
+          "passingModels": [
+            "mmamodel.ai win% 50.0% (+6.52pp)"
+          ],
+          "failingModels": [
+            "Cage Metrics v2.4 36.0% (-7.48pp)"
+          ],
+          "missReason": "MODEL WAR: mmamodel.ai win% 50.0% (+6.52pp); Cage Metrics v2.4 36.0% (-7.48pp)"
+        }
+      },
+      "rank": 14
+    },
+    {
+      "id": "sat-ufc-5",
+      "example": false,
+      "sport": "UFC",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Souza vs Godinez (StrawW) · ~7:40 PM CT (main card)",
+      "pick": "Loopy Godinez ML",
+      "line": "−225",
+      "gameState": "pre",
+      "consensusPct": 75,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 75,
+      "why": "Backed as GAUGE: 6 firm sources (6 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and no cited model clears break-even. Volume pressure grappler vs a durable striker; consensus is a decision win, but both cited models price Loopy below the −225 break-even. YouTube 6 same side (Topside: Loopy (parlay leg); Gamblin' Ram: Loopy by decision; MMAnomaly: Loopy by decision (bet); MMA EXPERTS: Loopy; MMA Girl: Loopy main-card lock; KennyOkoyeMMA: Godinez by decision). X: 0 slips on this side. Contested: Souza: ThatBettingDude (decision), By The Numbers (decision). Books: Best Godínez −225 → BE 69.23%. mmamodel.ai win% 56.0% (-13.23pp); Cage Metrics v2.4 60.0% (-9.23pp). No cited model clears MinEdge +2.5pp, so booksAlign is false.",
+      "rationale": "Backed as GAUGE: 6 firm sources (6 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and no cited model clears break-even.",
+      "sources": {
+        "youtube": 6,
+        "xSendIt": 0,
+        "booksAlign": false
+      },
+      "ledger": {
+        "thesis": "Volume pressure grappler vs a durable striker; consensus is a decision win, but both cited models price Loopy below the −225 break-even.",
+        "yt": {
+          "sameSide": 6,
+          "strictPicks": 6,
+          "channels": [
+            "Topside: Loopy (parlay leg)",
+            "Gamblin' Ram: Loopy by decision",
+            "MMAnomaly: Loopy by decision (bet)",
+            "MMA EXPERTS: Loopy",
+            "MMA Girl: Loopy main-card lock",
+            "KennyOkoyeMMA: Godinez by decision"
+          ],
+          "contestedOpposite": 2,
+          "contestedSide": "Souza: ThatBettingDude (decision), By The Numbers (decision)",
+          "contested": true
+        },
+        "sendIt": {
+          "uniquePosters": 0,
+          "whoOdds": [],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign."
+        },
+        "booksAlign": false,
+        "booksAlignWhy": "Best Godínez −225 → BE 69.23%. mmamodel.ai win% 56.0% (-13.23pp); Cage Metrics v2.4 60.0% (-9.23pp). No cited model clears MinEdge +2.5pp, so booksAlign is false.",
+        "floorGap": "GAUGE (≥6 firm sources). Gap to CLEARED: 2 more X, booksAlign.",
+        "minEdge": {
+          "bestLine": "Godínez −225",
+          "bestAmerican": -225,
+          "bestSource": "BestFightOdds (best price across listed books, checked 4:25 PM CT)",
+          "breakEvenPct": 69.23,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T16:38:43-05:00",
+          "modelWinPct": null,
+          "modelSource": null,
+          "edgeVsBePct": null,
+          "path": "fail",
+          "modelWar": false,
+          "passingModels": [],
+          "failingModels": [
+            "mmamodel.ai win% 56.0% (-13.23pp)",
+            "Cage Metrics v2.4 60.0% (-9.23pp)"
+          ],
+          "missReason": "No cited model clears +2.5pp: mmamodel.ai win% 56.0% (-13.23pp); Cage Metrics v2.4 60.0% (-9.23pp)"
+        }
+      },
+      "rank": 15
     }
   ],
   "deepDive": {
@@ -2314,5 +3195,194 @@
     "checkedAt": "4:05 PM CT",
     "checkedAtIso": "2026-10-10T16:05:58-05:00",
     "label": "Results so far (W-L-P, checked 4:05 PM CT): CLEARED 0-0-0 · GAUGE 0-1-0 · Near misses (separate, not on the main board) 9-10-0. Ungraded and pending items aren't counted."
+  },
+  "tonightsGauge": {
+    "label": "Unstarted games only · ESPN status checked 4:38 PM CT · research only",
+    "checkedAt": "4:38 PM CT",
+    "note": "Every board card for a game or fight that hasn't started yet (ESPN status checked 4:38 PM CT), across all sports except NFL. Order: CLEARED, then GAUGE, then booksAlign, source depth and cited-model edge. 11 main cards; 2 NEAR MISS (<6 sources) rows with every cited model aligned are added at the end. Started and finished games are removed. This list doesn't change any totals or tallies. Research only, never place bets.",
+    "items": [
+      {
+        "tier": "GAUGE",
+        "pick": "Guardians ML",
+        "line": "−142",
+        "sport": "MLB",
+        "game": "ALDS Game 5 · White Sox @ Guardians",
+        "timeCT": "7:00 PM CT",
+        "yt": 6,
+        "x": 0,
+        "booksAlign": true,
+        "edge": "✓ +5.92pp (GameLens ML 3/3)",
+        "rationale": "The only unstarted main card with booksAlign: 6 YT plus GameLens 64.6% vs the 58.68% break-even (+5.92pp); X never posted it, so it stays GAUGE.",
+        "rank": 1
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "Malcolm Wellmaker ML",
+        "line": "−209",
+        "sport": "UFC",
+        "game": "Wellmaker vs Tanzilovi (BW) · main card opener",
+        "timeCT": "7:00 PM CT",
+        "yt": 9,
+        "x": 1,
+        "booksAlign": false,
+        "edge": "✗ no model clears (mmamodel.ai win% 50.0% (-17.64pp); Cage Metrics v2.4 42.0% (-25.64pp))",
+        "rationale": "Backed as GAUGE: 10 firm sources (9 YT + 1 X) clear the 6 floor; not CLEARED because X has 1 of 2 needed and no cited model clears break-even.",
+        "rank": 2
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "Andre Fili ML",
+        "line": "−149",
+        "sport": "UFC",
+        "game": "Fili vs Kamaka III (FW)",
+        "timeCT": "~7:25 PM CT (main card)",
+        "yt": 9,
+        "x": 0,
+        "booksAlign": false,
+        "edge": "✗ no model clears (mmamodel.ai win% 54.0% (-5.84pp); Cage Metrics v2.4 43.0% (-16.84pp))",
+        "rationale": "Backed as GAUGE: 9 firm sources (9 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and no cited model clears break-even.",
+        "rank": 3
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "Matheus Camilo ML",
+        "line": "−188",
+        "sport": "UFC",
+        "game": "Herbert vs Camilo (LW) · co-main",
+        "timeCT": "~8:15 PM CT (main card)",
+        "yt": 8,
+        "x": 0,
+        "booksAlign": false,
+        "edge": "✗ model war (Cage Metrics v2.4 72.0% (+6.72pp) | mmamodel.ai win% 54.0% (-11.28pp))",
+        "rationale": "Backed as GAUGE: 8 firm sources (8 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war.",
+        "rank": 4
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "Brendan Allen ML",
+        "line": "−115",
+        "sport": "UFC",
+        "game": "Allen vs Christian Leroy Duncan (MW) · main event, 5 rds",
+        "timeCT": "~8:45 PM CT (main card)",
+        "yt": 8,
+        "x": 0,
+        "booksAlign": false,
+        "edge": "✗ model war (mmamodel.ai win% 58.0% (+4.51pp), Picks Terminal v4.2 (AI profile model) 58.0% (+4.51pp) | Cage Metrics v2.4 52.2% (-1.29pp))",
+        "rationale": "Backed as GAUGE: 8 firm sources (8 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war.",
+        "rank": 5
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "Penn State ML",
+        "line": "−125",
+        "sport": "CFB",
+        "game": "USC @ Penn State",
+        "timeCT": "6:30 PM CT",
+        "yt": 4,
+        "x": 3,
+        "booksAlign": false,
+        "edge": "✗ model war (ESPN FPI win% 62.8% (+7.24pp) | GameLens ML 48.3% (-7.26pp))",
+        "rationale": "7 firm sources (4 YT + 3 X) meet both floors; FPI 62.8% passes but GameLens 48.3% disagrees, so it's a model war and stays GAUGE.",
+        "rank": 6
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "Julius Walker ML",
+        "line": "−307",
+        "sport": "UFC",
+        "game": "Walker vs Meerschaert (LHW) · prelim feature",
+        "timeCT": "~6:30 PM CT (last prelim)",
+        "yt": 7,
+        "x": 0,
+        "booksAlign": false,
+        "edge": "✗ model war (Cage Metrics v2.4 79.0% (+3.57pp) | mmamodel.ai win% 55.0% (-20.43pp))",
+        "rationale": "Backed as GAUGE: 7 firm sources (7 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war.",
+        "rank": 7
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "RJ Harris ML",
+        "line": "−350",
+        "sport": "UFC",
+        "game": "Frye Jr. vs Harris (HW) · prelim",
+        "timeCT": "~5:00 PM CT (prelim)",
+        "yt": 7,
+        "x": 0,
+        "booksAlign": false,
+        "edge": "✗ no model clears (mmamodel.ai win% 50.0% (-27.78pp); Cage Metrics v2.4 64.0% (-13.78pp))",
+        "rationale": "Backed as GAUGE: 7 firm sources (7 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and no cited model clears break-even.",
+        "rank": 8
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "Niko Price ML",
+        "line": "+130",
+        "sport": "UFC",
+        "game": "Price vs Shahbazyan (WW) · prelim",
+        "timeCT": "~5:45 PM CT (prelim)",
+        "yt": 6,
+        "x": 0,
+        "booksAlign": false,
+        "edge": "✗ model war (mmamodel.ai win% 50.0% (+6.52pp) | Cage Metrics v2.4 36.0% (-7.48pp))",
+        "rationale": "Backed as GAUGE: 6 firm sources (6 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and a model war.",
+        "rank": 9
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "Alabama ML",
+        "line": "−125",
+        "sport": "CFB",
+        "game": "Georgia @ Alabama",
+        "timeCT": "6:30 PM CT",
+        "yt": 3,
+        "x": 3,
+        "booksAlign": false,
+        "edge": "✗ no model clears (ESPN FPI win% 51.4% (-4.16pp); GameLens ML (complement of UGA 50.9%) 49.1% (-6.46pp).)",
+        "rationale": "6 sources (3 YT + 3 X), but FPI 51.4% and GameLens 49.1% both sit below the −125 break-even; Georgia +2.5 is a booksAlign near miss on the other side.",
+        "rank": 10
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "Loopy Godinez ML",
+        "line": "−225",
+        "sport": "UFC",
+        "game": "Souza vs Godinez (StrawW)",
+        "timeCT": "~7:40 PM CT (main card)",
+        "yt": 6,
+        "x": 0,
+        "booksAlign": false,
+        "edge": "✗ no model clears (mmamodel.ai win% 56.0% (-13.23pp); Cage Metrics v2.4 60.0% (-9.23pp))",
+        "rationale": "Backed as GAUGE: 6 firm sources (6 YT + 0 X) clear the 6 floor; not CLEARED because X has 0 of 2 needed and no cited model clears break-even.",
+        "rank": 11
+      },
+      {
+        "tier": "NEAR MISS",
+        "pick": "North Dakota State −2.5 (−2.5)",
+        "line": "−2.5",
+        "sport": "CFB",
+        "game": "North Dakota State @ UNLV",
+        "timeCT": "6:00 PM CT",
+        "yt": 3,
+        "x": 1,
+        "booksAlign": true,
+        "edge": "✓ +12.17pp",
+        "rationale": "Not on the main board: 4 sources, under the 6 floor, though every cited model clears MinEdge (GameLens spread consensus (run at NDSU −3.5 · 3/3) 65.0% (+12.17pp)).",
+        "rank": 12
+      },
+      {
+        "tier": "NEAR MISS",
+        "pick": "Fresno State +7 (+7)",
+        "line": "+7",
+        "sport": "CFB",
+        "game": "Boise State @ Fresno State",
+        "timeCT": "9:30 PM CT",
+        "yt": 3,
+        "x": 1,
+        "booksAlign": true,
+        "edge": "✓ +8.02pp",
+        "rationale": "Not on the main board: 4 sources, under the 6 floor, though every cited model clears MinEdge (GameLens spread consensus (run at FRES +6.5 · 2/3) 60.4% (+8.02pp)).",
+        "rank": 13
+      }
+    ]
   }
 }
