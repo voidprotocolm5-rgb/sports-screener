@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-09T18:51:41-05:00",
-  "updatedAtLabel": "Fri Oct 9, 2026 · 6:51 PM CT",
+  "updatedAt": "2026-10-09T21:22:33-05:00",
+  "updatedAtLabel": "Fri Oct 9, 2026 · 9:22 PM CT",
   "nearMiss": {
     "NHL": [
       {
@@ -203,6 +203,134 @@ window.BET_BOARD_DATA = {
         "modelOnly": true,
         "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
       }
+    ],
+    "TENNIS": [
+      {
+        "pick": "Tomas Martin Etcheverry ML −146 (1xBet best)",
+        "game": "Svrcina vs Etcheverry · ATP Shanghai R2 · Sat 12:30 AM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Sleepypicks, Tennis Chatter",
+        "x": 1,
+        "xWho": "@Jokeeee_ (BTBSupport Polymarket free play, 58¢)",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "Model war: Tennis Abstract Elo 62.4% vs −146 break-even 59.35% (+3.1pp), but ats.io 60% (+0.65pp), Umpiry 53%, ServedBets 50% fail → false",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 1 more YT, 1 more X, booksAlign."
+      },
+      {
+        "pick": "Yunchaokete Bu ML +112 (Betsson best)",
+        "game": "Bu vs Ruud · ATP Shanghai R2 · Sat 12:30 AM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Sleepypicks, Betting Weekly Studios (+117 BetRivers)",
+        "x": 1,
+        "xWho": "@jr_dimes +105 0.5u",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "Tennis Abstract Elo 24.1% vs +112 break-even 47.17% → −23.1pp; fails",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 1 more YT, 1 more X, booksAlign."
+      },
+      {
+        "pick": "Jiri Lehecka ML −272 (1xBet best)",
+        "game": "Lehecka vs Borges · ATP Shanghai R2 · Fri 11:00 PM CT",
+        "gameState": "pre",
+        "yt": 3,
+        "ytWho": "Cheese Picks, Tennis Chatter, BigGatahBand",
+        "x": 0,
+        "xWho": "",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "Tennis Abstract Elo 67.9% vs −272 break-even 73.12% → −5.2pp; fails",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign."
+      },
+      {
+        "pick": "Casper Ruud ML −125 (888Sport best)",
+        "game": "Bu vs Ruud · ATP Shanghai R2 · Sat 12:30 AM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Tennis Chatter, Prognozища (1.68)",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Model war: Tennis Abstract Elo 75.9% and BSD 74% pass vs break-even 55.56%, but Stats Insider 53% and ServedBets 51% fail → false",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Tommy Paul ML −200 (Bet365 best)",
+        "game": "Paul vs Vallejo · ATP Shanghai R2 · Sat 3:30 AM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Cheese Picks, Tennis Chatter",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Model war: Tennis Abstract Elo 86.1% and Umpiry 77% pass vs break-even 66.67%, but tennis.com 65%, Wincomparator 64.05%, TennisPrediction 53.25% fail → false",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Rafael Jodar ML −244 (1xBet best)",
+        "game": "Tirante vs Jodar · ATP Shanghai R2 · Fri 11:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Sleepypicks, Tennis Chatter",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Model war: Tennis Abstract Elo 74.3% vs break-even 70.93% (+3.4pp), but iPredictSport 65% fails → false",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Learner Tien ML −300 (888Sport best)",
+        "game": "Tien vs Svajda · ATP Shanghai R2 · Sat 2:00 AM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Sleepypicks, Tennis Chatter",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Model war: Tennis Abstract Elo 79.7% vs break-even 75.0% (+4.7pp), but ServedBets 67% fails → false",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Mirra Andreeva ML −225 (Betway best)",
+        "game": "Andreeva vs Bartunkova · WTA Beijing SF · Sat 2:00 AM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Tennis Chatter, Talking Tennis",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Model war: Tennis Abstract Elo 73.2% vs break-even 69.23% (+4.0pp), but TheSharpBook 69% fails → false",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Qinwen Zheng ML −148 (1xBet best)",
+        "game": "Zheng vs Mertens · WTA Beijing SF · Sat 6:00 AM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Tennis Chatter, John Eric Poli",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Tennis Abstract Elo 56.4% vs −148 break-even 59.68% → −3.3pp; fails",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      }
     ]
   },
   "slate": "Fri Oct 9 2026 CT · strict 6+ sources · CFB 5 games (6:00–9:15 PM) · NBA preseason MEM@CHI 7:00 PM (no 6+ cards) · NHL ANA@WPG 7:00 PM · WNBA playoffs ATL@NY 6:30, GS@LV 8:30 PM · Soccer: Liga MX no 6+ · MLB/NFL none · Sports screener",
@@ -242,6 +370,12 @@ window.BET_BOARD_DATA = {
       "label": "Basketball (WNBA)",
       "nav": "WNBA",
       "short": "WNBA"
+    },
+    {
+      "id": "TENNIS",
+      "label": "Tennis",
+      "nav": "Tennis",
+      "short": "Tennis"
     },
     {
       "id": "MLB",
@@ -302,6 +436,11 @@ window.BET_BOARD_DATA = {
       "priorCardCount": 13,
       "priorUpdatedAt": "2026-10-09T17:11:45-05:00",
       "backup": "/workspace/bet-board/data-backup-before-fri-nhlwnba-20261009-182738.json"
+    },
+    "TENNIS": {
+      "lastSlate": "Fri Oct 9 – Sat Oct 10 2026 CT · 38 unstarted singles matches: ATP Shanghai R2 (16, Fri 11:00 PM – Sat 6:30 AM CT), WTA Beijing SFs (Andreeva–Bartunkova 2:00 AM, Zheng–Mertens 6:00 AM), WTA Suzhou SFs (Kalieva–Okamura 10:30 PM, Zarazua–Sramkova 12:00 AM), WTA Samsun SFs (5:00 / 6:30 AM), WTA Wuhan qualifying R1 (16, 10:00 PM – 2:30 AM). Times are order-of-play estimates.",
+      "lastUpdatedAtLabel": "Fri Oct 9, 2026 · 9:22 PM CT",
+      "note": "No tennis card reaches 6 (firm YouTube picks + unique X send-it posters). Best counts: Etcheverry ML 3 (2 YT + 1 X), Bu ML 3 (2 YT + 1 X), Lehecka ML 3 (3 YT). YouTube: 180 today-uploaded results searched, 20 transcripts read (5 more had no captions or were rate-limited), 8 videos with countable firm picks (Sleepypicks, Betting Weekly Studios, Cheese Picks, Tennis Chatter, BigGatahBand, Prognozища, Talking Tennis, John Eric Poli). Excluded: semotipster (templated script, same boilerplate on 40+ matches), DAXANALYTICS (model/AI channel), Top Sports News 2.0 / Sports zahoor / Ultimate Sports 360 / TennisIQ / Tennis Court (previews, no firm pick), Daria (fan rooting), John Eric Poli's Andreeva pick (\"not confident\"). X list: 641 posts since 12:00 AM CT scanned, 161 images OCR'd; 2 tennis slips for unstarted matches (@jr_dimes Bu +105; @Jokeeee_ BTBSupport Polymarket Etcheverry 58¢). @jr_dimes Zheng +120 (11:10Z) was the settled QF, so ignored. MinEdge: Tennis Abstract surface-Elo passes (Ruud, Paul, Jodar, Tien, Etcheverry, Andreeva, etc.) all hit a model war with another cited model (ats.io, ServedBets, Umpiry, tennis.com, Wincomparator, Stats Insider, iPredictSport, TheSharpBook), so booksAlign is false for every sourced side. Suzhou/Samsun/Wuhan: no cited model and 0 countable sources. Empty on purpose; near misses below do not count."
     }
   },
   "liveGames": {
