@@ -968,3 +968,24 @@ body {
 .res-pending{background:#2b2f33;color:#adb5bd;border-color:#495057}
 .result-line{font-size:12px;opacity:.85;margin:4px 0 6px}
 .results-tally{font-size:13px;font-weight:600;margin:4px 0 0}
+
+/* Tonight's Gauge */
+.tonight-gauge{margin:.6rem 0 .9rem;padding:.65rem .75rem;border:2px solid #d4a017;border-radius:12px;background:linear-gradient(180deg,rgba(212,160,23,.12),rgba(212,160,23,.03))}
+.tg-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem;margin-bottom:.35rem}
+.tg-title{margin:0;font-size:1.05rem;letter-spacing:.02em}
+.tg-sub{font-size:.75rem;opacity:.75}
+.tg-list{list-style:none;margin:0;padding:0;display:grid;gap:.4rem}
+.tg-item{display:flex;gap:.55rem;align-items:flex-start;padding:.4rem .5rem;border-radius:8px;background:rgba(127,127,127,.08)}
+.tg-rank{flex:0 0 1.6rem;height:1.6rem;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem;background:#d4a017;color:#111}
+.tg-body{min-width:0;flex:1}
+.tg-top{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center}
+.tg-pick{font-size:.95rem}
+.tg-line{font-size:.8rem;opacity:.85}
+.tg-tier{font-size:.66rem;font-weight:700;padding:.08rem .4rem;border-radius:999px;letter-spacing:.03em}
+.tg-cleared{background:#1f9d55;color:#fff}
+.tg-gauge{background:#2b6cb0;color:#fff}
+.tg-near{background:transparent;border:1px dashed currentColor;opacity:.85}
+.tg-meta{font-size:.75rem;opacity:.8;margin-top:.1rem}
+.tg-why{font-size:.78rem;margin-top:.15rem}
+.tg-note{font-size:.7rem;opacity:.7;margin:.4rem 0 0}
+@media (max-width:520px){.tonight-gauge{padding:.5rem}.tg-pick{font-size:.9rem}.tg-why{font-size:.74rem}}

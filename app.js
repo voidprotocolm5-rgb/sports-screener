@@ -57,6 +57,7 @@
     if (t === "HOCKEY" || t === "NHL") return "NHL";
     if (t === "WNBA" || t === "BASKETBALL (WNBA)") return "WNBA";
     if (t === "TENNIS" || t === "ATP" || t === "WTA") return "TENNIS";
+    if (t === "UFC" || t === "MMA") return "UFC";
     return t || "MLB";
   }
 
@@ -294,7 +295,7 @@
     return betsForSport(bets, sportId).length;
   }
 
-  var SUB_SPORTS = { NBA: true, NHL: true };
+  var SUB_SPORTS = { NBA: true, NHL: true, UFC: true };
   function hasSub(sp) { return !!SUB_SPORTS[String(sp || "").toUpperCase()]; }
 
   function parseHash() {
@@ -312,6 +313,8 @@
       return { sport: "NBA", sub: "lines" };
     }
     if (u === "NHL-PROPS" || u === "NHLPROPS") return { sport: "NHL", sub: "props" };
+    if (u === "UFC-PROPS" || u === "UFCPROPS") return { sport: "UFC", sub: "props" };
+    if (u === "UFC-FIGHTS" || u === "UFC") return { sport: "UFC", sub: "lines" };
     if (u === "NHL-LINES" || u === "NHL") return { sport: "NHL", sub: "lines" };
     return { sport: normalizeSport(raw), sub: null };
   }
@@ -425,7 +428,7 @@
     var propsN = allNba.filter(isPropBet).length;
     if (!activeSub) activeSub = "lines";
     var chips = [
-      { id: "lines", label: "Game lines", count: linesN },
+      { id: "lines", label: activeSport === "UFC" ? "Fights" : "Game lines", count: linesN },
       { id: "props", label: "Player props", count: propsN }
     ];
     sub.hidden = false;
@@ -568,7 +571,7 @@
   function renderSportEmpty(sportId, data) {
     var archives = (data && data.archives) || {};
     var arch = archives[sportId] || archives[normalizeSport(sportId)] || null;
-    var labelMap = { MLB: "Baseball", NFL: "Football (NFL)", CFB: "NCAA Football", Soccer: "Soccer", NBA: "Basketball", NHL: "Hockey (NHL)", WNBA: "Basketball (WNBA)", TENNIS: "Tennis" };
+    var labelMap = { MLB: "Baseball", NFL: "Football (NFL)", CFB: "NCAA Football", Soccer: "Soccer", NBA: "Basketball", NHL: "Hockey (NHL)", WNBA: "Basketball (WNBA)", TENNIS: "Tennis", UFC: "UFC" };
     var label = labelMap[sportId] || sportId;
     var isNba = hasSub(normalizeSport(sportId));
     var isRealNba = normalizeSport(sportId) === "NBA";
@@ -576,10 +579,10 @@
     var subLabel = "";
     if (isNba && activeSub === "props") {
       label = "Player props";
-      subLabel = " (" + (isRealNba ? "Basketball" : "Hockey") + " · Player props)";
+      subLabel = " (" + (isRealNba ? "Basketball" : (normalizeSport(sportId) === "UFC" ? "UFC" : "Hockey")) + " · " + (normalizeSport(sportId) === "UFC" ? "Props" : "Player props") + ")";
     } else if (isNba && activeSub === "lines") {
-      label = (isRealNba ? "NBA" : "NHL") + " game lines";
-      subLabel = " (" + (isRealNba ? "Basketball" : "Hockey") + " · Game lines)";
+      label = normalizeSport(sportId) === "UFC" ? "UFC fights" : (isRealNba ? "NBA" : "NHL") + " game lines";
+      subLabel = normalizeSport(sportId) === "UFC" ? " (UFC · Fights)" : " (" + (isRealNba ? "Basketball" : "Hockey") + " · Game lines)";
     }
 
     var archiveHtml = "";
@@ -626,8 +629,48 @@
     return sportId;
   }
 
+  function renderTonightGauge(data) {
+    var g = data && data.tonightsGauge;
+    var el = document.getElementById("tonight-gauge");
+    var nav = $("sport-nav");
+    if (!g || !g.items || !g.items.length) { if (el) el.remove(); return; }
+    if (!el && nav && nav.parentNode) {
+      el = document.createElement("section");
+      el.id = "tonight-gauge";
+      el.className = "tonight-gauge";
+      el.setAttribute("aria-label", "Tonight's Gauge");
+      nav.parentNode.insertBefore(el, nav);
+    }
+    if (!el) return;
+    var rows = g.items.map(function (it) {
+      var tier = String(it.tier || "").toUpperCase();
+      var tcls = tier === "CLEARED" ? "tg-cleared" : (tier === "GAUGE" ? "tg-gauge" : "tg-near");
+      var edge = (it.edge === null || it.edge === undefined || it.edge === "") ? "no cited model" : it.edge;
+      return (
+        '<li class="tg-item">' +
+          '<span class="tg-rank">' + escapeHtml(String(it.rank)) + "</span>" +
+          '<div class="tg-body">' +
+            '<div class="tg-top"><span class="tg-tier ' + tcls + '">' + escapeHtml(tier === "NEAR MISS" ? "NEAR MISS (<6)" : tier) + "</span>" +
+              '<strong class="tg-pick">' + escapeHtml(it.pick || "") + "</strong>" +
+              (it.line ? ' <span class="tg-line">' + escapeHtml(it.line) + "</span>" : "") + "</div>" +
+            '<div class="tg-meta">' + escapeHtml((it.sport ? it.sport + " · " : "") + (it.game || "") + (it.timeCT ? " · " + it.timeCT : "")) + "</div>" +
+            '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) +
+              " · booksAlign " + (it.booksAlign ? "✓" : "✗") + " · " + escapeHtml(String(edge)) + "</div>" +
+            (it.rationale ? '<div class="tg-why">' + escapeHtml(it.rationale) + "</div>" : "") +
+          "</div>" +
+        "</li>"
+      );
+    }).join("");
+    el.innerHTML =
+      '<div class="tg-head"><h2 class="tg-title">Tonight\u2019s Gauge</h2>' +
+      '<span class="tg-sub">' + escapeHtml(g.label || "") + "</span></div>" +
+      '<ol class="tg-list">' + rows + "</ol>" +
+      (g.note ? '<p class="tg-note">' + escapeHtml(g.note) + "</p>" : "");
+  }
+
   function render(data) {
     lastPayload = data;
+    renderTonightGauge(data);
     activeSport = resolveActiveSport(data);
     if (hasSub(activeSport) && !activeSub) activeSub = "lines";
     if (!hasSub(activeSport)) activeSub = null;
