@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-10T10:35:38-05:00",
-  "updatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+  "updatedAt": "2026-10-10T10:41:36-05:00",
+  "updatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT",
   "nearMiss": {
     "CFB": [
       {
@@ -16,20 +16,6 @@ window.BET_BOARD_DATA = {
         "total": 5,
         "booksAlign": true,
         "booksAlignWhy": "Best UGA +2.5 −110 → BE 52.38%. GameLens spread consensus (run at UGA +1.5 · 2/3) 58.5% (+6.12pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
-        "modelOnly": false,
-        "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 2 more X."
-      },
-      {
-        "pick": "UCLA +10.5 (+10.5)",
-        "game": "UCLA @ Oregon · 2:30 PM CT",
-        "gameState": "pre",
-        "yt": 5,
-        "ytWho": "Guy Boston Sports: UCLA +13.5, Brock Page: UCLA +10.5, CBS Sports expert: UCLA +11.5, Sports Parlay Picks: UCLA +10.5, PickDawgz (CFB picks today): Bruins plus the points",
-        "x": 0,
-        "xWho": "",
-        "total": 5,
-        "booksAlign": true,
-        "booksAlignWhy": "Best UCLA +10.5 −112 → BE 52.83%. GameLens spread consensus (run at UCLA +10.5 · 2/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
         "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 2 more X."
       },
@@ -48,6 +34,20 @@ window.BET_BOARD_DATA = {
         "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more X."
       },
       {
+        "pick": "North Dakota State −2.5 (−2.5)",
+        "game": "North Dakota State @ UNLV · 6:00 PM CT",
+        "gameState": "pre",
+        "yt": 3,
+        "ytWho": "SportsLine (Emory): NDSU −3.5, CBS Sports expert: lay the 3.5, The Hurt Feelings Podcast: give me the Bison (side)",
+        "x": 1,
+        "xWho": "@PropBomb (Cleveland Cam): NDSU −3 −115",
+        "total": 4,
+        "booksAlign": true,
+        "booksAlignWhy": "Best NDSU −2.5 −112 → BE 52.83%. GameLens spread consensus (run at NDSU −3.5 · 3/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more X."
+      },
+      {
         "pick": "Oklahoma State −10.5 (−10.5)",
         "game": "UCF @ Oklahoma State · 11:00 AM CT",
         "gameState": "pre",
@@ -62,18 +62,18 @@ window.BET_BOARD_DATA = {
         "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X."
       },
       {
-        "pick": "North Dakota State −2.5 (−2.5)",
-        "game": "North Dakota State @ UNLV · 6:00 PM CT",
+        "pick": "Vanderbilt +9.5 (+9.5)",
+        "game": "Ole Miss @ Vanderbilt · 2:30 PM CT",
         "gameState": "pre",
-        "yt": 2,
-        "ytWho": "SportsLine (Emory): NDSU −3.5, CBS Sports expert: lay the 3.5",
-        "x": 1,
-        "xWho": "@PropBomb (Cleveland Cam): NDSU −3 −115",
+        "yt": 3,
+        "ytWho": "Kyle Kirms: Vanderbilt (underdog for the video), Tony's Picks: Commodores +10, Saturday Football Nerd: Vanderbilt +10.5 (pick of the week)",
+        "x": 0,
+        "xWho": "",
         "total": 3,
         "booksAlign": true,
-        "booksAlignWhy": "Best NDSU −2.5 −112 → BE 52.83%. GameLens spread consensus (run at NDSU −3.5 · 3/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "booksAlignWhy": "Best Vanderbilt +9.5 -108 → BE 51.92%. GameLens spread consensus (run at VAN +9.5 · 2/3) 65.0% (+13.08pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 1 more YT, 1 more X."
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X."
       },
       {
         "pick": "NC State +3.5 (+3.5)",
@@ -104,16 +104,16 @@ window.BET_BOARD_DATA = {
         "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X."
       },
       {
-        "pick": "Vanderbilt +9.5 (+9.5)",
-        "game": "Ole Miss @ Vanderbilt · 2:30 PM CT",
+        "pick": "Illinois −2.5 (−2.5)",
+        "game": "Illinois @ Michigan State · 2:30 PM CT",
         "gameState": "pre",
         "yt": 2,
-        "ytWho": "Kyle Kirms: Vanderbilt (underdog for the video), Tony's Picks: Commodores +10",
+        "ytWho": "Doc's Sports (Jason Sharpe): Illinois −2.5, Tony's Picks (every-game video): lay the points with Illinois",
         "x": 0,
         "xWho": "",
         "total": 2,
         "booksAlign": true,
-        "booksAlignWhy": "Best Vanderbilt +9.5 -108 → BE 51.92%. GameLens spread consensus (run at VAN +9.5 · 2/3) 65.0% (+13.08pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "booksAlignWhy": "Best Illinois −2.5 -120 → BE 54.55%. GameLens spread consensus (run at ILL −2.5 · 3/3) 65.0% (+10.45pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
         "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X."
       },
@@ -188,46 +188,60 @@ window.BET_BOARD_DATA = {
         "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X."
       },
       {
-        "pick": "Illinois −2.5 (−2.5)",
-        "game": "Illinois @ Michigan State · 2:30 PM CT",
+        "pick": "Air Force −7 (−7)",
+        "game": "Air Force @ Northern Illinois · 6:30 PM CT",
         "gameState": "pre",
         "yt": 1,
-        "ytWho": "Doc's Sports (Jason Sharpe): Illinois −2.5",
+        "ytWho": "Tony's Picks (every-game video): lay the points with Air Force",
         "x": 0,
         "xWho": "",
         "total": 1,
         "booksAlign": true,
-        "booksAlignWhy": "Best Illinois −2.5 -120 → BE 54.55%. GameLens spread consensus (run at ILL −2.5 · 3/3) 65.0% (+10.45pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "booksAlignWhy": "Best Air Force −7 -112 → BE 52.83%. GameLens spread consensus (run at AFA −7.5 · 3/3) 57.6% (+4.77pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
         "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X."
       },
       {
-        "pick": "Alabama ML (−125)",
-        "game": "Georgia @ Alabama · 6:30 PM CT",
+        "pick": "Eastern Michigan −5.5 (−5.5)",
+        "game": "Eastern Michigan @ Akron",
         "gameState": "pre",
-        "yt": 2,
-        "ytWho": "Greedo Plays: taking Alabama (side), Locked On Gators (Kevin Rogers): Crimson Tide at home",
-        "x": 3,
-        "xWho": "@jr_dimes: Alabama −120, @ChillyBets: Alabama ML (leg), @CallingOurShot: Alabama ML (leg)",
-        "total": 5,
-        "booksAlign": false,
-        "booksAlignWhy": "Best ALA −125 → BE 55.56%. ESPN FPI win% 51.4% (-4.16pp); GameLens ML (complement of UGA 50.9%) 49.1% (-6.46pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
+        "yt": 1,
+        "ytWho": "Tony's Picks (every-game video): lay the points with Eastern Michigan",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Eastern Michigan −5.5 -110 → BE 52.38%. GameLens spread consensus (run at EMU −6.5 · 3/3) 65.0% (+12.62pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 1 more YT, booksAlign."
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X."
       },
       {
-        "pick": "Penn State ML (−125)",
-        "game": "USC @ Penn State · 6:30 PM CT",
+        "pick": "Duke −4.5 (−4.5)",
+        "game": "Duke @ Georgia Tech · 2:30 PM CT",
         "gameState": "pre",
-        "yt": 2,
-        "ytWho": "Beating The Odds: Penn State ML −120, PickDawgz (CFB picks today): Penn State ML",
-        "x": 3,
-        "xWho": "@jr_dimes: Penn St −120, @__LordPenguin: Penn State ML (parlay leg), @CallingOurShot: Penn State ML (leg)",
-        "total": 5,
-        "booksAlign": false,
-        "booksAlignWhy": "Best PSU −125 → BE 55.56%. ESPN FPI win% 62.8% (+7.24pp); GameLens ML 48.3% (-7.26pp). Model war, so booksAlign is false.",
+        "yt": 1,
+        "ytWho": "Tony's Picks (every-game video): lay the points with Duke",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Duke −4.5 -115 → BE 53.49%. GameLens spread consensus (run at DUKE −6.5 · 3/3) 56.4% (+2.91pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 1 more YT, booksAlign."
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X."
+      },
+      {
+        "pick": "Minnesota −2.5 (−2.5)",
+        "game": "Minnesota @ Purdue · 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "Tony's Picks (every-game video): lay the points with Minnesota",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Minnesota −2.5 -115 → BE 53.49%. GameLens spread consensus (run at MINN −2.5 · 3/3) 65.0% (+11.51pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X."
       },
       {
         "pick": "Ole Miss −9.5 (−9.5)",
@@ -242,6 +256,34 @@ window.BET_BOARD_DATA = {
         "booksAlignWhy": "Best MISS −9.5 −112 → BE 52.83%. GameLens spread (complement of VAN +9.5 65.0%) 35.0% (-17.83pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
         "modelOnly": false,
         "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 1 more X, booksAlign."
+      },
+      {
+        "pick": "Nebraska +8.5 (+8.5)",
+        "game": "Indiana @ Nebraska · 11:00 AM CT",
+        "gameState": "pre",
+        "yt": 3,
+        "ytWho": "CFB900 (Chris Andrews): Nebraska, Guy Boston Sports: Nebraska +9.5, East Coast Edge: Nebraska +7.5",
+        "x": 1,
+        "xWho": "@jr_dimes: Nebraska +8.5",
+        "total": 4,
+        "booksAlign": false,
+        "booksAlignWhy": "Best NEB +8.5 −110 → BE 52.38%. GameLens spread consensus 2/3 (run at NEB +7.5) 54.6% (+2.22pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more X, booksAlign."
+      },
+      {
+        "pick": "Missouri −4 (−4)",
+        "game": "Texas A&M @ Missouri · 11:00 AM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Kyle Kirms: Missouri −3, Tony's Picks (every-game video): lay the points with Missouri",
+        "x": 2,
+        "xWho": "@ChillyBets: Missouri −2.5 (alt, parlay leg), @parlay_bae: Missouri +5.5 (alt, parlay leg)",
+        "total": 4,
+        "booksAlign": false,
+        "booksAlignWhy": "Best MIZ −4 −110 → BE 52.38%. GameLens spread (complement of TA&M +3.5 55.1%) 44.9% (-7.48pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more YT, booksAlign."
       },
       {
         "pick": "Florida −10.5 (−10.5)",
@@ -286,34 +328,6 @@ window.BET_BOARD_DATA = {
         "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 1 more X, booksAlign."
       },
       {
-        "pick": "Nebraska +8.5 (+8.5)",
-        "game": "Indiana @ Nebraska · 11:00 AM CT",
-        "gameState": "pre",
-        "yt": 2,
-        "ytWho": "CFB900 (Chris Andrews): Nebraska, Guy Boston Sports: Nebraska +9.5",
-        "x": 1,
-        "xWho": "@jr_dimes: Nebraska +8.5",
-        "total": 3,
-        "booksAlign": false,
-        "booksAlignWhy": "Best NEB +8.5 −110 → BE 52.38%. GameLens spread consensus 2/3 (run at NEB +7.5) 54.6% (+2.22pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
-        "modelOnly": false,
-        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 1 more YT, 1 more X, booksAlign."
-      },
-      {
-        "pick": "Missouri −4 (−4)",
-        "game": "Texas A&M @ Missouri · 11:00 AM CT",
-        "gameState": "pre",
-        "yt": 1,
-        "ytWho": "Kyle Kirms: Missouri −3",
-        "x": 2,
-        "xWho": "@ChillyBets: Missouri −2.5 (alt, parlay leg), @parlay_bae: Missouri +5.5 (alt, parlay leg)",
-        "total": 3,
-        "booksAlign": false,
-        "booksAlignWhy": "Best MIZ −4 −110 → BE 52.38%. GameLens spread (complement of TA&M +3.5 55.1%) 44.9% (-7.48pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
-        "modelOnly": false,
-        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more YT, booksAlign."
-      },
-      {
         "pick": "North Carolina +3.5 (+3.5)",
         "game": "North Carolina @ Pittsburgh · 11:00 AM CT",
         "gameState": "pre",
@@ -354,6 +368,20 @@ window.BET_BOARD_DATA = {
         "booksAlignWhy": "Best o51.5 −115 → BE 53.49%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
         "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign."
+      },
+      {
+        "pick": "Under 51.5 (u51.5)",
+        "game": "Georgia @ Alabama · 6:30 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "CBS Sports expert: Under (safest bet), BBOC: on the under at 51.5",
+        "x": 1,
+        "xWho": "@ActionNetworkHQ: UGA/ALA Under 51.5",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "Best u51.5 −105 → BE 51.22%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 1 more YT, 1 more X, booksAlign."
       },
       {
         "pick": "USC ML (+105)",
@@ -440,20 +468,6 @@ window.BET_BOARD_DATA = {
         "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign."
       },
       {
-        "pick": "Under 51.5 (u51.5)",
-        "game": "Georgia @ Alabama · 6:30 PM CT",
-        "gameState": "pre",
-        "yt": 1,
-        "ytWho": "CBS Sports expert: Under (safest bet)",
-        "x": 1,
-        "xWho": "@ActionNetworkHQ: UGA/ALA Under 51.5",
-        "total": 2,
-        "booksAlign": false,
-        "booksAlignWhy": "Best u51.5 −105 → BE 51.22%. No cited model win% observed, so booksAlign is false.",
-        "modelOnly": false,
-        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign."
-      },
-      {
         "pick": "Houston ML (+114)",
         "game": "Houston @ Kansas State · 2:30 PM CT",
         "gameState": "pre",
@@ -480,6 +494,216 @@ window.BET_BOARD_DATA = {
         "booksAlignWhy": "Best u51.5 −115 → BE 53.49%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
         "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "USC +2.5 (+2.5)",
+        "game": "USC @ Penn State · 6:30 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Sports Parlay Picks: USC +3.5, CBS Sports expert: USC +1.5",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best USC +2.5 −115 → BE 53.49%. GameLens spread consensus (run at USC +1.5 · 2/3) 55.9% (+2.41pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Over 48.5 (o48.5)",
+        "game": "Indiana @ Nebraska · 11:00 AM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "SportsLine (Mike): Over 48.5",
+        "x": 1,
+        "xWho": "@BigBoiBets92: Over (alt 43.5, 11-leg)",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best o48.5 −105 → BE 51.22%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign."
+      },
+      {
+        "pick": "Tulane +4 (+4)",
+        "game": "Tulane @ Army · 11:00 AM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best TULN +4 −110 → BE 52.38%. GameLens spread consensus 2/3 (run at TULN +3.5) 65.0% (+12.62pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Sacramento State +9.5 (+9.5)",
+        "game": "Sacramento State @ Bowling Green · 11:00 AM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best SAC +9.5 −112 → BE 52.83%. GameLens spread consensus 2/3 (run at SAC +7.5) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Rice +10 (+10)",
+        "game": "Rice @ East Carolina · 12:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best RICE +10 −110 → BE 52.38%. GameLens spread consensus 2/3 (run at RICE +9.5) 65.0% (+12.62pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "UMass +6 (+6)",
+        "game": "Miami (OH) @ UMass · 1:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best UMass +6 -110 → BE 52.38%. GameLens spread consensus (run at MASS +2.5 · 2/3) 65.0% (+12.62pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "UConn +3.5 (+3.5)",
+        "game": "UConn @ Temple",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best UConn +3.5 -108 → BE 51.92%. GameLens spread consensus (run at CONN +3.5 · 2/3) 65.0% (+13.08pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Tulsa +3 (+3)",
+        "game": "Tulsa @ Navy",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Tulsa +3 -115 → BE 53.49%. GameLens spread consensus (run at TLSA +2.5 · 2/3) 61.1% (+7.61pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Coastal Carolina +4.5 (+4.5)",
+        "game": "Coastal Carolina @ Marshall · 6:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Coastal Carolina +4.5 -112 → BE 52.83%. GameLens spread consensus (run at CCU +4.5 · 2/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Arkansas +13.5 (+13.5)",
+        "game": "Tennessee @ Arkansas · 3:15 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Arkansas +13.5 -105 → BE 51.22%. GameLens spread consensus (run at ARK +13.5 · 2/3) 65.0% (+13.78pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Stanford +40.5 (+40.5)",
+        "game": "Stanford @ Notre Dame · 2:30 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Stanford +40.5 -112 → BE 52.83%. GameLens spread consensus (run at STAN +38.5 · 2/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "James Madison −7.5 (−7.5)",
+        "game": "James Madison @ Georgia Southern · 6:30 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best James Madison −7.5 -105 → BE 51.22%. GameLens spread consensus (run at JMU −7.5 · 3/3) 65.0% (+13.78pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Kent State +14 (+14)",
+        "game": "Kent State @ Western Michigan",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Kent State +14 -112 → BE 52.83%. GameLens spread consensus (run at KENT +13.5 · 2/3) 58.5% (+5.67pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "Central Michigan +2.5 (+2.5)",
+        "game": "Central Michigan @ Ohio",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best Central Michigan +2.5 -112 → BE 52.83%. GameLens spread consensus (run at CMU +2.5 · 2/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
+      },
+      {
+        "pick": "San Diego State +16.5 (+16.5)",
+        "game": "San Diego State @ Oregon State · 5:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 0,
+        "xWho": "",
+        "total": 0,
+        "booksAlign": true,
+        "booksAlignWhy": "Best San Diego State +16.5 -112 → BE 52.83%. GameLens spread consensus (run at SDSU +14.5 · 2/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "modelOnly": true,
+        "gap": "Gap to 6: 6 source(s). Gap to CLEARED: 3 more YT, 2 more X."
       }
     ],
     "Soccer": [
@@ -556,6 +780,20 @@ window.BET_BOARD_DATA = {
     ],
     "MLB": [
       {
+        "pick": "Over 7 (o7)",
+        "game": "ALDS Game 5 · White Sox @ Guardians · 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 4,
+        "ytWho": "The Bettor Mark: Over 7 −112 best bet, Doc's Sports (Scott Rickenbach): Over 7 free pick, Beast Sports Picks: Over (alt 5.5), Tony's Picks (host): give me the over",
+        "x": 0,
+        "xWho": "",
+        "total": 4,
+        "booksAlign": false,
+        "booksAlignWhy": "Best o7 −122 → BE 54.95%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 2 more X, booksAlign."
+      },
+      {
         "pick": "White Sox ML (+118)",
         "game": "ALDS Game 5 · White Sox @ Guardians · 7:00 PM CT",
         "gameState": "pre",
@@ -566,20 +804,6 @@ window.BET_BOARD_DATA = {
         "total": 3,
         "booksAlign": false,
         "booksAlignWhy": "Best CHW +118 → BE 45.87%. GameLens ML (complement of CLE 64.6%) 35.4% (-10.47pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
-        "modelOnly": false,
-        "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign."
-      },
-      {
-        "pick": "Over 7 (o7)",
-        "game": "ALDS Game 5 · White Sox @ Guardians · 7:00 PM CT",
-        "gameState": "pre",
-        "yt": 3,
-        "ytWho": "The Bettor Mark: Over 7 −112 best bet, Doc's Sports (Scott Rickenbach): Over 7 free pick, Beast Sports Picks: Over (alt 5.5)",
-        "x": 0,
-        "xWho": "",
-        "total": 3,
-        "booksAlign": false,
-        "booksAlignWhy": "Best o7 −122 → BE 54.95%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
         "gap": "Gap to 6: 3 source(s). Gap to CLEARED: 2 more X, booksAlign."
       },
@@ -652,6 +876,48 @@ window.BET_BOARD_DATA = {
         "total": 2,
         "booksAlign": false,
         "booksAlignWhy": "Best VAN +1.5 −108 → BE 51.92%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Under 6.5 (u6.5)",
+        "game": "Vancouver @ New Jersey · 2:30 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "Doc's Sports (Griffin Murphy): give me the under (SGP leg)",
+        "x": 1,
+        "xWho": "@SGP_Vick: VAN@NJ Under 6.5 (SGP leg)",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best u6.5 −118 → BE 54.13%. GameLens total (complement of Over 52.9%, no line stated) 47.1% (-7.03pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign."
+      },
+      {
+        "pick": "Carolina −1.5 (−1.5)",
+        "game": "Carolina @ Chicago · 6:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Doc's Sports (Vernon): Carolina puck line −1.5, Tipster Sports: Hurricanes −1.5",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best CAR −1.5 +105 → BE 48.78%. No cited model win% observed, so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
+      },
+      {
+        "pick": "Islanders ML (+142)",
+        "game": "Tampa Bay @ NY Islanders · 6:30 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Doc's Sports (Craig Trapp): Islanders +148, Tipster Sports: Islanders ML +142",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best NYI +142 → BE 41.32%. No cited model win% observed, so booksAlign is false.",
         "modelOnly": false,
         "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign."
       }
@@ -733,9 +999,9 @@ window.BET_BOARD_DATA = {
   "sport": "CFB",
   "defaultSport": "CFB",
   "status": "live",
-  "summary": "1 CLEARED / 3 GAUGE · Sat Oct 10, 2026 · 10:35 AM CT · Saturday pass (CFB full slate + soccer; other sports in progress) · strict 6+ (firm picks) · Research only",
+  "summary": "1 CLEARED / 6 GAUGE · Sat Oct 10, 2026 · 10:41 AM CT · Saturday pass complete (all sports except NFL) · strict 6+ (firm picks) · Research only",
   "clearedCount": 1,
-  "gaugeCount": 3,
+  "gaugeCount": 6,
   "sports": [
     {
       "id": "CFB",
@@ -789,47 +1055,47 @@ window.BET_BOARD_DATA = {
   "archives": {
     "CFB": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT",
       "note": "Full slate researched from YouTube, X (list), GameLens, ESPN FPI, and DK prices via ESPN. GameLens spread % is only applied at the same or a better number than today's DK line. GameLens totals don't state a line and FPI is moneyline-only, so neither is applied to spreads or totals."
     },
     "MLB": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT",
       "note": "ALDS Game 5 CHW@CLE (7:00 PM CT) is the only MLB game today. Sources: YouTube (firm picks), the X list, and the GameLens MLB model."
     },
     "Soccer": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT",
       "note": "Afternoon/evening cards (EPL, LaLiga, Ligue 1, internationals, MLS) researched from YouTube and the X list. Morning European games had started, so their slips were excluded. No cited soccer win-probability model was observed, so soccer booksAlign is false."
     },
     "NHL": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT",
       "note": "15-game slate. YouTube firm picks (Doc's Vernon/Craig Trapp/Jason Sharpe, Sports Parlay Picks, Covers) and X props (single sources each). No NHL pick reached 6. Score-prediction channels were excluded."
     },
     "NBA": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT",
       "note": "7 preseason games (LAC@TOR 5:30 PM CT through SA@PHX 9:30 PM CT). No firm picks from betting cappers on YouTube (results were 2K sims, team pods, or AI pick channels) and no NBA slips on the X list today, so nothing qualifies."
     },
     "WNBA": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT",
       "note": "No WNBA games today (ESPN shows 0). The Finals (ATL vs GSV) start later, with Game 1 listed Oct 17 by Dimers. Nothing to screen."
     },
     "TENNIS": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT",
       "note": "Shanghai R3 (played Sunday local, Saturday night CT) priced via OddsSafari and modeled with the Tennis Abstract Elo forecast. No tennis slips on the X list today. YouTube had one firm tennis capper (semotipster). No main cards. Wuhan qualifying and Roveret had no model coverage."
     },
     "NFL": {
       "lastSlate": "Sat Oct 10 2026 CT · NFL",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT",
       "note": "Not covered on Saturday per Atlas. No NFL research this pass."
     },
     "NBA-PROPS": {
       "lastSlate": "Sat Oct 10 2026 CT",
-      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT",
+      "lastUpdatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT",
       "note": "No firm NBA preseason prop picks from a human capper on YouTube or the X list today."
     },
     "Rule": {
@@ -844,11 +1110,11 @@ window.BET_BOARD_DATA = {
   },
   "liveGames": {},
   "minEdgeProcess": {
-    "passed": 3,
-    "failed": 1,
-    "contested": 0,
+    "passed": 4,
+    "failed": 3,
+    "contested": 1,
     "note": "booksAlign true only via MinEdge ≥2.5pp vs BE of best observed price with a cited model (GameLens, ESPN FPI, ats.io, EdgeGoat, Tennis Abstract Elo, etc.). Model war ⇒ false. Live ⇒ info only. Never invent modelWinPct.",
-    "updatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT"
+    "updatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT"
   },
   "researchOnly": true,
   "noBetsPlaced": true,
@@ -858,12 +1124,12 @@ window.BET_BOARD_DATA = {
     "beat": 0,
     "match": 0,
     "lose": 0,
-    "pending": 4,
+    "pending": 7,
     "unobserved": 0,
     "beatRate": "n/a",
     "bar": "Logic CLV ≳ half-hold",
     "note": "Sat Oct 10 slate; CLV pending until close.",
-    "updatedAtLabel": "Sat Oct 10, 2026 · 10:35 AM CT"
+    "updatedAtLabel": "Sat Oct 10, 2026 · 10:41 AM CT"
   },
   "bets": [
     {
@@ -876,26 +1142,27 @@ window.BET_BOARD_DATA = {
       "pick": "Texas −7.5",
       "line": "−7.5",
       "gameState": "pre",
-      "consensusPct": 67,
+      "consensusPct": 70,
       "simWinPct": 65.0,
       "ev": "+12.6pp vs BE",
-      "confidence": 67,
-      "why": "YouTube 4 same side (CBS Sports expert: Texas −7.5, Fantasy Aces: give me Texas (side), Sports Parlay Picks: Texas −6.5 (+ML), Locked On Gators (Kevin Rogers): lay the points with Texas); contested by Oklahoma +7.5/+9.5 (Kyle Kirms, Brock Page, CBS Sports expert) 3 YT. Send-it 2 unique poster(s): @ActionNetworkHQ: Texas −7.5; @ChillyBets: Texas −6.5 (alt, parlay leg). Books: Best TEX −7.5 −110 → BE 52.38%. GameLens spread consensus (run at TEX −7.5 · 3/3) 65.0% (+12.62pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true. CLEARED: YT≥3 + X≥2 + booksAlign.",
+      "confidence": 70,
+      "why": "YouTube 5 same side (CBS Sports expert: Texas −7.5, Fantasy Aces: give me Texas (side), Sports Parlay Picks: Texas −6.5 (+ML), Locked On Gators (Kevin Rogers): lay the points with Texas, Tony's Picks (every-game video): lay the points with Texas); contested by Oklahoma +7.5/+9.5 (Kyle Kirms, Brock Page, CBS Sports expert) 3 YT. Send-it 2 unique poster(s): @ActionNetworkHQ: Texas −7.5; @ChillyBets: Texas −6.5 (alt, parlay leg). Books: Best TEX −7.5 −110 → BE 52.38%. GameLens spread consensus (run at TEX −7.5 · 3/3) 65.0% (+12.62pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true. CLEARED: YT≥3 + X≥2 + booksAlign.",
       "sources": {
-        "youtube": 4,
+        "youtube": 5,
         "xSendIt": 2,
         "booksAlign": true
       },
       "ledger": {
-        "thesis": "6 firm sources (4 YT + 2 X) plus a same-number GameLens 3/3 MinEdge pass.",
+        "thesis": "7 firm sources (5 YT + 2 X) plus a same-number GameLens 3/3 MinEdge pass.",
         "yt": {
-          "sameSide": 4,
-          "strictPicks": 4,
+          "sameSide": 5,
+          "strictPicks": 5,
           "channels": [
             "CBS Sports expert: Texas −7.5",
             "Fantasy Aces: give me Texas (side)",
             "Sports Parlay Picks: Texas −6.5 (+ML)",
-            "Locked On Gators (Kevin Rogers): lay the points with Texas"
+            "Locked On Gators (Kevin Rogers): lay the points with Texas",
+            "Tony's Picks (every-game video): lay the points with Texas"
           ],
           "contestedOpposite": 3,
           "contestedSide": "Oklahoma +7.5/+9.5 (Kyle Kirms, Brock Page, CBS Sports expert)",
@@ -920,7 +1187,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "DraftKings via ESPN",
           "breakEvenPct": 52.38,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-10T10:35:38-05:00",
+          "checkedAt": "2026-10-10T10:41:36-05:00",
           "modelWinPct": 65.0,
           "modelSource": "GameLens spread consensus (run at TEX −7.5 · 3/3)",
           "edgeVsBePct": 12.62,
@@ -928,14 +1195,158 @@ window.BET_BOARD_DATA = {
           "missReason": null
         },
         "notes": "FPI is ML-only (TEX 84.9%) and is not applied to the spread. 65.0% looks like GameLens' display cap.",
-        "checkedAt": "2026-10-10T10:35:38-05:00",
+        "checkedAt": "2026-10-10T10:41:36-05:00",
         "gameKey": "TEX VS OU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
       "rank": 1
     },
     {
+      "id": "sat-cfb-4",
+      "example": false,
+      "sport": "CFB",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "USC @ Penn State · 6:30 PM CT",
+      "pick": "Penn State ML",
+      "line": "−125",
+      "gameState": "pre",
+      "consensusPct": 70,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 70,
+      "why": "YouTube 4 same side (Beating The Odds: Penn State ML −120, PickDawgz (CFB picks today): Penn State ML, The Hurt Feelings Podcast: Penn State, East Coast Edge: Penn State ML −122); contested by USC ML (SportsLine Emory, CBS Sports expert; X @VegasMinion) 3 YT. Send-it 3 unique poster(s): @jr_dimes: Penn St −120; @__LordPenguin: Penn State ML (parlay leg); @CallingOurShot: Penn State ML (leg). Books: Best PSU −125 → BE 55.56%. ESPN FPI win% 62.8% (+7.24pp); GameLens ML 48.3% (-7.26pp). Model war, so booksAlign is false. GAUGE: Dual-source near-clear: YT4/X3 floors met; booksAlign false only.",
+      "sources": {
+        "youtube": 4,
+        "xSendIt": 3,
+        "booksAlign": false
+      },
+      "ledger": {
+        "thesis": "7 firm sources (4 YT + 3 X). Model war: FPI 62.8% passes, GameLens has USC 51.7%, so booksAlign is false.",
+        "yt": {
+          "sameSide": 4,
+          "strictPicks": 4,
+          "channels": [
+            "Beating The Odds: Penn State ML −120",
+            "PickDawgz (CFB picks today): Penn State ML",
+            "The Hurt Feelings Podcast: Penn State",
+            "East Coast Edge: Penn State ML −122"
+          ],
+          "contestedOpposite": 3,
+          "contestedSide": "USC ML (SportsLine Emory, CBS Sports expert; X @VegasMinion)",
+          "contested": true
+        },
+        "sendIt": {
+          "uniquePosters": 3,
+          "whoOdds": [
+            "@jr_dimes: Penn St −120",
+            "@__LordPenguin: Penn State ML (parlay leg)",
+            "@CallingOurShot: Penn State ML (leg)"
+          ],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "Dual-source near-clear: YT4/X3 floors met; booksAlign false only."
+        },
+        "booksAlign": false,
+        "booksAlignWhy": "Best PSU −125 → BE 55.56%. ESPN FPI win% 62.8% (+7.24pp); GameLens ML 48.3% (-7.26pp). Model war, so booksAlign is false.",
+        "floorGap": "Dual-source near-clear: YT4/X3 floors met; booksAlign false only.",
+        "minEdge": {
+          "bestLine": "PSU −125",
+          "bestAmerican": -125,
+          "bestSource": "DraftKings via ESPN",
+          "breakEvenPct": 55.56,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T10:41:36-05:00",
+          "modelWinPct": null,
+          "modelSource": null,
+          "edgeVsBePct": null,
+          "path": "contested",
+          "modelWar": true,
+          "passingModels": [
+            "ESPN FPI win% 62.8% (+7.24pp)"
+          ],
+          "failingModels": [
+            "GameLens ML 48.3% (-7.26pp)"
+          ],
+          "missReason": "MODEL WAR: ESPN FPI win% 62.8% (+7.24pp); GameLens ML 48.3% (-7.26pp). Model-war rule ⇒ booksAlign false."
+        },
+        "notes": "",
+        "checkedAt": "2026-10-10T10:41:36-05:00",
+        "gameKey": "USC @ PSU",
+        "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
+      },
+      "rank": 2
+    },
+    {
       "id": "sat-cfb-3",
+      "example": false,
+      "sport": "CFB",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Georgia @ Alabama · 6:30 PM CT",
+      "pick": "Alabama ML",
+      "line": "−125",
+      "gameState": "pre",
+      "consensusPct": 86,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 86,
+      "why": "YouTube 3 same side (Greedo Plays: taking Alabama (side), Locked On Gators (Kevin Rogers): Crimson Tide at home, The Hurt Feelings Podcast: Alabama straight up at home); contested by Georgia ML +115 (Fantasy Aces) 1 YT. Send-it 3 unique poster(s): @jr_dimes: Alabama −120; @ChillyBets: Alabama ML (leg); @CallingOurShot: Alabama ML (leg). Books: Best ALA −125 → BE 55.56%. ESPN FPI win% 51.4% (-4.16pp); GameLens ML (complement of UGA 50.9%) 49.1% (-6.46pp). Nothing clears MinEdge +2.5pp, so booksAlign is false. GAUGE: Dual-source near-clear: YT3/X3 floors met; booksAlign false only.",
+      "sources": {
+        "youtube": 3,
+        "xSendIt": 3,
+        "booksAlign": false
+      },
+      "ledger": {
+        "thesis": "6 firm sources (3 YT + 3 X). Neither cited model clears −125, so it's a GAUGE play.",
+        "yt": {
+          "sameSide": 3,
+          "strictPicks": 3,
+          "channels": [
+            "Greedo Plays: taking Alabama (side)",
+            "Locked On Gators (Kevin Rogers): Crimson Tide at home",
+            "The Hurt Feelings Podcast: Alabama straight up at home"
+          ],
+          "contestedOpposite": 1,
+          "contestedSide": "Georgia ML +115 (Fantasy Aces)",
+          "contested": true
+        },
+        "sendIt": {
+          "uniquePosters": 3,
+          "whoOdds": [
+            "@jr_dimes: Alabama −120",
+            "@ChillyBets: Alabama ML (leg)",
+            "@CallingOurShot: Alabama ML (leg)"
+          ],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "Dual-source near-clear: YT3/X3 floors met; booksAlign false only."
+        },
+        "booksAlign": false,
+        "booksAlignWhy": "Best ALA −125 → BE 55.56%. ESPN FPI win% 51.4% (-4.16pp); GameLens ML (complement of UGA 50.9%) 49.1% (-6.46pp). Nothing clears MinEdge +2.5pp, so booksAlign is false.",
+        "floorGap": "Dual-source near-clear: YT3/X3 floors met; booksAlign false only.",
+        "minEdge": {
+          "bestLine": "ALA −125",
+          "bestAmerican": -125,
+          "bestSource": "DraftKings via ESPN",
+          "breakEvenPct": 55.56,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T10:41:36-05:00",
+          "modelWinPct": 51.4,
+          "modelSource": "ESPN FPI win%",
+          "edgeVsBePct": -4.16,
+          "path": "fail",
+          "missReason": "No cited model clears +2.5pp: ESPN FPI win% 51.4% (-4.16pp); GameLens ML (complement of UGA 50.9%) 49.1% (-6.46pp)."
+        },
+        "notes": "",
+        "checkedAt": "2026-10-10T10:41:36-05:00",
+        "gameKey": "UGA @ ALA",
+        "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
+      },
+      "rank": 3
+    },
+    {
+      "id": "sat-cfb-5",
       "example": false,
       "sport": "CFB",
       "tier": "gauge",
@@ -988,7 +1399,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "DraftKings via ESPN",
           "breakEvenPct": 52.38,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-10T10:35:38-05:00",
+          "checkedAt": "2026-10-10T10:41:36-05:00",
           "modelWinPct": 61.7,
           "modelSource": "GameLens spread consensus (run at HOU +2.5 · 2/3)",
           "edgeVsBePct": 9.32,
@@ -996,11 +1407,78 @@ window.BET_BOARD_DATA = {
           "missReason": null
         },
         "notes": "",
-        "checkedAt": "2026-10-10T10:35:38-05:00",
+        "checkedAt": "2026-10-10T10:41:36-05:00",
         "gameKey": "HOU @ KSU",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
-      "rank": 2
+      "rank": 4
+    },
+    {
+      "id": "sat-cfb-6",
+      "example": false,
+      "sport": "CFB",
+      "tier": "gauge",
+      "marketType": "spread",
+      "game": "UCLA @ Oregon · 2:30 PM CT",
+      "pick": "UCLA +10.5",
+      "line": "+10.5",
+      "gameState": "pre",
+      "consensusPct": 100,
+      "simWinPct": 65.0,
+      "ev": "+12.2pp vs BE",
+      "confidence": 100,
+      "why": "YouTube 6 same side (Guy Boston Sports: UCLA +13.5, Brock Page: UCLA +10.5, CBS Sports expert: UCLA +11.5, Sports Parlay Picks: UCLA +10.5, PickDawgz (CFB picks today): Bruins plus the points, East Coast Edge: UCLA +10.5). Send-it 0 unique poster(s): none. Books: Best UCLA +10.5 −112 → BE 52.83%. GameLens spread consensus (run at UCLA +10.5 · 2/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true. GAUGE: One-source YT6/X0: 2 send-it short.",
+      "sources": {
+        "youtube": 6,
+        "xSendIt": 0,
+        "booksAlign": true
+      },
+      "ledger": {
+        "thesis": "6 firm YT sources plus a same-number GameLens MinEdge pass. No X support, so it's a GAUGE play.",
+        "yt": {
+          "sameSide": 6,
+          "strictPicks": 6,
+          "channels": [
+            "Guy Boston Sports: UCLA +13.5",
+            "Brock Page: UCLA +10.5",
+            "CBS Sports expert: UCLA +11.5",
+            "Sports Parlay Picks: UCLA +10.5",
+            "PickDawgz (CFB picks today): Bruins plus the points",
+            "East Coast Edge: UCLA +10.5"
+          ],
+          "contestedOpposite": 0,
+          "contestedSide": "",
+          "contested": false
+        },
+        "sendIt": {
+          "uniquePosters": 0,
+          "whoOdds": [],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "One-source YT6/X0: 2 send-it short."
+        },
+        "booksAlign": true,
+        "booksAlignWhy": "Best UCLA +10.5 −112 → BE 52.83%. GameLens spread consensus (run at UCLA +10.5 · 2/3) 65.0% (+12.17pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "floorGap": "One-source YT6/X0: 2 send-it short.",
+        "minEdge": {
+          "bestLine": "UCLA +10.5 −112",
+          "bestAmerican": -112,
+          "bestSource": "DraftKings via ESPN",
+          "breakEvenPct": 52.83,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-10T10:41:36-05:00",
+          "modelWinPct": 65.0,
+          "modelSource": "GameLens spread consensus (run at UCLA +10.5 · 2/3)",
+          "edgeVsBePct": 12.17,
+          "path": "pass",
+          "missReason": null
+        },
+        "notes": "FPI is ML-only (ORE 84.7%) and is not applied.",
+        "checkedAt": "2026-10-10T10:41:36-05:00",
+        "gameKey": "UCLA @ ORE",
+        "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
+      },
+      "rank": 5
     },
     {
       "id": "sat-cfb-1",
@@ -1012,11 +1490,11 @@ window.BET_BOARD_DATA = {
       "pick": "Indiana −8.5",
       "line": "−8.5",
       "gameState": "pre",
-      "consensusPct": 70,
+      "consensusPct": 64,
       "simWinPct": null,
       "ev": null,
-      "confidence": 70,
-      "why": "YouTube 6 same side (CBS Sports expert: Indiana −7.5, Kyle Kirms: on Indiana (side, spread video), PickDawgz (Jay): Indiana laying the points, Greedo Plays: taking Indiana (side), Doc's Sports (IU–NEB free pick): Hoosiers minus the points, Sports Parlay Picks: Indiana −6.5 (+ML)); contested by Nebraska +8.5/+9.5 (CFB900, Guy Boston; X @jr_dimes) 3 YT. Send-it 1 unique poster(s): @Covers (Brad Powers): Indiana −7.5. Books: Best IU −8.5 −110 → BE 52.38%. GameLens spread (complement of NEB 54.6%) 45.4% (-6.98pp). Nothing clears MinEdge +2.5pp, so booksAlign is false. GAUGE: Dual-source YT6/X1: 1 send-it short, booksAlign false.",
+      "confidence": 64,
+      "why": "YouTube 6 same side (CBS Sports expert: Indiana −7.5, Kyle Kirms: on Indiana (side, spread video), PickDawgz (Jay): Indiana laying the points, Greedo Plays: taking Indiana (side), Doc's Sports (IU–NEB free pick): Hoosiers minus the points, Sports Parlay Picks: Indiana −6.5 (+ML)); contested by Nebraska +7.5/+9.5 (CFB900, Guy Boston, East Coast Edge; X @jr_dimes) 4 YT. Send-it 1 unique poster(s): @Covers (Brad Powers): Indiana −7.5. Books: Best IU −8.5 −110 → BE 52.38%. GameLens spread (complement of NEB 54.6%) 45.4% (-6.98pp). Nothing clears MinEdge +2.5pp, so booksAlign is false. GAUGE: Dual-source YT6/X1: 1 send-it short, booksAlign false.",
       "sources": {
         "youtube": 6,
         "xSendIt": 1,
@@ -1035,8 +1513,8 @@ window.BET_BOARD_DATA = {
             "Doc's Sports (IU–NEB free pick): Hoosiers minus the points",
             "Sports Parlay Picks: Indiana −6.5 (+ML)"
           ],
-          "contestedOpposite": 3,
-          "contestedSide": "Nebraska +8.5/+9.5 (CFB900, Guy Boston; X @jr_dimes)",
+          "contestedOpposite": 4,
+          "contestedSide": "Nebraska +7.5/+9.5 (CFB900, Guy Boston, East Coast Edge; X @jr_dimes)",
           "contested": true
         },
         "sendIt": {
@@ -1057,7 +1535,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "DraftKings via ESPN",
           "breakEvenPct": 52.38,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-10T10:35:38-05:00",
+          "checkedAt": "2026-10-10T10:41:36-05:00",
           "modelWinPct": 45.4,
           "modelSource": "GameLens spread (complement of NEB 54.6%)",
           "edgeVsBePct": -6.98,
@@ -1065,14 +1543,14 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model clears +2.5pp: GameLens spread (complement of NEB 54.6%) 45.4% (-6.98pp)."
         },
         "notes": "Kirms and Greedo stated the side without restating the number. FPI is ML-only (IU 69.9%) and is not applied to the spread.",
-        "checkedAt": "2026-10-10T10:35:38-05:00",
+        "checkedAt": "2026-10-10T10:41:36-05:00",
         "gameKey": "IU @ NEB",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
-      "rank": 3
+      "rank": 6
     },
     {
-      "id": "sat-mlb-4",
+      "id": "sat-mlb-7",
       "example": false,
       "sport": "MLB",
       "tier": "gauge",
@@ -1124,7 +1602,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "DraftKings via ESPN",
           "breakEvenPct": 58.68,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-10T10:35:38-05:00",
+          "checkedAt": "2026-10-10T10:41:36-05:00",
           "modelWinPct": 64.6,
           "modelSource": "GameLens ML 3/3",
           "edgeVsBePct": 5.92,
@@ -1132,7 +1610,7 @@ window.BET_BOARD_DATA = {
           "missReason": null
         },
         "notes": "",
-        "checkedAt": "2026-10-10T10:35:38-05:00",
+        "checkedAt": "2026-10-10T10:41:36-05:00",
         "gameKey": "CHW @ CLE",
         "countRule": "strict: firm YouTube picks only (leans, score predictions, AI pick channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
