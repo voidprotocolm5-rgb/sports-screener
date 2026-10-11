@@ -523,6 +523,7 @@
         '<div class="why-block">' +
           '<span class="why-label">Why sources like it</span>' +
           '<p class="why">' + escapeHtml(bet.why || "No consensus note for this pick yet.") + "</p>" +
+          (bet.xNote ? '<p class="why x-note"><strong>Send-it list:</strong> ' + escapeHtml(bet.xNote) + "</p>" : "") +
         "</div>" +
         renderClvBlock(ledger.clv) +
         '<div class="sources">' +
@@ -659,6 +660,7 @@
             '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) +
               " · booksAlign " + (it.booksAlign ? "✓" : "✗") + " · " + escapeHtml(String(edge)) + "</div>" +
             (it.rationale ? '<div class="tg-why">' + escapeHtml(it.rationale) + "</div>" : "") +
+            (it.xNote ? '<div class="tg-why tg-xnote">X: ' + escapeHtml(it.xNote) + "</div>" : "") +
           "</div>" +
         "</li>"
       );

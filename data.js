@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-11T10:27:46-05:00",
-  "updatedAtLabel": "Sun Oct 11, 2026 · 10:27 AM CT",
+  "updatedAt": "2026-10-11T10:36:52-05:00",
+  "updatedAtLabel": "Sun Oct 11, 2026 · 10:36 AM CT",
   "nearMiss": {
     "MLB": [
       {
@@ -873,7 +873,7 @@ window.BET_BOARD_DATA = {
   "sport": "NFL",
   "defaultSport": "NFL",
   "status": "live",
-  "summary": "0 CLEARED / 9 GAUGE · Sun Oct 11, 2026 · 10:27 AM CT · Sunday pass: NFL · MLB · NHL · NBA/Soccer/Tennis checked · strict 6+ (firm picks) · Research only · Saturday cards/results cleared",
+  "summary": "0 CLEARED / 9 GAUGE · Sun Oct 11, 2026 · 10:36 AM CT · Sunday pass: NFL · MLB · NHL · NBA/Soccer/Tennis checked · strict 6+ (firm picks) · Research only · Saturday cards/results cleared",
   "clearedCount": 0,
   "gaugeCount": 9,
   "sports": [
@@ -980,22 +980,22 @@ window.BET_BOARD_DATA = {
     },
     "UFC": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 10:27 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 10:36 AM CT",
       "note": "No UFC event today (ESPN UFC scoreboard shows 0 events for Oct 11)."
     },
     "UFC-PROPS": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 10:27 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 10:36 AM CT",
       "note": "No UFC event today (ESPN UFC scoreboard shows 0 events for Oct 11)."
     },
     "CFB": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 10:27 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 10:36 AM CT",
       "note": "No college football on Sunday. Saturday CFB cards and results were cleared for today's board."
     },
     "WNBA": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 10:27 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 10:36 AM CT",
       "note": "No WNBA games today (ESPN shows 0 events)."
     },
     "Rule": {
@@ -1003,14 +1003,14 @@ window.BET_BOARD_DATA = {
     }
   },
   "liveGames": {
-    "NFL|PHI VS JAX": "JAX 7 – PHI 14 · Halftime (London, info only)"
+    "NFL|PHI VS JAX": "JAX 7 – PHI 14 · 13:31 - 3rd (London, info only)"
   },
   "minEdgeProcess": {
     "passed": 12,
     "failed": 42,
     "contested": 0,
     "note": "booksAlign true only via MinEdge ≥2.5pp vs BE of best observed price with a cited model (GameLens, ESPN FPI, ats.io, EdgeGoat, Tennis Abstract Elo, etc.). Model war ⇒ false. Live ⇒ info only. Never invent modelWinPct.",
-    "updatedAtLabel": "Sun Oct 11, 2026 · 10:27 AM CT"
+    "updatedAtLabel": "Sun Oct 11, 2026 · 10:36 AM CT"
   },
   "researchOnly": true,
   "noBetsPlaced": true,
@@ -1025,7 +1025,7 @@ window.BET_BOARD_DATA = {
     "beatRate": "n/a",
     "bar": "Logic CLV ≳ half-hold",
     "note": "Sun Oct 11 slate; CLV pending until close.",
-    "updatedAtLabel": "Sun Oct 11, 2026 · 10:27 AM CT"
+    "updatedAtLabel": "Sun Oct 11, 2026 · 10:36 AM CT"
   },
   "bets": [
     {
@@ -1179,7 +1179,8 @@ window.BET_BOARD_DATA = {
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
       "timeCT": "7:20 PM CT (SNF)",
-      "rank": 1
+      "rank": 1,
+      "xNote": "Send-it list scan (330 posts, 216 slip images OCR'd, no re-scrape) found no NFL side or total slips for today's unstarted games — NFL slips were props only (anytime TDs, alt yards/receptions). Excluded: @__LordPenguin's AI-made game-line graphics, and @ActionNetworkHQ's 'divisional dogs 12-5 ATS' trend list (a stat, not a bet)."
     },
     {
       "id": "sun-nfl-4",
@@ -1261,7 +1262,8 @@ window.BET_BOARD_DATA = {
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
       "timeCT": "12:00 PM CT",
-      "rank": 2
+      "rank": 2,
+      "xNote": "Send-it list scan (330 posts, 216 slip images OCR'd, no re-scrape) found no NFL side or total slips for today's unstarted games — NFL slips were props only (anytime TDs, alt yards/receptions). Excluded: @__LordPenguin's AI-made game-line graphics, and @ActionNetworkHQ's 'divisional dogs 12-5 ATS' trend list (a stat, not a bet)."
     },
     {
       "id": "sun-nfl-3",
@@ -1344,7 +1346,8 @@ window.BET_BOARD_DATA = {
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
       "timeCT": "12:00 PM CT",
-      "rank": 3
+      "rank": 3,
+      "xNote": "Send-it list scan (330 posts, 216 slip images OCR'd, no re-scrape) found no NFL side or total slips for today's unstarted games — NFL slips were props only (anytime TDs, alt yards/receptions). Excluded: @__LordPenguin's AI-made game-line graphics, and @ActionNetworkHQ's 'divisional dogs 12-5 ATS' trend list (a stat, not a bet)."
     },
     {
       "id": "sun-nfl-2",
@@ -1423,7 +1426,8 @@ window.BET_BOARD_DATA = {
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
       "timeCT": "12:00 PM CT",
-      "rank": 4
+      "rank": 4,
+      "xNote": "Send-it list scan (330 posts, 216 slip images OCR'd, no re-scrape) found no NFL side or total slips for today's unstarted games — NFL slips were props only (anytime TDs, alt yards/receptions). Excluded: @__LordPenguin's AI-made game-line graphics, and @ActionNetworkHQ's 'divisional dogs 12-5 ATS' trend list (a stat, not a bet)."
     },
     {
       "id": "sun-nfl-5",
@@ -1505,7 +1509,8 @@ window.BET_BOARD_DATA = {
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
       "timeCT": "12:00 PM CT",
-      "rank": 5
+      "rank": 5,
+      "xNote": "Send-it list scan (330 posts, 216 slip images OCR'd, no re-scrape) found no NFL side or total slips for today's unstarted games — NFL slips were props only (anytime TDs, alt yards/receptions). Excluded: @__LordPenguin's AI-made game-line graphics, and @ActionNetworkHQ's 'divisional dogs 12-5 ATS' trend list (a stat, not a bet)."
     },
     {
       "id": "sun-nfl-6",
@@ -1586,7 +1591,8 @@ window.BET_BOARD_DATA = {
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
       "timeCT": "3:25 PM CT",
-      "rank": 6
+      "rank": 6,
+      "xNote": "Send-it list scan (330 posts, 216 slip images OCR'd, no re-scrape) found no NFL side or total slips for today's unstarted games — NFL slips were props only (anytime TDs, alt yards/receptions). Excluded: @__LordPenguin's AI-made game-line graphics, and @ActionNetworkHQ's 'divisional dogs 12-5 ATS' trend list (a stat, not a bet)."
     },
     {
       "id": "sun-nfl-7",
@@ -1669,7 +1675,8 @@ window.BET_BOARD_DATA = {
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
       "timeCT": "12:00 PM CT",
-      "rank": 7
+      "rank": 7,
+      "xNote": "Send-it list scan (330 posts, 216 slip images OCR'd, no re-scrape) found no NFL side or total slips for today's unstarted games — NFL slips were props only (anytime TDs, alt yards/receptions). Excluded: @__LordPenguin's AI-made game-line graphics, and @ActionNetworkHQ's 'divisional dogs 12-5 ATS' trend list (a stat, not a bet). The one counted game-line post is text-only: @ActionNetworkHQ Steelers −2.5 −115 (NFL best bet, 9:40 AM CT)."
     },
     {
       "id": "sun-nfl-p1",
@@ -1746,7 +1753,8 @@ window.BET_BOARD_DATA = {
         "countRule": "strict: firm YT picks + unique X posters (parlay legs count; settled ignored; AI accounts excluded)"
       },
       "timeCT": "12:00 PM CT",
-      "rank": 1
+      "rank": 1,
+      "xNote": "Send-it list scan (330 posts, 216 slip images OCR'd, no re-scrape) found no NFL side or total slips for today's unstarted games — NFL slips were props only (anytime TDs, alt yards/receptions). Excluded: @__LordPenguin's AI-made game-line graphics, and @ActionNetworkHQ's 'divisional dogs 12-5 ATS' trend list (a stat, not a bet). This card is a prop, so its X slips do count (6 unique ATTD posters)."
     }
   ],
   "deepDive": {
@@ -1761,16 +1769,16 @@ window.BET_BOARD_DATA = {
     "cleared": "0-0-0",
     "gauge": "0-0-0",
     "nearMiss": "0-0-0",
-    "checkedAt": "10:27 AM CT",
-    "checkedAtIso": "2026-10-11T10:27:46-05:00",
+    "checkedAt": "10:36 AM CT",
+    "checkedAtIso": "2026-10-11T10:36:52-05:00",
     "label": "Results reset for Sun Oct 11 (Saturday cards and results cleared). Today's results so far: CLEARED 0-0-0 · GAUGE 0-0-0 · Near misses 0-0-0 — nothing graded yet."
   },
   "todaysGauge": {
     "title": "Today's Gauge",
-    "label": "Unstarted games only · ESPN status checked 10:27 AM CT · research only",
-    "checkedAt": "10:27 AM CT",
-    "checkedAtIso": "2026-10-11T10:27:46-05:00",
-    "note": "Best plays across all sports for games that haven't started (ESPN status checked 10:27 AM CT). Main cards first (CLEARED, then GAUGE by booksAlign, source depth, cited-model edge), then labeled NEAR MISS rows (<6 sources) where a cited model clears MinEdge. One side per game only — skipped to avoid a second play in the same game: Nico Collins anytime TD (Texans @ Titans); Ravens +3.5 (Ravens @ Falcons); Brewers ML (NLCS G1 · Dodgers @ Brewers). Started games drop off on each republish. This list doesn't change any totals. Research only, never place bets.",
+    "label": "Unstarted games only · ESPN status checked 10:36 AM CT · research only",
+    "checkedAt": "10:36 AM CT",
+    "checkedAtIso": "2026-10-11T10:36:52-05:00",
+    "note": "Best plays across all sports for games that haven't started (ESPN status checked 10:36 AM CT). Main cards first (CLEARED, then GAUGE by booksAlign, source depth, cited-model edge), then labeled NEAR MISS rows (<6 sources) where a cited model clears MinEdge. One side per game only — skipped to avoid a second play in the same game: Nico Collins anytime TD (Texans @ Titans); Ravens +3.5 (Ravens @ Falcons); Brewers ML (NLCS G1 · Dodgers @ Brewers). Started games drop off on each republish. This list doesn't change any totals. Research only, never place bets.",
     "items": [
       {
         "tier": "GAUGE",
@@ -1784,6 +1792,7 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "edge": "✓ +12.62pp (GameLens spread consensus (run at LV +3.5 · 2/3))",
         "rationale": "Backed as GAUGE: 6 firm YT spread picks + GameLens MinEdge pass (+12.62pp vs BE); not CLEARED only because X posted no game-line slips for it.",
+        "xNote": "No NFL side/total slips on the send-it list today (props only), so X is 0 on every NFL game line.",
         "rank": 1
       },
       {
@@ -1798,6 +1807,7 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "edge": "✓ +7.52pp (GameLens spread consensus (run at CLE +1.5 · 2/3))",
         "rationale": "Backed as GAUGE: 6 firm YT spread picks + GameLens MinEdge pass (+7.52pp vs BE); not CLEARED only because X posted no game-line slips for it.",
+        "xNote": "No NFL side/total slips on the send-it list today (props only), so X is 0 on every NFL game line.",
         "rank": 2
       },
       {
@@ -1812,6 +1822,7 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "edge": "✓ +7.12pp (GameLens spread consensus (run at SF +3 · 2/3))",
         "rationale": "Backed as GAUGE: 6 firm YT spread picks + GameLens MinEdge pass (+7.12pp vs BE); not CLEARED only because X posted no game-line slips for it.",
+        "xNote": "No NFL side/total slips on the send-it list today (props only), so X is 0 on every NFL game line.",
         "rank": 3
       },
       {
@@ -1826,6 +1837,7 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "edge": "✗ GameLens spread consensus (run at BAL +3.5 · 2/3) backs the other side (BAL +3.5 65.0%)",
         "rationale": "Backed as GAUGE: 8 firm YT picks lay −3 with ATL after Lamar's injury; not CLEARED — 0 X slips and GameLens backs BAL +3.5 (FPI is ML-only).",
+        "xNote": "No NFL side/total slips on the send-it list today (props only), so X is 0 on every NFL game line.",
         "rank": 4
       },
       {
@@ -1840,6 +1852,7 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "edge": "✗ no cited model",
         "rationale": "Backed as GAUGE: 8 firm YouTube spread picks clear the 6 floor; not CLEARED because X posted no TEN game-line slips and no cited model backs it; line moved +7→+6.5.",
+        "xNote": "No NFL side/total slips on the send-it list today (props only), so X is 0 on every NFL game line.",
         "rank": 5
       },
       {
@@ -1854,6 +1867,7 @@ window.BET_BOARD_DATA = {
         "booksAlign": false,
         "edge": "✗ GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%)",
         "rationale": "Backed as GAUGE: 7 firm YT picks on NO +2.5; not CLEARED — 0 X slips, line moved to +2/+1.5 and GameLens backs MIN −1.5 (3/3).",
+        "xNote": "No NFL side/total slips on the send-it list today (props only), so X is 0 on every NFL game line.",
         "rank": 6
       },
       {
@@ -1896,6 +1910,7 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "edge": "✓ +12.62pp (GameLens spread consensus (run at CHI −1.5 · 3/3))",
         "rationale": "Not backed: 5 YT + 0 X spread picks (+3 ML-only same side, not counted: PickDawgz (On Deck), Fantasy Aces, StumpTheSpread) < 6; MinEdge passes (cited model clears at this number), so it's the best low-source fill.",
+        "xNote": "No NFL side/total slips on the send-it list today (props only), so X is 0 on every NFL game line.",
         "rank": 9
       },
       {
@@ -1910,6 +1925,7 @@ window.BET_BOARD_DATA = {
         "booksAlign": true,
         "edge": "✓ +12.62pp (GameLens spread consensus (run at NYG +3.5 · 2/3))",
         "rationale": "Not backed: 4 YT + 0 X spread picks (+1 ML-only same side, not counted: Fantasy Aces) < 6 (X opposite: 1); MinEdge passes (cited model clears at this number), so it's the best low-source fill.",
+        "xNote": "No NFL side/total slips on the send-it list today (props only), so X is 0 on every NFL game line.",
         "rank": 10
       },
       {
