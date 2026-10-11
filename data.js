@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-11T09:21:43-05:00",
-  "updatedAtLabel": "Sun Oct 11, 2026 · 9:21 AM CT",
+  "updatedAt": "2026-10-11T09:25:03-05:00",
+  "updatedAtLabel": "Sun Oct 11, 2026 · 9:25 AM CT",
   "nearMiss": {
     "MLB": [
       {
@@ -94,7 +94,7 @@ window.BET_BOARD_DATA = {
         "xWho": "",
         "total": 5,
         "booksAlign": true,
-        "booksAlignWhy": "Best TEN +7 −115 (BetRivers NY) → BE 53.49%. GameLens spread consensus (run at TEN +7 · 2/3) 65.0% (+11.51pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "booksAlignWhy": "Best TEN +7 −115 (BetRivers) → BE 53.49%. GameLens spread consensus (run at TEN +7 · 2/3) 65.0% (+11.51pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
         "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 2 more X.",
         "rationale": "Not backed: 5 firm YT spread picks < 6 and 0 X slips; MinEdge passes (cited model clears at this number), so it's the best low-source fill.",
@@ -113,7 +113,7 @@ window.BET_BOARD_DATA = {
         "xWho": "",
         "total": 5,
         "booksAlign": true,
-        "booksAlignWhy": "Best CLE +2.5 −109 (bet365) → BE 52.15%. GameLens spread consensus (run at CLE +1.5 · 2/3) 59.9% (+7.75pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "booksAlignWhy": "Best CLE +2.5 −109 (BetRivers) → BE 52.15%. GameLens spread consensus (run at CLE +1.5 · 2/3) 59.9% (+7.75pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
         "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 2 more X.",
         "rationale": "Not backed: 5 firm YT spread picks (+1 ML-only same side, not counted: Top Sports Debate) < 6 and 0 X slips; MinEdge passes (cited model clears at this number), so it's the best low-source fill.",
@@ -155,7 +155,7 @@ window.BET_BOARD_DATA = {
         "modelOnly": false,
         "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 2 more X.",
         "rationale": "Not backed: 4 firm YT spread picks (+1 ML-only same side, not counted: Fantasy Aces) < 6 and 0 X slips; MinEdge passes (cited model clears at this number), so it's the best low-source fill.",
-        "thesis": "Terry McLaurin questionable; ~49% precip chance (ESPN). ESPN FPI is ML-only (NYG 29.0% / WSH 70.7%) and is not applied to spreads. 65.0% looks like GameLens' display cap. Better number available: +4 −113 at BetRivers NY.",
+        "thesis": "Terry McLaurin questionable; ~49% precip chance (ESPN). ESPN FPI is ML-only (NYG 29.0% / WSH 70.7%) and is not applied to spreads. 65.0% looks like GameLens' display cap. Better number available: +4 −113 at BetRivers.",
         "timeCT": "12:00 PM CT",
         "rank": 5
       },
@@ -208,7 +208,7 @@ window.BET_BOARD_DATA = {
         "xWho": "",
         "total": 4,
         "booksAlign": false,
-        "booksAlignWhy": "Best CIN −7 −108 (BetRivers NY) → BE 51.92%. No applicable cited model for this market/number, so booksAlign is false.",
+        "booksAlignWhy": "Best CIN −7 −108 (BetRivers) → BE 51.92%. No applicable cited model for this market/number, so booksAlign is false.",
         "modelOnly": false,
         "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 2 more X, booksAlign.",
         "rationale": "Not backed: 4 firm YT spread picks (+1 ML-only same side, not counted: Fantasy Aces) < 6 and 0 X slips; and no cited model clears.",
@@ -409,6 +409,44 @@ window.BET_BOARD_DATA = {
         "rank": 7
       },
       {
+        "pick": "Chase Brown anytime TD",
+        "marketType": "prop",
+        "game": "Bengals @ Dolphins · 12:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 2,
+        "xWho": "@ChillyBets (ATTD leg −102 / Kalshi 58¢), @MCbets__ (Polymarket combo, 58¢)",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model probability for this player prop (no public prop model with a %), so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 3 more YT, booksAlign.",
+        "rationale": "Not backed: 2 firm sources (0 YT + 2 X) < 6 and no cited prop model.",
+        "thesis": "Ja'Marr Chase and Tee Higgins questionable (ESPN).",
+        "timeCT": "12:00 PM CT",
+        "rank": 8
+      },
+      {
+        "pick": "Malik Washington over receiving yards (41.5–45.5)",
+        "marketType": "prop",
+        "game": "Bengals @ Dolphins · 12:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 2,
+        "xWho": "@ActionNetworkHQ: o45.5 −110 (best bet), @a1fantasy23: o41.5",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model probability for this player prop (no public prop model with a %), so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 3 more YT, booksAlign.",
+        "rationale": "Not backed: 2 firm sources (0 YT + 2 X) < 6 and no cited prop model.",
+        "thesis": "Ja'Marr Chase and Tee Higgins questionable (ESPN).",
+        "timeCT": "12:00 PM CT",
+        "rank": 9
+      },
+      {
         "pick": "Aaron Jones anytime TD",
         "marketType": "prop",
         "game": "Vikings @ Saints · 12:00 PM CT",
@@ -425,7 +463,7 @@ window.BET_BOARD_DATA = {
         "rationale": "Not backed: 2 firm sources (1 YT + 1 X) < 6 and no cited prop model.",
         "thesis": "Justin Jefferson, Jordan Addison, Alvin Kamara questionable (ESPN). Dome.",
         "timeCT": "12:00 PM CT",
-        "rank": 8
+        "rank": 10
       },
       {
         "pick": "Jonathan Taylor anytime TD",
@@ -444,7 +482,7 @@ window.BET_BOARD_DATA = {
         "rationale": "Not backed: 2 firm sources (1 YT + 1 X) < 6 and no cited prop model.",
         "thesis": "~49% precip chance (ESPN).",
         "timeCT": "12:00 PM CT",
-        "rank": 9
+        "rank": 11
       },
       {
         "pick": "Carnell Tate anytime TD",
@@ -463,7 +501,7 @@ window.BET_BOARD_DATA = {
         "rationale": "Not backed: 2 firm sources (1 YT + 1 X) < 6 and no cited prop model.",
         "thesis": "~49% precip chance (ESPN). ",
         "timeCT": "12:00 PM CT",
-        "rank": 10
+        "rank": 12
       },
       {
         "pick": "Courtland Sutton anytime TD",
@@ -482,7 +520,7 @@ window.BET_BOARD_DATA = {
         "rationale": "Not backed: 2 firm sources (1 YT + 1 X) < 6 and no cited prop model.",
         "thesis": "Land Your Bets has Sutton over receiving yards (different market).",
         "timeCT": "3:05 PM CT",
-        "rank": 11
+        "rank": 13
       },
       {
         "pick": "Jaylen Warren over rushing yards (61.5–64.5)",
@@ -501,7 +539,26 @@ window.BET_BOARD_DATA = {
         "rationale": "Not backed: 2 firm sources (1 YT + 1 X) < 6 and no cited prop model.",
         "thesis": "~49% precip chance (ESPN).",
         "timeCT": "12:00 PM CT",
-        "rank": 12
+        "rank": 14
+      },
+      {
+        "pick": "Bhayshul Tuten anytime TD (as transcribed)",
+        "marketType": "prop",
+        "game": "Raiders @ Patriots · 12:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "WagerTalk (Boston Steve): −105 FD",
+        "x": 1,
+        "xWho": "@ChillyBets (ATTD leg)",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited model probability for this player prop (no public prop model with a %), so booksAlign is false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 2 more YT, 1 more X, booksAlign.",
+        "rationale": "Not backed: 2 firm sources (1 YT + 1 X) < 6 and no cited prop model.",
+        "thesis": "Ashton Jeanty questionable (ESPN).",
+        "timeCT": "12:00 PM CT",
+        "rank": 15
       },
       {
         "pick": "Jacoby Brissett 2+ passing TDs (o1.5)",
@@ -520,7 +577,7 @@ window.BET_BOARD_DATA = {
         "rationale": "Not backed: 2 firm sources (2 YT + 0 X) < 6 and no cited prop model.",
         "thesis": "Marvin Harrison Jr. OUT (ESPN). To The Window also has Brissett o24.5 completions (different market).",
         "timeCT": "3:25 PM CT",
-        "rank": 13
+        "rank": 16
       },
       {
         "pick": "Aaron Jones over rushing yards (59.5–69.5)",
@@ -539,7 +596,7 @@ window.BET_BOARD_DATA = {
         "rationale": "Not backed: 2 firm sources (2 YT + 0 X) < 6 and no cited prop model.",
         "thesis": "Justin Jefferson, Jordan Addison, Alvin Kamara questionable (ESPN). Dome.",
         "timeCT": "12:00 PM CT",
-        "rank": 14
+        "rank": 17
       },
       {
         "pick": "Jameis Winston over 1.5 passing TDs",
@@ -558,7 +615,26 @@ window.BET_BOARD_DATA = {
         "rationale": "Not backed: 2 firm sources (2 YT + 0 X) < 6 and no cited prop model.",
         "thesis": "Terry McLaurin questionable; ~49% precip chance (ESPN).",
         "timeCT": "12:00 PM CT",
-        "rank": 15
+        "rank": 18
+      },
+      {
+        "pick": "Drake Maye over rushing yards (29.5–32.5)",
+        "marketType": "prop",
+        "game": "Raiders @ Patriots · 12:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "To The Window: o29.5",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": true,
+        "booksAlignWhy": "Toad Sports app projection: 56.3% over 32.5 at −110 → BE 52.38% (+3.92pp). Applied to the o29.5 pick only because 29.5 is a better number for the over; the only cited prop model found, no conflict, so booksAlign is true.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X.",
+        "rationale": "Not backed: 1 YT + 0 X; the one prop with a cited model edge (Toad Sports 56.3% at o32.5 −110).",
+        "thesis": "Toad Sports app projection (posted Sat): Maye 35.51 rush yds, 56.3% to go over 32.5 at −110.",
+        "timeCT": "12:00 PM CT",
+        "rank": 19
       }
     ],
     "NHL": [
@@ -623,7 +699,7 @@ window.BET_BOARD_DATA = {
   "sport": "NFL",
   "defaultSport": "NFL",
   "status": "live",
-  "summary": "0 CLEARED / 4 GAUGE · Sun Oct 11, 2026 · 9:21 AM CT · Sunday pass: NFL · MLB · NHL · NBA/Soccer/Tennis checked · strict 6+ (firm picks) · Research only · Saturday cards/results cleared",
+  "summary": "0 CLEARED / 4 GAUGE · Sun Oct 11, 2026 · 9:25 AM CT · Sunday pass: NFL · MLB · NHL · NBA/Soccer/Tennis checked · strict 6+ (firm picks) · Research only · Saturday cards/results cleared",
   "clearedCount": 0,
   "gaugeCount": 4,
   "sports": [
@@ -710,12 +786,12 @@ window.BET_BOARD_DATA = {
     },
     "NFL": {
       "lastSlate": "Sun Oct 11 2026 CT · NFL (ESPN label: Week 5)",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:21 AM CT",
-      "note": "ESPN labels today's slate Week 5 (request said Week 6; ESPN label used). YouTube: 56 NFL transcripts reviewed, 33 distinct speakers with firm picks counted (AI-voiced channels, leans, score-prediction and pick'em banter excluded; Tony's per-game videos count once per game). X list scraped Sat 7 PM → Sun ~9 AM CT (262 posts, 163 slips OCR'd): zero NFL game-line slips — only ATTD/prop parlays — so no game-line card can reach CLEARED. Prices: best across DK/FD/BetMGM/Caesars/bet365/BetRivers via the Action Network odds feed. Models: GameLens spread consensus (65.0% = display cap; totals have no line so aren't applied) and ESPN FPI (ML only, not applied to spreads). Spread cards count spread picks only; ML-only picks are noted. Official inactives come ~90 min before kickoff (~10:30 AM CT for noon games) — injury notes are ESPN's pre-game report. PHI vs JAX (London, 8:30 AM CT) was live at publish: info only."
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:25 AM CT",
+      "note": "ESPN labels today's slate Week 5 (request said Week 6; ESPN label used). YouTube: 56 NFL transcripts reviewed, 33 distinct speakers with firm picks counted (AI-voiced channels, leans, score-prediction and pick'em banter excluded; Tony's per-game videos count once per game). X list scraped Sat 7 PM → Sun ~9:20 AM CT (272 posts, 169 slips OCR.d): zero NFL game-line slips — only ATTD/prop parlays — so no game-line card can reach CLEARED. Prices: best across DK/FD/BetMGM/Caesars/bet365/BetRivers via the Action Network odds feed. Models: GameLens spread consensus (65.0% = display cap; totals have no line so aren't applied) and ESPN FPI (ML only, not applied to spreads). Spread cards count spread picks only; ML-only picks are noted. Official inactives come ~90 min before kickoff (~10:30 AM CT for noon games) — injury notes are ESPN's pre-game report. PHI vs JAX (London, 8:30 AM CT) was live at publish: info only."
     },
     "NFL-PROPS": {
       "lastSlate": "Sun Oct 11 2026 CT · NFL player props",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:21 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:25 AM CT",
       "note": "Props counted from YouTube prop/TD videos and X slips (parlay legs count once per poster; AI accounts @AI_tony_bets, @BlitzerAi, @FantasyGenius4U and AI graphics excluded; settled slips ignored). No public cited prop model with a probability, so every prop has booksAlign false. One prop reaches 6 (Nico Collins ATTD: 1 YT + 5 X) and is a GAUGE card."
     },
     "NHL": {
@@ -730,22 +806,22 @@ window.BET_BOARD_DATA = {
     },
     "UFC": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:21 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:25 AM CT",
       "note": "No UFC event today (ESPN UFC scoreboard shows 0 events for Oct 11)."
     },
     "UFC-PROPS": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:21 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:25 AM CT",
       "note": "No UFC event today (ESPN UFC scoreboard shows 0 events for Oct 11)."
     },
     "CFB": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:21 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:25 AM CT",
       "note": "No college football on Sunday. Saturday CFB cards and results were cleared for today's board."
     },
     "WNBA": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:21 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:25 AM CT",
       "note": "No WNBA games today (ESPN shows 0 events)."
     },
     "Rule": {
@@ -753,14 +829,14 @@ window.BET_BOARD_DATA = {
     }
   },
   "liveGames": {
-    "NFL|PHI VS JAX": "JAX 7 – PHI 0 · 15:00 - 2nd (London, info only)"
+    "NFL|PHI VS JAX": "JAX 7 – PHI 0 · 12:27 - 2nd (London, info only)"
   },
   "minEdgeProcess": {
-    "passed": 8,
-    "failed": 28,
+    "passed": 9,
+    "failed": 31,
     "contested": 0,
     "note": "booksAlign true only via MinEdge ≥2.5pp vs BE of best observed price with a cited model (GameLens, ESPN FPI, ats.io, EdgeGoat, Tennis Abstract Elo, etc.). Model war ⇒ false. Live ⇒ info only. Never invent modelWinPct.",
-    "updatedAtLabel": "Sun Oct 11, 2026 · 9:21 AM CT"
+    "updatedAtLabel": "Sun Oct 11, 2026 · 9:25 AM CT"
   },
   "researchOnly": true,
   "noBetsPlaced": true,
@@ -775,7 +851,7 @@ window.BET_BOARD_DATA = {
     "beatRate": "n/a",
     "bar": "Logic CLV ≳ half-hold",
     "note": "Sun Oct 11 slate; CLV pending until close.",
-    "updatedAtLabel": "Sun Oct 11, 2026 · 9:21 AM CT"
+    "updatedAtLabel": "Sun Oct 11, 2026 · 9:25 AM CT"
   },
   "bets": [
     {
@@ -838,7 +914,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "BetMGM (via Action Network odds feed)",
           "breakEvenPct": 54.13,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:19:05-05:00",
+          "checkedAt": "2026-10-11T09:24:50-05:00",
           "modelWinPct": null,
           "modelSource": null,
           "edgeVsBePct": null,
@@ -851,7 +927,7 @@ window.BET_BOARD_DATA = {
           "missReason": "GameLens spread consensus (run at BAL +3.5 · 2/3) backs the other side (BAL +3.5 65.0%). No cited model clears, so booksAlign is false."
         },
         "notes": "ESPN FPI is ML-only (BAL 39.7% / ATL 59.9%) and is not applied to spreads. 65.0% looks like GameLens' display cap.",
-        "checkedAt": "2026-10-11T09:19:05-05:00",
+        "checkedAt": "2026-10-11T09:24:50-05:00",
         "gameKey": "BAL@ATL",
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -914,7 +990,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "BetMGM (via Action Network odds feed)",
           "breakEvenPct": 51.22,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:19:05-05:00",
+          "checkedAt": "2026-10-11T09:24:50-05:00",
           "modelWinPct": 65.0,
           "modelSource": "GameLens spread consensus (run at LV +3.5 · 2/3)",
           "edgeVsBePct": 13.78,
@@ -927,7 +1003,7 @@ window.BET_BOARD_DATA = {
           "missReason": null
         },
         "notes": "ESPN FPI is ML-only (LV 36.4% / NE 63.3%) and is not applied to spreads. 65.0% looks like GameLens' display cap.",
-        "checkedAt": "2026-10-11T09:19:05-05:00",
+        "checkedAt": "2026-10-11T09:24:50-05:00",
         "gameKey": "LV@NE",
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -941,15 +1017,15 @@ window.BET_BOARD_DATA = {
       "tier": "gauge",
       "marketType": "spread",
       "game": "Vikings @ Saints · 12:00 PM CT",
-      "pick": "Saints +2.5",
-      "line": "+2.5",
+      "pick": "Saints +2.5 (now +2)",
+      "line": "+2",
       "gameState": "pre",
       "consensusPct": 86,
       "simWinPct": null,
       "ev": null,
       "confidence": 86,
-      "why": "YouTube 6 same side (Kyle Kirms: Saints +2.5 + ML, biggest bet of the week; PickDawgz (On Deck): Saints +2.5; Silverback Bets: Saints +2.5; PickDawgz (Jeremy Conn): Saints plus the points; To The Window: Saints +2.5 + ML; Tony's Picks: Saints plus the points); contested by MIN spread 1 YT (OddsShopper (Lindy)). Send-it 0 unique posters (no NFL game-line slips found on the X list). ML-only same side (not counted on this spread card): Fantasy Aces. Books: Best NO +2.5 −120 (DraftKings) → BE 54.55%. GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%). No cited model clears, so booksAlign is false. Justin Jefferson, Jordan Addison, Alvin Kamara questionable (ESPN). Dome. GAUGE: needs 2 more X + booksAlign for CLEARED.",
-      "rationale": "Backed as GAUGE: 6 firm YT picks on NO +2.5; not CLEARED — 0 X slips, GameLens backs MIN −1.5 (3/3).",
+      "why": "YouTube 6 same side (Kyle Kirms: Saints +2.5 + ML, biggest bet of the week; PickDawgz (On Deck): Saints +2.5; Silverback Bets: Saints +2.5; PickDawgz (Jeremy Conn): Saints plus the points; To The Window: Saints +2.5 + ML; Tony's Picks: Saints plus the points); contested by MIN spread 1 YT (OddsShopper (Lindy)). Send-it 0 unique posters (no NFL game-line slips found on the X list). ML-only same side (not counted on this spread card): Fantasy Aces. Line move: picks were made at NO +2.5; best available now NO +2 −108 (BetRivers), DK +1.5. Books: Best NO +2 −108 (BetRivers) → BE 51.92%. GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%). No cited model clears, so booksAlign is false. Justin Jefferson, Jordan Addison, Alvin Kamara questionable (ESPN). Dome. GAUGE: needs 2 more X + booksAlign for CLEARED.",
+      "rationale": "Backed as GAUGE: 6 firm YT picks on NO +2.5; not CLEARED — 0 X slips, line moved to +2/+1.5 and GameLens backs MIN −1.5 (3/3).",
       "sources": {
         "youtube": 6,
         "xSendIt": 0,
@@ -987,15 +1063,15 @@ window.BET_BOARD_DATA = {
           "gap": "GAUGE: needs 2 more X + booksAlign for CLEARED."
         },
         "booksAlign": false,
-        "booksAlignWhy": "Best NO +2.5 −120 (DraftKings) → BE 54.55%. GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%). No cited model clears, so booksAlign is false.",
+        "booksAlignWhy": "Best NO +2 −108 (BetRivers) → BE 51.92%. GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%). No cited model clears, so booksAlign is false.",
         "floorGap": "GAUGE: needs 2 more X + booksAlign for CLEARED.",
         "minEdge": {
-          "bestLine": "NO +2.5 −120",
-          "bestAmerican": -120,
-          "bestSource": "DraftKings (via Action Network odds feed)",
-          "breakEvenPct": 54.55,
+          "bestLine": "NO +2 −108",
+          "bestAmerican": -108,
+          "bestSource": "BetRivers (via Action Network odds feed)",
+          "breakEvenPct": 51.92,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:19:05-05:00",
+          "checkedAt": "2026-10-11T09:24:50-05:00",
           "modelWinPct": null,
           "modelSource": null,
           "edgeVsBePct": null,
@@ -1008,7 +1084,7 @@ window.BET_BOARD_DATA = {
           "missReason": "GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%). No cited model clears, so booksAlign is false."
         },
         "notes": "ESPN FPI is ML-only (MIN 55.3% / NO 44.3%) and is not applied to spreads. 65.0% looks like GameLens' display cap.",
-        "checkedAt": "2026-10-11T09:19:05-05:00",
+        "checkedAt": "2026-10-11T09:24:50-05:00",
         "gameKey": "MIN@NO",
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -1073,7 +1149,7 @@ window.BET_BOARD_DATA = {
           "bestSource": "Quoted in WagerTalk video (book not stated); slips +135/+140",
           "breakEvenPct": 40.0,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:19:05-05:00",
+          "checkedAt": "2026-10-11T09:24:50-05:00",
           "modelWinPct": null,
           "modelSource": null,
           "edgeVsBePct": null,
@@ -1084,7 +1160,7 @@ window.BET_BOARD_DATA = {
           "missReason": "No cited model probability for this prop."
         },
         "notes": "",
-        "checkedAt": "2026-10-11T09:19:05-05:00",
+        "checkedAt": "2026-10-11T09:24:50-05:00",
         "gameKey": "HOU@TEN",
         "countRule": "strict: firm YT picks + unique X posters (parlay legs count; settled ignored; AI accounts excluded)"
       },
@@ -1104,16 +1180,16 @@ window.BET_BOARD_DATA = {
     "cleared": "0-0-0",
     "gauge": "0-0-0",
     "nearMiss": "0-0-0",
-    "checkedAt": "9:21 AM CT",
-    "checkedAtIso": "2026-10-11T09:21:43-05:00",
+    "checkedAt": "9:25 AM CT",
+    "checkedAtIso": "2026-10-11T09:25:03-05:00",
     "label": "Results reset for Sun Oct 11 (Saturday cards and results cleared). Today's results so far: CLEARED 0-0-0 · GAUGE 0-0-0 · Near misses 0-0-0 — nothing graded yet."
   },
   "todaysGauge": {
     "title": "Today's Gauge",
-    "label": "Unstarted games only · ESPN status checked 9:21 AM CT · research only",
-    "checkedAt": "9:21 AM CT",
-    "checkedAtIso": "2026-10-11T09:21:43-05:00",
-    "note": "Best plays across all sports for games that haven't started (ESPN status checked 9:21 AM CT). Main cards first (CLEARED, then GAUGE by booksAlign, source depth, cited-model edge), then labeled NEAR MISS rows (<6 sources) where a cited model clears MinEdge. One side per game only — skipped to avoid a second play in the same game: Titans +7 (Texans @ Titans). Started games drop off on each republish. This list doesn't change any totals. Research only, never place bets.",
+    "label": "Unstarted games only · ESPN status checked 9:25 AM CT · research only",
+    "checkedAt": "9:25 AM CT",
+    "checkedAtIso": "2026-10-11T09:25:03-05:00",
+    "note": "Best plays across all sports for games that haven't started (ESPN status checked 9:25 AM CT). Main cards first (CLEARED, then GAUGE by booksAlign, source depth, cited-model edge), then labeled NEAR MISS rows (<6 sources) where a cited model clears MinEdge. One side per game only — skipped to avoid a second play in the same game: Titans +7 (Texans @ Titans). Started games drop off on each republish. This list doesn't change any totals. Research only, never place bets.",
     "items": [
       {
         "tier": "GAUGE",
@@ -1145,8 +1221,8 @@ window.BET_BOARD_DATA = {
       },
       {
         "tier": "GAUGE",
-        "pick": "Saints +2.5",
-        "line": "NO +2.5 −120",
+        "pick": "Saints +2.5 (now +2)",
+        "line": "NO +2 −108",
         "sport": "NFL",
         "game": "Vikings @ Saints",
         "timeCT": "12:00 PM CT",
@@ -1154,7 +1230,7 @@ window.BET_BOARD_DATA = {
         "x": 0,
         "booksAlign": false,
         "edge": "✗ GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%)",
-        "rationale": "Backed as GAUGE: 6 firm YT picks on NO +2.5; not CLEARED — 0 X slips, GameLens backs MIN −1.5 (3/3).",
+        "rationale": "Backed as GAUGE: 6 firm YT picks on NO +2.5; not CLEARED — 0 X slips, line moved to +2/+1.5 and GameLens backs MIN −1.5 (3/3).",
         "rank": 3
       },
       {
