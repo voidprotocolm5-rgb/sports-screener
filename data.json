@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-11T09:49:37-05:00",
-  "updatedAtLabel": "Sun Oct 11, 2026 · 9:49 AM CT",
+  "updatedAt": "2026-10-11T09:57:57-05:00",
+  "updatedAtLabel": "Sun Oct 11, 2026 · 9:57 AM CT",
   "nearMiss": {
     "MLB": [
       {
@@ -8,38 +8,19 @@
         "marketType": "moneyline",
         "game": "Dodgers @ Brewers · NLCS Game 1 · 7:00 PM CT",
         "gameState": "pre",
-        "yt": 4,
-        "ytWho": "Silverback Bets: Milwaukee ML ~even, PickDawgz (Ron's Rundown): roll Milwaukee ML, Greedo Plays: Brewers -110 (best bet 3), Raw Sports Talk: Brewers on the money line",
-        "x": 0,
-        "xWho": "",
-        "total": 4,
-        "booksAlign": true,
-        "booksAlignWhy": "Best MIL −106 (BetRivers) → BE 51.46%. GameLens ML 3/3 61.3% (+9.84pp); ESPN predictor 58.2% (+6.74pp). Both cited models clear MinEdge and none conflicts, so booksAlign is true.",
-        "modelOnly": false,
-        "gap": "Gap to 6: 2 source(s). Gap to CLEARED: 2 more X.",
-        "rationale": "Not backed: 4 firm YT picks + 0 X < 6, contested by 3 YT on LAD; best low-source fill because both cited models clear MinEdge.",
-        "thesis": "Starters (ESPN probables): Tarik Skubal (LAD) vs Jacob Misiorowski (MIL). Both clubs last played Oct 7 (LAD swept ATL; MIL won the NLDS finale at SD), so 3 days' rest — bullpens fully fresh. Weather 68°F, 0% precip (ESPN). MIL injuries: Woodruff, Priester, Zerpa (IL); LAD: Rojas day-to-day.",
-        "timeCT": "7:00 PM CT",
-        "rank": 1
-      },
-      {
-        "pick": "Under 6",
-        "marketType": "total",
-        "game": "Dodgers @ Brewers · NLCS Game 1 · 7:00 PM CT",
-        "gameState": "pre",
         "yt": 5,
-        "ytWho": "Cover the Spread: under 6, Doc's Sports (Indian Cowboy): under 6, Greedo Plays: under 6.5 (best bet 1), Doc's Sports (Jason Sharpe): free play: under the total, PickDawgz (On Deck MLB, Brad): full game under 6",
+        "ytWho": "Silverback Bets: Milwaukee ML ~even, PickDawgz (Ron's Rundown): roll Milwaukee ML, Greedo Plays: Brewers -110 (best bet 3), Raw Sports Talk: Brewers on the money line, MLB Gambling Podcast - SGPN (Lante): best bet: Brewers to win game 1",
         "x": 0,
         "xWho": "",
         "total": 5,
-        "booksAlign": false,
-        "booksAlignWhy": "Best Under 6 −109 (DraftKings/bet365). GameLens leans Under 60.8% but shows no total line, so it can't be applied; no other cited total model. booksAlign false.",
+        "booksAlign": true,
+        "booksAlignWhy": "Best MIL −106 (BetRivers) → BE 51.46%. GameLens ML 3/3 61.3% (+9.84pp); ESPN predictor 58.2% (+6.74pp). Both cited models clear MinEdge and none conflicts, so booksAlign is true.",
         "modelOnly": false,
-        "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 2 more X, booksAlign.",
-        "rationale": "Not backed: 5 firm YT Under picks (Greedo at 6.5) + 0 X < 6 and no usable total model. NRFI / first-3 Under (Guy Boston) and F5 Under 1.5 (PickDawgz Ruffalo) point the same way (different markets).",
+        "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 2 more X.",
+        "rationale": "Not backed: 5 firm YT picks + 0 X < 6, contested by 3 YT on LAD; best low-source fill because both cited models clear MinEdge.",
         "thesis": "Starters (ESPN probables): Tarik Skubal (LAD) vs Jacob Misiorowski (MIL). Both clubs last played Oct 7 (LAD swept ATL; MIL won the NLDS finale at SD), so 3 days' rest — bullpens fully fresh. Weather 68°F, 0% precip (ESPN). MIL injuries: Woodruff, Priester, Zerpa (IL); LAD: Rojas day-to-day.",
         "timeCT": "7:00 PM CT",
-        "rank": 2
+        "rank": 1
       },
       {
         "pick": "Dodgers ML",
@@ -58,7 +39,7 @@
         "rationale": "Not backed: 3 YT, 0 X, and both cited models side with MIL.",
         "thesis": "Starters (ESPN probables): Tarik Skubal (LAD) vs Jacob Misiorowski (MIL). Both clubs last played Oct 7 (LAD swept ATL; MIL won the NLDS finale at SD), so 3 days' rest — bullpens fully fresh. Weather 68°F, 0% precip (ESPN). MIL injuries: Woodruff, Priester, Zerpa (IL); LAD: Rojas day-to-day.",
         "timeCT": "7:00 PM CT",
-        "rank": 3
+        "rank": 2
       }
     ],
     "NFL": [
@@ -92,7 +73,7 @@
         "xWho": "",
         "total": 5,
         "booksAlign": true,
-        "booksAlignWhy": "Best BAL +3.5 −117 (Caesars) → BE 53.92%. GameLens spread consensus (run at BAL +3.5 · 2/3) 65.0% (+11.08pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
+        "booksAlignWhy": "Best BAL +3.5 −122 (FanDuel) → BE 54.95%. GameLens spread consensus (run at BAL +3.5 · 2/3) 65.0% (+10.05pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
         "modelOnly": false,
         "gap": "Gap to 6: 1 source(s). Gap to CLEARED: 2 more X.",
         "rationale": "Not backed: 5 YT + 0 X spread picks < 6; MinEdge passes (cited model clears at this number), so it's the best low-source fill.",
@@ -747,7 +728,46 @@
         "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X.",
         "rationale": "Not backed: 1 YT + 0 X; MinEdge passes on GameLens' 49.9% vs a +180 price — the only NHL booksAlign play. Opposed by Sports Parlay Picks (CAR ML).",
         "thesis": "Goalies (DailyFaceoff): Kochetkov (CAR, unconfirmed) vs Joseph Woll (PHI, unconfirmed). BOTH on the 2nd night of a back-to-back (CAR won 5-2 at CHI Sat; PHI lost 5-1 at BOS Sat).",
-        "timeCT": "6:00 PM CT"
+        "timeCT": "6:00 PM CT",
+        "rank": 1
+      },
+      {
+        "pick": "Flyers +1.5",
+        "marketType": "spread",
+        "game": "Hurricanes @ Flyers · 6:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Doc's Sports (Indian Cowboy): Flyers +1.5, Doc's Sports (Scott Rickenbach): Flyers +1.5 −160 (free pick)",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best PHI +1.5 −140 (BetMGM) → BE 58.33%. GameLens publishes no puck-line % for this game (ML only: PHI 49.9%), so there's no applicable cited model at this number; booksAlign false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign.",
+        "rationale": "Not backed: 2 YT on the PHI puck line (+1 YT on PHI ML) and 0 X; opposed by Tony's Picks (Ramon) CAR −1.5 +140. Both teams on a back-to-back.",
+        "thesis": "Goalies (DailyFaceoff): Kochetkov (CAR, unconfirmed) vs Joseph Woll (PHI, unconfirmed). BOTH on the 2nd night of a back-to-back (CAR won 5-2 at CHI Sat; PHI lost 5-1 at BOS Sat).",
+        "timeCT": "6:00 PM CT",
+        "rank": 2
+      },
+      {
+        "pick": "Rangers −1.5",
+        "marketType": "spread",
+        "game": "Canucks @ Rangers · 5:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Doc's Sports (Craig Trapp): Rangers −1.5, Tony's Picks (Ramon, Night Moves): Rangers −1.5 pick'em",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "Best NYR −1.5 −100 (FanDuel) → BE 50.0%. GameLens has NYR ML 63.8% but no puck-line %, so there's no applicable cited model at −1.5; booksAlign false.",
+        "modelOnly": false,
+        "gap": "Gap to 6: 4 source(s). Gap to CLEARED: 1 more YT, 2 more X, booksAlign.",
+        "rationale": "Not backed: 2 YT on the NYR puck line, 0 X; opposed by Doc's Vernon VAN +1.5. Igor Shesterkin is out for the season (per Tony's Picks), so Dylan Garand starts for NYR; VAN on a back-to-back.",
+        "thesis": "Goalies (DailyFaceoff): Lankinen (VAN, likely) vs Dylan Garand (NYR; Shesterkin out for the season per Tony's Picks). VAN on the 2nd night of a back-to-back (lost 4-1 at NJ Sat); NYR rested.",
+        "timeCT": "5:00 PM CT",
+        "rank": 3
       },
       {
         "pick": "Kraken +1.5",
@@ -765,7 +785,8 @@
         "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X, booksAlign.",
         "rationale": "Not backed: 1 YT on the puck line (+1 YT on SEA ML, Doc's Vernon +185), 0 X; GameLens' 50.9% doesn't clear the −135 break-even.",
         "thesis": "Goalies (DailyFaceoff): Grubauer (SEA, unconfirmed) vs Logan Thompson (WSH, unconfirmed). Both teams rested.",
-        "timeCT": "4:00 PM CT"
+        "timeCT": "4:00 PM CT",
+        "rank": 4
       },
       {
         "pick": "Rangers ML",
@@ -782,8 +803,9 @@
         "modelOnly": false,
         "gap": "Gap to 6: 5 source(s). Gap to CLEARED: 2 more YT, 2 more X, booksAlign.",
         "rationale": "Not backed: 1 YT (+ Doc's Craig Trapp NYR −1.5), opposed by Doc's Vernon VAN +1.5; NYR rested vs VAN on a back-to-back but GameLens doesn't clear −265.",
-        "thesis": "Goalies (DailyFaceoff): Lankinen (VAN, likely) vs Dylan Garand (NYR, unconfirmed). VAN on the 2nd night of a back-to-back (lost 4-1 at NJ Sat); NYR rested.",
-        "timeCT": "5:00 PM CT"
+        "thesis": "Goalies (DailyFaceoff): Lankinen (VAN, likely) vs Dylan Garand (NYR; Shesterkin out for the season per Tony's Picks). VAN on the 2nd night of a back-to-back (lost 4-1 at NJ Sat); NYR rested.",
+        "timeCT": "5:00 PM CT",
+        "rank": 5
       }
     ],
     "NHL-PROPS": []
@@ -792,9 +814,9 @@
   "sport": "NFL",
   "defaultSport": "NFL",
   "status": "live",
-  "summary": "0 CLEARED / 8 GAUGE · Sun Oct 11, 2026 · 9:49 AM CT · Sunday pass: NFL · MLB · NHL · NBA/Soccer/Tennis checked · strict 6+ (firm picks) · Research only · Saturday cards/results cleared",
+  "summary": "0 CLEARED / 9 GAUGE · Sun Oct 11, 2026 · 9:57 AM CT · Sunday pass: NFL · MLB · NHL · NBA/Soccer/Tennis checked · strict 6+ (firm picks) · Research only · Saturday cards/results cleared",
   "clearedCount": 0,
-  "gaugeCount": 8,
+  "gaugeCount": 9,
   "sports": [
     {
       "id": "CFB",
@@ -874,47 +896,47 @@
     },
     "MLB": {
       "lastSlate": "Sun Oct 11 2026 CT · NLCS Game 1",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:21 AM CT",
-      "note": "One MLB game: NLCS G1 LAD @ MIL, 7:00 PM CT. Starters (ESPN probables): Tarik Skubal (LAD) vs Jacob Misiorowski (MIL). Both clubs last played Oct 7 (LAD swept ATL; MIL won the NLDS finale at SD), so 3 days' rest — bullpens fully fresh. Weather 68°F, 0% precip (ESPN). MIL injuries: Woodruff, Priester, Zerpa (IL); LAD: Rojas day-to-day. YouTube: 12 MLB videos reviewed (ObedThangTv every-game predictions excluded; Guy Boston's side was a lean), 2 failed with a YouTube bot-check. X list had no MLB slips. No line reaches 6 sources, so there's no MLB card — see near misses. Prices: DK/FD/BetRivers/bet365 via Action Network feed."
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:57 AM CT",
+      "note": "One MLB game: NLCS G1 LAD @ MIL, 7:00 PM CT. Starters (ESPN probables): Tarik Skubal (LAD) vs Jacob Misiorowski (MIL). Both clubs last played Oct 7 (LAD swept ATL; MIL won the NLDS finale at SD), so 3 days' rest — bullpens fully fresh. Weather 68°F, 0% precip (ESPN). MIL injuries: Woodruff, Priester, Zerpa (IL); LAD: Rojas day-to-day. YouTube: 13 MLB videos reviewed (ObedThangTv every-game predictions excluded; Guy Boston's side was a lean; SGPN added in the 10 AM pass: Lante's best bet Brewers ML, both hosts on the under), 2 failed with a YouTube bot-check; an Adam Hendricks result was a 2018 video and was excluded. X list had no MLB slips. The Under 6 reaches 6 YouTube picks and is a GAUGE card; Brewers ML (5 YT, both cited models clear MinEdge) is the top near miss. Prices: DK/FD/BetRivers/bet365 via Action Network feed."
     },
     "NFL": {
       "lastSlate": "Sun Oct 11 2026 CT · NFL (ESPN label: Week 5)",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:49 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:57 AM CT",
       "note": "ESPN labels today's slate Week 5 (request said Week 6; ESPN label used). YouTube: 77 NFL transcripts reviewed, 45 distinct speakers with firm picks counted (AI-voiced channels, leans, score-prediction and pick'em banter excluded; Tony's per-game videos count once per game; multi-host pick'em podcasts — No Luck, Big Homies, Raw Dawg, Our Chitty Opinion — excluded as banter). X list scraped Sat 7 PM → Sun ~10 AM CT (~370 posts, ~210 slip images OCR'd; re-scraped ~9:50 AM CT). NFL game-line slips are scarce: @ActionNetworkHQ Steelers −2.5 (counted on the PIT card), Commanders −3.5 and Texans −7.5 (both against our near-miss/card sides) and @MattyChucks' 5-leg ML parlay (MIN/CIN/DEN/DET/SF ML; ML-only, not counted on spread cards). No main-card side has 2 X posters, so nothing reaches CLEARED. Prices: best across DK/FD/BetMGM/Caesars/bet365/BetRivers via the Action Network odds feed. Models: GameLens spread consensus (65.0% = display cap; totals have no line so aren't applied) and ESPN FPI (ML only, not applied to spreads). Spread cards count spread picks only; ML-only picks are noted. Official inactives come ~90 min before kickoff (~10:30 AM CT for noon games) — injury notes are ESPN's pre-game report. PHI vs JAX (London, 8:30 AM CT) was live at publish: info only."
     },
     "NFL-PROPS": {
       "lastSlate": "Sun Oct 11 2026 CT · NFL player props",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:49 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:57 AM CT",
       "note": "Props counted from YouTube prop/TD videos and X slips (parlay legs count once per poster; AI accounts @AI_tony_bets, @BlitzerAi, @FantasyGenius4U and AI graphics excluded; settled slips ignored; @ParlayPiecesAI, @JSW1144 'Made with AI' graphics and @__LordPenguin also excluded). Toad Sports app projections (posted on the list) are the one cited prop model: Maye o29.5 rush, Wan'Dale Robinson o35.5 rec, Odunze o40.5 rec and Rodgers o229.5 pass yds show as model-only near misses. Bhayshul Tuten ATTD was dropped: he plays for JAX, whose London game had already started. No public cited prop model with a probability, so every prop has booksAlign false. One prop reaches 6 (Nico Collins ATTD: 1 YT + 6 X) and is a GAUGE card."
     },
     "NHL": {
       "lastSlate": "Sun Oct 11 2026 CT · NHL (3 games)",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:26 AM CT",
-      "note": "3 games: SEA @ WSH 4:00, VAN @ NYR 5:00, CAR @ PHI 6:00 PM CT. Goalies per DailyFaceoff (mostly unconfirmed at publish); back-to-backs: VAN, CAR and PHI all played Saturday. YouTube: 7 NHL videos reviewed (Doc's Griffin Murphy SGP-only and Tony's 'no side' excluded); X list had no Sunday NHL slips (all NHL slips were Saturday, settled). Max 2 YT on any side, so no NHL card. Prices via Action Network feed (DK/FD/BetMGM/BetRivers); model: GameLens (ESPN has no NHL predictor)."
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:56 AM CT",
+      "note": "3 games: SEA @ WSH 4:00, VAN @ NYR 5:00, CAR @ PHI 6:00 PM CT. Goalies per DailyFaceoff (mostly unconfirmed at publish); back-to-backs: VAN, CAR and PHI all played Saturday. YouTube: 13 Sunday NHL videos reviewed (7 in the first pass + Doc's Rickenbach, Tony's Ramon ×2, Tony's prop videos ×2 and Ange Predicts ×2 with no spoken picks; Doc's Griffin Murphy SGP-only excluded; 5 more failed a YouTube bot-check/429); X list had no Sunday NHL slips (all NHL slips were Saturday, settled). Max 2 YT on any side (PHI +1.5, NYR −1.5), so no NHL card. Prices via Action Network feed (DK/FD/BetMGM/BetRivers); model: GameLens (ESPN has no NHL predictor)."
     },
     "NHL-PROPS": {
       "lastSlate": "Sun Oct 11 2026 CT · NHL props",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:26 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:56 AM CT",
       "note": "No NHL prop reaches 2 sources. Single-source only: Tony's Picks (Ian Cameron) Ryan Leonard o1.5 SOG, a Kraken o2.5 SOG prop, Rangers team total o3.5 −128, CAR–PHI regulation draw +320, Mark Jankowski goal +600; plus Tony's Picks' separate +300-or-longer goal-scorer longshot list and no Sunday NHL slips on the X list. No cited prop model, so nothing to show."
     },
     "UFC": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:49 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:57 AM CT",
       "note": "No UFC event today (ESPN UFC scoreboard shows 0 events for Oct 11)."
     },
     "UFC-PROPS": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:49 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:57 AM CT",
       "note": "No UFC event today (ESPN UFC scoreboard shows 0 events for Oct 11)."
     },
     "CFB": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:49 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:57 AM CT",
       "note": "No college football on Sunday. Saturday CFB cards and results were cleared for today's board."
     },
     "WNBA": {
       "lastSlate": "Sun Oct 11 2026 CT",
-      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:49 AM CT",
+      "lastUpdatedAtLabel": "Sun Oct 11, 2026 · 9:57 AM CT",
       "note": "No WNBA games today (ESPN shows 0 events)."
     },
     "Rule": {
@@ -922,14 +944,14 @@
     }
   },
   "liveGames": {
-    "NFL|PHI VS JAX": "JAX 7 – PHI 14 · 3:33 - 2nd (London, info only)"
+    "NFL|PHI VS JAX": "JAX 7 – PHI 14 · 1:06 - 2nd (London, info only)"
   },
   "minEdgeProcess": {
-    "passed": 13,
-    "failed": 36,
+    "passed": 12,
+    "failed": 39,
     "contested": 0,
     "note": "booksAlign true only via MinEdge ≥2.5pp vs BE of best observed price with a cited model (GameLens, ESPN FPI, ats.io, EdgeGoat, Tennis Abstract Elo, etc.). Model war ⇒ false. Live ⇒ info only. Never invent modelWinPct.",
-    "updatedAtLabel": "Sun Oct 11, 2026 · 9:49 AM CT"
+    "updatedAtLabel": "Sun Oct 11, 2026 · 9:57 AM CT"
   },
   "researchOnly": true,
   "noBetsPlaced": true,
@@ -939,14 +961,86 @@
     "beat": 0,
     "match": 0,
     "lose": 0,
-    "pending": 8,
+    "pending": 9,
     "unobserved": 0,
     "beatRate": "n/a",
     "bar": "Logic CLV ≳ half-hold",
     "note": "Sun Oct 11 slate; CLV pending until close.",
-    "updatedAtLabel": "Sun Oct 11, 2026 · 9:49 AM CT"
+    "updatedAtLabel": "Sun Oct 11, 2026 · 9:57 AM CT"
   },
   "bets": [
+    {
+      "id": "sun-mlb-1",
+      "example": false,
+      "sport": "MLB",
+      "tier": "gauge",
+      "marketType": "total",
+      "game": "Dodgers @ Brewers · NLCS Game 1 · 7:00 PM CT",
+      "pick": "Dodgers–Brewers Under 6",
+      "line": "U6 −105",
+      "gameState": "pre",
+      "consensusPct": 100,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 100,
+      "why": "YouTube 6 on the Under, none on the Over (Cover the Spread: under 6; Doc's Sports (Indian Cowboy): under 6; Greedo Plays: under 6.5 (best bet 1); Doc's Sports (Jason Sharpe): free play: under the total; PickDawgz (On Deck MLB, Brad): full game under 6; MLB Gambling Podcast - SGPN (Scott & Lante): \"we're on the under\" (6.5 −130 quoted)). Greedo and SGPN took it at 6.5 (now 6 at most books; 6.5 is −140 at FanDuel), so two of the six were at a better number. Send-it 0: the X list had no MLB slips. Books: Best Under 6 −105 (BetMGM; Under 6.5 −140 at FanDuel) → BE 51.22%. GameLens leans Under 60.8% but publishes no total line, so it can't be applied at 6; no other cited total model. booksAlign false. Starters (ESPN probables): Tarik Skubal (LAD) vs Jacob Misiorowski (MIL). Both clubs last played Oct 7 (LAD swept ATL; MIL won the NLDS finale at SD), so 3 days' rest — bullpens fully fresh. Weather 68°F, 0% precip (ESPN). MIL injuries: Woodruff, Priester, Zerpa (IL); LAD: Rojas day-to-day. GAUGE: needs 2 more X + booksAlign for CLEARED.",
+      "rationale": "Backed as GAUGE: 6 firm YT Under picks (no Over picks) reach 6; not CLEARED — 0 X slips and no cited total model at 6. Same lean in other markets: Guy Boston NRFI/first-3 Under, PickDawgz F5 Under 1.5.",
+      "sources": {
+        "youtube": 6,
+        "xSendIt": 0,
+        "booksAlign": false
+      },
+      "ledger": {
+        "thesis": "6 firm sources (6 YT + 0 X). Skubal vs Misiorowski, bullpens rested. Starters (ESPN probables): Tarik Skubal (LAD) vs Jacob Misiorowski (MIL). Both clubs last played Oct 7 (LAD swept ATL; MIL won the NLDS finale at SD), so 3 days' rest — bullpens fully fresh. Weather 68°F, 0% precip (ESPN). MIL injuries: Woodruff, Priester, Zerpa (IL); LAD: Rojas day-to-day.",
+        "yt": {
+          "sameSide": 6,
+          "strictPicks": 6,
+          "channels": [
+            "Cover the Spread: under 6",
+            "Doc's Sports (Indian Cowboy): under 6",
+            "Greedo Plays: under 6.5 (best bet 1)",
+            "Doc's Sports (Jason Sharpe): free play: under the total",
+            "PickDawgz (On Deck MLB, Brad): full game under 6",
+            "MLB Gambling Podcast - SGPN (Scott & Lante): \"we're on the under\" (6.5 −130 quoted)"
+          ],
+          "contestedOpposite": 0,
+          "contestedSide": "",
+          "contested": false
+        },
+        "sendIt": {
+          "uniquePosters": 0,
+          "whoOdds": [],
+          "opposite": 0,
+          "oppositeWho": [],
+          "gap": "GAUGE: needs 2 more X + booksAlign for CLEARED."
+        },
+        "booksAlign": false,
+        "booksAlignWhy": "Best Under 6 −105 (BetMGM; Under 6.5 −140 at FanDuel) → BE 51.22%. GameLens leans Under 60.8% but publishes no total line, so it can't be applied at 6; no other cited total model. booksAlign false.",
+        "floorGap": "GAUGE: needs 2 more X + booksAlign for CLEARED.",
+        "minEdge": {
+          "bestLine": "Under 6 −105",
+          "bestAmerican": -105,
+          "bestSource": "BetMGM (via Action Network odds feed)",
+          "breakEvenPct": 51.22,
+          "minEdgeRequiredPct": 2.5,
+          "checkedAt": "2026-10-11T09:57:44-05:00",
+          "modelWinPct": null,
+          "modelSource": null,
+          "edgeVsBePct": null,
+          "path": "fail",
+          "modelWar": false,
+          "passingModels": [],
+          "failingModels": [],
+          "missReason": "GameLens total has no line; no cited total model at 6."
+        },
+        "notes": "Two picks were at 6.5.",
+        "checkedAt": "2026-10-11T09:57:44-05:00",
+        "gameKey": "LAD@MIL",
+        "countRule": "strict: firm YT picks + unique X posters"
+      },
+      "timeCT": "7:00 PM CT",
+      "rank": 1
+    },
     {
       "id": "sun-nfl-1",
       "example": false,
@@ -1008,7 +1102,7 @@
           "bestSource": "BetMGM (via Action Network odds feed)",
           "breakEvenPct": 54.13,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:49:24-05:00",
+          "checkedAt": "2026-10-11T09:57:50-05:00",
           "modelWinPct": null,
           "modelSource": null,
           "edgeVsBePct": null,
@@ -1021,7 +1115,7 @@
           "missReason": "GameLens spread consensus (run at BAL +3.5 · 2/3) backs the other side (BAL +3.5 65.0%). No cited model clears, so booksAlign is false."
         },
         "notes": "ESPN FPI is ML-only (BAL 39.7% / ATL 59.9%) and is not applied to spreads. 65.0% looks like GameLens' display cap.",
-        "checkedAt": "2026-10-11T09:49:24-05:00",
+        "checkedAt": "2026-10-11T09:57:50-05:00",
         "gameKey": "BAL@ATL",
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -1042,7 +1136,7 @@
       "simWinPct": null,
       "ev": null,
       "confidence": 88,
-      "why": "YouTube 7 same side (Kyle Kirms: Saints +2.5 + ML, biggest bet of the week; PickDawgz (On Deck): Saints +2.5; Silverback Bets: Saints +2.5; PickDawgz (Jeremy Conn): Saints plus the points; To The Window: Saints +2.5 + ML; Tony's Picks: Saints plus the points; Pick Talk Sports Betting Podcast: Saints +2.5); contested by MIN spread 1 YT (OddsShopper (Lindy)). Send-it 0 unique posters on the NO spread. ML-only same side (not counted on this spread card): Fantasy Aces. Books: Best NO +2.5 −120 (DraftKings) → BE 54.55%. GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%). No cited model clears, so booksAlign is false. Schefter (~9:20 AM CT): Justin Jefferson expected to play, Jordan Addison (hamstring) not expected to play; Alvin Kamara questionable (ESPN). Dome. GAUGE: needs 2 more X + booksAlign for CLEARED.",
+      "why": "YouTube 7 same side (Kyle Kirms: Saints +2.5 + ML, biggest bet of the week; PickDawgz (On Deck): Saints +2.5; Silverback Bets: Saints +2.5; PickDawgz (Jeremy Conn): Saints plus the points; To The Window: Saints +2.5 + ML; Tony's Picks: Saints plus the points; Pick Talk Sports Betting Podcast: Saints +2.5); contested by MIN spread 1 YT (OddsShopper (Lindy)). Send-it 0 unique posters on the NO spread. ML-only same side (not counted on this spread card): Fantasy Aces. Books: Best NO +2.5 −110 (BetMGM) → BE 52.38%. GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%). No cited model clears, so booksAlign is false. Schefter (~9:20 AM CT): Justin Jefferson expected to play, Jordan Addison (hamstring) not expected to play; Alvin Kamara questionable (ESPN). Dome. GAUGE: needs 2 more X + booksAlign for CLEARED.",
       "rationale": "Backed as GAUGE: 7 firm YT picks on NO +2.5; not CLEARED — 0 X slips, GameLens backs MIN −1.5 (3/3).",
       "sources": {
         "youtube": 7,
@@ -1083,15 +1177,15 @@
           "gap": "GAUGE: needs 2 more X + booksAlign for CLEARED."
         },
         "booksAlign": false,
-        "booksAlignWhy": "Best NO +2.5 −120 (DraftKings) → BE 54.55%. GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%). No cited model clears, so booksAlign is false.",
+        "booksAlignWhy": "Best NO +2.5 −110 (BetMGM) → BE 52.38%. GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%). No cited model clears, so booksAlign is false.",
         "floorGap": "GAUGE: needs 2 more X + booksAlign for CLEARED.",
         "minEdge": {
-          "bestLine": "NO +2.5 −120",
-          "bestAmerican": -120,
-          "bestSource": "DraftKings (via Action Network odds feed)",
-          "breakEvenPct": 54.55,
+          "bestLine": "NO +2.5 −110",
+          "bestAmerican": -110,
+          "bestSource": "BetMGM (via Action Network odds feed)",
+          "breakEvenPct": 52.38,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:49:24-05:00",
+          "checkedAt": "2026-10-11T09:57:50-05:00",
           "modelWinPct": null,
           "modelSource": null,
           "edgeVsBePct": null,
@@ -1104,7 +1198,7 @@
           "missReason": "GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%). No cited model clears, so booksAlign is false."
         },
         "notes": "ESPN FPI is ML-only (MIN 55.3% / NO 44.3%) and is not applied to spreads. 65.0% looks like GameLens' display cap.",
-        "checkedAt": "2026-10-11T09:49:24-05:00",
+        "checkedAt": "2026-10-11T09:57:50-05:00",
         "gameKey": "MIN@NO",
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -1118,19 +1212,19 @@
       "tier": "gauge",
       "marketType": "spread",
       "game": "Texans @ Titans · 12:00 PM CT",
-      "pick": "Titans +7",
-      "line": "+7",
+      "pick": "Titans +7 (now +6.5)",
+      "line": "+6.5",
       "gameState": "pre",
       "consensusPct": 88,
-      "simWinPct": 65.0,
-      "ev": "+11.51pp vs BE",
+      "simWinPct": null,
+      "ev": null,
       "confidence": 88,
-      "why": "YouTube 7 same side (Sports Parlay Picks: Titans +7.5 (bought); PickDawgz (On Deck): Titans plus the points; Silverback Bets: Titans +7.5; To The Window: Titans +7 (half unit); Tony's Picks: Tennessee plus the points; Doug Upstone: Titans +7.5 free play; Pick Talk Sports Betting Podcast: Titans +7.5); contested by HOU spread 1 YT (Money Mitch). Send-it 0 unique posters on the TEN spread; X opposite: @ActionNetworkHQ: Texans −7.5 (best bet, 9:25 AM CT). Books: Best TEN +7 −115 (BetRivers) → BE 53.49%. GameLens spread consensus (run at TEN +7 · 2/3) 65.0% (+11.51pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true. ~49% precip chance (ESPN).  GAUGE: needs 2 more X for CLEARED.",
-      "rationale": "Backed as GAUGE: 7 firm YT spread picks + GameLens MinEdge pass (+11.51pp vs BE); not CLEARED only because X posted no game-line slips for it.",
+      "why": "Line move: picks were made at TEN +7; best available now TEN +6.5 +100 (BetMGM). YouTube 7 same side (Sports Parlay Picks: Titans +7.5 (bought); PickDawgz (On Deck): Titans plus the points; Silverback Bets: Titans +7.5; To The Window: Titans +7 (half unit); Tony's Picks: Tennessee plus the points; Doug Upstone: Titans +7.5 free play; Pick Talk Sports Betting Podcast: Titans +7.5); contested by HOU spread 1 YT (Money Mitch). Send-it 0 unique posters on the TEN spread; X opposite: @ActionNetworkHQ: Texans −7.5 (best bet, 9:25 AM CT). Books: Best TEN +6.5 +100 (BetMGM) → BE 50.0%. GameLens spread consensus (run at TEN +7 · 2/3) 65.0% not applied: run at a better number than today's best TEN +6.5. No other applicable cited model (FPI is ML-only), so booksAlign is false. ~49% precip chance (ESPN).  GAUGE: needs 2 more X + booksAlign for CLEARED.",
+      "rationale": "Backed as GAUGE: 7 firm YouTube spread picks clear the 6 floor; not CLEARED because X posted no TEN game-line slips and no cited model backs it; line moved +7→+6.5.",
       "sources": {
         "youtube": 7,
         "xSendIt": 0,
-        "booksAlign": true
+        "booksAlign": false
       },
       "ledger": {
         "thesis": "7 firm sources (7 YT + 0 X). Titans plus the TD (+hook earlier in the week); GameLens backs TEN +7 (2/3). ~49% precip chance (ESPN). ",
@@ -1163,31 +1257,29 @@
             "@ActionNetworkHQ: Texans −7.5 (best bet, 9:25 AM CT)"
           ],
           "mlOnlySameSide": [],
-          "gap": "GAUGE: needs 2 more X for CLEARED."
+          "gap": "GAUGE: needs 2 more X + booksAlign for CLEARED."
         },
-        "booksAlign": true,
-        "booksAlignWhy": "Best TEN +7 −115 (BetRivers) → BE 53.49%. GameLens spread consensus (run at TEN +7 · 2/3) 65.0% (+11.51pp). Clears MinEdge ≥2.5pp with a cited model and no conflicting cited model, so booksAlign is true.",
-        "floorGap": "GAUGE: needs 2 more X for CLEARED.",
+        "booksAlign": false,
+        "booksAlignWhy": "Best TEN +6.5 +100 (BetMGM) → BE 50.0%. GameLens spread consensus (run at TEN +7 · 2/3) 65.0% not applied: run at a better number than today's best TEN +6.5. No other applicable cited model (FPI is ML-only), so booksAlign is false.",
+        "floorGap": "GAUGE: needs 2 more X + booksAlign for CLEARED.",
         "minEdge": {
-          "bestLine": "TEN +7 −115",
-          "bestAmerican": -115,
-          "bestSource": "BetRivers (via Action Network odds feed)",
-          "breakEvenPct": 53.49,
+          "bestLine": "TEN +6.5 +100",
+          "bestAmerican": 100,
+          "bestSource": "BetMGM (via Action Network odds feed)",
+          "breakEvenPct": 50.0,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:49:24-05:00",
-          "modelWinPct": 65.0,
-          "modelSource": "GameLens spread consensus (run at TEN +7 · 2/3)",
-          "edgeVsBePct": 11.51,
-          "path": "pass",
+          "checkedAt": "2026-10-11T09:57:50-05:00",
+          "modelWinPct": null,
+          "modelSource": null,
+          "edgeVsBePct": null,
+          "path": "fail",
           "modelWar": false,
-          "passingModels": [
-            "GameLens spread consensus (run at TEN +7 · 2/3) 65.0% (+11.51pp)"
-          ],
+          "passingModels": [],
           "failingModels": [],
-          "missReason": null
+          "missReason": "GameLens spread consensus (run at TEN +7 · 2/3) 65.0% not applied: run at a better number than today's best TEN +6.5. No other applicable cited model (FPI is ML-only), so booksAlign is false."
         },
-        "notes": "ESPN FPI is ML-only (HOU 66.6% / TEN 33.2%) and is not applied to spreads. 65.0% looks like GameLens' display cap.",
-        "checkedAt": "2026-10-11T09:49:24-05:00",
+        "notes": "GameLens spread consensus (run at TEN +7 · 2/3) 65.0% not applied: run at a better number than today's best TEN +6.5. ESPN FPI is ML-only (HOU 66.6% / TEN 33.2%) and is not applied to spreads. 65.0% looks like GameLens' display cap.",
+        "checkedAt": "2026-10-11T09:57:50-05:00",
         "gameKey": "HOU@TEN",
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -1253,7 +1345,7 @@
           "bestSource": "BetMGM (via Action Network odds feed)",
           "breakEvenPct": 51.22,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:49:24-05:00",
+          "checkedAt": "2026-10-11T09:57:50-05:00",
           "modelWinPct": 65.0,
           "modelSource": "GameLens spread consensus (run at LV +3.5 · 2/3)",
           "edgeVsBePct": 13.78,
@@ -1266,7 +1358,7 @@
           "missReason": null
         },
         "notes": "ESPN FPI is ML-only (LV 36.4% / NE 63.3%) and is not applied to spreads. 65.0% looks like GameLens' display cap.",
-        "checkedAt": "2026-10-11T09:49:24-05:00",
+        "checkedAt": "2026-10-11T09:57:50-05:00",
         "gameKey": "LV@NE",
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -1334,7 +1426,7 @@
           "bestSource": "BetRivers (via Action Network odds feed)",
           "breakEvenPct": 51.46,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:49:24-05:00",
+          "checkedAt": "2026-10-11T09:57:50-05:00",
           "modelWinPct": 59.9,
           "modelSource": "GameLens spread consensus (run at CLE +1.5 · 2/3)",
           "edgeVsBePct": 8.44,
@@ -1347,7 +1439,7 @@
           "missReason": null
         },
         "notes": "ESPN FPI is ML-only (CLE 45.0% / NYJ 54.7%) and is not applied to spreads.",
-        "checkedAt": "2026-10-11T09:49:24-05:00",
+        "checkedAt": "2026-10-11T09:57:50-05:00",
         "gameKey": "CLE@NYJ",
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -1415,7 +1507,7 @@
           "bestSource": "BetMGM (via Action Network odds feed)",
           "breakEvenPct": 50.5,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:49:24-05:00",
+          "checkedAt": "2026-10-11T09:57:50-05:00",
           "modelWinPct": 58.1,
           "modelSource": "GameLens spread consensus (run at SF +3 · 2/3)",
           "edgeVsBePct": 7.6,
@@ -1428,7 +1520,7 @@
           "missReason": null
         },
         "notes": "ESPN FPI is ML-only (SF 43.8% / SEA 55.9%) and is not applied to spreads.",
-        "checkedAt": "2026-10-11T09:49:24-05:00",
+        "checkedAt": "2026-10-11T09:57:50-05:00",
         "gameKey": "SF@SEA",
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -1498,7 +1590,7 @@
           "bestSource": "FanDuel (via Action Network odds feed)",
           "breakEvenPct": 54.95,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:49:24-05:00",
+          "checkedAt": "2026-10-11T09:57:50-05:00",
           "modelWinPct": null,
           "modelSource": null,
           "edgeVsBePct": null,
@@ -1511,7 +1603,7 @@
           "missReason": "GameLens spread consensus (run at IND +2.5 · 2/3) backs the other side (IND +2.5 65.0%). No cited model clears, so booksAlign is false."
         },
         "notes": "ESPN FPI is ML-only (IND 50.7% / PIT 48.9%) and is not applied to spreads. 65.0% looks like GameLens' display cap.",
-        "checkedAt": "2026-10-11T09:49:24-05:00",
+        "checkedAt": "2026-10-11T09:57:50-05:00",
         "gameKey": "IND@PIT",
         "countRule": "strict: firm YouTube picks only, spread market only (ML-only picks noted, not counted; leans, score predictions, AI channels, relayed duplicates excluded) + unique X posters (parlay legs count; settled ignored)"
       },
@@ -1577,7 +1669,7 @@
           "bestSource": "Quoted in WagerTalk video (book not stated); slips +135/+140",
           "breakEvenPct": 40.0,
           "minEdgeRequiredPct": 2.5,
-          "checkedAt": "2026-10-11T09:49:24-05:00",
+          "checkedAt": "2026-10-11T09:57:50-05:00",
           "modelWinPct": null,
           "modelSource": null,
           "edgeVsBePct": null,
@@ -1588,7 +1680,7 @@
           "missReason": "No cited model probability for this prop."
         },
         "notes": "",
-        "checkedAt": "2026-10-11T09:49:24-05:00",
+        "checkedAt": "2026-10-11T09:57:50-05:00",
         "gameKey": "HOU@TEN",
         "countRule": "strict: firm YT picks + unique X posters (parlay legs count; settled ignored; AI accounts excluded)"
       },
@@ -1608,31 +1700,17 @@
     "cleared": "0-0-0",
     "gauge": "0-0-0",
     "nearMiss": "0-0-0",
-    "checkedAt": "9:49 AM CT",
-    "checkedAtIso": "2026-10-11T09:49:37-05:00",
+    "checkedAt": "9:57 AM CT",
+    "checkedAtIso": "2026-10-11T09:57:57-05:00",
     "label": "Results reset for Sun Oct 11 (Saturday cards and results cleared). Today's results so far: CLEARED 0-0-0 · GAUGE 0-0-0 · Near misses 0-0-0 — nothing graded yet."
   },
   "todaysGauge": {
     "title": "Today's Gauge",
-    "label": "Unstarted games only · ESPN status checked 9:49 AM CT · research only",
-    "checkedAt": "9:49 AM CT",
-    "checkedAtIso": "2026-10-11T09:49:37-05:00",
-    "note": "Best plays across all sports for games that haven't started (ESPN status checked 9:49 AM CT). Main cards first (CLEARED, then GAUGE by booksAlign, source depth, cited-model edge), then labeled NEAR MISS rows (<6 sources) where a cited model clears MinEdge. One side per game only — skipped to avoid a second play in the same game: Nico Collins anytime TD (Texans @ Titans); Ravens +3.5 (Ravens @ Falcons). Started games drop off on each republish. This list doesn't change any totals. Research only, never place bets.",
+    "label": "Unstarted games only · ESPN status checked 9:57 AM CT · research only",
+    "checkedAt": "9:57 AM CT",
+    "checkedAtIso": "2026-10-11T09:57:57-05:00",
+    "note": "Best plays across all sports for games that haven't started (ESPN status checked 9:57 AM CT). Main cards first (CLEARED, then GAUGE by booksAlign, source depth, cited-model edge), then labeled NEAR MISS rows (<6 sources) where a cited model clears MinEdge. One side per game only — skipped to avoid a second play in the same game: Nico Collins anytime TD (Texans @ Titans); Ravens +3.5 (Ravens @ Falcons); Brewers ML (NLCS G1 · Dodgers @ Brewers). Started games drop off on each republish. This list doesn't change any totals. Research only, never place bets.",
     "items": [
-      {
-        "tier": "GAUGE",
-        "pick": "Titans +7",
-        "line": "TEN +7 −115",
-        "sport": "NFL",
-        "game": "Texans @ Titans",
-        "timeCT": "12:00 PM CT",
-        "yt": 7,
-        "x": 0,
-        "booksAlign": true,
-        "edge": "✓ +11.51pp (GameLens spread consensus (run at TEN +7 · 2/3))",
-        "rationale": "Backed as GAUGE: 7 firm YT spread picks + GameLens MinEdge pass (+11.51pp vs BE); not CLEARED only because X posted no game-line slips for it.",
-        "rank": 1
-      },
       {
         "tier": "GAUGE",
         "pick": "Raiders +3.5",
@@ -1645,7 +1723,7 @@
         "booksAlign": true,
         "edge": "✓ +13.78pp (GameLens spread consensus (run at LV +3.5 · 2/3))",
         "rationale": "Backed as GAUGE: 6 firm YT spread picks + GameLens MinEdge pass (+13.78pp vs BE); not CLEARED only because X posted no game-line slips for it.",
-        "rank": 2
+        "rank": 1
       },
       {
         "tier": "GAUGE",
@@ -1659,7 +1737,7 @@
         "booksAlign": true,
         "edge": "✓ +8.44pp (GameLens spread consensus (run at CLE +1.5 · 2/3))",
         "rationale": "Backed as GAUGE: 6 firm YT spread picks + GameLens MinEdge pass (+8.44pp vs BE); not CLEARED only because X posted no game-line slips for it.",
-        "rank": 3
+        "rank": 2
       },
       {
         "tier": "GAUGE",
@@ -1673,7 +1751,7 @@
         "booksAlign": true,
         "edge": "✓ +7.6pp (GameLens spread consensus (run at SF +3 · 2/3))",
         "rationale": "Backed as GAUGE: 6 firm YT spread picks + GameLens MinEdge pass (+7.6pp vs BE); not CLEARED only because X posted no game-line slips for it.",
-        "rank": 4
+        "rank": 3
       },
       {
         "tier": "GAUGE",
@@ -1687,12 +1765,12 @@
         "booksAlign": false,
         "edge": "✗ GameLens spread consensus (run at BAL +3.5 · 2/3) backs the other side (BAL +3.5 65.0%)",
         "rationale": "Backed as GAUGE: 8 firm YT picks lay −3 with ATL after Lamar's injury; not CLEARED — 0 X slips and GameLens backs BAL +3.5 (FPI is ML-only).",
-        "rank": 5
+        "rank": 4
       },
       {
         "tier": "GAUGE",
         "pick": "Saints +2.5",
-        "line": "NO +2.5 −120",
+        "line": "NO +2.5 −110",
         "sport": "NFL",
         "game": "Vikings @ Saints",
         "timeCT": "12:00 PM CT",
@@ -1701,7 +1779,35 @@
         "booksAlign": false,
         "edge": "✗ GameLens spread consensus (run at MIN −1.5 · 3/3) backs the other side (MIN −1.5 65.0%)",
         "rationale": "Backed as GAUGE: 7 firm YT picks on NO +2.5; not CLEARED — 0 X slips, GameLens backs MIN −1.5 (3/3).",
+        "rank": 5
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "Titans +7 (now +6.5)",
+        "line": "TEN +6.5 +100",
+        "sport": "NFL",
+        "game": "Texans @ Titans",
+        "timeCT": "12:00 PM CT",
+        "yt": 7,
+        "x": 0,
+        "booksAlign": false,
+        "edge": "✗ no cited model",
+        "rationale": "Backed as GAUGE: 7 firm YouTube spread picks clear the 6 floor; not CLEARED because X posted no TEN game-line slips and no cited model backs it; line moved +7→+6.5.",
         "rank": 6
+      },
+      {
+        "tier": "GAUGE",
+        "pick": "Dodgers–Brewers Under 6",
+        "line": "U6 −105 (BetMGM)",
+        "sport": "MLB",
+        "game": "NLCS G1 · Dodgers @ Brewers",
+        "timeCT": "7:00 PM CT",
+        "yt": 6,
+        "x": 0,
+        "booksAlign": false,
+        "edge": "✗ no cited total model at 6 (GameLens Under 60.8%, no line)",
+        "rationale": "Backed as GAUGE: 6 firm YT Under picks (no Over picks) reach 6; not CLEARED — 0 X slips and no cited total model at 6. Same lean in other markets: Guy Boston NRFI/first-3 Under, PickDawgz F5 Under 1.5.",
+        "rank": 7
       },
       {
         "tier": "GAUGE",
@@ -1715,7 +1821,7 @@
         "booksAlign": false,
         "edge": "✗ GameLens spread consensus (run at IND +2.5 · 2/3) backs the other side (IND +2.5 65.0%)",
         "rationale": "Backed as GAUGE: 5 firm YT spread picks + 1 X (@ActionNetworkHQ best bet) reach 6; not CLEARED — needs 1 more X and GameLens backs IND +2.5 (2/3, 65% display cap).",
-        "rank": 7
+        "rank": 8
       },
       {
         "tier": "NEAR MISS",
@@ -1729,7 +1835,7 @@
         "booksAlign": true,
         "edge": "✓ +13.08pp (GameLens spread consensus (run at CHI −1.5 · 3/3))",
         "rationale": "Not backed: 5 YT + 0 X spread picks (+3 ML-only same side, not counted: PickDawgz (On Deck), Fantasy Aces, StumpTheSpread) < 6; MinEdge passes (cited model clears at this number), so it's the best low-source fill.",
-        "rank": 8
+        "rank": 9
       },
       {
         "tier": "NEAR MISS",
@@ -1743,20 +1849,6 @@
         "booksAlign": true,
         "edge": "✓ +13.78pp (GameLens spread consensus (run at NYG +3.5 · 2/3))",
         "rationale": "Not backed: 4 YT + 0 X spread picks (+1 ML-only same side, not counted: Fantasy Aces) < 6 (X opposite: 1); MinEdge passes (cited model clears at this number), so it's the best low-source fill.",
-        "rank": 9
-      },
-      {
-        "tier": "NEAR MISS",
-        "pick": "Brewers ML",
-        "line": "MIL −106 (BetRivers)",
-        "sport": "MLB",
-        "game": "NLCS G1 · Dodgers @ Brewers",
-        "timeCT": "7:00 PM CT",
-        "yt": 4,
-        "x": 0,
-        "booksAlign": true,
-        "edge": "✓ +9.84pp (GameLens ML 3/3) · ESPN +6.74pp",
-        "rationale": "Not backed: 4 firm YT picks + 0 X < 6, contested by 3 YT on LAD; best low-source fill because both cited models clear MinEdge.",
         "rank": 10
       },
       {
@@ -1774,7 +1866,7 @@
         "rank": 11
       }
     ],
-    "mainCount": 7,
-    "nearMissCount": 4
+    "mainCount": 8,
+    "nearMissCount": 3
   }
 }
