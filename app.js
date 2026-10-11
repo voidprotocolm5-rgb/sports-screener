@@ -295,7 +295,7 @@
     return betsForSport(bets, sportId).length;
   }
 
-  var SUB_SPORTS = { NBA: true, NHL: true, UFC: true };
+  var SUB_SPORTS = { NBA: true, NHL: true, UFC: true, NFL: true };
   function hasSub(sp) { return !!SUB_SPORTS[String(sp || "").toUpperCase()]; }
 
   function parseHash() {
@@ -316,6 +316,8 @@
     if (u === "UFC-PROPS" || u === "UFCPROPS") return { sport: "UFC", sub: "props" };
     if (u === "UFC-FIGHTS" || u === "UFC") return { sport: "UFC", sub: "lines" };
     if (u === "NHL-LINES" || u === "NHL") return { sport: "NHL", sub: "lines" };
+    if (u === "NFL-PROPS" || u === "NFLPROPS") return { sport: "NFL", sub: "props" };
+    if (u === "NFL-LINES" || u === "NFL") return { sport: "NFL", sub: "lines" };
     return { sport: normalizeSport(raw), sub: null };
   }
 
@@ -579,10 +581,10 @@
     var subLabel = "";
     if (isNba && activeSub === "props") {
       label = "Player props";
-      subLabel = " (" + (isRealNba ? "Basketball" : (normalizeSport(sportId) === "UFC" ? "UFC" : "Hockey")) + " · " + (normalizeSport(sportId) === "UFC" ? "Props" : "Player props") + ")";
+      subLabel = " (" + (isRealNba ? "Basketball" : (normalizeSport(sportId) === "UFC" ? "UFC" : (normalizeSport(sportId) === "NFL" ? "Football" : "Hockey"))) + " · " + (normalizeSport(sportId) === "UFC" ? "Props" : "Player props") + ")";
     } else if (isNba && activeSub === "lines") {
-      label = normalizeSport(sportId) === "UFC" ? "UFC fights" : (isRealNba ? "NBA" : "NHL") + " game lines";
-      subLabel = normalizeSport(sportId) === "UFC" ? " (UFC · Fights)" : " (" + (isRealNba ? "Basketball" : "Hockey") + " · Game lines)";
+      label = normalizeSport(sportId) === "UFC" ? "UFC fights" : (isRealNba ? "NBA" : (normalizeSport(sportId) === "NFL" ? "NFL" : "NHL")) + " game lines";
+      subLabel = normalizeSport(sportId) === "UFC" ? " (UFC · Fights)" : " (" + (isRealNba ? "Basketball" : (normalizeSport(sportId) === "NFL" ? "Football" : "Hockey")) + " · Game lines)";
     }
 
     var archiveHtml = "";
@@ -630,7 +632,7 @@
   }
 
   function renderTonightGauge(data) {
-    var g = data && data.tonightsGauge;
+    var g = data && (data.todaysGauge || data.tonightsGauge);
     var el = document.getElementById("tonight-gauge");
     var nav = $("sport-nav");
     if (!g || !g.items || !g.items.length) { if (el) el.remove(); return; }
@@ -638,7 +640,7 @@
       el = document.createElement("section");
       el.id = "tonight-gauge";
       el.className = "tonight-gauge";
-      el.setAttribute("aria-label", "Tonight's Gauge");
+      el.setAttribute("aria-label", (g.title || "Today's Gauge"));
       nav.parentNode.insertBefore(el, nav);
     }
     if (!el) return;
@@ -662,7 +664,7 @@
       );
     }).join("");
     el.innerHTML =
-      '<div class="tg-head"><h2 class="tg-title">Tonight\u2019s Gauge</h2>' +
+      '<div class="tg-head"><h2 class="tg-title">' + escapeHtml(g.title || "Today\u2019s Gauge") + '</h2>' +
       '<span class="tg-sub">' + escapeHtml(g.label || "") + "</span></div>" +
       '<ol class="tg-list">' + rows + "</ol>" +
       (g.note ? '<p class="tg-note">' + escapeHtml(g.note) + "</p>" : "");
