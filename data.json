@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-10-13T18:28:26-05:00",
-  "updatedAtLabel": "Tue Oct 13, 2026 \u00b7 6:28 PM CT",
+  "updatedAt": "2026-10-13T19:07:36-05:00",
+  "updatedAtLabel": "Tue Oct 13, 2026 · 7:07 PM CT",
   "nearMiss": {
     "NHL": [
       {
         "pick": "Oilers ML",
         "marketType": "moneyline",
-        "game": "Oilers @ Kings \u00b7 9:30 PM CT",
+        "game": "Oilers @ Kings · 9:30 PM CT",
         "gameState": "pre",
         "yt": 5,
-        "ytWho": "Doc's Rundown (Trapp/Indian Cowboy) \u2212123; PickDawgz Wraparound (Ruffolo); Tony's Picks \u2212125; PickDawgz Morning Show; SGPN Hockey Gambling Podcast",
+        "ytWho": "Doc's Rundown (Trapp/Indian Cowboy) −123; PickDawgz Wraparound (Ruffolo); Tony's Picks −125; PickDawgz Morning Show; SGPN Hockey Gambling Podcast",
         "x": 0,
         "xWho": "",
         "total": 5,
         "booksAlign": false,
-        "booksAlignWhy": "Best EDM \u2212128 (FanDuel) \u2192 BE 56.1%. GameLens takes LA +118 at 46.7%, so the model sides with the dog (+0.8pp on LA, not a pass on either side). No pass.",
+        "booksAlignWhy": "Best EDM −128 (FanDuel) → BE 56.1%. GameLens takes LA +118 at 46.7%, so the model sides with the dog (+0.8pp on LA, not a pass on either side). No pass.",
         "modelOnly": false,
         "gap": "Needs 1 more source to reach 6. Needs 2 X + a cited model for CLEARED.",
-        "rationale": "Top YT consensus on the board: 5 of 7 sources on EDM (71%). Line moved toward EDM (opened \u2212125, now \u2212128 to \u2212136). GameLens leans LA, so the model doesn't confirm it.",
+        "rationale": "Top YT consensus on the board: 5 of 7 sources on EDM (71%). Line moved toward EDM (opened −125, now −128 to −136). GameLens leans LA, so the model doesn't confirm it.",
         "thesis": "Goalies (DailyFaceoff): EDM Devon Levi unconfirmed; LA Darcy Kuemper likely. Against EDM: Doc's Vernon (LA +110) and a PickDawgz Morning Show host (LA ML).",
         "timeCT": "9:30 PM CT",
         "consensusPct": 71
@@ -25,18 +25,18 @@
       {
         "pick": "Bruins ML",
         "marketType": "moneyline",
-        "game": "Bruins @ Sharks \u00b7 10:00 PM CT",
+        "game": "Bruins @ Sharks · 10:00 PM CT",
         "gameState": "pre",
         "yt": 4,
-        "ytWho": "Doc's Vernon (\u2212115); BettingPros Daily Juice (\u2212106, 1.06u); Doc's Rundown; SGPN Hockey Gambling Podcast",
+        "ytWho": "Doc's Vernon (−115); BettingPros Daily Juice (−106, 1.06u); Doc's Rundown; SGPN Hockey Gambling Podcast",
         "x": 0,
         "xWho": "",
         "total": 4,
         "booksAlign": false,
-        "booksAlignWhy": "Best BOS \u2212120 (BetMGM) \u2192 BE 54.5%. GameLens BOS 46.9% (a pick under 50%, so I didn't use it). No usable cited model.",
+        "booksAlignWhy": "Best BOS −120 (BetMGM) → BE 54.5%. GameLens BOS 46.9% (a pick under 50%, so I didn't use it). No usable cited model.",
         "modelOnly": false,
         "gap": "Needs 2 more sources to reach 6.",
-        "rationale": "4 of 5 YT on BOS (80%). Opened \u2212105/\u2212115 (SJ fav), now BOS \u2212120 to \u2212125, so steam is on Boston. Only Tony's Picks has SJ.",
+        "rationale": "4 of 5 YT on BOS (80%). Opened −105/−115 (SJ fav), now BOS −120 to −125, so steam is on Boston. Only Tony's Picks has SJ.",
         "thesis": "Goalies: Swayman / Askarov, neither confirmed by DailyFaceoff yet. Celebrini's status is uncertain, per Doc's.",
         "timeCT": "10:00 PM CT",
         "consensusPct": 80
@@ -44,18 +44,18 @@
       {
         "pick": "Jets ML",
         "marketType": "moneyline",
-        "game": "Wild @ Jets \u00b7 7:15 PM CT",
+        "game": "Wild @ Jets · 7:15 PM CT",
         "gameState": "pre",
         "yt": 4,
-        "ytWho": "Doc's Vernon (\u2212110); Doc's Rundown; PickDawgz Wraparound (Ruffolo); Doc's Nick Menken (free play)",
+        "ytWho": "Doc's Vernon (−110); Doc's Rundown; PickDawgz Wraparound (Ruffolo); Doc's Nick Menken (free play)",
         "x": 0,
         "xWho": "",
         "total": 4,
         "booksAlign": false,
-        "booksAlignWhy": "Best WPG \u2212110 (FanDuel) \u2192 BE 52.4%. GameLens NHL moneyline rows show the picked side under 50% for this game, which doesn't make sense, so I didn't use it (same as the Oct 12 pass). ESPN has no NHL predictor. MoneyPuck/Natural Stat Trick couldn't be pulled. No cited model, so booksAlign is false.",
+        "booksAlignWhy": "Best WPG −110 (FanDuel) → BE 52.4%. GameLens NHL moneyline rows show the picked side under 50% for this game, which doesn't make sense, so I didn't use it (same as the Oct 12 pass). ESPN has no NHL predictor. MoneyPuck/Natural Stat Trick couldn't be pulled. No cited model, so booksAlign is false.",
         "modelOnly": false,
         "gap": "Needs 2 more sources to reach 6.",
-        "rationale": "4 of 5 YT on WPG (80%), one SGPN host on MIN. Calvin Pickard makes his first start for MIN, on the Wild's back-to-back. The line is flat (opened \u2212110).",
+        "rationale": "4 of 5 YT on WPG (80%), one SGPN host on MIN. Calvin Pickard makes his first start for MIN, on the Wild's back-to-back. The line is flat (opened −110).",
         "thesis": "Goalies (DailyFaceoff): Stuart Skinner WPG confirmed; Calvin Pickard MIN confirmed.",
         "timeCT": "7:15 PM CT",
         "consensusPct": 80
@@ -63,7 +63,7 @@
       {
         "pick": "Avalanche @ Stars Under 6",
         "marketType": "total",
-        "game": "Avalanche @ Stars \u00b7 7:30 PM CT",
+        "game": "Avalanche @ Stars · 7:30 PM CT",
         "gameState": "pre",
         "yt": 3,
         "ytWho": "Doc's Rundown (u6); PickDawgz Wraparound (Ruffolo, under); J.A. Cavalier (under)",
@@ -71,10 +71,10 @@
         "xWho": "",
         "total": 3,
         "booksAlign": false,
-        "booksAlignWhy": "Most books are at 5.5 (U +105 to +110); BetMGM U6 \u2212115 \u2192 BE 53.5%. GameLens total row shows 'Under' with no line, so I can't apply it at this number. booksAlign false.",
+        "booksAlignWhy": "Most books are at 5.5 (U +105 to +110); BetMGM U6 −115 → BE 53.5%. GameLens total row shows 'Under' with no line, so I can't apply it at this number. booksAlign false.",
         "modelOnly": false,
         "gap": "Needs 3 more sources to reach 6.",
-        "rationale": "3 of 3 YT on the under (100%). Total moved down 6 \u2192 5.5 at most books. Price the 5.5 vs 6 carefully.",
+        "rationale": "3 of 3 YT on the under (100%). Total moved down 6 → 5.5 at most books. Price the 5.5 vs 6 carefully.",
         "thesis": "Goalies: Oettinger and Blackwood both confirmed (DailyFaceoff).",
         "timeCT": "7:30 PM CT",
         "consensusPct": 100
@@ -82,7 +82,7 @@
       {
         "pick": "Maple Leafs @ Mammoth Over 6.5",
         "marketType": "total",
-        "game": "Maple Leafs @ Mammoth \u00b7 8:00 PM CT",
+        "game": "Maple Leafs @ Mammoth · 8:00 PM CT",
         "gameState": "pre",
         "yt": 3,
         "ytWho": "Brock Page; PickDawgz Wraparound (Ruffolo); SGPN host",
@@ -90,7 +90,7 @@
         "xWho": "",
         "total": 3,
         "booksAlign": false,
-        "booksAlignWhy": "Best O6.5 \u2212112 (DraftKings) \u2192 BE 52.8%. No cited total model at 6.5.",
+        "booksAlignWhy": "Best O6.5 −112 (DraftKings) → BE 52.8%. No cited total model at 6.5.",
         "modelOnly": false,
         "gap": "Needs 3 more sources to reach 6.",
         "rationale": "3 of 3 YT on the over (100%), no X.",
@@ -103,7 +103,7 @@
       {
         "pick": "William Nylander o2.5 SOG",
         "marketType": "prop",
-        "game": "Maple Leafs @ Mammoth \u00b7 8:00 PM CT",
+        "game": "Maple Leafs @ Mammoth · 8:00 PM CT",
         "gameState": "pre",
         "yt": 0,
         "ytWho": "",
@@ -118,33 +118,109 @@
         "thesis": "",
         "timeCT": "8:00 PM CT",
         "consensusPct": 100
-      },
+      }
+    ],
+    "MLB": [
       {
-        "pick": "Mason McTavish o1.5 SOG",
-        "marketType": "prop",
-        "game": "Blues @ Senators \u00b7 6:30 PM CT",
-        "gameState": "pre",
-        "yt": 1,
-        "ytWho": "RiskMode (\u2212140 Hard Rock; 'favorite play')",
+        "pick": "Guardians ML",
+        "marketType": "moneyline",
+        "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
+        "timeCT": "7:00 PM CT",
+        "yt": 3,
+        "ytWho": "Tony's Picks (plus money); Doc's Rundown (Trapp/Cowboy host: 'I like them to win today, Cleveland'); Break The Board ('Guardians plus money game two')",
         "x": 0,
         "xWho": "",
-        "total": 1,
-        "booksAlign": false,
-        "booksAlignWhy": "No cited prop model.",
+        "booksAlign": true,
+        "booksAlignWhy": "MinEdge PASS: best CLE +121 (Caesars) → BE 45.2%. GameLens CLE 58.3% → +13.1pp. No second model pulled (Dimers' figure isn't public in the post), so there's no model war.",
+        "gap": "Needs 3 more sources (all X).",
+        "rationale": "Contrarian MinEdge: Action Network has 70% of bets / 63% of money on TB (@ActionNetworkHQ), and the line is flat (opened TB −130, now −128 to −145), so the public is on Tampa and the model is on Cleveland. YT is split 3 CLE / 4 TB (43%).",
+        "thesis": "Probables: Parker Messick (CLE) vs Freddy Peralta (TB). TB has won 6 straight Peralta starts.",
+        "consensusPct": 43,
+        "gameState": "pre",
         "modelOnly": false,
-        "gap": "Needs 5 more sources.",
-        "rationale": "1 YT. 9 of his last 10 went over, per RiskMode.",
-        "thesis": "",
-        "timeCT": "6:30 PM CT",
-        "consensusPct": 100
+        "total": 3
+      },
+      {
+        "pick": "Rays ML",
+        "marketType": "moneyline",
+        "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
+        "timeCT": "7:00 PM CT",
+        "yt": 4,
+        "ytWho": "PickDawgz Wraparound; Silverback Bets (run line); WagerTalk (Tampa); Beating The Odds (−130)",
+        "x": 0,
+        "xWho": "",
+        "booksAlign": false,
+        "booksAlignWhy": "Best TB −128 (FanDuel) → BE 56.1%. GameLens has CLE 58.3%, so TB fails. booksAlign false.",
+        "gap": "Needs 2 more sources.",
+        "rationale": "YT majority (57%) and the public (70% bets / 63% money), but the model is against it. Listed for information only. It's the other side of the Guardians row, so it isn't in the gauge.",
+        "consensusPct": 57,
+        "gameState": "pre",
+        "modelOnly": false,
+        "total": 4
+      },
+      {
+        "pick": "Under 6.5",
+        "marketType": "total",
+        "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
+        "timeCT": "7:00 PM CT",
+        "yt": 1,
+        "ytWho": "Break The Board (u7.5 when quoted)",
+        "x": 0,
+        "xWho": "",
+        "booksAlign": false,
+        "booksAlignWhy": "The total opened 8.5 (Action open) and is now 6.5 everywhere (U −103 to +100), a heavy move down. GameLens total 1/3 at 50.2%, no edge.",
+        "gap": "Needs 5 more sources. Doc's Rundown and JABO lean over, so the sources are split.",
+        "rationale": "A 2-run steam move toward the under. The closing-line value is already gone.",
+        "consensusPct": 33,
+        "gameState": "pre",
+        "modelOnly": false,
+        "total": 1
+      }
+    ],
+    "MLB-PROPS": [
+      {
+        "pick": "Parker Messick o14.5 outs",
+        "marketType": "prop",
+        "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
+        "timeCT": "7:00 PM CT",
+        "yt": 0,
+        "ytWho": "",
+        "x": 1,
+        "xWho": "@austinsprops (−121 DK, .75u POD)",
+        "booksAlign": false,
+        "booksAlignWhy": "No cited prop model (Dimers says it has a Messick edge but didn't publish the number).",
+        "gap": "Needs 5 more.",
+        "rationale": "1 X. Doc's Rundown separately likes Messick o4.5 K.",
+        "consensusPct": 100,
+        "gameState": "pre",
+        "modelOnly": false,
+        "total": 1
+      },
+      {
+        "pick": "Junior Caminero HR",
+        "marketType": "prop",
+        "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
+        "timeCT": "7:00 PM CT",
+        "yt": 1,
+        "ytWho": "Just A Bet Outside",
+        "x": 1,
+        "xWho": "@gneiffer07",
+        "booksAlign": false,
+        "booksAlignWhy": "No prop model.",
+        "gap": "Needs 4 more.",
+        "rationale": "2 sources. Lottery-ticket market.",
+        "consensusPct": 100,
+        "gameState": "pre",
+        "modelOnly": false,
+        "total": 2
       }
     ]
   },
-  "slate": "Tue Oct 13 2026 CT \u00b7 Sports screener",
-  "sport": "NHL",
-  "defaultSport": "NHL",
+  "slate": "Tue Oct 13 2026 CT · Sports screener",
+  "sport": "MLB",
+  "defaultSport": "MLB",
   "status": "gauge",
-  "summary": "0 CLEARED / 0 GAUGE \u00b7 Tue Oct 13, 2026 \u00b7 6:28 PM CT \u00b7 evening prune (started UCL/NHL removed) \u00b7 7 NHL near misses still unstarted \u00b7 Research only",
+  "summary": "0 CLEARED / 0 GAUGE · Tue Oct 13, 2026 · 7:07 PM CT · ALCS G2 (CLE @ TB 7:00 PM CT) + late NHL (7:15–10:00 PM CT) · strict 6+ · near misses only · Research only",
   "clearedCount": 0,
   "gaugeCount": 0,
   "sports": [
@@ -206,72 +282,72 @@
   "archives": {
     "NBA": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     },
     "NBA-PROPS": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     },
     "Soccer": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
-      "note": "UCL MD2: 7 matches at 2:00 PM CT. 1 main card (Arsenal ML, GAUGE, 6 sources). Only 1 book-aligned near miss (Inter\u2013Brugge BTTS). Confirmed lineups weren't pulled. Model sites used: AccuScore, BetBuilders, Rondo Research, xG.football, BetScalp, FullTimeStats, Statz, MyGameOdds, ProbaPredict, CompactStats, WagerBeasts, Foresportia, plus Forebet (Inter only)."
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 7:07 PM CT",
+      "note": "UCL MD2 matches are finished and were removed. Arsenal ML card (GAUGE) not graded yet."
     },
     "TENNIS": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     },
     "MLB": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
-      "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 7:07 PM CT",
+      "note": "ALCS Game 2 only (Guardians @ Rays, 7:00 PM CT, Messick vs Peralta). ESPN status at publish: pre. No pick reached 6 sources (the send-it list had 0 side/total slips). Near misses are below; Guardians ML is the MinEdge pass."
     },
     "NFL": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     },
     "NFL-PROPS": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     },
     "NHL": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "16-game Frozen Frenzy slate. No pick reached 6 combined YT+X sources (the send-it list had only 2 NHL slips today), so the near misses are below."
     },
     "NHL-PROPS": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "No NHL prop reached 6 sources. Near misses are below."
     },
     "UFC": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     },
     "UFC-PROPS": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     },
     "CFB": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     },
     "WNBA": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     },
     "Rule": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 \u00b7 1:09 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 1:09 PM CT",
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     }
   },
@@ -280,8 +356,8 @@
     "passed": 1,
     "failed": 9,
     "contested": 0,
-    "note": "booksAlign true only via MinEdge \u22652.5pp vs BE of best observed price with a cited model (GameLens, ESPN FPI, ats.io, EdgeGoat, Tennis Abstract Elo, etc.). Model war \u21d2 false. Live \u21d2 info only. Never invent modelWinPct.",
-    "updatedAtLabel": "Mon Oct 12, 2026 \u00b7 3:56 PM CT"
+    "note": "booksAlign true only via MinEdge ≥2.5pp vs BE of best observed price with a cited model (GameLens, ESPN FPI, ats.io, EdgeGoat, Tennis Abstract Elo, etc.). Model war ⇒ false. Live ⇒ info only. Never invent modelWinPct.",
+    "updatedAtLabel": "Mon Oct 12, 2026 · 3:56 PM CT"
   },
   "researchOnly": true,
   "noBetsPlaced": true,
@@ -294,9 +370,9 @@
     "pending": 1,
     "unobserved": 0,
     "beatRate": "n/a",
-    "bar": "Logic CLV \u2273 half-hold",
+    "bar": "Logic CLV ≳ half-hold",
     "note": "Mon Oct 12 slate; CLV pending until close.",
-    "updatedAtLabel": "Mon Oct 12, 2026 \u00b7 3:56 PM CT"
+    "updatedAtLabel": "Mon Oct 12, 2026 · 3:56 PM CT"
   },
   "bets": [],
   "deepDive": {
@@ -320,76 +396,91 @@
     "cleared": "0-0-0",
     "gauge": "0-0-0",
     "nearMiss": "0-0-0",
-    "checkedAt": "1:37 PM CT",
-    "checkedAtIso": "2026-10-13T13:37:57-05:00",
-    "label": "Results reset for Tue Oct 13 (Monday cards and results cleared). No graded results yet."
+    "checkedAt": "7:07 PM CT",
+    "checkedAtIso": "2026-10-13T19:07:36-05:00",
+    "label": "No graded results yet. Arsenal ML (GAUGE) from this afternoon's UCL card is ungraded."
   },
   "todaysGauge": {
     "title": "Today's Gauge",
-    "label": "Unstarted games only \u00b7 pruned 6:28 PM CT \u00b7 research only",
-    "checkedAt": "6:28 PM CT",
-    "checkedAtIso": "2026-10-13T18:28:26-05:00",
-    "note": "Started afternoon UCL and early NHL rows were removed at the inactivity prune. Remaining rows are still-unstarted evening NHL only (NEAR MISS, not GAUGE). Research only, never place bets.",
+    "label": "Unstarted games only · ESPN status checked 7:07 PM CT · research only",
+    "checkedAt": "7:07 PM CT",
+    "checkedAtIso": "2026-10-13T19:07:36-05:00",
+    "note": "ALCS G2 plus the remaining unstarted NHL games. Soccer is finished and NHL games that started at 5:00–7:00 PM were pruned. No play reached 6 sources, so every row is a NEAR MISS. Research only.",
     "items": [
       {
         "tier": "NEAR MISS",
+        "pick": "Guardians ML",
+        "line": "CLE +121 Caesars (+110 to +117 elsewhere)",
+        "sport": "MLB",
+        "game": "Guardians @ Rays (ALCS G2)",
+        "timeCT": "7:00 PM CT",
+        "yt": 3,
+        "x": 0,
+        "booksAlign": true,
+        "edge": "✓ +13.1pp (GameLens 58.3% vs 45.2% BE)",
+        "consensusPct": 43,
+        "rationale": "The model is on the dog, with 70% of bets / 63% of money on TB. Only 3 sources.",
+        "rank": 1
+      },
+      {
+        "tier": "NEAR MISS",
         "pick": "Oilers ML",
-        "line": "EDM \u2212128 (FanDuel)",
+        "line": "EDM −128 (FanDuel)",
         "sport": "NHL",
         "game": "Oilers @ Kings",
         "timeCT": "9:30 PM CT",
         "yt": 5,
         "x": 0,
         "booksAlign": false,
-        "edge": "\u2717 no usable cited model",
+        "edge": "✗ no usable cited model",
         "consensusPct": 71,
-        "rationale": "Top YT consensus on the board: 5 of 7 sources on EDM (71%). Line moved toward EDM (opened \u2212125, now \u2212128 to \u2212136). GameLens leans LA, so the model doesn't confirm it.",
-        "rank": 1
+        "rationale": "Top YT consensus on the board: 5 of 7 sources on EDM (71%). Line moved toward EDM (opened −125, now −128 to −136). GameLens leans LA, so the model doesn't confirm it.",
+        "rank": 2
       },
       {
         "tier": "NEAR MISS",
         "pick": "Bruins ML",
-        "line": "BOS \u2212120 (BetMGM)",
+        "line": "BOS −120 (BetMGM)",
         "sport": "NHL",
         "game": "Bruins @ Sharks",
         "timeCT": "10:00 PM CT",
         "yt": 4,
         "x": 0,
         "booksAlign": false,
-        "edge": "\u2717 no usable cited model",
+        "edge": "✗ no usable cited model",
         "consensusPct": 80,
-        "rationale": "4 of 5 YT on BOS (80%). Opened \u2212105/\u2212115 (SJ fav), now BOS \u2212120 to \u2212125, so steam is on Boston. Only Tony's Picks has SJ.",
-        "rank": 2
+        "rationale": "4 of 5 YT on BOS (80%). Opened −105/−115 (SJ fav), now BOS −120 to −125, so steam is on Boston. Only Tony's Picks has SJ.",
+        "rank": 3
       },
       {
         "tier": "NEAR MISS",
         "pick": "Jets ML",
-        "line": "WPG \u2212110 (FanDuel)",
+        "line": "WPG −110 (FanDuel)",
         "sport": "NHL",
         "game": "Wild @ Jets",
         "timeCT": "7:15 PM CT",
         "yt": 4,
         "x": 0,
         "booksAlign": false,
-        "edge": "\u2717 no usable cited model",
+        "edge": "✗ no usable cited model",
         "consensusPct": 80,
-        "rationale": "4 of 5 YT on WPG (80%), one SGPN host on MIN. Calvin Pickard makes his first start for MIN, on the Wild's back-to-back. The line is flat (opened \u2212110).",
-        "rank": 3
+        "rationale": "4 of 5 YT on WPG (80%), one SGPN host on MIN. Calvin Pickard makes his first start for MIN, on the Wild's back-to-back. The line is flat (opened −110).",
+        "rank": 4
       },
       {
         "tier": "NEAR MISS",
         "pick": "Avalanche @ Stars Under 6",
-        "line": "Most books are at 5.5 (U +105 to +110); BetMGM U6 \u2212115",
+        "line": "Most books are at 5.5 (U +105 to +110); BetMGM U6 −115",
         "sport": "NHL",
         "game": "Avalanche @ Stars",
         "timeCT": "7:30 PM CT",
         "yt": 3,
         "x": 0,
         "booksAlign": false,
-        "edge": "\u2717 no usable cited model",
+        "edge": "✗ no usable cited model",
         "consensusPct": 100,
-        "rationale": "3 of 3 YT on the under (100%). Total moved down 6 \u2192 5.5 at most books. Price the 5.5 vs 6 carefully.",
-        "rank": 4
+        "rationale": "3 of 3 YT on the under (100%). Total moved down 6 → 5.5 at most books. Price the 5.5 vs 6 carefully.",
+        "rank": 5
       }
     ]
   }
