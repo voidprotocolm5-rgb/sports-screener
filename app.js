@@ -602,7 +602,23 @@
   }
   // ---- Phase 3: hash pages (#/methodology, #/performance, #/disclaimer) + demo mode (?demo=1) ----
   var DEMO = /(?:^|[?&])demo=1(?:&|$)/.test(location.search);
-  function pageRoute() { var m = (location.hash || "").match(/^#\/(methodology|performance|disclaimer)/); return m ? m[1] : null; }
+  // Private pages (Performance, Disclaimer) disabled per Atlas 10/13 8:16 PM CT; set true to restore.
+  var PRIVATE_PAGES_ENABLED = false;
+  function pageRoute() {
+    var m = (location.hash || "").match(/^#\/(methodology|performance|disclaimer)/);
+    if (!m) return null;
+    if (m[1] !== "methodology" && !PRIVATE_PAGES_ENABLED) return null;
+    return m[1];
+  }
+  function hidePrivateLinks() {
+    if (PRIVATE_PAGES_ENABLED) return;
+    document.querySelectorAll('a[href="#/performance"],a[href="#/disclaimer"]').forEach(function (a) {
+      var p = a.previousSibling, n = a.nextSibling;
+      if (n && n.nodeType === 3 && /^\s*·\s*$/.test(n.nodeValue)) n.remove();
+      else if (p && p.nodeType === 3 && /^\s*·\s*$/.test(p.nodeValue)) p.remove();
+      a.remove();
+    });
+  }
   function pct(v) { return v == null ? "—" : v + "%"; }
   function signed(v, suf) { return v == null ? "—" : (v > 0 ? "+" : "") + v + (suf || ""); }
   function perfRow(label, t) {
@@ -644,7 +660,7 @@
       "<h2>2. Books align (MinEdge)</h2><p>We convert the best observed price to break-even probability and require a <b>cited</b> model (e.g. GameLens, ESPN FPI, AccuScore, Tennis Abstract Elo) to clear it by at least <b>2.5 percentage points</b>. Conflicting cited models fail the check. Spread probabilities only apply at the same or a better number. We never invent a model.</p>" +
       "<h2>3. Tiers</h2><ul><li><b>CLEARED:</b> ≥3 YouTube + ≥2 send-it + books align.</li><li><b>GAUGE:</b> every other main card, ranked with a one-line rationale.</li><li><b>Main board floor:</b> ≥6 combined YouTube + send-it sources, strictly.</li><li><b>NEAR MISS:</b> under 6 sources — shown in labeled sections, never counted in totals.</li><li><b>LIVE:</b> started games are info-only.</li></ul>" +
       "<h2>4. Confidence meter</h2><p>0–100: sources (up to 55, full at 10), both source classes present (10), cited model edge (up to 25, full at +10pp), books align (10). It summarizes evidence; it is not a win probability.</p>" +
-      "<h2>5. Grading and CLV</h2><p>Scripts grade finals from ESPN against the published line and price, capture closing lines, and prune started games. Results accumulate in a permanent ledger. See <a href=\"#/performance\">Performance</a>.</p>" +
+      "<h2>5. Grading and CLV</h2><p>Scripts grade finals from ESPN against the published line and price, capture closing lines, and prune started games. Results accumulate in a permanent ledger.</p>" +
       "<h2>6. Reading list</h2><p>Approach informed by <i>The Logic of Sports Betting</i>, <i>Sharp Sports Betting</i>, quantitative-trading practice, and Hausch &amp; Ziemba on market efficiency: consensus alone is not edge; price and closing-line value matter.</p>";
   }
   function pageDisclaimer() {
@@ -1120,6 +1136,8 @@
   }
 
   function start() {
+    hidePrivateLinks();
+    if (/^#\/(performance|disclaimer)/.test(location.hash) && !PRIVATE_PAGES_ENABLED) { try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {} }
     setupTheme();
     var nav = $("sport-nav");
     if (nav) nav.addEventListener("click", onNavClick);
