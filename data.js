@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-14T11:27:00-05:00",
-  "updatedAtLabel": "Wed Oct 14, 2026 · 11:27 AM CT",
+  "updatedAt": "2026-10-14T11:51:00-05:00",
+  "updatedAtLabel": "Wed Oct 14, 2026 · 11:51 AM CT",
   "nearMiss": {
     "MLB": [
       {
@@ -365,30 +365,6 @@ window.BET_BOARD_DATA = {
     ],
     "Soccer": [
       {
-        "pick": "Como to win",
-        "marketType": "moneyline",
-        "game": "Como @ Feyenoord · UCL · 11:45 AM CT",
-        "gameState": "pre",
-        "yt": 2,
-        "ytWho": "MBH Bets (host 1: Como 1.85); MBH Bets (host 2)",
-        "x": 1,
-        "xWho": "@ShamsBets (4-leg ML parlay leg, off-list)",
-        "total": 3,
-        "booksAlign": false,
-        "booksAlignWhy": "Best COMO −152 3-way per AN (FanDuel; AN soccer ML may be 2-way) / +115 DK 3-way per ESPN. AccuScore Como 42% vs DK +115 BE 46.5% (−4.5pp). No pass.",
-        "modelOnly": false,
-        "gap": "Needs 3 more source(s) to reach 6. No books pass.",
-        "rationale": "Models lean Como (AccuScore 42%, SoccerGhost 39%, MetaPred 51%) but none clears the price. Lineups confirmed. DK 3-way now COM +120.",
-        "timeCT": "11:45 AM CT",
-        "consensusPct": 75,
-        "consensus": [
-          {
-            "site": "Golden BETS (X)",
-            "pick": "Como win/draw"
-          }
-        ]
-      },
-      {
         "pick": "Bodø/Glimt +0.5 (double chance)",
         "marketType": "spread",
         "game": "Dortmund @ Bodø/Glimt · UCL · 2:00 PM CT",
@@ -714,9 +690,9 @@ window.BET_BOARD_DATA = {
   "sport": "NHL",
   "defaultSport": "NHL",
   "status": "ready",
-  "summary": "Wed Oct 14 (deep pass + new-list OCR, 10:5x AM): 3 CLEARED (Aston Villa ML 2:00 PM CT; Capitals ML 6:30; Avalanche ML 7:30) · 6 GAUGE. Lineups confirmed for the 11:45 games. NBA preseason (11:27 AM): 0 cards — list had 0 NBA slips, YouTube thin, no NBA model; 5 near misses.",
+  "summary": "Wed Oct 14 (deep pass + new-list OCR, 10:5x AM): 3 CLEARED (Aston Villa ML 2:00 PM CT; Capitals ML 6:30; Avalanche ML 7:30) · 6 GAUGE. 11:45 AM CT games started and pruned. NBA preseason (11:27 AM): 0 cards — list had 0 NBA slips, YouTube thin, no NBA model; 5 near misses.",
   "clearedCount": 3,
-  "gaugeCount": 7,
+  "gaugeCount": 5,
   "sports": [
     {
       "id": "CFB",
@@ -776,67 +752,67 @@ window.BET_BOARD_DATA = {
   "archives": {
     "NBA": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "NBA preseason deep pass: no game reaches 6 countable sources. Countable YouTube is only Doc's (Craig Trapp, Indian Cowboy) and Sports Picks with Kevin Thomas; JamalPicks, HeyAko, 2K sims and music-only \"quick picks\" videos are scripted or empty, so 10+ YT do not exist today. X is dominated by copy-pasted parlay rings (excluded as non-independent). No NBA preseason model available (GameLens pages empty)."
     },
     "NBA-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "No sourced NBA props today."
     },
     "Soccer": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "UCL MD2: 11:45 AM and 2:00 PM CT kickoffs. Main card: Liverpool ML (GAUGE, 3 YT + 3 off-list X). Soccer models pulled: AccuScore, BetBuilders, Rondo Research, xG.football, SoccerGhost, MetaPred, Footlab, Zort, KnockoutMath. Confirmed lineups not out at publish."
     },
     "TENNIS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "Shanghai R4 finished overnight; next ATP matches start Thu ~1:30 AM CT. No countable picks for today's unstarted WTA (Wuhan/Mallorca/Rovereto/Lisbon) matches."
     },
     "MLB": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "NLCS G3 Brewers @ Dodgers 7:00 PM CT (Gasser vs Snell). No play reached 6 sources; Brewers side is the YT majority but ML models conflict (ESPN dissents). Near misses below."
     },
     "NFL": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "No NFL games today (ESPN)."
     },
     "NFL-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "No NFL games today."
     },
     "NHL": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "Two games: Canadiens @ Capitals 6:30 PM CT, Stars @ Avalanche 7:30 PM CT. No main card. MinEdge passes: Avalanche ML (4 YT) and Capitals ML (3 YT) — near misses."
     },
     "NHL-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "Single-source props only."
     },
     "UFC": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "No UFC event today (ESPN)."
     },
     "UFC-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "No UFC event today."
     },
     "CFB": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "Two Wednesday games (6:30 and 7:00 PM CT). Thin sourcing; near misses only."
     },
     "WNBA": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "No WNBA games today (offseason)."
     },
     "Rule": {
@@ -846,11 +822,32 @@ window.BET_BOARD_DATA = {
     },
     "MLB-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 11:46 AM CT",
       "note": "Single-source props only (Chourio single, NRFI, Gasser Ks)."
     }
   },
-  "liveGames": {},
+  "liveGames": {
+    "auto-ucl-feyenoord-como": {
+      "label": "LIVE — started, info only (auto-pruned)",
+      "sport": "Soccer",
+      "game": "Como @ Feyenoord · UCL · 11:45 AM CT",
+      "state": "1st half (started 11:45 AM CT)",
+      "picks": [
+        "Feyenoord–Como BTTS (gauge, pregame)"
+      ],
+      "countsInTotals": false
+    },
+    "auto-ucl-lask-liverpool": {
+      "label": "LIVE — started, info only (auto-pruned)",
+      "sport": "Soccer",
+      "game": "Liverpool @ LASK · UCL · 11:45 AM CT",
+      "state": "1st half (started 11:45 AM CT)",
+      "picks": [
+        "Liverpool ML (gauge, pregame −255)"
+      ],
+      "countsInTotals": false
+    }
+  },
   "minEdgeProcess": {
     "passed": 1,
     "failed": 9,
@@ -946,62 +943,6 @@ window.BET_BOARD_DATA = {
       "xNote": "All X off-list; copy rings excluded.",
       "booksAlign": true,
       "timeCT": "6:30 PM CT"
-    },
-    {
-      "id": "wed-ucl-fey-com-btts",
-      "example": false,
-      "sport": "Soccer",
-      "tier": "gauge",
-      "marketType": "total",
-      "game": "Como @ Feyenoord · UCL MD2 · 11:45 AM CT",
-      "pick": "Feyenoord–Como BTTS Yes",
-      "line": "BTTS Yes −250 (FanDuel slip)",
-      "gameState": "pre",
-      "consensusPct": 100,
-      "simWinPct": null,
-      "ev": null,
-      "confidence": 100,
-      "why": "YouTube 4: Shred The Spread, Expert Football Betting, MediaPronos (1.50), JB PREDICTZ. X 2: @CasaCalcioPicks (BTTS treble, −250 — on list), @SpideyBets (BTTS + O2.5 combo, off-list). Excluded: copy-ring 7-leg parlays. Models: SoccerGhost 63%, MetaPred 64%, GoalStatsLab 70% vs break-even 71.4% at −250.",
-      "rationale": "GAUGE: 4 YT + 2 X = 6 sources. Not CLEARED: every model is below the 71.4% break-even → booksAlign false. LINEUPS CONFIRMED (AS.com): Feyenoord 4-3-3 (Ferri, Hadj Moussa, Valente); Como 4-2-3-1 (Douvikas, Paz, Baturina, Diao).",
-      "sources": {
-        "youtube": 4,
-        "x": 2
-      },
-      "xNote": "1 on-list (@CasaCalcioPicks), 1 off-list.",
-      "booksAlign": false,
-      "timeCT": "11:45 AM CT"
-    },
-    {
-      "id": "wed-ucl-liv-ml",
-      "example": false,
-      "sport": "Soccer",
-      "tier": "gauge",
-      "marketType": "moneyline",
-      "game": "Liverpool @ LASK Linz · UCL MD2 · 11:45 AM CT",
-      "pick": "Liverpool ML (3-way, 90 min)",
-      "line": "LIV −265 DraftKings",
-      "gameState": "pre",
-      "consensusPct": 100,
-      "simWinPct": 69,
-      "ev": null,
-      "confidence": 100,
-      "why": "YouTube 4: Bet Hero, Ciaran, EC Predicts (slip 1), Ashili SportsTV (all Liverpool to win). X 5 (all off-list): @Gldenbets, @3STAR_GOLD, @ShamsBets (parlay leg), @theadams07 (cheat sheet), @SnowsPicks (UCL card). Excluded: copy-pasted parlay rings (same slip on 10+ accounts), score-only predictions, booking-code promos, AI accounts. Models (3-way): AccuScore 69%, Zort 71%, KnockoutMath 79%, Bawler 64%, Probascore 57.5%. Break-even at −265 is 72.6%.",
-      "rationale": "GAUGE: 4 YT + 5 X = 9 sources, 100% on Liverpool. Not CLEARED: the cited AccuScore 69% is 3.6pp BELOW the 72.6% break-even, and the models disagree → booksAlign false. LINEUPS CONFIRMED (oddalerts/rotascore): Liverpool 4-2-3-1 Alisson; Kerkez, van Dijk, Jacquet, Araujo; Mac Allister, Gravenberch; Barcola, Wirtz, Muñoz; Koumas. Out: Isak, Gakpo, Szoboszlai, Ekitiké. RotoWire's pick is Liverpool −1.5 instead.",
-      "sources": {
-        "youtube": 4,
-        "x": 5
-      },
-      "xNote": "All X off-list (search).",
-      "booksAlign": false,
-      "timeCT": "11:45 AM CT",
-      "ledger": {
-        "consensus": [
-          {
-            "site": "Statsbuildr (X)",
-            "pick": "LASK vs Liverpool on its top-picks card (market not shown)"
-          }
-        ]
-      }
     },
     {
       "id": "wed-ucl-vfb-ml",
@@ -1151,9 +1092,9 @@ window.BET_BOARD_DATA = {
   },
   "todaysGauge": {
     "title": "Today's Gauge",
-    "label": "Unstarted games only · ESPN status checked 10:41 AM CT · research only",
-    "checkedAt": "10:41 AM CT",
-    "checkedAtIso": "2026-10-14T10:41:36-05:00",
+    "label": "Unstarted games only · ESPN status checked 11:46 AM CT · research only",
+    "checkedAt": "11:46 AM CT",
+    "checkedAtIso": "2026-10-14T11:46:13-05:00",
     "note": "Ranked: booksAlign ✓ main cards first, then the rest by source count, then NEAR MISS fill (fewer than 6 sources). X sources this pass are mostly off-list (flagged). Copy-pasted parlay rings, score-only predictions and scripted/AI channels are excluded. Research only — no bets placed.",
     "items": [
       {
@@ -1204,36 +1145,6 @@ window.BET_BOARD_DATA = {
       {
         "rank": 4,
         "tier": "GAUGE",
-        "pick": "Liverpool ML",
-        "line": "LIV −265 (DraftKings)",
-        "sport": "Soccer",
-        "game": "Liverpool @ LASK",
-        "timeCT": "11:45 AM CT",
-        "yt": 4,
-        "x": 5,
-        "booksAlign": false,
-        "edge": "✗ AccuScore 69% vs BE 72.6%",
-        "consensusPct": 100,
-        "rationale": "9 sources; lineups confirmed. Price too short."
-      },
-      {
-        "tier": "GAUGE",
-        "pick": "Feyenoord–Como BTTS",
-        "line": "Yes −250",
-        "sport": "Soccer",
-        "game": "Como @ Feyenoord",
-        "timeCT": "11:45 AM CT",
-        "yt": 4,
-        "x": 2,
-        "booksAlign": false,
-        "edge": "✗ models 63–70% vs BE 71.4%",
-        "consensusPct": 100,
-        "rationale": "6 sources; lineups confirmed; too expensive.",
-        "rank": 5
-      },
-      {
-        "rank": 6,
-        "tier": "GAUGE",
         "pick": "Stuttgart ML",
         "line": "VFB −265 (DraftKings)",
         "sport": "Soccer",
@@ -1247,7 +1158,7 @@ window.BET_BOARD_DATA = {
         "rationale": "8 sources; cited model well below the price."
       },
       {
-        "rank": 7,
+        "rank": 5,
         "tier": "GAUGE",
         "pick": "Real Madrid ML",
         "line": "RMA −110 (DraftKings)",
@@ -1262,7 +1173,7 @@ window.BET_BOARD_DATA = {
         "rationale": "6 sources; edge too thin."
       },
       {
-        "rank": 8,
+        "rank": 6,
         "tier": "GAUGE",
         "pick": "Man City–PSG BTTS",
         "line": "Yes −235",
@@ -1277,7 +1188,7 @@ window.BET_BOARD_DATA = {
         "rationale": "8 X, 0 YT; expensive."
       },
       {
-        "rank": 9,
+        "rank": 7,
         "tier": "NEAR MISS",
         "pick": "Hornets @ Celtics Under 224.5",
         "line": "U224.5 −106 FanDuel; 225.5 elsewhere (U −108 DK)",
@@ -1292,7 +1203,7 @@ window.BET_BOARD_DATA = {
         "rationale": "NBA near miss: 2 sources (needs 6); preseason, no model."
       },
       {
-        "rank": 10,
+        "rank": 8,
         "tier": "NEAR MISS",
         "pick": "Hornets +6.5/+7.5",
         "line": "CHA +8.5 −110 DK / −114 BetRivers",
@@ -1308,7 +1219,7 @@ window.BET_BOARD_DATA = {
       }
     ]
   },
-  "prunedAt": "2026-10-14T08:36:58-05:00",
+  "prunedAt": "2026-10-14T11:51:00-05:00",
   "performance": {
     "tally": {
       "byTier": {
