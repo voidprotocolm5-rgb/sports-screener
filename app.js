@@ -229,6 +229,9 @@
   function renderProcessBar(data) {
     var el = $("process-bar");
     if (!el) return;
+    // CLV/MinEdge process bar disabled per Atlas 10/13 8:52 PM CT; set true to restore.
+    var CLV_BAR_ENABLED = false;
+    if (!CLV_BAR_ENABLED) { el.hidden = true; el.innerHTML = ""; return; }
     var perfT = data && data.performance && data.performance.tally;
     if (perfT && perfT.all) {
       var tg = perfT.clvTags || {}; var A = perfT.all;
