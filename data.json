@@ -40,48 +40,9 @@
         "thesis": "Goalies: Swayman / Askarov, neither confirmed by DailyFaceoff yet. Celebrini's status is uncertain, per Doc's.",
         "timeCT": "10:00 PM CT",
         "consensusPct": 80
-      },
-      {
-        "pick": "Maple Leafs @ Mammoth Over 6.5",
-        "marketType": "total",
-        "game": "Maple Leafs @ Mammoth · 8:00 PM CT",
-        "gameState": "pre",
-        "yt": 3,
-        "ytWho": "Brock Page; PickDawgz Wraparound (Ruffolo); SGPN host",
-        "x": 0,
-        "xWho": "",
-        "total": 3,
-        "booksAlign": false,
-        "booksAlignWhy": "Best O6.5 −112 (DraftKings) → BE 52.8%. No cited total model at 6.5.",
-        "modelOnly": false,
-        "gap": "Needs 3 more sources to reach 6.",
-        "rationale": "3 of 3 YT on the over (100%), no X.",
-        "thesis": "Goalies: Stolarz TOR confirmed; Vejmelka UTA likely.",
-        "timeCT": "8:00 PM CT",
-        "consensusPct": 100
       }
     ],
-    "NHL-PROPS": [
-      {
-        "pick": "William Nylander o2.5 SOG",
-        "marketType": "prop",
-        "game": "Maple Leafs @ Mammoth · 8:00 PM CT",
-        "gameState": "pre",
-        "yt": 0,
-        "ytWho": "",
-        "x": 1,
-        "xWho": "@ActionNetworkHQ (NHL best bet card)",
-        "total": 1,
-        "booksAlign": false,
-        "booksAlignWhy": "No cited prop model.",
-        "modelOnly": false,
-        "gap": "Needs 5 more sources.",
-        "rationale": "The only current-day NHL prop slip on the send-it list.",
-        "thesis": "",
-        "timeCT": "8:00 PM CT",
-        "consensusPct": 100
-      }
-    ],
+    "NHL-PROPS": [],
     "MLB": [
       {
         "pick": "LIVE — under 6 sources, info only: PASS (Guardians @ Rays)",
@@ -287,6 +248,17 @@
         "Junior Caminero HR (near miss, pregame )"
       ],
       "countsInTotals": false
+    },
+    "auto-401892500": {
+      "label": "LIVE — started, info only (auto-pruned)",
+      "sport": "NHL",
+      "game": "Maple Leafs @ Mammoth · 8:00 PM CT",
+      "state": "20:00 - 2nd",
+      "picks": [
+        "Maple Leafs @ Mammoth Over 6.5 (near miss, pregame )",
+        "William Nylander o2.5 SOG (near miss, pregame )"
+      ],
+      "countsInTotals": false
     }
   },
   "minEdgeProcess": {
@@ -333,8 +305,8 @@
     "cleared": "0-1-0",
     "gauge": "13-12-0",
     "nearMiss": "81-59-3",
-    "checkedAt": "8:08 PM CT",
-    "checkedAtIso": "2026-10-13T20:08:25-05:00",
+    "checkedAt": "8:59 PM CT",
+    "checkedAtIso": "2026-10-13T20:59:10-05:00",
     "label": "Graded record (ESPN finals): CLEARED 0-1-0 · GAUGE 13-12-0 · Near misses 81-59-3 (separate) · n=26"
   },
   "todaysGauge": {
@@ -376,7 +348,7 @@
       }
     ]
   },
-  "prunedAt": "2026-10-13T19:51:35-05:00",
+  "prunedAt": "2026-10-13T20:59:09-05:00",
   "performance": {
     "tally": {
       "byTier": {
@@ -534,7 +506,7 @@
       },
       "pending": 16,
       "ungraded": 37,
-      "updatedAt": "2026-10-13T20:08:25-05:00"
+      "updatedAt": "2026-10-13T20:59:10-05:00"
     },
     "recent": [
       {
