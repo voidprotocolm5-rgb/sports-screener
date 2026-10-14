@@ -466,6 +466,99 @@
     return '<p class="result-line">' + escapeHtml(bits.join(" · ")) + "</p>";
   }
 
+  // ---- v2 helpers: confidence meter, source ledger drawer, performance strip, live strip, theme ----
+  function edgePpOf(obj) {
+    var me = ((obj && obj.ledger) || {}).minEdge || {};
+    if (typeof me.edgeVsBePct === "number") return me.edgeVsBePct;
+    var txt = String((obj && (obj.edge || obj.ev || obj.booksAlignWhy)) || "");
+    var m = txt.match(/([+\-\u2212]?\d+(?:\.\d+)?)\s*pp/);
+    return m ? parseFloat(m[1].replace("\u2212", "-")) : null;
+  }
+  function meterScore(yt, x, edgePp, align) {
+    var n = (Number(yt) || 0) + (Number(x) || 0);
+    var src = Math.min(n / 10, 1) * 55;              // sources: 10+ = full
+    var mix = (Number(yt) >= 3 && Number(x) >= 2) ? 10 : 0; // both source classes present
+    var edge = edgePp == null ? 0 : Math.max(0, Math.min(edgePp / 10, 1)) * 25;
+    var al = align ? 10 : 0;
+    return Math.round(src + mix + edge + al);
+  }
+  function meterHtml(score, caption) {
+    var cls = score >= 70 ? "m-high" : score >= 45 ? "m-mid" : "m-low";
+    return '<div class="meter ' + cls + '" title="Confidence = sources (55) + YT/X mix (10) + model edge (25) + books align (10)">' +
+      '<div class="meter-head"><span>' + escapeHtml(caption || "Confidence") + '</span><span class="meter-val">' + score + '</span></div>' +
+      '<div class="meter-track" role="progressbar" aria-valuenow="' + score + '" aria-valuemin="0" aria-valuemax="100"><div class="meter-fill" style="width:' + score + '%"></div></div></div>';
+  }
+  function listHtml(arr) {
+    if (!arr || !arr.length) return '<p class="dr-none">None recorded.</p>';
+    return "<ul>" + arr.map(function (t) { return "<li>" + escapeHtml(t) + "</li>"; }).join("") + "</ul>";
+  }
+  function splitWho(s) { return s ? String(s).split(/;\s*/).filter(Boolean) : []; }
+  function drawerHtml(o) {
+    var lg = o.ledger || {}; var me = lg.minEdge || {};
+    var yt = (lg.yt && lg.yt.channels) || splitWho(o.ytWho);
+    var xs = (lg.sendIt && lg.sendIt.whoOdds) || splitWho(o.xWho);
+    var math = "";
+    if (me.breakEvenPct != null) {
+      math = "Best " + (me.bestLine || "") + (me.bestSource ? " (" + me.bestSource + ")" : "") + " → break-even " + me.breakEvenPct + "%. " +
+        (me.modelWinPct != null ? (me.modelSource || "Model") + " " + me.modelWinPct + "% → " + (me.edgeVsBePct >= 0 ? "+" : "") + me.edgeVsBePct + "pp vs 2.5pp bar. " : "No cited model. ") +
+        (me.missReason ? me.missReason : "");
+    }
+    var why = lg.booksAlignWhy || o.booksAlignWhy || "";
+    return '<details class="drawer"><summary>Source ledger</summary><div class="dr-body">' +
+      '<div class="dr-col"><h4>YouTube (' + yt.length + ')</h4>' + listHtml(yt) + "</div>" +
+      '<div class="dr-col"><h4>Send-it list (' + xs.length + ')</h4>' + listHtml(xs) + "</div>" +
+      '<div class="dr-col dr-wide"><h4>Books check</h4><p>' + escapeHtml(math || why || "No books math recorded.") + "</p>" +
+        (math && why ? '<p class="dr-muted">' + escapeHtml(why) + "</p>" : "") +
+        (lg.notes ? '<p class="dr-muted">' + escapeHtml(lg.notes) + "</p>" : "") + "</div>" +
+      "</div></details>";
+  }
+  function fmtRec(t) { return t ? t.record : "0-0-0"; }
+  function renderPerformance(data) {
+    var el = $("perf-strip"); if (!el) return;
+    var p = data && data.performance; var T = p && p.tally;
+    if (!T) { el.hidden = true; return; }
+    function cell(label, t, extra) {
+      t = t || {};
+      var roi = t.roiPct == null ? "—" : (t.roiPct > 0 ? "+" : "") + t.roiPct + "%";
+      var hr = t.hitRate == null ? "—" : t.hitRate + "%";
+      var cls = t.roiPct == null ? "" : (t.roiPct >= 0 ? "up" : "down");
+      return '<div class="perf-cell"><span class="perf-label">' + escapeHtml(label) + '</span><span class="perf-big">' + escapeHtml(fmtRec(t)) + "</span>" +
+        '<span class="perf-meta"><span class="' + cls + '">' + roi + " ROI</span> · " + hr + " hit · n=" + (t.n || 0) + (extra || "") + "</span></div>";
+    }
+    var a = T.all || {};
+    var clv = a.clvScored ? " · CLV beat " + a.clvBeat + "/" + a.clvScored : "";
+    el.hidden = false;
+    el.innerHTML = '<div class="perf-head"><h2>Track record</h2><span class="perf-sub">Graded from ESPN finals · flat 1u at published price · since Oct 10, 2026</span></div>' +
+      '<div class="perf-grid">' + cell("All main cards", a, clv) + cell("CLEARED", (T.byTier || {}).cleared) + cell("GAUGE", (T.byTier || {}).gauge) +
+      cell("Near misses (separate)", T.nearMiss) + "</div>" +
+      '<p class="perf-note">' + escapeHtml(p.note || "") + (a.n < 100 ? " Current sample n=" + (a.n || 0) + " main cards." : "") + "</p>";
+  }
+  function renderLive(sportId, data) {
+    var el = $("live-slot"); if (!el) return;
+    var lg = (data && data.liveGames) || {};
+    var rows = Object.keys(lg).map(function (k) { return lg[k]; }).filter(function (g) { return normalizeSport(g.sport) === normalizeSport(sportId); });
+    if (!rows.length) { el.innerHTML = ""; return; }
+    el.innerHTML = '<section class="live-strip" aria-label="Live games"><h3 class="live-head"><span class="live-dot"></span>Live — info only, not counted</h3>' +
+      rows.map(function (g) {
+        return '<div class="live-item"><div class="live-game">' + escapeHtml(g.game || "") + (g.state ? ' <span class="live-state">' + escapeHtml(g.state) + "</span>" : "") + "</div>" +
+          (g.lean ? '<p class="live-lean">' + escapeHtml(g.lean) + "</p>" : "") +
+          (g.liveOdds ? '<p class="live-meta">' + escapeHtml(g.liveOdds) + "</p>" : "") +
+          (g.winProb ? '<p class="live-meta">' + escapeHtml(g.winProb) + "</p>" : "") +
+          (g.picks && g.picks.length ? '<p class="live-meta">Pregame rows moved here: ' + escapeHtml(g.picks.join("; ")) + "</p>" : "") +
+          (g.sources ? '<p class="live-meta">Sources: ' + escapeHtml(g.sources) + "</p>" : "") + "</div>";
+      }).join("") + "</section>";
+  }
+  function setupTheme() {
+    var btn = $("theme-toggle"); if (!btn) return;
+    btn.addEventListener("click", function () {
+      var root = document.documentElement;
+      var cur = root.getAttribute("data-theme") || (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      var next = cur === "dark" ? "light" : "dark";
+      root.setAttribute("data-theme", next);
+      try { localStorage.setItem("ss-theme", next); } catch (e) {}
+    });
+  }
+
   function renderCard(bet) {
     var isEx = bet.example === true;
     var tier = String(bet.tier || "").toLowerCase();
@@ -514,12 +607,7 @@
           '<div class="stat"><span class="stat-label">Sim win</span><span class="stat-value">' + simDisplay + "</span></div>" +
           '<div class="stat"><span class="stat-label">EV</span><span class="stat-value ' + evClass(bet.ev) + '">' + escapeHtml(bet.ev) + "</span></div>" +
         "</div>" +
-        '<div class="confidence">' +
-          '<div class="confidence-head"><span>Confidence</span><span class="confidence-val">' + conf + "</span></div>" +
-          '<div class="bar" role="progressbar" aria-valuenow="' + conf + '" aria-valuemin="0" aria-valuemax="100">' +
-            '<div class="bar-fill ' + confidenceBarClass(conf) + '" style="width:' + conf + '%"></div>' +
-          "</div>" +
-        "</div>" +
+        meterHtml(meterScore(sources.youtube, sources.xSendIt, edgePpOf(bet), align), "Confidence · sources + edge") +
         '<div class="why-block">' +
           '<span class="why-label">Why sources like it</span>' +
           '<p class="why">' + escapeHtml(bet.why || "No consensus note for this pick yet.") + "</p>" +
@@ -534,6 +622,7 @@
           "</span>" +
           renderMinEdgeChip(ledger) +
         "</div>" +
+        drawerHtml(bet) +
       "</article>"
     );
   }
@@ -559,12 +648,14 @@
             " · total " + escapeHtml(String(n.total)) + "</div>" +
           '<div class="nm-line">booksAlign ' + (n.booksAlign ? "true" : "false") + " — " + escapeHtml(n.booksAlignWhy || "") + "</div>" +
           '<div class="nm-gap">' + escapeHtml(n.gap || "") + "</div>" +
+          meterHtml(meterScore(n.yt, n.x, edgePpOf(n), n.booksAlign), "Confidence · sources + edge") +
+          drawerHtml(n) +
         "</li>"
       );
     }).join("");
     return (
       '<section class="near-miss" aria-label="Near misses">' +
-        '<h3 class="nm-head">Near misses (under 6 sources), not on the main board</h3>' +
+        '<h3 class="nm-head"><span class="nm-pill">NEAR MISS</span> Near misses (under 6 sources), not on the main board</h3>' +
         '<p class="nm-note">Research only. Not counted in gauge/cleared totals or board status.</p>' +
         '<ul class="nm-list">' + rows + "</ul>" +
       "</section>"
@@ -634,9 +725,12 @@
 
   function renderTonightGauge(data) {
     var g = data && (data.todaysGauge || data.tonightsGauge);
-    var el = document.getElementById("tonight-gauge");
+    var el = $("hero-gauge") || document.getElementById("tonight-gauge");
     var nav = $("sport-nav");
-    if (!g || !g.items || !g.items.length) { if (el) el.remove(); return; }
+    if (!g || !g.items || !g.items.length) {
+      if (el && el.id === "hero-gauge") { el.innerHTML = '<div class="hg-empty"><p class="hg-empty-title">Nothing qualifies right now.</p><p>No unstarted play currently has six or more sources. We would rather show nothing than a hollow pick.</p></div>'; return; }
+      if (el) el.remove(); return;
+    }
     if (!el && nav && nav.parentNode) {
       el = document.createElement("section");
       el.id = "tonight-gauge";
@@ -649,8 +743,9 @@
       var tier = String(it.tier || "").toUpperCase();
       var tcls = tier === "CLEARED" ? "tg-cleared" : (tier === "GAUGE" ? "tg-gauge" : "tg-near");
       var edge = (it.edge === null || it.edge === undefined || it.edge === "") ? "no cited model" : it.edge;
+      var sc = meterScore(it.yt, it.x, edgePpOf(it), it.booksAlign);
       return (
-        '<li class="tg-item">' +
+        '<li class="tg-item ' + tcls + '-item">' +
           '<span class="tg-rank">' + escapeHtml(String(it.rank)) + "</span>" +
           '<div class="tg-body">' +
             '<div class="tg-top"><span class="tg-tier ' + tcls + '">' + escapeHtml(tier === "NEAR MISS" ? "NEAR MISS (<6)" : tier) + "</span>" +
@@ -661,6 +756,7 @@
               " · booksAlign " + (it.booksAlign ? "✓" : "✗") + " · " + escapeHtml(String(edge)) + "</div>" +
             (it.rationale ? '<div class="tg-why">' + escapeHtml(it.rationale) + "</div>" : "") +
             (it.xNote ? '<div class="tg-why tg-xnote">X: ' + escapeHtml(it.xNote) + "</div>" : "") +
+            meterHtml(sc, "Confidence") +
           "</div>" +
         "</li>"
       );
@@ -675,6 +771,7 @@
   function render(data) {
     lastPayload = data;
     renderTonightGauge(data);
+    renderPerformance(data);
     activeSport = resolveActiveSport(data);
     if (hasSub(activeSport) && !activeSub) activeSub = "lines";
     if (!hasSub(activeSport)) activeSub = null;
@@ -714,6 +811,7 @@
       tallyEl.textContent = rt ? (rt.label || ("CLEARED " + rt.cleared + " · GAUGE " + rt.gauge + " · Near misses " + rt.nearMiss)) : "";
     }
     renderProcessBar(data);
+    renderLive(activeSport, data);
 
     var label = data.updatedAtLabel;
     var parsed = parseUpdatedAt(data.updatedAt);
@@ -864,6 +962,7 @@
   }
 
   function start() {
+    setupTheme();
     var nav = $("sport-nav");
     if (nav) nav.addEventListener("click", onNavClick);
     var subNav = $("sub-nav");
