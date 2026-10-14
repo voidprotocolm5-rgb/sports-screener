@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T19:12:23-05:00",
+  "updatedAt": "2026-10-13T19:19:00-05:00",
   "updatedAtLabel": "Tue Oct 13, 2026 · 7:12 PM CT",
   "nearMiss": {
     "NHL": [
@@ -121,6 +121,23 @@
       }
     ],
     "MLB": [
+      {
+        "pick": "LIVE — under 6 sources, info only: PASS (Guardians @ Rays)",
+        "marketType": "moneyline",
+        "game": "Guardians @ Rays · ALCS G2 · LIVE (started 7:00 PM CT)",
+        "gameState": "live",
+        "yt": 0,
+        "ytWho": "",
+        "x": 1,
+        "xWho": "@Dom_Lunardo1 Rays ML −137 (pregame)",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "ESPN live WP CLE 51% vs CLE live +130/+145 (BE 43.5%/40.8%) looks like +8–10pp, but ESPN WP isn't market-adjusted (pregame TB was −131, ~56%) and isn't a cited model. Not a pass.",
+        "modelOnly": false,
+        "gap": "Live, 1 source. Info only, not counted in totals.",
+        "rationale": "0-0, Bot 1st, 1 out at 7:17 PM CT. Live TB −162 to −191 / CLE +118 to +145; RL TB −1.5 +132 to +148; total 5.5 (O −136 to −140). Books disagree by ~30 cents, so some feeds are stale. Pass, no chasing.",
+        "thesis": "Peralta (TB) 1.0 IP, 7 pitches; Messick (CLE) 8 pitches."
+      },
       {
         "pick": "Guardians ML",
         "marketType": "moneyline",
@@ -351,7 +368,21 @@
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     }
   },
-  "liveGames": {},
+  "liveGames": {
+    "mlb-401908024": {
+      "label": "LIVE — under 6 sources, info only",
+      "sport": "MLB",
+      "game": "Guardians @ Rays (ALCS G2)",
+      "startCT": "7:00 PM CT",
+      "state": "0-0, Bottom 1st, 1 out (as of 7:17 PM CT)",
+      "pitchers": "CLE Parker Messick (8 pitches), TB Freddy Peralta (1.0 IP, 7 pitches)",
+      "liveOdds": "TB ML -162 to -191 / CLE +118 to +145; RL TB -1.5 +132 to +148; Total 5.5 (O -136 to -140)",
+      "winProb": "ESPN live WP TB 49% / CLE 51% (last updated end of top 1st; disagrees sharply with market ~62-65% TB)",
+      "lean": "PASS. Nominal CLE +145 edge vs ESPN WP (~10pp) is not trusted: ESPN WP is not price-adjusted and market books disagree; live prices vary widely (possible stale feeds).",
+      "sources": "YT 0 / X 1 (pregame Rays ML slip, @Dom_Lunardo1)",
+      "countsInTotals": false
+    }
+  },
   "minEdgeProcess": {
     "passed": 1,
     "failed": 9,
