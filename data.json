@@ -2,46 +2,7 @@
   "updatedAt": "2026-10-13T19:19:00-05:00",
   "updatedAtLabel": "Tue Oct 13, 2026 · 7:12 PM CT",
   "nearMiss": {
-    "NHL": [
-      {
-        "pick": "Oilers ML",
-        "marketType": "moneyline",
-        "game": "Oilers @ Kings · 9:30 PM CT",
-        "gameState": "pre",
-        "yt": 5,
-        "ytWho": "Doc's Rundown (Trapp/Indian Cowboy) −123; PickDawgz Wraparound (Ruffolo); Tony's Picks −125; PickDawgz Morning Show; SGPN Hockey Gambling Podcast",
-        "x": 0,
-        "xWho": "",
-        "total": 5,
-        "booksAlign": false,
-        "booksAlignWhy": "Best EDM −128 (FanDuel) → BE 56.1%. GameLens takes LA +118 at 46.7%, so the model sides with the dog (+0.8pp on LA, not a pass on either side). No pass.",
-        "modelOnly": false,
-        "gap": "Needs 1 more source to reach 6. Needs 2 X + a cited model for CLEARED.",
-        "rationale": "Top YT consensus on the board: 5 of 7 sources on EDM (71%). Line moved toward EDM (opened −125, now −128 to −136). GameLens leans LA, so the model doesn't confirm it.",
-        "thesis": "Goalies (DailyFaceoff): EDM Devon Levi unconfirmed; LA Darcy Kuemper likely. Against EDM: Doc's Vernon (LA +110) and a PickDawgz Morning Show host (LA ML).",
-        "timeCT": "9:30 PM CT",
-        "consensusPct": 71
-      },
-      {
-        "pick": "Bruins ML",
-        "marketType": "moneyline",
-        "game": "Bruins @ Sharks · 10:00 PM CT",
-        "gameState": "pre",
-        "yt": 4,
-        "ytWho": "Doc's Vernon (−115); BettingPros Daily Juice (−106, 1.06u); Doc's Rundown; SGPN Hockey Gambling Podcast",
-        "x": 0,
-        "xWho": "",
-        "total": 4,
-        "booksAlign": false,
-        "booksAlignWhy": "Best BOS −120 (BetMGM) → BE 54.5%. GameLens BOS 46.9% (a pick under 50%, so I didn't use it). No usable cited model.",
-        "modelOnly": false,
-        "gap": "Needs 2 more sources to reach 6.",
-        "rationale": "4 of 5 YT on BOS (80%). Opened −105/−115 (SJ fav), now BOS −120 to −125, so steam is on Boston. Only Tony's Picks has SJ.",
-        "thesis": "Goalies: Swayman / Askarov, neither confirmed by DailyFaceoff yet. Celebrini's status is uncertain, per Doc's.",
-        "timeCT": "10:00 PM CT",
-        "consensusPct": 80
-      }
-    ],
+    "NHL": [],
     "NHL-PROPS": [],
     "MLB": [
       {
@@ -199,68 +160,7 @@
       "note": "Not covered this pass (Tuesday pass is NHL + UEFA Champions League only)."
     }
   },
-  "liveGames": {
-    "mlb-401908024": {
-      "label": "LIVE — under 6 sources, info only",
-      "sport": "MLB",
-      "game": "Guardians @ Rays (ALCS G2)",
-      "startCT": "7:00 PM CT",
-      "state": "0-0, Bottom 1st, 1 out (as of 7:17 PM CT)",
-      "pitchers": "CLE Parker Messick (8 pitches), TB Freddy Peralta (1.0 IP, 7 pitches)",
-      "liveOdds": "TB ML -162 to -191 / CLE +118 to +145; RL TB -1.5 +132 to +148; Total 5.5 (O -136 to -140)",
-      "winProb": "ESPN live WP TB 49% / CLE 51% (last updated end of top 1st; disagrees sharply with market ~62-65% TB)",
-      "lean": "PASS. Nominal CLE +145 edge vs ESPN WP (~10pp) is not trusted: ESPN WP is not price-adjusted and market books disagree; live prices vary widely (possible stale feeds).",
-      "sources": "YT 0 / X 1 (pregame Rays ML slip, @Dom_Lunardo1)",
-      "countsInTotals": false
-    },
-    "auto-401892497": {
-      "label": "LIVE — started, info only (auto-pruned)",
-      "sport": "NHL",
-      "game": "Wild @ Jets · 7:15 PM CT",
-      "state": "5:05 - 1st",
-      "picks": [
-        "Jets ML (near miss, pregame )",
-        "Jets ML (gauge, pregame WPG −110 (FanDuel))"
-      ],
-      "countsInTotals": false
-    },
-    "auto-401892498": {
-      "label": "LIVE — started, info only (auto-pruned)",
-      "sport": "NHL",
-      "game": "Avalanche @ Stars · 7:30 PM CT",
-      "state": "16:50 - 1st",
-      "picks": [
-        "Avalanche @ Stars Under 6 (near miss, pregame )",
-        "Avalanche @ Stars Under 6 (gauge, pregame Most books are at 5.5 (U +105 to +110); BetMGM U6 −115)"
-      ],
-      "countsInTotals": false
-    },
-    "auto-401908024": {
-      "label": "LIVE — started, info only (auto-pruned)",
-      "sport": "MLB",
-      "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
-      "state": "Top 3rd",
-      "picks": [
-        "Guardians ML (near miss, pregame )",
-        "Rays ML (near miss, pregame )",
-        "Under 6.5 (near miss, pregame )",
-        "Parker Messick o14.5 outs (near miss, pregame )",
-        "Junior Caminero HR (near miss, pregame )"
-      ],
-      "countsInTotals": false
-    },
-    "auto-401892500": {
-      "label": "LIVE — started, info only (auto-pruned)",
-      "sport": "NHL",
-      "game": "Maple Leafs @ Mammoth · 8:00 PM CT",
-      "state": "20:00 - 2nd",
-      "picks": [
-        "Maple Leafs @ Mammoth Over 6.5 (near miss, pregame )",
-        "William Nylander o2.5 SOG (near miss, pregame )"
-      ],
-      "countsInTotals": false
-    }
-  },
+  "liveGames": {},
   "minEdgeProcess": {
     "passed": 1,
     "failed": 9,
@@ -305,8 +205,8 @@
     "cleared": "0-1-0",
     "gauge": "13-12-0",
     "nearMiss": "81-59-3",
-    "checkedAt": "8:59 PM CT",
-    "checkedAtIso": "2026-10-13T20:59:10-05:00",
+    "checkedAt": "8:37 AM CT",
+    "checkedAtIso": "2026-10-14T08:37:51-05:00",
     "label": "Graded record (ESPN finals): CLEARED 0-1-0 · GAUGE 13-12-0 · Near misses 81-59-3 (separate) · n=26"
   },
   "todaysGauge": {
@@ -315,40 +215,9 @@
     "checkedAt": "7:12 PM CT",
     "checkedAtIso": "2026-10-13T19:12:23-05:00",
     "note": "ALCS G2 plus the remaining unstarted NHL games. Soccer is finished and NHL games that started at 5:00–7:00 PM were pruned. No play reached 6 sources, so every row is a NEAR MISS. Research only.",
-    "items": [
-      {
-        "tier": "NEAR MISS",
-        "pick": "Oilers ML",
-        "line": "EDM −128 (FanDuel)",
-        "sport": "NHL",
-        "game": "Oilers @ Kings",
-        "timeCT": "9:30 PM CT",
-        "yt": 5,
-        "x": 0,
-        "booksAlign": false,
-        "edge": "✗ no usable cited model",
-        "consensusPct": 71,
-        "rationale": "Top YT consensus on the board: 5 of 7 sources on EDM (71%). Line moved toward EDM (opened −125, now −128 to −136). GameLens leans LA, so the model doesn't confirm it.",
-        "rank": 1
-      },
-      {
-        "tier": "NEAR MISS",
-        "pick": "Bruins ML",
-        "line": "BOS −120 (BetMGM)",
-        "sport": "NHL",
-        "game": "Bruins @ Sharks",
-        "timeCT": "10:00 PM CT",
-        "yt": 4,
-        "x": 0,
-        "booksAlign": false,
-        "edge": "✗ no usable cited model",
-        "consensusPct": 80,
-        "rationale": "4 of 5 YT on BOS (80%). Opened −105/−115 (SJ fav), now BOS −120 to −125, so steam is on Boston. Only Tony's Picks has SJ.",
-        "rank": 2
-      }
-    ]
+    "items": []
   },
-  "prunedAt": "2026-10-13T20:59:09-05:00",
+  "prunedAt": "2026-10-14T08:36:58-05:00",
   "performance": {
     "tally": {
       "byTier": {
@@ -506,7 +375,7 @@
       },
       "pending": 16,
       "ungraded": 37,
-      "updatedAt": "2026-10-13T20:59:10-05:00"
+      "updatedAt": "2026-10-14T08:37:51-05:00"
     },
     "recent": [
       {
