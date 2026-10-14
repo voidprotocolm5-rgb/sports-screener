@@ -568,7 +568,7 @@
   function renderPerformance(data) {
     var el = $("perf-strip"); if (!el) return;
     var p = data && data.performance; var T = p && p.tally;
-    if (!T) { el.hidden = true; return; }
+    if (!T || !PERF_STRIP_ENABLED) { el.hidden = true; return; }
     function cell(label, t, extra) {
       t = t || {};
       var roi = t.roiPct == null ? "—" : (t.roiPct > 0 ? "+" : "") + t.roiPct + "%";
@@ -601,7 +601,9 @@
       }).join("") + "</section>";
   }
   // ---- Phase 3: hash pages (#/methodology, #/performance, #/disclaimer) + demo mode (?demo=1) ----
-  var DEMO = /(?:^|[?&])demo=1(?:&|$)/.test(location.search);
+  // Demo mode + performance strip disabled per Atlas 10/13 8:23 PM CT; set true to restore.
+  var DEMO_ENABLED = false, PERF_STRIP_ENABLED = false;
+  var DEMO = DEMO_ENABLED && /(?:^|[?&])demo=1(?:&|$)/.test(location.search);
   // Private pages (Performance, Disclaimer) disabled per Atlas 10/13 8:16 PM CT; set true to restore.
   var PRIVATE_PAGES_ENABLED = false;
   function pageRoute() {
@@ -612,7 +614,7 @@
   }
   function hidePrivateLinks() {
     if (PRIVATE_PAGES_ENABLED) return;
-    document.querySelectorAll('a[href="#/performance"],a[href="#/disclaimer"]').forEach(function (a) {
+    document.querySelectorAll('a[href="#/performance"],a[href="#/disclaimer"]' + (DEMO_ENABLED ? "" : ',a[href="?demo=1"]')).forEach(function (a) {
       var p = a.previousSibling, n = a.nextSibling;
       if (n && n.nodeType === 3 && /^\s*·\s*$/.test(n.nodeValue)) n.remove();
       else if (p && p.nodeType === 3 && /^\s*·\s*$/.test(p.nodeValue)) p.remove();
