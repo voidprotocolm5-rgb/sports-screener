@@ -229,6 +229,24 @@
   function renderProcessBar(data) {
     var el = $("process-bar");
     if (!el) return;
+    var perfT = data && data.performance && data.performance.tally;
+    if (perfT && perfT.all) {
+      var tg = perfT.clvTags || {}; var A = perfT.all;
+      var scored = (tg.beat || 0) + (tg.match || 0) + (tg.lose || 0);
+      var mep = data.minEdgeProcess;
+      el.hidden = false; el.className = "process-bar";
+      el.innerHTML = '<div class="process-section process-clv"><span class="process-title">CLV · graded main cards</span>' +
+        '<span class="process-stat clv-tag-beat">beat <b>' + (tg.beat || 0) + "</b></span>" +
+        '<span class="process-stat">match <b>' + (tg.match || 0) + "</b></span>" +
+        '<span class="process-stat clv-tag-lose">lose <b>' + (tg.lose || 0) + "</b></span>" +
+        '<span class="process-stat">no close <b>' + (tg.unobserved || 0) + "</b></span>" +
+        '<span class="process-stat">beat rate <b>' + (scored ? Math.round(100 * (tg.beat || 0) / scored) + "% (" + (tg.beat || 0) + "/" + scored + ")" : "n/a") + "</b></span>" +
+        (A.avgClvPp != null ? '<span class="process-stat">avg <b>' + (A.avgClvPp > 0 ? "+" : "") + A.avgClvPp + "pp</b> (n=" + A.clvN + ")</span>" : "") +
+        (A.avgClvPts != null ? '<span class="process-stat">avg <b>' + (A.avgClvPts > 0 ? "+" : "") + A.avgClvPts + " pts</b> (n=" + A.clvPtsN + ")</span>" : "") +
+        "</div>" +
+        (mep ? '<div class="process-section process-minedge"><span class="process-title">MinEdge (this slate)</span><span class="process-stat minedge-pass">passed <b>' + escapeHtml(mep.passed) + '</b></span><span class="process-stat minedge-fail">failed <b>' + escapeHtml(mep.failed) + "</b></span></div>" : "");
+      return;
+    }
     var clv = data && data.clvProcess;
     var me = data && data.minEdgeProcess;
     var hasClv = clv && typeof clv === "object";
@@ -326,6 +344,7 @@
   }
 
   function setHash(sportId, sub) {
+    if (pageRoute()) return;
     var token = sportId;
     var nsp = normalizeSport(sportId);
     if (hasSub(nsp)) {
@@ -493,6 +512,38 @@
     return "<ul>" + arr.map(function (t) { return "<li>" + escapeHtml(t) + "</li>"; }).join("") + "</ul>";
   }
   function splitWho(s) { return s ? String(s).split(/;\s*/).filter(Boolean) : []; }
+  function consensusList(o) {
+    var lg = o.ledger || {};
+    var c = lg.consensus || o.consensus || [];
+    return Array.isArray(c) ? c : [];
+  }
+  function consensusCol(o) {
+    var c = consensusList(o);
+    var items = c.map(function (r) { return typeof r === "string" ? r : (r.site || "") + (r.pick ? ": " + r.pick : "") + (r.author ? " (" + r.author + ")" : ""); });
+    return '<div class="dr-col"><h4>Consensus sites (' + c.length + ')</h4>' + listHtml(items) +
+      '<p class="dr-muted">Separate class — not counted toward the 6+ YouTube + send-it rule.</p></div>';
+  }
+  function splitsOf(o) { return o.splits || (o.ledger || {}).splits || null; }
+  function rlmOf(o) { return o.rlm || (o.ledger || {}).rlm || null; }
+  function splitsCol(o) {
+    var sp = splitsOf(o), r = rlmOf(o);
+    if (!sp && !r) return '<div class="dr-col"><h4>Betting splits</h4><p class="dr-none">Not pulled for this pick.</p></div>';
+    var h = '<div class="dr-col"><h4>Betting splits</h4>';
+    if (sp) {
+      h += '<div class="split-row"><span>Bets</span><div class="split-track"><div class="split-fill" style="width:' + (Number(sp.publicBetsPct) || 0) + '%"></div></div><b>' + escapeHtml(sp.publicBetsPct) + '%</b></div>' +
+        '<div class="split-row"><span>Money</span><div class="split-track"><div class="split-fill money" style="width:' + (Number(sp.moneyPct) || 0) + '%"></div></div><b>' + escapeHtml(sp.moneyPct) + "%</b></div>" +
+        '<p class="dr-muted">' + escapeHtml((sp.side ? "On " + sp.side + " · " : "") + (sp.source || "source n/a") + (sp.observedAt ? " · " + sp.observedAt : "")) + "</p>";
+    }
+    if (r) h += '<p class="' + (r.flag ? "rlm-yes" : "dr-muted") + '">' + (r.flag ? "⚑ Reverse line move" : "No reverse line move") + (r.note ? " — " + escapeHtml(r.note) : "") + "</p>";
+    return h + "</div>";
+  }
+  function extraChips(o) {
+    var c = consensusList(o).length, sp = splitsOf(o), r = rlmOf(o), h = "";
+    if (c) h += '<span class="source-chip chip-consensus" title="Not counted toward 6+">Consensus ' + c + "</span>";
+    if (sp && sp.publicBetsPct != null) h += '<span class="source-chip">Bets ' + escapeHtml(sp.publicBetsPct) + "% / $ " + escapeHtml(sp.moneyPct) + "%</span>";
+    if (r && r.flag) h += '<span class="source-chip chip-rlm">RLM</span>';
+    return h;
+  }
   function drawerHtml(o) {
     var lg = o.ledger || {}; var me = lg.minEdge || {};
     var yt = (lg.yt && lg.yt.channels) || splitWho(o.ytWho);
@@ -507,6 +558,7 @@
     return '<details class="drawer"><summary>Source ledger</summary><div class="dr-body">' +
       '<div class="dr-col"><h4>YouTube (' + yt.length + ')</h4>' + listHtml(yt) + "</div>" +
       '<div class="dr-col"><h4>Send-it list (' + xs.length + ')</h4>' + listHtml(xs) + "</div>" +
+      consensusCol(o) + splitsCol(o) +
       '<div class="dr-col dr-wide"><h4>Books check</h4><p>' + escapeHtml(math || why || "No books math recorded.") + "</p>" +
         (math && why ? '<p class="dr-muted">' + escapeHtml(why) + "</p>" : "") +
         (lg.notes ? '<p class="dr-muted">' + escapeHtml(lg.notes) + "</p>" : "") + "</div>" +
@@ -528,7 +580,7 @@
     var a = T.all || {};
     var clv = a.clvScored ? " · CLV beat " + a.clvBeat + "/" + a.clvScored : "";
     el.hidden = false;
-    el.innerHTML = '<div class="perf-head"><h2>Track record</h2><span class="perf-sub">Graded from ESPN finals · flat 1u at published price · since Oct 10, 2026</span></div>' +
+    el.innerHTML = '<div class="perf-head"><h2>Track record</h2><span class="perf-sub">' + (DEMO ? "EXAMPLE DATA — invented for layout" : "Graded from ESPN finals · flat 1u at published price · since Oct 10, 2026") + '</span></div>' +
       '<div class="perf-grid">' + cell("All main cards", a, clv) + cell("CLEARED", (T.byTier || {}).cleared) + cell("GAUGE", (T.byTier || {}).gauge) +
       cell("Near misses (separate)", T.nearMiss) + "</div>" +
       '<p class="perf-note">' + escapeHtml(p.note || "") + (a.n < 100 ? " Current sample n=" + (a.n || 0) + " main cards." : "") + "</p>";
@@ -548,6 +600,108 @@
           (g.sources ? '<p class="live-meta">Sources: ' + escapeHtml(g.sources) + "</p>" : "") + "</div>";
       }).join("") + "</section>";
   }
+  // ---- Phase 3: hash pages (#/methodology, #/performance, #/disclaimer) + demo mode (?demo=1) ----
+  var DEMO = /(?:^|[?&])demo=1(?:&|$)/.test(location.search);
+  function pageRoute() { var m = (location.hash || "").match(/^#\/(methodology|performance|disclaimer)/); return m ? m[1] : null; }
+  function pct(v) { return v == null ? "—" : v + "%"; }
+  function signed(v, suf) { return v == null ? "—" : (v > 0 ? "+" : "") + v + (suf || ""); }
+  function perfRow(label, t) {
+    t = t || {};
+    return "<tr><th>" + escapeHtml(label) + "</th><td>" + escapeHtml(t.record || "0-0-0") + "</td><td>" + (t.n || 0) + "</td><td>" + pct(t.hitRate) +
+      '</td><td class="' + (t.units >= 0 ? "up" : "down") + '">' + signed(t.units, "u") + "</td><td>" + signed(t.roiPct, "%") + "</td><td>" +
+      (t.clvScored ? (t.clvBeat || 0) + "/" + t.clvScored : "—") + "</td></tr>";
+  }
+  function pagePerformance(data) {
+    var p = data.performance || {}, T = p.tally;
+    if (!T) return "<h1>Performance</h1><p>No graded results yet.</p>";
+    var sports = Object.keys(T.bySport || {}).map(function (k) { return perfRow(k, T.bySport[k]); }).join("");
+    var recent = (p.recent || []).filter(function (r) { return r["class"] === "main"; }).map(function (r) {
+      var cls = r.result === "win" ? "res-win" : r.result === "loss" ? "res-loss" : "res-push";
+      return "<tr><td>" + escapeHtml(r.date) + "</td><td>" + escapeHtml(r.sport) + "</td><td>" + escapeHtml(String(r.tier).toUpperCase()) + "</td><td>" + escapeHtml(r.pick) +
+        "</td><td>" + escapeHtml(r.publishedAmerican == null ? "—" : r.publishedAmerican) + '</td><td><span class="res-badge ' + cls + '">' + escapeHtml(String(r.result).toUpperCase()) +
+        "</span></td><td>" + escapeHtml(r.final || "") + "</td><td>" + signed(r.clvPp, "pp") + "</td></tr>";
+    }).join("");
+    var head = "<tr><th></th><th>W-L-P</th><th>n</th><th>Hit</th><th>Units</th><th>ROI</th><th>CLV beat</th></tr>";
+    return '<p class="page-kicker">Track record</p><h1>Performance.</h1>' +
+      '<p class="page-lede">Every published card is graded automatically from ESPN finals against the exact line and price we published. Flat 1 unit per card. Nothing is hand-entered or guessed.</p>' +
+      '<div class="callout">Honest sample size: <b>n=' + ((T.all || {}).n || 0) + "</b> main cards since Oct 10, 2026. That is far too few to judge skill — treat these numbers as a ledger, not a promise.</div>" +
+      '<h2>By tier</h2><div class="table-wrap"><table class="ptable">' + head + perfRow("All main cards", T.all) + perfRow("CLEARED", (T.byTier || {}).cleared) + perfRow("GAUGE", (T.byTier || {}).gauge) + "</table></div>" +
+      '<h2>By sport (main cards)</h2><div class="table-wrap"><table class="ptable">' + head + sports + "</table></div>" +
+      '<h2>Near misses — tracked separately</h2><div class="table-wrap"><table class="ptable">' + head + perfRow("Near misses", T.nearMiss) + "</table></div>" +
+      '<div class="callout warn"><b>Inflation caveat:</b> the near-miss tally counts every near miss that appeared on any published version of the board during a day, including rows later removed, and some rows sit on opposite sides of the same game (e.g. both Over and Under, or the other side of a main card). It is not a playable record and is excluded from all totals.</div>' +
+      '<h2>Closing-line value</h2><p>CLV compares our published price with the closing price (ESPN / DraftKings feed; for finished games, the last line ESPN held is treated as the close). Beat ' + ((T.clvTags || {}).beat || 0) + ", match " + ((T.clvTags || {}).match || 0) + ", lose " + ((T.clvTags || {}).lose || 0) + ", no close available " + ((T.clvTags || {}).unobserved || 0) + ". Props, UFC and 3-way soccer have no close feed and are left unobserved.</p>" +
+      '<h2>Recent graded cards</h2><div class="table-wrap"><table class="ptable small"><tr><th>Date</th><th>Sport</th><th>Tier</th><th>Pick</th><th>Price</th><th>Result</th><th>Final</th><th>CLV</th></tr>' + recent + "</table></div>" +
+      '<p class="dr-muted">Ungraded: ' + (T.ungraded || 0) + " (mostly player props without an auto-grader) · pending: " + (T.pending || 0) + " · updated " + escapeHtml(T.updatedAt || "") + "</p>";
+  }
+  function pageMethodology() {
+    return '<p class="page-kicker">How it works</p><h1>Methodology.</h1>' +
+      '<p class="page-lede">A pick reaches the board only when independent people put their name on it — and the price still makes sense.</p>' +
+      "<h2>1. Sources</h2><ul>" +
+      "<li><b>YouTube:</b> firm, spoken picks from 10–15+ best-bets videos per sport. Leans, score predictions, AI-pick channels and relayed duplicates are excluded.</li>" +
+      "<li><b>Send-it list (X):</b> current-day slips for unstarted games from a curated list. Unique posters only; settled or “cashed” posts are ignored; collab accounts are flagged.</li>" +
+      "<li><b>Consensus sites:</b> vetted tipster / consensus sites with named, firm picks. Shown separately in each card’s source ledger and <b>not counted</b> toward the 6+ rule.</li>" +
+      "<li><b>Market context:</b> injuries, goalies and pitchers, weather, line movement, betting splits (public bets % vs money %), and reverse-line-move flags.</li></ul>" +
+      "<h2>2. Books align (MinEdge)</h2><p>We convert the best observed price to break-even probability and require a <b>cited</b> model (e.g. GameLens, ESPN FPI, AccuScore, Tennis Abstract Elo) to clear it by at least <b>2.5 percentage points</b>. Conflicting cited models fail the check. Spread probabilities only apply at the same or a better number. We never invent a model.</p>" +
+      "<h2>3. Tiers</h2><ul><li><b>CLEARED:</b> ≥3 YouTube + ≥2 send-it + books align.</li><li><b>GAUGE:</b> every other main card, ranked with a one-line rationale.</li><li><b>Main board floor:</b> ≥6 combined YouTube + send-it sources, strictly.</li><li><b>NEAR MISS:</b> under 6 sources — shown in labeled sections, never counted in totals.</li><li><b>LIVE:</b> started games are info-only.</li></ul>" +
+      "<h2>4. Confidence meter</h2><p>0–100: sources (up to 55, full at 10), both source classes present (10), cited model edge (up to 25, full at +10pp), books align (10). It summarizes evidence; it is not a win probability.</p>" +
+      "<h2>5. Grading and CLV</h2><p>Scripts grade finals from ESPN against the published line and price, capture closing lines, and prune started games. Results accumulate in a permanent ledger. See <a href=\"#/performance\">Performance</a>.</p>" +
+      "<h2>6. Reading list</h2><p>Approach informed by <i>The Logic of Sports Betting</i>, <i>Sharp Sports Betting</i>, quantitative-trading practice, and Hausch &amp; Ziemba on market efficiency: consensus alone is not edge; price and closing-line value matter.</p>";
+  }
+  function pageDisclaimer() {
+    return '<p class="page-kicker">Please read</p><h1>Disclaimer.</h1>' +
+      '<div class="callout warn"><b>21+ only.</b> Gambling problem? Call <a href="tel:18004262537">1-800-GAMBLER</a> (1-800-426-2537) or visit <a href="https://www.ncpgambling.org" rel="noopener">ncpgambling.org</a>.</div>' +
+      "<ul><li>Sports screener is a <b>research and education</b> tool. It is not betting, financial or investment advice.</li>" +
+      "<li>We <b>do not place bets</b>, take wagers, or handle money, and we are not a sportsbook or a paid pick service.</li>" +
+      "<li>Odds, lines, injuries and model outputs change and can be wrong or stale. Always confirm prices with a licensed sportsbook.</li>" +
+      "<li>Past results do not predict future results. The track record is small and is shown with its sample size.</li>" +
+      "<li>Sports betting is legal only in some jurisdictions. You are responsible for following the laws where you live.</li>" +
+      "<li>Third-party names (YouTube channels, X accounts, models, sites) are cited for attribution only and do not endorse this site.</li></ul>" +
+      '<p>Set limits, never chase losses, and take breaks. Self-exclusion programs are available in every legal state.</p>';
+  }
+  function renderPage(data) {
+    var r = pageRoute(), pv = $("page-view"), bv = $("board-view");
+    if (!pv || !bv) return false;
+    document.querySelectorAll(".navlink").forEach(function (a) { a.setAttribute("aria-current", a.getAttribute("href") === "#/" + r ? "page" : "false"); });
+    if (!r) { pv.hidden = true; bv.hidden = false; return false; }
+    pv.innerHTML = '<article class="page">' + (r === "performance" ? pagePerformance(data) : r === "methodology" ? pageMethodology() : pageDisclaimer()) +
+      '<p><a class="back-link" href="#">← Back to the board</a></p></article>';
+    pv.hidden = false; bv.hidden = true; window.scrollTo(0, 0);
+    return true;
+  }
+  function demoData() {
+    var ex = function (o) { return Object.assign({ example: true, gameState: "pre" }, o); };
+    return {
+      updatedAt: new Date().toISOString(), updatedAtLabel: "EXAMPLE DATA · demo mode", slate: "Demo slate — EXAMPLE DATA", status: "example",
+      summary: "EXAMPLE DATA. Every pick, source, split and result below is invented to show the layout. Nothing here is a real recommendation.",
+      sports: [{ id: "NHL", label: "Hockey (NHL)", nav: "NHL" }, { id: "NFL", label: "Football (NFL)", nav: "NFL" }, { id: "Soccer", label: "Soccer", nav: "Soccer" }],
+      bets: [
+        ex({ id: "demo-1", sport: "NHL", tier: "cleared", marketType: "moneyline", pick: "Example Team A ML", line: "−125", game: "Example A @ Example B · 7:00 PM CT", consensusPct: 75, simWinPct: 61, ev: "+5.4pp vs BE",
+          why: "EXAMPLE: 5 YouTube + 3 send-it picks on the same side; cited model clears break-even by 5.4pp.", sources: { youtube: 5, xSendIt: 3, booksAlign: true },
+          splits: { publicBetsPct: 38, moneyPct: 61, side: "Team A", source: "Example splits feed", observedAt: "6:15 PM CT" }, rlm: { flag: true, note: "EXAMPLE: line moved toward Team A with only 38% of bets." },
+          ledger: { booksAlign: true, consensus: [{ site: "Example Consensus Site", pick: "Team A ML", author: "Analyst X" }, { site: "Example Picks Hub", pick: "Team A ML" }],
+            yt: { channels: ["Example Channel 1: Team A", "Example Channel 2: Team A", "Example Channel 3: Team A", "Example Channel 4: Team A", "Example Channel 5: Team A"] },
+            sendIt: { whoOdds: ["@example1: Team A −125", "@example2: Team A ML", "@example3: Team A −120"] },
+            minEdge: { bestLine: "A −125", bestSource: "Example Book", breakEvenPct: 55.6, modelWinPct: 61.0, modelSource: "Example Model", edgeVsBePct: 5.4 } } }),
+        ex({ id: "demo-2", sport: "NHL", tier: "gauge", marketType: "spread", pick: "Over 6.5", line: "o6.5 −110", game: "Example C @ Example D · 8:00 PM CT", consensusPct: 67, simWinPct: "n/a", ev: "n/a",
+          why: "EXAMPLE: 6 sources, but no cited model clears break-even, so it is GAUGE.", sources: { youtube: 4, xSendIt: 2, booksAlign: false },
+          splits: { publicBetsPct: 72, moneyPct: 70, side: "Over", source: "Example splits feed" }, rlm: { flag: false },
+          ledger: { booksAlign: false, booksAlignWhy: "EXAMPLE: best o6.5 −110 → BE 52.4%; no cited model." } }),
+        ex({ id: "demo-3", sport: "NHL", tier: "gauge", marketType: "prop", pick: "Example Player o2.5 SOG", line: "−130", game: "Example C @ Example D · 8:00 PM CT", consensusPct: 100, ev: "n/a",
+          why: "EXAMPLE prop card.", sources: { youtube: 5, xSendIt: 1, booksAlign: false }, ledger: {} })
+      ],
+      nearMiss: { NHL: [{ pick: "Example Team E ML", game: "Example E @ Example F · 9:00 PM CT", yt: 3, x: 1, total: 4, booksAlign: true, booksAlignWhy: "EXAMPLE: model +3.1pp", gap: "EXAMPLE: needs 2 more sources.",
+        consensus: [{ site: "Example Consensus Site", pick: "Team E ML" }], splits: { publicBetsPct: 45, moneyPct: 52, side: "Team E", source: "Example splits feed" } }] },
+      todaysGauge: { title: "Today's Gauge", label: "EXAMPLE DATA", items: [
+        { rank: 1, tier: "CLEARED", pick: "Example Team A ML", line: "−125", sport: "NHL", game: "Example A @ Example B", timeCT: "7:00 PM CT", yt: 5, x: 3, booksAlign: true, edge: "+5.4pp", rationale: "EXAMPLE rationale." },
+        { rank: 2, tier: "GAUGE", pick: "Over 6.5", line: "−110", sport: "NHL", game: "Example C @ Example D", timeCT: "8:00 PM CT", yt: 4, x: 2, booksAlign: false, rationale: "EXAMPLE rationale." }] },
+      performance: { note: "EXAMPLE DATA — invented track record for layout only.", tally: {
+        all: { record: "12-8-1", n: 21, hitRate: 60, units: 2.4, roiPct: 11.4, clvScored: 15, clvBeat: 9, clvN: 15, avgClvPp: 1.2 },
+        byTier: { cleared: { record: "5-2-0", n: 7, hitRate: 71.4, units: 2.6, roiPct: 37.1 }, gauge: { record: "7-6-1", n: 14, hitRate: 53.8, units: -0.2, roiPct: -1.4 } },
+        bySport: { NHL: { record: "12-8-1", n: 21, hitRate: 60, units: 2.4, roiPct: 11.4 } }, nearMiss: { record: "10-9-0", n: 19, hitRate: 52.6, units: -0.5, roiPct: -2.6 },
+        clvTags: { beat: 9, match: 2, lose: 4, unobserved: 6 }, pending: 0, ungraded: 0, updatedAt: "EXAMPLE" }, recent: [] }
+    };
+  }
+
   function setupTheme() {
     var btn = $("theme-toggle"); if (!btn) return;
     btn.addEventListener("click", function () {
@@ -620,7 +774,7 @@
           '<span class="source-chip ' + (alignKnown ? (align ? "align-yes" : "align-no") : "") + '">' +
             "Books " + (alignKnown ? (align ? "align" : "mixed") : "—") +
           "</span>" +
-          renderMinEdgeChip(ledger) +
+          renderMinEdgeChip(ledger) + extraChips(bet) +
         "</div>" +
         drawerHtml(bet) +
       "</article>"
@@ -648,6 +802,7 @@
             " · total " + escapeHtml(String(n.total)) + "</div>" +
           '<div class="nm-line">booksAlign ' + (n.booksAlign ? "true" : "false") + " — " + escapeHtml(n.booksAlignWhy || "") + "</div>" +
           '<div class="nm-gap">' + escapeHtml(n.gap || "") + "</div>" +
+          (extraChips(n) ? '<div class="sources">' + extraChips(n) + "</div>" : "") +
           meterHtml(meterScore(n.yt, n.x, edgePpOf(n), n.booksAlign), "Confidence · sources + edge") +
           drawerHtml(n) +
         "</li>"
@@ -769,7 +924,10 @@
   }
 
   function render(data) {
+    if (DEMO) { data = demoData(); }
     lastPayload = data;
+    var db = $("demo-banner"); if (db) db.hidden = !DEMO;
+    if (renderPage(data)) return;
     renderTonightGauge(data);
     renderPerformance(data);
     activeSport = resolveActiveSport(data);
@@ -969,6 +1127,7 @@
     if (subNav) subNav.addEventListener("click", onSubNavClick);
     window.addEventListener("hashchange", function () {
       if (!lastPayload) return;
+      if (pageRoute() || $("board-view").hidden) { render(lastPayload); if (pageRoute()) return; }
       var parsed = parseHash();
       if (parsed.sport) {
         activeSport = parsed.sport;

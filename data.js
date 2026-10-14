@@ -335,8 +335,8 @@ window.BET_BOARD_DATA = {
     "cleared": "0-1-0",
     "gauge": "13-12-0",
     "nearMiss": "81-59-3",
-    "checkedAt": "7:57 PM CT",
-    "checkedAtIso": "2026-10-13T19:57:07-05:00",
+    "checkedAt": "8:08 PM CT",
+    "checkedAtIso": "2026-10-13T20:08:25-05:00",
     "label": "Graded record (ESPN finals): CLEARED 0-1-0 · GAUGE 13-12-0 · Near misses 81-59-3 (separate) · n=26"
   },
   "todaysGauge": {
@@ -518,11 +518,25 @@ window.BET_BOARD_DATA = {
         "clvN": 10,
         "clvScored": 15,
         "clvBeat": 7,
-        "avgClvPp": -0.38
+        "avgClvPp": -0.38,
+        "clvPtsN": 5,
+        "avgClvPts": 0.1
+      },
+      "clvTags": {
+        "beat": 7,
+        "lose": 6,
+        "match": 2,
+        "unobserved": 11
+      },
+      "clvTagsNearMiss": {
+        "beat": 42,
+        "lose": 29,
+        "match": 24,
+        "unobserved": 48
       },
       "pending": 16,
       "ungraded": 37,
-      "updatedAt": "2026-10-13T19:57:07-05:00"
+      "updatedAt": "2026-10-13T20:08:25-05:00"
     },
     "recent": [
       {
