@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T09:27:41-05:00",
-  "updatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+  "updatedAt": "2026-10-14T10:14:54-05:00",
+  "updatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
   "nearMiss": {
     "MLB": [
       {
@@ -384,7 +384,7 @@
         "booksAlignWhy": "Best COMO −152 3-way per AN (FanDuel; AN soccer ML may be 2-way) / +115 DK 3-way per ESPN. AccuScore Como 42% vs DK +115 BE 46.5% (−4.5pp). No pass.",
         "modelOnly": false,
         "gap": "Needs 3 more source(s) to reach 6. No books pass.",
-        "rationale": "Models lean Como (AccuScore 42%, SoccerGhost 39%, MetaPred 51%) but none clears the price.",
+        "rationale": "Models lean Como (AccuScore 42%, SoccerGhost 39%, MetaPred 51%) but none clears the price. Lineups confirmed. DK 3-way now COM +120.",
         "timeCT": "11:45 AM CT",
         "consensusPct": 75,
         "consensus": [
@@ -408,7 +408,7 @@
         "booksAlignWhy": "BTTS price not pulled from a US book. Non-cited models: SoccerGhost 63%, MetaPred 64%, GoalStatsLab 70%.",
         "modelOnly": false,
         "gap": "Needs 1 more source(s) to reach 6. No books pass.",
-        "rationale": "5 sources (4 YT + 1 X combo). BTTS price not pulled from a US book, so booksAlign can’t pass.",
+        "rationale": "5 sources (4 YT + 1 X combo). BTTS price not pulled from a US book, so booksAlign can’t pass. Lineups confirmed (AS.com): Feyenoord 4-3-3 Ferri/Hadj Moussa/Valente; Como 4-2-3-1 with Douvikas, Paz, Baturina, Diao.",
         "timeCT": "11:45 AM CT",
         "consensusPct": 100
       },
@@ -449,24 +449,6 @@
         "consensusPct": 100
       },
       {
-        "pick": "Aston Villa to win",
-        "marketType": "moneyline",
-        "game": "Fenerbahçe @ Aston Villa · UCL · 2:00 PM CT",
-        "gameState": "pre",
-        "yt": 2,
-        "ytWho": "Ashili SportsTV (straight win); KuraTalks (Villa to win)",
-        "x": 1,
-        "xWho": "@CFC_Justin (fan account, off-list)",
-        "total": 3,
-        "booksAlign": false,
-        "booksAlignWhy": "No cited soccer model pulled for this match.",
-        "modelOnly": false,
-        "gap": "Needs 3 more source(s) to reach 6. No books pass.",
-        "rationale": "Not counted: JB PREDICTZ (Villa win/draw, different market); All Sports Predictions and Daily Sports Prediction Analysis (scripted).",
-        "timeCT": "2:00 PM CT",
-        "consensusPct": 100
-      },
-      {
         "pick": "Roma–Real Madrid Over 2.5 + RM 2+ goals",
         "marketType": "total",
         "game": "Real Madrid @ Roma · UCL · 2:00 PM CT",
@@ -499,24 +481,6 @@
         "modelOnly": false,
         "gap": "Needs 3 more source(s) to reach 6. No books pass.",
         "rationale": "3 sources. Not counted: @LestipsdeJP Over 3.0 (different line), WinForge/ZoomBet (automated/bookmaker).",
-        "timeCT": "2:00 PM CT",
-        "consensusPct": 100
-      },
-      {
-        "pick": "Real Madrid to win",
-        "marketType": "moneyline",
-        "game": "Real Madrid @ Roma · UCL · 2:00 PM CT",
-        "gameState": "pre",
-        "yt": 2,
-        "ytWho": "Ciaran (RM ML ~2.0, 2u); Ashili SportsTV (straight win)",
-        "x": 2,
-        "xWho": "@ShamsBets (parlay leg); @TheCronoGol (RM full-time result, 1.90) — both off-list",
-        "total": 4,
-        "booksAlign": false,
-        "booksAlignWhy": "No cited soccer model pulled. RM −105 (DK) 3-way.",
-        "modelOnly": false,
-        "gap": "Needs 2 more source(s) to reach 6. No books pass.",
-        "rationale": "4 sources. Not counted (different markets): Expert Football Betting (DNB), Masked Bettor, JB PREDICTZ (win/draw), MediaPronos (DNB). SportsLine notes most money on Roma and the Under.",
         "timeCT": "2:00 PM CT",
         "consensusPct": 100
       },
@@ -780,9 +744,9 @@
   "sport": "Soccer",
   "defaultSport": "Soccer",
   "status": "ready",
-  "summary": "Wed Oct 14 (deep pass): 0 CLEARED · 3 GAUGE (Liverpool ML 11:45 AM CT; Stuttgart ML 2:00 PM CT; Avalanche ML 7:30 PM CT). Near misses ranked below. AI-voiced/scripted channels excluded.",
+  "summary": "Wed Oct 14 (deep pass, 10:2x AM): 0 CLEARED · 6 GAUGE. Aston Villa ML and Avalanche ML have booksAlign ✓; Liverpool, Stuttgart, Real Madrid and City–PSG BTTS fail the price test. Liverpool/Feyenoord–Como lineups confirmed.",
   "clearedCount": 0,
-  "gaugeCount": 3,
+  "gaugeCount": 6,
   "sports": [
     {
       "id": "CFB",
@@ -842,67 +806,67 @@
   "archives": {
     "NBA": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
-      "note": "Preseason, 7 games. Only Doc's Sports was countable; near misses only."
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
+      "note": "NBA preseason deep pass: no game reaches 6 countable sources. Countable YouTube is only Doc's (Craig Trapp, Indian Cowboy) and Sports Picks with Kevin Thomas; JamalPicks, HeyAko, 2K sims and music-only \"quick picks\" videos are scripted or empty, so 10+ YT do not exist today. X is dominated by copy-pasted parlay rings (excluded as non-independent). No NBA preseason model available (GameLens pages empty)."
     },
     "NBA-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "No sourced NBA props today."
     },
     "Soccer": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "UCL MD2: 11:45 AM and 2:00 PM CT kickoffs. Main card: Liverpool ML (GAUGE, 3 YT + 3 off-list X). Soccer models pulled: AccuScore, BetBuilders, Rondo Research, xG.football, SoccerGhost, MetaPred, Footlab, Zort, KnockoutMath. Confirmed lineups not out at publish."
     },
     "TENNIS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "Shanghai R4 finished overnight; next ATP matches start Thu ~1:30 AM CT. No countable picks for today's unstarted WTA (Wuhan/Mallorca/Rovereto/Lisbon) matches."
     },
     "MLB": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "NLCS G3 Brewers @ Dodgers 7:00 PM CT (Gasser vs Snell). No play reached 6 sources; Brewers side is the YT majority but ML models conflict (ESPN dissents). Near misses below."
     },
     "NFL": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "No NFL games today (ESPN)."
     },
     "NFL-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "No NFL games today."
     },
     "NHL": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "Two games: Canadiens @ Capitals 6:30 PM CT, Stars @ Avalanche 7:30 PM CT. No main card. MinEdge passes: Avalanche ML (4 YT) and Capitals ML (3 YT) — near misses."
     },
     "NHL-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "Single-source props only."
     },
     "UFC": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "No UFC event today (ESPN)."
     },
     "UFC-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "No UFC event today."
     },
     "CFB": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "Two Wednesday games (6:30 and 7:00 PM CT). Thin sourcing; near misses only."
     },
     "WNBA": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "No WNBA games today (offseason)."
     },
     "Rule": {
@@ -912,7 +876,7 @@
     },
     "MLB-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:27 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 10:14 AM CT",
       "note": "Single-source props only (Chourio single, NRFI, Gasser Ks)."
     }
   },
@@ -948,19 +912,19 @@
       "marketType": "moneyline",
       "game": "Liverpool @ LASK Linz · UCL MD2 · 11:45 AM CT",
       "pick": "Liverpool ML (3-way, 90 min)",
-      "line": "LIV −255 DraftKings",
+      "line": "LIV −265 DraftKings",
       "gameState": "pre",
       "consensusPct": 100,
       "simWinPct": 69,
       "ev": null,
       "confidence": 100,
-      "why": "YouTube 4: Bet Hero, Ciaran, EC Predicts (slip 1), Ashili SportsTV (all Liverpool to win). X 3 unique (all OFF the send-it list, from today's X search): @Gldenbets (Liverpool – Win), @3STAR_GOLD (LASK vs Liverpool — 2), @ShamsBets (4-leg ML parlay, Liverpool ML leg). Not counted: @farazktwt and @Gwisapunter (win/draw and 1-up are different markets), MRAIN (score prediction), AI accounts. Models (3-way): AccuScore 69%, Zort 71%, KnockoutMath 79%, Bawler 64%, Probascore 57.5%. Break-even at −255 is 71.8%.",
-      "rationale": "GAUGE: 4 YT + 3 X = 7 sources, 100% on Liverpool. Not CLEARED: the cited AccuScore 69% is 2.8pp BELOW the 71.8% break-even; KnockoutMath (79%) clears but Bawler/Probascore are far below → model war, booksAlign false. Short favorite; the X sources are off-list. Lineups not yet confirmed at publish.",
+      "why": "YouTube 4: Bet Hero, Ciaran, EC Predicts (slip 1), Ashili SportsTV (all Liverpool to win). X 5 (all off-list): @Gldenbets, @3STAR_GOLD, @ShamsBets (parlay leg), @theadams07 (cheat sheet), @SnowsPicks (UCL card). Excluded: copy-pasted parlay rings (same slip on 10+ accounts), score-only predictions, booking-code promos, AI accounts. Models (3-way): AccuScore 69%, Zort 71%, KnockoutMath 79%, Bawler 64%, Probascore 57.5%. Break-even at −265 is 72.6%.",
+      "rationale": "GAUGE: 4 YT + 5 X = 9 sources, 100% on Liverpool. Not CLEARED: the cited AccuScore 69% is 3.6pp BELOW the 72.6% break-even, and the models disagree → booksAlign false. LINEUPS CONFIRMED (oddalerts/rotascore): Liverpool 4-2-3-1 Alisson; Kerkez, van Dijk, Jacquet, Araujo; Mac Allister, Gravenberch; Barcola, Wirtz, Muñoz; Koumas. Out: Isak, Gakpo, Szoboszlai, Ekitiké. RotoWire's pick is Liverpool −1.5 instead.",
       "sources": {
         "youtube": 4,
-        "x": 3
+        "x": 5
       },
-      "xNote": "@Gldenbets, @3STAR_GOLD, @ShamsBets — off-list X search, no collabs detected.",
+      "xNote": "All X off-list (search).",
       "booksAlign": false,
       "timeCT": "11:45 AM CT",
       "ledger": {
@@ -971,6 +935,30 @@
           }
         ]
       }
+    },
+    {
+      "id": "wed-ucl-avl-ml",
+      "example": false,
+      "sport": "Soccer",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Fenerbahçe @ Aston Villa · UCL MD2 · 2:00 PM CT",
+      "pick": "Aston Villa ML (3-way, 90 min)",
+      "line": "AVL −150 DraftKings",
+      "gameState": "pre",
+      "consensusPct": 100,
+      "simWinPct": 72,
+      "ev": null,
+      "confidence": 100,
+      "why": "YouTube 2: Ashili SportsTV (straight win), KuraTalks (Villa to win). X 4 (off-list): @SnowsPicks (UCL card), @ThePuntDesk (acca leg, 1.73), @jaykay27543 (home win), @CFC_Justin (fan account). Not counted: JB PREDICTZ, Masked Bettor, FC Sean (win/draw combos), All Sports Predictions and Daily Sports Prediction Analysis (scripted), copy-ring coupons. Models (3-way): AccuScore 72.4%, PredixSport 72.6%, FootySim 67%, Bawler 63%, Footlab 58% vs break-even 60.0% at −150.",
+      "rationale": "GAUGE: 2 YT + 4 X = 6 sources, 100% on Villa. booksAlign ✓ (provisional): AccuScore 72.4% clears break-even by 12.4pp, and PredixSport, FootySim and Bawler also clear it. Footlab (58%, which folds in book odds) is 2pp under. A search summary mentioned a Sports Mole figure favouring Fenerbahçe that I couldn't verify (it looks like a home/away flip). Not CLEARED: only 2 YT (needs 3). One X is a fan account. Lineups not out yet.",
+      "sources": {
+        "youtube": 2,
+        "x": 4
+      },
+      "xNote": "All X off-list; @CFC_Justin is a fan account.",
+      "booksAlign": true,
+      "timeCT": "2:00 PM CT"
     },
     {
       "id": "wed-ucl-vfb-ml",
@@ -986,13 +974,61 @@
       "simWinPct": 63,
       "ev": null,
       "confidence": 100,
-      "why": "YouTube 6: RueDesJoueurs (1.25), Pronofy (win + O2.5 combo), Thony TIPS (win + O2.5 combo), Expert Football Betting (−1 AH), Ashili SportsTV (straight win), JB PREDICTZ (to win). X 0 on the ML (@claritytipx and WinForge picked Stuttgart −1.5, a different market). Models (3-way): AccuScore 63%, futebol.report 75%, Footlab 74%, TFA 45%. Break-even at −265 is 72.6%.",
-      "rationale": "GAUGE: 6 YT sources, 100% on Stuttgart, but 0 X. Not CLEARED: the cited AccuScore 63% is 9.6pp BELOW break-even, and the models disagree (model war) → booksAlign false. Expert Football Betting's −1 AH is counted as a Stuttgart-side pick. Two picks are combos.",
+      "why": "YouTube 6: RueDesJoueurs (1.25), Pronofy (win + O2.5 combo), Thony TIPS (win + O2.5 combo), Expert Football Betting (−1 AH), Ashili SportsTV (straight win), JB PREDICTZ (to win). X 2 (off-list): @theadams07 (Stuttgart ML), @Cordreal10 (Stuttgart win). Not counted: @claritytipx and WinForge (Stuttgart −1.5), @MrFrankBets (Stuttgart 2-up). Models (3-way): AccuScore 63%, futebol.report 75%, Footlab 74%, TFA 45%. Break-even at −265 is 72.6%.",
+      "rationale": "GAUGE: 6 YT + 2 X = 8 sources, 100% on Stuttgart. Not CLEARED: the cited AccuScore 63.1% is 9.5pp BELOW the 72.6% break-even, and the models disagree → booksAlign false. Lineups not out yet.",
       "sources": {
         "youtube": 6,
-        "x": 0
+        "x": 2
       },
       "xNote": "No X picks on the straight ML.",
+      "booksAlign": false,
+      "timeCT": "2:00 PM CT"
+    },
+    {
+      "id": "wed-ucl-rma-ml",
+      "example": false,
+      "sport": "Soccer",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Real Madrid @ AS Roma · UCL MD2 · 2:00 PM CT",
+      "pick": "Real Madrid ML (3-way, 90 min)",
+      "line": "RMA −110 DraftKings",
+      "gameState": "pre",
+      "consensusPct": 100,
+      "simWinPct": 54,
+      "ev": null,
+      "confidence": 100,
+      "why": "YouTube 2: Ciaran (RM ML ~2.0, 2u), Ashili SportsTV (straight win). X 4 (off-list): @ShamsBets (parlay leg), @TheCronoGol (RM full-time result 1.90), @ThePuntDesk (acca leg, 2.01), @Cordreal10 (Real Madrid win). Not counted: Expert Football Betting and MediaPronos (DNB), Masked Bettor and JB PREDICTZ (win/draw), RotoWire (RM win + BTTS SGP), score-only predictions. Model: AccuScore 54.3% vs break-even 52.4% at −110.",
+      "rationale": "GAUGE: 2 YT + 4 X = 6 sources. Not CLEARED: AccuScore clears break-even by only 1.9pp (needs 2.5) → booksAlign false, and only 2 YT. SportsLine notes most money is on Roma and the Under. Roma GK Svilar is out (MediaPronos). Lineups not out yet.",
+      "sources": {
+        "youtube": 2,
+        "x": 4
+      },
+      "xNote": "All X off-list.",
+      "booksAlign": false,
+      "timeCT": "2:00 PM CT"
+    },
+    {
+      "id": "wed-ucl-mci-psg-btts",
+      "example": false,
+      "sport": "Soccer",
+      "tier": "gauge",
+      "marketType": "total",
+      "game": "PSG @ Manchester City · UCL MD2 · 2:00 PM CT",
+      "pick": "Man City–PSG BTTS Yes",
+      "line": "BTTS Yes −235 (ats.io feed) / −250",
+      "gameState": "pre",
+      "consensusPct": 100,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 100,
+      "why": "X 8 (off-list): @theadams07, @liltekashie, @defipicker, @AbeGroomes (2u parlay leg), @0xBabywhale5, @RyderPicks61, @maxsbetclub (bet-builder leg), @MarkOHaire (bet-builder leg). YouTube 0 countable. Excluded: copy-ring 6-leg parlays, MetaPred/Aleksan (model accounts → consensus). Models: football-predictions.ai 68%, Aleksan 64%, MetaPred 60.8% vs break-even ~70.1% at −235.",
+      "rationale": "GAUGE: 0 YT + 8 X = 8 sources. Not CLEARED: 0 YT, and every model is below the ~70% break-even → booksAlign false. Expensive price. RotoWire's pick is Over 3.5 (+106) instead.",
+      "sources": {
+        "youtube": 0,
+        "x": 8
+      },
+      "xNote": "All X off-list; two are bet-builder legs.",
       "booksAlign": false,
       "timeCT": "2:00 PM CT"
     },
@@ -1049,42 +1085,28 @@
   },
   "todaysGauge": {
     "title": "Today's Gauge",
-    "label": "Unstarted games only · ESPN status checked 9:27 AM CT · research only",
-    "checkedAt": "9:27 AM CT",
-    "checkedAtIso": "2026-10-14T09:27:41-05:00",
-    "note": "Main card first, then labeled NEAR MISS fill (under 6 sources; not counted). UCL X sources this pass include an off-list X search (flagged). Research only — no bets placed.",
+    "label": "Unstarted games only · ESPN status checked 10:14 AM CT · research only",
+    "checkedAt": "10:14 AM CT",
+    "checkedAtIso": "2026-10-14T10:14:54-05:00",
+    "note": "Ranked: booksAlign ✓ main cards first, then the rest by source count, then NEAR MISS fill (fewer than 6 sources). X sources this pass are mostly off-list (flagged). Copy-pasted parlay rings, score-only predictions and scripted/AI channels are excluded. Research only — no bets placed.",
     "items": [
       {
+        "rank": 1,
         "tier": "GAUGE",
-        "pick": "Liverpool ML",
-        "line": "LIV −255 (DraftKings)",
+        "pick": "Aston Villa ML",
+        "line": "AVL −150 (DraftKings)",
         "sport": "Soccer",
-        "game": "Liverpool @ LASK Linz",
-        "timeCT": "11:45 AM CT",
-        "yt": 4,
-        "x": 3,
-        "booksAlign": false,
-        "edge": "✗ AccuScore 69% vs BE 71.8% (−2.8pp); model war",
-        "consensusPct": 100,
-        "rationale": "7 sources all on Liverpool (X off-list). Price too short for the cited model.",
-        "rank": 1
-      },
-      {
-        "tier": "GAUGE",
-        "pick": "Stuttgart to win",
-        "line": "VFB −265 (DraftKings)",
-        "sport": "Soccer",
-        "game": "Stuttgart @ Slovan Bratislava",
+        "game": "Fenerbahçe @ Aston Villa",
         "timeCT": "2:00 PM CT",
-        "yt": 6,
-        "x": 0,
-        "booksAlign": false,
-        "edge": "✗ AccuScore 63% vs BE 72.6%",
+        "yt": 2,
+        "x": 4,
+        "booksAlign": true,
+        "edge": "✓ AccuScore 72.4% vs BE 60.0% (+12.4pp); provisional",
         "consensusPct": 100,
-        "rationale": "Main card: 6 YT, 0 X; cited model 9.6pp under break-even.",
-        "rank": 2
+        "rationale": "The only UCL main card with booksAlign ✓. 6 sources; 1 YT short of CLEARED."
       },
       {
+        "rank": 2,
         "tier": "GAUGE",
         "pick": "Avalanche ML",
         "line": "COL −135 (DraftKings)",
@@ -1095,84 +1117,98 @@
         "x": 1,
         "booksAlign": true,
         "edge": "✓ ats.io 64% vs BE 57.4% (+6.6pp)",
-        "consensusPct": 80,
-        "rationale": "Main card: 6 sources, booksAlign ✓ (ats.io 64% vs BE 57.4%). Only 1 X. Sharp-money warning: RLM toward DAL.",
-        "rank": 3
+        "consensusPct": 83,
+        "rationale": "6 sources, booksAlign ✓; 1 X short of CLEARED. Sharp-money warning: RLM toward DAL."
       },
       {
+        "rank": 3,
+        "tier": "GAUGE",
+        "pick": "Liverpool ML",
+        "line": "LIV −265 (DraftKings)",
+        "sport": "Soccer",
+        "game": "Liverpool @ LASK",
+        "timeCT": "11:45 AM CT",
+        "yt": 4,
+        "x": 5,
+        "booksAlign": false,
+        "edge": "✗ AccuScore 69% vs BE 72.6%",
+        "consensusPct": 100,
+        "rationale": "9 sources; lineups confirmed. Price too short for the cited model."
+      },
+      {
+        "rank": 4,
+        "tier": "GAUGE",
+        "pick": "Stuttgart ML",
+        "line": "VFB −265 (DraftKings)",
+        "sport": "Soccer",
+        "game": "Stuttgart @ Slovan Bratislava",
+        "timeCT": "2:00 PM CT",
+        "yt": 6,
+        "x": 2,
+        "booksAlign": false,
+        "edge": "✗ AccuScore 63% vs BE 72.6%",
+        "consensusPct": 100,
+        "rationale": "8 sources; cited model well below the price."
+      },
+      {
+        "rank": 5,
+        "tier": "GAUGE",
+        "pick": "Real Madrid ML",
+        "line": "RMA −110 (DraftKings)",
+        "sport": "Soccer",
+        "game": "Real Madrid @ Roma",
+        "timeCT": "2:00 PM CT",
+        "yt": 2,
+        "x": 4,
+        "booksAlign": false,
+        "edge": "✗ AccuScore 54.3% vs BE 52.4% (+1.9pp, under 2.5)",
+        "consensusPct": 100,
+        "rationale": "6 sources; edge too thin."
+      },
+      {
+        "rank": 6,
+        "tier": "GAUGE",
+        "pick": "Man City–PSG BTTS",
+        "line": "Yes −235",
+        "sport": "Soccer",
+        "game": "PSG @ Man City",
+        "timeCT": "2:00 PM CT",
+        "yt": 0,
+        "x": 8,
+        "booksAlign": false,
+        "edge": "✗ models 61–68% vs BE ~70%",
+        "consensusPct": 100,
+        "rationale": "8 X sources, 0 YT; expensive."
+      },
+      {
+        "rank": 7,
         "tier": "NEAR MISS",
         "pick": "Capitals ML",
-        "line": "WSH −123 (bet365)",
+        "line": "WSH −124",
         "sport": "NHL",
         "game": "Canadiens @ Capitals",
         "timeCT": "6:30 PM CT",
         "yt": 3,
         "x": 1,
         "booksAlign": true,
-        "edge": "✓ ats.io/AccuScore 59% vs BE 55.2% (+3.8pp)",
+        "edge": "✓ ats.io 59% vs BE 55.4%",
         "consensusPct": 57,
-        "rationale": "4 sources (3 YT + 1 X); booksAlign ✓ (ats.io 59% vs BE 55.4%).",
-        "rank": 4
+        "rationale": "4 sources; booksAlign ✓."
       },
       {
+        "rank": 8,
         "tier": "NEAR MISS",
+        "pick": "Sam Houston ML",
+        "line": "SHSU +100 (DraftKings)",
         "sport": "CFB",
         "game": "Western Kentucky @ Sam Houston",
         "timeCT": "7:00 PM CT",
-        "consensusPct": 50,
-        "pick": "Sam Houston ML",
-        "line": "SHSU +100 (DraftKings)",
         "yt": 1,
         "x": 3,
         "booksAlign": true,
-        "edge": "✓ ESPN FPI 54.5% vs BE 50.0% (+4.5pp)",
-        "rationale": "4 sources (1 YT + 3 off-list X) on SHSU, booksAlign ✓; WKU picks oppose (Tony's, Cover the Spread).",
-        "rank": 5
-      },
-      {
-        "tier": "NEAR MISS",
-        "pick": "Bodø/Glimt +0.5",
-        "line": "Bodø +0.5 ~−117",
-        "sport": "Soccer",
-        "game": "Dortmund @ Bodø/Glimt",
-        "timeCT": "2:00 PM CT",
-        "yt": 3,
-        "x": 1,
-        "booksAlign": false,
-        "edge": "✗ model war (BetBuilders/xG.football 1X ~75% vs Rondo 48%)",
-        "consensusPct": 75,
-        "rationale": "4 Bodø-side sources; possible duplicate tipster flagged.",
-        "rank": 6
-      },
-      {
-        "tier": "NEAR MISS",
-        "pick": "Over 6.5",
-        "line": "O6.5 −110 (FanDuel)",
-        "sport": "NHL",
-        "game": "Canadiens @ Capitals",
-        "timeCT": "6:30 PM CT",
-        "yt": 3,
-        "x": 1,
-        "booksAlign": false,
-        "edge": "✗ model war (GameLens O 53% vs ats.io/Puckwired under)",
-        "consensusPct": 75,
-        "rationale": "3 of 4 YT Over.",
-        "rank": 7
-      },
-      {
-        "tier": "NEAR MISS",
-        "pick": "Brewers +1.5",
-        "line": "MIL +1.5 −148 (BetRivers)",
-        "sport": "MLB",
-        "game": "Brewers @ Dodgers · NLCS G3",
-        "timeCT": "7:00 PM CT",
-        "yt": 3,
-        "x": 0,
-        "booksAlign": false,
-        "edge": "✗ no run-line model (ML models split; ESPN dissents)",
-        "consensusPct": 63,
-        "rationale": "YT side majority on MIL, up 2–0. Gasser vs Snell (both LHP).",
-        "rank": 8
+        "edge": "✓ ESPN FPI 54.5% vs BE 50.0%",
+        "consensusPct": 50,
+        "rationale": "4 sources; booksAlign ✓; WKU picks oppose."
       }
     ]
   },
