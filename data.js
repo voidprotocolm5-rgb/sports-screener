@@ -44,44 +44,6 @@ window.BET_BOARD_DATA = {
         "consensusPct": 80
       },
       {
-        "pick": "Jets ML",
-        "marketType": "moneyline",
-        "game": "Wild @ Jets · 7:15 PM CT",
-        "gameState": "pre",
-        "yt": 4,
-        "ytWho": "Doc's Vernon (−110); Doc's Rundown; PickDawgz Wraparound (Ruffolo); Doc's Nick Menken (free play)",
-        "x": 0,
-        "xWho": "",
-        "total": 4,
-        "booksAlign": false,
-        "booksAlignWhy": "Best WPG −110 (FanDuel) → BE 52.4%. GameLens NHL moneyline rows show the picked side under 50% for this game, which doesn't make sense, so I didn't use it (same as the Oct 12 pass). ESPN has no NHL predictor. MoneyPuck/Natural Stat Trick couldn't be pulled. No cited model, so booksAlign is false.",
-        "modelOnly": false,
-        "gap": "Needs 2 more sources to reach 6.",
-        "rationale": "4 of 5 YT on WPG (80%), one SGPN host on MIN. Calvin Pickard makes his first start for MIN, on the Wild's back-to-back. The line is flat (opened −110).",
-        "thesis": "Goalies (DailyFaceoff): Stuart Skinner WPG confirmed; Calvin Pickard MIN confirmed.",
-        "timeCT": "7:15 PM CT",
-        "consensusPct": 80
-      },
-      {
-        "pick": "Avalanche @ Stars Under 6",
-        "marketType": "total",
-        "game": "Avalanche @ Stars · 7:30 PM CT",
-        "gameState": "pre",
-        "yt": 3,
-        "ytWho": "Doc's Rundown (u6); PickDawgz Wraparound (Ruffolo, under); J.A. Cavalier (under)",
-        "x": 0,
-        "xWho": "",
-        "total": 3,
-        "booksAlign": false,
-        "booksAlignWhy": "Most books are at 5.5 (U +105 to +110); BetMGM U6 −115 → BE 53.5%. GameLens total row shows 'Under' with no line, so I can't apply it at this number. booksAlign false.",
-        "modelOnly": false,
-        "gap": "Needs 3 more sources to reach 6.",
-        "rationale": "3 of 3 YT on the under (100%). Total moved down 6 → 5.5 at most books. Price the 5.5 vs 6 carefully.",
-        "thesis": "Goalies: Oettinger and Blackwood both confirmed (DailyFaceoff).",
-        "timeCT": "7:30 PM CT",
-        "consensusPct": 100
-      },
-      {
         "pick": "Maple Leafs @ Mammoth Over 6.5",
         "marketType": "total",
         "game": "Maple Leafs @ Mammoth · 8:00 PM CT",
@@ -139,101 +101,9 @@ window.BET_BOARD_DATA = {
         "gap": "Live, 1 source. Info only, not counted in totals.",
         "rationale": "0-0, Bot 1st, 1 out at 7:17 PM CT. Live TB −162 to −191 / CLE +118 to +145; RL TB −1.5 +132 to +148; total 5.5 (O −136 to −140). Books disagree by ~30 cents, so some feeds are stale. Pass, no chasing.",
         "thesis": "Peralta (TB) 1.0 IP, 7 pitches; Messick (CLE) 8 pitches."
-      },
-      {
-        "pick": "Guardians ML",
-        "marketType": "moneyline",
-        "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
-        "timeCT": "7:00 PM CT",
-        "yt": 3,
-        "ytWho": "Tony's Picks (plus money); Doc's Rundown (Trapp/Cowboy host: 'I like them to win today, Cleveland'); Break The Board ('Guardians plus money game two')",
-        "x": 0,
-        "xWho": "",
-        "booksAlign": true,
-        "booksAlignWhy": "MinEdge PASS: best CLE +121 (Caesars) → BE 45.2%. GameLens CLE 58.3% → +13.1pp. No second model pulled (Dimers' figure isn't public in the post), so there's no model war.",
-        "gap": "Needs 3 more sources (all X).",
-        "rationale": "Contrarian MinEdge: Action Network has 70% of bets / 63% of money on TB (@ActionNetworkHQ), and the line is flat (opened TB −130, now −128 to −145), so the public is on Tampa and the model is on Cleveland. YT is split 3 CLE / 4 TB (43%).",
-        "thesis": "Probables: Parker Messick (CLE) vs Freddy Peralta (TB). TB has won 6 straight Peralta starts.",
-        "consensusPct": 43,
-        "gameState": "live",
-        "modelOnly": false,
-        "total": 3
-      },
-      {
-        "pick": "Rays ML",
-        "marketType": "moneyline",
-        "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
-        "timeCT": "7:00 PM CT",
-        "yt": 4,
-        "ytWho": "PickDawgz Wraparound; Silverback Bets (run line); WagerTalk (Tampa); Beating The Odds (−130)",
-        "x": 0,
-        "xWho": "",
-        "booksAlign": false,
-        "booksAlignWhy": "Best TB −128 (FanDuel) → BE 56.1%. GameLens has CLE 58.3%, so TB fails. booksAlign false.",
-        "gap": "Needs 2 more sources.",
-        "rationale": "YT majority (57%) and the public (70% bets / 63% money), but the model is against it. Listed for information only. It's the other side of the Guardians row, so it isn't in the gauge.",
-        "consensusPct": 57,
-        "gameState": "live",
-        "modelOnly": false,
-        "total": 4
-      },
-      {
-        "pick": "Under 6.5",
-        "marketType": "total",
-        "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
-        "timeCT": "7:00 PM CT",
-        "yt": 1,
-        "ytWho": "Break The Board (u7.5 when quoted)",
-        "x": 0,
-        "xWho": "",
-        "booksAlign": false,
-        "booksAlignWhy": "The total opened 8.5 (Action open) and is now 6.5 everywhere (U −103 to +100), a heavy move down. GameLens total 1/3 at 50.2%, no edge.",
-        "gap": "Needs 5 more sources. Doc's Rundown and JABO lean over, so the sources are split.",
-        "rationale": "A 2-run steam move toward the under. The closing-line value is already gone.",
-        "consensusPct": 33,
-        "gameState": "live",
-        "modelOnly": false,
-        "total": 1
       }
     ],
-    "MLB-PROPS": [
-      {
-        "pick": "Parker Messick o14.5 outs",
-        "marketType": "prop",
-        "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
-        "timeCT": "7:00 PM CT",
-        "yt": 0,
-        "ytWho": "",
-        "x": 1,
-        "xWho": "@austinsprops (−121 DK, .75u POD)",
-        "booksAlign": false,
-        "booksAlignWhy": "No cited prop model (Dimers says it has a Messick edge but didn't publish the number).",
-        "gap": "Needs 5 more.",
-        "rationale": "1 X. Doc's Rundown separately likes Messick o4.5 K.",
-        "consensusPct": 100,
-        "gameState": "live",
-        "modelOnly": false,
-        "total": 1
-      },
-      {
-        "pick": "Junior Caminero HR",
-        "marketType": "prop",
-        "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
-        "timeCT": "7:00 PM CT",
-        "yt": 1,
-        "ytWho": "Just A Bet Outside",
-        "x": 1,
-        "xWho": "@gneiffer07",
-        "booksAlign": false,
-        "booksAlignWhy": "No prop model.",
-        "gap": "Needs 4 more.",
-        "rationale": "2 sources. Lottery-ticket market.",
-        "consensusPct": 100,
-        "gameState": "live",
-        "modelOnly": false,
-        "total": 2
-      }
-    ]
+    "MLB-PROPS": []
   },
   "slate": "Tue Oct 13 2026 CT · Sports screener",
   "sport": "MLB",
@@ -383,6 +253,42 @@ window.BET_BOARD_DATA = {
       "lean": "PASS. Nominal CLE +145 edge vs ESPN WP (~10pp) is not trusted: ESPN WP is not price-adjusted and market books disagree; live prices vary widely (possible stale feeds).",
       "sources": "YT 0 / X 1 (pregame Rays ML slip, @Dom_Lunardo1)",
       "countsInTotals": false
+    },
+    "auto-401892497": {
+      "label": "LIVE — started, info only (auto-pruned)",
+      "sport": "NHL",
+      "game": "Wild @ Jets · 7:15 PM CT",
+      "state": "5:05 - 1st",
+      "picks": [
+        "Jets ML (near miss, pregame )",
+        "Jets ML (gauge, pregame WPG −110 (FanDuel))"
+      ],
+      "countsInTotals": false
+    },
+    "auto-401892498": {
+      "label": "LIVE — started, info only (auto-pruned)",
+      "sport": "NHL",
+      "game": "Avalanche @ Stars · 7:30 PM CT",
+      "state": "16:50 - 1st",
+      "picks": [
+        "Avalanche @ Stars Under 6 (near miss, pregame )",
+        "Avalanche @ Stars Under 6 (gauge, pregame Most books are at 5.5 (U +105 to +110); BetMGM U6 −115)"
+      ],
+      "countsInTotals": false
+    },
+    "auto-401908024": {
+      "label": "LIVE — started, info only (auto-pruned)",
+      "sport": "MLB",
+      "game": "Guardians @ Rays · ALCS G2 · 7:00 PM CT",
+      "state": "Top 3rd",
+      "picks": [
+        "Guardians ML (near miss, pregame )",
+        "Rays ML (near miss, pregame )",
+        "Under 6.5 (near miss, pregame )",
+        "Parker Messick o14.5 outs (near miss, pregame )",
+        "Junior Caminero HR (near miss, pregame )"
+      ],
+      "countsInTotals": false
     }
   },
   "minEdgeProcess": {
@@ -469,37 +375,8 @@ window.BET_BOARD_DATA = {
         "consensusPct": 80,
         "rationale": "4 of 5 YT on BOS (80%). Opened −105/−115 (SJ fav), now BOS −120 to −125, so steam is on Boston. Only Tony's Picks has SJ.",
         "rank": 2
-      },
-      {
-        "tier": "NEAR MISS",
-        "pick": "Jets ML",
-        "line": "WPG −110 (FanDuel)",
-        "sport": "NHL",
-        "game": "Wild @ Jets",
-        "timeCT": "7:15 PM CT",
-        "yt": 4,
-        "x": 0,
-        "booksAlign": false,
-        "edge": "✗ no usable cited model",
-        "consensusPct": 80,
-        "rationale": "4 of 5 YT on WPG (80%), one SGPN host on MIN. Calvin Pickard makes his first start for MIN, on the Wild's back-to-back. The line is flat (opened −110).",
-        "rank": 3
-      },
-      {
-        "tier": "NEAR MISS",
-        "pick": "Avalanche @ Stars Under 6",
-        "line": "Most books are at 5.5 (U +105 to +110); BetMGM U6 −115",
-        "sport": "NHL",
-        "game": "Avalanche @ Stars",
-        "timeCT": "7:30 PM CT",
-        "yt": 3,
-        "x": 0,
-        "booksAlign": false,
-        "edge": "✗ no usable cited model",
-        "consensusPct": 100,
-        "rationale": "3 of 3 YT on the under (100%). Total moved down 6 → 5.5 at most books. Price the 5.5 vs 6 carefully.",
-        "rank": 4
       }
     ]
-  }
+  },
+  "prunedAt": "2026-10-13T19:51:35-05:00"
 };
