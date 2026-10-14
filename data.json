@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T10:41:36-05:00",
-  "updatedAtLabel": "Wed Oct 14, 2026 · 10:41 AM CT",
+  "updatedAt": "2026-10-14T11:27:00-05:00",
+  "updatedAtLabel": "Wed Oct 14, 2026 · 11:27 AM CT",
   "nearMiss": {
     "MLB": [
       {
@@ -608,25 +608,6 @@
     ],
     "NBA": [
       {
-        "pick": "Spurs −8.5",
-        "marketType": "spread",
-        "game": "Suns @ Spurs (preseason) · 7:00 PM CT",
-        "gameState": "pre",
-        "yt": 1,
-        "ytWho": "Doc's (Indian Cowboy)",
-        "x": 0,
-        "xWho": "",
-        "total": 1,
-        "booksAlign": false,
-        "booksAlignWhy": "No cited NBA model pulled.",
-        "modelOnly": false,
-        "gap": "Needs 5 more source(s) to reach 6. No books pass.",
-        "rationale": "Preseason; Tipster Sports repeated the same script and was not counted.",
-        "thesis": "",
-        "timeCT": "7:00 PM CT",
-        "consensusPct": 100
-      },
-      {
         "pick": "Hornets @ Celtics Under 224.5",
         "marketType": "total",
         "game": "Hornets @ Celtics (preseason) · 6:30 PM CT",
@@ -637,51 +618,14 @@
         "xWho": "",
         "total": 2,
         "booksAlign": false,
-        "booksAlignWhy": "No cited NBA model pulled.",
+        "booksAlignWhy": "No NBA preseason model available (GameLens NBA pages empty; ESPN has no predictor for preseason) → booksAlign false for all.",
         "modelOnly": false,
         "gap": "Needs 4 more source(s) to reach 6. No books pass.",
-        "rationale": "Line now 224.5 (Under −105). No NBA preseason model available (GameLens pages empty).",
+        "rationale": "Line now 224.5 (Under −105). No NBA preseason model available (GameLens pages empty). Refreshed 11:27 AM: 0 list slips, no new firm YouTube picks.",
         "thesis": "",
         "timeCT": "6:30 PM CT",
-        "consensusPct": 100
-      },
-      {
-        "pick": "Timberwolves −3.5",
-        "marketType": "spread",
-        "game": "Pistons @ Timberwolves (preseason) · 7:00 PM CT",
-        "gameState": "pre",
-        "yt": 1,
-        "ytWho": "Doc's (Craig Trapp)",
-        "x": 0,
-        "xWho": "",
-        "total": 1,
-        "booksAlign": false,
-        "booksAlignWhy": "No cited NBA model pulled.",
-        "modelOnly": false,
-        "gap": "Needs 5 more source(s) to reach 6. No books pass.",
-        "rationale": "Preseason.",
-        "thesis": "",
-        "timeCT": "7:00 PM CT",
-        "consensusPct": 100
-      },
-      {
-        "pick": "Bulls @ Bucks Over 233.5",
-        "marketType": "total",
-        "game": "Bulls @ Bucks (preseason) · 7:00 PM CT",
-        "gameState": "pre",
-        "yt": 1,
-        "ytWho": "Doc's (Indian Cowboy)",
-        "x": 0,
-        "xWho": "",
-        "total": 1,
-        "booksAlign": false,
-        "booksAlignWhy": "No cited NBA model pulled.",
-        "modelOnly": false,
-        "gap": "Needs 5 more source(s) to reach 6. No books pass.",
-        "rationale": "Preseason.",
-        "thesis": "",
-        "timeCT": "7:00 PM CT",
-        "consensusPct": 100
+        "consensusPct": 100,
+        "line": "U224.5 −106 FanDuel; 225.5 elsewhere (U −108 DK)"
       },
       {
         "pick": "Hornets +6.5/+7.5",
@@ -694,12 +638,73 @@
         "xWho": "@jr_dimes (Hornets +5.5, list)",
         "total": 2,
         "booksAlign": false,
-        "booksAlignWhy": "No model; line now +6.5.",
+        "booksAlignWhy": "No NBA preseason model available (GameLens NBA pages empty; ESPN has no predictor for preseason) → booksAlign false for all.",
         "modelOnly": false,
         "gap": "Needs 4 more source(s) to reach 6. No books pass.",
-        "rationale": "",
+        "rationale": "Refreshed 11:27 AM: 0 list slips, no new firm YouTube picks.",
         "timeCT": "6:30 PM CT",
-        "consensusPct": 100
+        "consensusPct": 100,
+        "line": "CHA +8.5 −110 DK / −114 BetRivers"
+      },
+      {
+        "pick": "Spurs −8.5",
+        "marketType": "spread",
+        "game": "Suns @ Spurs (preseason) · 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "Doc's (Indian Cowboy)",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "No NBA preseason model available (GameLens NBA pages empty; ESPN has no predictor for preseason) → booksAlign false for all.",
+        "modelOnly": false,
+        "gap": "Needs 5 more source(s) to reach 6. No books pass.",
+        "rationale": "Preseason; Tipster Sports repeated the same script and was not counted. Refreshed 11:27 AM: 0 list slips, no new firm YouTube picks.",
+        "thesis": "",
+        "timeCT": "7:00 PM CT",
+        "consensusPct": 100,
+        "line": "SAS −8.5 −105 (DraftKings/BetMGM)"
+      },
+      {
+        "pick": "Timberwolves −3.5",
+        "marketType": "spread",
+        "game": "Pistons @ Timberwolves (preseason) · 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "Doc's (Craig Trapp)",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "No NBA preseason model available (GameLens NBA pages empty; ESPN has no predictor for preseason) → booksAlign false for all.",
+        "modelOnly": false,
+        "gap": "Needs 5 more source(s) to reach 6. No books pass.",
+        "rationale": "Preseason. Refreshed 11:27 AM: 0 list slips, no new firm YouTube picks.",
+        "thesis": "",
+        "timeCT": "7:00 PM CT",
+        "consensusPct": 100,
+        "line": "MIN −3.5 −110 (DK/FD/BetMGM); −2.5 −114 BetRivers"
+      },
+      {
+        "pick": "Bulls @ Bucks Over 233.5",
+        "marketType": "total",
+        "game": "Bulls @ Bucks (preseason) · 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "Doc's (Indian Cowboy)",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "No NBA preseason model available (GameLens NBA pages empty; ESPN has no predictor for preseason) → booksAlign false for all.",
+        "modelOnly": false,
+        "gap": "Needs 5 more source(s) to reach 6. No books pass.",
+        "rationale": "Preseason. Refreshed 11:27 AM: 0 list slips, no new firm YouTube picks.",
+        "thesis": "",
+        "timeCT": "7:00 PM CT",
+        "consensusPct": 100,
+        "line": "O233.5 −105 BetRivers only; consensus 231.5"
       }
     ]
   },
@@ -707,7 +712,7 @@
   "sport": "NHL",
   "defaultSport": "NHL",
   "status": "ready",
-  "summary": "Wed Oct 14 (deep pass + new-list OCR, 10:5x AM): 3 CLEARED (Aston Villa ML 2:00 PM CT; Capitals ML 6:30; Avalanche ML 7:30) · 6 GAUGE. Lineups confirmed for the 11:45 games.",
+  "summary": "Wed Oct 14 (deep pass + new-list OCR, 10:5x AM): 3 CLEARED (Aston Villa ML 2:00 PM CT; Capitals ML 6:30; Avalanche ML 7:30) · 6 GAUGE. Lineups confirmed for the 11:45 games. NBA preseason (11:27 AM): 0 cards — list had 0 NBA slips, YouTube thin, no NBA model; 5 near misses.",
   "clearedCount": 3,
   "gaugeCount": 7,
   "sports": [
@@ -1268,6 +1273,36 @@
         "edge": "✗ models 61–68% vs BE ~70%",
         "consensusPct": 100,
         "rationale": "8 X, 0 YT; expensive."
+      },
+      {
+        "rank": 9,
+        "tier": "NEAR MISS",
+        "pick": "Hornets @ Celtics Under 224.5",
+        "line": "U224.5 −106 FanDuel; 225.5 elsewhere (U −108 DK)",
+        "sport": "NBA",
+        "game": "Hornets @ Celtics (preseason)",
+        "timeCT": "6:30 PM CT",
+        "yt": 2,
+        "x": 0,
+        "booksAlign": false,
+        "edge": "✗ no NBA model",
+        "consensusPct": 100,
+        "rationale": "NBA near miss: 2 sources (needs 6); preseason, no model."
+      },
+      {
+        "rank": 10,
+        "tier": "NEAR MISS",
+        "pick": "Hornets +6.5/+7.5",
+        "line": "CHA +8.5 −110 DK / −114 BetRivers",
+        "sport": "NBA",
+        "game": "Hornets @ Celtics (preseason)",
+        "timeCT": "6:30 PM CT",
+        "yt": 1,
+        "x": 1,
+        "booksAlign": false,
+        "edge": "✗ no NBA model",
+        "consensusPct": 100,
+        "rationale": "NBA near miss: 2 sources (needs 6); preseason, no model."
       }
     ]
   },
@@ -1785,5 +1820,6 @@
     ],
     "note": "Flat 1u per card at the published price. Small sample; not predictive. Near misses tracked separately and excluded from totals."
   },
-  "xNote": "X send-it list swept midnight CT → ~8:50 AM CT (2 passes): ~24 posts today, only 5 current-day unstarted slips from 3 unique posters (@ActionNetworkHQ ×2 — brand account; @parlayportal; @__LordPenguin). No collabs detected."
+  "xNote": "X send-it list swept midnight CT → ~8:50 AM CT (2 passes): ~24 posts today, only 5 current-day unstarted slips from 3 unique posters (@ActionNetworkHQ ×2 — brand account; @parlayportal; @__LordPenguin). No collabs detected.",
+  "nbaNote": "Send-it list re-scraped 11:2x AM (146 posts back to Oct 13; 52 images OCR'd incl. new members): 0 NBA slips for tonight (only a settled Heat–Celtics / Nuggets–Hornets prop recap from @itooo_1). YouTube 11:2x AM: 12 searches × 20 results (~220 videos); only 8 tonight-dated NBA videos found. Countable firm picks stay Doc's and Kevin Thomas. Excluded: Sharp Slate (scripted multi-voice), Tipster Sports (repeated script), Talharians / 2K sims / HeyAko / JamalPicks (AI or score-only); Ange Predicts captions empty. No NBA preseason model available (GameLens NBA pages empty; ESPN has no predictor for preseason) → booksAlign false for all. Result: 0 CLEARED · 0 GAUGE · 5 near misses (max 2 sources)."
 }
