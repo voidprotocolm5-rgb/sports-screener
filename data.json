@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-14T09:10:19-05:00",
-  "updatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+  "updatedAt": "2026-10-14T09:22:24-05:00",
+  "updatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
   "nearMiss": {
     "MLB": [
       {
@@ -171,59 +171,19 @@
     ],
     "NHL": [
       {
-        "pick": "Avalanche ML",
-        "marketType": "moneyline",
-        "game": "Stars @ Avalanche · 7:30 PM CT",
-        "gameState": "pre",
-        "yt": 4,
-        "ytWho": "Doc's (Vernon Croy) −140; East Coast Edge −142; BettingPros −140; PickDawgz (The Yang Angle)",
-        "x": 0,
-        "xWho": "",
-        "total": 4,
-        "booksAlign": true,
-        "booksAlignWhy": "MinEdge PASS: best COL −135 (DraftKings) → BE 57.4%. ats.io 64% (+6.6pp); AccuScore 59% (+1.6), SharpModels 58%, Troxler 58.8%. GameLens 47.8% is a 3-way regulation-win figure, not a conflict.",
-        "modelOnly": false,
-        "gap": "Needs 2 more sources to reach 6; needs ≥2 X for CLEARED.",
-        "rationale": "MinEdge pass, 4 YT + 0 X (4 of 5 countable YT on COL, 80%; Doc's Indian Cowboy on DAL). Scripted/AI-voiced Cash Out and Shiesty excluded. SHARP-MONEY WARNING: line moved −151 → −135 toward Dallas while most bets are on COL; AccuScore panel shows ~82% of ML money on DAL (reverse line move).",
-        "thesis": "Goalies (DailyFaceoff): DAL Casey DeSmith CONFIRMED; COL Scott Wedgewood LIKELY. Both on the 2nd night of a back-to-back after COL won 3–2 in Dallas Tuesday. Cale Makar questionable (East Coast Edge).",
-        "timeCT": "7:30 PM CT",
-        "consensusPct": 80,
-        "splits": {
-          "publicBetsPct": 75,
-          "moneyPct": 18,
-          "side": "COL ML",
-          "source": "AccuScore game panel (as parsed; layout ambiguous)",
-          "observedAt": "2026-10-14 ~8:50 AM CT"
-        },
-        "rlm": {
-          "flag": true,
-          "note": "COL opened/quoted −150/−151 (Doc's, Tony's, Covers) and is now −135 to −148 despite most bets on COL."
-        },
-        "consensus": [
-          {
-            "site": "ats.io (model)",
-            "pick": "Colorado ML, threshold −170"
-          },
-          {
-            "site": "ScoresAndStats",
-            "pick": "No bet (leans DAL +120)"
-          }
-        ]
-      },
-      {
         "pick": "Capitals ML",
         "marketType": "moneyline",
         "game": "Canadiens @ Capitals · 6:30 PM CT",
         "gameState": "pre",
         "yt": 3,
         "ytWho": "Tony's Picks (Tony T); Tony's Night Moves (Ramon); East Coast Edge −130",
-        "x": 0,
-        "xWho": "",
-        "total": 3,
+        "x": 1,
+        "xWho": "@JimmyTheBag (Capitals −121, off-list)",
+        "total": 4,
         "booksAlign": true,
-        "booksAlignWhy": "MinEdge PASS: best WSH −123 (bet365) → BE 55.2%. ats.io 59% (+3.8pp) and AccuScore 59–60% (+3.8pp) clear the bar; GameLens 55.4% agrees (+0.2). Non-cited: Puckwired 54%, ScoresAndStats 51.2% (lean MTL).",
+        "booksAlignWhy": "MinEdge PASS: best WSH −124 → BE 55.4%. ats.io 59% (+3.6pp), AccuScore 59–60%. Non-cited: Puckwired 54%, ScoresAndStats 51.2%.",
         "modelOnly": false,
-        "gap": "Needs 3 more source(s) to reach 6.",
+        "gap": "Needs 2 more source(s) to reach 6.",
         "rationale": "MinEdge pass but only 4 sources. YT 4 WSH vs 3 MTL (Cash Out ML, Doc's Trapp ML, Doc's Griffin Murphy +1.5) = 57% on WSH. (Scripted/AI-voiced channels excluded: −1.)",
         "thesis": "Goalies (DailyFaceoff): MTL Jakub Dobeš CONFIRMED; WSH Charlie Lindgren expected (unconfirmed). Both teams on the 2nd night of a back-to-back.",
         "timeCT": "6:30 PM CT",
@@ -259,16 +219,16 @@
         "marketType": "total",
         "game": "Canadiens @ Capitals · 6:30 PM CT",
         "gameState": "pre",
-        "yt": 2,
-        "ytWho": "Doc's (Griffin Murphy); East Coast Edge",
-        "x": 0,
-        "xWho": "",
-        "total": 2,
+        "yt": 3,
+        "ytWho": "Doc's (Griffin Murphy); East Coast Edge; Cover the Spread (parlay leg)",
+        "x": 1,
+        "xWho": "@CapperIsland (O6.5 −115, 1.5u, off-list)",
+        "total": 4,
         "booksAlign": false,
         "booksAlignWhy": "Best O6.5 −110 (FanDuel) → BE 52.4%. GameLens Over 53.0% (+0.6pp); ats.io projects 6 and Puckwired 45% Over 6.5 → model war, no pass.",
         "modelOnly": false,
-        "gap": "Needs 4 more source(s) to reach 6. No books pass.",
-        "rationale": "3 Over vs 1 Under (Shiesty u6.5; Doc's Trapp leaned under). (Scripted/AI-voiced channels excluded: −1.)",
+        "gap": "Needs 2 more source(s) to reach 6. No books pass.",
+        "rationale": "Opposed: @DanielKarpuc U6.5. Both teams on back-to-backs.",
         "thesis": "",
         "timeCT": "6:30 PM CT",
         "consensusPct": 75
@@ -457,16 +417,16 @@
         "marketType": "moneyline",
         "game": "Stuttgart @ Slovan Bratislava · UCL · 2:00 PM CT",
         "gameState": "pre",
-        "yt": 4,
-        "ytWho": "RueDesJoueurs (1.25); Pronofy (win + O2.5 combo); Thony TIPS (win + O2.5 combo); Expert Football Betting (−1 AH)",
+        "yt": 5,
+        "ytWho": "RueDesJoueurs (1.25); Pronofy (win + O2.5 combo); Thony TIPS (win + O2.5 combo); Expert Football Betting (−1 AH); Ashili SportsTV (straight win)",
         "x": 0,
         "xWho": "",
-        "total": 4,
+        "total": 5,
         "booksAlign": false,
         "booksAlignWhy": "Best VFB −265 (DK 3-way) → BE 72.6%. AccuScore 63% (−9.6pp) vs futebol.report 75%, Footlab 74%, TFA 45% → model war → false.",
         "modelOnly": false,
-        "gap": "Needs 2 more source(s) to reach 6. No books pass.",
-        "rationale": "4 of 4 on Stuttgart; short price; cited model says no.",
+        "gap": "Needs 1 more source(s) to reach 6. No books pass.",
+        "rationale": "5 YT, 0 X on the ML (X picks found were Stuttgart −1.5: @claritytipx, WinForge — different market). Cited model says no.",
         "timeCT": "2:00 PM CT",
         "consensusPct": 100
       },
@@ -507,38 +467,74 @@
         "consensusPct": 100
       },
       {
-        "pick": "Villa–Fenerbahçe Over 2.5",
-        "marketType": "total",
+        "pick": "Aston Villa to win",
+        "marketType": "moneyline",
         "game": "Fenerbahçe @ Aston Villa · UCL · 2:00 PM CT",
         "gameState": "pre",
-        "yt": 0,
-        "ytWho": "(Predict Futbol and Bet Hero took Over 1.5, a different line)",
-        "x": 2,
-        "xWho": "@ddt_golf25; @farazktwt (both off-list)",
-        "total": 2,
+        "yt": 2,
+        "ytWho": "Ashili SportsTV (straight win); KuraTalks (Villa to win)",
+        "x": 1,
+        "xWho": "@CFC_Justin (fan account, off-list)",
+        "total": 3,
         "booksAlign": false,
-        "booksAlignWhy": "No cited soccer total model pulled.",
+        "booksAlignWhy": "No cited soccer model pulled for this match.",
         "modelOnly": false,
-        "gap": "Needs 4 more source(s) to reach 6. No books pass.",
-        "rationale": "X-only on the 2.5 line.",
+        "gap": "Needs 3 more source(s) to reach 6. No books pass.",
+        "rationale": "Excluded as scripted/AI-voiced: All Sports Predictions, Daily Sports Prediction Analysis.",
         "timeCT": "2:00 PM CT",
         "consensusPct": 100
       },
       {
-        "pick": "Real Madrid to win / DNB",
+        "pick": "Roma–Real Madrid Over 2.5 + RM 2+ goals",
+        "marketType": "total",
+        "game": "Real Madrid @ Roma · UCL · 2:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "SportsLine/CBS Golazo (+110 parlay)",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "No model.",
+        "modelOnly": false,
+        "gap": "Needs 5 more source(s). Opposes the X Under 3.5 picks.",
+        "rationale": "Also: Daniel Maldini 2+ SOT +150 (same video).",
+        "timeCT": "2:00 PM CT",
+        "consensusPct": 50
+      },
+      {
+        "pick": "Villa–Fenerbahçe Over 2.5",
+        "marketType": "total",
+        "game": "Fenerbahçe @ Aston Villa · UCL · 2:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "Masked Bettor (slip leg, 1.63)",
+        "x": 2,
+        "xWho": "@ddt_golf25; @farazktwt (both off-list)",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited soccer total model pulled.",
+        "modelOnly": false,
+        "gap": "Needs 3 more source(s) to reach 6. No books pass.",
+        "rationale": "3 sources. Not counted: @LestipsdeJP Over 3.0 (different line), WinForge/ZoomBet (automated/bookmaker).",
+        "timeCT": "2:00 PM CT",
+        "consensusPct": 100
+      },
+      {
+        "pick": "Real Madrid to win",
         "marketType": "moneyline",
         "game": "Real Madrid @ Roma · UCL · 2:00 PM CT",
         "gameState": "pre",
         "yt": 2,
-        "ytWho": "Ciaran (RM ML ~2.0, 2u); Expert Football Betting (RM DNB 1.53)",
-        "x": 1,
-        "xWho": "@ShamsBets (parlay leg, off-list)",
-        "total": 3,
+        "ytWho": "Ciaran (RM ML ~2.0, 2u); Ashili SportsTV (straight win)",
+        "x": 2,
+        "xWho": "@ShamsBets (parlay leg); @TheCronoGol (RM full-time result, 1.90) — both off-list",
+        "total": 4,
         "booksAlign": false,
         "booksAlignWhy": "No cited soccer model pulled. RM −105 (DK) 3-way.",
         "modelOnly": false,
-        "gap": "Needs 3 more source(s) to reach 6. No books pass.",
-        "rationale": "Plus Predict Futbol on RM to score 2+.",
+        "gap": "Needs 2 more source(s) to reach 6. No books pass.",
+        "rationale": "4 sources. Not counted: Expert Football Betting RM DNB and Masked Bettor RM win/draw (different markets). SportsLine notes most money on Roma and the Under.",
         "timeCT": "2:00 PM CT",
         "consensusPct": 100
       },
@@ -577,24 +573,42 @@
         "rationale": "Lone MLS pick found.",
         "timeCT": "6:30 PM CT",
         "consensusPct": 100
+      },
+      {
+        "pick": "Betis–Porto Over 2.5",
+        "marketType": "total",
+        "game": "FC Porto @ Real Betis · UCL · 2:00 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 1,
+        "xWho": "@sr_gol_ (IberValue, 1.72, off-list)",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "No model.",
+        "modelOnly": false,
+        "gap": "Needs 5 more source(s).",
+        "rationale": "Split market: Betis −0.75 (@WinningPicksDR), Betis win/draw (ParlayKing).",
+        "timeCT": "2:00 PM CT",
+        "consensusPct": 100
       }
     ],
     "CFB": [
       {
-        "pick": "Sam Houston +2.5 / ML",
+        "pick": "Sam Houston ML / +1.5",
         "marketType": "spread",
         "game": "Western Kentucky @ Sam Houston · 7:00 PM CT",
         "gameState": "pre",
         "yt": 1,
         "ytWho": "Doc's (Indian Cowboy) SHSU ML ~+110",
-        "x": 1,
-        "xWho": "@ActionNetworkHQ (brand account) SHSU +2.5",
-        "total": 2,
-        "booksAlign": false,
-        "booksAlignWhy": "No cited CFB model pulled.",
+        "x": 3,
+        "xWho": "@ActionNetworkHQ (brand, SHSU +2.5); @HiddenLinesVIP (SHSU +2); @Platinum_Pickz (SHSU ML +110) — off-list",
+        "total": 4,
+        "booksAlign": true,
+        "booksAlignWhy": "ESPN FPI SHSU 54.5% vs best ML +100 (DK) → BE 50.0% (+4.5pp). No cited model opposes.",
         "modelOnly": false,
-        "gap": "Needs 4 more source(s) to reach 6. No books pass.",
-        "rationale": "Doc's cites 71% of public on WKU. Opposed: Doc's Rickenbach (WKU ML), Cash Out (WKU spread).",
+        "gap": "Needs 2 more source(s) to reach 6.",
+        "rationale": "Spread and ML picks combined (same side). Opposed: Tony's Picks + @tonyspicks (WKU −1.5, same capper), Cover the Spread (WKU −2), Doc's Rickenbach. Doc's cites 71% of public on WKU.",
         "thesis": "",
         "timeCT": "7:00 PM CT",
         "consensusPct": 50,
@@ -602,6 +616,10 @@
           {
             "site": "Action Network",
             "pick": "Sam Houston +2.5"
+          },
+          {
+            "site": "PEM model (@FansOfCFB)",
+            "pick": "Sam Houston +1.5 (proj. SHSU by 16.3)"
           }
         ]
       },
@@ -610,19 +628,55 @@
         "marketType": "spread",
         "game": "Kennesaw State @ Missouri State · 6:30 PM CT",
         "gameState": "pre",
-        "yt": 1,
-        "ytWho": "Crash Against the Spread (AI-assisted research, human pick)",
+        "yt": 2,
+        "ytWho": "Crash Against the Spread (AI-assisted research, human pick); Tony's Picks (Tony T; same pick also on X @tonyspicks, counted once)",
         "x": 0,
         "xWho": "",
-        "total": 1,
+        "total": 2,
         "booksAlign": false,
-        "booksAlignWhy": "No cited CFB model pulled.",
+        "booksAlignWhy": "No cited cover model. ESPN FPI KSU 61.5% win vs ML −162 BE 61.8% (fails).",
         "modelOnly": false,
-        "gap": "Needs 5 more source(s) to reach 6. No books pass.",
+        "gap": "Needs 4 more source(s) to reach 6. No books pass.",
         "rationale": "Opposed: Doc's (Missouri State + Over 52.5). Thunderstorm chance; MoSt QB unconfirmed (per Covers via Crash ATS). (Scripted/AI-voiced channels excluded: −1.)",
         "thesis": "",
         "timeCT": "6:30 PM CT",
         "consensusPct": 67
+      },
+      {
+        "pick": "KSU–MoSt Under 53.5",
+        "marketType": "total",
+        "game": "Kennesaw State @ Missouri State · 6:30 PM CT",
+        "gameState": "pre",
+        "yt": 0,
+        "ytWho": "",
+        "x": 1,
+        "xWho": "@CraigWayger (off-list)",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "No model.",
+        "modelOnly": false,
+        "gap": "Needs 5 more source(s).",
+        "rationale": "Opposed: Cover the Spread Over 53, Doc's Over 52.5.",
+        "timeCT": "6:30 PM CT",
+        "consensusPct": 33
+      },
+      {
+        "pick": "Western Kentucky −1.5",
+        "marketType": "spread",
+        "game": "Western Kentucky @ Sam Houston · 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Tony's Picks; Cover the Spread (−2)",
+        "x": 0,
+        "xWho": "(@tonyspicks = same capper)",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "ESPN FPI favors SHSU 54.5% → fails.",
+        "modelOnly": false,
+        "gap": "Needs 4 more source(s).",
+        "rationale": "Opposite side of the SHSU row.",
+        "timeCT": "7:00 PM CT",
+        "consensusPct": 50
       }
     ],
     "NBA": [
@@ -650,16 +704,16 @@
         "marketType": "total",
         "game": "Hornets @ Celtics (preseason) · 6:30 PM CT",
         "gameState": "pre",
-        "yt": 1,
-        "ytWho": "Doc's (Craig Trapp)",
+        "yt": 2,
+        "ytWho": "Doc's (Craig Trapp); Sports Picks with Kevin Thomas (u224.5 + Hornets +7.5)",
         "x": 0,
         "xWho": "",
-        "total": 1,
+        "total": 2,
         "booksAlign": false,
         "booksAlignWhy": "No cited NBA model pulled.",
         "modelOnly": false,
-        "gap": "Needs 5 more source(s) to reach 6. No books pass.",
-        "rationale": "Preseason.",
+        "gap": "Needs 4 more source(s) to reach 6. No books pass.",
+        "rationale": "Line now 224.5 (Under −105). No NBA preseason model available (GameLens pages empty).",
         "thesis": "",
         "timeCT": "6:30 PM CT",
         "consensusPct": 100
@@ -701,6 +755,24 @@
         "thesis": "",
         "timeCT": "7:00 PM CT",
         "consensusPct": 100
+      },
+      {
+        "pick": "Hornets +7.5",
+        "marketType": "spread",
+        "game": "Hornets @ Celtics (preseason) · 6:30 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "Sports Picks with Kevin Thomas",
+        "x": 0,
+        "xWho": "",
+        "total": 1,
+        "booksAlign": false,
+        "booksAlignWhy": "No model; line now +6.5.",
+        "modelOnly": false,
+        "gap": "Needs 5 more source(s).",
+        "rationale": "",
+        "timeCT": "6:30 PM CT",
+        "consensusPct": 100
       }
     ]
   },
@@ -708,9 +780,9 @@
   "sport": "Soccer",
   "defaultSport": "Soccer",
   "status": "ready",
-  "summary": "Wed Oct 14 (UCL-first update): 0 CLEARED · 1 GAUGE (Liverpool ML, 11:45 AM CT). Avalanche ML and Capitals ML are MinEdge-pass near misses. Scripted/AI-voiced channels excluded.",
+  "summary": "Wed Oct 14 (deep pass): 0 CLEARED · 2 GAUGE (Liverpool ML 11:45 AM CT; Avalanche ML 7:30 PM CT). Near misses ranked below. AI-voiced/scripted channels excluded.",
   "clearedCount": 0,
-  "gaugeCount": 1,
+  "gaugeCount": 2,
   "sports": [
     {
       "id": "CFB",
@@ -770,67 +842,67 @@
   "archives": {
     "NBA": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "Preseason, 7 games. Only Doc's Sports was countable; near misses only."
     },
     "NBA-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "No sourced NBA props today."
     },
     "Soccer": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "UCL MD2: 11:45 AM and 2:00 PM CT kickoffs. Main card: Liverpool ML (GAUGE, 3 YT + 3 off-list X). Soccer models pulled: AccuScore, BetBuilders, Rondo Research, xG.football, SoccerGhost, MetaPred, Footlab, Zort, KnockoutMath. Confirmed lineups not out at publish."
     },
     "TENNIS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "Shanghai R4 finished overnight; next ATP matches start Thu ~1:30 AM CT. No countable picks for today's unstarted WTA (Wuhan/Mallorca/Rovereto/Lisbon) matches."
     },
     "MLB": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "NLCS G3 Brewers @ Dodgers 7:00 PM CT (Gasser vs Snell). No play reached 6 sources; Brewers side is the YT majority but ML models conflict (ESPN dissents). Near misses below."
     },
     "NFL": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "No NFL games today (ESPN)."
     },
     "NFL-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "No NFL games today."
     },
     "NHL": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "Two games: Canadiens @ Capitals 6:30 PM CT, Stars @ Avalanche 7:30 PM CT. No main card. MinEdge passes: Avalanche ML (4 YT) and Capitals ML (3 YT) — near misses."
     },
     "NHL-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "Single-source props only."
     },
     "UFC": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "No UFC event today (ESPN)."
     },
     "UFC-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "No UFC event today."
     },
     "CFB": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "Two Wednesday games (6:30 and 7:00 PM CT). Thin sourcing; near misses only."
     },
     "WNBA": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "No WNBA games today (offseason)."
     },
     "Rule": {
@@ -840,7 +912,7 @@
     },
     "MLB-PROPS": {
       "lastSlate": "Wed Oct 14 2026 CT",
-      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:10 AM CT",
+      "lastUpdatedAtLabel": "Wed Oct 14, 2026 · 9:22 AM CT",
       "note": "Single-source props only (Chourio single, NRFI, Gasser Ks)."
     }
   },
@@ -882,10 +954,10 @@
       "simWinPct": 69,
       "ev": null,
       "confidence": 100,
-      "why": "YouTube 3: Bet Hero (Liverpool to win), Ciaran (Liverpool to win), EC Predicts (Liverpool to win, slip 1). X 3 unique (all OFF the send-it list, from today's X search): @Gldenbets (Liverpool – Win), @3STAR_GOLD (LASK vs Liverpool — 2), @ShamsBets (4-leg ML parlay, Liverpool ML leg). Not counted: @farazktwt and @Gwisapunter (win/draw and 1-up are different markets), MRAIN (score prediction), AI accounts. Models (3-way): AccuScore 69%, Zort 71%, KnockoutMath 79%, Bawler 64%, Probascore 57.5%. Break-even at −255 is 71.8%.",
-      "rationale": "GAUGE: 3 YT + 3 X = 6 sources, 100% on Liverpool. Not CLEARED: the cited AccuScore 69% is 2.8pp BELOW the 71.8% break-even; KnockoutMath (79%) clears but Bawler/Probascore are far below → model war, booksAlign false. Short favorite; the X sources are off-list. Lineups not yet confirmed at publish.",
+      "why": "YouTube 4: Bet Hero, Ciaran, EC Predicts (slip 1), Ashili SportsTV (all Liverpool to win). X 3 unique (all OFF the send-it list, from today's X search): @Gldenbets (Liverpool – Win), @3STAR_GOLD (LASK vs Liverpool — 2), @ShamsBets (4-leg ML parlay, Liverpool ML leg). Not counted: @farazktwt and @Gwisapunter (win/draw and 1-up are different markets), MRAIN (score prediction), AI accounts. Models (3-way): AccuScore 69%, Zort 71%, KnockoutMath 79%, Bawler 64%, Probascore 57.5%. Break-even at −255 is 71.8%.",
+      "rationale": "GAUGE: 4 YT + 3 X = 7 sources, 100% on Liverpool. Not CLEARED: the cited AccuScore 69% is 2.8pp BELOW the 71.8% break-even; KnockoutMath (79%) clears but Bawler/Probascore are far below → model war, booksAlign false. Short favorite; the X sources are off-list. Lineups not yet confirmed at publish.",
       "sources": {
-        "youtube": 3,
+        "youtube": 4,
         "x": 3
       },
       "xNote": "@Gldenbets, @3STAR_GOLD, @ShamsBets — off-list X search, no collabs detected.",
@@ -899,6 +971,31 @@
           }
         ]
       }
+    },
+    {
+      "id": "wed-nhl-col-ml",
+      "example": false,
+      "sport": "NHL",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Dallas Stars @ Colorado Avalanche · 7:30 PM CT",
+      "pick": "Avalanche ML",
+      "line": "COL −135 (DraftKings, best)",
+      "gameState": "pre",
+      "consensusPct": 83,
+      "simWinPct": 64,
+      "ev": null,
+      "confidence": 83,
+      "why": "YouTube 5: Doc's (Vernon Croy −140), East Coast Edge (−142), BettingPros (−140), PickDawgz (The Yang Angle), Cover the Spread (−145, parlay leg). X 1: @NoNoiseBetting (Avs ML −151, off-list). Opposed: Doc's Indian Cowboy (DAL). Excluded: Cash Out, Shiesty (AI-voiced), copy-pasted recap posts, link-only previews. Models: ats.io 64%, AccuScore 59%, SharpModels 58%, Troxler 58.8% vs BE 57.4% at −135.",
+      "rationale": "GAUGE: 6 sources (5 YT + 1 X), booksAlign ✓ (ats.io +6.6pp). Not CLEARED: only 1 X (needs 2). SHARP-MONEY WARNING: line went −151 → −135 toward Dallas with ~82% of ML money on DAL (reverse line move).",
+      "sources": {
+        "youtube": 5,
+        "x": 1
+      },
+      "xNote": "@NoNoiseBetting — off-list X search.",
+      "booksAlign": true,
+      "timeCT": "7:30 PM CT",
+      "thesis": "Goalies (DailyFaceoff): DAL Casey DeSmith CONFIRMED; COL Scott Wedgewood LIKELY. Both on the 2nd night of a back-to-back after COL won 3–2 in Dallas Tuesday. Cale Makar questionable (East Coast Edge)."
     }
   ],
   "deepDive": {
@@ -928,9 +1025,9 @@
   },
   "todaysGauge": {
     "title": "Today's Gauge",
-    "label": "Unstarted games only · ESPN status checked 9:10 AM CT · research only",
-    "checkedAt": "9:10 AM CT",
-    "checkedAtIso": "2026-10-14T09:10:19-05:00",
+    "label": "Unstarted games only · ESPN status checked 9:22 AM CT · research only",
+    "checkedAt": "9:22 AM CT",
+    "checkedAtIso": "2026-10-14T09:22:24-05:00",
     "note": "Main card first, then labeled NEAR MISS fill (under 6 sources; not counted). UCL X sources this pass include an off-list X search (flagged). Research only — no bets placed.",
     "items": [
       {
@@ -940,27 +1037,27 @@
         "sport": "Soccer",
         "game": "Liverpool @ LASK Linz",
         "timeCT": "11:45 AM CT",
-        "yt": 3,
+        "yt": 4,
         "x": 3,
         "booksAlign": false,
         "edge": "✗ AccuScore 69% vs BE 71.8% (−2.8pp); model war",
         "consensusPct": 100,
-        "rationale": "Only main card: 6 sources all on Liverpool, X off-list. Price too short for the cited model.",
+        "rationale": "7 sources all on Liverpool (X off-list). Price too short for the cited model.",
         "rank": 1
       },
       {
-        "tier": "NEAR MISS",
+        "tier": "GAUGE",
         "pick": "Avalanche ML",
         "line": "COL −135 (DraftKings)",
         "sport": "NHL",
         "game": "Stars @ Avalanche",
         "timeCT": "7:30 PM CT",
-        "yt": 4,
-        "x": 0,
+        "yt": 5,
+        "x": 1,
         "booksAlign": true,
         "edge": "✓ ats.io 64% vs BE 57.4% (+6.6pp)",
         "consensusPct": 80,
-        "rationale": "MinEdge pass (ats.io +6.6pp) but only 4 countable sources. Sharp-money warning: line drifted −151 → −135 toward Dallas with ~82% of money on DAL.",
+        "rationale": "Main card: 6 sources, booksAlign ✓ (ats.io 64% vs BE 57.4%). Only 1 X. Sharp-money warning: RLM toward DAL.",
         "rank": 2
       },
       {
@@ -971,12 +1068,27 @@
         "game": "Canadiens @ Capitals",
         "timeCT": "6:30 PM CT",
         "yt": 3,
-        "x": 0,
+        "x": 1,
         "booksAlign": true,
         "edge": "✓ ats.io/AccuScore 59% vs BE 55.2% (+3.8pp)",
         "consensusPct": 57,
-        "rationale": "MinEdge pass, 4 sources. Dobeš confirmed for MTL; both teams on a back-to-back.",
+        "rationale": "4 sources (3 YT + 1 X); booksAlign ✓ (ats.io 59% vs BE 55.4%).",
         "rank": 3
+      },
+      {
+        "tier": "NEAR MISS",
+        "sport": "CFB",
+        "game": "Western Kentucky @ Sam Houston",
+        "timeCT": "7:00 PM CT",
+        "consensusPct": 50,
+        "pick": "Sam Houston ML",
+        "line": "SHSU +100 (DraftKings)",
+        "yt": 1,
+        "x": 3,
+        "booksAlign": true,
+        "edge": "✓ ESPN FPI 54.5% vs BE 50.0% (+4.5pp)",
+        "rationale": "4 sources (1 YT + 3 off-list X) on SHSU, booksAlign ✓; WKU picks oppose (Tony's, Cover the Spread).",
+        "rank": 4
       },
       {
         "tier": "NEAR MISS",
@@ -985,13 +1097,13 @@
         "sport": "Soccer",
         "game": "Stuttgart @ Slovan Bratislava",
         "timeCT": "2:00 PM CT",
-        "yt": 4,
+        "yt": 5,
         "x": 0,
         "booksAlign": false,
         "edge": "✗ AccuScore 63% vs BE 72.6%",
         "consensusPct": 100,
         "rationale": "4 of 4 on Stuttgart; cited model well below the price.",
-        "rank": 4
+        "rank": 5
       },
       {
         "tier": "NEAR MISS",
@@ -1006,7 +1118,22 @@
         "edge": "✗ model war (BetBuilders/xG.football 1X ~75% vs Rondo 48%)",
         "consensusPct": 75,
         "rationale": "4 Bodø-side sources; possible duplicate tipster flagged.",
-        "rank": 5
+        "rank": 6
+      },
+      {
+        "tier": "NEAR MISS",
+        "pick": "Over 6.5",
+        "line": "O6.5 −110 (FanDuel)",
+        "sport": "NHL",
+        "game": "Canadiens @ Capitals",
+        "timeCT": "6:30 PM CT",
+        "yt": 3,
+        "x": 1,
+        "booksAlign": false,
+        "edge": "✗ model war (GameLens O 53% vs ats.io/Puckwired under)",
+        "consensusPct": 75,
+        "rationale": "3 of 4 YT Over.",
+        "rank": 7
       },
       {
         "tier": "NEAR MISS",
@@ -1021,36 +1148,6 @@
         "edge": "✗ no run-line model (ML models split; ESPN dissents)",
         "consensusPct": 63,
         "rationale": "YT side majority on MIL, up 2–0. Gasser vs Snell (both LHP).",
-        "rank": 6
-      },
-      {
-        "tier": "NEAR MISS",
-        "pick": "Over 6.5",
-        "line": "O6.5 −110 (FanDuel)",
-        "sport": "NHL",
-        "game": "Canadiens @ Capitals",
-        "timeCT": "6:30 PM CT",
-        "yt": 2,
-        "x": 0,
-        "booksAlign": false,
-        "edge": "✗ model war (GameLens O 53% vs ats.io/Puckwired under)",
-        "consensusPct": 75,
-        "rationale": "3 of 4 YT Over.",
-        "rank": 7
-      },
-      {
-        "tier": "NEAR MISS",
-        "pick": "Under 7.5",
-        "line": "U7.5 −107 (DraftKings)",
-        "sport": "MLB",
-        "game": "Brewers @ Dodgers · NLCS G3",
-        "timeCT": "7:00 PM CT",
-        "yt": 1,
-        "x": 0,
-        "booksAlign": false,
-        "edge": "✗ no total model probability",
-        "consensusPct": 67,
-        "rationale": "2 of 3 YT Under; CapperTek and SportsLine sims also Under.",
         "rank": 8
       }
     ]
