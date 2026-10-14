@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-13T19:07:36-05:00",
-  "updatedAtLabel": "Tue Oct 13, 2026 · 7:07 PM CT",
+  "updatedAt": "2026-10-13T19:12:23-05:00",
+  "updatedAtLabel": "Tue Oct 13, 2026 · 7:12 PM CT",
   "nearMiss": {
     "NHL": [
       {
@@ -138,7 +138,7 @@ window.BET_BOARD_DATA = {
         "rationale": "Contrarian MinEdge: Action Network has 70% of bets / 63% of money on TB (@ActionNetworkHQ), and the line is flat (opened TB −130, now −128 to −145), so the public is on Tampa and the model is on Cleveland. YT is split 3 CLE / 4 TB (43%).",
         "thesis": "Probables: Parker Messick (CLE) vs Freddy Peralta (TB). TB has won 6 straight Peralta starts.",
         "consensusPct": 43,
-        "gameState": "pre",
+        "gameState": "live",
         "modelOnly": false,
         "total": 3
       },
@@ -156,7 +156,7 @@ window.BET_BOARD_DATA = {
         "gap": "Needs 2 more sources.",
         "rationale": "YT majority (57%) and the public (70% bets / 63% money), but the model is against it. Listed for information only. It's the other side of the Guardians row, so it isn't in the gauge.",
         "consensusPct": 57,
-        "gameState": "pre",
+        "gameState": "live",
         "modelOnly": false,
         "total": 4
       },
@@ -174,7 +174,7 @@ window.BET_BOARD_DATA = {
         "gap": "Needs 5 more sources. Doc's Rundown and JABO lean over, so the sources are split.",
         "rationale": "A 2-run steam move toward the under. The closing-line value is already gone.",
         "consensusPct": 33,
-        "gameState": "pre",
+        "gameState": "live",
         "modelOnly": false,
         "total": 1
       }
@@ -194,7 +194,7 @@ window.BET_BOARD_DATA = {
         "gap": "Needs 5 more.",
         "rationale": "1 X. Doc's Rundown separately likes Messick o4.5 K.",
         "consensusPct": 100,
-        "gameState": "pre",
+        "gameState": "live",
         "modelOnly": false,
         "total": 1
       },
@@ -212,7 +212,7 @@ window.BET_BOARD_DATA = {
         "gap": "Needs 4 more.",
         "rationale": "2 sources. Lottery-ticket market.",
         "consensusPct": 100,
-        "gameState": "pre",
+        "gameState": "live",
         "modelOnly": false,
         "total": 2
       }
@@ -222,7 +222,7 @@ window.BET_BOARD_DATA = {
   "sport": "MLB",
   "defaultSport": "MLB",
   "status": "gauge",
-  "summary": "0 CLEARED / 0 GAUGE · Tue Oct 13, 2026 · 7:07 PM CT · ALCS G2 (CLE @ TB 7:00 PM CT) + late NHL (7:15–10:00 PM CT) · strict 6+ · near misses only · Research only",
+  "summary": "0 CLEARED / 0 GAUGE · Tue Oct 13, 2026 · 7:12 PM CT · ALCS G2 (CLE @ TB 7:00 PM CT) + late NHL (7:15–10:00 PM CT) · strict 6+ · near misses only · Research only",
   "clearedCount": 0,
   "gaugeCount": 0,
   "sports": [
@@ -294,7 +294,7 @@ window.BET_BOARD_DATA = {
     },
     "Soccer": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 7:07 PM CT",
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 7:12 PM CT",
       "note": "UCL MD2 matches are finished and were removed. Arsenal ML card (GAUGE) not graded yet."
     },
     "TENNIS": {
@@ -304,8 +304,8 @@ window.BET_BOARD_DATA = {
     },
     "MLB": {
       "lastSlate": "Tue Oct 13 2026 CT",
-      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 7:07 PM CT",
-      "note": "ALCS Game 2 only (Guardians @ Rays, 7:00 PM CT, Messick vs Peralta). ESPN status at publish: pre. No pick reached 6 sources (the send-it list had 0 side/total slips). Near misses are below; Guardians ML is the MinEdge pass."
+      "lastUpdatedAtLabel": "Tue Oct 13, 2026 · 7:12 PM CT",
+      "note": "ALCS Game 2 only (Guardians @ Rays, 7:00 PM CT, Messick vs Peralta). ESPN status at publish: in. No pick reached 6 sources (the send-it list had 0 side/total slips). Near misses are below; Guardians ML is the MinEdge pass."
     },
     "NFL": {
       "lastSlate": "Tue Oct 13 2026 CT",
@@ -398,32 +398,17 @@ window.BET_BOARD_DATA = {
     "cleared": "0-0-0",
     "gauge": "0-0-0",
     "nearMiss": "0-0-0",
-    "checkedAt": "7:07 PM CT",
-    "checkedAtIso": "2026-10-13T19:07:36-05:00",
+    "checkedAt": "7:12 PM CT",
+    "checkedAtIso": "2026-10-13T19:12:23-05:00",
     "label": "No graded results yet. Arsenal ML (GAUGE) from this afternoon's UCL card is ungraded."
   },
   "todaysGauge": {
     "title": "Today's Gauge",
-    "label": "Unstarted games only · ESPN status checked 7:07 PM CT · research only",
-    "checkedAt": "7:07 PM CT",
-    "checkedAtIso": "2026-10-13T19:07:36-05:00",
+    "label": "Unstarted games only · ESPN status checked 7:12 PM CT · research only",
+    "checkedAt": "7:12 PM CT",
+    "checkedAtIso": "2026-10-13T19:12:23-05:00",
     "note": "ALCS G2 plus the remaining unstarted NHL games. Soccer is finished and NHL games that started at 5:00–7:00 PM were pruned. No play reached 6 sources, so every row is a NEAR MISS. Research only.",
     "items": [
-      {
-        "tier": "NEAR MISS",
-        "pick": "Guardians ML",
-        "line": "CLE +121 Caesars (+110 to +117 elsewhere)",
-        "sport": "MLB",
-        "game": "Guardians @ Rays (ALCS G2)",
-        "timeCT": "7:00 PM CT",
-        "yt": 3,
-        "x": 0,
-        "booksAlign": true,
-        "edge": "✓ +13.1pp (GameLens 58.3% vs 45.2% BE)",
-        "consensusPct": 43,
-        "rationale": "The model is on the dog, with 70% of bets / 63% of money on TB. Only 3 sources.",
-        "rank": 1
-      },
       {
         "tier": "NEAR MISS",
         "pick": "Oilers ML",
@@ -437,7 +422,7 @@ window.BET_BOARD_DATA = {
         "edge": "✗ no usable cited model",
         "consensusPct": 71,
         "rationale": "Top YT consensus on the board: 5 of 7 sources on EDM (71%). Line moved toward EDM (opened −125, now −128 to −136). GameLens leans LA, so the model doesn't confirm it.",
-        "rank": 2
+        "rank": 1
       },
       {
         "tier": "NEAR MISS",
@@ -452,7 +437,7 @@ window.BET_BOARD_DATA = {
         "edge": "✗ no usable cited model",
         "consensusPct": 80,
         "rationale": "4 of 5 YT on BOS (80%). Opened −105/−115 (SJ fav), now BOS −120 to −125, so steam is on Boston. Only Tony's Picks has SJ.",
-        "rank": 3
+        "rank": 2
       },
       {
         "tier": "NEAR MISS",
@@ -467,7 +452,7 @@ window.BET_BOARD_DATA = {
         "edge": "✗ no usable cited model",
         "consensusPct": 80,
         "rationale": "4 of 5 YT on WPG (80%), one SGPN host on MIN. Calvin Pickard makes his first start for MIN, on the Wild's back-to-back. The line is flat (opened −110).",
-        "rank": 4
+        "rank": 3
       },
       {
         "tier": "NEAR MISS",
@@ -482,7 +467,7 @@ window.BET_BOARD_DATA = {
         "edge": "✗ no usable cited model",
         "consensusPct": 100,
         "rationale": "3 of 3 YT on the under (100%). Total moved down 6 → 5.5 at most books. Price the 5.5 vs 6 carefully.",
-        "rank": 5
+        "rank": 4
       }
     ]
   }
