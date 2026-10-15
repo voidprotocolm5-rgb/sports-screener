@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-15T09:46:39-05:00",
-  "updatedAtLabel": "Oct 15, 2026 · 9:46 AM CT",
+  "updatedAt": "2026-10-15T10:13:55-05:00",
+  "updatedAtLabel": "Oct 15, 2026 · 10:13 AM CT",
   "nearMiss": {
     "CFB": [
       {
@@ -297,6 +297,67 @@ window.BET_BOARD_DATA = {
         "line": "Wilson ATTD (plus money)"
       }
     ],
+    "MLB-PROPS": [
+      {
+        "id": "thu-mlb-gwill-k",
+        "pick": "Gavin Williams Under 6.5 K",
+        "marketType": "prop",
+        "game": "Rays @ Guardians · ALCS G3 · 12:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "PrizePicks channel (veQH4F33QEM) U6.5 top play. Contested: Patreon-template channel O6.5 (AI-style, not counted)",
+        "x": 2,
+        "xWho": "@Philly_DFS U6.5 POTD; @phillys26433 U6.5. Contested: @tonsofpetefun over",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "No cited strikeout model → not aligned.",
+        "gap": "Needs 3 more source(s) to reach 6. No books pass.",
+        "rationale": "Contested prop: TB lowest K% in MLB (~18%) vs Williams 24 K in 11.2 IP; outs line fell 16.5 → 15.5.",
+        "timeCT": "12:00 PM CT",
+        "consensusPct": 67,
+        "line": "U6.5 K (O +104 to +111)"
+      }
+    ],
+    "MLB": [
+      {
+        "id": "thu-mlb-lad-ml",
+        "pick": "Dodgers ML",
+        "marketType": "moneyline",
+        "game": "Brewers @ Dodgers · NLCS G4 · 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "Chasers Edge (f4PzubZkjio) LAD ML/−1.5. Not counted: Shy Sports (AI), predictions-only channels. Contested: Profit Hunt MIL ML; Boston Steve & Doc's Trapp pass on the price",
+        "x": 1,
+        "xWho": "off-list: @EnvysDead LAD ML",
+        "total": 2,
+        "booksAlign": true,
+        "booksAlignWhy": "ats.io LAD ML 65% (projects 4–3) vs BE 61.1% at −157 → +3.9pp. No AccuScore/Dimers number pulled for this game. MIL starter unannounced (Dustin May expected).",
+        "gap": "Needs 4 more source(s) to reach 6. MinEdge pass.",
+        "rationale": "Short: 2 sources (needs 6). Elimination game for LAD (down 0–3); Glasnow vs likely Dustin May then a deep MIL bullpen. 87% of money on LAD −1.5 (public).",
+        "timeCT": "7:00 PM CT",
+        "consensusPct": 60,
+        "line": "LAD −157 (DK)"
+      },
+      {
+        "id": "thu-mlb-mil-lad-u7.5",
+        "pick": "Under 7.5",
+        "marketType": "total",
+        "game": "Brewers @ Dodgers · NLCS G4 · 7:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Doc's (Craig Trapp) u7.5; Night Moves (Ramon) u7.5. Not counted: template channel (efiqJLjO7LY). Contested: Shy Sports o7.5 (AI), Kyle Kirms show over",
+        "x": 0,
+        "xWho": "",
+        "total": 2,
+        "booksAlign": false,
+        "booksAlignWhy": "ats.io projects 7.0 runs but gives no total probability → not aligned.",
+        "gap": "Needs 4 more source(s) to reach 6. No books pass.",
+        "rationale": "LAD 8 of last 10 under; MIL bullpen-game likely. 68% of money on Over 7.5.",
+        "timeCT": "7:00 PM CT",
+        "consensusPct": 67,
+        "line": "U7.5"
+      }
+    ],
     "Soccer": [
       {
         "id": "thu-uel-ben",
@@ -382,7 +443,7 @@ window.BET_BOARD_DATA = {
   "status": "live",
   "summary": "Thu Oct 15 · INTERIM (9:3x AM CT): 0 CLEARED · 0 GAUGE so far — no card has 6 sources yet. Send-it list is thin this early (props/SGPs only); YouTube metadata/captions were rate-limited on the box, so transcripts are being pulled one by one. Near misses below; full pass to follow.",
   "clearedCount": 1,
-  "gaugeCount": 1,
+  "gaugeCount": 2,
   "sports": [
     {
       "id": "CFB",
@@ -591,6 +652,32 @@ window.BET_BOARD_DATA = {
       "booksAlignWhy": "BE 52.8% at −112 (51.9% at best −108). AccuScore SEA cover 50.5% (EV −1.4%, 'no value pick'); Dimers SEA −3.5 45.3%, SEA win 58–60%; ESPN FPI SEA 52.6% win; GameLens SEA 61.2%. Every cover model except GameLens is under break-even → not aligned. Splits: 72–74% of bets on SEA, 61–71% of money (public side).",
       "timeCT": "7:15 PM CT",
       "rank": 2
+    },
+    {
+      "id": "thu-mlb-cle-ml",
+      "example": false,
+      "sport": "MLB",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Rays @ Guardians · ALCS G3 · 12:00 PM CT",
+      "pick": "Guardians ML",
+      "line": "CLE −130 (DK/FD/MGM) · best book −125",
+      "gameState": "pre",
+      "consensusPct": 75,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 75,
+      "why": "YouTube 6: Profit Hunt (CLE ML −119 ProphetX); Doc's (Craig Trapp/Indian Cowboy) CLE −131; Boston Steve CLE −130; yOribT6ry3s 'ALCS G3 Picks' CLE ML; Daily Dingers-style '5 best bets' (cgtguzkrdH0) CLE −130; Kyle Kirms show CLE at −120. Not counted: Shy Sports (AI), 'Every Game Predictions' & a dubbed preview (predictions, not bets), CLE run line +186 (different market). Contested: PG1d8CoFEpI TB +110 best bet; FtrWEA6X_Tc TB; Action Junkie TB ML (parlay leg). X 3: off-list: @UnitMining CLE −130 1u; @EnvysDead CLE ML; 'Lunch Money Play' copy ring (@shantaebrown01/@NeoBallers5vme/@martymula1) CLE −128 counted once. Splits (@BeastPickPro): 66% of ML money on TB +120 vs 47% of tickets. Books: ats.io CLE ML 58% (projects 4–2) vs best book −125 BE 55.6% → +2.4pp (short of 2.5; +1.5pp at −130). Only an exchange price (−119 ProphetX) clears 2.5. AccuScore has TB 51% / CLE 49% → model war. SportsLine sim says Over 6.5 and 'one side has all the value' (side paywalled).",
+      "rationale": "GAUGE: 9 sources (6 YT + 3 X) for CLE vs 3 for TB (75%). Gavin Williams (24 K in 11.2 ALDS IP; 7.2 scoreless vs TB in April) vs Griffin Jax's first postseason start (bulk/opener risk). Moved up to 12:00 PM CT for evening rain. Sharp money on TB: 66% of ML dollars on 47% of tickets. Not CLEARED: model war and edge under 2.5pp at sportsbooks.",
+      "sources": {
+        "youtube": 6,
+        "x": 3
+      },
+      "xNote": "",
+      "booksAlign": false,
+      "booksAlignWhy": "ats.io CLE ML 58% (projects 4–2) vs best book −125 BE 55.6% → +2.4pp (short of 2.5; +1.5pp at −130). Only an exchange price (−119 ProphetX) clears 2.5. AccuScore has TB 51% / CLE 49% → model war. SportsLine sim says Over 6.5 and 'one side has all the value' (side paywalled).",
+      "timeCT": "12:00 PM CT",
+      "rank": 3
     }
   ],
   "deepDive": {
@@ -620,9 +707,9 @@ window.BET_BOARD_DATA = {
   },
   "todaysGauge": {
     "title": "Today's Gauge",
-    "label": "Unstarted games only · ESPN status checked 9:46 AM CT · research only",
-    "checkedAt": "9:46 AM CT",
-    "checkedAtIso": "2026-10-15T09:46:39-05:00",
+    "label": "Unstarted games only · ESPN status checked 10:13 AM CT · research only",
+    "checkedAt": "10:13 AM CT",
+    "checkedAtIso": "2026-10-15T10:13:55-05:00",
     "note": "Ranked: CLEARED, then GAUGE, then labeled NEAR MISS fill (under 6 sources, never counted in totals). One pick per game. Research only — no bets placed.",
     "items": [
       {
@@ -657,6 +744,21 @@ window.BET_BOARD_DATA = {
       },
       {
         "rank": 3,
+        "tier": "GAUGE",
+        "pick": "Guardians ML",
+        "line": "CLE −130 (DK/FD/MGM) · best book −125",
+        "sport": "MLB",
+        "game": "Rays @ Guardians · ALCS G3",
+        "timeCT": "12:00 PM CT",
+        "yt": 6,
+        "x": 3,
+        "booksAlign": false,
+        "edge": "✗ model war (ats.io CLE 58% vs AccuScore TB 51%); +2.4pp at best book",
+        "consensusPct": 75,
+        "rationale": "GAUGE: 9 sources (6 YT + 3 X) for CLE vs 3 for TB (75%). Gavin Williams (24 K in 11.2 ALDS IP; 7.2 scoreless vs TB in April) vs Griffin Jax's first postseason start (bulk/opener risk). Moved up to 12:00 PM CT for evening rain. Sharp money on TB: 66% of ML dollars on 47% of tickets. Not CLEARED: model war and edge under 2.5pp at sportsbooks."
+      },
+      {
+        "rank": 4,
         "tier": "NEAR MISS",
         "pick": "East Carolina −5.5 / ML",
         "line": "ECU −5.5 · ML −205 (DraftKings)",
@@ -671,7 +773,7 @@ window.BET_BOARD_DATA = {
         "rationale": "Short: 5 sources (needs 6) and 2 YT (needs 3); contested 5–4 with UAB backers. ECU leads FBS in TFL; UAB allows 126 pass yds/g. Spread moved 6.5/5.5 → 4.5."
       },
       {
-        "rank": 4,
+        "rank": 5,
         "tier": "NEAR MISS",
         "pick": "Rangers ML / +1.5",
         "line": "NYR +120 to +125",
@@ -686,7 +788,7 @@ window.BET_BOARD_DATA = {
         "rationale": "Short: 5 sources (needs 6) and 2 YT (needs 3). NYR 6-2 but backup in net (Shesterkin IR); NJ Evangelista may sit."
       },
       {
-        "rank": 5,
+        "rank": 6,
         "tier": "NEAR MISS",
         "pick": "Senators ML",
         "line": "OTT −155",
@@ -701,7 +803,7 @@ window.BET_BOARD_DATA = {
         "rationale": "Short: 5 sources (needs 6) and 1 YT (needs 3). Ullmark projected; OTT ≤2 GA in every Ullmark start."
       },
       {
-        "rank": 6,
+        "rank": 7,
         "tier": "NEAR MISS",
         "pick": "Over 70.5",
         "line": "O70.5 (DraftKings; opened 67.5)",
@@ -716,7 +818,7 @@ window.BET_BOARD_DATA = {
         "rationale": "CSU allowed 41/59/56 last 3 and fired its DC; TXST 5th in rushing vs CSU 136th run D; 85°F, light wind."
       },
       {
-        "rank": 7,
+        "rank": 8,
         "tier": "NEAR MISS",
         "pick": "Over 6.5",
         "line": "O6.5 −118/−120",
@@ -729,21 +831,6 @@ window.BET_BOARD_DATA = {
         "edge": "✗ model war (ats.io O 58% vs GameLens U 58%)",
         "consensusPct": 100,
         "rationale": "TOR 4 straight overs without Tanev; BUF without Dahlin. Projected goalies Luukkonen vs Bobrovsky (not confirmed)."
-      },
-      {
-        "rank": 8,
-        "tier": "NEAR MISS",
-        "pick": "Over 6.5",
-        "line": "O6.5 −115 to −117",
-        "sport": "NHL",
-        "game": "Mammoth @ Oilers",
-        "timeCT": "8:00 PM CT",
-        "yt": 3,
-        "x": 0,
-        "booksAlign": false,
-        "edge": "✗ model war (ats.io O 56% vs GameLens U 60.5%)",
-        "consensusPct": 100,
-        "rationale": "Both PPs ≥23.8% vs both PKs <75%; H2H in EDM 6-3, 7-1, 4-1; last 4 meetings over. Goalies projected, not confirmed (Vejmelka vs Levi, DailyFaceoff)."
       }
     ]
   },
