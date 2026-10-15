@@ -230,7 +230,7 @@
     var el = $("process-bar");
     if (!el) return;
     // CLV/MinEdge process bar disabled per Atlas 10/13 8:52 PM CT; set true to restore.
-    var CLV_BAR_ENABLED = false;
+    var CLV_BAR_ENABLED = true; // re-enabled per Atlas 10/15 12:53 PM CT
     if (!CLV_BAR_ENABLED) { el.hidden = true; el.innerHTML = ""; return; }
     var perfT = data && data.performance && data.performance.tally;
     if (perfT && perfT.all) {
@@ -540,9 +540,25 @@
     if (r) h += '<p class="' + (r.flag ? "rlm-yes" : "dr-muted") + '">' + (r.flag ? "⚑ Reverse line move" : "No reverse line move") + (r.note ? " — " + escapeHtml(r.note) : "") + "</p>";
     return h + "</div>";
   }
+  // ---- Source weights (Atlas 10/15): YT 1.0, unique X 1.0, named consensus site 0.75, splits/RLM 0.5 (max 1) ----
+  var SOURCE_WEIGHTS = { youtube: 1.0, xSendIt: 1.0, consensus: 0.75, splits: 0.5 };
+  var PUBLISH_WEIGHT = 6.0;
+  function weightedSources(o) {
+    var s = o.sources || {}, sp = splitsOf(o), r = rlmOf(o);
+    var yt = +(s.youtube || o.youtube || 0) || 0, x = +(s.xSendIt || o.xSendIt || 0) || 0;
+    var c = consensusList(o).filter(function (e) { return e && e.site; }).length;
+    var spl = ((sp && sp.publicBetsPct != null && sp.moneyPct != null && (sp.moneyPct - sp.publicBetsPct) >= 10) || (r && r.flag && r.note)) ? 1 : 0;
+    var total = yt * SOURCE_WEIGHTS.youtube + x * SOURCE_WEIGHTS.xSendIt + c * SOURCE_WEIGHTS.consensus + spl * SOURCE_WEIGHTS.splits;
+    var classes = (yt ? 1 : 0) + (x ? 1 : 0) + (c ? 1 : 0) + (spl ? 1 : 0);
+    return { yt: yt, x: x, consensus: c, splits: spl, total: Math.round(total * 100) / 100, classes: classes, publishable: total >= PUBLISH_WEIGHT && classes >= 2 };
+  }
+  function weightLine(o) {
+    var w = weightedSources(o);
+    return '<p class="dr-muted"><b>Weighted sources: ' + w.total.toFixed(2) + '</b> = ' + w.yt + ' YT × 1.0 + ' + w.x + ' X × 1.0 + ' + w.consensus + ' consensus × 0.75 + ' + w.splits + ' splits/RLM × 0.5 · ' + w.classes + ' source classes · publish bar 6.0 with ≥2 classes ' + (w.publishable ? '✓' : '✗') + '</p>';
+  }
   function extraChips(o) {
     var c = consensusList(o).length, sp = splitsOf(o), r = rlmOf(o), h = "";
-    if (c) h += '<span class="source-chip chip-consensus" title="Not counted toward 6+">Consensus ' + c + "</span>";
+    if (c) h += '<span class="source-chip chip-consensus" title="Counted at 0.75 each toward the 6.0 weighted bar">Consensus ' + c + "</span>";
     if (sp && sp.publicBetsPct != null) h += '<span class="source-chip">Bets ' + escapeHtml(sp.publicBetsPct) + "% / $ " + escapeHtml(sp.moneyPct) + "%</span>";
     if (r && r.flag) h += '<span class="source-chip chip-rlm">RLM</span>';
     return h;
@@ -562,6 +578,7 @@
       '<div class="dr-col"><h4>YouTube (' + yt.length + ')</h4>' + listHtml(yt) + "</div>" +
       '<div class="dr-col"><h4>Send-it list (' + xs.length + ')</h4>' + listHtml(xs) + "</div>" +
       consensusCol(o) + splitsCol(o) +
+      '<div class="dr-col dr-wide"><h4>Weighting</h4>' + weightLine(o) + '</div>' +
       '<div class="dr-col dr-wide"><h4>Books check</h4><p>' + escapeHtml(math || why || "No books math recorded.") + "</p>" +
         (math && why ? '<p class="dr-muted">' + escapeHtml(why) + "</p>" : "") +
         (lg.notes ? '<p class="dr-muted">' + escapeHtml(lg.notes) + "</p>" : "") + "</div>" +
@@ -605,19 +622,21 @@
   }
   // ---- Phase 3: hash pages (#/methodology, #/performance, #/disclaimer) + demo mode (?demo=1) ----
   // Demo mode + performance strip disabled per Atlas 10/13 8:23 PM CT; set true to restore.
-  var DEMO_ENABLED = false, PERF_STRIP_ENABLED = false;
+  var DEMO_ENABLED = false, PERF_STRIP_ENABLED = true; // re-enabled per Atlas 10/15 12:53 PM CT
   var DEMO = DEMO_ENABLED && /(?:^|[?&])demo=1(?:&|$)/.test(location.search);
   // Private pages (Performance, Disclaimer) disabled per Atlas 10/13 8:16 PM CT; set true to restore.
-  var PRIVATE_PAGES_ENABLED = false;
+  var PRIVATE_PAGES_ENABLED = false; // Disclaimer stays private
+  var PERFORMANCE_PAGE_ENABLED = true; // public Performance approved by Atlas 10/15 12:53 PM CT
   function pageRoute() {
     var m = (location.hash || "").match(/^#\/(methodology|performance|disclaimer)/);
     if (!m) return null;
+    if (m[1] === "performance" && PERFORMANCE_PAGE_ENABLED) return m[1];
     if (m[1] !== "methodology" && !PRIVATE_PAGES_ENABLED) return null;
     return m[1];
   }
   function hidePrivateLinks() {
     if (PRIVATE_PAGES_ENABLED) return;
-    document.querySelectorAll('a[href="#/performance"],a[href="#/disclaimer"]' + (DEMO_ENABLED ? "" : ',a[href="?demo=1"]')).forEach(function (a) {
+    document.querySelectorAll((PERFORMANCE_PAGE_ENABLED ? '' : 'a[href="#/performance"],') + 'a[href="#/disclaimer"]' + (DEMO_ENABLED ? "" : ',a[href="?demo=1"]')).forEach(function (a) {
       var p = a.previousSibling, n = a.nextSibling;
       if (n && n.nodeType === 3 && /^\s*·\s*$/.test(n.nodeValue)) n.remove();
       else if (p && p.nodeType === 3 && /^\s*·\s*$/.test(p.nodeValue)) p.remove();
@@ -660,10 +679,12 @@
       "<h2>1. Sources</h2><ul>" +
       "<li><b>YouTube:</b> firm, spoken picks from 10–15+ best-bets videos per sport. Leans, score predictions, AI-pick channels and relayed duplicates are excluded.</li>" +
       "<li><b>Send-it list (X):</b> current-day slips for unstarted games from a curated list. Unique posters only; settled or “cashed” posts are ignored; collab accounts are flagged.</li>" +
-      "<li><b>Consensus sites:</b> vetted tipster / consensus sites with named, firm picks. Shown separately in each card’s source ledger and <b>not counted</b> toward the 6+ rule.</li>" +
+      "<li><b>Consensus sites:</b> vetted tipster / consensus sites with named, firm picks. Named sites only (Covers, Action Network, Pickswise, OddsShark, Dimers and similar vetted outlets). Each firm pick counts <b>0.75</b>.</li>" +
+      "<li><b>Betting splits:</b> a sharp-vs-public signal (money % at least 10 points above bets % on the pick) or a documented reverse line move counts <b>0.5</b>, at most one per card.</li>" +
       "<li><b>Market context:</b> injuries, goalies and pitchers, weather, line movement, betting splits (public bets % vs money %), and reverse-line-move flags.</li></ul>" +
+      "<h2>Source weights</h2><div class='table-wrap'><table class='ptable'><tr><th>Source class</th><th>Weight</th><th>Limit</th></tr><tr><th>YouTube firm pick</th><td>1.0</td><td>per unique channel</td></tr><tr><th>X send-it poster</th><td>1.0</td><td>per unique poster</td></tr><tr><th>Vetted consensus / tipster site</th><td>0.75</td><td>per named site</td></tr><tr><th>Betting splits / RLM</th><td>0.5</td><td>max 1 per card</td></tr></table></div><p><b>Weighted total</b> = YT×1.0 + X×1.0 + sites×0.75 + splits×0.5. Publish needs ≥ 6.0 and ≥ 2 classes. The weighted total never replaces the CLEARED floors (≥3 YouTube + ≥2 send-it + books align).</p>" +
       "<h2>2. Books align (MinEdge)</h2><p>We convert the best observed price to break-even probability and require a <b>cited</b> model (e.g. GameLens, ESPN FPI, AccuScore, Tennis Abstract Elo) to clear it by at least <b>2.5 percentage points</b>. Conflicting cited models fail the check. Spread probabilities only apply at the same or a better number. We never invent a model.</p>" +
-      "<h2>3. Tiers</h2><ul><li><b>CLEARED:</b> ≥3 YouTube + ≥2 send-it + books align.</li><li><b>GAUGE:</b> every other main card, ranked with a one-line rationale.</li><li><b>Main board floor:</b> ≥6 combined YouTube + send-it sources, strictly.</li><li><b>NEAR MISS:</b> under 6 sources — shown in labeled sections, never counted in totals.</li><li><b>LIVE:</b> started games are info-only.</li></ul>" +
+      "<h2>3. Tiers</h2><ul><li><b>CLEARED:</b> ≥3 YouTube + ≥2 send-it + books align.</li><li><b>GAUGE:</b> every other main card, ranked with a one-line rationale.</li><li><b>Main board floor:</b> weighted source total ≥ <b>6.0</b> from at least <b>2 distinct source classes</b>.</li><li><b>NEAR MISS:</b> under the weighted bar, including MinEdge passes short on sources — shown in labeled sections, never counted in totals.</li><li><b>LIVE:</b> started games are info-only.</li></ul>" +
       "<h2>4. Confidence meter</h2><p>0–100: sources (up to 55, full at 10), both source classes present (10), cited model edge (up to 25, full at +10pp), books align (10). It summarizes evidence; it is not a win probability.</p>" +
       "<h2>5. Grading and CLV</h2><p>Scripts grade finals from ESPN against the published line and price, capture closing lines, and prune started games. Results accumulate in a permanent ledger.</p>" +
       "<h2>6. Reading list</h2><p>Approach informed by <i>The Logic of Sports Betting</i>, <i>Sharp Sports Betting</i>, quantitative-trading practice, and Hausch &amp; Ziemba on market efficiency: consensus alone is not edge; price and closing-line value matter.</p>";
@@ -1142,7 +1163,7 @@
 
   function start() {
     hidePrivateLinks();
-    if (/^#\/(performance|disclaimer)/.test(location.hash) && !PRIVATE_PAGES_ENABLED) { try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {} }
+    if (/^#\/(performance|disclaimer)/.test(location.hash) && !PRIVATE_PAGES_ENABLED && !(PERFORMANCE_PAGE_ENABLED && /^#\/performance/.test(location.hash))) { try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {} }
     setupTheme();
     var nav = $("sport-nav");
     if (nav) nav.addEventListener("click", onNavClick);
