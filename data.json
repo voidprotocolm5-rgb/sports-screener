@@ -1,26 +1,26 @@
 {
-  "updatedAt": "2026-10-15T09:23:14-05:00",
-  "updatedAtLabel": "Oct 15, 2026 · 9:23 AM CT",
+  "updatedAt": "2026-10-15T09:46:39-05:00",
+  "updatedAtLabel": "Oct 15, 2026 · 9:46 AM CT",
   "nearMiss": {
     "CFB": [
       {
-        "id": "thu-cfb-gaso",
-        "pick": "Georgia Southern −3.5",
+        "id": "thu-cfb-ecu",
+        "pick": "East Carolina −5.5 / ML",
         "marketType": "spread",
-        "game": "Georgia Southern @ Old Dominion · 6:30 PM CT",
+        "game": "East Carolina @ UAB · 6:30 PM CT",
         "gameState": "pre",
-        "yt": 3,
-        "ytWho": "StumpTheSpread (possible lock of the day); Doc's (Craig Trapp/Indian Cowboy) −3.5; PickDawgz (Brad Francis) −3.5. Contested: Cash Out Sports ODU +3.5 (scripted channel, not counted)",
-        "x": 1,
-        "xWho": "off-list: @Winningcappers1 (Sniper Wes) −3.5",
-        "total": 4,
+        "yt": 2,
+        "ytWho": "PickDawgz (Chris) ECU −5.5; SportsLine (Emory Hunt) ECU ML. Not counted: a ChatGPT/Claude-researched channel ECU −4.5 (self-declared AI), Shy Sports (AI), Mo Tizzy show (hosts split ECU −5.5 vs UAB ML). Contested: Doc's UAB +4.5, PickDawgz (Rod) UAB +, Brock Page UAB +4.5",
+        "x": 3,
+        "xWho": "@MassMoneyline −4.5 −114; @FansOfCFB (PEM model) −4.5; @MMLocks1 −5.5 −108. Not counted: @Aleksan48916254 ranked-picks bot, parlay rings. Contested: @tkbpicks UAB +4.5, @Dataman422 UAB +5.5",
+        "total": 5,
         "booksAlign": true,
-        "booksAlignWhy": "ESPN FPI GASO 67.3% win vs ML −180 BE 64.3% → +3.0pp (MinEdge pass on the ML; no cover probability cited for −3.5). ats.io has no CFB page.",
-        "gap": "Needs 2 more source(s) to reach 6. MinEdge pass.",
-        "rationale": "GASO 5-1 ATS vs ODU 1-5 ATS and 126th in total offense; spread moved GASO −2.5 → −3.5. ODU QB questionable; GASO missing RB M'Badinga and WR Ware. 66°F, gusts 15, 27% rain.",
+        "booksAlignWhy": "ESPN FPI ECU 73.9% vs ML −205 BE 67.2% → +6.7pp. ats.io projects ECU 24–20 (its play is Under 47.5, no ECU %). Not in board set but same side: Agatha 71%, LuckAdjusted 69%, EdgeDesk 70%.",
+        "gap": "Needs 1 more source(s) to reach 6. MinEdge pass.",
+        "rationale": "Short: 5 sources (needs 6) and 2 YT (needs 3); contested 5–4 with UAB backers. ECU leads FBS in TFL; UAB allows 126 pass yds/g. Spread moved 6.5/5.5 → 4.5.",
         "timeCT": "6:30 PM CT",
-        "consensusPct": 100,
-        "line": "GASO −3.5 (DraftKings) · ML −180"
+        "consensusPct": 55,
+        "line": "ECU −5.5 · ML −205 (DraftKings)"
       },
       {
         "id": "thu-cfb-csu-txst-over",
@@ -40,25 +40,6 @@
         "timeCT": "7:00 PM CT",
         "consensusPct": 75,
         "line": "O70.5 (DraftKings; opened 67.5)"
-      },
-      {
-        "id": "thu-cfb-ecu",
-        "pick": "East Carolina −5.5 / ML",
-        "marketType": "spread",
-        "game": "East Carolina @ UAB · 6:30 PM CT",
-        "gameState": "pre",
-        "yt": 2,
-        "ytWho": "PickDawgz (Chris) ECU −5.5; SportsLine (Emory Hunt) ECU ML. Contested: Doc's UAB +4.5",
-        "x": 0,
-        "xWho": "",
-        "total": 2,
-        "booksAlign": true,
-        "booksAlignWhy": "ESPN FPI ECU 73.9% vs ML −205 BE 67.2% → +6.7pp (MinEdge pass, ML).",
-        "gap": "Needs 4 more source(s) to reach 6. MinEdge pass.",
-        "rationale": "ECU leads FBS in TFL, UAB QB 5 INT/4 TD and 16 sacks allowed; UAB 7th straight week, short rest. Spread drifted UAB +6.5 → +5.5.",
-        "timeCT": "6:30 PM CT",
-        "consensusPct": 67,
-        "line": "ECU −5.5 · ML −205 (DraftKings)"
       },
       {
         "id": "thu-cfb-ecu-under",
@@ -81,6 +62,44 @@
       }
     ],
     "NHL": [
+      {
+        "id": "thu-nhl-nyr",
+        "pick": "Rangers ML / +1.5",
+        "marketType": "moneyline",
+        "game": "Rangers @ Devils · 6:00 PM CT",
+        "gameState": "pre",
+        "yt": 2,
+        "ytWho": "Doc's rundown NYR ML +125; Sports Parlay Picks NYR +1.5. Lean not counted: Tony's NJ",
+        "x": 3,
+        "xWho": "@MCunningham33 NYR ML +120 (reposted verbatim by @carl2_r/@Marketa82358641/@Kendrick_Xav/@ESCOBARozct — counted once); @LiveItLoveItHei NYR ML +120; @j11ini NYR ML. Contested: @tkbpicks NJ ML, @Clutch_Betss NJ ML −133",
+        "total": 5,
+        "booksAlign": true,
+        "booksAlignWhy": "ats.io NYR 49% vs BE 45.5% at best +120 → +3.5pp. GameLens NJ 49.4% (no conflict on value).",
+        "gap": "Needs 1 more source(s) to reach 6. MinEdge pass.",
+        "rationale": "Short: 5 sources (needs 6) and 2 YT (needs 3). NYR 6-2 but backup in net (Shesterkin IR); NJ Evangelista may sit.",
+        "timeCT": "6:00 PM CT",
+        "consensusPct": 100,
+        "line": "NYR +120 to +125"
+      },
+      {
+        "id": "thu-nhl-ott",
+        "pick": "Senators ML",
+        "marketType": "moneyline",
+        "game": "Islanders @ Senators · 6:00 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "Sports Parlay Picks. Not counted: Patreon-template AI channel OTT. Contested: Griffin Murphy (Doc's) NYI +1.5",
+        "x": 4,
+        "xWho": "@Atrue1130 OTT ML −148; @Clutch_Betss OTT ML −147; @adamconti7 OTT ML −166; 'NHL script' copy ring (@StakeMenang/@jordan8983ahym/@BrittanyDaqoi) counted once. Not counted: @Aleksan48916254 bot",
+        "total": 5,
+        "booksAlign": true,
+        "booksAlignWhy": "ats.io OTT 64% vs BE 60.8% → +3.2pp; GameLens OTT 52.1% (lower but same side).",
+        "gap": "Needs 1 more source(s) to reach 6. MinEdge pass.",
+        "rationale": "Short: 5 sources (needs 6) and 1 YT (needs 3). Ullmark projected; OTT ≤2 GA in every Ullmark start.",
+        "timeCT": "6:00 PM CT",
+        "consensusPct": 100,
+        "line": "OTT −155"
+      },
       {
         "id": "thu-nhl-buf-tor-o6.5",
         "pick": "Over 6.5",
@@ -139,25 +158,6 @@
         "line": "O6 −117 · ESPN 6.5"
       },
       {
-        "id": "thu-nhl-nyr",
-        "pick": "Rangers ML / +1.5",
-        "marketType": "moneyline",
-        "game": "Rangers @ Devils · 6:00 PM CT",
-        "gameState": "pre",
-        "yt": 2,
-        "ytWho": "Doc's rundown NYR ML +125; Sports Parlay Picks NYR +1.5. Lean not counted: Tony's NJ",
-        "x": 0,
-        "xWho": "",
-        "total": 2,
-        "booksAlign": true,
-        "booksAlignWhy": "ats.io NYR 49% vs BE 44.4% at +125 → +4.6pp (MinEdge pass). GameLens NJ 49.4% (no conflict on value).",
-        "gap": "Needs 4 more source(s) to reach 6. MinEdge pass.",
-        "rationale": "NYR 6-2; Garand starting with Shesterkin out; NJ without Hughes/Hamilton.",
-        "timeCT": "6:00 PM CT",
-        "consensusPct": 100,
-        "line": "NYR +120 to +125"
-      },
-      {
         "id": "thu-nhl-nyi-ott-u5.5",
         "pick": "Under 5.5",
         "marketType": "total",
@@ -194,25 +194,6 @@
         "timeCT": "9:00 PM CT",
         "consensusPct": 100,
         "line": "O6 −120/−125"
-      },
-      {
-        "id": "thu-nhl-ott",
-        "pick": "Senators ML",
-        "marketType": "moneyline",
-        "game": "Islanders @ Senators · 6:00 PM CT",
-        "gameState": "pre",
-        "yt": 1,
-        "ytWho": "Sports Parlay Picks",
-        "x": 0,
-        "xWho": "",
-        "total": 1,
-        "booksAlign": true,
-        "booksAlignWhy": "ats.io OTT 64% vs BE 60.8% → +3.2pp; GameLens OTT 52.1% (lower but same side).",
-        "gap": "Needs 5 more source(s) to reach 6. MinEdge pass.",
-        "rationale": "Ullmark projected; OTT off a 7-2 loss with the backup in net.",
-        "timeCT": "6:00 PM CT",
-        "consensusPct": 100,
-        "line": "OTT −155"
       },
       {
         "id": "thu-nhl-nsh",
@@ -253,6 +234,27 @@
         "line": "MIN −142"
       }
     ],
+    "NFL": [
+      {
+        "id": "thu-nfl-u40.5",
+        "pick": "Under 40.5",
+        "marketType": "total",
+        "game": "Seahawks @ Broncos · 7:15 PM CT",
+        "gameState": "pre",
+        "yt": 1,
+        "ytWho": "Doc's (Scott Spritzer) u40.5. Not counted: Good Sports Network u40.5 (likely scripted/AI), parlaybuilder.ai channel u40.5 (AI). Contested: StumpTheSpread o40.5, OddsShopper (Eric Lindquist) o40.5",
+        "x": 2,
+        "xWho": "off-list: @Winningcappers1 (Sniper Wes) u40.5; @dubbya69 u40.5. Not counted: @LadderClub (account created Oct 14), @Hottie4Sports relay of Ben Burns u41.5",
+        "total": 3,
+        "booksAlign": false,
+        "booksAlignWhy": "Model war: ats.io Under 55.0% (+4.5pp vs BE 50.5% at −102), SportsLine sim Under 53% (+2.5pp), GameLens Under 52.5% — but Dimers Over 40.5 53.4% (first-look, Oct 12–13). Dr. Bob projects 37.8 (lean, no %).",
+        "gap": "Needs 3 more source(s) to reach 6. No books pass.",
+        "rationale": "Short on YouTube (1 of 3). Total 43.5/42.5 → 40.5 against 78–90% of Over tickets/money (reverse line move). Both offenses bottom-8 EPA; DEN 4 of 5 unders.",
+        "timeCT": "7:15 PM CT",
+        "consensusPct": 50,
+        "line": "U40.5 −102 (DraftKings)"
+      }
+    ],
     "NFL-PROPS": [
       {
         "id": "thu-nfl-jsn-td",
@@ -291,27 +293,6 @@
         "timeCT": "7:15 PM CT",
         "consensusPct": 100,
         "line": "Wilson ATTD (plus money)"
-      }
-    ],
-    "NFL": [
-      {
-        "id": "thu-nfl-u40.5",
-        "pick": "Under 40.5",
-        "marketType": "total",
-        "game": "Seahawks @ Broncos · 7:15 PM CT",
-        "gameState": "pre",
-        "yt": 1,
-        "ytWho": "Doc's (Scott Spritzer) u40.5. Contested: StumpTheSpread o40.5, OddsShopper (Eric Lindquist) o40.5. Action Network lean under (not counted)",
-        "x": 1,
-        "xWho": "off-list: @Winningcappers1 (Sniper Wes) u40.5",
-        "total": 2,
-        "booksAlign": true,
-        "booksAlignWhy": "ats.io Under 40.5 55.0% vs BE 50.5% at −102 → +4.5pp (MinEdge pass); GameLens also Under (52.5%). FPI has no total.",
-        "gap": "Needs 4 more source(s) to reach 6. MinEdge pass.",
-        "rationale": "MinEdge pass but contested 2–2. Total steamed 43.5 → 40.5 (Pinnacle 42.5 → 40.5). 54°F, 8 mph, 20% precip — no weather edge. Both offenses bottom-8 EPA.",
-        "timeCT": "7:15 PM CT",
-        "consensusPct": 50,
-        "line": "U40.5 −102 (DraftKings)"
       }
     ],
     "Soccer": [
@@ -396,9 +377,9 @@
   "slate": "Thu Oct 15 2026 — TNF, CFB, NHL, Europa/Conference League",
   "sport": "multi",
   "defaultSport": "NFL",
-  "status": "gauge",
+  "status": "live",
   "summary": "Thu Oct 15 · INTERIM (9:3x AM CT): 0 CLEARED · 0 GAUGE so far — no card has 6 sources yet. Send-it list is thin this early (props/SGPs only); YouTube metadata/captions were rate-limited on the box, so transcripts are being pulled one by one. Near misses below; full pass to follow.",
-  "clearedCount": 0,
+  "clearedCount": 1,
   "gaugeCount": 1,
   "sports": [
     {
@@ -558,6 +539,32 @@
   },
   "bets": [
     {
+      "id": "thu-cfb-gaso",
+      "example": false,
+      "sport": "CFB",
+      "tier": "cleared",
+      "marketType": "spread",
+      "game": "Georgia Southern @ Old Dominion · 6:30 PM CT",
+      "pick": "Georgia Southern −3.5 / ML",
+      "line": "GASO −3.5 (DraftKings) · ML −180",
+      "gameState": "pre",
+      "consensusPct": 83,
+      "simWinPct": null,
+      "ev": null,
+      "confidence": 83,
+      "why": "YouTube 5: StumpTheSpread; Doc's (Craig Trapp/Indian Cowboy) −3.5; PickDawgz (Brad Francis) −3.5; The Better Mark −3.5 −108 (official best bet); Brock Page −3.5. Not counted: Strike Point/Doc's (GASO ML inside a builder parlay), Action Junkie (1H −2.5, different market), Shy Sports & a Patreon-template channel (AI-scripted). Contested: Cash Out Sports ODU +3.5 (scripted, not counted). X 5: @Winningcappers1 (Sniper Wes) −3.5; @xGoldie5 POTD −3.5; @kingofcollegefb −3.5; @Dataman422 −3.5 (model −3.55); @MMLocks1 −3.5 2U (reposted verbatim by @ESCOBARozct — counted once). Not counted: 3-leg parlay copy ring (@ESCOBARozct/@RIHANNAPARLAY/@carl2_r/@CAPPERKING001/@JoeDeRosags/@bigilocks), @Capperleaked relay of PorterPicks. Contested: @FansOfCFB (PEM model) ODU +3.5; fan replies backing ODU. Books: ats.io GASO ML 67.0% (recommended position; projects 27–21) vs BE 64.3% at −180 → +2.7pp; ESPN FPI 67.3% → +3.0pp. No cited cover % for −3.5 (ats.io margin 6 > 3.5). Fringe X models disagree: PEM (@FansOfCFB) GASO by 0.1, EdgeDesk fair −1.3 — not in the board's model set, flagged.",
+      "rationale": "CLEARED 10:00 CT: 5 YT + 5 X for GASO vs ODU +3.5 from @FansOfCFB (PEM) and Cash Out (uncounted). GASO 5-1 ATS, ODU 126th scoring offense and most sacks allowed; spread moved −2.5 → −3.5 (crossed 3). Edge is on the ML; the −3.5 has no cover probability, so a GASO win by 1–3 is the loss case. ODU QB questionable; GASO without RB M'Badinga and WR Ware.",
+      "sources": {
+        "youtube": 5,
+        "x": 5
+      },
+      "xNote": "",
+      "booksAlign": true,
+      "booksAlignWhy": "ats.io GASO ML 67.0% (recommended position; projects 27–21) vs BE 64.3% at −180 → +2.7pp; ESPN FPI 67.3% → +3.0pp. No cited cover % for −3.5 (ats.io margin 6 > 3.5). Fringe X models disagree: PEM (@FansOfCFB) GASO by 0.1, EdgeDesk fair −1.3 — not in the board's model set, flagged.",
+      "timeCT": "6:30 PM CT",
+      "rank": 1
+    },
+    {
       "id": "thu-nfl-sea-2.5",
       "example": false,
       "sport": "NFL",
@@ -571,17 +578,17 @@
       "simWinPct": null,
       "ev": null,
       "confidence": 70,
-      "why": "YouTube 3: WagerTalk (Steve Merrill) SEA −2.5; BettingPros (Tara Roberts) SEA; StumpTheSpread SEA −2.5. Leans not counted: WagerTalk Jesse Schule, Action Network. X 4: @JTFOz (Covers, list) −2.5 −110; off-list: @harecules −2.5; @401Peck −2.5 4u (identical card reposted by @Quentin_Keon and @blessings154857 — copy ring counted once); @RealStraightFP −2.5 −112. Books: BE 52.8% at −112. GameLens (65% cap caveat) spread pick SEA 61.2% vs ESPN FPI SEA win 52.6% (≈ a pick'em, so <50% to cover −2.5) → model war, not aligned. ats.io projects SEA 20–17 (no cover probability). Splits (@Capper__Connect): 72% of bets / 71% of money on SEA — public side, no sharp split.",
-      "rationale": "GAUGE: 7 sources (3 YT + 4 X) for SEA vs 3 for DEN +2.5 (Cover the Spread, Hold the Phone, @ZoneInSports) = 70% consensus. Thesis: DEN secondary gutted (Surtain, Hufanga out; Moss Q) vs SEA No.1 defense; bounce-back spot. Not CLEARED: models disagree, public-heavy, prime-time dogs 9 straight outright. Line: opened 2.5, touched 3, back to 2.5.",
+      "why": "YouTube 3: WagerTalk (Steve Merrill) SEA −2.5; BettingPros (Tara Roberts) SEA; StumpTheSpread SEA −2.5. Leans not counted: WagerTalk Jesse Schule, Action Network. X 6: @JTFOz (Covers, list) −2.5 −110; off-list: @harecules −2.5; @401Peck −2.5 4u (copy ring with @Quentin_Keon/@blessings154857 counted once); @RealStraightFP −2.5 −112; @MassMoneyline −2.5 −109; @trophysportpick −2.5 4U. Not counted: @Hottie4Sports relays (Silverstein, Jack Jones), @Capperleaked PorterPicks relay. Contested: @MMLocks1 DEN +2.5. Books: BE 52.8% at −112 (51.9% at best −108). AccuScore SEA cover 50.5% (EV −1.4%, 'no value pick'); Dimers SEA −3.5 45.3%, SEA win 58–60%; ESPN FPI SEA 52.6% win; GameLens SEA 61.2%. Every cover model except GameLens is under break-even → not aligned. Splits: 72–74% of bets on SEA, 61–71% of money (public side).",
+      "rationale": "GAUGE: 9 sources (3 YT + 6 X) for SEA vs DEN +2.5 from Cover the Spread, Hold the Phone, @ZoneInSports, @MMLocks1 (≈69% consensus). Thesis: DEN secondary depleted (Surtain doubtful, Hufanga out, Moss Q) vs SEA No.2 defense. Not CLEARED: cited cover models sit under break-even; public side. Line 2.5 → 3 → 2.5.",
       "sources": {
         "youtube": 3,
-        "x": 4
+        "x": 6
       },
       "xNote": "",
       "booksAlign": false,
-      "booksAlignWhy": "BE 52.8% at −112. GameLens (65% cap caveat) spread pick SEA 61.2% vs ESPN FPI SEA win 52.6% (≈ a pick'em, so <50% to cover −2.5) → model war, not aligned. ats.io projects SEA 20–17 (no cover probability). Splits (@Capper__Connect): 72% of bets / 71% of money on SEA — public side, no sharp split.",
+      "booksAlignWhy": "BE 52.8% at −112 (51.9% at best −108). AccuScore SEA cover 50.5% (EV −1.4%, 'no value pick'); Dimers SEA −3.5 45.3%, SEA win 58–60%; ESPN FPI SEA 52.6% win; GameLens SEA 61.2%. Every cover model except GameLens is under break-even → not aligned. Splits: 72–74% of bets on SEA, 61–71% of money (public side).",
       "timeCT": "7:15 PM CT",
-      "rank": 1
+      "rank": 2
     }
   ],
   "deepDive": {
@@ -611,13 +618,28 @@
   },
   "todaysGauge": {
     "title": "Today's Gauge",
-    "label": "Unstarted games only · ESPN status checked 9:23 AM CT · research only",
-    "checkedAt": "9:23 AM CT",
-    "checkedAtIso": "2026-10-15T09:23:14-05:00",
+    "label": "Unstarted games only · ESPN status checked 9:46 AM CT · research only",
+    "checkedAt": "9:46 AM CT",
+    "checkedAtIso": "2026-10-15T09:46:39-05:00",
     "note": "Ranked: CLEARED, then GAUGE, then labeled NEAR MISS fill (under 6 sources, never counted in totals). One pick per game. Research only — no bets placed.",
     "items": [
       {
         "rank": 1,
+        "tier": "CLEARED",
+        "pick": "Georgia Southern −3.5 / ML",
+        "line": "GASO −3.5 (DraftKings) · ML −180",
+        "sport": "CFB",
+        "game": "Georgia Southern @ Old Dominion",
+        "timeCT": "6:30 PM CT",
+        "yt": 5,
+        "x": 5,
+        "booksAlign": true,
+        "edge": "✓ ats.io 67.0% / FPI 67.3% vs BE 64.3% (+2.7/+3.0pp, ML)",
+        "consensusPct": 83,
+        "rationale": "CLEARED 10:00 CT: 5 YT + 5 X for GASO vs ODU +3.5 from @FansOfCFB (PEM) and Cash Out (uncounted). GASO 5-1 ATS, ODU 126th scoring offense and most sacks allowed; spread moved −2.5 → −3.5 (crossed 3). Edge is on the ML; the −3.5 has no cover probability, so a GASO win by 1–3 is the loss case. ODU QB questionable; GASO without RB M'Badinga and WR Ware."
+      },
+      {
+        "rank": 2,
         "tier": "GAUGE",
         "pick": "Seahawks −2.5",
         "line": "SEA −2.5 −112 (DraftKings)",
@@ -625,29 +647,59 @@
         "game": "Seahawks @ Broncos",
         "timeCT": "7:15 PM CT",
         "yt": 3,
-        "x": 4,
+        "x": 6,
         "booksAlign": false,
-        "edge": "✗ model war (GameLens 61.2% vs FPI 52.6% win)",
+        "edge": "✗ AccuScore 50.5% cover < BE 51.9%",
         "consensusPct": 70,
-        "rationale": "GAUGE: 7 sources (3 YT + 4 X) for SEA vs 3 for DEN +2.5 (Cover the Spread, Hold the Phone, @ZoneInSports) = 70% consensus. Thesis: DEN secondary gutted (Surtain, Hufanga out; Moss Q) vs SEA No.1 defense; bounce-back spot. Not CLEARED: models disagree, public-heavy, prime-time dogs 9 straight outright. Line: opened 2.5, touched 3, back to 2.5."
-      },
-      {
-        "rank": 2,
-        "tier": "NEAR MISS",
-        "pick": "Georgia Southern −3.5",
-        "line": "GASO −3.5 (DraftKings) · ML −180",
-        "sport": "CFB",
-        "game": "Georgia Southern @ Old Dominion",
-        "timeCT": "6:30 PM CT",
-        "yt": 3,
-        "x": 1,
-        "booksAlign": true,
-        "edge": "✓ FPI 67.3% vs BE 64.3% (+3.0pp, ML)",
-        "consensusPct": 100,
-        "rationale": "GASO 5-1 ATS vs ODU 1-5 ATS and 126th in total offense; spread moved GASO −2.5 → −3.5. ODU QB questionable; GASO missing RB M'Badinga and WR Ware. 66°F, gusts 15, 27% rain."
+        "rationale": "GAUGE: 9 sources (3 YT + 6 X) for SEA vs DEN +2.5 from Cover the Spread, Hold the Phone, @ZoneInSports, @MMLocks1 (≈69% consensus). Thesis: DEN secondary depleted (Surtain doubtful, Hufanga out, Moss Q) vs SEA No.2 defense. Not CLEARED: cited cover models sit under break-even; public side. Line 2.5 → 3 → 2.5."
       },
       {
         "rank": 3,
+        "tier": "NEAR MISS",
+        "pick": "East Carolina −5.5 / ML",
+        "line": "ECU −5.5 · ML −205 (DraftKings)",
+        "sport": "CFB",
+        "game": "East Carolina @ UAB",
+        "timeCT": "6:30 PM CT",
+        "yt": 2,
+        "x": 3,
+        "booksAlign": true,
+        "edge": "✓ FPI 73.9% vs BE 67.2% (+6.7pp, ML)",
+        "consensusPct": 55,
+        "rationale": "Short: 5 sources (needs 6) and 2 YT (needs 3); contested 5–4 with UAB backers. ECU leads FBS in TFL; UAB allows 126 pass yds/g. Spread moved 6.5/5.5 → 4.5."
+      },
+      {
+        "rank": 4,
+        "tier": "NEAR MISS",
+        "pick": "Rangers ML / +1.5",
+        "line": "NYR +120 to +125",
+        "sport": "NHL",
+        "game": "Rangers @ Devils",
+        "timeCT": "6:00 PM CT",
+        "yt": 2,
+        "x": 3,
+        "booksAlign": true,
+        "edge": "✓ ats.io 49% vs BE 45.5% (+3.5pp)",
+        "consensusPct": 100,
+        "rationale": "Short: 5 sources (needs 6) and 2 YT (needs 3). NYR 6-2 but backup in net (Shesterkin IR); NJ Evangelista may sit."
+      },
+      {
+        "rank": 5,
+        "tier": "NEAR MISS",
+        "pick": "Senators ML",
+        "line": "OTT −155",
+        "sport": "NHL",
+        "game": "Islanders @ Senators",
+        "timeCT": "6:00 PM CT",
+        "yt": 1,
+        "x": 4,
+        "booksAlign": true,
+        "edge": "✓ ats.io 64% vs BE 60.8% (+3.2pp)",
+        "consensusPct": 100,
+        "rationale": "Short: 5 sources (needs 6) and 1 YT (needs 3). Ullmark projected; OTT ≤2 GA in every Ullmark start."
+      },
+      {
+        "rank": 6,
         "tier": "NEAR MISS",
         "pick": "Over 70.5",
         "line": "O70.5 (DraftKings; opened 67.5)",
@@ -662,7 +714,7 @@
         "rationale": "CSU allowed 41/59/56 last 3 and fired its DC; TXST 5th in rushing vs CSU 136th run D; 85°F, light wind."
       },
       {
-        "rank": 4,
+        "rank": 7,
         "tier": "NEAR MISS",
         "pick": "Over 6.5",
         "line": "O6.5 −118/−120",
@@ -677,7 +729,7 @@
         "rationale": "TOR 4 straight overs without Tanev; BUF without Dahlin. Projected goalies Luukkonen vs Bobrovsky (not confirmed)."
       },
       {
-        "rank": 5,
+        "rank": 8,
         "tier": "NEAR MISS",
         "pick": "Over 6.5",
         "line": "O6.5 −115 to −117",
@@ -690,51 +742,6 @@
         "edge": "✗ model war (ats.io O 56% vs GameLens U 60.5%)",
         "consensusPct": 100,
         "rationale": "Both PPs ≥23.8% vs both PKs <75%; H2H in EDM 6-3, 7-1, 4-1; last 4 meetings over. Goalies projected, not confirmed (Vejmelka vs Levi, DailyFaceoff)."
-      },
-      {
-        "rank": 6,
-        "tier": "NEAR MISS",
-        "pick": "Over 6 / 6.5",
-        "line": "O6 −117 · ESPN 6.5",
-        "sport": "NHL",
-        "game": "Kraken @ Lightning",
-        "timeCT": "6:00 PM CT",
-        "yt": 2,
-        "x": 1,
-        "booksAlign": false,
-        "edge": "✗ ats.io projects 5.0",
-        "consensusPct": 100,
-        "rationale": "Same channel, different speakers. Daccord vs Vasilevskiy projected."
-      },
-      {
-        "rank": 7,
-        "tier": "NEAR MISS",
-        "pick": "East Carolina −5.5 / ML",
-        "line": "ECU −5.5 · ML −205 (DraftKings)",
-        "sport": "CFB",
-        "game": "East Carolina @ UAB",
-        "timeCT": "6:30 PM CT",
-        "yt": 2,
-        "x": 0,
-        "booksAlign": true,
-        "edge": "✓ FPI 73.9% vs BE 67.2% (+6.7pp, ML)",
-        "consensusPct": 67,
-        "rationale": "ECU leads FBS in TFL, UAB QB 5 INT/4 TD and 16 sacks allowed; UAB 7th straight week, short rest. Spread drifted UAB +6.5 → +5.5."
-      },
-      {
-        "rank": 8,
-        "tier": "NEAR MISS",
-        "pick": "Rangers ML / +1.5",
-        "line": "NYR +120 to +125",
-        "sport": "NHL",
-        "game": "Rangers @ Devils",
-        "timeCT": "6:00 PM CT",
-        "yt": 2,
-        "x": 0,
-        "booksAlign": true,
-        "edge": "✓ ats.io 49% vs BE 44.4% (+4.6pp)",
-        "consensusPct": 100,
-        "rationale": "NYR 6-2; Garand starting with Shesterkin out; NJ without Hughes/Hamilton."
       }
     ]
   },
