@@ -766,6 +766,14 @@
 
 
   // ---- v3 engine tiers (Clear/Soft/Watch, tier_engine v1.0.0, Oct 17 2026) ----
+  function isFinalRow(o) { return !!o && (o.final === true || String(o.status || "").toUpperCase() === "FINAL"); }
+  function isLiveRow(o) {
+    if (!o || isFinalRow(o)) return false;
+    if (o.live === true || String(o.gameState || "") === "live") return true;
+    var t = Date.parse(o.startCT || o.start_ct || "");
+    return !isNaN(t) && t <= Date.now();
+  }
+  function liveBadge(o) { return isLiveRow(o) ? '<span class="nm-live" title="Started: pre-game tier and sources shown">LIVE</span> ' : ""; }
   function engineBadge(t) {
     var k = String(t || "").toLowerCase();
     if (!k) return "";
@@ -793,7 +801,8 @@
   }
   function renderEngineCard(bet) {
     var cls = "card is-engine etier-card-" + String(bet.engineTier || "").toLowerCase();
-    var badges = (String(bet.gameState || "") === "live" ? '<span class="nm-live">LIVE</span> ' : "") + engineBadge(bet.engineTier) + (bet.edgePlus ? '<span class="tier-tag etier-edge">EDGE+</span>' : "") + (bet.rank != null ? '<span class="rank-badge">#' + escapeHtml(bet.rank) + "</span>" : "") + renderResultBadge(bet.result);
+    if (isFinalRow(bet)) return "";
+    var badges = liveBadge(bet) + engineBadge(bet.engineTier) + (bet.edgePlus ? '<span class="tier-tag etier-edge">EDGE+</span>' : "") + (bet.rank != null ? '<span class="rank-badge">#' + escapeHtml(bet.rank) + "</span>" : "") + renderResultBadge(bet.result);
     return '<article class="' + cls + '" data-id="' + escapeHtml(bet.id) + '">' +
       '<div class="card-top"><div class="pick-block"><p class="pick">' + escapeHtml(bet.pick) + '</p><span class="line">' + escapeHtml(bet.line) + "</span></div>" +
       '<div class="badges">' + badges + "</div></div>" +
@@ -808,8 +817,9 @@
       "</article>";
   }
   function renderEngineNm(n) {
+    if (isFinalRow(n)) return "";
     return '<li class="nm-item is-engine">' +
-      '<div class="nm-pick">' + (String(n.gameState || "") === "live" ? '<span class="nm-live">LIVE</span> ' : "") + engineBadge(n.engineTier) + (n.edgePlus ? ' <span class="tier-tag etier-edge">EDGE+</span>' : "") + " " + escapeHtml(n.pick || "") + ' <span class="nm-price">' + escapeHtml(n.line || "") + "</span></div>" +
+      '<div class="nm-pick">' + liveBadge(n) + engineBadge(n.engineTier) + (n.edgePlus ? ' <span class="tier-tag etier-edge">EDGE+</span>' : "") + " " + escapeHtml(n.pick || "") + ' <span class="nm-price">' + escapeHtml(n.line || "") + "</span></div>" +
       '<div class="nm-game">' + escapeHtml(n.game || "") + "</div>" +
       engineChips(n) +
       '<div class="nm-gap">' + escapeHtml(n.gap || "") + "</div>" +
@@ -903,7 +913,7 @@
     if (!list.length) return "";
     var rows = list.map(function (n) {
       if (n.engineTier) return renderEngineNm(n);
-      var live = n.result ? renderResultBadge(n.result) + " " : (String(n.gameState || "") === "live" ? '<span class="nm-live">LIVE</span> ' : "");
+      var live = n.result ? renderResultBadge(n.result) + " " : liveBadge(n);
       return (
         '<li class="nm-item">' +
           '<div class="nm-pick">' + live + escapeHtml(n.pick || "") + (n.modelOnly ? ' <span class="nm-tag">model-only, 0 sources</span>' : "") + "</div>" +
@@ -1010,20 +1020,20 @@
       nav.parentNode.insertBefore(el, nav);
     }
     if (!el) return;
-    var rows = g.items.map(function (it) {
+    var rows = g.items.filter(function (it) { return !isFinalRow(it); }).map(function (it) {
       var tier = String(it.tier || "").toUpperCase();
       var tcls = (tier === "CLEARED" || tier === "CLEAR") ? "tg-cleared" : ((tier === "GAUGE" || tier === "SOFT") ? "tg-gauge" : "tg-near");
       var edge = (it.edge === null || it.edge === undefined || it.edge === "") ? "no cited model" : it.edge;
       var sc = meterScore(it.yt, it.x, edgePpOf(it), it.booksAlign);
       return (
         '<li class="tg-item ' + tcls + '-item">' +
-          '<span class="tg-rank">' + escapeHtml(String(it.rank)) + "</span>" +
+          '<span class="tg-rank">' + escapeHtml(String(it.rank)) + "</span>" + liveBadge(it) +
           '<div class="tg-body">' +
             '<div class="tg-top"><span class="tg-tier ' + tcls + '">' + escapeHtml(tier === "NEAR MISS" ? "NEAR MISS (<6)" : tier) + "</span>" +
               '<strong class="tg-pick">' + escapeHtml(it.pick || "") + "</strong>" +
               (it.line ? ' <span class="tg-line">' + escapeHtml(it.line) + "</span>" : "") + "</div>" +
             '<div class="tg-meta">' + escapeHtml((it.sport ? it.sport + " · " : "") + (it.game || "") + (it.timeCT ? " · " + it.timeCT : "")) + "</div>" +
-            (it.onBoard !== undefined ? '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) + (it.edge ? " · edge+" : "") + " · " + (it.onBoard ? "on the board" : "under the 6-source floor, watch list") + "</div>" :
+            (it.onBoard !== undefined ? '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) + (it.edge ? " · edge+" : "") + " · " + (it.onBoard ? "on the board" : "under the 4-source floor, watch list") + "</div>" :
             '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) +
               " · booksAlign " + (it.booksAlign ? "✓" : "✗") + " · " + escapeHtml(String(edge)) + "</div>") +
             (it.rationale ? '<div class="tg-why">' + escapeHtml(it.rationale) + "</div>" : "") +
