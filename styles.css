@@ -222,3 +222,20 @@ a{color:var(--accent-ink)}
 .model-charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;margin:12px 0}
 .model-charts figure{margin:0}.model-charts img{width:100%;height:auto;border-radius:8px;background:#fff}
 .model-charts figcaption{font-size:.85em;opacity:.75;margin-top:4px}
+
+/* v3 engine tiers (Oct 17 2026) */
+.etier{font-weight:700;letter-spacing:.04em}
+.etier-clear{background:rgba(34,197,94,.18);color:#22c55e;border:1px solid rgba(34,197,94,.45)}
+.etier-soft{background:rgba(234,179,8,.16);color:#eab308;border:1px solid rgba(234,179,8,.45)}
+.etier-watch{background:rgba(148,163,184,.16);color:#94a3b8;border:1px solid rgba(148,163,184,.4)}
+.etier-edge{background:rgba(59,130,246,.16);color:#60a5fa;border:1px solid rgba(59,130,246,.45);margin-left:4px}
+.card.etier-card-clear{border-left:3px solid #22c55e}.card.etier-card-soft{border-left:3px solid #eab308}.card.etier-card-watch{border-left:3px solid #94a3b8}
+.chip-edge{color:#60a5fa}.chip-warn{color:#f59e0b}
+.rules{margin-top:10px;font-size:.86em}.rules summary{cursor:pointer;opacity:.85}
+.rules ul{list-style:none;padding:0;margin:6px 0 0}.rule{display:grid;grid-template-columns:18px 130px 1fr;gap:6px;padding:3px 0;border-top:1px solid rgba(148,163,184,.12)}
+.rule-pass .rule-ic{color:#22c55e}.rule-fail .rule-ic{color:#ef4444}.rule-na .rule-ic{color:#94a3b8}.rule-fail .rule-id{color:#ef4444}
+.rule-id{text-transform:capitalize;font-weight:600}.rule-why{opacity:.8}
+.provisional-banner{margin:10px 0;padding:10px 14px;border-radius:10px;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.5);color:#f59e0b;font-size:.92em}
+.method-note{padding:10px 14px;border-radius:10px;background:rgba(59,130,246,.1);border:1px solid rgba(59,130,246,.35);margin:10px 0}
+.nm-price{opacity:.75;font-weight:400;margin-left:6px}
+@media (max-width:520px){.rule{grid-template-columns:18px 1fr}.rule-why{grid-column:2}}
