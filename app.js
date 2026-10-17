@@ -788,7 +788,7 @@
       '<span class="source-chip">X ' + escapeHtml(String(s.xSendIt != null ? s.xSendIt : o.x)) + "</span>" +
       '<span class="source-chip">Combined ' + escapeHtml(String(o.combined)) + "</span>";
     if (o.edgePlus) c += '<span class="source-chip chip-edge">edge+' + (o.evPct != null ? " " + escapeHtml(String(o.evPct)) + "% EV" : "") + "</span>";
-    if (o.ytVerified === false && (s.youtube || 0) > 0) c += '<span class="source-chip chip-warn">YT auto \u00b7 unverified</span>';
+    if (o.ytWithUnverified != null && o.ytWithUnverified > (s.youtube || 0)) c += '<span class="source-chip chip-warn">with unverified: ' + o.ytWithUnverified + '</span>';
     return '<div class="sources">' + c + "</div>";
   }
   function renderEngineCard(bet) {
