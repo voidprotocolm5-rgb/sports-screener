@@ -1,1243 +1,44 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-17T10:10:45-05:00",
-  "updatedAtLabel": "Oct 17, 2026 · 10:10 AM CT",
+  "updatedAt": "2026-10-18T09:41:40-05:00",
+  "updatedAtLabel": "Oct 18, 2026 · 9:41 AM CT",
   "nearMiss": {
-    "MLB": [
+    "NFL": [
       {
-        "id": "sat1017-mlb-tampa-bay-rays-ml",
+        "id": "sun1018-nfl-pittsburgh-steelers-2-5",
         "example": false,
-        "sport": "MLB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Tampa Bay Rays @ Cleveland Guardians · 7:00 PM CT",
-        "pick": "Tampa Bay Rays ML",
-        "line": "-108 BetOnline",
-        "timeCT": "7:00 PM CT",
-        "startCT": "2026-10-17T19:00-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-101",
-        "bestOdds": "-108",
-        "bestBook": "BetOnline",
-        "booksPriced": 28,
-        "evPct": -3.22,
-        "edgePlus": false,
-        "consensus": 3.3,
-        "combined": 3.0,
-        "publish": false,
-        "publishReason": "3 combined sources < 4 required",
-        "sources": {
-          "youtube": 3,
-          "ytRaw": 6,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 3.0
-        },
-        "ytWho": "Doc's Sports Picks, Best Bets, Predictions & Odds; Guy Boston Sports; Sports Parlay Picks",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 3,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -101 (pinnacle); 28 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "66% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-108 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 3 independent (accepted videos only; engine-deduped): Doc's Sports Picks, Best Bets, Predictions & Odds, Guy Boston Sports, Sports Parlay Picks. X send-it 0. YT hand-verified 5 of 6 auto-extracted.",
-        "rationale": "Soft: 3 combined sources (floor 4); all gate rules pass.",
-        "confidence": 33,
-        "yt": 3,
-        "x": 0,
-        "total": 3.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (3 combined). Needs 1 more. EV -3.2% vs fair."
-      }
-    ],
-    "UFC": [
-      {
-        "id": "sat1017-ufc-steven-koslow-ml",
-        "example": false,
-        "sport": "UFC",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Steven Koslow @ Chad Anheliger · 5:00 PM CT",
-        "pick": "Steven Koslow ML",
-        "line": "-162 BetRivers",
-        "timeCT": "5:00 PM CT",
-        "startCT": "2026-10-17T17:00-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-157",
-        "bestOdds": "-162",
-        "bestBook": "BetRivers",
-        "booksPriced": 13,
-        "evPct": -1.2,
-        "edgePlus": false,
-        "consensus": 3.0,
-        "combined": 3.0,
-        "publish": false,
-        "publishReason": "3 combined sources < 4 required",
-        "sources": {
-          "youtube": 3,
-          "ytRaw": 3,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 3.0
-        },
-        "ytWho": "Chunder MMA; MMA JOEY; The Die Hard MMA Podcast",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 3,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -157 (pinnacle); 13 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "no home side (UFC/MMA/boxing/tennis or neutral_site): n/a"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-162 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 3 independent (accepted videos only; engine-deduped): Chunder MMA, MMA JOEY, The Die Hard MMA Podcast. X send-it 0.",
-        "rationale": "Soft: 3 combined sources (floor 4); all gate rules pass.",
-        "confidence": 30,
-        "yt": 3,
-        "x": 0,
-        "total": 3.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (3 combined). Needs 1 more. EV -1.2% vs fair."
-      },
-      {
-        "id": "sat1017-ufc-kyle-nelson-ml",
-        "example": false,
-        "sport": "UFC",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Cristian Pérez @ Kyle Nelson · 8:45 PM CT",
-        "pick": "Kyle Nelson ML",
-        "line": "+275 BetRivers",
-        "timeCT": "8:45 PM CT",
-        "startCT": "2026-10-17T20:45-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+293",
-        "bestOdds": "+275",
-        "bestBook": "BetRivers",
-        "booksPriced": 15,
-        "evPct": -4.58,
-        "edgePlus": false,
-        "consensus": 2.2,
-        "combined": 2.0,
-        "publish": false,
-        "publishReason": "2 combined sources < 4 required",
-        "sources": {
-          "youtube": 2,
-          "ytRaw": 4,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 2.0
-        },
-        "ytWho": "Diary of a Pro Gambler; Fight Fiend Forecast",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +293 (pinnacle); 15 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "no home side (UFC/MMA/boxing/tennis or neutral_site): n/a"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+275 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 2 independent (accepted videos only; engine-deduped): Diary of a Pro Gambler, Fight Fiend Forecast. X send-it 0.",
-        "rationale": "Soft: 2 combined sources (floor 4); all gate rules pass.",
-        "confidence": 22,
-        "yt": 2,
-        "x": 0,
-        "total": 2.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (2 combined). Needs 2 more. EV -4.6% vs fair."
-      },
-      {
-        "id": "sat1017-ufc-joel-faglier-ml",
-        "example": false,
-        "sport": "UFC",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Javad Mahjoub @ Joel Faglier · 5:50 PM CT",
-        "pick": "Joel Faglier ML",
-        "line": "-130 BetUS",
-        "timeCT": "5:50 PM CT",
-        "startCT": "2026-10-17T17:50-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-122",
-        "bestOdds": "-130",
-        "bestBook": "BetUS",
-        "booksPriced": 15,
-        "evPct": -2.77,
-        "edgePlus": false,
-        "consensus": 1.3,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 1,
-          "ytRaw": 4,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 1.0
-        },
-        "ytWho": "Uselyis",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -122 (pinnacle); 15 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "no home side (UFC/MMA/boxing/tennis or neutral_site): n/a"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-130 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 1 independent (accepted videos only; engine-deduped): Uselyis. X send-it 0.",
-        "rationale": "Soft: 1 combined sources (floor 4); all gate rules pass.",
-        "confidence": 13,
-        "yt": 1,
-        "x": 0,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. EV -2.8% vs fair."
-      },
-      {
-        "id": "sat1017-ufc-nate-landwehr-ml",
-        "example": false,
-        "sport": "UFC",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Nate Landwehr @ Mandel Nallo · 7:15 PM CT",
-        "pick": "Nate Landwehr ML",
-        "line": "+245 DraftKings",
-        "timeCT": "7:15 PM CT",
-        "startCT": "2026-10-17T19:15-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+269",
-        "bestOdds": "+245",
-        "bestBook": "DraftKings",
-        "booksPriced": 19,
-        "evPct": -6.5,
-        "edgePlus": false,
-        "consensus": 0.3,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 3,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 3,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +269 (pinnacle); 19 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "no home side (UFC/MMA/boxing/tennis or neutral_site): n/a"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+245 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 3,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -6.5% vs fair."
-      },
-      {
-        "id": "sat1017-ufc-julien-leblanc-ml",
-        "example": false,
-        "sport": "UFC",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Nick Galanti @ Julien Leblanc · 6:15 PM CT",
-        "pick": "Julien Leblanc ML",
-        "line": "+490 DraftKings",
-        "timeCT": "6:15 PM CT",
-        "startCT": "2026-10-17T18:15-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+534",
-        "bestOdds": "+490",
-        "bestBook": "DraftKings",
-        "booksPriced": 15,
-        "evPct": -6.94,
-        "edgePlus": false,
-        "consensus": 0.2,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +534 (pinnacle); 15 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "no home side (UFC/MMA/boxing/tennis or neutral_site): n/a"
-          },
-          {
-            "rule": "longshot",
-            "result": "pass",
-            "reason": "+490 longshot flagged; +2% EV requirement skipped per Atlas"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+490 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 2,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -6.9% vs fair."
-      },
-      {
-        "id": "sat1017-ufc-chelsea-chandler-ml",
-        "example": false,
-        "sport": "UFC",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Chelsea Chandler @ Melissa Croden · 4:45 PM CT",
-        "pick": "Chelsea Chandler ML",
-        "line": "+275 DraftKings",
-        "timeCT": "4:45 PM CT",
-        "startCT": "2026-10-17T16:45-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+297",
-        "bestOdds": "+275",
-        "bestBook": "DraftKings",
-        "booksPriced": 14,
-        "evPct": -5.54,
-        "edgePlus": false,
-        "consensus": 0.2,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +297 (pinnacle); 14 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "no home side (UFC/MMA/boxing/tennis or neutral_site): n/a"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+275 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 2,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -5.5% vs fair."
-      },
-      {
-        "id": "sat1017-ufc-jhonata-diniz-ml",
-        "example": false,
-        "sport": "UFC",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Jhonata Diniz @ Tanner Boser · 6:40 PM CT",
-        "pick": "Jhonata Diniz ML",
-        "line": "-200 BetOnline",
-        "timeCT": "6:40 PM CT",
-        "startCT": "2026-10-17T18:40-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-193",
-        "bestOdds": "-200",
-        "bestBook": "BetOnline",
-        "booksPriced": 15,
-        "evPct": -1.19,
-        "edgePlus": false,
-        "consensus": 0.2,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -193 (pinnacle); 15 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "no home side (UFC/MMA/boxing/tennis or neutral_site): n/a"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-200 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 2,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -1.2% vs fair."
-      },
-      {
-        "id": "sat1017-ufc-erin-blanchfield-ml",
-        "example": false,
-        "sport": "UFC",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Jasmine Jasudavicius @ Erin Blanchfield · 9:15 PM CT",
-        "pick": "Erin Blanchfield ML",
-        "line": "-320 BetOnline",
-        "timeCT": "9:15 PM CT",
-        "startCT": "2026-10-17T21:15-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-293",
-        "bestOdds": "-320",
-        "bestBook": "BetOnline",
-        "booksPriced": 19,
-        "evPct": -2.15,
-        "edgePlus": false,
-        "consensus": 0.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 6,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 5,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -293 (pinnacle); 19 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "no home side (UFC/MMA/boxing/tennis or neutral_site): n/a"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "fail",
-            "reason": "-320 shorter than -200 cap (UFC ml)"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "favorite_cap"
-        ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); fails favorite_cap.",
-        "confidence": 1,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. Fails: favorite_cap. EV -2.1% vs fair."
-      }
-    ],
-    "CFB": [
-      {
-        "id": "sat1017-cfb-oregon-7",
-        "example": false,
-        "sport": "CFB",
+        "sport": "NFL",
         "engineTier": "Soft",
         "tier": "gauge",
         "marketType": "spread",
-        "game": "Nebraska Cornhuskers @ Oregon Ducks · 10:00 PM CT",
-        "pick": "Oregon -7",
-        "line": "+101 LowVig",
-        "timeCT": "10:00 PM CT",
-        "startCT": "2026-10-17T22:00-05:00",
+        "game": "Pittsburgh Steelers @ Tampa Bay Buccaneers · 12:00 PM CT",
+        "pick": "Pittsburgh Steelers -2.5",
+        "line": "-104 FanDuel",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-10-18T12:00-05:00",
         "gameState": "pre",
         "live": false,
         "final": false,
         "status": "PRE",
-        "fairOdds": "+107",
-        "bestOdds": "+101",
-        "bestBook": "LowVig",
-        "booksPriced": 14,
-        "evPct": -2.9,
-        "edgePlus": false,
-        "consensus": 3.2,
-        "combined": 3.0,
-        "publish": false,
-        "publishReason": "3 combined sources < 4 required",
-        "sources": {
-          "youtube": 3,
-          "ytRaw": 5,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 3.0
-        },
-        "ytWho": "Free Picks PickDawgz; StumpTheSpread - Free Sports Picks Predictions; WagerTalk TV: Sports Picks and Betting Tips",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 3,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +107 (pinnacle); 14 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "line sits on key number (check push value)"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "26% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+101 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 3 independent (accepted videos only; engine-deduped): Free Picks PickDawgz, StumpTheSpread - Free Sports Picks Predictions, WagerTalk TV: Sports Picks and Betting Tips. X send-it 0. spread -7→-7 since Fri.",
-        "rationale": "Soft: 3 combined sources (floor 4); all gate rules pass.",
-        "confidence": 32,
-        "yt": 3,
-        "x": 0,
-        "total": 3.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (3 combined). Needs 1 more. EV -2.9% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-utah-14-5",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Utah Utes @ Colorado Buffaloes · 9:15 PM CT",
-        "pick": "Utah -14.5",
-        "line": "-108 BetMGM",
-        "timeCT": "9:15 PM CT",
-        "startCT": "2026-10-17T21:15-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-102",
-        "bestOdds": "-108",
-        "bestBook": "BetMGM",
-        "booksPriced": 14,
-        "evPct": -2.75,
+        "fairOdds": "+104",
+        "bestOdds": "-104",
+        "bestBook": "FanDuel",
+        "booksPriced": 21,
+        "evPct": -3.85,
         "edgePlus": false,
         "consensus": 2.5,
-        "combined": 3.0,
+        "combined": 2.25,
         "publish": false,
-        "publishReason": "3 combined sources < 4 required",
-        "sources": {
-          "youtube": 3,
-          "ytRaw": 3,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 3.0
-        },
-        "ytWho": "APE; CBS Sports College Football; Silverback Bets",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 3,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -102 (pinnacle); 14 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "no key-number conflict"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "78% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-108 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 3 independent (accepted videos only; engine-deduped): APE, CBS Sports College Football, Silverback Bets. X send-it 0. spread -14.5→-14.5 since Fri.",
-        "rationale": "Soft: 3 combined sources (floor 4); fails public_bias.",
-        "confidence": 25,
-        "yt": 3,
-        "x": 0,
-        "total": 3.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (3 combined). Needs 1 more. Fails: public_bias. EV -2.8% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-notre-dame-10-5",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Notre Dame Fighting Irish @ BYU Cougars · 6:30 PM CT",
-        "pick": "Notre Dame -10.5",
-        "line": "-110 DraftKings",
-        "timeCT": "6:30 PM CT",
-        "startCT": "2026-10-17T18:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": null,
-        "bestOdds": "-110",
-        "bestBook": "DraftKings",
-        "booksPriced": 8,
-        "evPct": null,
-        "edgePlus": false,
-        "consensus": 3.0,
-        "combined": 3.0,
-        "publish": false,
-        "publishReason": "3 combined sources < 4 required",
+        "publishReason": "2.25 combined sources < 4 required",
         "sources": {
           "youtube": 2,
           "ytRaw": 7,
-          "ytEcho": 0,
-          "xSendIt": 1,
-          "combined": 3.0
-        },
-        "ytWho": "Comics on Canes; Silverback Bets",
-        "xWho": "Covers (JTFOz)",
-        "ytVerified": true,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "fail",
-            "reason": "no fair price (no Pinnacle no-vig; books_priced=8)"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "fail",
-            "reason": "laying -10.5 through key number 10 (-10 or better wanted)"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "37% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-110 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "fair_price",
-          "key_numbers"
-        ],
-        "why": "YouTube 2 independent (accepted videos only; engine-deduped): Comics on Canes, Silverback Bets. X send-it 1: Covers (JTFOz). spread -10.5→-10.5 since Fri; key number 10; YT hand-verified 5 of 7 auto-extracted.",
-        "rationale": "Soft: 3 combined sources (floor 4); fails fair_price, key_numbers.",
-        "confidence": 30,
-        "yt": 2,
-        "x": 1,
-        "total": 3.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (3 combined). Needs 1 more. Fails: fair_price, key_numbers."
-      },
-      {
-        "id": "sat1017-cfb-ucla-2-5",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Wisconsin Badgers @ UCLA Bruins · 6:30 PM CT",
-        "pick": "UCLA -2.5",
-        "line": "-106 LowVig",
-        "timeCT": "6:30 PM CT",
-        "startCT": "2026-10-17T18:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-101",
-        "bestOdds": "-106",
-        "bestBook": "LowVig",
-        "booksPriced": 19,
-        "evPct": -2.35,
-        "edgePlus": false,
-        "consensus": 2.2,
-        "combined": 2.0,
-        "publish": false,
-        "publishReason": "2 combined sources < 4 required",
-        "sources": {
-          "youtube": 2,
-          "ytRaw": 4,
-          "ytEcho": 0,
+          "ytEcho": 1,
           "xSendIt": 0,
-          "combined": 2.0
+          "combined": 2.25
         },
-        "ytWho": "BettingPros; Free Picks PickDawgz",
+        "ytWho": "Degenerate Anonymous-Pod; Sports Parlay Picks",
         "xWho": "",
         "ytVerified": true,
         "ytWithUnverified": 2,
@@ -1245,7 +46,7 @@ window.BET_BOARD_DATA = {
           {
             "rule": "fair_price",
             "result": "pass",
-            "reason": "fair -101 (pinnacle); 19 books priced"
+            "reason": "fair +104 (pinnacle); 21 books priced"
           },
           {
             "rule": "key_numbers",
@@ -1255,1107 +56,12 @@ window.BET_BOARD_DATA = {
           {
             "rule": "public_bias",
             "result": "pass",
-            "reason": "63% tickets on pick side (<70%)"
+            "reason": "67% tickets on pick side (<70%)"
           },
           {
             "rule": "echo_discount",
             "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-106 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 2 independent (accepted videos only; engine-deduped): BettingPros, Free Picks PickDawgz. X send-it 0. spread -2.5→-2.5 since Fri.",
-        "rationale": "Soft: 2 combined sources (floor 4); all gate rules pass.",
-        "confidence": 22,
-        "yt": 2,
-        "x": 0,
-        "total": 2.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (2 combined). Needs 2 more. EV -2.4% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-wake-forest-10",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Wake Forest Demon Deacons @ California Golden Bears · 9:30 PM CT",
-        "pick": "Wake Forest -10",
-        "line": "-106 LowVig",
-        "timeCT": "9:30 PM CT",
-        "startCT": "2026-10-17T21:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-102",
-        "bestOdds": "-106",
-        "bestBook": "LowVig",
-        "booksPriced": 14,
-        "evPct": -1.87,
-        "edgePlus": false,
-        "consensus": 2.1,
-        "combined": 2.0,
-        "publish": false,
-        "publishReason": "2 combined sources < 4 required",
-        "sources": {
-          "youtube": 2,
-          "ytRaw": 3,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 2.0
-        },
-        "ytWho": "Free Picks PickDawgz; Silverback Bets",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -102 (pinnacle); 14 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "line sits on key number (check push value)"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "59% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-106 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 2 independent (accepted videos only; engine-deduped): Free Picks PickDawgz, Silverback Bets. X send-it 0. spread -10→-10 since Fri.",
-        "rationale": "Soft: 2 combined sources (floor 4); all gate rules pass.",
-        "confidence": 21,
-        "yt": 2,
-        "x": 0,
-        "total": 2.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (2 combined). Needs 2 more. EV -1.9% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-missouri-5-5",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Missouri Tigers @ Ole Miss Rebels · 2:30 PM CT",
-        "pick": "Missouri +5.5",
-        "line": "-113 BetRivers",
-        "timeCT": "2:30 PM CT",
-        "startCT": "2026-10-17T14:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-108",
-        "bestOdds": "-113",
-        "bestBook": "BetRivers",
-        "booksPriced": 6,
-        "evPct": -2.13,
-        "edgePlus": false,
-        "consensus": 2.2,
-        "combined": 2.0,
-        "publish": false,
-        "publishReason": "2 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
-          "ytEcho": 0,
-          "xSendIt": 2,
-          "combined": 2.0
-        },
-        "ytWho": "",
-        "xWho": "ItsParlayPete; jr_dimes (+5.5)",
-        "ytVerified": false,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -108 (pinnacle); 6 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "no key-number conflict"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "54% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-113 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 2: ItsParlayPete, jr_dimes (+5.5). spread +5.5→+5.5 since Fri; X posters' line +6.5.",
-        "rationale": "Soft: 2 combined sources (floor 4); all gate rules pass.",
-        "confidence": 22,
-        "yt": 0,
-        "x": 2,
-        "total": 2.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (2 combined). Needs 2 more. EV -2.1% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-michigan-state-7",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Northwestern Wildcats @ Michigan State Spartans · 11:00 AM CT",
-        "pick": "Michigan State +7",
-        "line": "-103 LowVig",
-        "timeCT": "11:00 AM CT",
-        "startCT": "2026-10-17T11:00-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+106",
-        "bestOdds": "-103",
-        "bestBook": "LowVig",
-        "booksPriced": 16,
-        "evPct": -4.33,
-        "edgePlus": false,
-        "consensus": 1.1,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 1,
-          "combined": 1.0
-        },
-        "ytWho": "",
-        "xWho": "jr_dimes",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +106 (pinnacle); 16 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "line sits on key number (check push value)"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "29% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "pass",
-            "reason": "home underdog (lean noted, no score bonus)"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-103 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 1: jr_dimes. spread +7→+7 since Fri; home dog; key number 7.",
-        "rationale": "Soft: 1 combined sources (floor 4); all gate rules pass.",
-        "confidence": 11,
-        "yt": 0,
-        "x": 1,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. EV -4.3% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-over-52-5",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Toledo Rockets @ Eastern Michigan Eagles · 2:30 PM CT",
-        "pick": "Over 52.5",
-        "line": "-108 BetMGM",
-        "timeCT": "2:30 PM CT",
-        "startCT": "2026-10-17T14:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": null,
-        "bestOdds": "-108",
-        "bestBook": "BetMGM",
-        "booksPriced": 9,
-        "evPct": null,
-        "edgePlus": false,
-        "consensus": 1.0,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 0,
-          "ytEcho": 0,
-          "xSendIt": 1,
-          "combined": 1.0
-        },
-        "ytWho": "",
-        "xWho": "__LordPenguin",
-        "ytVerified": false,
-        "ytWithUnverified": null,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "fail",
-            "reason": "no fair price (no Pinnacle no-vig; books_priced=9)"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "40% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "na",
-            "reason": "no YouTube sources"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-108 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "fair_price"
-        ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 1: __LordPenguin.",
-        "rationale": "Soft: 1 combined sources (floor 4); fails fair_price.",
-        "confidence": 10,
-        "yt": 0,
-        "x": 1,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. Fails: fair_price."
-      },
-      {
-        "id": "sat1017-cfb-tulsa-4",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Tulsa Golden Hurricane @ Rice Owls · 3:30 PM CT",
-        "pick": "Tulsa -4",
-        "line": "-114 BetRivers",
-        "timeCT": "3:30 PM CT",
-        "startCT": "2026-10-17T15:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": null,
-        "bestOdds": "-114",
-        "bestBook": "BetRivers",
-        "booksPriced": 4,
-        "evPct": null,
-        "edgePlus": false,
-        "consensus": 1.0,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 0,
-          "ytEcho": 0,
-          "xSendIt": 1,
-          "combined": 1.0
-        },
-        "ytWho": "",
-        "xWho": "G5Jake",
-        "ytVerified": false,
-        "ytWithUnverified": null,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "fail",
-            "reason": "no fair price (no Pinnacle no-vig; books_priced=4)"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "no key-number conflict"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "57% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "na",
-            "reason": "no YouTube sources"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-114 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "fair_price"
-        ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 1: G5Jake.",
-        "rationale": "Soft: 1 combined sources (floor 4); fails fair_price.",
-        "confidence": 10,
-        "yt": 0,
-        "x": 1,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. Fails: fair_price."
-      },
-      {
-        "id": "sat1017-cfb-miami-oh-9-5",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Akron Zips @ Miami (OH) RedHawks · 2:30 PM CT",
-        "pick": "Miami (OH) -9.5",
-        "line": "-109 LowVig",
-        "timeCT": "2:30 PM CT",
-        "startCT": "2026-10-17T14:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-102",
-        "bestOdds": "-109",
-        "bestBook": "LowVig",
-        "booksPriced": 12,
-        "evPct": -3.18,
-        "edgePlus": false,
-        "consensus": 1.0,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 0,
-          "ytEcho": 0,
-          "xSendIt": 1,
-          "combined": 1.0
-        },
-        "ytWho": "",
-        "xWho": "G5Jake",
-        "ytVerified": false,
-        "ytWithUnverified": null,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -102 (pinnacle); 12 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "no key-number conflict"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "66% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "na",
-            "reason": "no YouTube sources"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-109 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 1: G5Jake.",
-        "rationale": "Soft: 1 combined sources (floor 4); all gate rules pass.",
-        "confidence": 10,
-        "yt": 0,
-        "x": 1,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. EV -3.2% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-wyoming-7-5",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Northern Illinois Huskies @ Wyoming Cowboys · 2:30 PM CT",
-        "pick": "Wyoming -7.5",
-        "line": "-110 LowVig",
-        "timeCT": "2:30 PM CT",
-        "startCT": "2026-10-17T14:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-104",
-        "bestOdds": "-110",
-        "bestBook": "LowVig",
-        "booksPriced": 13,
-        "evPct": -2.67,
-        "edgePlus": false,
-        "consensus": 0.5,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 0,
-          "ytEcho": 0,
-          "xSendIt": 1,
-          "combined": 1.0
-        },
-        "ytWho": "",
-        "xWho": "G5Jake",
-        "ytVerified": false,
-        "ytWithUnverified": null,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -104 (pinnacle); 13 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "fail",
-            "reason": "laying -7.5 through key number 7 (-7 or better wanted)"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "64% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "na",
-            "reason": "no YouTube sources"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-110 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "key_numbers"
-        ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 1: G5Jake.",
-        "rationale": "Soft: 1 combined sources (floor 4); fails key_numbers.",
-        "confidence": 5,
-        "yt": 0,
-        "x": 1,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. Fails: key_numbers. EV -2.7% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-kansas-3-5",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Kansas Jayhawks @ Kansas State Wildcats · 11:00 AM CT",
-        "pick": "Kansas +3.5",
-        "line": "-110 MyBookie",
-        "timeCT": "11:00 AM CT",
-        "startCT": "2026-10-17T11:00-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-107",
-        "bestOdds": "-110",
-        "bestBook": "MyBookie",
-        "booksPriced": 21,
-        "evPct": -1.32,
-        "edgePlus": false,
-        "consensus": 1.2,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -107 (pinnacle); 21 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "dog holds the hook over key number"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "46% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-110 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "pass",
-            "reason": "sharp_for: +1.0"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. spread +4.5→+3.5 since Fri.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 12,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -1.3% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-florida-state-20",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Florida State Seminoles @ Miami Hurricanes · 6:00 PM CT",
-        "pick": "Florida State +20",
-        "line": "-110 Bovada",
-        "timeCT": "6:00 PM CT",
-        "startCT": "2026-10-17T18:00-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-101",
-        "bestOdds": "-110",
-        "bestBook": "Bovada",
-        "booksPriced": 5,
-        "evPct": -4.07,
-        "edgePlus": false,
-        "consensus": 1.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -101 (pinnacle); 5 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "no key-number conflict"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "41% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-110 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "pass",
-            "reason": "sharp_for: +1.0"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. spread +21.5→+20 since Fri.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 11,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -4.1% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-georgia-state-8",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Georgia State Panthers @ James Madison Dukes · 11:00 AM CT",
-        "pick": "Georgia State +8",
-        "line": "-106 LowVig",
-        "timeCT": "11:00 AM CT",
-        "startCT": "2026-10-17T11:00-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+101",
-        "bestOdds": "-106",
-        "bestBook": "LowVig",
-        "booksPriced": 8,
-        "evPct": -3.31,
-        "edgePlus": false,
-        "consensus": 1.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +101 (pinnacle); 8 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "no key-number conflict"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "39% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-106 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "pass",
-            "reason": "sharp_for: +1.0"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. spread +10.5→+8 since Fri.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 11,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -3.3% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-penn-state-6",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Penn State Nittany Lions @ Michigan Wolverines · 2:30 PM CT",
-        "pick": "Penn State +6",
-        "line": "-104 LowVig",
-        "timeCT": "2:30 PM CT",
-        "startCT": "2026-10-17T14:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-104",
-        "bestOdds": "-104",
-        "bestBook": "LowVig",
-        "booksPriced": 13,
-        "evPct": -0.0,
-        "edgePlus": false,
-        "consensus": 0.7,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -104 (pinnacle); 13 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "no key-number conflict"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "72% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
+            "reason": "1 echo picks counted at 0.25"
           },
           {
             "rule": "model_agreement",
@@ -2379,8 +85,8 @@ window.BET_BOARD_DATA = {
           },
           {
             "rule": "sharp_move",
-            "result": "pass",
-            "reason": "sharp_for: +1.0"
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
           },
           {
             "rule": "no_hot_hand",
@@ -2388,60 +94,58 @@ window.BET_BOARD_DATA = {
             "reason": "streak/record fields ignored; no hot-hand credit"
           }
         ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. spread +7→+6 since Fri.",
-        "rationale": "Soft: 0 combined sources (floor 4); fails public_bias.",
-        "confidence": 7,
-        "yt": 0,
+        "gateFails": [],
+        "why": "YouTube 2 independent (accepted videos only; engine-deduped): Degenerate Anonymous-Pod, Sports Parlay Picks. X send-it 0.",
+        "rationale": "Soft: 2.25 combined sources (floor 4); all gate rules pass.",
+        "confidence": 25,
+        "yt": 2,
         "x": 0,
-        "total": 0.0,
+        "total": 2.25,
         "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. Fails: public_bias. EV -0.0% vs fair."
+        "gap": "Soft · under the 4-source board floor (2.25 combined). Needs 1.75 more. EV -3.9% vs fair."
       },
       {
-        "id": "sat1017-cfb-virginia-10",
+        "id": "sun1018-nfl-carolina-panthers-3",
         "example": false,
-        "sport": "CFB",
+        "sport": "NFL",
         "engineTier": "Soft",
         "tier": "gauge",
         "marketType": "spread",
-        "game": "Virginia Cavaliers @ SMU Mustangs · 11:00 AM CT",
-        "pick": "Virginia +10",
-        "line": "-110 MyBookie",
-        "timeCT": "11:00 AM CT",
-        "startCT": "2026-10-17T11:00-05:00",
+        "game": "Carolina Panthers @ Philadelphia Eagles · 12:00 PM CT",
+        "pick": "Carolina Panthers -3",
+        "line": "-107 LowVig",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-10-18T12:00-05:00",
         "gameState": "pre",
         "live": false,
         "final": false,
         "status": "PRE",
-        "fairOdds": "-105",
-        "bestOdds": "-110",
-        "bestBook": "MyBookie",
-        "booksPriced": 12,
-        "evPct": -2.22,
+        "fairOdds": "-100",
+        "bestOdds": "-107",
+        "bestBook": "LowVig",
+        "booksPriced": 18,
+        "evPct": -3.27,
         "edgePlus": false,
-        "consensus": 0.2,
-        "combined": 0.0,
+        "consensus": 2.9,
+        "combined": 2.0,
         "publish": false,
-        "publishReason": "0 combined sources < 4 required",
+        "publishReason": "2 combined sources < 4 required",
         "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
+          "youtube": 2,
+          "ytRaw": 11,
           "ytEcho": 0,
           "xSendIt": 0,
-          "combined": 0.0
+          "combined": 2.0
         },
-        "ytWho": "",
+        "ytWho": "Sports Parlay Picks; StratIQAI",
         "xWho": "",
-        "ytVerified": false,
+        "ytVerified": true,
         "ytWithUnverified": 2,
         "rules": [
           {
             "rule": "fair_price",
             "result": "pass",
-            "reason": "fair -105 (pinnacle); 12 books priced"
+            "reason": "fair -100 (pinnacle); 18 books priced"
           },
           {
             "rule": "key_numbers",
@@ -2451,7 +155,7 @@ window.BET_BOARD_DATA = {
           {
             "rule": "public_bias",
             "result": "pass",
-            "reason": "53% tickets on pick side (<70%)"
+            "reason": "60% tickets on pick side (<70%)"
           },
           {
             "rule": "echo_discount",
@@ -2476,7 +180,7 @@ window.BET_BOARD_DATA = {
           {
             "rule": "favorite_cap",
             "result": "pass",
-            "reason": "-110 within -200 cap"
+            "reason": "-107 within -200 cap"
           },
           {
             "rule": "sharp_move",
@@ -2490,447 +194,49 @@ window.BET_BOARD_DATA = {
           }
         ],
         "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. spread +9.5→+10 since Fri.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 2,
-        "yt": 0,
+        "why": "YouTube 2 independent (accepted videos only; engine-deduped): Sports Parlay Picks, StratIQAI. X send-it 0.",
+        "rationale": "Soft: 2 combined sources (floor 4); all gate rules pass.",
+        "confidence": 29,
+        "yt": 2,
         "x": 0,
-        "total": 0.0,
+        "total": 2.0,
         "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -2.2% vs fair."
+        "gap": "Soft · under the 4-source board floor (2 combined). Needs 2 more. EV -3.3% vs fair."
       },
       {
-        "id": "sat1017-cfb-arizona-state-16",
+        "id": "sun1018-nfl-los-angeles-rams-13-5",
         "example": false,
-        "sport": "CFB",
+        "sport": "NFL",
         "engineTier": "Soft",
         "tier": "gauge",
         "marketType": "spread",
-        "game": "Arizona State Sun Devils @ Texas Tech Red Raiders · 2:30 PM CT",
-        "pick": "Arizona State +16",
-        "line": "-110 BetUS",
-        "timeCT": "2:30 PM CT",
-        "startCT": "2026-10-17T14:30-05:00",
+        "game": "Arizona Cardinals @ Los Angeles Rams · 3:05 PM CT",
+        "pick": "Los Angeles Rams -13.5",
+        "line": "+104 Pinnacle",
+        "timeCT": "3:05 PM CT",
+        "startCT": "2026-10-18T15:05-05:00",
         "gameState": "pre",
         "live": false,
         "final": false,
         "status": "PRE",
-        "fairOdds": "-103",
-        "bestOdds": "-110",
-        "bestBook": "BetUS",
-        "booksPriced": 5,
-        "evPct": -3.13,
+        "fairOdds": "+109",
+        "bestOdds": "+104",
+        "bestBook": "Pinnacle",
+        "booksPriced": 1,
+        "evPct": -2.39,
         "edgePlus": false,
-        "consensus": 0.2,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -103 (pinnacle); 5 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "no key-number conflict"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "46% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-110 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. spread +15.5→+16 since Fri.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 2,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -3.1% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-west-virginia-1-5",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Cincinnati Bearcats @ West Virginia Mountaineers · 11:00 AM CT",
-        "pick": "West Virginia -1.5",
-        "line": "-108 DraftKings",
-        "timeCT": "11:00 AM CT",
-        "startCT": "2026-10-17T11:00-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+102",
-        "bestOdds": "-108",
-        "bestBook": "DraftKings",
-        "booksPriced": 17,
-        "evPct": -4.66,
-        "edgePlus": false,
-        "consensus": 0.2,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +102 (pinnacle); 17 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "no key-number conflict"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "55% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-108 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. spread -1.5→-1.5 since Fri.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 2,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -4.7% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-new-mexico-14-5",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "New Mexico Lobos @ Hawaii Rainbow Warriors · 9:30 PM CT",
-        "pick": "New Mexico -14.5",
-        "line": "-103 LowVig",
-        "timeCT": "9:30 PM CT",
-        "startCT": "2026-10-17T21:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+101",
-        "bestOdds": "-103",
-        "bestBook": "LowVig",
-        "booksPriced": 17,
-        "evPct": -1.95,
-        "edgePlus": false,
-        "consensus": 0.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +101 (pinnacle); 17 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "no key-number conflict"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "63% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-103 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. spread -14.5→-14.5 since Fri.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 1,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -1.9% vs fair."
-      },
-      {
-        "id": "sat1017-cfb-san-diego-state-aztecs-7-5",
-        "example": false,
-        "sport": "CFB",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Fresno State Bulldogs @ San Diego State Aztecs · 9:30 PM CT",
-        "pick": "San Diego State Aztecs +7.5",
-        "line": "-110 MyBookie",
-        "timeCT": "9:30 PM CT",
-        "startCT": "2026-10-17T21:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-108",
-        "bestOdds": "-110",
-        "bestBook": "MyBookie",
-        "booksPriced": 13,
-        "evPct": -0.87,
-        "edgePlus": false,
-        "consensus": 0.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -108 (pinnacle); 13 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "pass",
-            "reason": "dog holds the hook over key number"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "44% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "pass",
-            "reason": "home underdog (lean noted, no score bonus)"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-110 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. spread +7.5→+7.5 since Fri.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 1,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -0.9% vs fair."
-      }
-    ],
-    "NHL": [
-      {
-        "id": "sat1017-nhl-ottawa-senators-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Ottawa Senators @ Philadelphia Flyers · 6:10 PM CT",
-        "pick": "Ottawa Senators ML",
-        "line": "-150 Caesars",
-        "timeCT": "6:10 PM CT",
-        "startCT": "2026-10-17T18:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-138",
-        "bestOdds": "-150",
-        "bestBook": "Caesars",
-        "booksPriced": 30,
-        "evPct": -3.36,
-        "edgePlus": false,
-        "consensus": 1.9,
+        "consensus": 2.7,
         "combined": 2.0,
         "publish": false,
         "publishReason": "2 combined sources < 4 required",
         "sources": {
           "youtube": 2,
-          "ytRaw": 6,
+          "ytRaw": 4,
           "ytEcho": 0,
           "xSendIt": 0,
           "combined": 2.0
         },
-        "ytWho": "Pinpi9 Pronóstico; Sports Parlay Picks",
+        "ytWho": "Dappz Sports; Sports Parlay Picks",
         "xWho": "",
         "ytVerified": true,
         "ytWithUnverified": 2,
@@ -2938,2705 +244,12 @@ window.BET_BOARD_DATA = {
           {
             "rule": "fair_price",
             "result": "pass",
-            "reason": "fair -138 (pinnacle); 30 books priced"
+            "reason": "fair +109 (pinnacle); 1 books priced"
           },
           {
             "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "86% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
             "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-150 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 2 independent (accepted videos only; engine-deduped): Pinpi9 Pronóstico, Sports Parlay Picks. X send-it 0. YT hand-verified 5 of 6 auto-extracted.",
-        "rationale": "Soft: 2 combined sources (floor 4); fails public_bias.",
-        "confidence": 19,
-        "yt": 2,
-        "x": 0,
-        "total": 2.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (2 combined). Needs 2 more. Fails: public_bias. EV -3.4% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-carolina-hurricanes-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Carolina Hurricanes @ Winnipeg Jets · 2:40 PM CT",
-        "pick": "Carolina Hurricanes ML",
-        "line": "-195 BetRivers",
-        "timeCT": "2:40 PM CT",
-        "startCT": "2026-10-17T14:40-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-193",
-        "bestOdds": "-195",
-        "bestBook": "BetRivers",
-        "booksPriced": 30,
-        "evPct": -0.35,
-        "edgePlus": false,
-        "consensus": 1.8,
-        "combined": 2.0,
-        "publish": false,
-        "publishReason": "2 combined sources < 4 required",
-        "sources": {
-          "youtube": 2,
-          "ytRaw": 5,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 2.0
-        },
-        "ytWho": "Doc's Sports Picks, Best Bets, Predictions & Odds; Sports Parlay Picks",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -193 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "92% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-195 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 2 independent (accepted videos only; engine-deduped): Doc's Sports Picks, Best Bets, Predictions & Odds, Sports Parlay Picks. X send-it 0.",
-        "rationale": "Soft: 2 combined sources (floor 4); fails public_bias.",
-        "confidence": 18,
-        "yt": 2,
-        "x": 0,
-        "total": 2.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (2 combined). Needs 2 more. Fails: public_bias. EV -0.3% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-san-jose-sharks-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "San Jose Sharks @ Detroit Red Wings · 6:10 PM CT",
-        "pick": "San Jose Sharks ML",
-        "line": "+135 BetMGM",
-        "timeCT": "6:10 PM CT",
-        "startCT": "2026-10-17T18:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+125",
-        "bestOdds": "+135",
-        "bestBook": "BetMGM",
-        "booksPriced": 30,
-        "evPct": 4.44,
-        "edgePlus": true,
-        "consensus": 1.7,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 1,
-          "ytRaw": 3,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 1.0
-        },
-        "ytWho": "Pinpi9 Pronóstico",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +125 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "34% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+135 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 1 independent (accepted videos only; engine-deduped): Pinpi9 Pronóstico. X send-it 0.",
-        "rationale": "Soft: 1 combined sources (floor 4); all gate rules pass; edge+ vs Pinnacle no-vig.",
-        "confidence": 17,
-        "yt": 1,
-        "x": 0,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. EV +4.4% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-dallas-stars-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Dallas Stars @ Chicago Blackhawks · 6:10 PM CT",
-        "pick": "Dallas Stars ML",
-        "line": "-200 Caesars",
-        "timeCT": "6:10 PM CT",
-        "startCT": "2026-10-17T18:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-202",
-        "bestOdds": "-200",
-        "bestBook": "Caesars",
-        "booksPriced": 30,
-        "evPct": 0.33,
-        "edgePlus": true,
-        "consensus": 1.2,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 1,
-          "ytRaw": 3,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 1.0
-        },
-        "ytWho": "Sports Parlay Picks",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -202 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "90% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-200 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 1 independent (accepted videos only; engine-deduped): Sports Parlay Picks. X send-it 0.",
-        "rationale": "Soft: 1 combined sources (floor 4); fails public_bias; edge+ vs Pinnacle no-vig.",
-        "confidence": 12,
-        "yt": 1,
-        "x": 0,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. Fails: public_bias. EV +0.3% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-boston-bruins-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Boston Bruins @ Los Angeles Kings · 8:10 PM CT",
-        "pick": "Boston Bruins ML",
-        "line": "+120 BetRivers",
-        "timeCT": "8:10 PM CT",
-        "startCT": "2026-10-17T20:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+129",
-        "bestOdds": "+120",
-        "bestBook": "BetRivers",
-        "booksPriced": 30,
-        "evPct": -3.93,
-        "edgePlus": false,
-        "consensus": 1.2,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 1,
-          "ytRaw": 3,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 1.0
-        },
-        "ytWho": "KazuPicks",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +129 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "49% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+120 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 1 independent (accepted videos only; engine-deduped): KazuPicks. X send-it 0.",
-        "rationale": "Soft: 1 combined sources (floor 4); all gate rules pass.",
-        "confidence": 12,
-        "yt": 1,
-        "x": 0,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. EV -3.9% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-utah-mammoth-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Edmonton Oilers @ Utah Mammoth · 9:10 PM CT",
-        "pick": "Utah Mammoth ML",
-        "line": "-130 LowVig",
-        "timeCT": "9:10 PM CT",
-        "startCT": "2026-10-17T21:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-121",
-        "bestOdds": "-130",
-        "bestBook": "LowVig",
-        "booksPriced": 30,
-        "evPct": -3.13,
-        "edgePlus": false,
-        "consensus": 0.7,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 1,
-          "ytRaw": 3,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 1.0
-        },
-        "ytWho": "Sports Parlay Picks",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -121 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "76% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-130 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 1 independent (accepted videos only; engine-deduped): Sports Parlay Picks. X send-it 0.",
-        "rationale": "Soft: 1 combined sources (floor 4); fails public_bias.",
-        "confidence": 7,
-        "yt": 1,
-        "x": 0,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. Fails: public_bias. EV -3.1% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-vegas-golden-knights-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Pittsburgh Penguins @ Vegas Golden Knights · 9:10 PM CT",
-        "pick": "Vegas Golden Knights ML",
-        "line": "-200 Caesars",
-        "timeCT": "9:10 PM CT",
-        "startCT": "2026-10-17T21:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-191",
-        "bestOdds": "-200",
-        "bestBook": "Caesars",
-        "booksPriced": 30,
-        "evPct": -1.55,
-        "edgePlus": false,
-        "consensus": 0.7,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 1,
-          "ytRaw": 3,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 1.0
-        },
-        "ytWho": "Sports Parlay Picks",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -191 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "95% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-200 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 1 independent (accepted videos only; engine-deduped): Sports Parlay Picks. X send-it 0.",
-        "rationale": "Soft: 1 combined sources (floor 4); fails public_bias.",
-        "confidence": 7,
-        "yt": 1,
-        "x": 0,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. Fails: public_bias. EV -1.6% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-devils-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "New Jersey Devils @ Washington Capitals · 12:10 PM CT",
-        "pick": "Devils ML",
-        "line": "+105 DraftKings",
-        "timeCT": "12:10 PM CT",
-        "startCT": "2026-10-17T12:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+111",
-        "bestOdds": "+105",
-        "bestBook": "DraftKings",
-        "booksPriced": 30,
-        "evPct": -2.84,
-        "edgePlus": false,
-        "consensus": 1.0,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 0,
-          "ytEcho": 0,
-          "xSendIt": 1,
-          "combined": 1.0
-        },
-        "ytWho": "",
-        "xWho": "jr_dimes",
-        "ytVerified": false,
-        "ytWithUnverified": null,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +111 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "21% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "na",
-            "reason": "no YouTube sources"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+105 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 1: jr_dimes.",
-        "rationale": "Soft: 1 combined sources (floor 4); all gate rules pass.",
-        "confidence": 10,
-        "yt": 0,
-        "x": 1,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. EV -2.8% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-over-6-5",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "New York Rangers @ Columbus Blue Jackets · 6:10 PM CT",
-        "pick": "Over 6.5",
-        "line": "+108 LowVig",
-        "timeCT": "6:10 PM CT",
-        "startCT": "2026-10-17T18:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+111",
-        "bestOdds": "+108",
-        "bestBook": "LowVig",
-        "booksPriced": 14,
-        "evPct": -1.42,
-        "edgePlus": false,
-        "consensus": 0.7,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 1,
-          "ytRaw": 3,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 1.0
-        },
-        "ytWho": "La Jugada",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +111 (pinnacle); 14 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "94% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+108 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 1 independent (accepted videos only; engine-deduped): La Jugada. X send-it 0.",
-        "rationale": "Soft: 1 combined sources (floor 4); fails public_bias.",
-        "confidence": 7,
-        "yt": 1,
-        "x": 0,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. Fails: public_bias. EV -1.4% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-seattle-kraken-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Seattle Kraken @ Florida Panthers · 5:10 PM CT",
-        "pick": "Seattle Kraken ML",
-        "line": "+175 BetRivers",
-        "timeCT": "5:10 PM CT",
-        "startCT": "2026-10-17T17:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+173",
-        "bestOdds": "+175",
-        "bestBook": "BetRivers",
-        "booksPriced": 30,
-        "evPct": 0.73,
-        "edgePlus": true,
-        "consensus": 0.9,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 4,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 0,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +173 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "16% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+175 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass; edge+ vs Pinnacle no-vig.",
-        "confidence": 9,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV +0.7% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-vancouver-canucks-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Vancouver Canucks @ Tampa Bay Lightning · 3:10 PM CT",
-        "pick": "Vancouver Canucks ML",
-        "line": "+400 Caesars",
-        "timeCT": "3:10 PM CT",
-        "startCT": "2026-10-17T15:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+354",
-        "bestOdds": "+400",
-        "bestBook": "Caesars",
-        "booksPriced": 30,
-        "evPct": 10.13,
-        "edgePlus": true,
-        "consensus": 0.6,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +354 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "5% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "pass",
-            "reason": "+400 longshot flagged; +2% EV requirement skipped per Atlas"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+400 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass; edge+ vs Pinnacle no-vig.",
-        "confidence": 6,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV +10.1% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-st-louis-blues-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "St Louis Blues @ Nashville Predators · 7:10 PM CT",
-        "pick": "St Louis Blues ML",
-        "line": "-110 Caesars",
-        "timeCT": "7:10 PM CT",
-        "startCT": "2026-10-17T19:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-105",
-        "bestOdds": "-110",
-        "bestBook": "Caesars",
-        "booksPriced": 30,
-        "evPct": -2.22,
-        "edgePlus": false,
-        "consensus": 0.3,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 3,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 0,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -105 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "56% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-110 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 3,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -2.2% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-new-york-islanders-ml",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "New York Islanders @ Toronto Maple Leafs · 6:10 PM CT",
-        "pick": "New York Islanders ML",
-        "line": "+116 BetRivers",
-        "timeCT": "6:10 PM CT",
-        "startCT": "2026-10-17T18:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+123",
-        "bestOdds": "+116",
-        "bestBook": "BetRivers",
-        "booksPriced": 30,
-        "evPct": -3.14,
-        "edgePlus": false,
-        "consensus": 0.2,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +123 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "15% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+116 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 2,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -3.1% vs fair."
-      },
-      {
-        "id": "sat1017-nhl-over-6-5",
-        "example": false,
-        "sport": "NHL",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Buffalo Sabres @ Montréal Canadiens · 6:10 PM CT",
-        "pick": "Over 6.5",
-        "line": "-108 LowVig",
-        "timeCT": "6:10 PM CT",
-        "startCT": "2026-10-17T18:10-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-100",
-        "bestOdds": "-108",
-        "bestBook": "LowVig",
-        "booksPriced": 21,
-        "evPct": -3.7,
-        "edgePlus": false,
-        "consensus": 0.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -100 (pinnacle); 21 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-108 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 1,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -3.7% vs fair."
-      }
-    ],
-    "Soccer": [
-      {
-        "id": "sat1017-soccer-inter-milan-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Inter Milan @ Bologna · 11:00 AM CT",
-        "pick": "Inter Milan ML",
-        "line": "-168 Bovada",
-        "timeCT": "11:00 AM CT",
-        "startCT": "2026-10-17T11:00-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-158",
-        "bestOdds": "-168",
-        "bestBook": "Bovada",
-        "booksPriced": 31,
-        "evPct": -2.31,
-        "edgePlus": false,
-        "consensus": 0.6,
-        "combined": 1.0,
-        "publish": false,
-        "publishReason": "1 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 1,
-          "combined": 1.0
-        },
-        "ytWho": "",
-        "xWho": "CasaCalcioPicks",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -158 (pinnacle); 31 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "98% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-168 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 1: CasaCalcioPicks. 3-way h2h; 3-way ML.",
-        "rationale": "Soft: 1 combined sources (floor 4); fails public_bias.",
-        "confidence": 6,
-        "yt": 0,
-        "x": 1,
-        "total": 1.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. Fails: public_bias. EV -2.3% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-rb-leipzig-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "RB Leipzig @ Bayern Munich · 11:30 AM CT",
-        "pick": "RB Leipzig ML",
-        "line": "+1080 LowVig",
-        "timeCT": "11:30 AM CT",
-        "startCT": "2026-10-17T11:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+1040",
-        "bestOdds": "+1080",
-        "bestBook": "LowVig",
-        "booksPriced": 30,
-        "evPct": 3.51,
-        "edgePlus": true,
-        "consensus": 0.6,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +1040 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "0% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "soccer away dog caution (HZ ch.21 p.455: -27.2% at best price) - info"
-          },
-          {
-            "rule": "longshot",
-            "result": "pass",
-            "reason": "+1080 longshot flagged; +2% EV requirement skipped per Atlas"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+1080 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass; edge+ vs Pinnacle no-vig.",
-        "confidence": 6,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV +3.5% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-as-roma-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Genoa @ AS Roma · 1:45 PM CT",
-        "pick": "AS Roma ML",
-        "line": "-168 Bovada",
-        "timeCT": "1:45 PM CT",
-        "startCT": "2026-10-17T13:45-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-153",
-        "bestOdds": "-168",
-        "bestBook": "Bovada",
-        "booksPriced": 31,
-        "evPct": -3.53,
-        "edgePlus": false,
-        "consensus": 0.4,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 4,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": true,
-        "ytWithUnverified": 0,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -153 (pinnacle); 31 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-168 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 4,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -3.5% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-aston-villa-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Aston Villa @ Newcastle United · 11:30 AM CT",
-        "pick": "Aston Villa ML",
-        "line": "+191 LowVig",
-        "timeCT": "11:30 AM CT",
-        "startCT": "2026-10-17T11:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+199",
-        "bestOdds": "+191",
-        "bestBook": "LowVig",
-        "booksPriced": 31,
-        "evPct": -2.68,
-        "edgePlus": false,
-        "consensus": 0.2,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +199 (pinnacle); 31 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "41% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "soccer away dog caution (HZ ch.21 p.455: -27.2% at best price) - info"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+191 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 2,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -2.7% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-atlanta-united-fc-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Inter Miami CF @ Atlanta United FC · 6:30 PM CT",
-        "pick": "Atlanta United FC ML",
-        "line": "+240 FanDuel",
-        "timeCT": "6:30 PM CT",
-        "startCT": "2026-10-17T18:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+252",
-        "bestOdds": "+240",
-        "bestBook": "FanDuel",
-        "booksPriced": 30,
-        "evPct": -3.41,
-        "edgePlus": false,
-        "consensus": 0.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +252 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "1% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "soccer: no home-dog lean (HZ ch.21 p.455)"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+240 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 1,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -3.4% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-real-betis-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Barcelona @ Real Betis · 11:30 AM CT",
-        "pick": "Real Betis ML",
-        "line": "+490 FanDuel",
-        "timeCT": "11:30 AM CT",
-        "startCT": "2026-10-17T11:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+494",
-        "bestOdds": "+490",
-        "bestBook": "FanDuel",
-        "booksPriced": 27,
-        "evPct": -0.67,
-        "edgePlus": false,
-        "consensus": 0.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +494 (pinnacle); 27 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "1% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "soccer: no home-dog lean (HZ ch.21 p.455)"
-          },
-          {
-            "rule": "longshot",
-            "result": "pass",
-            "reason": "+490 longshot flagged; +2% EV requirement skipped per Atlas"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+490 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 1,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -0.7% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-valencia-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Athletic Bilbao @ Valencia · 2:00 PM CT",
-        "pick": "Valencia ML",
-        "line": "+237 BetOnline",
-        "timeCT": "2:00 PM CT",
-        "startCT": "2026-10-17T14:00-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+247",
-        "bestOdds": "+237",
-        "bestBook": "BetOnline",
-        "booksPriced": 27,
-        "evPct": -2.88,
-        "edgePlus": false,
-        "consensus": 0.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +247 (pinnacle); 27 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "13% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "soccer: no home-dog lean (HZ ch.21 p.455)"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+237 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 1,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -2.9% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-st-louis-city-sc-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "St. Louis City SC @ Minnesota United FC · 3:30 PM CT",
-        "pick": "St. Louis City SC ML",
-        "line": "+163 LowVig",
-        "timeCT": "3:30 PM CT",
-        "startCT": "2026-10-17T15:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+171",
-        "bestOdds": "+163",
-        "bestBook": "LowVig",
-        "booksPriced": 30,
-        "evPct": -2.95,
-        "edgePlus": false,
-        "consensus": 0.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +171 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "67% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "soccer away dog caution (HZ ch.21 p.455: -27.2% at best price) - info"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+163 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 1,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -3.0% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-chicago-fire-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Chicago Fire @ New England Revolution · 6:30 PM CT",
-        "pick": "Chicago Fire ML",
-        "line": "+180 BetRivers",
-        "timeCT": "6:30 PM CT",
-        "startCT": "2026-10-17T18:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+184",
-        "bestOdds": "+180",
-        "bestBook": "BetRivers",
-        "booksPriced": 30,
-        "evPct": -1.41,
-        "edgePlus": false,
-        "consensus": 0.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +184 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "61% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "soccer away dog caution (HZ ch.21 p.455: -27.2% at best price) - info"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+180 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 1,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -1.4% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-san-jose-earthquakes-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Nashville SC @ San Jose Earthquakes · 9:30 PM CT",
-        "pick": "San Jose Earthquakes ML",
-        "line": "+270 BetUS",
-        "timeCT": "9:30 PM CT",
-        "startCT": "2026-10-17T21:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+279",
-        "bestOdds": "+270",
-        "bestBook": "BetUS",
-        "booksPriced": 30,
-        "evPct": -2.37,
-        "edgePlus": false,
-        "consensus": 0.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +279 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "1% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "soccer: no home-dog lean (HZ ch.21 p.455)"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+270 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 1,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -2.4% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-new-york-city-fc-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Los Angeles FC @ New York City FC · 6:30 PM CT",
-        "pick": "New York City FC ML",
-        "line": "+177 LowVig",
-        "timeCT": "6:30 PM CT",
-        "startCT": "2026-10-17T18:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+185",
-        "bestOdds": "+177",
-        "bestBook": "LowVig",
-        "booksPriced": 30,
-        "evPct": -2.81,
-        "edgePlus": false,
-        "consensus": 0.1,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +185 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "pass",
-            "reason": "24% tickets on pick side (<70%)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "soccer: no home-dog lean (HZ ch.21 p.455)"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+177 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
-        "confidence": 1,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -2.8% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-paris-saint-germain-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Paris Saint Germain @ Strasbourg · 10:15 AM CT",
-        "pick": "Paris Saint Germain ML",
-        "line": "-213 Bovada",
-        "timeCT": "10:15 AM CT",
-        "startCT": "2026-10-17T10:15-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "-208",
-        "bestOdds": "-213",
-        "bestBook": "Bovada",
-        "booksPriced": 27,
-        "evPct": -0.76,
-        "edgePlus": false,
-        "consensus": -0.3,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 2,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 2,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair -208 (pinnacle); 27 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "fail",
-            "reason": "-213 shorter than -200 cap (Soccer ml)"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "favorite_cap"
-        ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); fails favorite_cap.",
-        "confidence": -3,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. Fails: favorite_cap. EV -0.8% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-portland-timbers-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "Colorado Rapids @ Portland Timbers · 9:30 PM CT",
-        "pick": "Portland Timbers ML",
-        "line": "-102 BetMGM",
-        "timeCT": "9:30 PM CT",
-        "startCT": "2026-10-17T21:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+101",
-        "bestOdds": "-102",
-        "bestBook": "BetMGM",
-        "booksPriced": 30,
-        "evPct": -1.47,
-        "edgePlus": false,
-        "consensus": -0.4,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +101 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "91% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-102 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); fails public_bias.",
-        "confidence": -4,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. Fails: public_bias. EV -1.5% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-houston-dynamo-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "FC Dallas @ Houston Dynamo · 7:30 PM CT",
-        "pick": "Houston Dynamo ML",
-        "line": "+133 BetOnline",
-        "timeCT": "7:30 PM CT",
-        "startCT": "2026-10-17T19:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+142",
-        "bestOdds": "+133",
-        "bestBook": "BetOnline",
-        "booksPriced": 30,
-        "evPct": -3.72,
-        "edgePlus": false,
-        "consensus": -0.4,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +142 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
+            "reason": "no key-number conflict"
           },
           {
             "rule": "public_bias",
@@ -5656,208 +269,6 @@ window.BET_BOARD_DATA = {
           {
             "rule": "home_dog_lean",
             "result": "na",
-            "reason": "soccer: no home-dog lean (HZ ch.21 p.455)"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+133 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); fails public_bias.",
-        "confidence": -4,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. Fails: public_bias. EV -3.7% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-la-galaxy-ml",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "moneyline",
-        "game": "San Diego FC @ LA Galaxy · 9:30 PM CT",
-        "pick": "LA Galaxy ML",
-        "line": "+130 BetUS",
-        "timeCT": "9:30 PM CT",
-        "startCT": "2026-10-17T21:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+138",
-        "bestOdds": "+130",
-        "bestBook": "BetUS",
-        "booksPriced": 30,
-        "evPct": -3.36,
-        "edgePlus": false,
-        "consensus": -0.4,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +138 (pinnacle); 30 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "82% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "soccer: no home-dog lean (HZ ch.21 p.455)"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "+130 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gateFails": [
-          "public_bias"
-        ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0. 3-way ML.",
-        "rationale": "Soft: 0 combined sources (floor 4); fails public_bias.",
-        "confidence": -4,
-        "yt": 0,
-        "x": 0,
-        "total": 0.0,
-        "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. Fails: public_bias. EV -3.4% vs fair."
-      },
-      {
-        "id": "sat1017-soccer-over-3-25",
-        "example": false,
-        "sport": "Soccer",
-        "engineTier": "Soft",
-        "tier": "gauge",
-        "marketType": "spread",
-        "game": "Vancouver Whitecaps FC @ Austin FC · 7:30 PM CT",
-        "pick": "Over 3.25",
-        "line": "+102 Bovada",
-        "timeCT": "7:30 PM CT",
-        "startCT": "2026-10-17T19:30-05:00",
-        "gameState": "pre",
-        "live": false,
-        "final": false,
-        "status": "PRE",
-        "fairOdds": "+112",
-        "bestOdds": "+102",
-        "bestBook": "Bovada",
-        "booksPriced": 2,
-        "evPct": -4.72,
-        "edgePlus": false,
-        "consensus": -0.4,
-        "combined": 0.0,
-        "publish": false,
-        "publishReason": "0 combined sources < 4 required",
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
-          "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
-        },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "fair +112 (pinnacle); 2 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "fail",
-            "reason": "90% of tickets on pick side (public side, -0.5)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
             "reason": "not a home dog"
           },
           {
@@ -5868,12 +279,12 @@ window.BET_BOARD_DATA = {
           {
             "rule": "favorite_cap",
             "result": "pass",
-            "reason": "+102 within -200 cap"
+            "reason": "+104 within -200 cap"
           },
           {
             "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
+            "result": "pass",
+            "reason": "sharp_for: +1.0"
           },
           {
             "rule": "no_hot_hand",
@@ -5884,67 +295,67 @@ window.BET_BOARD_DATA = {
         "gateFails": [
           "public_bias"
         ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); fails public_bias.",
-        "confidence": -4,
-        "yt": 0,
+        "why": "YouTube 2 independent (accepted videos only; engine-deduped): Dappz Sports, Sports Parlay Picks. X send-it 0.",
+        "rationale": "Soft: 2 combined sources (floor 4); fails public_bias.",
+        "confidence": 27,
+        "yt": 2,
         "x": 0,
-        "total": 0.0,
+        "total": 2.0,
         "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. Fails: public_bias. EV -4.7% vs fair."
+        "gap": "Soft · under the 4-source board floor (2 combined). Needs 2 more. Fails: public_bias. EV -2.4% vs fair."
       },
       {
-        "id": "sat1017-soccer-over-3-75",
+        "id": "sun1018-nfl-indianapolis-colts-6-5",
         "example": false,
-        "sport": "Soccer",
+        "sport": "NFL",
         "engineTier": "Soft",
         "tier": "gauge",
         "marketType": "spread",
-        "game": "D.C. United @ Orlando City SC · 6:30 PM CT",
-        "pick": "Over 3.75",
+        "game": "Tennessee Titans @ Indianapolis Colts · 12:00 PM CT",
+        "pick": "Indianapolis Colts -6.5",
         "line": "-105 Bovada",
-        "timeCT": "6:30 PM CT",
-        "startCT": "2026-10-17T18:30-05:00",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-10-18T12:00-05:00",
         "gameState": "pre",
         "live": false,
         "final": false,
         "status": "PRE",
-        "fairOdds": "+106",
+        "fairOdds": "+103",
         "bestOdds": "-105",
         "bestBook": "Bovada",
-        "booksPriced": 2,
-        "evPct": -5.22,
+        "booksPriced": 23,
+        "evPct": -3.82,
         "edgePlus": false,
-        "consensus": -0.4,
-        "combined": 0.0,
+        "consensus": 1.6,
+        "combined": 2.0,
         "publish": false,
-        "publishReason": "0 combined sources < 4 required",
+        "publishReason": "2 combined sources < 4 required",
         "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
+          "youtube": 2,
+          "ytRaw": 3,
           "ytEcho": 0,
           "xSendIt": 0,
-          "combined": 0.0
+          "combined": 2.0
         },
-        "ytWho": "",
+        "ytWho": "ParlaySafari; Sports Parlay Picks",
         "xWho": "",
-        "ytVerified": false,
-        "ytWithUnverified": 1,
+        "ytVerified": true,
+        "ytWithUnverified": 2,
         "rules": [
           {
             "rule": "fair_price",
             "result": "pass",
-            "reason": "fair +106 (pinnacle); 2 books priced"
+            "reason": "fair +103 (pinnacle); 23 books priced"
           },
           {
             "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
+            "result": "pass",
+            "reason": "no key-number conflict"
           },
           {
             "rule": "public_bias",
             "result": "fail",
-            "reason": "85% of tickets on pick side (public side, -0.5)"
+            "reason": "77% of tickets on pick side (public side, -0.5)"
           },
           {
             "rule": "echo_discount",
@@ -5985,67 +396,67 @@ window.BET_BOARD_DATA = {
         "gateFails": [
           "public_bias"
         ],
-        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
-        "rationale": "Soft: 0 combined sources (floor 4); fails public_bias.",
-        "confidence": -4,
-        "yt": 0,
+        "why": "YouTube 2 independent (accepted videos only; engine-deduped): ParlaySafari, Sports Parlay Picks. X send-it 0.",
+        "rationale": "Soft: 2 combined sources (floor 4); fails public_bias.",
+        "confidence": 16,
+        "yt": 2,
         "x": 0,
-        "total": 0.0,
+        "total": 2.0,
         "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. Fails: public_bias. EV -5.2% vs fair."
+        "gap": "Soft · under the 4-source board floor (2 combined). Needs 2 more. Fails: public_bias. EV -3.8% vs fair."
       },
       {
-        "id": "sat1017-soccer-over-3-75",
+        "id": "sun1018-nfl-new-york-jets-7-5",
         "example": false,
-        "sport": "Soccer",
+        "sport": "NFL",
         "engineTier": "Soft",
         "tier": "gauge",
         "marketType": "spread",
-        "game": "Charlotte FC @ Philadelphia Union · 1:30 PM CT",
-        "pick": "Over 3.75",
-        "line": "-118 Bovada",
-        "timeCT": "1:30 PM CT",
-        "startCT": "2026-10-17T13:30-05:00",
+        "game": "New York Jets @ New England Patriots · 12:00 PM CT",
+        "pick": "New York Jets +7.5",
+        "line": "-112 DraftKings",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-10-18T12:00-05:00",
         "gameState": "pre",
         "live": false,
         "final": false,
         "status": "PRE",
-        "fairOdds": "-107",
-        "bestOdds": "-118",
-        "bestBook": "Bovada",
-        "booksPriced": 2,
-        "evPct": -4.5,
+        "fairOdds": "-111",
+        "bestOdds": "-112",
+        "bestBook": "DraftKings",
+        "booksPriced": 16,
+        "evPct": -0.42,
         "edgePlus": false,
-        "consensus": -0.4,
-        "combined": 0.0,
+        "consensus": 2.2,
+        "combined": 2.0,
         "publish": false,
-        "publishReason": "0 combined sources < 4 required",
+        "publishReason": "2 combined sources < 4 required",
         "sources": {
-          "youtube": 0,
-          "ytRaw": 1,
+          "youtube": 1,
+          "ytRaw": 3,
           "ytEcho": 0,
-          "xSendIt": 0,
-          "combined": 0.0
+          "xSendIt": 1,
+          "combined": 2.0
         },
-        "ytWho": "",
-        "xWho": "",
-        "ytVerified": false,
+        "ytWho": "AI Sports Predictor",
+        "xWho": "ActionNetworkHQ",
+        "ytVerified": true,
         "ytWithUnverified": 1,
         "rules": [
           {
             "rule": "fair_price",
             "result": "pass",
-            "reason": "fair -107 (pinnacle); 2 books priced"
+            "reason": "fair -111 (pinnacle); 16 books priced"
           },
           {
             "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
+            "result": "pass",
+            "reason": "dog holds the hook over key number"
           },
           {
             "rule": "public_bias",
-            "result": "fail",
-            "reason": "85% of tickets on pick side (public side, -0.5)"
+            "result": "pass",
+            "reason": "25% tickets on pick side (<70%)"
           },
           {
             "rule": "echo_discount",
@@ -6070,7 +481,1602 @@ window.BET_BOARD_DATA = {
           {
             "rule": "favorite_cap",
             "result": "pass",
-            "reason": "-118 within -200 cap"
+            "reason": "-112 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 1 independent (accepted videos only; engine-deduped): AI Sports Predictor. X send-it 1: ActionNetworkHQ.",
+        "rationale": "Soft: 2 combined sources (floor 4); all gate rules pass.",
+        "confidence": 22,
+        "yt": 1,
+        "x": 1,
+        "total": 2.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (2 combined). Needs 2 more. EV -0.4% vs fair."
+      },
+      {
+        "id": "sun1018-nfl-atlanta-falcons-ml",
+        "example": false,
+        "sport": "NFL",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "moneyline",
+        "game": "Chicago Bears @ Atlanta Falcons · 12:00 PM CT",
+        "pick": "Atlanta Falcons ML",
+        "line": "+100 DraftKings",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-10-18T12:00-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "+106",
+        "bestOdds": "+100",
+        "bestBook": "DraftKings",
+        "booksPriced": 24,
+        "evPct": -2.91,
+        "edgePlus": false,
+        "consensus": 1.0,
+        "combined": 1.0,
+        "publish": false,
+        "publishReason": "1 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 0,
+          "ytEcho": 0,
+          "xSendIt": 1,
+          "combined": 1.0
+        },
+        "ytWho": "",
+        "xWho": "ActionNetworkHQ",
+        "ytVerified": false,
+        "ytWithUnverified": null,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair +106 (pinnacle); 24 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "na",
+            "reason": "football spreads only"
+          },
+          {
+            "rule": "public_bias",
+            "result": "pass",
+            "reason": "44% tickets on pick side (<70%)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "na",
+            "reason": "no YouTube sources"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "pass",
+            "reason": "home underdog (lean noted, no score bonus)"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "+100 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 1: ActionNetworkHQ.",
+        "rationale": "Soft: 1 combined sources (floor 4); all gate rules pass.",
+        "confidence": 10,
+        "yt": 0,
+        "x": 1,
+        "total": 1.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. EV -2.9% vs fair."
+      },
+      {
+        "id": "sun1018-nfl-buffalo-bills-4-5",
+        "example": false,
+        "sport": "NFL",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "spread",
+        "game": "Buffalo Bills @ Las Vegas Raiders · 3:25 PM CT",
+        "pick": "Buffalo Bills -4.5",
+        "line": "-107 LowVig",
+        "timeCT": "3:25 PM CT",
+        "startCT": "2026-10-18T15:25-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "-106",
+        "bestOdds": "-107",
+        "bestBook": "LowVig",
+        "booksPriced": 13,
+        "evPct": -0.45,
+        "edgePlus": false,
+        "consensus": 1.3,
+        "combined": 1.0,
+        "publish": false,
+        "publishReason": "1 combined sources < 4 required",
+        "sources": {
+          "youtube": 1,
+          "ytRaw": 4,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 1.0
+        },
+        "ytWho": "Sports Parlay Picks",
+        "xWho": "",
+        "ytVerified": true,
+        "ytWithUnverified": 1,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair -106 (pinnacle); 13 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "pass",
+            "reason": "no key-number conflict"
+          },
+          {
+            "rule": "public_bias",
+            "result": "pass",
+            "reason": "66% tickets on pick side (<70%)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "not a home dog"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "-107 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 1 independent (accepted videos only; engine-deduped): Sports Parlay Picks. X send-it 0.",
+        "rationale": "Soft: 1 combined sources (floor 4); all gate rules pass.",
+        "confidence": 13,
+        "yt": 1,
+        "x": 0,
+        "total": 1.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. EV -0.5% vs fair."
+      },
+      {
+        "id": "sun1018-nfl-los-angeles-chargers-8",
+        "example": false,
+        "sport": "NFL",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "spread",
+        "game": "Los Angeles Chargers @ Kansas City Chiefs · 3:25 PM CT",
+        "pick": "Los Angeles Chargers +8",
+        "line": "-115 BetUS",
+        "timeCT": "3:25 PM CT",
+        "startCT": "2026-10-18T15:25-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "-116",
+        "bestOdds": "-115",
+        "bestBook": "BetUS",
+        "booksPriced": 2,
+        "evPct": 0.4,
+        "edgePlus": true,
+        "consensus": 0.8,
+        "combined": 0.0,
+        "publish": false,
+        "publishReason": "0 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 3,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "ytWho": "",
+        "xWho": "",
+        "ytVerified": false,
+        "ytWithUnverified": 2,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair -116 (pinnacle); 2 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "pass",
+            "reason": "no key-number conflict"
+          },
+          {
+            "rule": "public_bias",
+            "result": "pass",
+            "reason": "32% tickets on pick side (<70%)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "not a home dog"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "-115 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
+        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass; edge+ vs Pinnacle no-vig.",
+        "confidence": 8,
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV +0.4% vs fair."
+      },
+      {
+        "id": "sun1018-nfl-new-orleans-saints-1",
+        "example": false,
+        "sport": "NFL",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "spread",
+        "game": "New Orleans Saints @ New York Giants · 12:00 PM CT",
+        "pick": "New Orleans Saints -1",
+        "line": "-105 BetMGM",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-10-18T12:00-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "+104",
+        "bestOdds": "-105",
+        "bestBook": "BetMGM",
+        "booksPriced": 5,
+        "evPct": -4.3,
+        "edgePlus": false,
+        "consensus": 1.1,
+        "combined": 0.0,
+        "publish": false,
+        "publishReason": "0 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 1,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "ytWho": "",
+        "xWho": "",
+        "ytVerified": false,
+        "ytWithUnverified": 1,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair +104 (pinnacle); 5 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "pass",
+            "reason": "no key-number conflict"
+          },
+          {
+            "rule": "public_bias",
+            "result": "pass",
+            "reason": "46% tickets on pick side (<70%)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "not a home dog"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "-105 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "pass",
+            "reason": "sharp_for: +1.0"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
+        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
+        "confidence": 11,
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -4.3% vs fair."
+      },
+      {
+        "id": "sun1018-nfl-cleveland-browns-3",
+        "example": false,
+        "sport": "NFL",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "spread",
+        "game": "Baltimore Ravens @ Cleveland Browns · 12:00 PM CT",
+        "pick": "Cleveland Browns +3",
+        "line": "+102 LowVig",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-10-18T12:00-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "+108",
+        "bestOdds": "+102",
+        "bestBook": "LowVig",
+        "booksPriced": 12,
+        "evPct": -2.88,
+        "edgePlus": false,
+        "consensus": 1.1,
+        "combined": 0.0,
+        "publish": false,
+        "publishReason": "0 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 1,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "ytWho": "",
+        "xWho": "",
+        "ytVerified": false,
+        "ytWithUnverified": 1,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair +108 (pinnacle); 12 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "pass",
+            "reason": "line sits on key number (check push value)"
+          },
+          {
+            "rule": "public_bias",
+            "result": "pass",
+            "reason": "44% tickets on pick side (<70%)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "pass",
+            "reason": "home underdog (lean noted, no score bonus)"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "+102 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "pass",
+            "reason": "sharp_for: +1.0"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
+        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
+        "confidence": 11,
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -2.9% vs fair."
+      },
+      {
+        "id": "sun1018-nfl-dallas-cowboys-1",
+        "example": false,
+        "sport": "NFL",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "spread",
+        "game": "Dallas Cowboys @ Green Bay Packers · 7:20 PM CT",
+        "pick": "Dallas Cowboys +1",
+        "line": "-108 BetRivers",
+        "timeCT": "7:20 PM CT",
+        "startCT": "2026-10-18T19:20-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "-104",
+        "bestOdds": "-108",
+        "bestBook": "BetRivers",
+        "booksPriced": 13,
+        "evPct": -1.82,
+        "edgePlus": false,
+        "consensus": 0.3,
+        "combined": 0.0,
+        "publish": false,
+        "publishReason": "0 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 3,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "ytWho": "",
+        "xWho": "",
+        "ytVerified": true,
+        "ytWithUnverified": 0,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair -104 (pinnacle); 13 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "pass",
+            "reason": "no key-number conflict"
+          },
+          {
+            "rule": "public_bias",
+            "result": "pass",
+            "reason": "62% tickets on pick side (<70%)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "not a home dog"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "-108 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
+        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
+        "confidence": 3,
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -1.8% vs fair."
+      }
+    ],
+    "NHL": [
+      {
+        "id": "sun1018-nhl-carolina-hurricanes-ml",
+        "example": false,
+        "sport": "NHL",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "moneyline",
+        "game": "Carolina Hurricanes @ Calgary Flames · 7:10 PM CT",
+        "pick": "Carolina Hurricanes ML",
+        "line": "-215 BetOnline",
+        "timeCT": "7:10 PM CT",
+        "startCT": "2026-10-18T19:10-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "-200",
+        "bestOdds": "-215",
+        "bestBook": "BetOnline",
+        "booksPriced": 29,
+        "evPct": -2.33,
+        "edgePlus": false,
+        "consensus": 1.2,
+        "combined": 1.0,
+        "publish": false,
+        "publishReason": "1 combined sources < 4 required",
+        "sources": {
+          "youtube": 1,
+          "ytRaw": 13,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 1.0
+        },
+        "ytWho": "Sports Parlay Picks",
+        "xWho": "",
+        "ytVerified": true,
+        "ytWithUnverified": 1,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair -200 (pinnacle); 29 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "na",
+            "reason": "football spreads only"
+          },
+          {
+            "rule": "public_bias",
+            "result": "fail",
+            "reason": "88% of tickets on pick side (public side, -0.5)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "not a home dog"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "fail",
+            "reason": "-215 shorter than -200 cap (NHL ml)"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [
+          "public_bias",
+          "favorite_cap"
+        ],
+        "why": "YouTube 1 independent (accepted videos only; engine-deduped): Sports Parlay Picks. X send-it 0.",
+        "rationale": "Soft: 1 combined sources (floor 4); fails public_bias, favorite_cap.",
+        "confidence": 12,
+        "yt": 1,
+        "x": 0,
+        "total": 1.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. Fails: public_bias, favorite_cap. EV -2.3% vs fair."
+      },
+      {
+        "id": "sun1018-nhl-minnesota-wild-ml",
+        "example": false,
+        "sport": "NHL",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "moneyline",
+        "game": "Columbus Blue Jackets @ Minnesota Wild · 5:10 PM CT",
+        "pick": "Minnesota Wild ML",
+        "line": "-180 LowVig",
+        "timeCT": "5:10 PM CT",
+        "startCT": "2026-10-18T17:10-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "-168",
+        "bestOdds": "-180",
+        "bestBook": "LowVig",
+        "booksPriced": 29,
+        "evPct": -2.49,
+        "edgePlus": false,
+        "consensus": 0.8,
+        "combined": 1.0,
+        "publish": false,
+        "publishReason": "1 combined sources < 4 required",
+        "sources": {
+          "youtube": 1,
+          "ytRaw": 4,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 1.0
+        },
+        "ytWho": "Sports Parlay Picks",
+        "xWho": "",
+        "ytVerified": true,
+        "ytWithUnverified": 1,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair -168 (pinnacle); 29 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "na",
+            "reason": "football spreads only"
+          },
+          {
+            "rule": "public_bias",
+            "result": "fail",
+            "reason": "87% of tickets on pick side (public side, -0.5)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "not a home dog"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "-180 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [
+          "public_bias"
+        ],
+        "why": "YouTube 1 independent (accepted videos only; engine-deduped): Sports Parlay Picks. X send-it 0.",
+        "rationale": "Soft: 1 combined sources (floor 4); fails public_bias.",
+        "confidence": 8,
+        "yt": 1,
+        "x": 0,
+        "total": 1.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. Fails: public_bias. EV -2.5% vs fair."
+      }
+    ],
+    "Soccer": [
+      {
+        "id": "sun1018-soccer-under-2-5",
+        "example": false,
+        "sport": "Soccer",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "spread",
+        "game": "Arsenal @ Nottingham Forest · 10:30 AM CT",
+        "pick": "Under 2.5",
+        "line": "+100 Bovada",
+        "timeCT": "10:30 AM CT",
+        "startCT": "2026-10-18T10:30-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "+105",
+        "bestOdds": "+100",
+        "bestBook": "Bovada",
+        "booksPriced": 23,
+        "evPct": -2.44,
+        "edgePlus": false,
+        "consensus": 1.0,
+        "combined": 1.0,
+        "publish": false,
+        "publishReason": "1 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 0,
+          "ytEcho": 0,
+          "xSendIt": 1,
+          "combined": 1.0
+        },
+        "ytWho": "",
+        "xWho": "ItsParlayPete",
+        "ytVerified": false,
+        "ytWithUnverified": null,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair +105 (pinnacle); 23 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "na",
+            "reason": "football spreads only"
+          },
+          {
+            "rule": "public_bias",
+            "result": "pass",
+            "reason": "9% tickets on pick side (<70%)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "na",
+            "reason": "no YouTube sources"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "not a home dog"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "+100 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 1: ItsParlayPete.",
+        "rationale": "Soft: 1 combined sources (floor 4); all gate rules pass.",
+        "confidence": 10,
+        "yt": 0,
+        "x": 1,
+        "total": 1.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. EV -2.4% vs fair."
+      },
+      {
+        "id": "sun1018-soccer-fortuna-sittard-0-75",
+        "example": false,
+        "sport": "Soccer",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "spread",
+        "game": "Fortuna Sittard @ NEC Nijmegen · 1:00 PM CT",
+        "pick": "Fortuna Sittard +0.75",
+        "line": "-108 Bovada",
+        "timeCT": "1:00 PM CT",
+        "startCT": "2026-10-18T13:00-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "+101",
+        "bestOdds": "-108",
+        "bestBook": "Bovada",
+        "booksPriced": 3,
+        "evPct": -4.18,
+        "edgePlus": false,
+        "consensus": 1.0,
+        "combined": 1.0,
+        "publish": false,
+        "publishReason": "1 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 0,
+          "ytEcho": 0,
+          "xSendIt": 1,
+          "combined": 1.0
+        },
+        "ytWho": "",
+        "xWho": "ItsParlayPete",
+        "ytVerified": false,
+        "ytWithUnverified": null,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair +101 (pinnacle); 3 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "na",
+            "reason": "football spreads only"
+          },
+          {
+            "rule": "public_bias",
+            "result": "na",
+            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "na",
+            "reason": "no YouTube sources"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "soccer away dog caution (HZ ch.21 p.455: -27.2% at best price) - info"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "-108 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 1: ItsParlayPete.",
+        "rationale": "Soft: 1 combined sources (floor 4); all gate rules pass.",
+        "confidence": 10,
+        "yt": 0,
+        "x": 1,
+        "total": 1.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (1 combined). Needs 3 more. EV -4.2% vs fair."
+      },
+      {
+        "id": "sun1018-soccer-as-monaco-ml",
+        "example": false,
+        "sport": "Soccer",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "moneyline",
+        "game": "AS Monaco @ Lorient · 10:15 AM CT",
+        "pick": "AS Monaco ML",
+        "line": "+113 BetOnline",
+        "timeCT": "10:15 AM CT",
+        "startCT": "2026-10-18T10:15-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "+118",
+        "bestOdds": "+113",
+        "bestBook": "BetOnline",
+        "booksPriced": 28,
+        "evPct": -2.29,
+        "edgePlus": false,
+        "consensus": 0.2,
+        "combined": 0.0,
+        "publish": false,
+        "publishReason": "0 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 2,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "ytWho": "",
+        "xWho": "",
+        "ytVerified": false,
+        "ytWithUnverified": 2,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair +118 (pinnacle); 28 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "na",
+            "reason": "football spreads only"
+          },
+          {
+            "rule": "public_bias",
+            "result": "na",
+            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "soccer away dog caution (HZ ch.21 p.455: -27.2% at best price) - info"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "+113 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
+        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
+        "confidence": 2,
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -2.3% vs fair."
+      },
+      {
+        "id": "sun1018-soccer-lazio-ml",
+        "example": false,
+        "sport": "Soccer",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "moneyline",
+        "game": "Lazio @ Juventus · 1:45 PM CT",
+        "pick": "Lazio ML",
+        "line": "+532 BetOnline",
+        "timeCT": "1:45 PM CT",
+        "startCT": "2026-10-18T13:45-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "+547",
+        "bestOdds": "+532",
+        "bestBook": "BetOnline",
+        "booksPriced": 30,
+        "evPct": -2.32,
+        "edgePlus": false,
+        "consensus": 0.2,
+        "combined": 0.0,
+        "publish": false,
+        "publishReason": "0 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 2,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "ytWho": "",
+        "xWho": "",
+        "ytVerified": false,
+        "ytWithUnverified": 2,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair +547 (pinnacle); 30 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "na",
+            "reason": "football spreads only"
+          },
+          {
+            "rule": "public_bias",
+            "result": "pass",
+            "reason": "5% tickets on pick side (<70%)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "soccer away dog caution (HZ ch.21 p.455: -27.2% at best price) - info"
+          },
+          {
+            "rule": "longshot",
+            "result": "pass",
+            "reason": "+532 longshot flagged; +2% EV requirement skipped per Atlas"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "+532 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
+        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
+        "confidence": 2,
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -2.3% vs fair."
+      },
+      {
+        "id": "sun1018-soccer-ajax-ml",
+        "example": false,
+        "sport": "Soccer",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "moneyline",
+        "game": "Ajax @ Groningen · 9:45 AM CT",
+        "pick": "Ajax ML",
+        "line": "-105 DraftKings",
+        "timeCT": "9:45 AM CT",
+        "startCT": "2026-10-18T09:45-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "+104",
+        "bestOdds": "-105",
+        "bestBook": "DraftKings",
+        "booksPriced": 29,
+        "evPct": -4.3,
+        "edgePlus": false,
+        "consensus": 0.1,
+        "combined": 0.0,
+        "publish": false,
+        "publishReason": "0 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 1,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "ytWho": "",
+        "xWho": "",
+        "ytVerified": false,
+        "ytWithUnverified": 1,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair +104 (pinnacle); 29 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "na",
+            "reason": "football spreads only"
+          },
+          {
+            "rule": "public_bias",
+            "result": "na",
+            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "not a home dog"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "-105 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
+        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
+        "confidence": 1,
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -4.3% vs fair."
+      },
+      {
+        "id": "sun1018-soccer-m-laga-ml",
+        "example": false,
+        "sport": "Soccer",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "moneyline",
+        "game": "Real Sociedad @ Málaga · 11:30 AM CT",
+        "pick": "Málaga ML",
+        "line": "+216 LowVig",
+        "timeCT": "11:30 AM CT",
+        "startCT": "2026-10-18T11:30-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "+231",
+        "bestOdds": "+216",
+        "bestBook": "LowVig",
+        "booksPriced": 27,
+        "evPct": -4.53,
+        "edgePlus": false,
+        "consensus": 0.1,
+        "combined": 0.0,
+        "publish": false,
+        "publishReason": "0 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 1,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "ytWho": "",
+        "xWho": "",
+        "ytVerified": false,
+        "ytWithUnverified": 1,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair +231 (pinnacle); 27 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "na",
+            "reason": "football spreads only"
+          },
+          {
+            "rule": "public_bias",
+            "result": "na",
+            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "soccer: no home-dog lean (HZ ch.21 p.455)"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "+216 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
+        "rationale": "Soft: 0 combined sources (floor 4); all gate rules pass.",
+        "confidence": 1,
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. EV -4.5% vs fair."
+      },
+      {
+        "id": "sun1018-soccer-ac-milan-ml",
+        "example": false,
+        "sport": "Soccer",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "moneyline",
+        "game": "Atalanta BC @ AC Milan · 11:00 AM CT",
+        "pick": "AC Milan ML",
+        "line": "-139 Bovada",
+        "timeCT": "11:00 AM CT",
+        "startCT": "2026-10-18T11:00-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "-132",
+        "bestOdds": "-139",
+        "bestBook": "Bovada",
+        "booksPriced": 30,
+        "evPct": -2.17,
+        "edgePlus": false,
+        "consensus": -0.3,
+        "combined": 0.0,
+        "publish": false,
+        "publishReason": "0 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 2,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "ytWho": "",
+        "xWho": "",
+        "ytVerified": false,
+        "ytWithUnverified": 2,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair -132 (pinnacle); 30 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "na",
+            "reason": "football spreads only"
+          },
+          {
+            "rule": "public_bias",
+            "result": "fail",
+            "reason": "90% of tickets on pick side (public side, -0.5)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "not a home dog"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "-139 within -200 cap"
+          },
+          {
+            "rule": "sharp_move",
+            "result": "na",
+            "reason": "no documented sharp/RLM move"
+          },
+          {
+            "rule": "no_hot_hand",
+            "result": "pass",
+            "reason": "streak/record fields ignored; no hot-hand credit"
+          }
+        ],
+        "gateFails": [
+          "public_bias"
+        ],
+        "why": "YouTube 0 independent (accepted videos only; engine-deduped). X send-it 0.",
+        "rationale": "Soft: 0 combined sources (floor 4); fails public_bias.",
+        "confidence": -3,
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "booksAlign": null,
+        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. Fails: public_bias. EV -2.2% vs fair."
+      },
+      {
+        "id": "sun1018-soccer-fc-cincinnati-ml",
+        "example": false,
+        "sport": "Soccer",
+        "engineTier": "Soft",
+        "tier": "gauge",
+        "marketType": "moneyline",
+        "game": "Columbus Crew SC @ FC Cincinnati · 4:00 PM CT",
+        "pick": "FC Cincinnati ML",
+        "line": "+137 BetOnline",
+        "timeCT": "4:00 PM CT",
+        "startCT": "2026-10-18T16:00-05:00",
+        "gameState": "pre",
+        "live": false,
+        "final": false,
+        "status": "PRE",
+        "fairOdds": "+143",
+        "bestOdds": "+137",
+        "bestBook": "BetOnline",
+        "booksPriced": 30,
+        "evPct": -2.47,
+        "edgePlus": false,
+        "consensus": -0.4,
+        "combined": 0.0,
+        "publish": false,
+        "publishReason": "0 combined sources < 4 required",
+        "sources": {
+          "youtube": 0,
+          "ytRaw": 1,
+          "ytEcho": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "ytWho": "",
+        "xWho": "",
+        "ytVerified": false,
+        "ytWithUnverified": 0,
+        "rules": [
+          {
+            "rule": "fair_price",
+            "result": "pass",
+            "reason": "fair +143 (pinnacle); 30 books priced"
+          },
+          {
+            "rule": "key_numbers",
+            "result": "na",
+            "reason": "football spreads only"
+          },
+          {
+            "rule": "public_bias",
+            "result": "fail",
+            "reason": "77% of tickets on pick side (public side, -0.5)"
+          },
+          {
+            "rule": "echo_discount",
+            "result": "pass",
+            "reason": "no echo picks"
+          },
+          {
+            "rule": "model_agreement",
+            "result": "na",
+            "reason": "no model probability"
+          },
+          {
+            "rule": "home_dog_lean",
+            "result": "na",
+            "reason": "soccer: no home-dog lean (HZ ch.21 p.455)"
+          },
+          {
+            "rule": "longshot",
+            "result": "na",
+            "reason": "shorter than +300"
+          },
+          {
+            "rule": "favorite_cap",
+            "result": "pass",
+            "reason": "+137 within -200 cap"
           },
           {
             "rule": "sharp_move",
@@ -6093,17 +2099,17 @@ window.BET_BOARD_DATA = {
         "x": 0,
         "total": 0.0,
         "booksAlign": null,
-        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. Fails: public_bias. EV -4.5% vs fair."
+        "gap": "Soft · under the 4-source board floor (0 combined). Needs 4 more. Fails: public_bias. EV -2.5% vs fair."
       }
     ]
   },
-  "slate": "Sat Oct 17 2026 — CFB Week 7, NHL, ALCS G4, Soccer, UFC Edmonton · Clear/Soft/Watch (engine v1.0.5)",
+  "slate": "Sun Oct 18 2026 — NFL Week 7, ALCS G5, NHL, Soccer · Clear/Soft/Watch (engine v1.0.5)",
   "sport": "multi",
-  "defaultSport": "CFB",
+  "defaultSport": "NFL",
   "status": "live",
-  "summary": "12 on the board (4+ combined sources) · Clear 9 · Soft 76 · Watch 0 rated by tier_engine v1.0.5. Pass hidden. Research only.",
-  "clearedCount": 9,
-  "gaugeCount": 3,
+  "summary": "2 on the board (4+ combined sources) · Clear 1 · Soft 22 · Watch 0 rated by tier_engine v1.0.5. Pass hidden. Research only.",
+  "clearedCount": 1,
+  "gaugeCount": 1,
   "sports": [
     {
       "id": "CFB",
@@ -6161,73 +2167,73 @@ window.BET_BOARD_DATA = {
     }
   ],
   "archives": {
-    "MLB": {
+    "CFB": {
       "lastSlate": "Sat Oct 17 2026",
-      "note": "ALCS Game 4 moved to tonight 7:00 PM CT after Friday's postponement."
+      "note": "No college football on Sunday's slate."
     },
-    "NFL": {
+    "UFC": {
       "lastSlate": "Sat Oct 17 2026",
-      "note": "No NFL games on Saturday's slate."
+      "note": "No UFC card on Sunday."
     },
     "NBA": {
-      "lastSlate": "Sat Oct 17 2026",
-      "note": "No NBA games on ESPN's Oct 17 scoreboard."
+      "lastSlate": "Sun Oct 18 2026",
+      "note": "No NBA games on Oct 18 (season starts this week)."
     },
     "WNBA": {
-      "lastSlate": "Sat Oct 17 2026",
+      "lastSlate": "Sun Oct 18 2026",
       "note": "Offseason."
     },
     "TENNIS": {
-      "lastSlate": "Sat Oct 17 2026",
-      "note": "Not researched this pass. ESPN's tennis feed listed no active Oct 17 events."
+      "lastSlate": "Sun Oct 18 2026",
+      "note": "Not researched this pass."
     }
   },
   "researchOnly": true,
   "noBetsPlaced": true,
-  "skippedNote": "Hidden: Pass rows and one-side-per-game losers (engine 'dropped'). Splits/public % not pulled this pass. In-house models were not run this pass, so model_agreement is n/a on every row. Oct 15 cards removed; they're graded in the track record.",
+  "skippedNote": "Hidden: Pass rows and one-side-per-game losers (engine 'dropped'). Public splits from Action Network's free page. No free models were available this pass, so model_agreement is n/a on every row. Oct 17 cards removed; grading is owned by the Betting Consensus Screener.",
   "bets": [
     {
-      "id": "sat1017-ufc-joaquin-buckley-ml",
+      "id": "sun1018-mlb-tampa-bay-rays-ml",
       "example": false,
-      "sport": "UFC",
+      "sport": "MLB",
       "engineTier": "Clear",
       "tier": "cleared",
       "marketType": "moneyline",
-      "game": "Mike Malott @ Joaquin Buckley · 9:45 PM CT",
-      "pick": "Joaquin Buckley ML",
-      "line": "+116 FanDuel",
-      "timeCT": "9:45 PM CT",
-      "startCT": "2026-10-17T21:45-05:00",
+      "game": "Tampa Bay Rays @ Cleveland Guardians · 4:10 PM CT",
+      "pick": "Tampa Bay Rays ML",
+      "line": "-127 BetOnline",
+      "timeCT": "4:10 PM CT",
+      "startCT": "2026-10-18T16:10-05:00",
       "gameState": "pre",
       "live": false,
       "final": false,
       "status": "PRE",
-      "fairOdds": "+121",
-      "bestOdds": "+116",
-      "bestBook": "FanDuel",
-      "booksPriced": 19,
-      "evPct": -2.26,
+      "fairOdds": "-117",
+      "bestOdds": "-127",
+      "bestBook": "BetOnline",
+      "booksPriced": 27,
+      "evPct": -3.63,
       "edgePlus": false,
-      "consensus": 10.2,
-      "combined": 10.25,
+      "consensus": 6.1,
+      "combined": 5.0,
       "publish": true,
-      "publishReason": "10.25 combined sources",
+      "publishReason": "5 combined sources",
       "sources": {
-        "youtube": 10,
-        "ytRaw": 12,
-        "ytEcho": 1,
+        "youtube": 5,
+        "ytRaw": 16,
+        "ytEcho": 0,
         "xSendIt": 0,
-        "combined": 10.25
+        "combined": 5.0
       },
-      "ytWho": "ContraGolpe - Analisa; Fight Fiend Forecast; Fortune KOokie; Guy Boston Sports; MMA Tugg; MMAPG; RustDown; SportsMoneyNetwork; The Die Hard MMA Podcast; Uselyis",
+      "ytWho": "2eZ Sports Betting; Free Picks PickDawgz; GameDayCalls; Sports Parlay Picks; SteadyPicks",
       "xWho": "",
       "ytVerified": true,
-      "ytWithUnverified": 10,
+      "ytWithUnverified": 5,
       "rules": [
         {
           "rule": "fair_price",
           "result": "pass",
-          "reason": "fair +121 (pinnacle); 19 books priced"
+          "reason": "fair -117 (exchange); 27 books priced"
         },
         {
           "rule": "key_numbers",
@@ -6236,13 +2242,13 @@ window.BET_BOARD_DATA = {
         },
         {
           "rule": "public_bias",
-          "result": "na",
-          "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+          "result": "pass",
+          "reason": "65% tickets on pick side (<70%)"
         },
         {
           "rule": "echo_discount",
           "result": "pass",
-          "reason": "1 echo picks counted at 0.25"
+          "reason": "no echo picks"
         },
         {
           "rule": "model_agreement",
@@ -6252,7 +2258,7 @@ window.BET_BOARD_DATA = {
         {
           "rule": "home_dog_lean",
           "result": "na",
-          "reason": "no home side (UFC/MMA/boxing/tennis or neutral_site): n/a"
+          "reason": "not a home dog"
         },
         {
           "rule": "longshot",
@@ -6262,7 +2268,7 @@ window.BET_BOARD_DATA = {
         {
           "rule": "favorite_cap",
           "result": "pass",
-          "reason": "+116 within -200 cap"
+          "reason": "-127 within -200 cap"
         },
         {
           "rule": "sharp_move",
@@ -6276,997 +2282,45 @@ window.BET_BOARD_DATA = {
         }
       ],
       "gateFails": [],
-      "why": "YouTube 10 independent (accepted videos only; engine-deduped): ContraGolpe - Analisa, Fight Fiend Forecast, Fortune KOokie, Guy Boston Sports, MMA Tugg, MMAPG, RustDown, SportsMoneyNetwork. X send-it 0. YT hand-verified 8 of 12 auto-extracted.",
-      "rationale": "Clear: 10.25 combined sources (floor 4); all gate rules pass.",
-      "confidence": 100,
+      "why": "YouTube 5 independent (accepted videos only; engine-deduped): 2eZ Sports Betting, Free Picks PickDawgz, GameDayCalls, Sports Parlay Picks, SteadyPicks. X send-it 0.",
+      "rationale": "Clear: 5 combined sources (floor 4); all gate rules pass.",
+      "confidence": 61,
       "rank": 1
     },
     {
-      "id": "sat1017-ufc-louis-jourdain-ml",
+      "id": "sun1018-soccer-real-madrid-ml",
       "example": false,
-      "sport": "UFC",
-      "engineTier": "Clear",
-      "tier": "cleared",
-      "marketType": "moneyline",
-      "game": "Timothy Cuamba @ Louis Jourdain · 7:45 PM CT",
-      "pick": "Louis Jourdain ML",
-      "line": "-166 FanDuel",
-      "timeCT": "7:45 PM CT",
-      "startCT": "2026-10-17T19:45-05:00",
-      "gameState": "pre",
-      "live": false,
-      "final": false,
-      "status": "PRE",
-      "fairOdds": "-155",
-      "bestOdds": "-166",
-      "bestBook": "FanDuel",
-      "booksPriced": 19,
-      "evPct": -2.6,
-      "edgePlus": false,
-      "consensus": 7.0,
-      "combined": 7.0,
-      "publish": true,
-      "publishReason": "7 combined sources",
-      "sources": {
-        "youtube": 7,
-        "ytRaw": 7,
-        "ytEcho": 0,
-        "xSendIt": 0,
-        "combined": 7.0
-      },
-      "ytWho": "ContraGolpe - Analisa; Guy Boston Sports; MMA Husky Hustler; MMA JOEY; MMA Tugg; MMAPG; The Die Hard MMA Podcast",
-      "xWho": "",
-      "ytVerified": true,
-      "ytWithUnverified": 7,
-      "rules": [
-        {
-          "rule": "fair_price",
-          "result": "pass",
-          "reason": "fair -155 (pinnacle); 19 books priced"
-        },
-        {
-          "rule": "key_numbers",
-          "result": "na",
-          "reason": "football spreads only"
-        },
-        {
-          "rule": "public_bias",
-          "result": "na",
-          "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-        },
-        {
-          "rule": "echo_discount",
-          "result": "pass",
-          "reason": "no echo picks"
-        },
-        {
-          "rule": "model_agreement",
-          "result": "na",
-          "reason": "no model probability"
-        },
-        {
-          "rule": "home_dog_lean",
-          "result": "na",
-          "reason": "no home side (UFC/MMA/boxing/tennis or neutral_site): n/a"
-        },
-        {
-          "rule": "longshot",
-          "result": "na",
-          "reason": "shorter than +300"
-        },
-        {
-          "rule": "favorite_cap",
-          "result": "pass",
-          "reason": "-166 within -200 cap"
-        },
-        {
-          "rule": "sharp_move",
-          "result": "na",
-          "reason": "no documented sharp/RLM move"
-        },
-        {
-          "rule": "no_hot_hand",
-          "result": "pass",
-          "reason": "streak/record fields ignored; no hot-hand credit"
-        }
-      ],
-      "gateFails": [],
-      "why": "YouTube 7 independent (accepted videos only; engine-deduped): ContraGolpe - Analisa, Guy Boston Sports, MMA Husky Hustler, MMA JOEY, MMA Tugg, MMAPG, The Die Hard MMA Podcast. X send-it 0. YT hand-verified 7 of 7 auto-extracted.",
-      "rationale": "Clear: 7 combined sources (floor 4); all gate rules pass.",
-      "confidence": 70,
-      "rank": 2
-    },
-    {
-      "id": "sat1017-ufc-kyle-daukaus-ml",
-      "example": false,
-      "sport": "UFC",
-      "engineTier": "Clear",
-      "tier": "cleared",
-      "marketType": "moneyline",
-      "game": "Kyle Daukaus @ Marc-Andre Barriault · 8:15 PM CT",
-      "pick": "Kyle Daukaus ML",
-      "line": "-195 Bovada",
-      "timeCT": "8:15 PM CT",
-      "startCT": "2026-10-17T20:15-05:00",
-      "gameState": "pre",
-      "live": false,
-      "final": false,
-      "status": "PRE",
-      "fairOdds": "-179",
-      "bestOdds": "-195",
-      "bestBook": "Bovada",
-      "booksPriced": 18,
-      "evPct": -2.94,
-      "edgePlus": false,
-      "consensus": 5.1,
-      "combined": 5.0,
-      "publish": true,
-      "publishReason": "5 combined sources",
-      "sources": {
-        "youtube": 5,
-        "ytRaw": 6,
-        "ytEcho": 0,
-        "xSendIt": 0,
-        "combined": 5.0
-      },
-      "ytWho": "ContraGolpe - Analisa; Guy Boston Sports; LAS 8 ESQUINAS; MMA Husky Hustler; MMA Tugg",
-      "xWho": "",
-      "ytVerified": true,
-      "ytWithUnverified": 5,
-      "rules": [
-        {
-          "rule": "fair_price",
-          "result": "pass",
-          "reason": "fair -179 (pinnacle); 18 books priced"
-        },
-        {
-          "rule": "key_numbers",
-          "result": "na",
-          "reason": "football spreads only"
-        },
-        {
-          "rule": "public_bias",
-          "result": "na",
-          "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-        },
-        {
-          "rule": "echo_discount",
-          "result": "pass",
-          "reason": "no echo picks"
-        },
-        {
-          "rule": "model_agreement",
-          "result": "na",
-          "reason": "no model probability"
-        },
-        {
-          "rule": "home_dog_lean",
-          "result": "na",
-          "reason": "no home side (UFC/MMA/boxing/tennis or neutral_site): n/a"
-        },
-        {
-          "rule": "longshot",
-          "result": "na",
-          "reason": "shorter than +300"
-        },
-        {
-          "rule": "favorite_cap",
-          "result": "pass",
-          "reason": "-195 within -200 cap"
-        },
-        {
-          "rule": "sharp_move",
-          "result": "na",
-          "reason": "no documented sharp/RLM move"
-        },
-        {
-          "rule": "no_hot_hand",
-          "result": "pass",
-          "reason": "streak/record fields ignored; no hot-hand credit"
-        }
-      ],
-      "gateFails": [],
-      "why": "YouTube 5 independent (accepted videos only; engine-deduped): ContraGolpe - Analisa, Guy Boston Sports, LAS 8 ESQUINAS, MMA Husky Hustler, MMA Tugg. X send-it 0. YT hand-verified 5 of 6 auto-extracted.",
-      "rationale": "Clear: 5 combined sources (floor 4); all gate rules pass.",
-      "confidence": 51,
-      "rank": 3
-    },
-    {
-      "id": "sat1017-cfb-texas-12-5",
-      "example": false,
-      "sport": "CFB",
-      "engineTier": "Clear",
-      "tier": "cleared",
-      "marketType": "spread",
-      "game": "Florida Gators @ Texas Longhorns · 11:00 AM CT",
-      "pick": "Texas -12.5",
-      "line": "+100 Pinnacle",
-      "timeCT": "11:00 AM CT",
-      "startCT": "2026-10-17T11:00-05:00",
-      "gameState": "pre",
-      "live": false,
-      "final": false,
-      "status": "PRE",
-      "fairOdds": "+106",
-      "bestOdds": "+100",
-      "bestBook": "Pinnacle",
-      "booksPriced": 5,
-      "evPct": -2.91,
-      "edgePlus": false,
-      "consensus": 5.2,
-      "combined": 4.0,
-      "publish": true,
-      "publishReason": "4 combined sources",
-      "sources": {
-        "youtube": 4,
-        "ytRaw": 6,
-        "ytEcho": 0,
-        "xSendIt": 0,
-        "combined": 4.0
-      },
-      "ytWho": "104.5 ESPN; APE; CBS Sports College Football; Comics on Canes",
-      "xWho": "",
-      "ytVerified": true,
-      "ytWithUnverified": 4,
-      "rules": [
-        {
-          "rule": "fair_price",
-          "result": "pass",
-          "reason": "fair +106 (pinnacle); 5 books priced"
-        },
-        {
-          "rule": "key_numbers",
-          "result": "pass",
-          "reason": "no key-number conflict"
-        },
-        {
-          "rule": "public_bias",
-          "result": "pass",
-          "reason": "41% tickets on pick side (<70%)"
-        },
-        {
-          "rule": "echo_discount",
-          "result": "pass",
-          "reason": "no echo picks"
-        },
-        {
-          "rule": "model_agreement",
-          "result": "na",
-          "reason": "no model probability"
-        },
-        {
-          "rule": "home_dog_lean",
-          "result": "na",
-          "reason": "not a home dog"
-        },
-        {
-          "rule": "longshot",
-          "result": "na",
-          "reason": "shorter than +300"
-        },
-        {
-          "rule": "favorite_cap",
-          "result": "pass",
-          "reason": "+100 within -200 cap"
-        },
-        {
-          "rule": "sharp_move",
-          "result": "pass",
-          "reason": "sharp_for: +1.0"
-        },
-        {
-          "rule": "no_hot_hand",
-          "result": "pass",
-          "reason": "streak/record fields ignored; no hot-hand credit"
-        }
-      ],
-      "gateFails": [],
-      "why": "YouTube 4 independent (accepted videos only; engine-deduped): 104.5 ESPN, APE, CBS Sports College Football, Comics on Canes. X send-it 0. spread -11→-12.5 since Fri; YT hand-verified 5 of 6 auto-extracted.",
-      "rationale": "Clear: 4 combined sources (floor 4); all gate rules pass.",
-      "confidence": 52,
-      "rank": 4
-    },
-    {
-      "id": "sat1017-cfb-oklahoma-6-5",
-      "example": false,
-      "sport": "CFB",
-      "engineTier": "Clear",
-      "tier": "cleared",
-      "marketType": "spread",
-      "game": "Kentucky Wildcats @ Oklahoma Sooners · 6:30 PM CT",
-      "pick": "Oklahoma -6.5",
-      "line": "-110 MyBookie",
-      "timeCT": "6:30 PM CT",
-      "startCT": "2026-10-17T18:30-05:00",
-      "gameState": "pre",
-      "live": false,
-      "final": false,
-      "status": "PRE",
-      "fairOdds": "-104",
-      "bestOdds": "-110",
-      "bestBook": "MyBookie",
-      "booksPriced": 16,
-      "evPct": -2.67,
-      "edgePlus": false,
-      "consensus": 5.2,
-      "combined": 5.0,
-      "publish": true,
-      "publishReason": "5 combined sources",
-      "sources": {
-        "youtube": 4,
-        "ytRaw": 6,
-        "ytEcho": 0,
-        "xSendIt": 1,
-        "combined": 5.0
-      },
-      "ytWho": "APE; ESPN College Football; Free Picks PickDawgz; WagerTalk TV: Sports Picks and Betting Tips",
-      "xWho": "ItsParlayPete",
-      "ytVerified": true,
-      "ytWithUnverified": 4,
-      "rules": [
-        {
-          "rule": "fair_price",
-          "result": "pass",
-          "reason": "fair -104 (pinnacle); 16 books priced"
-        },
-        {
-          "rule": "key_numbers",
-          "result": "pass",
-          "reason": "no key-number conflict"
-        },
-        {
-          "rule": "public_bias",
-          "result": "pass",
-          "reason": "21% tickets on pick side (<70%)"
-        },
-        {
-          "rule": "echo_discount",
-          "result": "pass",
-          "reason": "no echo picks"
-        },
-        {
-          "rule": "model_agreement",
-          "result": "na",
-          "reason": "no model probability"
-        },
-        {
-          "rule": "home_dog_lean",
-          "result": "na",
-          "reason": "not a home dog"
-        },
-        {
-          "rule": "longshot",
-          "result": "na",
-          "reason": "shorter than +300"
-        },
-        {
-          "rule": "favorite_cap",
-          "result": "pass",
-          "reason": "-110 within -200 cap"
-        },
-        {
-          "rule": "sharp_move",
-          "result": "na",
-          "reason": "no documented sharp/RLM move"
-        },
-        {
-          "rule": "no_hot_hand",
-          "result": "pass",
-          "reason": "streak/record fields ignored; no hot-hand credit"
-        }
-      ],
-      "gateFails": [],
-      "why": "YouTube 4 independent (accepted videos only; engine-deduped): APE, ESPN College Football, Free Picks PickDawgz, WagerTalk TV: Sports Picks and Betting Tips. X send-it 1: ItsParlayPete. spread -6.5→-6.5 since Fri; conflict: Covers JTFOz Kentucky +6.5; YT hand-verified 4 of 6 auto-extracted.",
-      "rationale": "Clear: 5 combined sources (floor 4); all gate rules pass.",
-      "confidence": 52,
-      "rank": 5
-    },
-    {
-      "id": "sat1017-cfb-baylor-6",
-      "example": false,
-      "sport": "CFB",
-      "engineTier": "Clear",
-      "tier": "cleared",
-      "marketType": "spread",
-      "game": "TCU Horned Frogs @ Baylor Bears · 6:00 PM CT",
-      "pick": "Baylor -6",
-      "line": "-109 BetRivers",
-      "timeCT": "6:00 PM CT",
-      "startCT": "2026-10-17T18:00-05:00",
-      "gameState": "pre",
-      "live": false,
-      "final": false,
-      "status": "PRE",
-      "fairOdds": "+108",
-      "bestOdds": "-109",
-      "bestBook": "BetRivers",
-      "booksPriced": 5,
-      "evPct": -7.82,
-      "edgePlus": false,
-      "consensus": 4.1,
-      "combined": 4.25,
-      "publish": true,
-      "publishReason": "4.25 combined sources",
-      "sources": {
-        "youtube": 4,
-        "ytRaw": 5,
-        "ytEcho": 1,
-        "xSendIt": 0,
-        "combined": 4.25
-      },
-      "ytWho": "CBS Sports College Football; ESPN College Football; Free Picks PickDawgz; KSL Sports",
-      "xWho": "",
-      "ytVerified": true,
-      "ytWithUnverified": 4,
-      "rules": [
-        {
-          "rule": "fair_price",
-          "result": "pass",
-          "reason": "fair +108 (pinnacle); 5 books priced"
-        },
-        {
-          "rule": "key_numbers",
-          "result": "pass",
-          "reason": "no key-number conflict"
-        },
-        {
-          "rule": "public_bias",
-          "result": "pass",
-          "reason": "67% tickets on pick side (<70%)"
-        },
-        {
-          "rule": "echo_discount",
-          "result": "pass",
-          "reason": "1 echo picks counted at 0.25"
-        },
-        {
-          "rule": "model_agreement",
-          "result": "na",
-          "reason": "no model probability"
-        },
-        {
-          "rule": "home_dog_lean",
-          "result": "na",
-          "reason": "not a home dog"
-        },
-        {
-          "rule": "longshot",
-          "result": "na",
-          "reason": "shorter than +300"
-        },
-        {
-          "rule": "favorite_cap",
-          "result": "pass",
-          "reason": "-109 within -200 cap"
-        },
-        {
-          "rule": "sharp_move",
-          "result": "na",
-          "reason": "no documented sharp/RLM move"
-        },
-        {
-          "rule": "no_hot_hand",
-          "result": "pass",
-          "reason": "streak/record fields ignored; no hot-hand credit"
-        }
-      ],
-      "gateFails": [],
-      "why": "YouTube 4 independent (accepted videos only; engine-deduped): CBS Sports College Football, ESPN College Football, Free Picks PickDawgz, KSL Sports. X send-it 0. spread -6→-6 since Fri.",
-      "rationale": "Clear: 4.25 combined sources (floor 4); all gate rules pass.",
-      "confidence": 41,
-      "rank": 6
-    },
-    {
-      "id": "sat1017-cfb-tennessee-7-5",
-      "example": false,
-      "sport": "CFB",
-      "engineTier": "Clear",
-      "tier": "cleared",
-      "marketType": "spread",
-      "game": "Alabama Crimson Tide @ Tennessee Volunteers · 2:30 PM CT",
-      "pick": "Tennessee +7.5",
-      "line": "-101 LowVig",
-      "timeCT": "2:30 PM CT",
-      "startCT": "2026-10-17T14:30-05:00",
-      "gameState": "pre",
-      "live": false,
-      "final": false,
-      "status": "PRE",
-      "fairOdds": "+103",
-      "bestOdds": "-101",
-      "bestBook": "LowVig",
-      "booksPriced": 17,
-      "evPct": -1.97,
-      "edgePlus": false,
-      "consensus": 4.3,
-      "combined": 4.0,
-      "publish": true,
-      "publishReason": "4 combined sources",
-      "sources": {
-        "youtube": 3,
-        "ytRaw": 6,
-        "ytEcho": 0,
-        "xSendIt": 1,
-        "combined": 4.0
-      },
-      "ytWho": "104.5 ESPN; Free Picks PickDawgz; The Bettor Mark",
-      "xWho": "ActionNetworkHQ",
-      "ytVerified": true,
-      "ytWithUnverified": 3,
-      "rules": [
-        {
-          "rule": "fair_price",
-          "result": "pass",
-          "reason": "fair +103 (pinnacle); 17 books priced"
-        },
-        {
-          "rule": "key_numbers",
-          "result": "pass",
-          "reason": "dog holds the hook over key number"
-        },
-        {
-          "rule": "public_bias",
-          "result": "pass",
-          "reason": "28% tickets on pick side (<70%)"
-        },
-        {
-          "rule": "echo_discount",
-          "result": "pass",
-          "reason": "no echo picks"
-        },
-        {
-          "rule": "model_agreement",
-          "result": "na",
-          "reason": "no model probability"
-        },
-        {
-          "rule": "home_dog_lean",
-          "result": "pass",
-          "reason": "home underdog (lean noted, no score bonus)"
-        },
-        {
-          "rule": "longshot",
-          "result": "na",
-          "reason": "shorter than +300"
-        },
-        {
-          "rule": "favorite_cap",
-          "result": "pass",
-          "reason": "-101 within -200 cap"
-        },
-        {
-          "rule": "sharp_move",
-          "result": "na",
-          "reason": "no documented sharp/RLM move"
-        },
-        {
-          "rule": "no_hot_hand",
-          "result": "pass",
-          "reason": "streak/record fields ignored; no hot-hand credit"
-        }
-      ],
-      "gateFails": [],
-      "why": "YouTube 3 independent (accepted videos only; engine-deduped): 104.5 ESPN, Free Picks PickDawgz, The Bettor Mark. X send-it 1: ActionNetworkHQ. spread +7.5→+7.5 since Fri; home dog; YT hand-verified 2 of 6 auto-extracted.",
-      "rationale": "Clear: 4 combined sources (floor 4); all gate rules pass.",
-      "confidence": 43,
-      "rank": 7
-    },
-    {
-      "id": "sat1017-cfb-duke-3",
-      "example": false,
-      "sport": "CFB",
-      "engineTier": "Clear",
-      "tier": "cleared",
-      "marketType": "spread",
-      "game": "North Carolina Tar Heels @ Duke Blue Devils · 2:30 PM CT",
-      "pick": "Duke -3",
-      "line": "-106 LowVig",
-      "timeCT": "2:30 PM CT",
-      "startCT": "2026-10-17T14:30-05:00",
-      "gameState": "pre",
-      "live": false,
-      "final": false,
-      "status": "PRE",
-      "fairOdds": "+101",
-      "bestOdds": "-106",
-      "bestBook": "LowVig",
-      "booksPriced": 17,
-      "evPct": -3.31,
-      "edgePlus": false,
-      "consensus": 4.1,
-      "combined": 4.0,
-      "publish": true,
-      "publishReason": "4 combined sources",
-      "sources": {
-        "youtube": 3,
-        "ytRaw": 4,
-        "ytEcho": 0,
-        "xSendIt": 1,
-        "combined": 4.0
-      },
-      "ytWho": "CBS Sports College Football; Silverback Bets; WagerTalk TV: Sports Picks and Betting Tips",
-      "xWho": "G5Jake",
-      "ytVerified": true,
-      "ytWithUnverified": 3,
-      "rules": [
-        {
-          "rule": "fair_price",
-          "result": "pass",
-          "reason": "fair +101 (pinnacle); 17 books priced"
-        },
-        {
-          "rule": "key_numbers",
-          "result": "pass",
-          "reason": "line sits on key number (check push value)"
-        },
-        {
-          "rule": "public_bias",
-          "result": "pass",
-          "reason": "27% tickets on pick side (<70%)"
-        },
-        {
-          "rule": "echo_discount",
-          "result": "pass",
-          "reason": "no echo picks"
-        },
-        {
-          "rule": "model_agreement",
-          "result": "na",
-          "reason": "no model probability"
-        },
-        {
-          "rule": "home_dog_lean",
-          "result": "na",
-          "reason": "not a home dog"
-        },
-        {
-          "rule": "longshot",
-          "result": "na",
-          "reason": "shorter than +300"
-        },
-        {
-          "rule": "favorite_cap",
-          "result": "pass",
-          "reason": "-106 within -200 cap"
-        },
-        {
-          "rule": "sharp_move",
-          "result": "na",
-          "reason": "no documented sharp/RLM move"
-        },
-        {
-          "rule": "no_hot_hand",
-          "result": "pass",
-          "reason": "streak/record fields ignored; no hot-hand credit"
-        }
-      ],
-      "gateFails": [],
-      "why": "YouTube 3 independent (accepted videos only; engine-deduped): CBS Sports College Football, Silverback Bets, WagerTalk TV: Sports Picks and Betting Tips. X send-it 1: G5Jake. spread -3→-3 since Fri; key number 3.",
-      "rationale": "Clear: 4 combined sources (floor 4); all gate rules pass.",
-      "confidence": 41,
-      "rank": 8
-    },
-    {
-      "id": "sat1017-cfb-georgia-20",
-      "example": false,
-      "sport": "CFB",
-      "engineTier": "Clear",
-      "tier": "cleared",
-      "marketType": "spread",
-      "game": "Auburn Tigers @ Georgia Bulldogs · 2:30 PM CT",
-      "pick": "Georgia -20",
-      "line": "-110 BetRivers",
-      "timeCT": "2:30 PM CT",
-      "startCT": "2026-10-17T14:30-05:00",
-      "gameState": "pre",
-      "live": false,
-      "final": false,
-      "status": "PRE",
-      "fairOdds": "+106",
-      "bestOdds": "-110",
-      "bestBook": "BetRivers",
-      "booksPriced": 5,
-      "evPct": -7.33,
-      "edgePlus": false,
-      "consensus": 4.1,
-      "combined": 4.0,
-      "publish": true,
-      "publishReason": "4 combined sources",
-      "sources": {
-        "youtube": 3,
-        "ytRaw": 4,
-        "ytEcho": 0,
-        "xSendIt": 1,
-        "combined": 4.0
-      },
-      "ytWho": "104.5 ESPN; APE; CBS Sports College Football",
-      "xWho": "Covers (JTFOz)",
-      "ytVerified": true,
-      "ytWithUnverified": 3,
-      "rules": [
-        {
-          "rule": "fair_price",
-          "result": "pass",
-          "reason": "fair +106 (pinnacle); 5 books priced"
-        },
-        {
-          "rule": "key_numbers",
-          "result": "pass",
-          "reason": "no key-number conflict"
-        },
-        {
-          "rule": "public_bias",
-          "result": "pass",
-          "reason": "63% tickets on pick side (<70%)"
-        },
-        {
-          "rule": "echo_discount",
-          "result": "pass",
-          "reason": "no echo picks"
-        },
-        {
-          "rule": "model_agreement",
-          "result": "na",
-          "reason": "no model probability"
-        },
-        {
-          "rule": "home_dog_lean",
-          "result": "na",
-          "reason": "not a home dog"
-        },
-        {
-          "rule": "longshot",
-          "result": "na",
-          "reason": "shorter than +300"
-        },
-        {
-          "rule": "favorite_cap",
-          "result": "pass",
-          "reason": "-110 within -200 cap"
-        },
-        {
-          "rule": "sharp_move",
-          "result": "na",
-          "reason": "no documented sharp/RLM move"
-        },
-        {
-          "rule": "no_hot_hand",
-          "result": "pass",
-          "reason": "streak/record fields ignored; no hot-hand credit"
-        }
-      ],
-      "gateFails": [],
-      "why": "YouTube 3 independent (accepted videos only; engine-deduped): 104.5 ESPN, APE, CBS Sports College Football. X send-it 1: Covers (JTFOz). spread -19.5→-20 since Fri; X posters' line -19.5.",
-      "rationale": "Clear: 4 combined sources (floor 4); all gate rules pass.",
-      "confidence": 41,
-      "rank": 9
-    },
-    {
-      "id": "sat1017-cfb-lsu-17-5",
-      "example": false,
-      "sport": "CFB",
+      "sport": "Soccer",
       "engineTier": "Soft",
       "tier": "gauge",
-      "marketType": "spread",
-      "game": "Mississippi State Bulldogs @ LSU Tigers · 11:00 AM CT",
-      "pick": "LSU -17.5",
-      "line": "-106 LowVig",
-      "timeCT": "11:00 AM CT",
-      "startCT": "2026-10-17T11:00-05:00",
+      "marketType": "moneyline",
+      "game": "Sevilla @ Real Madrid · 2:00 PM CT",
+      "pick": "Real Madrid ML",
+      "line": "-400 Caesars",
+      "timeCT": "2:00 PM CT",
+      "startCT": "2026-10-18T14:00-05:00",
       "gameState": "pre",
       "live": false,
       "final": false,
       "status": "PRE",
-      "fairOdds": "-107",
-      "bestOdds": "-106",
-      "bestBook": "LowVig",
-      "booksPriced": 12,
-      "evPct": 0.46,
-      "edgePlus": true,
-      "consensus": 5.7,
+      "fairOdds": "-355",
+      "bestOdds": "-400",
+      "bestBook": "Caesars",
+      "booksPriced": 27,
+      "evPct": -2.47,
+      "edgePlus": false,
+      "consensus": 3.4,
       "combined": 4.0,
       "publish": true,
       "publishReason": "4 combined sources",
       "sources": {
-        "youtube": 2,
-        "ytRaw": 4,
-        "ytEcho": 0,
-        "xSendIt": 2,
-        "combined": 4.0
-      },
-      "ytWho": "APE; Free Picks PickDawgz",
-      "xWho": "ItsParlayPete; jr_dimes (-17.5)",
-      "ytVerified": true,
-      "ytWithUnverified": 2,
-      "rules": [
-        {
-          "rule": "fair_price",
-          "result": "pass",
-          "reason": "fair -107 (pinnacle); 12 books priced"
-        },
-        {
-          "rule": "key_numbers",
-          "result": "pass",
-          "reason": "no key-number conflict"
-        },
-        {
-          "rule": "public_bias",
-          "result": "pass",
-          "reason": "26% tickets on pick side (<70%)"
-        },
-        {
-          "rule": "echo_discount",
-          "result": "pass",
-          "reason": "no echo picks"
-        },
-        {
-          "rule": "model_agreement",
-          "result": "na",
-          "reason": "no model probability"
-        },
-        {
-          "rule": "home_dog_lean",
-          "result": "na",
-          "reason": "not a home dog"
-        },
-        {
-          "rule": "longshot",
-          "result": "na",
-          "reason": "shorter than +300"
-        },
-        {
-          "rule": "favorite_cap",
-          "result": "pass",
-          "reason": "-106 within -200 cap"
-        },
-        {
-          "rule": "sharp_move",
-          "result": "pass",
-          "reason": "sharp_for: +1.0"
-        },
-        {
-          "rule": "no_hot_hand",
-          "result": "pass",
-          "reason": "streak/record fields ignored; no hot-hand credit"
-        }
-      ],
-      "gateFails": [],
-      "why": "YouTube 2 independent (accepted videos only; engine-deduped): APE, Free Picks PickDawgz. X send-it 2: ItsParlayPete, jr_dimes (-17.5). spread -15.5→-17.5 since Fri; Bet Labs system RT (ActionNetworkHQ) also LSU; X posters' line -16.5; YT hand-verified 3 of 4 auto-extracted.",
-      "rationale": "Soft: 4 combined sources (floor 4); all gate rules pass; edge+ vs Pinnacle no-vig.",
-      "confidence": 57,
-      "rank": 10
-    },
-    {
-      "id": "sat1017-cfb-indiana-2-5",
-      "example": false,
-      "sport": "CFB",
-      "engineTier": "Soft",
-      "tier": "gauge",
-      "marketType": "spread",
-      "game": "Ohio State Buckeyes @ Indiana Hoosiers · 11:00 AM CT",
-      "pick": "Indiana +2.5",
-      "line": "+100 Bovada",
-      "timeCT": "11:00 AM CT",
-      "startCT": "2026-10-17T11:00-05:00",
-      "gameState": "pre",
-      "live": false,
-      "final": false,
-      "status": "PRE",
-      "fairOdds": "+107",
-      "bestOdds": "+100",
-      "bestBook": "Bovada",
-      "booksPriced": 8,
-      "evPct": -3.38,
-      "edgePlus": false,
-      "consensus": 6.8,
-      "combined": 6.0,
-      "publish": true,
-      "publishReason": "6 combined sources",
-      "sources": {
-        "youtube": 5,
+        "youtube": 4,
         "ytRaw": 8,
         "ytEcho": 0,
-        "xSendIt": 1,
-        "combined": 6.0
-      },
-      "ytWho": "BettingPros; ESPN College Football; Free Picks PickDawgz; Greedo Plays; WagerTalk TV: Sports Picks and Betting Tips",
-      "xWho": "jr_dimes",
-      "ytVerified": true,
-      "ytWithUnverified": 5,
-      "rules": [
-        {
-          "rule": "fair_price",
-          "result": "pass",
-          "reason": "fair +107 (pinnacle); 8 books priced"
-        },
-        {
-          "rule": "key_numbers",
-          "result": "fail",
-          "reason": "taking +2.5, half-point short of key number 3"
-        },
-        {
-          "rule": "public_bias",
-          "result": "pass",
-          "reason": "30% tickets on pick side (<70%)"
-        },
-        {
-          "rule": "echo_discount",
-          "result": "pass",
-          "reason": "no echo picks"
-        },
-        {
-          "rule": "model_agreement",
-          "result": "na",
-          "reason": "no model probability"
-        },
-        {
-          "rule": "home_dog_lean",
-          "result": "pass",
-          "reason": "home underdog (lean noted, no score bonus)"
-        },
-        {
-          "rule": "longshot",
-          "result": "na",
-          "reason": "shorter than +300"
-        },
-        {
-          "rule": "favorite_cap",
-          "result": "pass",
-          "reason": "+100 within -200 cap"
-        },
-        {
-          "rule": "sharp_move",
-          "result": "pass",
-          "reason": "sharp_for: +1.0"
-        },
-        {
-          "rule": "no_hot_hand",
-          "result": "pass",
-          "reason": "streak/record fields ignored; no hot-hand credit"
-        }
-      ],
-      "gateFails": [
-        "key_numbers"
-      ],
-      "why": "YouTube 5 independent (accepted videos only; engine-deduped): BettingPros, ESPN College Football, Free Picks PickDawgz, Greedo Plays, WagerTalk TV: Sports Picks and Betting Tips. X send-it 1: jr_dimes. spread +3.5→+2.5 since Fri; home dog; money 47% vs tickets ~30%; X posters' line +3; YT hand-verified 5 of 8 auto-extracted.",
-      "rationale": "Soft: 6 combined sources (floor 4); fails key_numbers.",
-      "confidence": 68,
-      "rank": 11
-    },
-    {
-      "id": "sat1017-cfb-oklahoma-state-4-5",
-      "example": false,
-      "sport": "CFB",
-      "engineTier": "Soft",
-      "tier": "gauge",
-      "marketType": "spread",
-      "game": "Oklahoma State Cowboys @ Houston Cougars · 6:30 PM CT",
-      "pick": "Oklahoma State +4.5",
-      "line": "-106 LowVig",
-      "timeCT": "6:30 PM CT",
-      "startCT": "2026-10-17T18:30-05:00",
-      "gameState": "pre",
-      "live": false,
-      "final": false,
-      "status": "PRE",
-      "fairOdds": "+102",
-      "bestOdds": "-106",
-      "bestBook": "LowVig",
-      "booksPriced": 15,
-      "evPct": -3.79,
-      "edgePlus": false,
-      "consensus": 3.7,
-      "combined": 4.0,
-      "publish": true,
-      "publishReason": "4 combined sources",
-      "sources": {
-        "youtube": 4,
-        "ytRaw": 6,
-        "ytEcho": 0,
         "xSendIt": 0,
         "combined": 4.0
       },
-      "ytWho": "BYUtv Sports Nation; ESPN College Football; Free Picks PickDawgz; Will @ 3rd & Long",
+      "ytWho": "Hoodtrends Analysis; Odogwu football; RueDesJoueurs; Titus Predict",
       "xWho": "",
       "ytVerified": true,
       "ytWithUnverified": 4,
@@ -7274,17 +2328,17 @@ window.BET_BOARD_DATA = {
         {
           "rule": "fair_price",
           "result": "pass",
-          "reason": "fair +102 (pinnacle); 15 books priced"
+          "reason": "fair -355 (pinnacle); 27 books priced"
         },
         {
           "rule": "key_numbers",
-          "result": "pass",
-          "reason": "no key-number conflict"
+          "result": "na",
+          "reason": "football spreads only"
         },
         {
           "rule": "public_bias",
           "result": "fail",
-          "reason": "78% of tickets on pick side (public side, -0.5)"
+          "reason": "99% of tickets on pick side (public side, -0.5)"
         },
         {
           "rule": "echo_discount",
@@ -7308,8 +2362,8 @@ window.BET_BOARD_DATA = {
         },
         {
           "rule": "favorite_cap",
-          "result": "pass",
-          "reason": "-106 within -200 cap"
+          "result": "fail",
+          "reason": "-400 shorter than -200 cap (Soccer ml)"
         },
         {
           "rule": "sharp_move",
@@ -7323,20 +2377,21 @@ window.BET_BOARD_DATA = {
         }
       ],
       "gateFails": [
-        "public_bias"
+        "public_bias",
+        "favorite_cap"
       ],
-      "why": "YouTube 4 independent (accepted videos only; engine-deduped): BYUtv Sports Nation, ESPN College Football, Free Picks PickDawgz, Will @ 3rd & Long. X send-it 0. spread +4.5→+4.5 since Fri; YT hand-verified 4 of 6 auto-extracted.",
-      "rationale": "Soft: 4 combined sources (floor 4); fails public_bias.",
-      "confidence": 37,
-      "rank": 12
+      "why": "YouTube 4 independent (accepted videos only; engine-deduped): Hoodtrends Analysis, Odogwu football, RueDesJoueurs, Titus Predict. X send-it 0.",
+      "rationale": "Soft: 4 combined sources (floor 4); fails public_bias, favorite_cap.",
+      "confidence": 34,
+      "rank": 2
     }
   ],
   "resultsTally": {
     "cleared": "2-2-0",
     "gauge": "19-15-0",
     "nearMiss": "121-87-3",
-    "checkedAt": "10:10 AM CT",
-    "checkedAtIso": "2026-10-17T10:10:45-05:00",
+    "checkedAt": "9:41 AM CT",
+    "checkedAtIso": "2026-10-18T09:41:40-05:00",
     "label": "Graded record (ESPN finals, regraded Oct 17): CLEARED 2-2-0 · GAUGE 19-15-0 · Near misses 121-87-3 (separate) · n=38"
   },
   "todaysGauge": {
@@ -7346,288 +2401,118 @@ window.BET_BOARD_DATA = {
       {
         "rank": 1,
         "tier": "CLEAR",
-        "pick": "Joaquin Buckley ML",
-        "line": "+116 FanDuel",
-        "sport": "UFC",
-        "game": "Mike Malott @ Joaquin Buckley",
-        "timeCT": "9:45 PM CT",
-        "yt": 10,
+        "pick": "Tampa Bay Rays ML",
+        "line": "-127 BetOnline",
+        "sport": "MLB",
+        "game": "Tampa Bay Rays @ Cleveland Guardians",
+        "timeCT": "4:10 PM CT",
+        "yt": 5,
         "x": 0,
         "edge": null,
-        "rationale": "Clear: 10.25 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T21:45-05:00",
+        "rationale": "Clear: 5 combined sources (floor 4); all gate rules pass.",
+        "startCT": "2026-10-18T16:10-05:00",
         "final": false,
         "live": false,
         "onBoard": true
       },
       {
         "rank": 2,
-        "tier": "CLEAR",
-        "pick": "Louis Jourdain ML",
-        "line": "-166 FanDuel",
-        "sport": "UFC",
-        "game": "Timothy Cuamba @ Louis Jourdain",
-        "timeCT": "7:45 PM CT",
-        "yt": 7,
+        "tier": "SOFT",
+        "pick": "Real Madrid ML",
+        "line": "-400 Caesars",
+        "sport": "Soccer",
+        "game": "Sevilla @ Real Madrid",
+        "timeCT": "2:00 PM CT",
+        "yt": 4,
         "x": 0,
         "edge": null,
-        "rationale": "Clear: 7 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T19:45-05:00",
+        "rationale": "Soft: 4 combined sources (floor 4); fails public_bias, favorite_cap.",
+        "startCT": "2026-10-18T14:00-05:00",
         "final": false,
         "live": false,
         "onBoard": true
       },
       {
         "rank": 3,
-        "tier": "CLEAR",
-        "pick": "Kyle Daukaus ML",
-        "line": "-195 Bovada",
-        "sport": "UFC",
-        "game": "Kyle Daukaus @ Marc-Andre Barriault",
-        "timeCT": "8:15 PM CT",
-        "yt": 5,
+        "tier": "SOFT",
+        "pick": "Pittsburgh Steelers -2.5",
+        "line": "-104 FanDuel",
+        "sport": "NFL",
+        "game": "Pittsburgh Steelers @ Tampa Bay Buccaneers",
+        "timeCT": "12:00 PM CT",
+        "yt": 2,
         "x": 0,
         "edge": null,
-        "rationale": "Clear: 5 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T20:15-05:00",
+        "rationale": "Soft: 2.25 combined sources (floor 4); all gate rules pass.",
+        "startCT": "2026-10-18T12:00-05:00",
         "final": false,
         "live": false,
-        "onBoard": true
+        "onBoard": false
       },
       {
         "rank": 4,
-        "tier": "CLEAR",
-        "pick": "Texas -12.5",
-        "line": "+100 Pinnacle",
-        "sport": "CFB",
-        "game": "Florida Gators @ Texas Longhorns",
-        "timeCT": "11:00 AM CT",
-        "yt": 4,
+        "tier": "SOFT",
+        "pick": "Carolina Panthers -3",
+        "line": "-107 LowVig",
+        "sport": "NFL",
+        "game": "Carolina Panthers @ Philadelphia Eagles",
+        "timeCT": "12:00 PM CT",
+        "yt": 2,
         "x": 0,
         "edge": null,
-        "rationale": "Clear: 4 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T11:00-05:00",
+        "rationale": "Soft: 2 combined sources (floor 4); all gate rules pass.",
+        "startCT": "2026-10-18T12:00-05:00",
         "final": false,
         "live": false,
-        "onBoard": true
+        "onBoard": false
       },
       {
         "rank": 5,
-        "tier": "CLEAR",
-        "pick": "Oklahoma -6.5",
-        "line": "-110 MyBookie",
-        "sport": "CFB",
-        "game": "Kentucky Wildcats @ Oklahoma Sooners",
-        "timeCT": "6:30 PM CT",
-        "yt": 4,
+        "tier": "SOFT",
+        "pick": "New York Jets +7.5",
+        "line": "-112 DraftKings",
+        "sport": "NFL",
+        "game": "New York Jets @ New England Patriots",
+        "timeCT": "12:00 PM CT",
+        "yt": 1,
         "x": 1,
         "edge": null,
-        "rationale": "Clear: 5 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T18:30-05:00",
+        "rationale": "Soft: 2 combined sources (floor 4); all gate rules pass.",
+        "startCT": "2026-10-18T12:00-05:00",
         "final": false,
         "live": false,
-        "onBoard": true
+        "onBoard": false
       },
       {
         "rank": 6,
-        "tier": "CLEAR",
-        "pick": "Baylor -6",
-        "line": "-109 BetRivers",
-        "sport": "CFB",
-        "game": "TCU Horned Frogs @ Baylor Bears",
-        "timeCT": "6:00 PM CT",
-        "yt": 4,
+        "tier": "SOFT",
+        "pick": "Los Angeles Rams -13.5",
+        "line": "+104 Pinnacle",
+        "sport": "NFL",
+        "game": "Arizona Cardinals @ Los Angeles Rams",
+        "timeCT": "3:05 PM CT",
+        "yt": 2,
         "x": 0,
         "edge": null,
-        "rationale": "Clear: 4.25 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T18:00-05:00",
+        "rationale": "Soft: 2 combined sources (floor 4); fails public_bias.",
+        "startCT": "2026-10-18T15:05-05:00",
         "final": false,
         "live": false,
-        "onBoard": true
+        "onBoard": false
       },
       {
         "rank": 7,
-        "tier": "CLEAR",
-        "pick": "Tennessee +7.5",
-        "line": "-101 LowVig",
-        "sport": "CFB",
-        "game": "Alabama Crimson Tide @ Tennessee Volunteers",
-        "timeCT": "2:30 PM CT",
-        "yt": 3,
-        "x": 1,
-        "edge": null,
-        "rationale": "Clear: 4 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T14:30-05:00",
-        "final": false,
-        "live": false,
-        "onBoard": true
-      },
-      {
-        "rank": 8,
-        "tier": "CLEAR",
-        "pick": "Duke -3",
-        "line": "-106 LowVig",
-        "sport": "CFB",
-        "game": "North Carolina Tar Heels @ Duke Blue Devils",
-        "timeCT": "2:30 PM CT",
-        "yt": 3,
-        "x": 1,
-        "edge": null,
-        "rationale": "Clear: 4 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T14:30-05:00",
-        "final": false,
-        "live": false,
-        "onBoard": true
-      },
-      {
-        "rank": 9,
-        "tier": "CLEAR",
-        "pick": "Georgia -20",
-        "line": "-110 BetRivers",
-        "sport": "CFB",
-        "game": "Auburn Tigers @ Georgia Bulldogs",
-        "timeCT": "2:30 PM CT",
-        "yt": 3,
-        "x": 1,
-        "edge": null,
-        "rationale": "Clear: 4 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T14:30-05:00",
-        "final": false,
-        "live": false,
-        "onBoard": true
-      },
-      {
-        "rank": 10,
         "tier": "SOFT",
-        "pick": "LSU -17.5",
-        "line": "-106 LowVig",
-        "sport": "CFB",
-        "game": "Mississippi State Bulldogs @ LSU Tigers",
-        "timeCT": "11:00 AM CT",
+        "pick": "Indianapolis Colts -6.5",
+        "line": "-105 Bovada",
+        "sport": "NFL",
+        "game": "Tennessee Titans @ Indianapolis Colts",
+        "timeCT": "12:00 PM CT",
         "yt": 2,
-        "x": 2,
-        "edge": "edge+",
-        "rationale": "Soft: 4 combined sources (floor 4); all gate rules pass; edge+ vs Pinnacle no-vig.",
-        "startCT": "2026-10-17T11:00-05:00",
-        "final": false,
-        "live": false,
-        "onBoard": true
-      },
-      {
-        "rank": 11,
-        "tier": "SOFT",
-        "pick": "Indiana +2.5",
-        "line": "+100 Bovada",
-        "sport": "CFB",
-        "game": "Ohio State Buckeyes @ Indiana Hoosiers",
-        "timeCT": "11:00 AM CT",
-        "yt": 5,
-        "x": 1,
-        "edge": null,
-        "rationale": "Soft: 6 combined sources (floor 4); fails key_numbers.",
-        "startCT": "2026-10-17T11:00-05:00",
-        "final": false,
-        "live": false,
-        "onBoard": true
-      },
-      {
-        "rank": 12,
-        "tier": "SOFT",
-        "pick": "Oklahoma State +4.5",
-        "line": "-106 LowVig",
-        "sport": "CFB",
-        "game": "Oklahoma State Cowboys @ Houston Cougars",
-        "timeCT": "6:30 PM CT",
-        "yt": 4,
         "x": 0,
         "edge": null,
-        "rationale": "Soft: 4 combined sources (floor 4); fails public_bias.",
-        "startCT": "2026-10-17T18:30-05:00",
-        "final": false,
-        "live": false,
-        "onBoard": true
-      },
-      {
-        "rank": 13,
-        "tier": "SOFT",
-        "pick": "Tampa Bay Rays ML",
-        "line": "-108 BetOnline",
-        "sport": "MLB",
-        "game": "Tampa Bay Rays @ Cleveland Guardians",
-        "timeCT": "7:00 PM CT",
-        "yt": 3,
-        "x": 0,
-        "edge": null,
-        "rationale": "Soft: 3 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T19:00-05:00",
-        "final": false,
-        "live": false,
-        "onBoard": false
-      },
-      {
-        "rank": 14,
-        "tier": "SOFT",
-        "pick": "Steven Koslow ML",
-        "line": "-162 BetRivers",
-        "sport": "UFC",
-        "game": "Steven Koslow @ Chad Anheliger",
-        "timeCT": "5:00 PM CT",
-        "yt": 3,
-        "x": 0,
-        "edge": null,
-        "rationale": "Soft: 3 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T17:00-05:00",
-        "final": false,
-        "live": false,
-        "onBoard": false
-      },
-      {
-        "rank": 15,
-        "tier": "SOFT",
-        "pick": "Oregon -7",
-        "line": "+101 LowVig",
-        "sport": "CFB",
-        "game": "Nebraska Cornhuskers @ Oregon Ducks",
-        "timeCT": "10:00 PM CT",
-        "yt": 3,
-        "x": 0,
-        "edge": null,
-        "rationale": "Soft: 3 combined sources (floor 4); all gate rules pass.",
-        "startCT": "2026-10-17T22:00-05:00",
-        "final": false,
-        "live": false,
-        "onBoard": false
-      },
-      {
-        "rank": 16,
-        "tier": "SOFT",
-        "pick": "Utah -14.5",
-        "line": "-108 BetMGM",
-        "sport": "CFB",
-        "game": "Utah Utes @ Colorado Buffaloes",
-        "timeCT": "9:15 PM CT",
-        "yt": 3,
-        "x": 0,
-        "edge": null,
-        "rationale": "Soft: 3 combined sources (floor 4); fails public_bias.",
-        "startCT": "2026-10-17T21:15-05:00",
-        "final": false,
-        "live": false,
-        "onBoard": false
-      },
-      {
-        "rank": 17,
-        "tier": "SOFT",
-        "pick": "Notre Dame -10.5",
-        "line": "-110 DraftKings",
-        "sport": "CFB",
-        "game": "Notre Dame Fighting Irish @ BYU Cougars",
-        "timeCT": "6:30 PM CT",
-        "yt": 2,
-        "x": 1,
-        "edge": null,
-        "rationale": "Soft: 3 combined sources (floor 4); fails fair_price, key_numbers.",
-        "startCT": "2026-10-17T18:30-05:00",
+        "rationale": "Soft: 2 combined sources (floor 4); fails public_bias.",
+        "startCT": "2026-10-18T12:00-05:00",
         "final": false,
         "live": false,
         "onBoard": false
@@ -8163,9 +3048,9 @@ window.BET_BOARD_DATA = {
     ],
     "note": "Flat 1u per card at the published price. Graded by Betting Consensus Screener from ESPN finals (regraded Oct 17). Track record uses the old CLEARED/GAUGE labels; new Clear/Soft/Watch cards start grading from Oct 17. Near misses tracked separately."
   },
-  "xNote": "Send-it list 1867962331566612965 via free X search: 219 posts 12:00–9:30 AM CT read by Betting Consensus Screener; unique posters, current-day unstarted only. Never posted.",
-  "oddsApiNote": "The Odds API (us+eu) snapshot 9:30 AM CT, 10 sports; closing capture run once this pass. Fair = Pinnacle no-vig. Line moves are Fri→Sat snapshot moves, not confirmed sharp action.",
-  "youtubeNote": "YouTube: TubeAlfred had 0 credits, so all searches ran through free yt-dlp (25 query variants per sport, 'uploaded today' filter) with captions pulled via yt-dlp. Videos scanned (captions read) / counted (pre-game, today): CFB 70/45, NHL 45/26, MLB 33/20, Soccer 60/48, UFC 45/33. Picks are auto-extracted from captions. On-board picks and every engine-Clear candidate were hand-checked (9:55 AM CT) and their counts corrected. Same-day = uploaded the previous calendar day (CT) or game day, before the game. Engine v1.0.4 counts only hand-accepted videos; a 'with unverified: N' chip shows what the count would be if unchecked videos were included.",
+  "xNote": "Send-it list 1867962331566612965 via free X search: ~217 posts 12:27–9:33 AM CT, slip images OCR'd; unique posters, today's unstarted side/total picks only (mostly player props, which don't count). Never posted.",
+  "oddsApiNote": "The Odds API (us+eu) snapshot 9:10 AM CT Oct 18 (NFL, NHL, MLB, 7 soccer leagues); closing capture run once. Fair = Pinnacle no-vig (no Pinnacle price for ALCS G5 this pass). Line moves: NFL Thu Oct 15 → Sun, Forest–Arsenal Sat → Sun; other games had no prior snapshot. Not confirmed sharp action.",
+  "youtubeNote": "YouTube: TubeAlfred had 0 credits, so all searches ran through free yt-dlp (NFL 55 searches incl. a second today-only wave; MLB/NHL/Soccer 25 each; this-week filter, then kept only Oct 17-18 CT uploads) with captions pulled via yt-dlp. Videos scanned (captions read) / counted (pre-game, today): NFL 341/113, MLB 120/48, NHL 121/43, Soccer 353/119. Picks are auto-extracted from captions. On-board picks and every engine-Clear candidate were hand-checked (9:35 AM CT Oct 18; Oct 17 uploads about Saturday's games were rejected) and their counts corrected. Same-day = uploaded the previous calendar day (CT) or game day, before the game. The engine counts only hand-accepted videos and excludes AI/scripted channels; a 'with unverified: N' chip shows what the count would be if unchecked videos were included.",
   "provisional": {
     "show": false,
     "title": "PROVISIONAL TIERS",
@@ -8173,35 +3058,29 @@ window.BET_BOARD_DATA = {
   },
   "tierSpec": "v3-engine",
   "tierCounts": {
-    "CFB": {
-      "Clear": 6,
-      "Soft": 35,
-      "Watch": 0,
-      "onBoard": 9
-    },
-    "NHL": {
+    "NFL": {
       "Clear": 0,
-      "Soft": 14,
+      "Soft": 11,
       "Watch": 0,
       "onBoard": 0
     },
     "MLB": {
+      "Clear": 1,
+      "Soft": 0,
+      "Watch": 0,
+      "onBoard": 1
+    },
+    "NHL": {
       "Clear": 0,
-      "Soft": 1,
+      "Soft": 2,
       "Watch": 0,
       "onBoard": 0
     },
     "Soccer": {
       "Clear": 0,
-      "Soft": 18,
+      "Soft": 9,
       "Watch": 0,
-      "onBoard": 0
-    },
-    "UFC": {
-      "Clear": 3,
-      "Soft": 8,
-      "Watch": 0,
-      "onBoard": 3
+      "onBoard": 1
     }
   }
 };
