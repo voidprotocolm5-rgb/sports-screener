@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-18T09:41:40-05:00",
-  "updatedAtLabel": "Oct 18, 2026 · 9:41 AM CT",
+  "updatedAt": "2026-10-18T09:42:40-05:00",
+  "updatedAtLabel": "Oct 18, 2026 · 9:42 AM CT",
   "nearMiss": {
     "NFL": [
       {
@@ -2103,7 +2103,7 @@
   },
   "slate": "Sun Oct 18 2026 — NFL Week 7, ALCS G5, NHL, Soccer · Clear/Soft/Watch (engine v1.0.5)",
   "sport": "multi",
-  "defaultSport": "NFL",
+  "defaultSport": "MLB",
   "status": "live",
   "summary": "2 on the board (4+ combined sources) · Clear 1 · Soft 22 · Watch 0 rated by tier_engine v1.0.5. Pass hidden. Research only.",
   "clearedCount": 1,
@@ -2388,8 +2388,8 @@
     "cleared": "2-2-0",
     "gauge": "19-15-0",
     "nearMiss": "121-87-3",
-    "checkedAt": "9:41 AM CT",
-    "checkedAtIso": "2026-10-18T09:41:40-05:00",
+    "checkedAt": "9:42 AM CT",
+    "checkedAtIso": "2026-10-18T09:42:40-05:00",
     "label": "Graded record (ESPN finals, regraded Oct 17): CLEARED 2-2-0 · GAUGE 19-15-0 · Near misses 121-87-3 (separate) · n=38"
   },
   "todaysGauge": {
