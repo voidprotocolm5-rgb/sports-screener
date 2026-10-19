@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-19T18:33:48-05:00",
-  "updatedAtLabel": "Oct 19, 2026 · 6:33 PM CT",
+  "updatedAt": "2026-10-19T18:35:58-05:00",
+  "updatedAtLabel": "Oct 19, 2026 · 6:35 PM CT",
   "nearMiss": {
     "NFL-PROPS": [
       {
@@ -2003,13 +2003,13 @@ window.BET_BOARD_DATA = {
       }
     ]
   },
-  "slate": "Mon Oct 19 2026 — Monday Night Football: Commanders @ 49ers (7:15 PM CT) · Clear/Soft/Watch (engine v1.0.6)",
+  "slate": "Mon Oct 19 2026 — MNF Commanders @ 49ers (7:15 PM CT), ALCS Game 6, NHL · Clear/Soft/Watch (engine v1.0.6)",
   "sport": "multi",
   "defaultSport": "NFL",
   "status": "live",
-  "summary": "4 on the board (3+ combined sources, 2+ YT/X) · Clear 3 · Soft 27 · Watch 0 rated by tier_engine v1.0.6. Pass hidden. Research only.",
+  "summary": "6 on the board (3+ combined sources, 2+ YT/X) · Clear 3 · Soft 29 · Watch 0 rated by tier_engine v1.0.6. Pass hidden. Research only.",
   "clearedCount": 3,
-  "gaugeCount": 1,
+  "gaugeCount": 3,
   "sports": [
     {
       "id": "CFB",
@@ -2067,14 +2067,6 @@ window.BET_BOARD_DATA = {
     }
   ],
   "archives": {
-    "MLB": {
-      "lastSlate": "Mon Oct 19 2026",
-      "note": "ALCS Game 6 (Guardians @ Rays, 7:10 PM CT): research pass in progress."
-    },
-    "NHL": {
-      "lastSlate": "Mon Oct 19 2026",
-      "note": "Tonight's NHL: research pass in progress."
-    },
     "Soccer": {
       "lastSlate": "Sun Oct 18 2026",
       "note": "No soccer researched for Monday."
@@ -2390,6 +2382,200 @@ window.BET_BOARD_DATA = {
       "rank": 3
     },
     {
+      "id": "mon1019-mlb-tampa-bay-rays-ml",
+      "example": false,
+      "sport": "MLB",
+      "engineTier": "Soft",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Cleveland Guardians @ Tampa Bay Rays · 7:10 PM CT",
+      "pick": "Tampa Bay Rays ML",
+      "line": "-150 BetUS",
+      "timeCT": "7:10 PM CT",
+      "startCT": "2026-10-19T19:10-05:00",
+      "gameState": "pre",
+      "live": false,
+      "final": false,
+      "status": "PRE",
+      "fairOdds": "-141",
+      "bestOdds": "-150",
+      "bestBook": "BetUS",
+      "booksPriced": 28,
+      "evPct": -2.49,
+      "edgePlus": false,
+      "consensus": 8.9,
+      "combined": 8.25,
+      "publish": true,
+      "publishReason": "8.25 combined sources",
+      "sources": {
+        "youtube": 7,
+        "ytRaw": 21,
+        "ytEcho": 1,
+        "xSendIt": 1,
+        "combined": 8.25
+      },
+      "ytWho": "Bag Report | Daily Player Props & Sports Picks; BettingPros; Doc's Sports Picks, Best Bets, Predictions & Odds; Free Picks PickDawgz; La Jugada; SteadyPicks; Tony's Picks",
+      "xWho": "ItsParlayPete",
+      "ytVerified": true,
+      "ytWithUnverified": 7,
+      "rules": [
+        {
+          "rule": "fair_price",
+          "result": "pass",
+          "reason": "fair -141 (pinnacle); 28 books priced"
+        },
+        {
+          "rule": "key_numbers",
+          "result": "na",
+          "reason": "football spreads only"
+        },
+        {
+          "rule": "public_bias",
+          "result": "fail",
+          "reason": "85% of tickets on pick side (public side, -0.5)"
+        },
+        {
+          "rule": "echo_discount",
+          "result": "pass",
+          "reason": "1 echo picks counted at 0.25"
+        },
+        {
+          "rule": "model_agreement",
+          "result": "na",
+          "reason": "no model probability"
+        },
+        {
+          "rule": "home_dog_lean",
+          "result": "na",
+          "reason": "not a home dog"
+        },
+        {
+          "rule": "longshot",
+          "result": "na",
+          "reason": "shorter than +300"
+        },
+        {
+          "rule": "favorite_cap",
+          "result": "pass",
+          "reason": "-150 within -200 cap"
+        },
+        {
+          "rule": "sharp_move",
+          "result": "na",
+          "reason": "no documented sharp/RLM move"
+        },
+        {
+          "rule": "no_hot_hand",
+          "result": "pass",
+          "reason": "streak/record fields ignored; no hot-hand credit"
+        }
+      ],
+      "gateFails": [
+        "public_bias"
+      ],
+      "why": "YouTube 7 independent (accepted videos only; engine-deduped): Bag Report | Daily Player Props & Sports Picks, BettingPros, Doc's Sports Picks, Best Bets, Predictions & Odds, Free Picks PickDawgz, La Jugada, SteadyPicks, Tony's Picks. X send-it 1: ItsParlayPete. hand-checked Oct 19 ~6:36 PM CT.",
+      "rationale": "Soft: 8.25 combined sources (floor 3); fails public_bias.",
+      "confidence": 89,
+      "rank": 4
+    },
+    {
+      "id": "mon1019-nhl-utah-mammoth-ml",
+      "example": false,
+      "sport": "NHL",
+      "engineTier": "Soft",
+      "tier": "gauge",
+      "marketType": "moneyline",
+      "game": "Pittsburgh Penguins @ Utah Mammoth · 8:10 PM CT",
+      "pick": "Utah Mammoth ML",
+      "line": "-183 BetOnline",
+      "timeCT": "8:10 PM CT",
+      "startCT": "2026-10-19T20:10-05:00",
+      "gameState": "pre",
+      "live": false,
+      "final": false,
+      "status": "PRE",
+      "fairOdds": "-172",
+      "bestOdds": "-183",
+      "bestBook": "BetOnline",
+      "booksPriced": 29,
+      "evPct": -2.21,
+      "edgePlus": false,
+      "consensus": 4.3,
+      "combined": 4.25,
+      "publish": true,
+      "publishReason": "4.25 combined sources",
+      "sources": {
+        "youtube": 3,
+        "ytRaw": 11,
+        "ytEcho": 1,
+        "xSendIt": 1,
+        "combined": 4.25
+      },
+      "ytWho": "Doc's Sports Picks, Best Bets, Predictions & Odds; Free Picks PickDawgz; Sports Parlay Picks",
+      "xWho": "propnosis",
+      "ytVerified": true,
+      "ytWithUnverified": 3,
+      "rules": [
+        {
+          "rule": "fair_price",
+          "result": "pass",
+          "reason": "fair -172 (pinnacle); 29 books priced"
+        },
+        {
+          "rule": "key_numbers",
+          "result": "na",
+          "reason": "football spreads only"
+        },
+        {
+          "rule": "public_bias",
+          "result": "fail",
+          "reason": "89% of tickets on pick side (public side, -0.5)"
+        },
+        {
+          "rule": "echo_discount",
+          "result": "pass",
+          "reason": "1 echo picks counted at 0.25"
+        },
+        {
+          "rule": "model_agreement",
+          "result": "na",
+          "reason": "no model probability"
+        },
+        {
+          "rule": "home_dog_lean",
+          "result": "na",
+          "reason": "not a home dog"
+        },
+        {
+          "rule": "longshot",
+          "result": "na",
+          "reason": "shorter than +300"
+        },
+        {
+          "rule": "favorite_cap",
+          "result": "pass",
+          "reason": "-183 within -200 cap"
+        },
+        {
+          "rule": "sharp_move",
+          "result": "na",
+          "reason": "no documented sharp/RLM move"
+        },
+        {
+          "rule": "no_hot_hand",
+          "result": "pass",
+          "reason": "streak/record fields ignored; no hot-hand credit"
+        }
+      ],
+      "gateFails": [
+        "public_bias"
+      ],
+      "why": "YouTube 3 independent (accepted videos only; engine-deduped): Doc's Sports Picks, Best Bets, Predictions & Odds, Free Picks PickDawgz, Sports Parlay Picks. X send-it 1: propnosis. hand-checked Oct 19 ~6:36 PM CT.",
+      "rationale": "Soft: 4.25 combined sources (floor 3); fails public_bias.",
+      "confidence": 43,
+      "rank": 5
+    },
+    {
       "id": "mon1019-nfl-christian-mccaffrey-anytime-td",
       "example": false,
       "sport": "NFL",
@@ -2484,15 +2670,15 @@ window.BET_BOARD_DATA = {
       "why": "YouTube 4 independent (accepted videos only; engine-deduped): Dante's Sports Data, Final Round Sports, Hold The Phone, SUPA TRUPA. X send-it 2: parlayportal, CallingOurShot. hand-checked Oct 19 ~6:30 PM CT.",
       "rationale": "Soft: 6 combined sources (floor 3); fails favorite_cap.",
       "confidence": 55,
-      "rank": 4
+      "rank": 6
     }
   ],
   "resultsTally": {
     "cleared": "2-2-0",
     "gauge": "19-15-0",
     "nearMiss": "121-87-3",
-    "checkedAt": "6:33 PM CT",
-    "checkedAtIso": "2026-10-19T18:33:48-05:00",
+    "checkedAt": "6:35 PM CT",
+    "checkedAtIso": "2026-10-19T18:35:58-05:00",
     "label": "Graded record (ESPN finals, regraded Oct 17): CLEARED 2-2-0 · GAUGE 19-15-0 · Near misses 121-87-3 (separate) · n=38"
   },
   "todaysGauge": {
@@ -2553,6 +2739,40 @@ window.BET_BOARD_DATA = {
       {
         "rank": 4,
         "tier": "SOFT",
+        "pick": "Tampa Bay Rays ML",
+        "line": "-150 BetUS",
+        "sport": "MLB",
+        "game": "Cleveland Guardians @ Tampa Bay Rays",
+        "timeCT": "7:10 PM CT",
+        "yt": 7,
+        "x": 1,
+        "edge": null,
+        "rationale": "Soft: 8.25 combined sources (floor 3); fails public_bias.",
+        "startCT": "2026-10-19T19:10-05:00",
+        "final": false,
+        "live": false,
+        "onBoard": true
+      },
+      {
+        "rank": 5,
+        "tier": "SOFT",
+        "pick": "Utah Mammoth ML",
+        "line": "-183 BetOnline",
+        "sport": "NHL",
+        "game": "Pittsburgh Penguins @ Utah Mammoth",
+        "timeCT": "8:10 PM CT",
+        "yt": 3,
+        "x": 1,
+        "edge": null,
+        "rationale": "Soft: 4.25 combined sources (floor 3); fails public_bias.",
+        "startCT": "2026-10-19T20:10-05:00",
+        "final": false,
+        "live": false,
+        "onBoard": true
+      },
+      {
+        "rank": 6,
+        "tier": "SOFT",
         "pick": "Christian McCaffrey Anytime TD",
         "line": "-250 DraftKings",
         "sport": "NFL",
@@ -2568,7 +2788,7 @@ window.BET_BOARD_DATA = {
         "onBoard": true
       },
       {
-        "rank": 5,
+        "rank": 7,
         "tier": "SOFT",
         "pick": "Jayden Daniels Over 38.5 Rush Yds",
         "line": "-113 FanDuel",
@@ -2585,7 +2805,7 @@ window.BET_BOARD_DATA = {
         "onBoard": false
       },
       {
-        "rank": 6,
+        "rank": 8,
         "tier": "SOFT",
         "pick": "Jayden Daniels Anytime TD",
         "line": "+230 FanDuel",
@@ -2602,7 +2822,7 @@ window.BET_BOARD_DATA = {
         "onBoard": false
       },
       {
-        "rank": 7,
+        "rank": 9,
         "tier": "SOFT",
         "pick": "Terry McLaurin Anytime TD",
         "line": "+230 FanDuel",
@@ -2619,7 +2839,7 @@ window.BET_BOARD_DATA = {
         "onBoard": false
       },
       {
-        "rank": 8,
+        "rank": 10,
         "tier": "SOFT",
         "pick": "Stefon Diggs Anytime TD",
         "line": "+260 BetMGM",
@@ -2636,7 +2856,7 @@ window.BET_BOARD_DATA = {
         "onBoard": false
       },
       {
-        "rank": 9,
+        "rank": 11,
         "tier": "SOFT",
         "pick": "Brock Purdy Over 20.5 Rush Yds",
         "line": "-115 Bovada",
@@ -3185,7 +3405,7 @@ window.BET_BOARD_DATA = {
   },
   "xNote": "Send-it list 1867962331566612965 via free X search: 138 posts (52 posters) from Oct 19 morning to 6:27 PM CT, 80 slip images OCR'd; unique posters, MNF and tonight's unstarted games only. Never posted.",
   "oddsApiNote": "The Odds API (us+eu) snapshot 6:27 PM CT Oct 19 (NFL, MLB, NHL) plus MNF player props (anytime TD, rush yds, rec yds). Fair = Pinnacle no-vig; R11 exchange no-vig fallback when Pinnacle is off the line (MNF total 51.5). Line moves are vs the Thu Oct 15 2:15 PM CT snapshot. Not confirmed sharp action.",
-  "youtubeNote": "YouTube: TubeAlfred has 0 credits, so free yt-dlp ran 48 searches (32 NFL MNF: sides, totals, MLs, props, team and player queries; 8 MLB; 8 NHL) with the this-week filter, keeping only Oct 18–19 CT uploads before start. NFL: 200 on-topic videos checked, 91 same-day videos scanned from captions/descriptions, 109 stale rejected. Every MNF side, total and top prop was hand-checked at ~6:30 PM CT: leans, teasers, alt lines, DFS talk, AI/model channels and EXCLUDED_YT_CHANNELS are rejected. Same-network channels count once.",
+  "youtubeNote": "YouTube: TubeAlfred has 0 credits, so free yt-dlp ran 48 searches (32 NFL MNF: sides, totals, MLs, props, team and player queries; 8 MLB; 8 NHL) with the this-week filter, keeping only Oct 18–19 CT uploads before start. NFL: 200 on-topic videos checked, 91 same-day videos scanned from captions/descriptions, 109 stale rejected. MLB: 128 checked, 62 same-day scanned. NHL: 106 checked, 64 same-day scanned. Every MNF side, total and top prop was hand-checked at ~6:30 PM CT (ALCS G6 and Penguins–Mammoth ~6:36 PM CT; Oct 18 uploads about Game 5 rejected): leans, teasers, alt lines, DFS talk, AI/model channels and EXCLUDED_YT_CHANNELS are rejected. Same-network channels count once.",
   "provisional": {
     "show": false,
     "title": "PROVISIONAL TIERS",
@@ -3198,6 +3418,18 @@ window.BET_BOARD_DATA = {
       "Soft": 27,
       "Watch": 0,
       "onBoard": 4
+    },
+    "MLB": {
+      "Clear": 0,
+      "Soft": 1,
+      "Watch": 0,
+      "onBoard": 1
+    },
+    "NHL": {
+      "Clear": 0,
+      "Soft": 1,
+      "Watch": 0,
+      "onBoard": 1
     }
   }
 };
