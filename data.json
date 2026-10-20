@@ -3078,5 +3078,661 @@
       "Watch": 1,
       "onBoard": 2
     }
+  },
+  "playerProps": {
+    "enabled": true,
+    "order": [
+      "NBA",
+      "NHL",
+      "Soccer"
+    ],
+    "groups": {
+      "NBA": [
+        {
+          "tier": "Clear",
+          "player": "Jaylen Brown",
+          "prop": "Over 20.5 Points",
+          "odds": "-107",
+          "book": "BetRivers",
+          "fair": "-110",
+          "evPct": 1.34,
+          "game": "Philadelphia 76ers @ New York Knicks",
+          "timeCT": "6:00 PM CT",
+          "startCT": "2026-10-20T18:00-05:00",
+          "gameState": "pre",
+          "yt": 3,
+          "ytWho": [
+            "Bag Report | Daily Player Props & Sports Picks",
+            "Market Picks",
+            "Tony's Picks"
+          ],
+          "xList": [
+            "propnosis",
+            "ActionNetworkHQ",
+            "Jimmy_the_Gent6",
+            "jr1886"
+          ],
+          "xOutside": [
+            "AVsLocked"
+          ],
+          "combined": 8.0,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "fair -110 (pinnacle); 7 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-107 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "rank": 1
+        },
+        {
+          "tier": "Clear",
+          "player": "Cade Cunningham",
+          "prop": "Over 8.5 Assists",
+          "odds": "-122",
+          "book": "FanDuel",
+          "fair": "-123",
+          "evPct": 0.37,
+          "game": "Boston Celtics @ Detroit Pistons",
+          "timeCT": "2:00 PM CT",
+          "startCT": "2026-10-20T14:00-05:00",
+          "gameState": "pre",
+          "yt": 0,
+          "ytWho": [],
+          "xList": [
+            "MCbets__",
+            "ChillyBets",
+            "stimsimm",
+            "cookitup31"
+          ],
+          "xOutside": [
+            "RealBetwithski",
+            "SonnyLocks7"
+          ],
+          "combined": 6.0,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "fair -123 (pinnacle); 7 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "na",
+              "reason": "no YouTube sources"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-122 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 0,
+          "rank": 2
+        },
+        {
+          "tier": "Clear",
+          "player": "John Collins",
+          "prop": "Over 12.5 Points",
+          "odds": "+105",
+          "book": "Bovada",
+          "fair": "+125",
+          "evPct": -8.89,
+          "game": "Boston Celtics @ Detroit Pistons",
+          "timeCT": "2:00 PM CT",
+          "startCT": "2026-10-20T14:00-05:00",
+          "gameState": "pre",
+          "yt": 3,
+          "ytWho": [
+            "AP SPORTS PICKS",
+            "BiteTheBookie",
+            "SportsLine"
+          ],
+          "xList": [
+            "MuggsyPlays"
+          ],
+          "xOutside": [],
+          "combined": 4.0,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "fair +125 (pinnacle); 5 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "+105 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "rank": 3
+        },
+        {
+          "tier": "Clear",
+          "player": "Payton Pritchard",
+          "prop": "Over 7.5 Reb+Ast",
+          "odds": "-125",
+          "book": "ESPN BET",
+          "fair": "-114",
+          "evPct": -4.11,
+          "game": "Boston Celtics @ Detroit Pistons",
+          "timeCT": "2:00 PM CT",
+          "startCT": "2026-10-20T14:00-05:00",
+          "gameState": "pre",
+          "yt": 3,
+          "ytWho": [
+            "CashKeg | Daily Edge Sports",
+            "Daft Previews",
+            "Just A Bet Outside"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "combined": 3.0,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "fair -114 (consensus no-vig median (4 books)); 5 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-125 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "rank": 4
+        },
+        {
+          "tier": "Clear",
+          "player": "Cade Cunningham",
+          "prop": "Over 24.5 Points",
+          "odds": "-103",
+          "book": "DraftKings",
+          "fair": "+103",
+          "evPct": -2.91,
+          "game": "Boston Celtics @ Detroit Pistons",
+          "timeCT": "2:00 PM CT",
+          "startCT": "2026-10-20T14:00-05:00",
+          "gameState": "pre",
+          "yt": 2,
+          "ytWho": [
+            "Elixir Mixers",
+            "Tony's Picks"
+          ],
+          "xList": [],
+          "xOutside": [
+            "AVsLocked"
+          ],
+          "combined": 3.0,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "fair +103 (pinnacle); 6 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-103 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "rank": 5
+        },
+        {
+          "tier": "Clear",
+          "player": "Duncan Robinson",
+          "prop": "Over 2.5 Threes Made",
+          "odds": "+103",
+          "book": "BetOnline",
+          "fair": "+124",
+          "evPct": -9.38,
+          "game": "Boston Celtics @ Detroit Pistons",
+          "timeCT": "2:00 PM CT",
+          "startCT": "2026-10-20T14:00-05:00",
+          "gameState": "pre",
+          "yt": 1,
+          "ytWho": [
+            "Elixir Mixers"
+          ],
+          "xList": [
+            "WhyNotKayDee",
+            "TheParlayPlug"
+          ],
+          "xOutside": [],
+          "combined": 3.0,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "fair +124 (pinnacle); 8 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "+103 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "rank": 6
+        },
+        {
+          "tier": "Clear",
+          "player": "Tyrese Maxey",
+          "prop": "Over 4.5 Assists",
+          "odds": "-112",
+          "book": "BetRivers",
+          "fair": "-112",
+          "evPct": 0.0,
+          "game": "Philadelphia 76ers @ New York Knicks",
+          "timeCT": "6:00 PM CT",
+          "startCT": "2026-10-20T18:00-05:00",
+          "gameState": "pre",
+          "yt": 1,
+          "ytWho": [
+            "DaWiddler"
+          ],
+          "xList": [
+            "propnosis"
+          ],
+          "xOutside": [
+            "AVsLocked"
+          ],
+          "combined": 3.0,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "fair -112 (pinnacle); 8 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-112 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "rank": 7
+        },
+        {
+          "tier": "Clear",
+          "player": "Chet Holmgren",
+          "prop": "Under 12.5 Points",
+          "odds": "-105",
+          "book": "DraftKings",
+          "fair": "-103",
+          "evPct": -0.94,
+          "game": "Oklahoma City Thunder @ San Antonio Spurs",
+          "timeCT": "8:30 PM CT",
+          "startCT": "2026-10-20T20:30-05:00",
+          "gameState": "pre",
+          "yt": 1,
+          "ytWho": [
+            "The Action Network: Sports Betting Picks & Tips"
+          ],
+          "xList": [
+            "ActionNetworkHQ"
+          ],
+          "xOutside": [
+            "SharperThanU"
+          ],
+          "combined": 3.0,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "fair -103 (pinnacle); 7 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-105 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "rank": 8
+        }
+      ],
+      "NHL": [],
+      "Soccer": []
+    },
+    "updatedAtLabel": "Oct 20, 2026 · 1:09 PM CT",
+    "engine": "1.0.6",
+    "note": "Research only. Player props rated by tier_engine v1.0.6; on the board = 3+ combined sources with 2+ YT/X. YouTube channels and X handles named; X split into send-it list vs outside the list.",
+    "emptyText": {
+      "NHL": "No NHL prop had 3+ combined sources today.",
+      "Soccer": "No soccer prop had a verified, priced source today."
+    }
   }
 }

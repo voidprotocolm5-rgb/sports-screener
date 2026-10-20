@@ -628,8 +628,9 @@
   var PRIVATE_PAGES_ENABLED = false; // Disclaimer stays private
   var PERFORMANCE_PAGE_ENABLED = true; // public Performance approved by Atlas 10/15 12:53 PM CT
   function pageRoute() {
-    var m = (location.hash || "").match(/^#\/(methodology|performance|disclaimer)/);
+    var m = (location.hash || "").match(/^#\/(methodology|performance|disclaimer|props)/);
     if (!m) return null;
+    if (m[1] === "props") return propsEnabled(lastPayload) ? "props" : null;
     if (m[1] === "performance" && PERFORMANCE_PAGE_ENABLED) return m[1];
     if (m[1] !== "methodology" && !PRIVATE_PAGES_ENABLED) return null;
     return m[1];
@@ -709,12 +710,50 @@
       "<li>Third-party names (YouTube channels, X accounts, models, sites) are cited for attribution only and do not endorse this site.</li></ul>" +
       '<p>Set limits, never chase losses, and take breaks. Self-exclusion programs are available in every legal state.</p>';
   }
+  // ---- Player Props page (#/props) — staged Oct 20 2026; enabled only when data.playerProps.enabled === true ----
+  function propsEnabled(data) { return !!(data && data.playerProps && data.playerProps.enabled === true); }
+  function propCard(c) {
+    var started = c.gameState === "live" || (c.startCT && new Date(c.startCT) <= new Date());
+    var tierCls = String(c.tier || "").toLowerCase();
+    var rules = (c.rules || []).map(function (r) {
+      return '<li class="pp-rule pp-' + escapeHtml(r.result) + '"><b>' + escapeHtml(r.result === "pass" ? "✓" : r.result === "fail" ? "✗" : "–") + "</b> " + escapeHtml(r.rule) + (r.reason ? ' <span class="muted">' + escapeHtml(r.reason) + "</span>" : "") + "</li>";
+    }).join("");
+    var yt = (c.ytWho || []).map(escapeHtml).join(", ") || "—";
+    var xl = (c.xList || []).map(function (u) { return "@" + escapeHtml(u); }).join(", ");
+    var xo = (c.xOutside || []).map(function (u) { return "@" + escapeHtml(u); }).join(", ");
+    return '<li class="pp-card pp-tier-' + tierCls + '">' +
+      '<div class="pp-head"><span class="pp-rank">#' + escapeHtml(c.rank) + '</span><span class="pp-tier tier-' + tierCls + '">' + escapeHtml(c.tier) + "</span>" +
+      (started ? '<span class="pp-live">LIVE</span>' : "") + '<span class="pp-time">' + escapeHtml(c.timeCT || "") + "</span></div>" +
+      '<div class="pp-player">' + escapeHtml(c.player) + "</div>" +
+      '<div class="pp-prop">' + escapeHtml(c.prop) + "</div>" +
+      '<div class="pp-price"><b>' + escapeHtml(c.odds || "—") + "</b> " + escapeHtml(c.book || "") + ' <span class="muted">· fair ' + escapeHtml(c.fair || "n/a") + (c.evPct != null ? " · EV " + (c.evPct > 0 ? "+" : "") + escapeHtml(c.evPct) + "%" : "") + "</span></div>" +
+      '<div class="pp-game muted">' + escapeHtml(c.game) + "</div>" +
+      '<div class="pp-src"><span>YouTube ' + escapeHtml(c.yt) + ":</span> " + yt + "</div>" +
+      '<div class="pp-src"><span>X send-it list ' + escapeHtml((c.xList || []).length) + ":</span> " + (xl || "—") + "</div>" +
+      '<div class="pp-src"><span>X outside list ' + escapeHtml((c.xOutside || []).length) + ":</span> " + (xo || "—") + "</div>" +
+      '<details class="pp-rules"><summary>Rules: ' + escapeHtml(c.passCount) + " passed · " + escapeHtml(c.failCount) + " failed</summary><ul>" + rules + "</ul></details>" +
+      "</li>";
+  }
+  function pageProps(data) {
+    var P = (data && data.playerProps) || {};
+    var order = P.order || ["NBA", "NHL", "Soccer"];
+    var groups = P.groups || {};
+    var body = order.map(function (sp) {
+      var list = groups[sp] || [];
+      var label = { NBA: "NBA player props", NHL: "NHL player props", Soccer: "Soccer player props" }[sp] || sp;
+      return '<section class="pp-group" id="pp-' + escapeHtml(sp) + '"><h2>' + escapeHtml(label) + ' <span class="tab-count">' + list.length + "</span></h2>" +
+        (list.length ? '<ol class="pp-list">' + list.map(propCard).join("") + "</ol>" : '<p class="muted">' + escapeHtml((P.emptyText || {})[sp] || "No " + sp + " props reached the board today.") + "</p>") + "</section>";
+    }).join("");
+    return "<h1>Player Props</h1><p class='muted'>" + escapeHtml(P.note || "Research only. Ranked by engine tier, then combined sources. Start times CT.") + "</p>" +
+      "<p class='muted'>Updated " + escapeHtml(P.updatedAtLabel || "") + "</p>" + body;
+  }
   function renderPage(data) {
     var r = pageRoute(), pv = $("page-view"), bv = $("board-view");
+    var ppl = document.querySelector('a.navlink[href="#/props"]'); if (ppl) ppl.hidden = !propsEnabled(data);
     if (!pv || !bv) return false;
     document.querySelectorAll(".navlink").forEach(function (a) { a.setAttribute("aria-current", a.getAttribute("href") === "#/" + r ? "page" : "false"); });
     if (!r) { pv.hidden = true; bv.hidden = false; return false; }
-    pv.innerHTML = '<article class="page">' + (r === "performance" ? pagePerformance(data) : r === "methodology" ? pageMethodology() : pageDisclaimer()) +
+    pv.innerHTML = '<article class="page">' + (r === "props" ? pageProps(data) : r === "performance" ? pagePerformance(data) : r === "methodology" ? pageMethodology() : pageDisclaimer()) +
       '<p><a class="back-link" href="#">← Back to the board</a></p></article>';
     pv.hidden = false; bv.hidden = true; window.scrollTo(0, 0);
     return true;

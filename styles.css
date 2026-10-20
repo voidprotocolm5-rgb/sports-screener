@@ -239,3 +239,12 @@ a{color:var(--accent-ink)}
 .method-note{padding:10px 14px;border-radius:10px;background:rgba(59,130,246,.1);border:1px solid rgba(59,130,246,.35);margin:10px 0}
 .nm-price{opacity:.75;font-weight:400;margin-left:6px}
 @media (max-width:520px){.rule{grid-template-columns:18px 1fr}.rule-why{grid-column:2}}
+
+/* Player Props page (staged Oct 20 2026) */
+.pp-group{margin:1.5rem 0}.pp-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.75rem}
+.pp-card{border:1px solid var(--border,#2a2f3a);border-radius:10px;padding:.75rem;background:var(--card,#141821)}
+.pp-head{display:flex;gap:.5rem;align-items:center;font-size:.8rem}.pp-rank{opacity:.7}.pp-time{margin-left:auto;opacity:.8}
+.pp-tier{font-weight:700;padding:.1rem .45rem;border-radius:6px;background:#333}.tier-clear{background:#1f7a3f;color:#fff}.tier-soft{background:#7a5a1f;color:#fff}.tier-watch{background:#444;color:#fff}
+.pp-live{background:#c62828;color:#fff;font-weight:700;padding:.1rem .4rem;border-radius:6px}
+.pp-player{font-size:1.05rem;font-weight:700;margin-top:.35rem}.pp-prop{font-weight:600}.pp-price{margin:.25rem 0}.pp-src{font-size:.82rem;margin-top:.15rem}.pp-src span{opacity:.75}
+.pp-rules summary{cursor:pointer;font-size:.82rem;margin-top:.35rem}.pp-rules ul{padding-left:1rem;font-size:.78rem}.pp-fail b{color:#e57373}.pp-pass b{color:#81c784}
