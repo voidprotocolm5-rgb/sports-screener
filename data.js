@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Slate Scout must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-20T12:32:11-05:00",
-  "updatedAtLabel": "Oct 20, 2026 · 12:32 PM CT",
+  "updatedAt": "2026-10-20T12:50:22-05:00",
+  "updatedAtLabel": "Oct 20, 2026 · 12:50 PM CT",
   "nearMiss": {
     "NHL": [
       {
@@ -1325,22 +1325,10 @@ window.BET_BOARD_DATA = {
   "gaugeCount": 7,
   "sports": [
     {
-      "id": "CFB",
-      "label": "College Football",
-      "nav": "CFB",
-      "short": "CFB"
-    },
-    {
       "id": "NBA",
       "label": "Basketball (NBA)",
-      "nav": "Basketball",
+      "nav": "NBA",
       "short": "NBA"
-    },
-    {
-      "id": "Soccer",
-      "label": "Soccer",
-      "nav": "Soccer",
-      "short": "Soccer"
     },
     {
       "id": "NHL",
@@ -1349,22 +1337,10 @@ window.BET_BOARD_DATA = {
       "short": "NHL"
     },
     {
-      "id": "WNBA",
-      "label": "Basketball (WNBA)",
-      "nav": "WNBA",
-      "short": "WNBA"
-    },
-    {
-      "id": "TENNIS",
-      "label": "Tennis",
-      "nav": "Tennis",
-      "short": "Tennis"
-    },
-    {
-      "id": "MLB",
-      "label": "Baseball",
-      "nav": "Baseball",
-      "short": "MLB"
+      "id": "Soccer",
+      "label": "Soccer",
+      "nav": "Soccer",
+      "short": "Soccer"
     },
     {
       "id": "NFL",
@@ -1373,10 +1349,28 @@ window.BET_BOARD_DATA = {
       "short": "NFL"
     },
     {
+      "id": "CFB",
+      "label": "College Football",
+      "nav": "CFB",
+      "short": "CFB"
+    },
+    {
+      "id": "MLB",
+      "label": "Baseball",
+      "nav": "Baseball",
+      "short": "MLB"
+    },
+    {
       "id": "UFC",
       "label": "UFC",
       "nav": "UFC",
       "short": "UFC"
+    },
+    {
+      "id": "TENNIS",
+      "label": "Tennis",
+      "nav": "Tennis",
+      "short": "Tennis"
     }
   ],
   "archives": {
@@ -1395,10 +1389,6 @@ window.BET_BOARD_DATA = {
     "UFC": {
       "lastSlate": "Sat Oct 17 2026",
       "note": "No UFC card on Tuesday."
-    },
-    "WNBA": {
-      "lastSlate": "Mon Oct 19 2026",
-      "note": "Offseason."
     },
     "TENNIS": {
       "lastSlate": "Mon Oct 19 2026",
@@ -2285,8 +2275,8 @@ window.BET_BOARD_DATA = {
     "cleared": "2-2-0",
     "gauge": "19-15-0",
     "nearMiss": "121-87-3",
-    "checkedAt": "12:32 PM CT",
-    "checkedAtIso": "2026-10-20T12:32:11-05:00",
+    "checkedAt": "12:50 PM CT",
+    "checkedAtIso": "2026-10-20T12:50:22-05:00",
     "label": "Graded record (ESPN finals, regraded Oct 17): CLEARED 2-2-0 · GAUGE 19-15-0 · Near misses 121-87-3 (separate) · n=38"
   },
   "todaysGauge": {
