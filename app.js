@@ -1,5 +1,5 @@
 /**
- * Bet Board — multi-sport research dashboard.
+ * Bearish Bulls Picks — multi-sport research dashboard.
  * Loads data.json (or window.BET_BOARD_DATA), filters by sport category,
  * renders cards by market, auto-refreshes every 60s.
  */
@@ -702,7 +702,7 @@
   function pageDisclaimer() {
     return '<p class="page-kicker">Please read</p><h1>Disclaimer.</h1>' +
       '<div class="callout warn"><b>21+ only.</b> Gambling problem? Call <a href="tel:18004262537">1-800-GAMBLER</a> (1-800-426-2537) or visit <a href="https://www.ncpgambling.org" rel="noopener">ncpgambling.org</a>.</div>' +
-      "<ul><li>Sports screener is a <b>research and education</b> tool. It is not betting, financial or investment advice.</li>" +
+      "<ul><li>Bearish Bulls Picks is a <b>research and education</b> tool. It is not betting, financial or investment advice.</li>" +
       "<li>We <b>do not place bets</b>, take wagers, or handle money, and we are not a sportsbook or a paid pick service.</li>" +
       "<li>Odds, lines, injuries and model outputs change and can be wrong or stale. Always confirm prices with a licensed sportsbook.</li>" +
       "<li>Past results do not predict future results. The track record is small and is shown with its sample size.</li>" +
@@ -744,11 +744,21 @@
       return '<section class="pp-group" id="pp-' + escapeHtml(sp) + '"><h2>' + escapeHtml(label) + ' <span class="tab-count">' + list.length + "</span></h2>" +
         (list.length ? '<ol class="pp-list">' + list.map(propCard).join("") + "</ol>" : '<p class="muted">' + escapeHtml((P.emptyText || {})[sp] || "No " + sp + " props reached the board today.") + "</p>") + "</section>";
     }).join("");
-    return "<h1>Player Props</h1><p class='muted'>" + escapeHtml(P.note || "Research only. Ranked by engine tier, then combined sources. Start times CT.") + "</p>" +
+    return "<p class='page-kicker'>" + escapeHtml(siteName(data)) + "</p><h1>Player Props.</h1><p class='muted'>" + escapeHtml(P.note || "Research only. Ranked by engine tier, then combined sources. Start times CT.") + "</p>" +
       "<p class='muted'>Updated " + escapeHtml(P.updatedAtLabel || "") + "</p>" + body;
+  }
+  var SITE_NAME = "Bearish Bulls Picks";
+  function siteName(data) { return (data && data.siteName) || SITE_NAME; }
+  function applySiteName(data, r) {
+    var n = siteName(data);
+    var names = { props: "Player Props", performance: "Performance", methodology: "Methodology", disclaimer: "Disclaimer" };
+    document.title = r && names[r] ? names[r] + " · " + n : n;
+    var wm = document.querySelector(".wordmark");
+    if (wm && wm.lastChild && wm.lastChild.nodeType === 3 && wm.lastChild.nodeValue !== n) { wm.lastChild.nodeValue = n; wm.setAttribute("aria-label", n + " home"); }
   }
   function renderPage(data) {
     var r = pageRoute(), pv = $("page-view"), bv = $("board-view");
+    applySiteName(data, r);
     var ppl = document.querySelector('a.navlink[href="#/props"]'); if (ppl) ppl.hidden = !propsEnabled(data);
     if (!pv || !bv) return false;
     document.querySelectorAll(".navlink").forEach(function (a) { a.setAttribute("aria-current", a.getAttribute("href") === "#/" + r ? "page" : "false"); });
@@ -1268,7 +1278,7 @@
         return res.json();
       })
       .catch(function (err) {
-        console.info("Bet Board: using embedded data.js fallback.", err && err.message ? err.message : err);
+        console.info("Bearish Bulls Picks: using embedded data.js fallback.", err && err.message ? err.message : err);
         return loadFromEmbedded();
       })
       .then(function (data) {
@@ -1276,7 +1286,7 @@
         render(data);
       })
       .catch(function (err) {
-        console.error("Bet Board load failed:", err);
+        console.error("Bearish Bulls Picks load failed:", err);
         if (!lastPayload) {
           $("slate-name").textContent = "Unable to load board";
           $("summary").innerHTML = '<div class="load-error">Could not load data.json or data.js. Serve this folder over HTTP or ensure data.js is present.</div>';

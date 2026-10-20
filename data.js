@@ -1,5 +1,5 @@
 /* Auto-generated companion to data.json for file:// fallback.
-   Slate Scout must update BOTH data.json and this file together. */
+   Publishers must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
   "updatedAt": "2026-10-20T12:50:22-05:00",
   "updatedAtLabel": "Oct 20, 2026 · 12:50 PM CT",
@@ -3736,5 +3736,6 @@ window.BET_BOARD_DATA = {
       "NHL": "No NHL prop had 3+ combined sources today.",
       "Soccer": "No soccer prop had a verified, priced source today."
     }
-  }
+  },
+  "siteName": "Bearish Bulls Picks"
 };
