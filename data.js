@@ -9,7 +9,7 @@ window.BET_BOARD_DATA = {
         "id": "wed1021-nba-utah-jazz-ml",
         "example": false,
         "sport": "NBA",
-        "engineTier": "Clear",
+        "engineTier": "Soft",
         "tier": "gauge",
         "runTier": "SOFT",
         "softNote": "Engine Clear, shown Soft: X send-it 0 of 2 needed; booksAlign false.",
@@ -110,13 +110,14 @@ window.BET_BOARD_DATA = {
         "yt": 5,
         "x": 0,
         "total": 5.0,
-        "gap": "Clear · under this run's 6-source floor (5 combined: YT 5, X 0). Needs 1 more. EV -1.9% vs fair."
+        "gap": "Engine Clear, shown Soft · under this run's 6-source floor (5 combined: YT 5, X 0). Needs 1 more. EV -1.9% vs fair.",
+        "engineTierOriginal": "Clear"
       },
       {
         "id": "wed1021-nba-brooklyn-nets-ml",
         "example": false,
         "sport": "NBA",
-        "engineTier": "Clear",
+        "engineTier": "Soft",
         "tier": "gauge",
         "runTier": "SOFT",
         "softNote": "Engine Clear, shown Soft: X send-it 0 of 2 needed; booksAlign false.",
@@ -217,13 +218,14 @@ window.BET_BOARD_DATA = {
         "yt": 4,
         "x": 0,
         "total": 4.0,
-        "gap": "Clear · under this run's 6-source floor (4 combined: YT 4, X 0). Needs 2 more. EV -3.4% vs fair."
+        "gap": "Engine Clear, shown Soft · under this run's 6-source floor (4 combined: YT 4, X 0). Needs 2 more. EV -3.4% vs fair.",
+        "engineTierOriginal": "Clear"
       },
       {
         "id": "wed1021-nba-phoenix-suns-2-5",
         "example": false,
         "sport": "NBA",
-        "engineTier": "Clear",
+        "engineTier": "Soft",
         "tier": "gauge",
         "runTier": "SOFT",
         "softNote": "Engine Clear, shown Soft: X send-it 0 of 2 needed; booksAlign false.",
@@ -324,13 +326,14 @@ window.BET_BOARD_DATA = {
         "yt": 4,
         "x": 0,
         "total": 4.0,
-        "gap": "Clear · under this run's 6-source floor (4 combined: YT 4, X 0). Needs 2 more. EV -3.8% vs fair."
+        "gap": "Engine Clear, shown Soft · under this run's 6-source floor (4 combined: YT 4, X 0). Needs 2 more. EV -3.8% vs fair.",
+        "engineTierOriginal": "Clear"
       },
       {
         "id": "wed1021-nba-washington-wizards-4-5",
         "example": false,
         "sport": "NBA",
-        "engineTier": "Clear",
+        "engineTier": "Soft",
         "tier": "gauge",
         "runTier": "SOFT",
         "softNote": "Engine Clear, shown Soft: X send-it 1 of 2 needed; booksAlign false.",
@@ -431,7 +434,8 @@ window.BET_BOARD_DATA = {
         "yt": 3,
         "x": 1,
         "total": 4.0,
-        "gap": "Clear · under this run's 6-source floor (4 combined: YT 3, X 1). Needs 2 more. EV +0.0% vs fair."
+        "gap": "Engine Clear, shown Soft · under this run's 6-source floor (4 combined: YT 3, X 1). Needs 2 more. EV +0.0% vs fair.",
+        "engineTierOriginal": "Clear"
       },
       {
         "id": "wed1021-nba-golden-state-warriors-6-5",
@@ -764,7 +768,7 @@ window.BET_BOARD_DATA = {
         "id": "wed1021-nhl-florida-panthers-ml",
         "example": false,
         "sport": "NHL",
-        "engineTier": "Clear",
+        "engineTier": "Soft",
         "tier": "gauge",
         "runTier": "SOFT",
         "softNote": "Engine Clear, shown Soft: X send-it 0 of 2 needed; booksAlign false.",
@@ -865,7 +869,8 @@ window.BET_BOARD_DATA = {
         "yt": 4,
         "x": 0,
         "total": 4.0,
-        "gap": "Clear · under this run's 6-source floor (4 combined: YT 4, X 0). Needs 2 more. EV -2.3% vs fair."
+        "gap": "Engine Clear, shown Soft · under this run's 6-source floor (4 combined: YT 4, X 0). Needs 2 more. EV -2.3% vs fair.",
+        "engineTierOriginal": "Clear"
       },
       {
         "id": "wed1021-nhl-buffalo-sabres-ml",
@@ -1738,7 +1743,7 @@ window.BET_BOARD_DATA = {
   "sport": "multi",
   "defaultSport": "NBA",
   "status": "live",
-  "summary": "4 on the board (6+ combined YouTube + X send-it sources) · CLEARED 0 · Gauge/Soft 4. Engine (tier_engine v1.0.6) Clear 8 · Soft 12 · Watch 0. Pass hidden. Research only, never a bet.",
+  "summary": "4 on the board (6+ combined YouTube + X send-it sources) · CLEARED 0 · Gauge/Soft 4. Engine (tier_engine v1.0.6) rated 3 board cards Clear, but none has the 2 X send-it posters CLEARED needs, so they show as Soft with the reason. Pass hidden. Research only, never a bet.",
   "clearedCount": 0,
   "gaugeCount": 4,
   "sports": [
@@ -1821,7 +1826,7 @@ window.BET_BOARD_DATA = {
       "id": "wed1021-nba-minnesota-timberwolves-ml",
       "example": false,
       "sport": "NBA",
-      "engineTier": "Clear",
+      "engineTier": "Soft",
       "tier": "gauge",
       "runTier": "SOFT",
       "softNote": "Engine Clear, shown Soft: X send-it 0 of 2 needed; booksAlign false.",
@@ -1919,13 +1924,14 @@ window.BET_BOARD_DATA = {
       "why": "YouTube 7 independent (accepted videos only; engine-deduped): Bad Beat Bureau, BamSports, Bookie Bandit, Final Round Sports, Greedo Plays, Sports Parlay Picks, TestTheLimit. X send-it 0. hand-checked Oct 21 ~11:45 AM CT.",
       "rationale": "7 independent YouTube cappers on Minnesota outright at about even money (only 30% of tickets); no X send-it backing, and Heat ML had 6 sources the other way. Engine Clear: 7 combined sources (run floor 6); all gate rules pass. Engine Clear, shown Soft: X send-it 0 of 2 needed; booksAlign false.",
       "confidence": 73,
-      "rank": 1
+      "rank": 1,
+      "engineTierOriginal": "Clear"
     },
     {
       "id": "wed1021-nba-dallas-mavericks-9-5",
       "example": false,
       "sport": "NBA",
-      "engineTier": "Clear",
+      "engineTier": "Soft",
       "tier": "gauge",
       "runTier": "SOFT",
       "softNote": "Engine Clear, shown Soft: X send-it 0 of 2 needed; booksAlign false.",
@@ -2023,13 +2029,14 @@ window.BET_BOARD_DATA = {
       "why": "YouTube 7 independent (accepted videos only; engine-deduped): 2eZ Sports Betting, Doc's Sports Picks, Best Bets, Predictions & Odds, Free Picks PickDawgz, Silverback Bets, Sports Parlay Picks, StumpTheSpread - Free Sports Picks Predictions, WagerTalk TV: Sports Picks and Betting Tips. X send-it 0. hand-checked Oct 21 ~11:45 AM CT.",
       "rationale": "7 YouTube cappers took Dallas with the points (+8.5 to +9.5) as Kyrie returns; Lively, Aldama and Caleb Martin are out (ESPN). Engine Clear: 7 combined sources (run floor 6); all gate rules pass. Engine Clear, shown Soft: X send-it 0 of 2 needed; booksAlign false.",
       "confidence": 73,
-      "rank": 2
+      "rank": 2,
+      "engineTierOriginal": "Clear"
     },
     {
       "id": "wed1021-nba-sacramento-kings-5",
       "example": false,
       "sport": "NBA",
-      "engineTier": "Clear",
+      "engineTier": "Soft",
       "tier": "gauge",
       "runTier": "SOFT",
       "softNote": "Engine Clear, shown Soft: X send-it 0 of 2 needed; booksAlign false.",
@@ -2127,7 +2134,8 @@ window.BET_BOARD_DATA = {
       "why": "YouTube 6 independent (accepted videos only; engine-deduped): Free Picks PickDawgz, Greedo Plays, Jimmy Adams | Sports Bettor, Silverback Bets, Sports Parlay Picks, SportsLine. X send-it 0. hand-checked Oct 21 ~11:45 AM CT.",
       "rationale": "6 YouTube cappers on the Kings +4.5/+5.5 against a Clippers team without Beal, Ingram and Strus (ESPN); only 20% of tickets on Sacramento. Engine Clear: 6.25 combined sources (run floor 6); all gate rules pass. Engine Clear, shown Soft: X send-it 0 of 2 needed; booksAlign false.",
       "confidence": 63,
-      "rank": 3
+      "rank": 3,
+      "engineTierOriginal": "Clear"
     },
     {
       "id": "wed1021-nba-indiana-pacers-ml",
@@ -2259,12 +2267,13 @@ window.BET_BOARD_DATA = {
         "yt": 7,
         "x": 0,
         "booksAlign": false,
-        "edge": "-3.4% vs fair",
         "rationale": "7 independent YouTube cappers on Minnesota outright at about even money (only 30% of tickets); no X send-it backing, and Heat ML had 6 sources the other way.",
         "startCT": "2026-10-21T18:40-05:00",
         "final": false,
         "live": false,
-        "onBoard": true
+        "onBoard": true,
+        "evVsFair": "-3.4% vs fair",
+        "edge": null
       },
       {
         "rank": 2,
@@ -2277,12 +2286,13 @@ window.BET_BOARD_DATA = {
         "yt": 7,
         "x": 0,
         "booksAlign": false,
-        "edge": "-3.8% vs fair",
         "rationale": "7 YouTube cappers took Dallas with the points (+8.5 to +9.5) as Kyrie returns; Lively, Aldama and Caleb Martin are out (ESPN).",
         "startCT": "2026-10-21T19:40-05:00",
         "final": false,
         "live": false,
-        "onBoard": true
+        "onBoard": true,
+        "evVsFair": "-3.8% vs fair",
+        "edge": null
       },
       {
         "rank": 3,
@@ -2295,12 +2305,13 @@ window.BET_BOARD_DATA = {
         "yt": 6,
         "x": 0,
         "booksAlign": false,
-        "edge": "-3.7% vs fair",
         "rationale": "6 YouTube cappers on the Kings +4.5/+5.5 against a Clippers team without Beal, Ingram and Strus (ESPN); only 20% of tickets on Sacramento.",
         "startCT": "2026-10-21T21:40-05:00",
         "final": false,
         "live": false,
-        "onBoard": true
+        "onBoard": true,
+        "evVsFair": "-3.7% vs fair",
+        "edge": null
       },
       {
         "rank": 4,
@@ -2313,12 +2324,13 @@ window.BET_BOARD_DATA = {
         "yt": 4,
         "x": 2,
         "booksAlign": false,
-        "edge": "-2.5% vs fair",
         "rationale": "The only card with 2 X send-it posters (LordPenguin, ChillyBets) plus 4 YouTube; engine Soft for public bias (84% of tickets), and McConnell and Nesmith are out.",
         "startCT": "2026-10-21T19:10-05:00",
         "final": false,
         "live": false,
-        "onBoard": true
+        "onBoard": true,
+        "evVsFair": "-2.5% vs fair",
+        "edge": null
       }
     ],
     "emptyText": "Nothing qualified today. No unstarted pick has 6+ combined sources. The best near misses are on each sport's watch list with the reasons they fell short.",

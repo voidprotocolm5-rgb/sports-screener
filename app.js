@@ -981,7 +981,7 @@
     }).join("");
     return (
       '<section class="near-miss" aria-label="Near misses">' +
-        (list.some(function (n) { return n.engineTier; }) ? '<h3 class="nm-head"><span class="nm-pill">WATCH LIST</span> Rated by the engine, but under the 3-source floor (2+ YT/X), so not on the main board</h3>' : '<h3 class="nm-head"><span class="nm-pill">NEAR MISS</span> Near misses (under 6 sources), not on the main board</h3>') +
+        (list.some(function (n) { return n.engineTier; }) ? '<h3 class="nm-head"><span class="nm-pill">WATCH LIST</span> Rated by the engine, but under the board’s source floor, so not on the main board</h3>' : '<h3 class="nm-head"><span class="nm-pill">NEAR MISS</span> Near misses (under 6 sources), not on the main board</h3>') +
         '<p class="nm-note">Research only. Not counted in gauge/cleared totals or board status.</p>' +
         '<ul class="nm-list">' + rows + "</ul>" +
       "</section>"
@@ -1082,7 +1082,7 @@
               '<strong class="tg-pick">' + escapeHtml(it.pick || "") + "</strong>" +
               (it.line ? ' <span class="tg-line">' + escapeHtml(it.line) + "</span>" : "") + "</div>" +
             '<div class="tg-meta">' + escapeHtml((it.sport ? it.sport + " · " : "") + (it.game || "") + (it.timeCT ? " · " + it.timeCT : "")) + "</div>" +
-            (it.onBoard !== undefined ? '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) + (it.edge ? " · edge+" : "") + " · " + (it.onBoard ? "on the board" : "under the 3-source floor, watch list") + "</div>" :
+            (it.onBoard !== undefined ? '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) + (it.edge ? " · edge+" : "") + " · " + (it.onBoard ? "on the board" : "under the source floor, watch list") + "</div>" :
             '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) +
               " · booksAlign " + (it.booksAlign ? "✓" : "✗") + " · " + escapeHtml(String(edge)) + "</div>") +
             (it.rationale ? '<div class="tg-why">' + escapeHtml(it.rationale) + "</div>" : "") +
