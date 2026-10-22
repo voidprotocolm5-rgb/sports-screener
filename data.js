@@ -9,7 +9,7 @@ window.BET_BOARD_DATA = {
         "id": "thu1022-nhl-los-angeles-kings-ml",
         "example": false,
         "sport": "NHL",
-        "engineTier": "Clear",
+        "engineTier": "Near miss",
         "tier": "gauge",
         "runTier": "SOFT",
         "engineTierOriginal": "Clear",
@@ -136,7 +136,7 @@ window.BET_BOARD_DATA = {
         "id": "thu1022-nhl-boston-bruins-ml",
         "example": false,
         "sport": "NHL",
-        "engineTier": "Soft",
+        "engineTier": "Near miss",
         "tier": "gauge",
         "runTier": "SOFT",
         "engineTierOriginal": "Soft",
@@ -654,7 +654,7 @@ window.BET_BOARD_DATA = {
         "id": "thu1022-soccer-juventus-ml",
         "example": false,
         "sport": "Soccer",
-        "engineTier": "Soft",
+        "engineTier": "Near miss",
         "tier": "gauge",
         "runTier": "SOFT",
         "engineTierOriginal": "Soft",
@@ -1324,9 +1324,10 @@ window.BET_BOARD_DATA = {
         "combined": 4,
         "label": "Near miss",
         "nearMissLabel": "Near miss",
-        "engineTier": "Dropped",
+        "engineTier": "Near miss",
         "ytWho": "Free Picks PickDawgz; Bad Beat Bureau; Do Your Job Sports ; WRIGHT PARLAY PICKS",
-        "gap": "Near miss · 4 combined (YT 4, X 0) but dropped by the engine's one-side-per-game rule: lower score 4.3 vs Philadelphia 76ers -3.5 5.3."
+        "gap": "Near miss · 4 combined (YT 4, X 0) but dropped by the engine's one-side-per-game rule: lower score 4.3 vs Philadelphia 76ers -3.5 5.3.",
+        "engineTierOriginal": "Dropped"
       },
       {
         "sport": "NBA",
@@ -1348,9 +1349,10 @@ window.BET_BOARD_DATA = {
         "combined": 3,
         "label": "Near miss",
         "nearMissLabel": "Near miss",
-        "engineTier": "Dropped",
+        "engineTier": "Near miss",
         "ytWho": "Sports Parlay Picks; Bad Beat Bureau; Free Picks PickDawgz",
-        "gap": "Near miss · 3 combined (YT 3, X 0) but dropped by the engine's one-side-per-game rule: lower score 3.2 vs Denver Nuggets +8.5 9.3."
+        "gap": "Near miss · 3 combined (YT 3, X 0) but dropped by the engine's one-side-per-game rule: lower score 3.2 vs Denver Nuggets +8.5 9.3.",
+        "engineTierOriginal": "Dropped"
       }
     ],
     "NFL": [
@@ -1374,9 +1376,10 @@ window.BET_BOARD_DATA = {
         "combined": 5,
         "label": "Near miss",
         "nearMissLabel": "Near miss",
-        "engineTier": "Dropped",
+        "engineTier": "Near miss",
         "ytWho": "Pub Sports Radio; Brucie; Trust The Ts; Beast Sports Picks; Sports Parlay Picks",
-        "gap": "Near miss · 5 combined (YT 5, X 0) but dropped by the engine's one-side-per-game rule: lower score 5.2 vs Chicago Bears -3 7.5."
+        "gap": "Near miss · 5 combined (YT 5, X 0) but dropped by the engine's one-side-per-game rule: lower score 5.2 vs Chicago Bears -3 7.5.",
+        "engineTierOriginal": "Dropped"
       },
       {
         "sport": "NFL",
@@ -1398,9 +1401,10 @@ window.BET_BOARD_DATA = {
         "combined": 4,
         "label": "Near miss",
         "nearMissLabel": "Near miss",
-        "engineTier": "Dropped",
+        "engineTier": "Near miss",
         "ytWho": "Punting's Just an Option They Give You.; Top Sports Debate; WRIGHT PARLAY PICKS; John Lawson",
-        "gap": "Near miss · 4 combined (YT 4, X 0) but dropped by the engine's one-side-per-game rule: lower score 4.0 vs Chicago Bears -3 7.5."
+        "gap": "Near miss · 4 combined (YT 4, X 0) but dropped by the engine's one-side-per-game rule: lower score 4.0 vs Chicago Bears -3 7.5.",
+        "engineTierOriginal": "Dropped"
       },
       {
         "sport": "NFL",
@@ -1422,9 +1426,10 @@ window.BET_BOARD_DATA = {
         "combined": 4,
         "label": "Near miss",
         "nearMissLabel": "Near miss",
-        "engineTier": "Dropped",
+        "engineTier": "Near miss",
         "ytWho": "Risk Empire Sports Bets ; Straight Fire Picks; Free Picks PickDawgz; DFS Detective",
-        "gap": "Near miss · 4 combined (YT 4, X 0) but dropped by the engine's one-side-per-game rule: lower score 4.2 vs Chicago Bears -3 7.5."
+        "gap": "Near miss · 4 combined (YT 4, X 0) but dropped by the engine's one-side-per-game rule: lower score 4.2 vs Chicago Bears -3 7.5.",
+        "engineTierOriginal": "Dropped"
       }
     ]
   },
@@ -1515,7 +1520,7 @@ window.BET_BOARD_DATA = {
       "id": "thu1022-nba-denver-nuggets-8-5",
       "example": false,
       "sport": "NBA",
-      "engineTier": "Clear",
+      "engineTier": "Soft",
       "tier": "gauge",
       "runTier": "SOFT",
       "engineTierOriginal": "Clear",
@@ -1637,7 +1642,7 @@ window.BET_BOARD_DATA = {
       "id": "thu1022-nfl-chicago-bears-3",
       "example": false,
       "sport": "NFL",
-      "engineTier": "Clear",
+      "engineTier": "Soft",
       "tier": "gauge",
       "runTier": "SOFT",
       "engineTierOriginal": "Clear",
@@ -1759,7 +1764,7 @@ window.BET_BOARD_DATA = {
       "id": "thu1022-nba-philadelphia-76ers-3-5",
       "example": false,
       "sport": "NBA",
-      "engineTier": "Clear",
+      "engineTier": "Soft",
       "tier": "gauge",
       "runTier": "SOFT",
       "engineTierOriginal": "Clear",
