@@ -1058,7 +1058,7 @@
     var el = $("hero-gauge") || document.getElementById("tonight-gauge");
     var nav = $("sport-nav");
     if (!g || !g.items || !g.items.length) {
-      if (el && el.id === "hero-gauge") { el.innerHTML = '<div class="hg-empty"><p class="hg-empty-title">Nothing qualifies right now.</p><p>' + escapeHtml((g && g.emptyText) || "No unstarted play has six or more combined sources with a Clear or Soft tier. We would rather show nothing than a hollow pick.") + '</p></div>'; return; }
+      if (el && el.id === "hero-gauge") { el.innerHTML = '<div class="hg-empty"><p class="hg-empty-title">Nothing qualifies right now.</p><p>' + escapeHtml((g && g.emptyText) || "No unstarted play has four or more combined sources with a Clear or Soft tier. We would rather show nothing than a hollow pick.") + '</p></div>'; return; }
       if (el) el.remove(); return;
     }
     if (!el && nav && nav.parentNode) {
