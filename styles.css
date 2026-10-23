@@ -248,3 +248,7 @@ a{color:var(--accent-ink)}
 .pp-live{background:#c62828;color:#fff;font-weight:700;padding:.1rem .4rem;border-radius:6px}
 .pp-player{font-size:1.05rem;font-weight:700;margin-top:.35rem}.pp-prop{font-weight:600}.pp-price{margin:.25rem 0}.pp-src{font-size:.82rem;margin-top:.15rem}.pp-src span{opacity:.75}
 .pp-rules summary{cursor:pointer;font-size:.82rem;margin-top:.35rem}.pp-rules ul{padding-left:1rem;font-size:.78rem}.pp-fail b{color:#e57373}.pp-pass b{color:#81c784}
+
+/* v1.2.0 edge rule: Close - no edge yet */
+.tier-tag.etier-close{background:#fff3d6;color:#7a5200;border:1px solid #e8c77a}
+[data-theme=dark] .tier-tag.etier-close{background:#3a2e12;color:#f2cf7c;border-color:#6b5520}
