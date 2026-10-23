@@ -725,8 +725,9 @@
       '<div class="pp-head"><span class="pp-rank">#' + escapeHtml(c.rank) + '</span><span class="pp-tier tier-' + tierCls + '">' + escapeHtml(c.tier) + "</span>" +
       (started ? '<span class="pp-live">LIVE</span>' : "") + '<span class="pp-time">' + escapeHtml(c.timeCT || "") + "</span></div>" +
       '<div class="pp-player">' + escapeHtml(c.player) + "</div>" +
+      (c.edgeLabel ? '<div class="pp-edge"><span class="tier-tag ' + (c.edgeStatus === "edge" ? "etier-edge" : (c.edgeStatus === "close" ? "etier-close" : "")) + '">' + escapeHtml(String(c.edgeLabel).toUpperCase()) + "</span> <span class=\"muted\">" + escapeHtml(String(c.combined != null ? c.combined : "")) + " combined sources \u00b7 under the 5+ floor</span></div>" : "") +
       '<div class="pp-prop">' + escapeHtml(c.prop) + "</div>" +
-      '<div class="pp-price"><b>' + escapeHtml(c.odds || "—") + "</b> " + escapeHtml(c.book || "") + ' <span class="muted">· fair ' + escapeHtml(c.fair || "n/a") + (c.evPct != null ? " · EV " + (c.evPct > 0 ? "+" : "") + escapeHtml(c.evPct) + "%" : "") + "</span></div>" +
+      '<div class="pp-price"><b>' + escapeHtml(c.odds || "—") + "</b> " + escapeHtml(c.book || "") + ' <span class="muted">· ' + escapeHtml(c.fairLabel || "fair") + " " + escapeHtml(c.fair || "n/a") + (c.evPct != null ? " · EV " + (c.evPct > 0 ? "+" : "") + escapeHtml(c.evPct) + "%" : "") + "</span></div>" +
       '<div class="pp-game muted">' + escapeHtml(c.game) + "</div>" +
       '<div class="pp-src"><span>YouTube ' + escapeHtml(c.yt) + ":</span> " + yt + "</div>" +
       '<div class="pp-src"><span>X send-it list ' + escapeHtml((c.xList || []).length) + ":</span> " + (xl || "—") + "</div>" +

@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Publishers must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-23T13:00:11-05:00",
-  "updatedAtLabel": "Fri Oct 23, 1:00 PM CT",
+  "updatedAt": "2026-10-23T13:06:34-05:00",
+  "updatedAtLabel": "Fri Oct 23, 1:06 PM CT",
   "nearMiss": {
     "NBA": [
       {
@@ -287,244 +287,561 @@ window.BET_BOARD_DATA = {
         "sport": "NBA",
         "pick": "Jabari Smith Jr. Over 13.5 Points",
         "game": "Houston Rockets @ San Antonio Spurs · 8:40 PM CT",
-        "startCT": "2026-10-23T20:40:00-05:00",
+        "startCT": "2026-10-23T20:40-05:00",
         "timeCT": "8:40 PM CT",
         "yt": 3,
-        "x": 2,
-        "total": 4,
-        "combined": 4,
+        "x": 1,
+        "total": 4.0,
+        "combined": 4.0,
         "sources": {
           "youtube": 3,
-          "xSendIt": 2,
-          "combined": 4
+          "xSendIt": 1,
+          "combined": 4.0
         },
         "label": "Near miss",
         "nearMissLabel": "Near miss",
         "engineTier": "Near miss",
         "marketType": "prop",
-        "ytWho": "Chad Slivinski Picks; The Action Network: Sports Betting Picks & Tips; Just A Bet Outside; JB PREDICTZ PRO",
+        "edgePlus": true,
+        "evPct": 3.28,
+        "ytWho": "Chad Slivinski Picks; JB PREDICTZ PRO; The Action Network: Sports Betting Picks & Tips",
         "line": "-120 BetMGM",
         "bestOdds": "-120",
         "bestBook": "BetMGM",
-        "fairOdds": "-116",
-        "evPct": -1.61,
-        "gap": "Near miss · 4 independent · best -120 BetMGM · EV -1.61%. 4 independent (Joe Dellera YT + X counted once)."
-      },
-      {
-        "sport": "NBA",
-        "pick": "Anthony Edwards Over 29.5 Points",
-        "game": "Minnesota Timberwolves @ Orlando Magic · 6:10 PM CT",
-        "startCT": "2026-10-23T18:10:00-05:00",
-        "timeCT": "6:10 PM CT",
-        "yt": 3,
-        "x": 0,
-        "total": 3,
-        "combined": 3,
-        "sources": {
-          "youtube": 3,
-          "xSendIt": 0,
-          "combined": 3
-        },
-        "label": "Near miss",
-        "nearMissLabel": "Near miss",
-        "engineTier": "Near miss",
-        "marketType": "prop",
-        "ytWho": "Parlays & Portfolio; TinNick; Parlay Guru; TWO6ZERO",
-        "line": "+101 Pinnacle",
-        "bestOdds": "+101",
-        "bestBook": "Pinnacle",
-        "fairOdds": "+104",
-        "evPct": -1.46,
-        "gap": "Near miss · 3 independent · best +101 Pinnacle · EV -1.46%. 3 independent YouTube."
-      },
-      {
-        "sport": "NBA",
-        "pick": "Jeremiah Fears Over 17.5 Pts+Reb+Ast (alt line; main 19.5)",
-        "game": "New Orleans Pelicans @ Utah Jazz · 8:40 PM CT",
-        "startCT": "2026-10-23T20:40:00-05:00",
-        "timeCT": "8:40 PM CT",
-        "yt": 3,
-        "x": 0,
-        "total": 3,
-        "combined": 3,
-        "sources": {
-          "youtube": 3,
-          "xSendIt": 0,
-          "combined": 3
-        },
-        "label": "Near miss",
-        "nearMissLabel": "Near miss",
-        "engineTier": "Near miss",
-        "marketType": "prop",
-        "ytWho": "925 Sports; The Action Network: Sports Betting Picks & Tips; Noah's Picks & Props ",
-        "line": "-170 Bovada",
-        "bestOdds": "-170",
-        "bestBook": "Bovada",
-        "fairOdds": "-145",
-        "evPct": -6.05,
-        "gap": "Near miss · 3 independent · best -170 Bovada · EV -6.05%. ALT LINE: sources took 17.5; the main line is 19.5 at FanDuel/DraftKings/BetRivers/BetOnline, so 17.5 is priced only at Bovada."
+        "fairOdds": "-129 (Pinnacle no-vig)",
+        "gap": "Near miss (engine tier Soft) · 4 combined sources (YT 3, X 1), under the 5+ floor, so not publishable · best -120 BetMGM vs Fair (Pinnacle-first) -129 (Pinnacle no-vig) · EV +3.28% · Edge."
       },
       {
         "sport": "NBA",
         "pick": "Kevin Durant Over 23.5 Points",
         "game": "Houston Rockets @ San Antonio Spurs · 8:40 PM CT",
-        "startCT": "2026-10-23T20:40:00-05:00",
+        "startCT": "2026-10-23T20:40-05:00",
         "timeCT": "8:40 PM CT",
         "yt": 2,
         "x": 0,
-        "total": 2,
-        "combined": 2,
+        "total": 2.0,
+        "combined": 2.0,
         "sources": {
           "youtube": 2,
           "xSendIt": 0,
-          "combined": 2
+          "combined": 2.0
         },
         "label": "Near miss",
         "nearMissLabel": "Near miss",
         "engineTier": "Near miss",
         "marketType": "prop",
-        "ytWho": "925 Sports; Prophet Props; Parlay Guru",
+        "edgePlus": true,
+        "evPct": 1.88,
+        "ytWho": "925 Sports; Parlay Guru",
         "line": "-103 BetOnline",
         "bestOdds": "-103",
         "bestBook": "BetOnline",
-        "fairOdds": "+101",
-        "evPct": -2.07,
-        "gap": "Near miss · 2 independent · best -103 BetOnline · EV -2.07%. 2 independent."
+        "fairOdds": "-107 (Pinnacle no-vig)",
+        "gap": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -103 BetOnline vs Fair (Pinnacle-first) -107 (Pinnacle no-vig) · EV +1.88% · Edge."
       },
       {
         "sport": "NBA",
-        "pick": "Josh Giddey Over 8.5 Assists",
-        "game": "Chicago Bulls @ Milwaukee Bucks · 3:10 PM CT",
-        "startCT": "2026-10-23T15:10:00-05:00",
-        "timeCT": "3:10 PM CT",
+        "pick": "Amen Thompson Over 15.5 Points",
+        "game": "Houston Rockets @ San Antonio Spurs · 8:40 PM CT",
+        "startCT": "2026-10-23T20:40-05:00",
+        "timeCT": "8:40 PM CT",
         "yt": 0,
-        "x": 2,
-        "total": 2,
-        "combined": 2,
+        "x": 0,
+        "total": 0.0,
+        "combined": 0.0,
         "sources": {
           "youtube": 0,
-          "xSendIt": 2,
-          "combined": 2
+          "xSendIt": 0,
+          "combined": 0.0
         },
         "label": "Near miss",
         "nearMissLabel": "Near miss",
         "engineTier": "Near miss",
         "marketType": "prop",
+        "edgePlus": true,
+        "evPct": 0.95,
         "ytWho": "",
-        "line": "-142 FanDuel",
-        "bestOdds": "-142",
-        "bestBook": "FanDuel",
-        "fairOdds": "-128",
-        "evPct": -4.16,
-        "gap": "Near miss · 2 independent · best -142 FanDuel · EV -4.16%. 2 independent (X send-it)."
+        "line": "-103 DraftKings",
+        "bestOdds": "-103",
+        "bestBook": "DraftKings",
+        "fairOdds": "-105 (Pinnacle no-vig)",
+        "gap": "Near miss (engine tier Soft) · 0 combined sources (YT 0, X 0), under the 5+ floor, so not publishable · best -103 DraftKings vs Fair (Pinnacle-first) -105 (Pinnacle no-vig) · EV +0.95% · Edge."
       },
       {
         "sport": "NBA",
-        "pick": "Kawhi Leonard Over 24.5 Points",
-        "game": "Toronto Raptors @ Washington Wizards · 6:10 PM CT",
-        "startCT": "2026-10-23T18:10:00-05:00",
+        "pick": "LaMelo Ball Over 19.5 Points",
+        "game": "Minnesota Timberwolves @ Orlando Magic · 6:10 PM CT",
+        "startCT": "2026-10-23T18:10-05:00",
+        "timeCT": "6:10 PM CT",
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "combined": 0.0,
+        "sources": {
+          "youtube": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": -1.41,
+        "ytWho": "",
+        "line": "-105 BetRivers",
+        "bestOdds": "-105",
+        "bestBook": "BetRivers",
+        "fairOdds": "-102 (Pinnacle no-vig)",
+        "gap": "Near miss (engine tier Soft) · 0 combined sources (YT 0, X 0), under the 5+ floor, so not publishable · best -105 BetRivers vs Fair (Pinnacle-first) -102 (Pinnacle no-vig) · EV -1.41% · Close - no edge yet."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Paul George Over 17.5 Points",
+        "game": "New York Knicks @ Boston Celtics · 6:10 PM CT",
+        "startCT": "2026-10-23T18:10-05:00",
+        "timeCT": "6:10 PM CT",
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "combined": 0.0,
+        "sources": {
+          "youtube": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": -1.44,
+        "ytWho": "",
+        "line": "-104 FanDuel",
+        "bestOdds": "-104",
+        "bestBook": "FanDuel",
+        "fairOdds": "-101 (3+ book avg)",
+        "gap": "Near miss (engine tier Soft) · 0 combined sources (YT 0, X 0), under the 5+ floor, so not publishable · best -104 FanDuel vs Fair (Pinnacle-first) -101 (3+ book avg) · EV -1.44% · Close - no edge yet."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Wendell Carter Jr. Over 10.5 Points",
+        "game": "Minnesota Timberwolves @ Orlando Magic · 6:10 PM CT",
+        "startCT": "2026-10-23T18:10-05:00",
+        "timeCT": "6:10 PM CT",
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "combined": 0.0,
+        "sources": {
+          "youtube": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": -1.9,
+        "ytWho": "",
+        "line": "-105 DraftKings",
+        "bestOdds": "-105",
+        "bestBook": "DraftKings",
+        "fairOdds": "-101 (Pinnacle no-vig)",
+        "gap": "Near miss (engine tier Soft) · 0 combined sources (YT 0, X 0), under the 5+ floor, so not publishable · best -105 DraftKings vs Fair (Pinnacle-first) -101 (Pinnacle no-vig) · EV -1.90% · Close - no edge yet."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Jalen Brunson Over 25.5 Points",
+        "game": "New York Knicks @ Boston Celtics · 6:10 PM CT",
+        "startCT": "2026-10-23T18:10-05:00",
         "timeCT": "6:10 PM CT",
         "yt": 1,
         "x": 0,
-        "total": 2,
-        "combined": 2,
+        "total": 1.0,
+        "combined": 1.0,
         "sources": {
           "youtube": 1,
           "xSendIt": 0,
-          "combined": 2
+          "combined": 1.0
         },
         "label": "Near miss",
         "nearMissLabel": "Near miss",
         "engineTier": "Near miss",
         "marketType": "prop",
-        "ytWho": "Parlays & Portfolio; Prophet Props; 2eZ Sports Betting",
-        "line": "-112 BetOnline",
-        "bestOdds": "-112",
+        "edgePlus": false,
+        "evPct": -1.96,
+        "ytWho": "Market Picks",
+        "line": "-102 FanDuel",
+        "bestOdds": "-102",
+        "bestBook": "FanDuel",
+        "fairOdds": "+102 (3+ book avg)",
+        "gap": "Near miss (engine tier Soft) · 1 combined source (YT 1, X 0), under the 5+ floor, so not publishable · best -102 FanDuel vs Fair (Pinnacle-first) +102 (3+ book avg) · EV -1.96% · Close - no edge yet."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Anthony Edwards Over 29.5 Points",
+        "game": "Minnesota Timberwolves @ Orlando Magic · 6:10 PM CT",
+        "startCT": "2026-10-23T18:10-05:00",
+        "timeCT": "6:10 PM CT",
+        "yt": 3,
+        "x": 0,
+        "total": 3.0,
+        "combined": 3.0,
+        "sources": {
+          "youtube": 3,
+          "xSendIt": 0,
+          "combined": 3.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": -9.61,
+        "ytWho": "Parlay Guru; TWO6ZERO; TinNick",
+        "line": "-106 BetOnline",
+        "bestOdds": "-106",
         "bestBook": "BetOnline",
-        "fairOdds": "-102",
-        "evPct": -4.48,
-        "gap": "Near miss · 2 independent · best -112 BetOnline · EV -4.48%. 2 sources within the 1.0 line tolerance."
+        "fairOdds": "+115 (Pinnacle no-vig)",
+        "gap": "Near miss (engine tier Soft) · 3 combined sources (YT 3, X 0), under the 5+ floor, so not publishable · best -106 BetOnline vs Fair (Pinnacle-first) +115 (Pinnacle no-vig) · EV -9.61% · No edge."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Jeremiah Fears Over 17.5 Pts+Reb+Ast (alt line; main 19.5)",
+        "game": "New Orleans Pelicans @ Utah Jazz · 8:40 PM CT",
+        "startCT": "2026-10-23T20:40-05:00",
+        "timeCT": "8:40 PM CT",
+        "yt": 3,
+        "x": 0,
+        "total": 3.0,
+        "combined": 3.0,
+        "sources": {
+          "youtube": 3,
+          "xSendIt": 0,
+          "combined": 3.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": null,
+        "ytWho": "925 Sports; Noah's Picks & Props; The Action Network: Sports Betting Picks & Tips",
+        "line": "-170 Bovada",
+        "bestOdds": "-170",
+        "bestBook": "Bovada",
+        "fairOdds": "n/a",
+        "gap": "Near miss (engine tier Soft) · 3 combined sources (YT 3, X 0), under the 5+ floor, so not publishable · best -170 Bovada vs Fair (Pinnacle-first) n/a · EV n/a (no Pinnacle, exchange or 3+ book fair at this line) · No edge. ALT LINE: main line is 19.5."
       },
       {
         "sport": "NBA",
         "pick": "Cade Cunningham Over 24.5 Points",
         "game": "Detroit Pistons @ Miami Heat · 7:10 PM CT",
-        "startCT": "2026-10-23T19:10:00-05:00",
+        "startCT": "2026-10-23T19:10-05:00",
         "timeCT": "7:10 PM CT",
-        "yt": 1,
+        "yt": 2,
         "x": 0,
-        "total": 2,
-        "combined": 2,
+        "total": 2.0,
+        "combined": 2.0,
         "sources": {
-          "youtube": 1,
+          "youtube": 2,
           "xSendIt": 0,
-          "combined": 2
+          "combined": 2.0
         },
         "label": "Near miss",
         "nearMissLabel": "Near miss",
         "engineTier": "Near miss",
         "marketType": "prop",
+        "edgePlus": false,
+        "evPct": -3.79,
         "ytWho": "Cheese Picks; lurkbetss",
         "line": "-106 FanDuel",
         "bestOdds": "-106",
         "bestBook": "FanDuel",
-        "fairOdds": "+102",
-        "evPct": -3.73,
-        "gap": "Near miss · 2 independent · best -106 FanDuel · EV -3.73%. 2 sources within the 1.0 line tolerance."
+        "fairOdds": "+102 (3+ book avg)",
+        "gap": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -106 FanDuel vs Fair (Pinnacle-first) +102 (3+ book avg) · EV -3.79% · No edge."
       },
       {
         "sport": "NBA",
-        "pick": "Stephen Curry Over 24.5 Points",
-        "game": "Memphis Grizzlies @ Golden State Warriors · 9:10 PM CT",
-        "startCT": "2026-10-23T21:10:00-05:00",
-        "timeCT": "9:10 PM CT",
-        "yt": 1,
-        "x": 0,
-        "total": 2,
-        "combined": 2,
+        "pick": "Josh Giddey Over 8.5 Assists",
+        "game": "Chicago Bulls @ Milwaukee Bucks · 3:10 PM CT",
+        "startCT": "2026-10-23T15:10-05:00",
+        "timeCT": "3:10 PM CT",
+        "yt": 0,
+        "x": 2,
+        "total": 2.0,
+        "combined": 2.0,
         "sources": {
-          "youtube": 1,
-          "xSendIt": 0,
-          "combined": 2
+          "youtube": 0,
+          "xSendIt": 2,
+          "combined": 2.0
         },
         "label": "Near miss",
         "nearMissLabel": "Near miss",
         "engineTier": "Near miss",
         "marketType": "prop",
-        "ytWho": "DaWiddler; Market Picks",
-        "line": "-122 FanDuel",
-        "bestOdds": "-122",
+        "edgePlus": false,
+        "evPct": -4.32,
+        "ytWho": "",
+        "line": "-142 FanDuel",
+        "bestOdds": "-142",
         "bestBook": "FanDuel",
-        "fairOdds": "-109",
-        "evPct": -4.94,
-        "gap": "Near miss · 2 independent · best -122 FanDuel · EV -4.94%. 2 sources within the 1.0 line tolerance."
+        "fairOdds": "-128 (3+ book avg)",
+        "gap": "Near miss (engine tier Soft) · 2 combined sources (YT 0, X 2), under the 5+ floor, so not publishable · best -142 FanDuel vs Fair (Pinnacle-first) -128 (3+ book avg) · EV -4.32% · No edge."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Kawhi Leonard Over 24.5 Points",
+        "game": "Toronto Raptors @ Washington Wizards · 6:10 PM CT",
+        "startCT": "2026-10-23T18:10-05:00",
+        "timeCT": "6:10 PM CT",
+        "yt": 2,
+        "x": 0,
+        "total": 2.0,
+        "combined": 2.0,
+        "sources": {
+          "youtube": 2,
+          "xSendIt": 0,
+          "combined": 2.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": -4.42,
+        "ytWho": "2eZ Sports Betting; Prophet Props",
+        "line": "-112 BetOnline",
+        "bestOdds": "-112",
+        "bestBook": "BetOnline",
+        "fairOdds": "-102 (3+ book avg)",
+        "gap": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -112 BetOnline vs Fair (Pinnacle-first) -102 (3+ book avg) · EV -4.42% · No edge."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Anthony Davis Over 20.5 Points",
+        "game": "Toronto Raptors @ Washington Wizards · 6:10 PM CT",
+        "startCT": "2026-10-23T18:10-05:00",
+        "timeCT": "6:10 PM CT",
+        "yt": 2,
+        "x": 0,
+        "total": 2.0,
+        "combined": 2.0,
+        "sources": {
+          "youtube": 2,
+          "xSendIt": 0,
+          "combined": 2.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": null,
+        "ytWho": "Final Round Sports; TinNick",
+        "line": "-160 Bovada",
+        "bestOdds": "-160",
+        "bestBook": "Bovada",
+        "fairOdds": "n/a",
+        "gap": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -160 Bovada vs Fair (Pinnacle-first) n/a · EV n/a (no Pinnacle, exchange or 3+ book fair at this line) · No edge."
       },
       {
         "sport": "NBA",
         "pick": "Dejounte Murray Over 23.5 Pts+Ast",
         "game": "New Orleans Pelicans @ Utah Jazz · 8:40 PM CT",
-        "startCT": "2026-10-23T20:40:00-05:00",
+        "startCT": "2026-10-23T20:40-05:00",
         "timeCT": "8:40 PM CT",
-        "yt": 1,
+        "yt": 2,
         "x": 0,
-        "total": 2,
-        "combined": 2,
+        "total": 2.0,
+        "combined": 2.0,
         "sources": {
-          "youtube": 1,
+          "youtube": 2,
           "xSendIt": 0,
-          "combined": 2
+          "combined": 2.0
         },
         "label": "Near miss",
         "nearMissLabel": "Near miss",
         "engineTier": "Near miss",
         "marketType": "prop",
+        "edgePlus": false,
+        "evPct": null,
         "ytWho": "DaWiddler; Just A Bet Outside",
         "line": "-120 FanDuel",
         "bestOdds": "-120",
         "bestBook": "FanDuel",
-        "fairOdds": "-108",
-        "evPct": -4.6,
-        "gap": "Near miss · 2 independent · best -120 FanDuel · EV -4.60%. 2 sources within the 1.0 line tolerance."
+        "fairOdds": "n/a",
+        "gap": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -120 FanDuel vs Fair (Pinnacle-first) n/a · EV n/a (no Pinnacle, exchange or 3+ book fair at this line) · No edge."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Stephen Curry Over 24.5 Points",
+        "game": "Memphis Grizzlies @ Golden State Warriors · 9:10 PM CT",
+        "startCT": "2026-10-23T21:10-05:00",
+        "timeCT": "9:10 PM CT",
+        "yt": 2,
+        "x": 0,
+        "total": 2.0,
+        "combined": 2.0,
+        "sources": {
+          "youtube": 2,
+          "xSendIt": 0,
+          "combined": 2.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": null,
+        "ytWho": "DaWiddler; Market Picks",
+        "line": "-122 FanDuel",
+        "bestOdds": "-122",
+        "bestBook": "FanDuel",
+        "fairOdds": "n/a",
+        "gap": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -122 FanDuel vs Fair (Pinnacle-first) n/a · EV n/a (no Pinnacle, exchange or 3+ book fair at this line) · No edge."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Caleb Wilson Over 17.5 Points",
+        "game": "Chicago Bulls @ Milwaukee Bucks · 3:10 PM CT",
+        "startCT": "2026-10-23T15:10-05:00",
+        "timeCT": "3:10 PM CT",
+        "yt": 2,
+        "x": 0,
+        "total": 2.0,
+        "combined": 2.0,
+        "sources": {
+          "youtube": 2,
+          "xSendIt": 0,
+          "combined": 2.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": null,
+        "ytWho": "DaWiddler; The Action Network: Sports Betting Picks & Tips",
+        "line": "n/a",
+        "bestOdds": null,
+        "bestBook": null,
+        "fairOdds": "n/a",
+        "gap": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best n/a  vs Fair (Pinnacle-first) n/a · EV n/a (no Pinnacle, exchange or 3+ book fair at this line) · No edge."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Tyler Herro Over 5.5 Assists",
+        "game": "Detroit Pistons @ Miami Heat · 7:10 PM CT",
+        "startCT": "2026-10-23T19:10-05:00",
+        "timeCT": "7:10 PM CT",
+        "yt": 1,
+        "x": 0,
+        "total": 1.0,
+        "combined": 1.0,
+        "sources": {
+          "youtube": 1,
+          "xSendIt": 0,
+          "combined": 1.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": -2.65,
+        "ytWho": "TWO6ZERO",
+        "line": "+120 BetRivers",
+        "bestOdds": "+120",
+        "bestBook": "BetRivers",
+        "fairOdds": "+126 (3+ book avg)",
+        "gap": "Near miss (engine tier Soft) · 1 combined source (YT 1, X 0), under the 5+ floor, so not publishable · best +120 BetRivers vs Fair (Pinnacle-first) +126 (3+ book avg) · EV -2.65% · No edge."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Jayson Tatum Over 25.5 Points",
+        "game": "New York Knicks @ Boston Celtics · 6:10 PM CT",
+        "startCT": "2026-10-23T18:10-05:00",
+        "timeCT": "6:10 PM CT",
+        "yt": 1,
+        "x": 0,
+        "total": 1.0,
+        "combined": 1.0,
+        "sources": {
+          "youtube": 1,
+          "xSendIt": 0,
+          "combined": 1.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": -5.14,
+        "ytWho": "TWO6ZERO",
+        "line": "-115 BetOnline",
+        "bestOdds": "-115",
+        "bestBook": "BetOnline",
+        "fairOdds": "-103 (3+ book avg)",
+        "gap": "Near miss (engine tier Soft) · 1 combined source (YT 1, X 0), under the 5+ floor, so not publishable · best -115 BetOnline vs Fair (Pinnacle-first) -103 (3+ book avg) · EV -5.14% · No edge."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Victor Wembanyama Over 24.5 Points",
+        "game": "Houston Rockets @ San Antonio Spurs · 8:40 PM CT",
+        "startCT": "2026-10-23T20:40-05:00",
+        "timeCT": "8:40 PM CT",
+        "yt": 1,
+        "x": 0,
+        "total": 1.0,
+        "combined": 1.0,
+        "sources": {
+          "youtube": 1,
+          "xSendIt": 0,
+          "combined": 1.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": -5.3,
+        "ytWho": "Stump",
+        "line": "-119 DraftKings",
+        "bestOdds": "-119",
+        "bestBook": "DraftKings",
+        "fairOdds": "-106 (3+ book avg)",
+        "gap": "Near miss (engine tier Soft) · 1 combined source (YT 1, X 0), under the 5+ floor, so not publishable · best -119 DraftKings vs Fair (Pinnacle-first) -106 (3+ book avg) · EV -5.30% · No edge."
+      },
+      {
+        "sport": "NBA",
+        "pick": "Paolo Banchero Over 22.5 Points",
+        "game": "Minnesota Timberwolves @ Orlando Magic · 6:10 PM CT",
+        "startCT": "2026-10-23T18:10-05:00",
+        "timeCT": "6:10 PM CT",
+        "yt": 0,
+        "x": 0,
+        "total": 0.0,
+        "combined": 0.0,
+        "sources": {
+          "youtube": 0,
+          "xSendIt": 0,
+          "combined": 0.0
+        },
+        "label": "Near miss",
+        "nearMissLabel": "Near miss",
+        "engineTier": "Near miss",
+        "marketType": "prop",
+        "edgePlus": false,
+        "evPct": -2.44,
+        "ytWho": "",
+        "line": "+100 Bovada",
+        "bestOdds": "+100",
+        "bestBook": "Bovada",
+        "fairOdds": "+105 (Pinnacle no-vig)",
+        "gap": "Near miss (engine tier Soft) · 0 combined sources (YT 0, X 0), under the 5+ floor, so not publishable · best +100 Bovada vs Fair (Pinnacle-first) +105 (Pinnacle no-vig) · EV -2.44% · No edge."
       }
     ]
   },
@@ -569,7 +886,7 @@ window.BET_BOARD_DATA = {
       "note": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support. Near misses with their blocking rule and EV are listed below."
     },
     "NBA-PROPS": {
-      "note": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support. Prop near misses (best price, book and EV) are listed below and on the Player Props page."
+      "note": "Edge on price, not on support: Jabari Smith Jr. O13.5 Points (+3.28%), Kevin Durant O23.5 Points (+1.88%), Amen Thompson O15.5 Points (+0.95%) beat the Pinnacle-first fair price, but no prop has the 5+ combined sources needed to publish. All rows below are near misses. Fair price is Pinnacle-first (Pinnacle no-vig, then exchange, then a 3+ book average)."
     }
   },
   "researchOnly": true,
@@ -1445,358 +1762,1706 @@ window.BET_BOARD_DATA = {
     "groups": {
       "NBA": [
         {
-          "rank": 1,
           "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "edge",
+          "edgeLabel": "Edge",
           "player": "Jabari Smith Jr.",
           "prop": "Over 13.5 Points",
           "odds": "-120",
           "book": "BetMGM",
-          "fair": "-116",
-          "evPct": -1.61,
+          "fair": "-129 (Pinnacle no-vig)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "pinnacle",
+          "evPct": 3.28,
+          "booksCompared": 3,
+          "booksPriced": 4,
           "game": "Houston Rockets @ San Antonio Spurs",
           "timeCT": "8:40 PM CT",
-          "startCT": "2026-10-23T20:40:00-05:00",
+          "startCT": "2026-10-23T20:40-05:00",
+          "combined": 4.0,
           "yt": 3,
           "ytWho": [
             "Chad Slivinski Picks",
-            "The Action Network: Sports Betting Picks & Tips",
-            "Just A Bet Outside",
-            "JB PREDICTZ PRO"
+            "JB PREDICTZ PRO",
+            "The Action Network: Sports Betting Picks & Tips"
           ],
           "xList": [
-            "JoeDellera",
             "MuggsyPlays"
           ],
           "xOutside": [],
-          "independent": 4,
           "altLine": false,
           "rules": [
             {
-              "rule": "source_floor",
-              "result": "fail",
-              "reason": "4 independent < 5"
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair -129 [pinnacle] - supplied fair -129 (pinnacle (two-sided no-vig at 13.5)); 4 books priced"
             },
             {
-              "rule": "price_edge",
-              "result": "fail",
-              "reason": "EV -1.61% at best price -120 BetMGM vs fair -116"
-            }
-          ],
-          "passCount": 0,
-          "failCount": 2,
-          "note": "Near miss · 4 independent · best -120 BetMGM · EV -1.61%. 4 independent (Joe Dellera YT + X counted once)."
-        },
-        {
-          "rank": 2,
-          "tier": "Near miss",
-          "player": "Anthony Edwards",
-          "prop": "Over 29.5 Points",
-          "odds": "+101",
-          "book": "Pinnacle",
-          "fair": "+104",
-          "evPct": -1.46,
-          "game": "Minnesota Timberwolves @ Orlando Magic",
-          "timeCT": "6:10 PM CT",
-          "startCT": "2026-10-23T18:10:00-05:00",
-          "yt": 3,
-          "ytWho": [
-            "Parlays & Portfolio",
-            "TinNick",
-            "Parlay Guru",
-            "TWO6ZERO"
-          ],
-          "xList": [],
-          "xOutside": [],
-          "independent": 3,
-          "altLine": false,
-          "rules": [
-            {
-              "rule": "source_floor",
-              "result": "fail",
-              "reason": "3 independent < 5"
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
             },
             {
-              "rule": "price_edge",
-              "result": "fail",
-              "reason": "EV -1.46% at best price +101 Pinnacle vs fair +104"
-            }
-          ],
-          "passCount": 0,
-          "failCount": 2,
-          "note": "Near miss · 3 independent · best +101 Pinnacle · EV -1.46%. 3 independent YouTube."
-        },
-        {
-          "rank": 3,
-          "tier": "Near miss",
-          "player": "Jeremiah Fears",
-          "prop": "Over 17.5 Pts+Reb+Ast (alt line; main 19.5)",
-          "odds": "-170",
-          "book": "Bovada",
-          "fair": "-145",
-          "evPct": -6.05,
-          "game": "New Orleans Pelicans @ Utah Jazz",
-          "timeCT": "8:40 PM CT",
-          "startCT": "2026-10-23T20:40:00-05:00",
-          "yt": 3,
-          "ytWho": [
-            "925 Sports",
-            "The Action Network: Sports Betting Picks & Tips",
-            "Noah's Picks & Props "
-          ],
-          "xList": [],
-          "xOutside": [],
-          "independent": 3,
-          "altLine": true,
-          "rules": [
-            {
-              "rule": "source_floor",
-              "result": "fail",
-              "reason": "3 independent < 5"
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
             },
             {
-              "rule": "price_edge",
-              "result": "fail",
-              "reason": "EV -6.05% at best price -170 Bovada vs fair -145"
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-120 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
             }
           ],
-          "passCount": 0,
-          "failCount": 2,
-          "note": "Near miss · 3 independent · best -170 Bovada · EV -6.05%. ALT LINE: sources took 17.5; the main line is 19.5 at FanDuel/DraftKings/BetRivers/BetOnline, so 17.5 is priced only at Bovada."
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 4 combined sources (YT 3, X 1), under the 5+ floor, so not publishable · best -120 BetMGM vs Fair (Pinnacle-first) -129 (Pinnacle no-vig) · EV +3.28% · Edge.",
+          "publish": false,
+          "rank": 1
         },
         {
-          "rank": 4,
           "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "edge",
+          "edgeLabel": "Edge",
           "player": "Kevin Durant",
           "prop": "Over 23.5 Points",
           "odds": "-103",
           "book": "BetOnline",
-          "fair": "+101",
-          "evPct": -2.07,
+          "fair": "-107 (Pinnacle no-vig)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "pinnacle",
+          "evPct": 1.88,
+          "booksCompared": 5,
+          "booksPriced": 6,
           "game": "Houston Rockets @ San Antonio Spurs",
           "timeCT": "8:40 PM CT",
-          "startCT": "2026-10-23T20:40:00-05:00",
+          "startCT": "2026-10-23T20:40-05:00",
+          "combined": 2.0,
           "yt": 2,
           "ytWho": [
             "925 Sports",
-            "Prophet Props",
             "Parlay Guru"
           ],
           "xList": [],
           "xOutside": [],
-          "independent": 2,
           "altLine": false,
           "rules": [
             {
-              "rule": "source_floor",
-              "result": "fail",
-              "reason": "2 independent < 5"
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair -107 [pinnacle] - supplied fair -107 (pinnacle (two-sided no-vig at 23.5)); 6 books priced"
             },
             {
-              "rule": "price_edge",
-              "result": "fail",
-              "reason": "EV -2.07% at best price -103 BetOnline vs fair +101"
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-103 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
             }
           ],
-          "passCount": 0,
-          "failCount": 2,
-          "note": "Near miss · 2 independent · best -103 BetOnline · EV -2.07%. 2 independent."
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -103 BetOnline vs Fair (Pinnacle-first) -107 (Pinnacle no-vig) · EV +1.88% · Edge.",
+          "publish": false,
+          "rank": 2
         },
         {
-          "rank": 5,
           "tier": "Near miss",
-          "player": "Josh Giddey",
-          "prop": "Over 8.5 Assists",
-          "odds": "-142",
-          "book": "FanDuel",
-          "fair": "-128",
-          "evPct": -4.16,
-          "game": "Chicago Bulls @ Milwaukee Bucks",
-          "timeCT": "3:10 PM CT",
-          "startCT": "2026-10-23T15:10:00-05:00",
+          "engineTier": "Soft",
+          "edgeStatus": "edge",
+          "edgeLabel": "Edge",
+          "player": "Amen Thompson",
+          "prop": "Over 15.5 Points",
+          "odds": "-103",
+          "book": "DraftKings",
+          "fair": "-105 (Pinnacle no-vig)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "pinnacle",
+          "evPct": 0.95,
+          "booksCompared": 6,
+          "booksPriced": 7,
+          "game": "Houston Rockets @ San Antonio Spurs",
+          "timeCT": "8:40 PM CT",
+          "startCT": "2026-10-23T20:40-05:00",
+          "combined": 0.0,
           "yt": 0,
           "ytWho": [],
-          "xList": [
-            "austinsprops",
-            "LiftsBeach"
-          ],
+          "xList": [],
           "xOutside": [],
-          "independent": 2,
           "altLine": false,
           "rules": [
             {
-              "rule": "source_floor",
-              "result": "fail",
-              "reason": "2 independent < 5"
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair -105 [pinnacle] - supplied fair -105 (pinnacle (two-sided no-vig at 15.5)); 7 books priced"
             },
             {
-              "rule": "price_edge",
-              "result": "fail",
-              "reason": "EV -4.16% at best price -142 FanDuel vs fair -128"
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-103 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
             }
           ],
-          "passCount": 0,
-          "failCount": 2,
-          "note": "Near miss · 2 independent · best -142 FanDuel · EV -4.16%. 2 independent (X send-it)."
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 0 combined sources (YT 0, X 0), under the 5+ floor, so not publishable · best -103 DraftKings vs Fair (Pinnacle-first) -105 (Pinnacle no-vig) · EV +0.95% · Edge.",
+          "publish": false,
+          "rank": 3
         },
         {
-          "rank": 6,
           "tier": "Near miss",
-          "player": "Kawhi Leonard",
-          "prop": "Over 24.5 Points",
-          "odds": "-112",
-          "book": "BetOnline",
-          "fair": "-102",
-          "evPct": -4.48,
-          "game": "Toronto Raptors @ Washington Wizards",
+          "engineTier": "Soft",
+          "edgeStatus": "close",
+          "edgeLabel": "Close - no edge yet",
+          "player": "LaMelo Ball",
+          "prop": "Over 19.5 Points",
+          "odds": "-105",
+          "book": "BetRivers",
+          "fair": "-102 (Pinnacle no-vig)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "pinnacle",
+          "evPct": -1.41,
+          "booksCompared": 6,
+          "booksPriced": 7,
+          "game": "Minnesota Timberwolves @ Orlando Magic",
           "timeCT": "6:10 PM CT",
-          "startCT": "2026-10-23T18:10:00-05:00",
+          "startCT": "2026-10-23T18:10-05:00",
+          "combined": 0.0,
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair -102 [pinnacle] - supplied fair -102 (pinnacle (two-sided no-vig at 19.5)); 7 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-105 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 0 combined sources (YT 0, X 0), under the 5+ floor, so not publishable · best -105 BetRivers vs Fair (Pinnacle-first) -102 (Pinnacle no-vig) · EV -1.41% · Close - no edge yet.",
+          "publish": false,
+          "rank": 4
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "close",
+          "edgeLabel": "Close - no edge yet",
+          "player": "Paul George",
+          "prop": "Over 17.5 Points",
+          "odds": "-104",
+          "book": "FanDuel",
+          "fair": "-101 (3+ book avg)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "consensus",
+          "evPct": -1.44,
+          "booksCompared": 6,
+          "booksPriced": 6,
+          "game": "New York Knicks @ Boston Celtics",
+          "timeCT": "6:10 PM CT",
+          "startCT": "2026-10-23T18:10-05:00",
+          "combined": 0.0,
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair -101 [consensus] - supplied fair -101 (consensus (de-vig (multiplicative) avg of 6 books at 17.5; Scout per-book no-vig, 6 books)); 6 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-104 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 0 combined sources (YT 0, X 0), under the 5+ floor, so not publishable · best -104 FanDuel vs Fair (Pinnacle-first) -101 (3+ book avg) · EV -1.44% · Close - no edge yet.",
+          "publish": false,
+          "rank": 5
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "close",
+          "edgeLabel": "Close - no edge yet",
+          "player": "Wendell Carter Jr.",
+          "prop": "Over 10.5 Points",
+          "odds": "-105",
+          "book": "DraftKings",
+          "fair": "-101 (Pinnacle no-vig)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "pinnacle",
+          "evPct": -1.9,
+          "booksCompared": 6,
+          "booksPriced": 7,
+          "game": "Minnesota Timberwolves @ Orlando Magic",
+          "timeCT": "6:10 PM CT",
+          "startCT": "2026-10-23T18:10-05:00",
+          "combined": 0.0,
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair -101 [pinnacle] - supplied fair -101 (pinnacle (two-sided no-vig at 10.5)); 7 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-105 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 0 combined sources (YT 0, X 0), under the 5+ floor, so not publishable · best -105 DraftKings vs Fair (Pinnacle-first) -101 (Pinnacle no-vig) · EV -1.90% · Close - no edge yet.",
+          "publish": false,
+          "rank": 6
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "close",
+          "edgeLabel": "Close - no edge yet",
+          "player": "Jalen Brunson",
+          "prop": "Over 25.5 Points",
+          "odds": "-102",
+          "book": "FanDuel",
+          "fair": "+102 (3+ book avg)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "consensus",
+          "evPct": -1.96,
+          "booksCompared": 4,
+          "booksPriced": 4,
+          "game": "New York Knicks @ Boston Celtics",
+          "timeCT": "6:10 PM CT",
+          "startCT": "2026-10-23T18:10-05:00",
+          "combined": 1.0,
           "yt": 1,
           "ytWho": [
-            "Parlays & Portfolio",
-            "Prophet Props",
-            "2eZ Sports Betting"
+            "Market Picks"
           ],
           "xList": [],
           "xOutside": [],
-          "independent": 2,
           "altLine": false,
           "rules": [
             {
-              "rule": "source_floor",
-              "result": "fail",
-              "reason": "2 independent < 5"
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair +102 [consensus] - supplied fair +102 (consensus (de-vig (multiplicative) avg of 4 books at 25.5; Scout per-book no-vig, 4 books)); 4 books priced"
             },
             {
-              "rule": "price_edge",
-              "result": "fail",
-              "reason": "EV -4.48% at best price -112 BetOnline vs fair -102"
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-102 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
             }
           ],
-          "passCount": 0,
-          "failCount": 2,
-          "note": "Near miss · 2 independent · best -112 BetOnline · EV -4.48%. 2 sources within the 1.0 line tolerance."
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 1 combined source (YT 1, X 0), under the 5+ floor, so not publishable · best -102 FanDuel vs Fair (Pinnacle-first) +102 (3+ book avg) · EV -1.96% · Close - no edge yet.",
+          "publish": false,
+          "rank": 7
         },
         {
-          "rank": 7,
           "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
+          "player": "Anthony Edwards",
+          "prop": "Over 29.5 Points",
+          "odds": "-106",
+          "book": "BetOnline",
+          "fair": "+115 (Pinnacle no-vig)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "pinnacle",
+          "evPct": -9.61,
+          "booksCompared": 4,
+          "booksPriced": 5,
+          "game": "Minnesota Timberwolves @ Orlando Magic",
+          "timeCT": "6:10 PM CT",
+          "startCT": "2026-10-23T18:10-05:00",
+          "combined": 3.0,
+          "yt": 3,
+          "ytWho": [
+            "Parlay Guru",
+            "TWO6ZERO",
+            "TinNick"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair +115 [pinnacle] - supplied fair +115 (pinnacle (two-sided no-vig at 29.5)); 5 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-106 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 3 combined sources (YT 3, X 0), under the 5+ floor, so not publishable · best -106 BetOnline vs Fair (Pinnacle-first) +115 (Pinnacle no-vig) · EV -9.61% · No edge.",
+          "publish": false,
+          "rank": 8
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
+          "player": "Jeremiah Fears",
+          "prop": "Over 17.5 Pts+Reb+Ast (alt line; main 19.5)",
+          "odds": "-170",
+          "book": "Bovada",
+          "fair": "n/a",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": null,
+          "evPct": null,
+          "booksCompared": 1,
+          "booksPriced": 1,
+          "game": "New Orleans Pelicans @ Utah Jazz",
+          "timeCT": "8:40 PM CT",
+          "startCT": "2026-10-23T20:40-05:00",
+          "combined": 3.0,
+          "yt": 3,
+          "ytWho": [
+            "925 Sports",
+            "Noah's Picks & Props",
+            "The Action Network: Sports Betting Picks & Tips"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "altLine": true,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "fail",
+              "reason": "no sharp fair price: supplied fair -145 'de-vig (multiplicative) avg of 1 books at 17.5' is not sharp (single-book de-vig or <3 books)"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-170 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 1,
+          "note": "Near miss (engine tier Soft) · 3 combined sources (YT 3, X 0), under the 5+ floor, so not publishable · best -170 Bovada vs Fair (Pinnacle-first) n/a · EV n/a (no Pinnacle, exchange or 3+ book fair at this line) · No edge. ALT LINE: main line is 19.5.",
+          "publish": false,
+          "rank": 9
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
           "player": "Cade Cunningham",
           "prop": "Over 24.5 Points",
           "odds": "-106",
           "book": "FanDuel",
-          "fair": "+102",
-          "evPct": -3.73,
+          "fair": "+102 (3+ book avg)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "consensus",
+          "evPct": -3.79,
+          "booksCompared": 6,
+          "booksPriced": 6,
           "game": "Detroit Pistons @ Miami Heat",
           "timeCT": "7:10 PM CT",
-          "startCT": "2026-10-23T19:10:00-05:00",
-          "yt": 1,
+          "startCT": "2026-10-23T19:10-05:00",
+          "combined": 2.0,
+          "yt": 2,
           "ytWho": [
             "Cheese Picks",
             "lurkbetss"
           ],
           "xList": [],
           "xOutside": [],
-          "independent": 2,
           "altLine": false,
           "rules": [
             {
-              "rule": "source_floor",
-              "result": "fail",
-              "reason": "2 independent < 5"
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair +102 [consensus] - supplied fair +102 (consensus (de-vig (multiplicative) avg of 6 books at 24.5; Scout per-book no-vig, 6 books)); 6 books priced"
             },
             {
-              "rule": "price_edge",
-              "result": "fail",
-              "reason": "EV -3.73% at best price -106 FanDuel vs fair +102"
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-106 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
             }
           ],
-          "passCount": 0,
-          "failCount": 2,
-          "note": "Near miss · 2 independent · best -106 FanDuel · EV -3.73%. 2 sources within the 1.0 line tolerance."
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -106 FanDuel vs Fair (Pinnacle-first) +102 (3+ book avg) · EV -3.79% · No edge.",
+          "publish": false,
+          "rank": 10
         },
         {
-          "rank": 8,
           "tier": "Near miss",
-          "player": "Stephen Curry",
-          "prop": "Over 24.5 Points",
-          "odds": "-122",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
+          "player": "Josh Giddey",
+          "prop": "Over 8.5 Assists",
+          "odds": "-142",
           "book": "FanDuel",
-          "fair": "-109",
-          "evPct": -4.94,
-          "game": "Memphis Grizzlies @ Golden State Warriors",
-          "timeCT": "9:10 PM CT",
-          "startCT": "2026-10-23T21:10:00-05:00",
-          "yt": 1,
+          "fair": "-128 (3+ book avg)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "consensus",
+          "evPct": -4.32,
+          "booksCompared": 3,
+          "booksPriced": 3,
+          "game": "Chicago Bulls @ Milwaukee Bucks",
+          "timeCT": "3:10 PM CT",
+          "startCT": "2026-10-23T15:10-05:00",
+          "combined": 2.0,
+          "yt": 0,
+          "ytWho": [],
+          "xList": [
+            "LiftsBeach",
+            "austinsprops"
+          ],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair -128 [consensus] - supplied fair -128 (consensus (de-vig (multiplicative) avg of 3 books at 8.5; Scout per-book no-vig, 3 books)); 3 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "na",
+              "reason": "no YouTube sources"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-142 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 2 combined sources (YT 0, X 2), under the 5+ floor, so not publishable · best -142 FanDuel vs Fair (Pinnacle-first) -128 (3+ book avg) · EV -4.32% · No edge.",
+          "publish": false,
+          "rank": 11
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
+          "player": "Kawhi Leonard",
+          "prop": "Over 24.5 Points",
+          "odds": "-112",
+          "book": "BetOnline",
+          "fair": "-102 (3+ book avg)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "consensus",
+          "evPct": -4.42,
+          "booksCompared": 6,
+          "booksPriced": 6,
+          "game": "Toronto Raptors @ Washington Wizards",
+          "timeCT": "6:10 PM CT",
+          "startCT": "2026-10-23T18:10-05:00",
+          "combined": 2.0,
+          "yt": 2,
           "ytWho": [
-            "DaWiddler",
-            "Market Picks"
+            "2eZ Sports Betting",
+            "Prophet Props"
           ],
           "xList": [],
           "xOutside": [],
-          "independent": 2,
           "altLine": false,
           "rules": [
             {
-              "rule": "source_floor",
-              "result": "fail",
-              "reason": "2 independent < 5"
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair -102 [consensus] - supplied fair -102 (consensus (de-vig (multiplicative) avg of 6 books at 24.5; Scout per-book no-vig, 6 books)); 6 books priced"
             },
             {
-              "rule": "price_edge",
-              "result": "fail",
-              "reason": "EV -4.94% at best price -122 FanDuel vs fair -109"
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-112 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
             }
           ],
-          "passCount": 0,
-          "failCount": 2,
-          "note": "Near miss · 2 independent · best -122 FanDuel · EV -4.94%. 2 sources within the 1.0 line tolerance."
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -112 BetOnline vs Fair (Pinnacle-first) -102 (3+ book avg) · EV -4.42% · No edge.",
+          "publish": false,
+          "rank": 12
         },
         {
-          "rank": 9,
           "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
+          "player": "Anthony Davis",
+          "prop": "Over 20.5 Points",
+          "odds": "-160",
+          "book": "Bovada",
+          "fair": "n/a",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": null,
+          "evPct": null,
+          "booksCompared": 1,
+          "booksPriced": 1,
+          "game": "Toronto Raptors @ Washington Wizards",
+          "timeCT": "6:10 PM CT",
+          "startCT": "2026-10-23T18:10-05:00",
+          "combined": 2.0,
+          "yt": 2,
+          "ytWho": [
+            "Final Round Sports",
+            "TinNick"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "fail",
+              "reason": "no sharp fair price: supplied fair -135 'de-vig (multiplicative) avg of 1 books at 20.5' is not sharp (single-book de-vig or <3 books)"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-160 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 1,
+          "note": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -160 Bovada vs Fair (Pinnacle-first) n/a · EV n/a (no Pinnacle, exchange or 3+ book fair at this line) · No edge.",
+          "publish": false,
+          "rank": 13
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
           "player": "Dejounte Murray",
           "prop": "Over 23.5 Pts+Ast",
           "odds": "-120",
           "book": "FanDuel",
-          "fair": "-108",
-          "evPct": -4.6,
+          "fair": "n/a",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": null,
+          "evPct": null,
+          "booksCompared": 2,
+          "booksPriced": 2,
           "game": "New Orleans Pelicans @ Utah Jazz",
           "timeCT": "8:40 PM CT",
-          "startCT": "2026-10-23T20:40:00-05:00",
-          "yt": 1,
+          "startCT": "2026-10-23T20:40-05:00",
+          "combined": 2.0,
+          "yt": 2,
           "ytWho": [
             "DaWiddler",
             "Just A Bet Outside"
           ],
           "xList": [],
           "xOutside": [],
-          "independent": 2,
           "altLine": false,
           "rules": [
             {
-              "rule": "source_floor",
+              "rule": "fair_price",
               "result": "fail",
-              "reason": "2 independent < 5"
+              "reason": "no sharp fair price: supplied fair -108 'de-vig (multiplicative) avg of 2 books at 23.5' is not sharp (single-book de-vig or <3 books)"
             },
             {
-              "rule": "price_edge",
-              "result": "fail",
-              "reason": "EV -4.60% at best price -120 FanDuel vs fair -108"
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-120 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
             }
           ],
-          "passCount": 0,
-          "failCount": 2,
-          "note": "Near miss · 2 independent · best -120 FanDuel · EV -4.60%. 2 sources within the 1.0 line tolerance."
+          "passCount": 3,
+          "failCount": 1,
+          "note": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -120 FanDuel vs Fair (Pinnacle-first) n/a · EV n/a (no Pinnacle, exchange or 3+ book fair at this line) · No edge.",
+          "publish": false,
+          "rank": 14
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
+          "player": "Stephen Curry",
+          "prop": "Over 24.5 Points",
+          "odds": "-122",
+          "book": "FanDuel",
+          "fair": "n/a",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": null,
+          "evPct": null,
+          "booksCompared": 2,
+          "booksPriced": 2,
+          "game": "Memphis Grizzlies @ Golden State Warriors",
+          "timeCT": "9:10 PM CT",
+          "startCT": "2026-10-23T21:10-05:00",
+          "combined": 2.0,
+          "yt": 2,
+          "ytWho": [
+            "DaWiddler",
+            "Market Picks"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "fail",
+              "reason": "no sharp fair price: supplied fair -109 'de-vig (multiplicative) avg of 2 books at 24.5' is not sharp (single-book de-vig or <3 books)"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-122 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 1,
+          "note": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best -122 FanDuel vs Fair (Pinnacle-first) n/a · EV n/a (no Pinnacle, exchange or 3+ book fair at this line) · No edge.",
+          "publish": false,
+          "rank": 15
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
+          "player": "Caleb Wilson",
+          "prop": "Over 17.5 Points",
+          "odds": null,
+          "book": null,
+          "fair": "n/a",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": null,
+          "evPct": null,
+          "booksCompared": 0,
+          "booksPriced": 0,
+          "game": "Chicago Bulls @ Milwaukee Bucks",
+          "timeCT": "3:10 PM CT",
+          "startCT": "2026-10-23T15:10-05:00",
+          "combined": 2.0,
+          "yt": 2,
+          "ytWho": [
+            "DaWiddler",
+            "The Action Network: Sports Betting Picks & Tips"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "fail",
+              "reason": "no sharp fair price: no Pinnacle no-vig, no exchange, no 3+ book consensus (books_priced=0)"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "na",
+              "reason": "no price: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 2,
+          "failCount": 1,
+          "note": "Near miss (engine tier Soft) · 2 combined sources (YT 2, X 0), under the 5+ floor, so not publishable · best n/a  vs Fair (Pinnacle-first) n/a · EV n/a (no Pinnacle, exchange or 3+ book fair at this line) · No edge.",
+          "publish": false,
+          "rank": 16
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
+          "player": "Tyler Herro",
+          "prop": "Over 5.5 Assists",
+          "odds": "+120",
+          "book": "BetRivers",
+          "fair": "+126 (3+ book avg)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "consensus",
+          "evPct": -2.65,
+          "booksCompared": 6,
+          "booksPriced": 6,
+          "game": "Detroit Pistons @ Miami Heat",
+          "timeCT": "7:10 PM CT",
+          "startCT": "2026-10-23T19:10-05:00",
+          "combined": 1.0,
+          "yt": 1,
+          "ytWho": [
+            "TWO6ZERO"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair +126 [consensus] - supplied fair +126 (consensus (de-vig (multiplicative) avg of 6 books at 5.5; Scout per-book no-vig, 6 books)); 6 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "+120 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 1 combined source (YT 1, X 0), under the 5+ floor, so not publishable · best +120 BetRivers vs Fair (Pinnacle-first) +126 (3+ book avg) · EV -2.65% · No edge.",
+          "publish": false,
+          "rank": 17
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
+          "player": "Jayson Tatum",
+          "prop": "Over 25.5 Points",
+          "odds": "-115",
+          "book": "BetOnline",
+          "fair": "-103 (3+ book avg)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "consensus",
+          "evPct": -5.14,
+          "booksCompared": 5,
+          "booksPriced": 5,
+          "game": "New York Knicks @ Boston Celtics",
+          "timeCT": "6:10 PM CT",
+          "startCT": "2026-10-23T18:10-05:00",
+          "combined": 1.0,
+          "yt": 1,
+          "ytWho": [
+            "TWO6ZERO"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair -103 [consensus] - supplied fair -103 (consensus (de-vig (multiplicative) avg of 5 books at 25.5; Scout per-book no-vig, 5 books)); 5 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-115 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 1 combined source (YT 1, X 0), under the 5+ floor, so not publishable · best -115 BetOnline vs Fair (Pinnacle-first) -103 (3+ book avg) · EV -5.14% · No edge.",
+          "publish": false,
+          "rank": 18
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
+          "player": "Victor Wembanyama",
+          "prop": "Over 24.5 Points",
+          "odds": "-119",
+          "book": "DraftKings",
+          "fair": "-106 (3+ book avg)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "consensus",
+          "evPct": -5.3,
+          "booksCompared": 4,
+          "booksPriced": 4,
+          "game": "Houston Rockets @ San Antonio Spurs",
+          "timeCT": "8:40 PM CT",
+          "startCT": "2026-10-23T20:40-05:00",
+          "combined": 1.0,
+          "yt": 1,
+          "ytWho": [
+            "Stump"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair -106 [consensus] - supplied fair -106 (consensus (de-vig (multiplicative) avg of 4 books at 24.5; Scout per-book no-vig, 4 books)); 4 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "-119 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 1 combined source (YT 1, X 0), under the 5+ floor, so not publishable · best -119 DraftKings vs Fair (Pinnacle-first) -106 (3+ book avg) · EV -5.30% · No edge.",
+          "publish": false,
+          "rank": 19
+        },
+        {
+          "tier": "Near miss",
+          "engineTier": "Soft",
+          "edgeStatus": "none",
+          "edgeLabel": "No edge",
+          "player": "Paolo Banchero",
+          "prop": "Over 22.5 Points",
+          "odds": "+100",
+          "book": "Bovada",
+          "fair": "+105 (Pinnacle no-vig)",
+          "fairLabel": "Fair (Pinnacle-first)",
+          "fairKind": "pinnacle",
+          "evPct": -2.44,
+          "booksCompared": 4,
+          "booksPriced": 5,
+          "game": "Minnesota Timberwolves @ Orlando Magic",
+          "timeCT": "6:10 PM CT",
+          "startCT": "2026-10-23T18:10-05:00",
+          "combined": 0.0,
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "altLine": false,
+          "rules": [
+            {
+              "rule": "fair_price",
+              "result": "pass",
+              "reason": "sharp fair +105 [pinnacle] - supplied fair +105 (pinnacle (two-sided no-vig at 22.5)); 5 books priced"
+            },
+            {
+              "rule": "key_numbers",
+              "result": "na",
+              "reason": "football spreads only"
+            },
+            {
+              "rule": "public_bias",
+              "result": "na",
+              "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+            },
+            {
+              "rule": "echo_discount",
+              "result": "pass",
+              "reason": "no echo picks"
+            },
+            {
+              "rule": "model_agreement",
+              "result": "na",
+              "reason": "no model probability"
+            },
+            {
+              "rule": "home_dog_lean",
+              "result": "na",
+              "reason": "not a home dog"
+            },
+            {
+              "rule": "longshot",
+              "result": "na",
+              "reason": "shorter than +300"
+            },
+            {
+              "rule": "favorite_cap",
+              "result": "pass",
+              "reason": "+100 within -200 cap"
+            },
+            {
+              "rule": "sharp_move",
+              "result": "na",
+              "reason": "no documented sharp/RLM move"
+            },
+            {
+              "rule": "no_hot_hand",
+              "result": "pass",
+              "reason": "streak/record fields ignored; no hot-hand credit"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 0,
+          "note": "Near miss (engine tier Soft) · 0 combined sources (YT 0, X 0), under the 5+ floor, so not publishable · best +100 Bovada vs Fair (Pinnacle-first) +105 (Pinnacle no-vig) · EV -2.44% · No edge.",
+          "publish": false,
+          "rank": 20
         }
       ]
     },
-    "updatedAtLabel": "Fri Oct 23, 1:00 PM CT",
+    "updatedAtLabel": "Fri Oct 23, 1:06 PM CT",
     "engine": "1.2.0",
-    "noEdgeNote": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support.",
-    "note": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support. Below: labeled NBA prop near misses with game, start time (CT), independent source count, best price + book and EV vs the de-vigged fair price. Fears O17.5 PRA is an alt line (main line 19.5). Research only.",
+    "noEdgeNote": "Edge on price, not on support: Jabari Smith Jr. O13.5 Points (+3.28%), Kevin Durant O23.5 Points (+1.88%), Amen Thompson O15.5 Points (+0.95%) beat the Pinnacle-first fair price, but no prop has the 5+ combined sources needed to publish. All rows below are near misses.",
+    "note": "Edge on price, not on support: Jabari Smith Jr. O13.5 Points (+3.28%), Kevin Durant O23.5 Points (+1.88%), Amen Thompson O15.5 Points (+0.95%) beat the Pinnacle-first fair price, but no prop has the 5+ combined sources needed to publish. All rows below are near misses. Fair (Pinnacle-first) = Pinnacle no-vig, then exchange, then a 3+ book average; EV is at the best shopped price. Source counts and tiers are the engine's (1.0 line tolerance). Fears O17.5 PRA is an alt line (main 19.5). Research only.",
     "emptyText": {
-      "NBA": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support."
-    }
+      "NBA": "Edge on price, not on support: Jabari Smith Jr. O13.5 Points (+3.28%), Kevin Durant O23.5 Points (+1.88%), Amen Thompson O15.5 Points (+0.95%) beat the Pinnacle-first fair price, but no prop has the 5+ combined sources needed to publish. All rows below are near misses."
+    },
+    "fairOrder": [
+      "pinnacle",
+      "exchange",
+      "consensus(3+ books)"
+    ]
   },
   "siteName": "Bearish Bulls Picks",
-  "propsNote": "Props: No edge tonight: nothing on this slate beats the sharp fair price with enough source support."
+  "propsNote": "Props: Edge on price, not on support: Jabari Smith Jr. O13.5 Points (+3.28%), Kevin Durant O23.5 Points (+1.88%), Amen Thompson O15.5 Points (+0.95%) beat the Pinnacle-first fair price, but no prop has the 5+ combined sources needed to publish. All rows below are near misses."
 };
