@@ -252,3 +252,11 @@ a{color:var(--accent-ink)}
 /* v1.2.0 edge rule: Close - no edge yet */
 .tier-tag.etier-close{background:#fff3d6;color:#7a5200;border:1px solid #e8c77a}
 [data-theme=dark] .tier-tag.etier-close{background:#3a2e12;color:#f2cf7c;border-color:#6b5520}
+
+/* Oct 24: Monte Carlo + last results */
+.mc-strip .mc-head{margin-top:28px}
+.mc-block-title{font-size:15px;font-weight:600;margin:14px 0 8px}
+.mc-grid{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.mc-strip .perf-big{font-size:26px}
+.tg-noedge{margin:6px 0 12px;padding:10px 12px;border-radius:var(--r);background:var(--surface);font-size:14px}
+.tg-blocked{font-weight:500}

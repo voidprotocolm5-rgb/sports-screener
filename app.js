@@ -318,6 +318,9 @@
 
   var SUB_SPORTS = { NBA: true, NHL: true, UFC: true, NFL: true };
   function hasSub(sp) { return !!SUB_SPORTS[String(sp || "").toUpperCase()]; }
+  function subTabsFor(data, sp) { var t = data && data.subTabs && data.subTabs[String(sp || "").toUpperCase()]; return Array.isArray(t) && t.length ? t : ["lines", "props"]; }
+  function onlySubFor(data, sp) { var t = subTabsFor(data, sp); return t.length === 1 ? t[0] : null; }
+  function defaultSubFor(data, sp) { return (data && data.defaultSub && data.defaultSub[String(sp || "").toUpperCase()]) || subTabsFor(data, sp)[0] || "lines"; }
 
   function parseHash() {
     var h = (location.hash || "").replace(/^#/, "").trim();
@@ -387,7 +390,7 @@
     var ids = sports.map(function (s) { return normalizeSport(s.id); });
     var parsed = parseHash();
     if (parsed.sport && ids.indexOf(parsed.sport) !== -1) {
-      activeSub = hasSub(parsed.sport) ? (parsed.sub || "lines") : null;
+      activeSub = hasSub(parsed.sport) ? (onlySubFor(lastPayload, parsed.sport) || parsed.sub || "lines") : null;
       return parsed.sport;
     }
     if (activeSport && ids.indexOf(normalizeSport(activeSport)) !== -1) {
@@ -398,7 +401,7 @@
     }
     var def = data && data.defaultSport ? normalizeSport(data.defaultSport) : null;
     if (def && ids.indexOf(def) !== -1) {
-      activeSub = hasSub(def) ? "lines" : null;
+      activeSub = hasSub(def) ? defaultSubFor(data, def) : null;
       return def;
     }
     var bets = data && data.bets ? data.bets : [];
@@ -450,11 +453,12 @@
     var allNba = betsForSport(bets, activeSport);
     var linesN = allNba.filter(isGameLineBet).length;
     var propsN = allNba.filter(isPropBet).length;
-    if (!activeSub) activeSub = "lines";
+    if (!activeSub) activeSub = defaultSubFor(data, activeSport);
+    var allow = subTabsFor(data, activeSport);
     var chips = [
       { id: "lines", label: activeSport === "UFC" ? "Fights" : "Game lines", count: linesN },
       { id: "props", label: "Player props", count: propsN }
-    ];
+    ].filter(function (c) { return allow.indexOf(c.id) !== -1; });
     sub.hidden = false;
     sub.innerHTML = chips.map(function (c) {
       var selected = activeSub === c.id;
@@ -605,6 +609,30 @@
       cell("Near misses (separate)", T.nearMiss) + "</div>" +
       '<p class="perf-note">' + escapeHtml(p.note || "") + (a.n < 100 ? " Current sample n=" + (a.n || 0) + " main cards." : "") + "</p>";
   }
+  function renderMonteCarlo(data) {
+    var el = $("mc-strip"); if (!el) return;
+    var m = data && data.monteCarlo; var lr = data && data.lastResults;
+    if (DEMO || (!m && !lr)) { el.hidden = true; el.innerHTML = ""; return; }
+    var h = "";
+    if (lr && lr.items && lr.items.length) {
+      h += '<div class="perf-head"><h2>' + escapeHtml(lr.title || "Last night\u2019s results") + '</h2><span class="perf-sub">' + escapeHtml(lr.sub || "") + "</span></div>" +
+        '<div class="perf-grid">' + lr.items.map(function (r) {
+          var u = r.units; var cls = u == null ? "" : (u >= 0 ? "up" : "down");
+          return '<div class="perf-cell"><span class="perf-label">' + escapeHtml(r.label || "") + '</span><span class="perf-big">' + escapeHtml(String(r.result || "").toUpperCase()) + ' <span class="' + cls + '">' + (u == null ? "" : (u > 0 ? "+" : "") + escapeHtml(String(u)) + "u") + "</span></span>" +
+            '<span class="perf-meta">' + escapeHtml(r.meta || "") + "</span></div>";
+        }).join("") + "</div>" + (lr.note ? '<p class="perf-note">' + escapeHtml(lr.note) + "</p>" : "");
+    }
+    if (m) {
+      var cell = function (c) { return '<div class="perf-cell"><span class="perf-label">' + escapeHtml(c.label) + '</span><span class="perf-big">' + escapeHtml(c.value) + '</span><span class="perf-meta">' + escapeHtml(c.meta || "") + "</span></div>"; };
+      h += '<div class="perf-head mc-head"><h2>' + escapeHtml(m.title || "Monte Carlo backtest") + '</h2><span class="perf-sub">' + escapeHtml(m.sub || "") + "</span></div>";
+      (m.blocks || []).forEach(function (b) {
+        h += '<h3 class="mc-block-title">' + escapeHtml(b.title || "") + "</h3>" + '<div class="perf-grid mc-grid">' + (b.cells || []).map(cell).join("") + "</div>" +
+          (b.note ? '<p class="perf-note">' + escapeHtml(b.note) + "</p>" : "");
+      });
+      if (m.note) h += '<p class="perf-note">' + escapeHtml(m.note) + "</p>";
+    }
+    el.hidden = false; el.innerHTML = h;
+  }
   function renderLive(sportId, data) {
     var el = $("live-slot"); if (!el) return;
     var lg = (data && data.liveGames) || {};
@@ -741,7 +769,7 @@
     var groups = P.groups || {};
     var body = order.map(function (sp) {
       var list = groups[sp] || [];
-      var label = { NBA: "NBA player props", MLB: "MLB (World Series) player props", Soccer: "Soccer player props" }[sp] || sp;
+      var label = { NBA: "NBA player props", MLB: "MLB (World Series) player props", CFB: "College football player props", Soccer: "Soccer player props" }[sp] || sp;
       return '<section class="pp-group" id="pp-' + escapeHtml(sp) + '"><h2>' + escapeHtml(label) + ' <span class="tab-count">' + list.length + "</span></h2>" +
         (list.length ? '<ol class="pp-list">' + list.map(propCard).join("") + "</ol>" : '<p class="muted">' + escapeHtml((P.emptyText || {})[sp] || "No " + sp + " props reached the board today.") + "</p>") + "</section>";
     }).join("");
@@ -1081,13 +1109,14 @@
         '<li class="tg-item ' + tcls + '-item">' +
           '<span class="tg-rank">' + escapeHtml(String(it.rank)) + "</span>" + liveBadge(it) +
           '<div class="tg-body">' +
-            '<div class="tg-top"><span class="tg-tier ' + tcls + '">' + escapeHtml(tier === "NEAR MISS" ? "NEAR MISS (<6)" : tier) + "</span>" + (it.edgeLabel ? ' <span class="tier-tag ' + (it.edgeStatus === "edge" ? "etier-edge" : "etier-close") + '">' + escapeHtml(String(it.edgeLabel).toUpperCase()) + (it.evPct != null ? " \u00b7 EV " + (it.evPct > 0 ? "+" : "") + escapeHtml(String(it.evPct)) + "%" : "") + "</span> " : "") +
+            '<div class="tg-top"><span class="tg-tier ' + tcls + '">' + escapeHtml(tier) + "</span>" + (it.edgeLabel ? ' <span class="tier-tag ' + (it.edgeStatus === "edge" ? "etier-edge" : (it.edgeStatus === "close" ? "etier-close" : "")) + '">' + escapeHtml(String(it.edgeLabel).toUpperCase()) + (it.evPct != null ? " \u00b7 EV " + (it.evPct > 0 ? "+" : "") + escapeHtml(String(it.evPct)) + "%" : "") + "</span> " : "") +
               '<strong class="tg-pick">' + escapeHtml(it.pick || "") + "</strong>" +
               (it.line ? ' <span class="tg-line">' + escapeHtml(it.line) + "</span>" : "") + "</div>" +
             '<div class="tg-meta">' + escapeHtml((it.sport ? it.sport + " · " : "") + (it.game || "") + (it.timeCT ? " · " + it.timeCT : "")) + "</div>" +
             (it.onBoard !== undefined ? '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) + (it.edge ? " · edge+" : "") + " · " + (it.onBoard ? "on the board" : "under the source floor, watch list") + "</div>" :
             '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) +
               " · booksAlign " + (it.booksAlign ? "✓" : "✗") + " · " + escapeHtml(String(edge)) + "</div>") +
+            (it.blockedBy ? '<div class="tg-why tg-blocked"><b>Blocked by:</b> ' + escapeHtml(it.blockedBy) + "</div>" : "") +
             (it.rationale ? '<div class="tg-why">' + escapeHtml(it.rationale) + "</div>" : "") +
             (it.xNote ? '<div class="tg-why tg-xnote">X: ' + escapeHtml(it.xNote) + "</div>" : "") +
             meterHtml(sc, "Confidence") +
@@ -1098,6 +1127,7 @@
     el.innerHTML =
       '<div class="tg-head"><h2 class="tg-title">' + escapeHtml(g.title || "Today\u2019s Gauge") + '</h2>' +
       '<span class="tg-sub">' + escapeHtml(g.label || "") + "</span></div>" +
+      (g.noEdgeNote ? '<p class="tg-noedge"><b>No edge today.</b> ' + escapeHtml(g.noEdgeNote) + "</p>" : "") +
       '<ol class="tg-list">' + rows + "</ol>" +
       (g.note ? '<p class="tg-note">' + escapeHtml(g.note) + "</p>" : "");
   }
@@ -1110,8 +1140,10 @@
     renderProvisional(data);
     renderTonightGauge(data);
     renderPerformance(data);
+    renderMonteCarlo(data);
     activeSport = resolveActiveSport(data);
-    if (hasSub(activeSport) && !activeSub) activeSub = "lines";
+    if (hasSub(activeSport) && !activeSub) activeSub = defaultSubFor(data, activeSport);
+    if (hasSub(activeSport) && onlySubFor(data, activeSport)) activeSub = onlySubFor(data, activeSport);
     if (!hasSub(activeSport)) activeSub = null;
     setHash(activeSport, activeSub);
     renderSportNav(data);
@@ -1313,7 +1345,7 @@
       var parsed = parseHash();
       if (parsed.sport) {
         activeSport = parsed.sport;
-        activeSub = hasSub(parsed.sport) ? (parsed.sub || "lines") : null;
+        activeSub = hasSub(parsed.sport) ? (onlySubFor(lastPayload, parsed.sport) || parsed.sub || "lines") : null;
         render(lastPayload);
       }
     });
