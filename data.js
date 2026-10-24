@@ -1,126 +1,10 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Publishers must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-24T11:11:46-05:00",
-  "updatedAtLabel": "Sat Oct 24, 11:11 AM CT",
+  "updatedAt": "2026-10-24T11:16:59-05:00",
+  "updatedAtLabel": "Sat Oct 24, 11:16 AM CT",
   "nearMiss": {
     "MLB": [
-      {
-        "sport": "MLB",
-        "pick": "Tampa Bay Rays ML",
-        "game": "Tampa Bay Rays @ Milwaukee Brewers · World Series · 7:00 PM CT",
-        "startCT": "2026-10-24T19:00:00-05:00",
-        "timeCT": "7:00 PM CT",
-        "line": "+109 1xBet",
-        "bestOdds": "+109",
-        "bestBook": "1xBet",
-        "fairOdds": "+109 (Pinnacle no-vig)",
-        "evPct": -0.1,
-        "edgeStatus": "close",
-        "edgeLabel": "Close - no edge yet",
-        "yt": 10,
-        "x": 0,
-        "total": 10,
-        "combined": 10,
-        "sources": {
-          "youtube": 10,
-          "ytRaw": 21,
-          "xSendIt": 0,
-          "combined": 10
-        },
-        "label": "Near miss",
-        "nearMissLabel": "Near miss",
-        "engineTier": "Dropped",
-        "marketType": "moneyline",
-        "booksPriced": 28,
-        "blockedBy": "YouTube unverified (10 independent reported, 0 hand-verified; engine counts 0 of 3) · one-side-per-game (Brewers ML ranked higher in this game) · X send-it 0 of 2",
-        "ytWho": "2eZ Sports Betting; Alexander Mejia; Cash Out Sports Picks; Deportes con Imanol; Greedo Plays; JDBetsHQ; SportsMoneyNetwork; The Bettor Mark; The Sports Forum; Wiz Betz",
-        "gap": "Close - no edge yet · EV -0.10% · best +109 1xBet vs Pinnacle fair +109 · 28 books priced. Blocked by: YouTube unverified (10 independent reported, 0 hand-verified; engine counts 0 of 3) · one-side-per-game (Brewers ML ranked higher in this game) · X send-it 0 of 2."
-      },
-      {
-        "sport": "MLB",
-        "pick": "Milwaukee Brewers ML",
-        "game": "Tampa Bay Rays @ Milwaukee Brewers · 7:00 PM CT",
-        "startCT": "2026-10-24T19:00-05:00",
-        "timeCT": "7:00 PM CT",
-        "line": "-115 BetOnline.ag",
-        "bestOdds": "-115",
-        "bestBook": "BetOnline.ag",
-        "fairOdds": "-109",
-        "evPct": -2.5,
-        "edgeStatus": "none",
-        "edgeLabel": "No edge",
-        "yt": 0,
-        "x": 2,
-        "total": 2.0,
-        "combined": 2.0,
-        "sources": {
-          "youtube": 0,
-          "ytRaw": 14,
-          "xSendIt": 2,
-          "combined": 2.0
-        },
-        "label": "Near miss",
-        "nearMissLabel": "Near miss",
-        "engineTier": "Soft",
-        "marketType": "moneyline",
-        "booksCompared": 9,
-        "booksPriced": 28,
-        "blockedBy": "verified independent YT 0 < 3; combined sources 2 < 5 floor; no price edge: EV -2.50% at best price -115 vs sharp fair -109 (needs > 0); book gates fail: B1",
-        "rules": [
-          {
-            "rule": "fair_price",
-            "result": "pass",
-            "reason": "sharp fair -109 [pinnacle] - supplied fair -109 (pinnacle no-vig); 28 books priced"
-          },
-          {
-            "rule": "key_numbers",
-            "result": "na",
-            "reason": "football spreads only"
-          },
-          {
-            "rule": "public_bias",
-            "result": "na",
-            "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
-          },
-          {
-            "rule": "echo_discount",
-            "result": "pass",
-            "reason": "no echo picks"
-          },
-          {
-            "rule": "model_agreement",
-            "result": "na",
-            "reason": "no model probability"
-          },
-          {
-            "rule": "home_dog_lean",
-            "result": "na",
-            "reason": "not a home dog"
-          },
-          {
-            "rule": "longshot",
-            "result": "na",
-            "reason": "shorter than +300"
-          },
-          {
-            "rule": "favorite_cap",
-            "result": "pass",
-            "reason": "-115 within -200 cap"
-          },
-          {
-            "rule": "sharp_move",
-            "result": "na",
-            "reason": "no documented sharp/RLM move"
-          },
-          {
-            "rule": "no_hot_hand",
-            "result": "pass",
-            "reason": "streak/record fields ignored; no hot-hand credit"
-          }
-        ],
-        "gap": "No edge · EV -2.50% · best -115 BetOnline.ag vs fair -109 · 2 combined (YT 0, X 2). Blocked by: verified independent YT 0 < 3; combined sources 2 < 5 floor; no price edge: EV -2.50% at best price -115 vs sharp fair -109 (needs > 0); book gates fail: B1."
-      },
       {
         "sport": "MLB",
         "pick": "Jake Bauers Over 0.5 Total Bases",
@@ -729,15 +613,15 @@ window.BET_BOARD_DATA = {
         "evPct": -1.96,
         "edgeStatus": "close",
         "edgeLabel": "Close - no edge yet",
-        "yt": 0,
+        "yt": 2,
         "x": 1,
-        "total": 1.0,
-        "combined": 1.0,
+        "total": 3.25,
+        "combined": 3.25,
         "sources": {
-          "youtube": 0,
+          "youtube": 2,
           "ytRaw": 5,
           "xSendIt": 1,
-          "combined": 1.0
+          "combined": 3.25
         },
         "label": "Near miss",
         "nearMissLabel": "Near miss",
@@ -745,7 +629,7 @@ window.BET_BOARD_DATA = {
         "marketType": "spread",
         "booksCompared": 3,
         "booksPriced": 6,
-        "blockedBy": "verified independent YT 0 < 3; X posters 1 < 2; combined sources 1 < 5 floor; gate fails: key_numbers; no price edge: EV -1.96% at best price +100 vs sharp fair +104 (needs > 0); book gates fail: B1",
+        "blockedBy": "verified independent YT 2 < 3; X posters 1 < 2; combined sources 3.25 < 5 floor; gate fails: key_numbers; no price edge: EV -1.96% at best price +100 vs sharp fair +104 (needs > 0); book gates fail: B1",
         "rules": [
           {
             "rule": "fair_price",
@@ -765,7 +649,7 @@ window.BET_BOARD_DATA = {
           {
             "rule": "echo_discount",
             "result": "pass",
-            "reason": "no echo picks"
+            "reason": "1 echo picks counted at 0.25"
           },
           {
             "rule": "model_agreement",
@@ -798,7 +682,7 @@ window.BET_BOARD_DATA = {
             "reason": "streak/record fields ignored; no hot-hand credit"
           }
         ],
-        "gap": "Close - no edge yet · EV -1.96% · best +100 FanDuel vs fair +104 · 1 combined (YT 0, X 1). Blocked by: verified independent YT 0 < 3; X posters 1 < 2; combined sources 1 < 5 floor; gate fails: key_numbers; no price edge: EV -1.96% at best price +100 vs sharp fair +104 (needs > 0); book gates fail: B1."
+        "gap": "Close - no edge yet · EV -1.96% · best +100 FanDuel vs fair +104 · 3.25 combined (YT 2, X 1). Blocked by: verified independent YT 2 < 3; X posters 1 < 2; combined sources 3.25 < 5 floor; gate fails: key_numbers; no price edge: EV -1.96% at best price +100 vs sharp fair +104 (needs > 0); book gates fail: B1."
       },
       {
         "sport": "CFB",
@@ -3179,7 +3063,7 @@ window.BET_BOARD_DATA = {
   "sport": "multi",
   "defaultSport": "NBA",
   "status": "live",
-  "summary": "0 on the board today. No edge tonight: nothing on this slate beats the sharp fair price with enough source support. Publish needs 5+ combined sources (verified independent YouTube + X send-it posters) AND a sharp fair price AND EV > 0 at the best shopped price ('Close - no edge yet' = EV -2% to 0). CLEARED needs 3+ YouTube, 2+ X send-it, booksAlign and EV > 0. Research only, never a bet.",
+  "summary": "1 on the board today: Tampa Bay Rays ML +109 1xBet (Soft, Close - no edge yet, EV 0.0%). No edge tonight: nothing on this slate beats the sharp fair price with enough source support. Publish needs 5+ combined sources (verified independent YouTube + X send-it posters) AND a sharp fair price AND EV > 0 at the best shopped price ('Close - no edge yet' = EV -2% to 0). CLEARED needs 3+ YouTube, 2+ X send-it, booksAlign and EV > 0. Research only, never a bet.",
   "clearedCount": 0,
   "gaugeCount": 0,
   "sports": [
@@ -3204,7 +3088,7 @@ window.BET_BOARD_DATA = {
   ],
   "archives": {
     "MLB": {
-      "note": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support. Near misses with their blocking rule and EV are listed below."
+      "note": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support. The one card on the board, Rays ML, is Close - no edge yet (EV 0.0% vs Pinnacle fair), not an edge. Brewers ML is dropped for this game (one side per game)."
     },
     "CFB": {
       "note": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support. Near misses with their blocking rule and EV are listed below."
@@ -3219,22 +3103,127 @@ window.BET_BOARD_DATA = {
   "researchOnly": true,
   "noBetsPlaced": true,
   "skippedNote": "Edge rule v1.2.0: fair price = Pinnacle no-vig, else exchange, else 3+ book consensus; every price is shopped across books and the best one is used. Board covers NBA player props, MLB (World Series) and college football only.",
-  "bets": [],
+  "bets": [
+    {
+      "id": "sat1024-mlb-tampa-bay-rays-ml",
+      "example": false,
+      "sport": "MLB",
+      "rank": 1,
+      "engineTier": "Soft",
+      "tier": "soft",
+      "runTier": "SOFT",
+      "softNote": "Shown Soft (not CLEARED): X send-it 0 of 2; EV 0.0% is not above 0.",
+      "booksAlign": false,
+      "missingForCleared": [
+        "X send-it 0 of 2",
+        "EV > 0 (now 0.0%)"
+      ],
+      "rationale": "Close - no edge yet: +109 at 1xBet equals the Pinnacle no-vig fair +109 (EV 0.0%). Best of 9 books shopped at this line. 6 hand-verified independent YouTube cappers (same-day, explicit Rays ML, not AI). Not CLEARED: X send-it 0 of 2 and EV not above 0.",
+      "why": "Verified YouTube: 2eZ Sports Betting, StumpTheSpread - Free Sports Picks Predictions, Greedo Plays, JDBetsHQ, Alexander Mejia, Deportes con Imanol. Brewers ML is dropped for this game (one side per game).",
+      "marketType": "moneyline",
+      "game": "Tampa Bay Rays @ Milwaukee Brewers · World Series Game 2 · 7:00 PM CT",
+      "pick": "Tampa Bay Rays ML",
+      "line": "+109 1xBet",
+      "timeCT": "7:00 PM CT",
+      "startCT": "2026-10-24T19:00-05:00",
+      "gameState": "pre",
+      "live": false,
+      "final": false,
+      "status": "PRE",
+      "fairOdds": "+109 (Pinnacle no-vig)",
+      "bestOdds": "+109",
+      "bestBook": "1xBet",
+      "booksCompared": 9,
+      "booksPriced": 28,
+      "booksComparedText": "best of 9 books at this line · 28 books priced",
+      "evPct": 0.0,
+      "edgeStatus": "close",
+      "edgeLabel": "Close - no edge yet",
+      "edgePlus": false,
+      "combined": 6.0,
+      "publish": true,
+      "floorText": "Floor: 6 combined (5+ needed) · YT 6 hand-verified · X 0",
+      "publishReason": "6 combined sources (floor 5+), EV 0.0% vs sharp fair → Close - no edge yet",
+      "sources": {
+        "youtube": 6,
+        "ytRaw": 21,
+        "ytEcho": 0,
+        "xSendIt": 0,
+        "combined": 6.0
+      },
+      "ytWho": "2eZ Sports Betting; StumpTheSpread - Free Sports Picks Predictions; Greedo Plays; JDBetsHQ; Alexander Mejia; Deportes con Imanol",
+      "xWho": "",
+      "ytVerified": true,
+      "ytHandVerified": 6,
+      "rules": [
+        {
+          "rule": "fair_price",
+          "result": "pass",
+          "reason": "sharp fair +109 [pinnacle] - supplied fair +109 (pinnacle no-vig); 28 books priced"
+        },
+        {
+          "rule": "key_numbers",
+          "result": "na",
+          "reason": "football spreads only"
+        },
+        {
+          "rule": "public_bias",
+          "result": "na",
+          "reason": "no splits pulled: n/a, non-blocking (not counted as a pass)"
+        },
+        {
+          "rule": "echo_discount",
+          "result": "pass",
+          "reason": "no echo picks"
+        },
+        {
+          "rule": "model_agreement",
+          "result": "na",
+          "reason": "no model probability"
+        },
+        {
+          "rule": "home_dog_lean",
+          "result": "na",
+          "reason": "not a home dog"
+        },
+        {
+          "rule": "longshot",
+          "result": "na",
+          "reason": "shorter than +300"
+        },
+        {
+          "rule": "favorite_cap",
+          "result": "pass",
+          "reason": "+109 within -200 cap"
+        },
+        {
+          "rule": "sharp_move",
+          "result": "na",
+          "reason": "no documented sharp/RLM move"
+        },
+        {
+          "rule": "no_hot_hand",
+          "result": "pass",
+          "reason": "streak/record fields ignored; no hot-hand credit"
+        }
+      ]
+    }
+  ],
   "resultsTally": {
     "cleared": "4-5-0",
     "gauge": "27-22-0",
     "nearMiss": "164-130-3",
-    "checkedAt": "11:11 AM CT",
-    "checkedAtIso": "2026-10-24T11:11:46-05:00",
+    "checkedAt": "11:16 AM CT",
+    "checkedAtIso": "2026-10-24T11:16:59-05:00",
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 27-22-0 · Near misses 164-130-3 (separate) · n=58"
   },
   "todaysGauge": {
     "title": "Tonight's Gauge",
-    "label": "Nothing cleared · closest near misses and the rule blocking each · start times CT",
+    "label": "Nothing cleared · 1 Soft card (Close - no edge yet) and the closest near misses, each with the rule blocking it · start times CT",
     "items": [
       {
         "rank": 1,
-        "tier": "NEAR MISS",
+        "tier": "SOFT",
         "edgeStatus": "close",
         "edgeLabel": "Close - no edge yet",
         "pick": "Tampa Bay Rays ML",
@@ -3242,15 +3231,16 @@ window.BET_BOARD_DATA = {
         "sport": "MLB",
         "game": "Rays @ Brewers (World Series)",
         "timeCT": "7:00 PM CT",
-        "yt": 10,
+        "yt": 6,
         "x": 0,
         "booksAlign": false,
-        "evPct": -0.1,
-        "edge": "Close - no edge yet: +109 at 1xBet vs Pinnacle no-vig fair +109 (EV -0.10%), 28 books priced.",
-        "blockedBy": "YouTube unverified (10 independent reported, 0 hand-verified; engine counts 0 of 3) · one-side-per-game (Brewers ML ranked higher in this game) · X send-it 0 of 2",
+        "evPct": 0.0,
+        "edge": "",
+        "onBoard": true,
+        "blockedBy": "Not CLEARED: X send-it 0 of 2 · EV 0.0% is not above 0 (Close - no edge yet)",
         "softNote": null,
-        "rationale": null,
-        "startCT": "2026-10-24T19:00:00-05:00",
+        "rationale": "On the board as Soft. Best price +109 at 1xBet (best of 9 books at this line, 28 priced) vs Pinnacle no-vig fair +109: EV 0.0%, so no edge yet. 6 combined sources: 6 hand-verified independent YouTube, X 0.",
+        "startCT": "2026-10-24T19:00-05:00",
         "final": false,
         "live": false
       },
@@ -3264,12 +3254,12 @@ window.BET_BOARD_DATA = {
         "sport": "CFB",
         "game": "USC Trojans @ Wisconsin Badgers",
         "timeCT": "6:30 PM CT",
-        "yt": 5,
+        "yt": 2,
         "x": 1,
         "booksAlign": false,
         "evPct": -1.96,
         "edge": "Close - no edge yet: +100 FanDuel vs Pinnacle fair +104 (EV -1.96%); best of 3 of 6 books.",
-        "blockedBy": "YouTube unverified (5 raw, 0 hand-verified) · key_numbers fail (+2.5) · combined 1 of 5",
+        "blockedBy": "Source floor (3.25 of 5 combined: 2 hand-verified YouTube, X 1) · key_numbers fail (+2.5; verified picks were at +3) · X 1 of 2",
         "softNote": null,
         "rationale": null,
         "startCT": "2026-10-24T18:30-05:00",
@@ -3363,33 +3353,11 @@ window.BET_BOARD_DATA = {
         "startCT": "2026-10-24T14:30-05:00",
         "final": false,
         "live": false
-      },
-      {
-        "rank": 7,
-        "tier": "NEAR MISS",
-        "edgeStatus": "none",
-        "edgeLabel": "No edge",
-        "pick": "Milwaukee Brewers ML",
-        "line": "-115 BetOnline.ag",
-        "sport": "MLB",
-        "game": "Rays @ Brewers (World Series)",
-        "timeCT": "7:00 PM CT",
-        "yt": 0,
-        "x": 2,
-        "booksAlign": false,
-        "evPct": -2.5,
-        "edge": "-115 vs Pinnacle fair -109; 14 raw YouTube, X 2.",
-        "blockedBy": "EV -2.50% below the close band · combined 2 of 5 (YouTube unverified)",
-        "softNote": null,
-        "rationale": null,
-        "startCT": "2026-10-24T19:00-05:00",
-        "final": false,
-        "live": false
       }
     ],
     "noEdgeNote": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support.",
     "emptyText": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support.",
-    "note": "On the board = 5+ combined sources (verified independent YouTube + X send-it posters) AND a sharp fair price AND EV > 0 at the best shopped price ('Close - no edge yet' = EV -2% to 0). Today nothing qualifies. These are the closest calls, each with the rule that blocks it. Full near-miss lists are on each tab."
+    "note": "On the board = 5+ combined sources (verified independent YouTube + X send-it posters) AND a sharp fair price AND EV > 0 at the best shopped price ('Close - no edge yet' = EV -2% to 0). Today only Rays ML is on the board, at Close - no edge yet; nothing has EV > 0. These are the closest calls, each with the rule that blocks it. Full near-miss lists are on each tab."
   },
   "performance": {
     "tally": {
@@ -3949,11 +3917,11 @@ window.BET_BOARD_DATA = {
       "nearMiss": 17
     },
     "MLB": {
-      "onBoard": 0,
+      "onBoard": 1,
       "edge": 0,
-      "close": 0,
+      "close": 1,
       "cleared": 0,
-      "nearMiss": 7
+      "nearMiss": 5
     },
     "CFB": {
       "onBoard": 0,
@@ -4891,7 +4859,7 @@ window.BET_BOARD_DATA = {
         }
       ]
     },
-    "updatedAtLabel": "Sat Oct 24, 11:11 AM CT",
+    "updatedAtLabel": "Sat Oct 24, 11:16 AM CT",
     "engine": "1.2.0",
     "noEdgeNote": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support.",
     "note": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support. Below: prop near misses with game, start time (CT), combined sources, best price + book, books compared and EV vs the de-vigged fair price. Research only.",
