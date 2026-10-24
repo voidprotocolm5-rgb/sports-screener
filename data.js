@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Publishers must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-24T11:09:49-05:00",
-  "updatedAtLabel": "Sat Oct 24, 11:09 AM CT",
+  "updatedAt": "2026-10-24T11:11:46-05:00",
+  "updatedAtLabel": "Sat Oct 24, 11:11 AM CT",
   "nearMiss": {
     "MLB": [
       {
@@ -3224,8 +3224,8 @@ window.BET_BOARD_DATA = {
     "cleared": "4-5-0",
     "gauge": "27-22-0",
     "nearMiss": "164-130-3",
-    "checkedAt": "11:09 AM CT",
-    "checkedAtIso": "2026-10-24T11:09:49-05:00",
+    "checkedAt": "11:11 AM CT",
+    "checkedAtIso": "2026-10-24T11:11:46-05:00",
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 27-22-0 · Near misses 164-130-3 (separate) · n=58"
   },
   "todaysGauge": {
@@ -4891,7 +4891,7 @@ window.BET_BOARD_DATA = {
         }
       ]
     },
-    "updatedAtLabel": "Sat Oct 24, 11:09 AM CT",
+    "updatedAtLabel": "Sat Oct 24, 11:11 AM CT",
     "engine": "1.2.0",
     "noEdgeNote": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support.",
     "note": "No edge tonight: nothing on this slate beats the sharp fair price with enough source support. Below: prop near misses with game, start time (CT), combined sources, best price + book, books compared and EV vs the de-vigged fair price. Research only.",
@@ -4936,7 +4936,7 @@ window.BET_BOARD_DATA = {
           {
             "label": "P(total > 0)",
             "value": "39.7%",
-            "meta": "[{'side': 'Klay Thompson Over 3.5 Threes', 'why': 'no fair_odds'}, {'side': 'Norman Powell Over 3.5 Threes', 'why': 'no fair_odds'}, {'side': 'William Contreras Over 0.5 Hits', 'why': 'no fair_odds'}, {'side': 'Christian Yelich Over 0.5 Hits', 'why': 'no fair_odds'}, {'side': 'Andrew Wiggins Over 3.5 Assists', 'why': 'no fair_odds'}, {'side': 'Alex Sarr Over 3.5 Assists', 'why': 'no fair_odds'}, {'side': 'Yandy Diaz Over 1.5 Hits+Runs+RBIs', 'why': 'no fair_odds'}, {'side': 'Jackson Chourio Over 1.5 Hits+Runs+RBIs', 'why': 'no fair_odds'}, {'side': 'DeMar DeRozan Over 21.5 Pts+Reb+Ast', 'why': 'no fair_odds'}] props skipped (no fair price)"
+            "meta": "9 props skipped (no fair price)"
           }
         ],
         "note": "Each prop is played at its best shopped price with the Pinnacle no-vig fair probability as the win chance. This takes the engine's fair price as truth, so it shows the swing you should expect, not whether an edge is real."
