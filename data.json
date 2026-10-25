@@ -4812,7 +4812,7 @@
         "label": "not publishable"
       }
     ],
-    "noEdgeNote": "No edge today: nothing on this slate has 5+ combined sources with EV of -2% or better at the best shopped price vs the Pinnacle no-vig fair price.",
+    "noEdgeNote": "Nothing on this slate has 5+ combined sources with EV of -2% or better at the best shopped price vs the Pinnacle no-vig fair price.",
     "emptyText": "No edge today: nothing on this slate has 5+ combined sources with EV of -2% or better at the best shopped price vs the Pinnacle no-vig fair price.",
     "note": "On the board = 5+ combined sources (hand-verified independent YouTube + X send-it posters, firm non-parlay picks within 1.0 of the card line) AND a Pinnacle no-vig fair price AND EV > 0 at the best shopped price ('Close - no edge yet' = EV -2% to 0). Ranked by combined sources, then EV. 'Appeared in' counts videos that named the pick out of all videos read for that sport. Sim win % comes from the Screener's 10,000-run simulation with fair price as truth. No play here is a recommendation."
   },
