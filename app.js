@@ -774,7 +774,7 @@
         (list.length ? '<ol class="pp-list">' + list.map(propCard).join("") + "</ol>" : '<p class="muted">' + escapeHtml((P.emptyText || {})[sp] || "No " + sp + " props reached the board today.") + "</p>") + "</section>";
     }).join("");
     return "<p class='page-kicker'>" + escapeHtml(siteName(data)) + "</p><h1>Player Props.</h1><p class='muted'>" + escapeHtml(P.note || "Research only. Ranked by engine tier, then combined sources. Start times CT.") + "</p>" +
-      "<p class='muted'>Updated " + escapeHtml(P.updatedAtLabel || "") + "</p>" + renderOvers("NFL", data) + renderOvers("NBA", data) + body;
+      "<p class='muted'>Updated " + escapeHtml(P.updatedAtLabel || "") + "</p>" + renderAttd(null, data) + renderOvers("NFL", data) + renderOvers("NBA", data) + body;
   }
   var SITE_NAME = "Bearish Bulls Picks";
   function siteName(data) { return (data && data.siteName) || SITE_NAME; }
@@ -1058,6 +1058,33 @@
       (o.caveat ? '<p class="nm-note"><b>' + escapeHtml(o.caveat) + "</b></p>" : "") +
       "</section>";
   }
+  function renderAttd(sportId, data) {
+    // NFL Anytime TD near-miss section (Oct 25 2026, engine v1.2.0 + 10,000-sim MC): data.attdNfl = {title, pill, noEdgeNote, label, updated, note, cards[], mc{title, cols, rows, note}, extra[], caveat}
+    var o = data && data.attdNfl; if (!o || !o.cards) return "";
+    if (sportId && normalizeSport(sportId) !== "NFL") return "";
+    var cards = o.cards.map(function (c) {
+      return '<li class="nm-item attd-card" data-rank="' + escapeHtml(String(c.rank)) + '">' +
+        '<div class="nm-pick">#' + escapeHtml(String(c.rank)) + " · " + escapeHtml(c.player || "") + (c.team ? " (" + escapeHtml(c.team) + ")" : "") + " · Anytime TD" +
+          ' <span class="nm-tag">' + escapeHtml(c.label || "") + "</span>" + (c.status ? ' <span class="nm-tag">' + escapeHtml(c.status) + "</span>" : "") + "</div>" +
+        '<div class="nm-game">' + escapeHtml(c.game || "") + " · " + escapeHtml(c.start || "") + "</div>" +
+        '<div class="nm-line">Best ' + escapeHtml(c.price || "") + " · fair " + escapeHtml(c.fair || "") + " · EV " + escapeHtml(c.ev || "") + (c.evPower ? " (power de-vig " + escapeHtml(c.evPower) + ")" : "") + "</div>" +
+        '<div class="nm-line">' + escapeHtml(c.sources || "") + "</div>" +
+        '<div class="nm-line">Sim win ' + escapeHtml(c.simWin || "") + " · sim EV " + escapeHtml(c.simEv || "") + " (10,000 sims)</div>" +
+        '<div class="nm-gap">Blocker: ' + escapeHtml(c.blocker || "") + "</div>" +
+      "</li>";
+    }).join("");
+    return '<section class="near-miss attd-nm" id="attd-NFL" aria-label="' + escapeHtml(o.title || "NFL Anytime TD") + '">' +
+      '<h3 class="nm-head"><span class="nm-pill">' + escapeHtml(o.pill || "NEAR MISS") + '</span> ' + escapeHtml(o.title || "NFL Anytime TD") + "</h3>" +
+      (o.noEdgeNote ? '<p class="tg-noedge"><b>' + escapeHtml(o.noEdgeNote) + "</b></p>" : "") +
+      (o.label ? '<p class="nm-note">' + escapeHtml(o.label) + "</p>" : "") +
+      (o.updated ? '<p class="nm-note">' + escapeHtml(o.updated) + "</p>" : "") +
+      (o.note ? '<p class="nm-note">' + escapeHtml(o.note) + "</p>" : "") +
+      '<ul class="nm-list attd-list">' + cards + "</ul>" +
+      (o.mc ? '<h4 class="mc-block-title">' + escapeHtml(o.mc.title || "") + "</h4>" + (o.mc.summary ? '<p class="nm-note"><b>' + escapeHtml(o.mc.summary) + "</b></p>" : "") + (o.mc.cols ? ovTable(o.mc) : "") + (o.mc.note ? '<p class="nm-note">' + escapeHtml(o.mc.note) + "</p>" : "") : "") +
+      (o.extra || []).map(function (x) { return '<p class="nm-note">' + escapeHtml(x) + "</p>"; }).join("") +
+      (o.caveat ? '<p class="nm-note"><b>' + escapeHtml(o.caveat) + "</b></p>" : "") +
+      "</section>";
+  }
   function renderSportEmpty(sportId, data) {
     var archives = (data && data.archives) || {};
     var arch = archives[sportId] || archives[normalizeSport(sportId)] || null;
@@ -1110,6 +1137,7 @@
       '<p class="sport-empty-body">' + body + "</p>" +
       archiveHtml +
       renderSpotlight(sportId, data) +
+      renderAttd(sportId, data) +
       (isNba && activeSub === "props" ? renderOvers(normalizeSport(sportId), data) : "") +
       renderNearMiss(sportId, data)
     );
@@ -1264,7 +1292,7 @@
       nmSlot.id = "near-miss-slot";
       boardEl.parentNode.insertBefore(nmSlot, boardEl.nextSibling);
     }
-    if (nmSlot) nmSlot.innerHTML = hasBets ? renderNearMiss(activeSport, data) : "";
+    if (nmSlot) nmSlot.innerHTML = hasBets ? renderAttd(activeSport, data) + renderNearMiss(activeSport, data) : "";
     if (!hasBets) {
       emptyEl.hidden = false;
       emptyEl.innerHTML = renderSportEmpty(activeSport, data);
