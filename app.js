@@ -1019,6 +1019,25 @@
     );
   }
 
+  // ---- Spotlight box (e.g. El Clasico), Oct 25 2026: data.spotlight[sport] = {title, sub, label, tables:[{title, cols, rows}], note} ----
+  function renderSpotlight(sportId, data) {
+    var sp = data && data.spotlight && (data.spotlight[sportId] || data.spotlight[normalizeSport(sportId)]);
+    if (!sp) return "";
+    var h = '<section class="near-miss spotlight" aria-label="' + escapeHtml(sp.title || "Spotlight") + '">' +
+      '<h3 class="nm-head"><span class="nm-pill">SPOTLIGHT</span> ' + escapeHtml(sp.title || "") + "</h3>" +
+      (sp.sub ? '<p class="nm-note">' + escapeHtml(sp.sub) + "</p>" : "") +
+      (sp.label ? '<p class="tg-noedge"><b>Nothing clears.</b> ' + escapeHtml(sp.label) + "</p>" : "");
+    (sp.tables || []).forEach(function (t) {
+      h += '<h4 class="mc-block-title">' + escapeHtml(t.title || "") + "</h4>" +
+        '<div style="overflow-x:auto"><table class="spot-table" style="width:100%;border-collapse:collapse;font-size:0.9em"><thead><tr>' +
+        (t.cols || []).map(function (c) { return '<th style="text-align:left;padding:4px 6px;border-bottom:1px solid rgba(128,128,128,.4)">' + escapeHtml(c) + "</th>"; }).join("") +
+        "</tr></thead><tbody>" + (t.rows || []).map(function (r) {
+          return "<tr>" + r.map(function (v) { return '<td style="padding:4px 6px;border-bottom:1px solid rgba(128,128,128,.15)">' + escapeHtml(v == null ? "" : String(v)) + "</td>"; }).join("") + "</tr>";
+        }).join("") + "</tbody></table></div>";
+    });
+    if (sp.note) h += '<p class="nm-note">' + escapeHtml(sp.note) + "</p>";
+    return h + "</section>";
+  }
   function renderSportEmpty(sportId, data) {
     var archives = (data && data.archives) || {};
     var arch = archives[sportId] || archives[normalizeSport(sportId)] || null;
@@ -1070,6 +1089,7 @@
       '<p class="sport-empty-title">' + (((data && data.nearMiss) || {})[(isNba && activeSub === "props") ? normalizeSport(sportId) + "-PROPS" : normalizeSport(sportId)] ? "Nothing on the board yet" : "No live research this slate") + escapeHtml(subLabel) + "</p>" +
       '<p class="sport-empty-body">' + body + "</p>" +
       archiveHtml +
+      renderSpotlight(sportId, data) +
       renderNearMiss(sportId, data)
     );
   }
