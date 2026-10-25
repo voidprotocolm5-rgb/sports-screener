@@ -1039,10 +1039,10 @@
     return h + "</section>";
   }
   function ovTable(t) {
-    return '<div style="overflow-x:auto"><table class="spot-table" style="width:100%;border-collapse:collapse;font-size:0.85em"><thead><tr>' +
+    return '<div style="overflow-x:auto"><table class="spot-table" style="width:100%;min-width:' + (t.cols && t.cols.length > 8 ? "1250px" : "0") + ';border-collapse:collapse;font-size:0.85em"><thead><tr>' +
       (t.cols || []).map(function (c) { return '<th style="text-align:left;padding:4px 6px;border-bottom:1px solid rgba(128,128,128,.4);white-space:nowrap">' + escapeHtml(c) + "</th>"; }).join("") +
       "</tr></thead><tbody>" + (t.rows || []).map(function (r) {
-        return "<tr>" + r.map(function (v) { return '<td style="padding:4px 6px;border-bottom:1px solid rgba(128,128,128,.15);vertical-align:top">' + escapeHtml(v == null ? "" : String(v)) + "</td>"; }).join("") + "</tr>";
+        return "<tr>" + r.map(function (v, i) { var w = r.length > 8 ? ({3: "170px", 8: "240px", 10: "230px"}[i] || "") : ""; return '<td style="padding:4px 6px;border-bottom:1px solid rgba(128,128,128,.15);vertical-align:top' + (w ? ";min-width:" + w : "") + '">' + escapeHtml(v == null ? "" : String(v)) + "</td>"; }).join("") + "</tr>";
       }).join("") + "</tbody></table></div>";
   }
   function renderOvers(sp, data) {
