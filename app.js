@@ -774,7 +774,7 @@
         (list.length ? '<ol class="pp-list">' + list.map(propCard).join("") + "</ol>" : '<p class="muted">' + escapeHtml((P.emptyText || {})[sp] || "No " + sp + " props reached the board today.") + "</p>") + "</section>";
     }).join("");
     return "<p class='page-kicker'>" + escapeHtml(siteName(data)) + "</p><h1>Player Props.</h1><p class='muted'>" + escapeHtml(P.note || "Research only. Ranked by engine tier, then combined sources. Start times CT.") + "</p>" +
-      "<p class='muted'>Updated " + escapeHtml(P.updatedAtLabel || "") + "</p>" + body;
+      "<p class='muted'>Updated " + escapeHtml(P.updatedAtLabel || "") + "</p>" + renderOvers("NFL", data) + renderOvers("NBA", data) + body;
   }
   var SITE_NAME = "Bearish Bulls Picks";
   function siteName(data) { return (data && data.siteName) || SITE_NAME; }
@@ -1038,6 +1038,26 @@
     if (sp.note) h += '<p class="nm-note">' + escapeHtml(sp.note) + "</p>";
     return h + "</section>";
   }
+  function ovTable(t) {
+    return '<div style="overflow-x:auto"><table class="spot-table" style="width:100%;border-collapse:collapse;font-size:0.85em"><thead><tr>' +
+      (t.cols || []).map(function (c) { return '<th style="text-align:left;padding:4px 6px;border-bottom:1px solid rgba(128,128,128,.4);white-space:nowrap">' + escapeHtml(c) + "</th>"; }).join("") +
+      "</tr></thead><tbody>" + (t.rows || []).map(function (r) {
+        return "<tr>" + r.map(function (v) { return '<td style="padding:4px 6px;border-bottom:1px solid rgba(128,128,128,.15);vertical-align:top">' + escapeHtml(v == null ? "" : String(v)) + "</td>"; }).join("") + "</tr>";
+      }).join("") + "</tbody></table></div>";
+  }
+  function renderOvers(sp, data) {
+    var o = data && data.oversNearMiss; if (!o || !o[sp]) return "";
+    var L = o[sp];
+    return '<section class="near-miss overs-nm" id="overs-' + escapeHtml(sp) + '" aria-label="' + escapeHtml(o.title) + '">' +
+      '<h3 class="nm-head"><span class="nm-pill">NEAR MISS</span> ' + escapeHtml(o.title) + " · " + escapeHtml(sp) + "</h3>" +
+      '<p class="tg-noedge"><b>No edge today.</b> ' + escapeHtml(o.label || "") + "</p>" +
+      (o.updated ? '<p class="nm-note">' + escapeHtml(o.updated) + "</p>" : "") +
+      (L.note ? '<p class="nm-note">' + escapeHtml(L.note) + "</p>" : "") +
+      ovTable(L) +
+      (o.mc ? '<h4 class="mc-block-title">' + escapeHtml(o.mc.title || "") + "</h4>" + ovTable(o.mc) + (o.mc.note ? '<p class="nm-note">' + escapeHtml(o.mc.note) + "</p>" : "") : "") +
+      (o.caveat ? '<p class="nm-note"><b>' + escapeHtml(o.caveat) + "</b></p>" : "") +
+      "</section>";
+  }
   function renderSportEmpty(sportId, data) {
     var archives = (data && data.archives) || {};
     var arch = archives[sportId] || archives[normalizeSport(sportId)] || null;
@@ -1090,6 +1110,7 @@
       '<p class="sport-empty-body">' + body + "</p>" +
       archiveHtml +
       renderSpotlight(sportId, data) +
+      (isNba && activeSub === "props" ? renderOvers(normalizeSport(sportId), data) : "") +
       renderNearMiss(sportId, data)
     );
   }
