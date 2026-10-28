@@ -1126,8 +1126,9 @@
       body = "Nothing for " + escapeHtml(label) + " reached the 5+ combined-source board floor this pass (CLEARED needs 3+ YouTube, 2+ X send-it and booksAlign). The engine-rated watch list is below, with the rules each pick passed and failed.";
     } else if (isRealNba) {
       body =
-        "Exhaustive YouTube + X send-it pass found no countable spoken picks or pregame slips for tonight's NBA preseason" +
-        (activeSub === "props" ? " player props" : " game lines") +
+        (activeSub === "props"
+          ? "No NBA props meet the rules yet tonight"
+          : "No NBA game lines meet the rules yet tonight") +
         ". Empty on purpose — not fake zero badges.";
     }
 

@@ -1,18 +1,16 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Publishers must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-26T11:10:01-05:00",
-  "updatedAtLabel": "Mon Oct 26, 11:10 AM CT",
+  "updatedAt": "2026-10-28T16:44:39-05:00",
+  "updatedAtLabel": "Wed Oct 28, 4:44 PM CT",
   "nearMiss": {
-    "NFL": [],
-    "NFL-PROPS": [],
     "NBA-PROPS": []
   },
-  "slate": "Mon Oct 26 2026 — NBA 9-game slate (player props, overs) + NFL MNF Cowboys @ Eagles 7:15 PM CT (props + lines) · engine v1.2.0 (edge rule)",
+  "slate": "Wed Oct 28 2026 — NBA 12-game slate (player props, overs + unders) · first tip 6:00 PM CT · engine v1.2.0 · Screener signed 4:43 PM CT",
   "sport": "multi",
   "defaultSport": "NBA",
   "status": "live",
-  "summary": "0 on the board tonight. No edge tonight: 0 publishable, 0 CLEARED. No overs prop on the NBA slate or MNF has 5+ combined sources (max 3). Publish needs 5+ combined sources (hand-verified YouTube + X, firm single picks within 1.0 of the card line), a sharp fair price, and EV > 0 at the best shopped price ('Close - no edge yet' = EV -2% to 0). Game lines: Jazz -1.5 +104 BetRivers is the only priced edge (+1.53% vs Pinnacle fair +101) but has 0 sources, so it is not published.",
+  "summary": "0 on the board tonight. No edge tonight: 0 publishable, 0 CLEARED. No NBA prop has 5+ combined sources (max 4: Maxey O23.5, no sharp fair). Screener-signed (engine v1.2.0, prices 4:39 PM CT). Publish needs 5+ combined sources, a sharp fair price, and EV > 0 at the best shopped price ('Close - no edge yet' = EV -2% to 0). 4 near misses show an edge but only 1-2 sources: Paul Reed U8.5 reb (-104 BetRivers, +6.18%), Kuminga O14.5 pts (-115 BetRivers, +1.98%), NAW O18.5 pts (-112 BetRivers, +1.25%), Ja'Kobe Walter O2.5 threes (+145 BetRivers, +1.24%).",
   "clearedCount": 0,
   "gaugeCount": 0,
   "sports": [
@@ -21,12 +19,6 @@ window.BET_BOARD_DATA = {
       "label": "Basketball (NBA) · player props",
       "nav": "NBA",
       "short": "NBA"
-    },
-    {
-      "id": "NFL",
-      "label": "Football (NFL) · MNF",
-      "nav": "NFL",
-      "short": "NFL"
     }
   ],
   "archives": {
@@ -51,7 +43,7 @@ window.BET_BOARD_DATA = {
   },
   "researchOnly": true,
   "noBetsPlaced": true,
-  "skippedNote": "Edge rule v1.2.0: fair price = Pinnacle no-vig, else median of 3+ book de-vigs; best price shopped across FanDuel, Bovada, BetRivers, Pinnacle (re-pulled 10:59 AM CT). Videos read: NFL 30, NBA 28.",
+  "skippedNote": "Edge rule v1.2.0: fair = Pinnacle no-vig, else median of 3+ book de-vigs; best price shopped across FanDuel, Bovada, BetRivers (Pinnacle = fair only). Prices re-pulled 4:39 PM CT. One side per game; SA@UTA has no candidate rows, so 11 rows. DFS entry legs (PrizePicks/Underdog/etc.) count 0 unless also a standalone single.",
   "bets": [],
   "resultsTally": {
     "cleared": "4-5-0",
@@ -65,8 +57,8 @@ window.BET_BOARD_DATA = {
     "title": "Tonight's gauge",
     "label": "No gauge cards tonight.",
     "items": [],
-    "noEdgeNote": "No edge tonight: 0 publishable, 0 CLEARED. No overs prop on the NBA slate or MNF has 5+ combined sources (max 3).",
-    "emptyText": "No edge today: nothing on this slate has 5+ combined sources with EV of -2% or better at the best shopped price vs the Pinnacle no-vig fair price.",
+    "noEdgeNote": "No edge tonight: 0 publishable, 0 CLEARED. No NBA prop has 5+ combined sources (max 4: Maxey O23.5, no sharp fair).",
+    "emptyText": "No edge tonight: 0 publishable, 0 CLEARED. No NBA prop has 5+ combined sources (max 4: Maxey O23.5, no sharp fair). The 11 closest NBA props (one per game) are in Tonight's NBA Props below.",
     "note": "On the board = 5+ combined sources (hand-verified independent YouTube + X send-it posters, firm non-parlay picks within 1.0 of the card line) AND a Pinnacle no-vig fair price AND EV > 0 at the best shopped price ('Close - no edge yet' = EV -2% to 0). Ranked by combined sources, then EV. 'Appeared in' counts videos that named the pick out of all videos read for that sport. Sim win % comes from the Screener's 10,000-run simulation with fair price as truth. No play here is a recommendation."
   },
   "performance": {
@@ -611,9 +603,9 @@ window.BET_BOARD_DATA = {
     ],
     "note": "Flat 1u per card at the published price. Graded by Betting Consensus Screener from ESPN finals (regraded Oct 17). Track record uses the old CLEARED/GAUGE labels; new Clear/Soft/Watch cards start grading from Oct 17. Near misses tracked separately."
   },
-  "xNote": "X send-it list 1867962331566612965: 383 posts from 83 posters (Oct 25 11:29 PM to Oct 26 ~10:50 AM CT) plus page 5 (no new qualifying slips). Parlays, SGPs, alt ladders and leans count 0. Read-only, never posted.",
-  "oddsApiNote": "Prices re-pulled 10:59 AM CT Oct 26 (Pinnacle guest API, FanDuel, Bovada, BetRivers/Kambi). Odds API not used (0 credits).",
-  "youtubeNote": "YouTube via yt-dlp: up to 30 same-day videos per sport, incl. mandatory query 'bets prop bets for NFL/NBA today' (40 results each; 15 NFL and 13 NBA of the final videos, 0 found only by it). AI/scripted channels count 0; an Oct 25 video dropped, so NBA uses 28.",
+  "xNote": "X send-it list 1867962331566612965: same-day NBA prop singles only (slips OCR'd); 10 posters with countable singles. Parlays, SGPs, alt ladders, leans and model cards count 0. Read-only, never posted.",
+  "oddsApiNote": "Prices pulled Oct 28 4:39 PM CT (Pinnacle guest API, FanDuel, Bovada, BetRivers/Kambi). Odds API not used (0 credits).",
+  "youtubeNote": "YouTube via yt-dlp: 30 same-day NBA videos from 30 channels, incl. mandatory query 'bets prop bets for NBA today' (40 results; 16 of the final 30, 0 found only by it). AI/scripted/tool channels count 0 (TinNick, Pick Time).",
   "provisional": {
     "show": false
   },
@@ -624,106 +616,80 @@ window.BET_BOARD_DATA = {
       "edge": 0,
       "close": 0,
       "cleared": 0,
-      "nearMiss": 15
-    },
-    "NFL": {
-      "onBoard": 0,
-      "edge": 0,
-      "close": 0,
-      "cleared": 0,
-      "nearMiss": 15
+      "nearMiss": 11
     }
   },
   "playerProps": {
     "enabled": true,
     "order": [
-      "NFL",
       "NBA"
     ],
     "groups": {},
-    "updatedAtLabel": "Mon Oct 26, 11:10 AM CT",
+    "updatedAtLabel": "Wed Oct 28, 4:44 PM CT",
     "engine": "1.2.0",
-    "noEdgeNote": "No edge tonight: 0 publishable, 0 CLEARED. No overs prop on the NBA slate or MNF has 5+ combined sources (max 3). NBA 28 and NFL 30 same-day videos read.",
-    "note": "Overs only. Fair = Pinnacle no-vig, else median of 3+ book de-vigs.",
-    "emptyText": "No overs prop tonight has 5+ combined sources. The closest 15 per sport are in Tonight's Overs Props below."
+    "noEdgeNote": "No edge tonight: 0 publishable, 0 CLEARED. No NBA prop has 5+ combined sources (max 4: Maxey O23.5, no sharp fair).",
+    "note": "Overs and unders. Fair = Pinnacle no-vig, else median of 3+ book de-vigs.",
+    "emptyText": "No NBA props meet the rules yet tonight. The 11 closest (one per game) are in Tonight's NBA Props below."
   },
   "siteName": "Bearish Bulls Picks",
-  "propsNote": "Props: No edge tonight: 0 publishable, 0 CLEARED. No overs prop on the NBA slate or MNF has 5+ combined sources (max 3).",
+  "propsNote": "Props: No edge tonight: 0 publishable, 0 CLEARED. No NBA prop has 5+ combined sources (max 4: Maxey O23.5, no sharp fair).",
   "defaultSub": {
-    "NBA": "props",
-    "NFL": "props"
+    "NBA": "props"
   },
   "subTabs": {
     "NBA": [
       "props"
-    ],
-    "NFL": [
-      "lines",
-      "props"
     ]
   },
   "monteCarlo": {
-    "title": "Monte Carlo · tonight's overs (10,000 runs each)",
+    "title": "Monte Carlo · tonight's NBA props (10,000 runs)",
     "sub": "Win prob = sharp fair; paid at best same-line price; 1u flat; props independent.",
     "blocks": [],
-    "note": "See Tonight's Overs Props."
+    "note": "See Tonight's NBA Props."
   },
   "lastResults": {
-    "title": "Sunday's results (Oct 25)",
+    "title": "Monday's results (Oct 26)",
     "sub": "Graded from ESPN finals · hypothetical 1u flat at the posted best price (all research, nothing published as a bet)",
     "items": [
       {
-        "label": "Gauge (game lines, near misses)",
+        "label": "NFL MNF overs props (top 15)",
         "result": "loss",
-        "units": -9.06,
-        "meta": "3-12 · 15 graded · graded the published card Seattle -3 +100 DK (W); the Screener file had KC +3 (L)"
-      },
-      {
-        "label": "NFL overs props (top 15)",
-        "result": "loss",
-        "units": -5.56,
-        "meta": "4-9 · 13 graded · Tucker Kraft O49.5 had no price at the line (would have lost: 48 yds) · Kenyon Sadiq O2.5 rec dropped (engine Pass row)"
+        "units": -3.95,
+        "meta": "6-9 · 15 graded"
       },
       {
         "label": "NBA overs props (top 15)",
-        "result": "win",
-        "units": 4.07,
-        "meta": "10-5 · 15 graded"
+        "result": "loss",
+        "units": -5.98,
+        "meta": "5-10 · 15 graded"
       },
       {
-        "label": "NFL anytime TD (top 10)",
-        "result": "win",
-        "units": 11.91,
-        "meta": "5-5 · 10 graded"
-      },
-      {
-        "label": "All Oct 25 research cards",
-        "result": "win",
-        "units": 1.36,
-        "meta": "22-31 · 53 graded"
+        "label": "All Oct 26 research cards",
+        "result": "loss",
+        "units": -9.93,
+        "meta": "11-19 · 30 graded"
       }
     ],
-    "note": "Corrected Oct 26: Sadiq O2.5 rec removed (engine Pass row, not gradable); Seattle/Kansas City side graded as published on the board (Seattle -3, W). No bets placed. CLV only for game lines (avg +1.33pp vs DraftKings close, n=7)."
+    "note": "No Gauge cards on Oct 26. Running research-card record since Oct 25: 33-50, -8.58u (ex-ATTD 28-45, -20.48u). No bets placed."
   },
   "spotlight": {},
   "oversNearMiss": {
-    "title": "Tonight's Overs Props",
-    "label": "Near-miss lists only: 0 publishable, 0 CLEARED, max 3 combined sources (floor 5). Research, not picks.",
-    "noEdgeNote": "No edge tonight: 0 publishable, 0 CLEARED. No overs prop on the NBA slate or MNF has 5+ combined sources (max 3).",
-    "updated": "Screener sign-off Oct 26 · prices re-pulled 10:59 AM CT (Pinnacle, FanDuel, Bovada, BetRivers) · engine v1.2.0 · order: Edge, Close, No edge (by sources, then EV); 0-source rows last; no-fair rows = Watch outside the top 15",
+    "title": "Tonight's NBA Props",
+    "label": "Near-miss list only: 0 publishable, 0 CLEARED, max 4 combined sources (floor 5). One side per game, 11 rows. Research, not picks.",
+    "noEdgeNote": "No edge tonight: 0 publishable, 0 CLEARED. No NBA prop has 5+ combined sources (max 4: Maxey O23.5, no sharp fair).",
+    "updated": "Prices pulled 4:39 PM CT (Pinnacle, FanDuel, Bovada, BetRivers) · engine v1.2.0 · Screener signed 4:43 PM CT · order: Edge, Close, No edge, Watch (by sources, then EV)",
     "NBA": {
-      "note": "NBA: 28 same-day videos. Cooper Flagg OUT (row excluded). Caleb Wilson O16.5 pts and Ajay Mitchell O23.5 PRA (Close band, 0 sources) rank below every sourced row, outside the 15. Watch (no fair price, EV n/a): Anthony Davis Over 24.5 Pts+Ast (-104 FanDuel, 6:00 PM CT, YT 2 / X 0); Tre Jones Over 11.5 Pts+Reb (-118 FanDuel, 6:30 PM CT, YT 1 / X 0); Dyson Daniels Over 22.5 Pts+Reb+Ast (-130 Bovada, 7:30 PM CT, YT 1 / X 0); Nickeil Alexander-Walker Over 23.5 Pts+Reb+Ast (-165 Bovada, 7:30 PM CT, YT 1 / X 0); Isaiah Hartenstein Over 11.5 Reb+Ast (+105 Bovada, 7:00 PM CT, YT 1 / X 0); Kyrie Irving Over 8.5 Reb+Ast (+120 Bovada, 6:30 PM CT, YT 1 / X 0); Payton Pritchard Over 7.5 Reb+Ast (-129 BetRivers, 6:30 PM CT, YT 1 / X 0); Dillon Brooks Over 20.5 Pts+Reb+Ast (-125 Bovada, 7:00 PM CT, YT 1 / X 0); Draymond Green Over 13.5 Pts+Ast (-120 Bovada, 9:00 PM CT, YT 1 / X 0); Davion Mitchell Over 18.5 Pts+Ast (+100 FanDuel, 6:30 PM CT, YT 1 / X 0); Bam Adebayo Over 31.5 Pts+Reb+Ast (-118 FanDuel, 6:30 PM CT, YT 1 / X 0); Kyrie Irving Over 29.5 Pts+Reb+Ast (-125 Bovada, 6:30 PM CT, YT 1 / X 0); Justin Champagnie Over 13.5 Pts+Reb (-120 Bovada, 6:00 PM CT, YT 0 / X 1). Game lines: Jazz -1.5 +104 BetRivers is the only priced edge (+1.53%), 0 sources, not published.",
+      "note": "NBA: 30 same-day videos + X send-it list. Questionable, recheck ~5:30 PM CT: Nembhard, Lendeborg, Anthony Black, Markkanen, Ajay Mitchell (none on the list; Hartenstein's OKC teammate Mitchell). Walker Kessler Available (finger splint). No candidate OUT (NBA official report 4:30 PM CT, ESPN 4:39 PM CT). Maxey O23.5 (4 sources, no sharp fair) dropped behind Siakam O7.5 reb in PHI@IND by one-side-per-game.",
       "cols": [
         "#",
         "Label",
         "Sport",
-        "Player · stat · OVER line",
-        "Start CT",
+        "Player · stat · line",
+        "Tip CT",
         "Best price · book",
         "Fair (win %) · source",
         "EV",
         "Sources",
-        "Sim win %",
         "Blocker / flags"
       ],
       "rows": [
@@ -731,414 +697,138 @@ window.BET_BOARD_DATA = {
           1,
           "Near miss · Edge",
           "NBA",
-          "James Harden Points OVER 16.5",
-          "6:00 PM CT",
+          "Jonathan Kuminga Over 14.5 Points",
+          "7:10 PM",
           "-115 BetRivers",
-          "-117 (53.9%) · pinnacle no-vig at 16.5",
-          "+0.80%",
-          "YT 1 + X 0 = 1 · Guy Boston Sports",
-          "53.9%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear)"
+          "-120 (54.5%) · pinnacle no-vig at 14.5",
+          "+1.98%",
+          "YT 2 + X 0 = 2 · Slop's Locks, StumpTheSpread - Free Sports Picks Predictions",
+          "2 of 5 sources; YT 2 of 3 (Clear); X 0 of 2 (Clear)"
         ],
         [
           2,
           "Near miss · Edge",
           "NBA",
-          "Kyshawn George Assists OVER 3.5",
-          "6:00 PM CT",
-          "+115 BetRivers",
-          "+114 (46.7%) · pinnacle no-vig at 3.5",
-          "+0.47%",
-          "YT 1 + X 0 = 1 · Chad Slivinski Picks",
-          "47.0%",
+          "Paul Reed Under 8.5 Rebounds",
+          "6:00 PM",
+          "-104 BetRivers",
+          "-118 (54.1%) · pinnacle no-vig at 8.5",
+          "+6.18%",
+          "YT 1 + X 0 = 1 · JediModi Sports Network",
           "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear)"
         ],
         [
           3,
-          "Near miss · Close - no edge yet",
+          "Near miss · Edge",
           "NBA",
-          "Devin Booker Points OVER 22.5",
-          "7:00 PM CT",
+          "Nickeil Alexander-Walker Over 18.5 Points",
+          "6:00 PM",
           "-112 BetRivers",
-          "-111 (52.6%) · pinnacle no-vig at 22.5",
-          "-0.42%",
-          "YT 1 + X 0 = 1 · Pick Time",
-          "52.4%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -0.42% (needs >0)"
+          "-115 (53.5%) · pinnacle no-vig at 18.5",
+          "+1.25%",
+          "YT 1 + X 0 = 1 · The Action Network: Sports Betting Picks & Tips",
+          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear)"
         ],
         [
           4,
-          "Near miss · Close - no edge yet",
+          "Near miss · Edge",
           "NBA",
-          "Aaron Gordon Points OVER 15.5",
-          "9:00 PM CT",
-          "-104 BetRivers",
-          "-102 (50.5%) · pinnacle no-vig at 15.5",
-          "-0.95%",
-          "YT 1 + X 0 = 1 · Kyeezyz Hitz",
-          "50.4%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -0.95% (needs >0)"
+          "Ja'Kobe Walter Over 2.5 Threes",
+          "6:40 PM",
+          "+145 BetRivers",
+          "+142 (41.3%) · pinnacle no-vig at 2.5",
+          "+1.24%",
+          "YT 0 + X 1 = 1 · PropBetGuy",
+          "1 of 5 sources; YT 0 of 3 (Clear); X 1 of 2 (Clear)"
         ],
         [
           5,
           "Near miss · Close - no edge yet",
           "NBA",
-          "Alperen Sengun Rebounds OVER 9.5",
-          "7:30 PM CT",
-          "+110 BetRivers",
-          "+114 (46.7%) · pinnacle no-vig at 9.5",
-          "-1.87%",
-          "YT 1 + X 0 = 1 · Kyeezyz Hitz",
-          "46.0%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -1.87% (needs >0)"
+          "Pascal Siakam Over 7.5 Rebounds",
+          "6:00 PM",
+          "+116 BetRivers",
+          "+118 (45.9%) · pinnacle no-vig at 7.5",
+          "-0.92%",
+          "YT 2 + X 0 = 2 · StumpTheSpread - Free Sports Picks Predictions, Daft Previews",
+          "2 of 5 sources; YT 2 of 3 (Clear); X 0 of 2 (Clear); EV -0.92% (needs >0 for Clear; >=-2 for publish)"
         ],
         [
           6,
-          "Near miss · No edge",
+          "Near miss · Close - no edge yet",
           "NBA",
-          "Brandon Miller Points OVER 23.5",
-          "6:00 PM CT",
-          "-125 Bovada",
-          "-118 (54.1%) · pinnacle no-vig at 23.5",
-          "-2.57%",
-          "YT 1 + X 0 = 1 · El Guru",
-          "54.4%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -2.57% (needs >0)"
+          "Trae Young Under 20.5 Points",
+          "6:10 PM",
+          "-102 FanDuel",
+          "+102 (49.5%) · pinnacle no-vig at 20.5",
+          "-1.96%",
+          "YT 1 + X 0 = 1 · Split Labs",
+          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -1.96% (needs >0 for Clear; >=-2 for publish)"
         ],
         [
           7,
           "Near miss · No edge",
           "NBA",
-          "Devin Booker Rebounds OVER 4.5",
-          "7:00 PM CT",
-          "+130 Bovada",
-          "+137 (42.2%) · pinnacle no-vig at 4.5",
-          "-2.95%",
+          "Dejounte Murray Over 17.5 Points",
+          "7:10 PM",
+          "-102 FanDuel",
+          "+123 (44.8%) · pinnacle no-vig at 17.5",
+          "-11.19%",
+          "YT 2 + X 0 = 2 · BankrollBrian, Slop's Locks",
+          "2 of 5 sources; YT 2 of 3 (Clear); X 0 of 2 (Clear); EV -11.19% (needs >0 for Clear; >=-2 for publish)"
+        ],
+        [
+          8,
+          "Near miss · No edge",
+          "NBA",
+          "Jabari Smith Over 15.5 Points",
+          "7:10 PM",
+          "-117 BetRivers",
+          "-108 (51.9%) · pinnacle no-vig at 15.5",
+          "-3.70%",
+          "YT 1 + X 0 = 1 · RiskMode",
+          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -3.70% (needs >0 for Clear; >=-2 for publish); YT RiskMode: templated/scripted delivery - counted (precedent), review"
+        ],
+        [
+          9,
+          "Near miss · No edge",
+          "NBA",
+          "Caleb Wilson Over 16.5 Points",
+          "7:10 PM",
+          "-128 FanDuel",
+          "-110 (52.4%) · pinnacle no-vig at 16.5",
+          "-6.70%",
+          "YT 1 + X 0 = 1 · Slop's Locks",
+          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -6.70% (needs >0 for Clear; >=-2 for publish)"
+        ],
+        [
+          10,
+          "Watch · no sharp fair (EV n/a)",
+          "NBA",
+          "Walker Kessler Over 12.5 Points",
+          "9:40 PM",
+          "no retail price at line",
+          "n/a (no Pinnacle at line, <3 books)",
+          "n/a",
+          "YT 1 + X 0 = 1 · RichPicks",
+          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); no sharp fair (no Pinnacle at line, <3 books); Available: left finger splint; NBA official 3:15 PM CT Available"
+        ],
+        [
+          11,
+          "Watch · no sharp fair (EV n/a)",
+          "NBA",
+          "Isaiah Hartenstein Over 8.5 Rebounds",
+          "8:30 PM",
+          "-250 Bovada",
+          "n/a (no Pinnacle at line, <3 books)",
+          "n/a",
           "YT 1 + X 0 = 1 · Daft Previews",
-          "42.1%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -2.95% (needs >0)"
-        ],
-        [
-          8,
-          "Near miss · No edge",
-          "NBA",
-          "Darryn Peterson Points OVER 11.5",
-          "8:00 PM CT",
-          "-124 BetRivers",
-          "-116 (53.7%) · pinnacle no-vig at 11.5",
-          "-2.99%",
-          "YT 1 + X 0 = 1 · B Wade Picks",
-          "52.2%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -2.99% (needs >0)"
-        ],
-        [
-          9,
-          "Near miss · No edge",
-          "NBA",
-          "Pascal Siakam Points OVER 23.5",
-          "7:00 PM CT",
-          "-110 BetRivers",
-          "-102 (50.5%) · median of 3 per-book de-vigs at 23.5",
-          "-3.60%",
-          "YT 1 + X 0 = 1 · JediModi Sports Network",
-          "52.0%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -3.60% (needs >0)"
-        ],
-        [
-          10,
-          "Near miss · No edge",
-          "NBA",
-          "Trae Young Assists OVER 10.5",
-          "6:00 PM CT",
-          "+125 Bovada",
-          "+134 (42.7%) · pinnacle no-vig at 10.5",
-          "-3.85%",
-          "YT 1 + X 0 = 1 · B Wade Picks",
-          "42.2%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -3.85% (needs >0)"
-        ],
-        [
-          11,
-          "Near miss · No edge",
-          "NBA",
-          "Jayson Tatum Assists OVER 6.5",
-          "6:30 PM CT",
-          "-130 Bovada",
-          "-119 (54.3%) · pinnacle no-vig at 6.5",
-          "-3.86%",
-          "YT 1 + X 0 = 1 · JediModi Sports Network",
-          "54.2%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -3.86% (needs >0)"
-        ],
-        [
-          12,
-          "Near miss · No edge",
-          "NBA",
-          "Jaden McDaniels Points OVER 13.5",
-          "6:00 PM CT",
-          "-135 Bovada",
-          "-123 (55.2%) · pinnacle no-vig at 13.5",
-          "-3.99%",
-          "YT 1 + X 0 = 1 · El Guru",
-          "56.0%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -3.99% (needs >0)"
-        ],
-        [
-          13,
-          "Near miss · No edge",
-          "NBA",
-          "Davion Mitchell Points OVER 10.5",
-          "6:30 PM CT",
-          "-125 Bovada",
-          "-114 (53.3%) · pinnacle no-vig at 10.5",
-          "-4.11%",
-          "YT 1 + X 0 = 1 · BetBlitz",
-          "52.7%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -4.11% (needs >0)"
-        ],
-        [
-          14,
-          "Near miss · No edge",
-          "NBA",
-          "Davion Mitchell Assists OVER 6.5",
-          "6:30 PM CT",
-          "-137 BetRivers",
-          "-121 (54.8%) · pinnacle no-vig at 6.5",
-          "-5.28%",
-          "YT 1 + X 0 = 1 · Chad Slivinski Picks",
-          "55.1%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -5.28% (needs >0)"
-        ],
-        [
-          15,
-          "Near miss · No edge",
-          "NBA",
-          "LaMelo Ball Threes OVER 3.5",
-          "6:00 PM CT",
-          "+115 Bovada",
-          "+127 (44.1%) · pinnacle no-vig at 3.5",
-          "-5.29%",
-          "YT 1 + X 0 = 1 · Kyeezyz Hitz",
-          "43.7%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -5.29% (needs >0)"
-        ]
-      ]
-    },
-    "NFL": {
-      "note": "NFL MNF only (Cowboys @ Eagles 7:15 PM CT): 30 videos. Hurts on IR, so McKee starts (QB-change note on Eagles pass-catcher rows). Barkley Questionable (hamstring): recheck at inactives ~5:45 PM CT. Javonte Williams O2.5 rec removed after the re-pull (Bovada +125 gone); Goedert O5.5 rec added. No game-line edge on MNF.",
-      "cols": [
-        "#",
-        "Label",
-        "Sport",
-        "Player · stat · OVER line",
-        "Start CT",
-        "Best price · book",
-        "Fair (win %) · source",
-        "EV",
-        "Sources",
-        "Sim win %",
-        "Blocker / flags"
-      ],
-      "rows": [
-        [
-          1,
-          "Near miss · Close - no edge yet",
-          "NFL",
-          "Saquon Barkley Receptions OVER 2.5",
-          "7:15 PM CT",
-          "-110 Bovada",
-          "-107 (51.7%) · pinnacle no-vig at 2.5",
-          "-1.32%",
-          "YT 1 + X 0 = 1 · Break The Board Sports",
-          "51.6%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -1.32% (needs >0); Questionable (hamstring): recheck at inactives ~5:45 PM CT; QB change: McKee starts, Hurts on IR"
-        ],
-        [
-          2,
-          "Near miss · No edge",
-          "NFL",
-          "CeeDee Lamb Reception Yds OVER 78.5",
-          "7:15 PM CT",
-          "-113 FanDuel",
-          "-105 (51.2%) · pinnacle no-vig at 78.5",
-          "-3.45%",
-          "YT 2 + X 1 = 3 · Chad Slivinski Picks, In The Green DFS, ActionNetworkHQ",
-          "51.2%",
-          "3 of 5 sources; YT 2 of 3 (Clear); X 1 of 2 (Clear); EV -3.45% (needs >0)"
-        ],
-        [
-          3,
-          "Near miss · No edge",
-          "NFL",
-          "George Pickens Reception Yds OVER 64.5",
-          "7:15 PM CT",
-          "-113 FanDuel",
-          "-104 (51.0%) · pinnacle no-vig at 64.5",
-          "-3.90%",
-          "YT 2 + X 1 = 3 · CashKeg | Daily Edge Sports, BetBlitz, BretonPicks",
-          "50.8%",
-          "3 of 5 sources; YT 2 of 3 (Clear); X 1 of 2 (Clear); EV -3.90% (needs >0); CashKeg source templated (counted)"
-        ],
-        [
-          4,
-          "Near miss · No edge",
-          "NFL",
-          "Tanner McKee Pass Yds OVER 196.5",
-          "7:15 PM CT",
-          "-113 Pinnacle",
-          "-103 (50.7%) · pinnacle no-vig at 196.5",
-          "-4.36%",
-          "YT 3 + X 0 = 3 · CashKeg | Daily Edge Sports, Just A Bet Outside, Doc's Sports Picks, Best Bets, Predictions & Odds",
-          "50.6%",
-          "3 of 5 sources; X 0 of 2 (Clear); EV -4.36% (needs >0); only Pinnacle offers this line (FanDuel 198.5, BetRivers 197.5); CashKeg source templated (counted)"
-        ],
-        [
-          5,
-          "Near miss · No edge",
-          "NFL",
-          "Jake Ferguson Receptions OVER 2.5",
-          "7:15 PM CT",
-          "-118 BetRivers",
-          "-104 (51.0%) · pinnacle no-vig at 2.5",
-          "-5.82%",
-          "YT 2 + X 1 = 3 · Land Your Bets, Break The Board Sports, BretonPicks",
-          "50.2%",
-          "3 of 5 sources; YT 2 of 3 (Clear); X 1 of 2 (Clear); EV -5.82% (needs >0)"
-        ],
-        [
-          6,
-          "Near miss · No edge",
-          "NFL",
-          "Ryan Flournoy Receptions OVER 3.5",
-          "7:15 PM CT",
-          "+105 Bovada",
-          "+113 (46.9%) · pinnacle no-vig at 3.5",
-          "-3.76%",
-          "YT 2 + X 0 = 2 · 925 Sports, JediModi Sports Network",
-          "47.0%",
-          "2 of 5 sources; YT 2 of 3 (Clear); X 0 of 2 (Clear); EV -3.76% (needs >0); 925 Sports soft wording (counted)"
-        ],
-        [
-          7,
-          "Near miss · No edge",
-          "NFL",
-          "Dak Prescott Pass Tds OVER 1.5",
-          "7:15 PM CT",
-          "-135 Bovada",
-          "-120 (54.5%) · pinnacle no-vig at 1.5",
-          "-5.05%",
-          "YT 2 + X 0 = 2 · Bill Harrelson Picks, Break The Board Sports",
-          "54.1%",
-          "2 of 5 sources; YT 2 of 3 (Clear); X 0 of 2 (Clear); EV -5.05% (needs >0)"
-        ],
-        [
-          8,
-          "Near miss · No edge",
-          "NFL",
-          "CeeDee Lamb Receptions OVER 6.5",
-          "7:15 PM CT",
-          "-130 Bovada",
-          "-109 (52.2%) · pinnacle no-vig at 6.5",
-          "-7.73%",
-          "YT 2 + X 0 = 2 · Bill Harrelson Picks, Knightpicks",
-          "50.8%",
-          "2 of 5 sources; YT 2 of 3 (Clear); X 0 of 2 (Clear); EV -7.73% (needs >0)"
-        ],
-        [
-          9,
-          "Near miss · No edge",
-          "NFL",
-          "Jake Ferguson Reception Yds OVER 17.5",
-          "7:15 PM CT",
-          "-113 FanDuel",
-          "-103 (50.7%) · pinnacle no-vig at 17.5",
-          "-4.36%",
-          "YT 1 + X 0 = 1 · Land Your Bets",
-          "52.3%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -4.36% (needs >0)"
-        ],
-        [
-          10,
-          "Near miss · No edge",
-          "NFL",
-          "Makai Lemon Receptions OVER 3.5",
-          "7:15 PM CT",
-          "-180 Bovada",
-          "-157 (61.1%) · pinnacle no-vig at 3.5",
-          "-4.97%",
-          "YT 1 + X 0 = 1 · 925 Sports",
-          "61.0%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -4.97% (needs >0); QB change: McKee starts, Hurts on IR; 925 Sports soft wording (counted)"
-        ],
-        [
-          11,
-          "Near miss · No edge",
-          "NFL",
-          "Saquon Barkley Reception Yds OVER 14.5",
-          "7:15 PM CT",
-          "-112 BetRivers",
-          "-100 (50.0%) · pinnacle no-vig at 14.5",
-          "-5.36%",
-          "YT 1 + X 0 = 1 · Straight Fire Picks",
-          "49.6%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -5.36% (needs >0); Questionable (hamstring): recheck at inactives ~5:45 PM CT; QB change: McKee starts, Hurts on IR"
-        ],
-        [
-          12,
-          "Near miss · No edge",
-          "NFL",
-          "Tanner McKee Pass Attempts OVER 33.5",
-          "7:15 PM CT",
-          "-110 Bovada",
-          "+122 (45.0%) · pinnacle no-vig at 33.5",
-          "-14.00%",
-          "YT 1 + X 0 = 1 · 925 Sports",
-          "45.9%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -14.00% (needs >0)"
-        ],
-        [
-          13,
-          "Near miss · No edge",
-          "NFL",
-          "Saquon Barkley Rush Yds OVER 68.5",
-          "7:15 PM CT",
-          "-113 FanDuel",
-          "+124 (44.6%) · pinnacle no-vig at 68.5",
-          "-15.85%",
-          "YT 1 + X 0 = 1 · Chad Slivinski Picks",
-          "44.1%",
-          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); EV -15.85% (needs >0); Questionable (hamstring): recheck at inactives ~5:45 PM CT; QB change: McKee starts, Hurts on IR"
-        ],
-        [
-          14,
-          "Near miss · No edge",
-          "NFL",
-          "Javonte Williams Rush Attempts OVER 16.5",
-          "7:15 PM CT",
-          "-110 Bovada",
-          "-104 (51.0%) · pinnacle no-vig at 16.5",
-          "-2.67%",
-          "YT 0 + X 0 = 0",
-          "51.3%",
-          "0 of 5 sources; YT 0 of 3 (Clear); X 0 of 2 (Clear); EV -2.67% (needs >0)"
-        ],
-        [
-          15,
-          "Near miss · No edge",
-          "NFL",
-          "Dallas Goedert Receptions OVER 5.5",
-          "7:15 PM CT",
-          "+115 BetRivers",
-          "+121 (45.2%) · pinnacle no-vig at 5.5",
-          "-2.71%",
-          "YT 0 + X 0 = 0",
-          "45.0%",
-          "0 of 5 sources; YT 0 of 3 (Clear); X 0 of 2 (Clear); EV -2.71% (needs >0); QB change: McKee starts, Hurts on IR"
+          "1 of 5 sources; YT 1 of 3 (Clear); X 0 of 2 (Clear); no sharp fair (no Pinnacle at line, <3 books)"
         ]
       ]
     },
     "mc": {
-      "title": "Monte Carlo · tonight's overs (10,000 runs each, seed 20261026)",
+      "title": "Monte Carlo · tonight's NBA props (10,000 runs, seed 20261028)",
       "cols": [
         "List",
         "Props",
@@ -1150,23 +840,15 @@ window.BET_BOARD_DATA = {
       "rows": [
         [
           "NBA",
-          "15 props",
-          "50.3%",
-          "-0.40u",
-          "-6.9u / -0.2u / +6.1u",
-          "48.5%"
-        ],
-        [
-          "NFL",
-          "15 props",
-          "50.4%",
-          "-0.85u",
-          "-7.3u / -0.5u / +5.4u",
-          "39.2%"
+          "9 priced props (2 Watch skipped)",
+          "49.7%",
+          "-0.15u",
+          "-5.2u / -0.6u / +5.0u",
+          "49.0%"
         ]
       ],
-      "note": "1u each; win prob = sharp fair; paid at the best same-line price (McKee O196.5 at Pinnacle -113, the only book at that line); props independent; .5 lines, no pushes."
+      "note": "1u each; win prob = sharp fair; paid at best same-line price; independent (copula identical: no same-game pairs). .5 lines, no pushes."
     },
-    "caveat": "Caveat: Oct 25 overs went NFL 4-9, NBA 10-5. The sim uses market fair prices and cannot capture pick-quality error. Research, not picks. No bets placed."
+    "caveat": "Caveat: Oct 26 overs went NFL 6-9, NBA 5-10. The sim uses market fair prices and cannot capture pick-quality error. Research, not picks. No bets placed."
   }
 };
