@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-29T19:22:54-05:00",
-  "updatedAtLabel": "Thu Oct 29, 7:22 PM CT",
+  "updatedAt": "2026-10-29T19:24:26-05:00",
+  "updatedAtLabel": "Thu Oct 29, 7:24 PM CT",
   "nearMiss": {
     "NBA-PROPS": []
   },
-  "slate": "Thu Oct 29 2026 — NBA MEM@POR (9:00 PM CT) player props · engine v1.2.0 · Screener signed 7:22 PM CT",
+  "slate": "Thu Oct 29 2026 — NBA MEM@POR (9:00 PM CT) player props · engine v1.2.0 · ranked by hit % · Screener re-graded 7:22 PM CT",
   "sport": "multi",
   "defaultSport": "NBA",
   "status": "live",
-  "summary": "0 on the board tonight. No edge tonight: 0 publishable, 0 Clear. Only MEM@POR (9:00 PM CT) was unstarted at screening; no prop there has more than 2 combined sources (floor 5). Screener-signed 7:22 PM CT (engine v1.2.0, prices 7:20 PM CT). Closest: Ja Morant O1.5 threes (+150 Bovada vs +147 Pinnacle no-vig fair, EV +1.08%, 1 source, Soft).",
+  "summary": "0 on the board tonight. No edge tonight: 0 publishable, 0 Clear. Only MEM@POR (9:00 PM CT) was unstarted at screening; no prop there has more than 2 combined sources (floor 5). Ranked by hit likelihood (Pinnacle no-vig fair win %); EV shown for info only. Screener re-graded 7:22 PM CT (easier stated lines now count). Most likely: Cedric Coward U13.5 pts (55.6%, -165 Bovada, 2 sources).",
   "clearedCount": 0,
   "gaugeCount": 0,
   "sports": [
@@ -41,7 +41,7 @@
   },
   "researchOnly": true,
   "noBetsPlaced": true,
-  "skippedNote": "Skipped (started before screening): CLE@ATL and SAC@NO (tip 7:16 PM CT), TNF CAR@GB (kick 7:15 PM CT). Edge rule v1.2.0: fair = Pinnacle no-vig, else median of 3+ book de-vigs; best price shopped across FanDuel, Bovada, BetRivers (Pinnacle = fair only). Prices re-pulled 7:20 PM CT. One side per game. DFS entry legs, parlays, leans and easier stated lines count 0.",
+  "skippedNote": "Skipped (started before screening): CLE@ATL and SAC@NO (tip 7:16 PM CT), TNF CAR@GB (kick 7:15 PM CT). Edge rule v1.2.0: fair = Pinnacle no-vig, else median of 3+ book de-vigs; best price shopped across FanDuel, Bovada, BetRivers (Pinnacle = fair only). Prices re-pulled 7:20 PM CT. One side per game. DFS entry legs, parlays, ladders and leans count 0; sources at an easier stated line count. Ranking this pass: hit % (fair win %), then sources; EV is info only.",
   "bets": [],
   "resultsTally": {
     "cleared": "4-5-0",
@@ -614,7 +614,7 @@
       "edge": 0,
       "close": 0,
       "cleared": 0,
-      "nearMiss": 1
+      "nearMiss": 5
     }
   },
   "playerProps": {
@@ -661,35 +661,83 @@
   "spotlight": {},
   "oversNearMiss": {
     "title": "Tonight's NBA Props",
-    "label": "Near-miss list only: 0 publishable, 0 Clear, max 2 combined sources (floor 5). One side per game. Research, not picks.",
+    "label": "Near-miss list only: 0 publishable, 0 Clear, max 2 combined sources (floor 5). Ranked by hit % (Screener order). Research, not picks.",
     "noEdgeNote": "No edge tonight: 0 publishable, 0 Clear. Only MEM@POR (9:00 PM CT) was unstarted at screening; no prop there has more than 2 combined sources (floor 5).",
-    "updated": "Prices pulled 7:20 PM CT (Pinnacle, FanDuel, Bovada, BetRivers) · engine v1.2.0 · Screener signed 7:22 PM CT · order: Edge, Close, No edge, Watch (by sources, then EV)",
+    "updated": "Prices pulled 7:20 PM CT (Pinnacle, FanDuel, Bovada, BetRivers) · engine v1.2.0 · Screener re-graded 7:22 PM CT · order: hit likelihood, then sources; EV info only",
     "NBA": {
-      "note": "NBA: 30 same-day videos + X send-it list (slips OCR'd; all were parlays/entries, count 0). Official report 7:00 PM CT: POR Shaedon Sharpe OUT, Robert Williams III doubtful; MEM none. No candidate OUT. Other MEM@POR sides held back by one-side-per-game (all No edge or Watch): Cedric Coward U13.5 pts (-165 Bovada, 2 sources), Jrue Holiday O1.5 threes (-150 Bovada), Ty Jerome O33.5 PRA (-106 FanDuel).",
+      "note": "NBA: 30 same-day videos + X send-it list (slips OCR'd; all were parlays/entries, count 0). Official report 7:00 PM CT: POR Shaedon Sharpe OUT, Robert Williams III doubtful; MEM none. No candidate OUT. All rows are MEM@POR (only unstarted game).",
       "cols": [
         "#",
         "Label",
         "Sport",
         "Player · stat · line",
         "Tip CT",
+        "Hit % (fair)",
         "Best price · book",
-        "Fair (win %) · source",
-        "EV",
+        "EV (info only)",
         "Sources",
         "Blocker / flags"
       ],
       "rows": [
         [
           1,
-          "Near miss · Edge (Soft)",
+          "Near miss",
           "NBA",
-          "Ja Morant Over 1.5 Threes",
+          "Cedric Coward Under 13.5 Points",
           "9:00 PM",
-          "+150 Bovada",
-          "+147 (40.5%) · pinnacle no-vig at 1.5",
-          "+1.08%",
-          "YT 1 + X 0 = 1 · Straight Fire Picks",
-          "1 of 5 sources (publish floor); YT 1 of 3, X 0 of 2 (Clear)"
+          "55.6% · Pinnacle no-vig",
+          "-165 Bovada",
+          "-10.78%",
+          "2 · Daft Previews, RichPicks",
+          "2 of 5 sources (publish floor)"
+        ],
+        [
+          2,
+          "Near miss",
+          "NBA",
+          "Toumani Camara Over 3.5 Rebounds",
+          "9:00 PM",
+          "53.9% · Pinnacle no-vig",
+          "-160 Bovada",
+          "-12.51%",
+          "1 · Kyeezyz Hitz",
+          "1 of 5 sources (publish floor)"
+        ],
+        [
+          3,
+          "Near miss",
+          "NBA",
+          "Ja Morant Over 17.5 Points",
+          "9:00 PM",
+          "54.3% · Pinnacle no-vig",
+          "-150 Bovada",
+          "-9.60%",
+          "2 · Tony's Picks, Final Round Sports (o16.5, easier line)",
+          "2 of 5 sources (publish floor)"
+        ],
+        [
+          4,
+          "Near miss",
+          "NBA",
+          "Jrue Holiday Over 1.5 Threes",
+          "9:00 PM",
+          "58.7% · Pinnacle no-vig",
+          "-150 Bovada",
+          "-2.22%",
+          "1 · RiskMode",
+          "1 of 5 sources (publish floor); RiskMode templated flag"
+        ],
+        [
+          5,
+          "Near miss",
+          "NBA",
+          "Ja Morant Over 5.5 Assists",
+          "9:00 PM",
+          "55.9% · Pinnacle no-vig",
+          "-154 FanDuel",
+          "-7.65%",
+          "1 · Bag Report (o4.5, easier line)",
+          "1 of 5 sources (publish floor)"
         ]
       ]
     },
