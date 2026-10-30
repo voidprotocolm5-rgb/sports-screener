@@ -1,16 +1,16 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Publishers must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-10-29T19:39:36-05:00",
-  "updatedAtLabel": "Thu Oct 29, 7:39 PM CT",
+  "updatedAt": "2026-10-30T17:55:40-05:00",
+  "updatedAtLabel": "Fri Oct 30, 5:55 PM CT",
   "nearMiss": {
     "NBA-PROPS": []
   },
-  "slate": "Thu Oct 29 2026 — NBA MEM@POR (9:00 PM CT) player props · engine v1.2.0 · ranked by hit % · Screener re-graded 7:22 PM CT · NFL Sun Nov 1 early look (not picks)",
+  "slate": "Fri Oct 30 2026 — NBA player props (IND@MIA, HOU@DAL, LAC@MIN 7:00 PM CT; LAL@GS, DEN@PHX 9:00 PM CT) · engine v1.2.0 · near-miss board, Screener-audited",
   "sport": "multi",
   "defaultSport": "NBA",
   "status": "live",
-  "summary": "0 on the board tonight. No edge tonight: 0 publishable, 0 Clear. Only MEM@POR (9:00 PM CT) was unstarted at screening; no prop there has more than 2 combined sources (floor 5). Ranked by hit likelihood (Pinnacle no-vig fair win %); EV shown for info only. Screener re-graded 7:22 PM CT (easier stated lines now count). Most likely: Cedric Coward U13.5 pts (55.6%, -165 Bovada, 2 sources).",
+  "summary": "0 on the board tonight: 0 publishable, 0 CLEARED (max 2 counted sources, floor 5). Parlay candidates shown as near misses, none clear.",
   "clearedCount": 0,
   "gaugeCount": 0,
   "sports": [
@@ -49,7 +49,7 @@ window.BET_BOARD_DATA = {
   },
   "researchOnly": true,
   "noBetsPlaced": true,
-  "skippedNote": "Skipped (started before screening): CLE@ATL and SAC@NO (tip 7:16 PM CT), TNF CAR@GB (kick 7:15 PM CT). Edge rule v1.2.0: fair = Pinnacle no-vig, else median of 3+ book de-vigs; best price shopped across FanDuel, Bovada, BetRivers (Pinnacle = fair only). Prices re-pulled 7:20 PM CT. One side per game. DFS entry legs, parlays, ladders and leans count 0; sources at an easier stated line count. Ranking this pass: hit % (fair win %), then sources; EV is info only.",
+  "skippedNote": "Skipped (tipped before screening): CHA@WSH 6:00 PM CT; CHI@BOS, DET@BKN, NY@PHI, ORL@TOR 6:30 PM CT.",
   "bets": [],
   "resultsTally": {
     "cleared": "4-5-0",
@@ -60,12 +60,73 @@ window.BET_BOARD_DATA = {
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
-    "title": "Tonight's gauge",
-    "label": "No gauge cards tonight.",
-    "items": [],
-    "noEdgeNote": "No edge tonight: 0 publishable, 0 Clear. Only MEM@POR (9:00 PM CT) was unstarted at screening; no prop there has more than 2 combined sources (floor 5).",
-    "emptyText": "No edge tonight: 0 publishable, 0 Clear. Only MEM@POR (9:00 PM CT) was unstarted at screening; no prop there has more than 2 combined sources (floor 5). The closest MEM@POR prop is in Tonight's NBA Props below.",
-    "note": "On the board = 5+ combined sources (hand-verified independent YouTube + X send-it posters, firm non-parlay picks within 1.0 of the card line) AND a Pinnacle no-vig fair price AND EV > 0 at the best shopped price ('Close - no edge yet' = EV -2% to 0). Ranked by combined sources, then EV. 'Appeared in' counts videos that named the pick out of all videos read for that sport. Sim win % comes from the Screener's 10,000-run simulation with fair price as truth. No play here is a recommendation."
+    "title": "Parlay candidates — near misses, none clear",
+    "label": "One leg per game (Nembhard, Grimes, VanVleet, Kuminga; Murray O2.5 3PM DEN@PHX is the swap for Kuminga that passes the 4-book lean check). Parlay hit %, main lines: 2 legs 32.2%, 3 legs 17.3%, 4 legs 9.2%. Alt lines: 2 legs 60.2–67.0%, 3 legs 52.0–61.2%, 4 legs 37.1–46.1%. Monte Carlo (10k, 1u flat singles at best price): recommended 5 legs −0.11u, P(profit) 58.7%, all hit 4.8%; full 27 legs −1.03u.",
+    "items": [
+      {
+        "rank": 1,
+        "tier": "NEAR MISS",
+        "sport": "NBA",
+        "pick": "Andrew Nembhard Over 8.5 Assists",
+        "line": "main 59.0% · alt o5.5 81.8–90.4%",
+        "game": "IND@MIA",
+        "timeCT": "7:00 PM CT",
+        "yt": 1,
+        "x": 0,
+        "booksAlign": true,
+        "onBoard": false,
+        "rationale": "Main 59.0% · Pinnacle no-vig · 4-book 53.9–59.0%. Alt o5.5 · 81.8–90.4% · -1100 FanDuel. Best main price -137 BetRivers (info). Sources: 1 · YT 1 · X 0 · Kyeezyz Hitz · count 0: Chad Slivinski Picks.",
+        "blockedBy": "1 of 5 sources; DAY-TO-DAY (ESPN); Game D2D (ESPN): Nembhard, Nesmith, Toppin (IND); 59.0% is Pinnacle-only, the high end of 4 books (53.9–59.0%); Pinnacle holds ~6–7% on props"
+      },
+      {
+        "rank": 2,
+        "tier": "NEAR MISS",
+        "sport": "NBA",
+        "pick": "Quentin Grimes Over 8.5 Points",
+        "line": "main 54.6% · alt o5.5 73.6–86.1%",
+        "game": "LAL@GS",
+        "timeCT": "9:00 PM CT",
+        "yt": 1,
+        "x": 0,
+        "booksAlign": true,
+        "onBoard": false,
+        "rationale": "Main 54.6% · Pinnacle no-vig · 4-book 51.9–54.6%. Alt o5.5 · 73.6–86.1% · -470 FanDuel. Best main price -127 BetRivers (info). Sources: 1 · YT 1 · X 0 · Kyeezyz Hitz (yt line 7.5).",
+        "blockedBy": "1 of 5 sources; Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT"
+      },
+      {
+        "rank": 3,
+        "tier": "NEAR MISS",
+        "sport": "NBA",
+        "pick": "Fred VanVleet Over 11.5 Points",
+        "line": "main 53.8% · alt o4.5 86.4–96.2%",
+        "game": "HOU@DAL",
+        "timeCT": "7:00 PM CT",
+        "yt": 1,
+        "x": 0,
+        "booksAlign": true,
+        "onBoard": false,
+        "rationale": "Main 53.8% · Pinnacle no-vig · 4-book 51.0–53.8%. Alt o4.5 · 86.4–96.2% · -3000 FanDuel. Best main price -120 Bovada (info). Sources: 1 · YT 1 · X 0 · 925 Sports (yt line 13.5).",
+        "blockedBy": "1 of 5 sources; Game D2D (ESPN): Sengun (HOU); Steven Adams OUT"
+      },
+      {
+        "rank": 4,
+        "tier": "NEAR MISS",
+        "sport": "NBA",
+        "pick": "Jonathan Kuminga Over 14.5 Points",
+        "line": "main 52.8% · alt o10.5 71.4–79.9%",
+        "game": "LAC@MIN",
+        "timeCT": "7:00 PM CT",
+        "yt": 1,
+        "x": 0,
+        "booksAlign": false,
+        "onBoard": false,
+        "rationale": "Main 52.8% · Pinnacle no-vig · 4-book 49.0–52.8%. Alt o10.5 · 71.4–79.9% · -400 FanDuel. Best main price -112 BetRivers (info). Sources: 1 · YT 1 · X 0 · 925 Sports.",
+        "blockedBy": "1 of 5 sources; Game D2D (ESPN): Hachimura (LAC); 925 Sports source is borderline wording; fails 4-book lean check"
+      }
+    ],
+    "noEdgeNote": "0 publishable, 0 CLEARED: no leg has more than 2 counted sources (floor 5) and none is above 59% at the main line. Nembhard's 59.0% is Pinnacle-only, the high end of 4 books (53.9–59.0%); Pinnacle holds ~6–7% on props. EV is negative at every alt line.",
+    "emptyText": "",
+    "note": "Main % = Pinnacle no-vig at the main line (4 books checked). Alt % = Screener range (12%-hold market to Poisson/NB/normal fit). Parlay % from the Screener (Gaussian copula; one-per-game legs have no same-game correlation). Books: WONG #10 and B24 put 4+ leg parlays on Watch only. LOGIC #11: alt lines and parlays stack the vig. LOGIC #12, B32 and THORP #5: same-game legs share one stake. KELLY #3: no edge means a stake of zero. Research only; no bets placed."
   },
   "performance": {
     "tally": {
@@ -627,9 +688,9 @@ window.BET_BOARD_DATA = {
     ],
     "note": "Flat 1u per card at the published price. Small sample; not predictive. Near misses tracked separately and excluded from totals."
   },
-  "xNote": "X send-it list 1867962331566612965: same-day NBA prop singles only (posts 2:01-7:08 PM CT, slips OCR'd); 2 posters with countable MEM@POR singles (JSleeprStats, austinsprops). Parlays, SGPs, entry legs, leans and model cards count 0. Read-only, never posted.",
-  "oddsApiNote": "Prices pulled Oct 29 7:20 PM CT (Pinnacle guest API, FanDuel, Bovada, BetRivers/Kambi). Odds API not used (0 credits).",
-  "youtubeNote": "YouTube via yt-dlp: 30 same-day NBA videos from 30 channels, incl. mandatory query 'bets prop bets for NBA today' (33 results; 22 of the final 30, 0 found only by it). AI/scripted/tool channels and DFS entries count 0 (Pick Time, CashKeg, Cash Out Sports Picks).",
+  "xNote": "X send-it list 1867962331566612965: Fri Oct 30 posts 10:26 AM–5:38 PM CT (578 posts). Counted singles: @austinsprops (Nembhard o1.5 3PM, Kessler o13.5), @CallingOurShot (Yaxel o17.5), @MuggsyPlays (Jay Huff o4.5 reb); borderline: @JoeDellera (Shannon, no line), @ActionNetworkHQ (Luka o33.5, promo-ish). Parlays/entries/models count 0.",
+  "oddsApiNote": "Prices: free pulls 5:39 PM CT from 4 books (Pinnacle guest API, FanDuel, Bovada, BetRivers). No paid Odds API calls.",
+  "youtubeNote": "YouTube: 45 same-day NBA videos (Oct 29/30 CT); mandatory query 'bets prop bets for NBA today' supplied 23 (0 unique). Cash Out Sports Picks excluded; PrizePicks entry legs count 0.",
   "provisional": {
     "show": false
   },
@@ -640,7 +701,7 @@ window.BET_BOARD_DATA = {
       "edge": 0,
       "close": 0,
       "cleared": 0,
-      "nearMiss": 5
+      "nearMiss": 35
     }
   },
   "playerProps": {
@@ -650,14 +711,14 @@ window.BET_BOARD_DATA = {
       "NFL"
     ],
     "groups": {},
-    "updatedAtLabel": "Thu Oct 29, 7:22 PM CT",
+    "updatedAtLabel": "Fri Oct 30, 5:55 PM CT",
     "engine": "1.2.0",
-    "noEdgeNote": "No edge tonight: 0 publishable, 0 Clear. Only MEM@POR (9:00 PM CT) was unstarted at screening; no prop there has more than 2 combined sources (floor 5).",
+    "noEdgeNote": "No edge tonight: 0 publishable, 0 CLEARED. No NBA prop has more than 2 counted sources (floor 5).",
     "note": "Overs and unders. Fair = Pinnacle no-vig, else median of 3+ book de-vigs.",
-    "emptyText": "No NBA props meet the rules yet tonight. The closest MEM@POR prop is in Tonight's NBA Props below."
+    "emptyText": "No NBA props meet the rules tonight. Parlay candidates (near misses) are in the Gauge above and Tonight's NBA Props below."
   },
   "siteName": "Bearish Bulls Picks",
-  "propsNote": "Props: No edge tonight: 0 publishable, 0 Clear. Only MEM@POR (9:00 PM CT) was unstarted at screening; no prop there has more than 2 combined sources (floor 5).",
+  "propsNote": "0 on the board tonight: 0 publishable, 0 CLEARED (max 2 counted sources, floor 5). Parlay candidates shown as near misses, none clear.",
   "defaultSub": {
     "NBA": "props",
     "NFL": "props"
@@ -692,107 +753,445 @@ window.BET_BOARD_DATA = {
   "spotlight": {},
   "oversNearMiss": {
     "title": "Tonight's NBA Props",
-    "label": "Near-miss list only: 0 publishable, 0 Clear, max 2 combined sources (floor 5). Ranked by hit % (Screener order). Research, not picks.",
-    "noEdgeNote": "No edge tonight: 0 publishable, 0 Clear. Only MEM@POR (9:00 PM CT) was unstarted at screening; no prop there has more than 2 combined sources (floor 5).",
-    "updated": "Prices pulled 7:20 PM CT (Pinnacle, FanDuel, Bovada, BetRivers) · engine v1.2.0 · Screener re-graded 7:22 PM CT · order: hit likelihood, then sources; EV info only",
+    "label": "Near-miss board: 0 publishable, 0 CLEARED, max 2 combined sources (floor 5). Ranked by main-line fair hit %, then sources. Alt hit % is the Screener's range (12%-hold market to Poisson/NB/normal fit); EV is negative at every alt line. 4-book lean check = every one of Pinnacle/FanDuel/Bovada/BetRivers de-vigs to the same side (not the 10-book booksAlign). Research, not picks. No bets placed.",
+    "noEdgeNote": "No edge tonight: 0 publishable, 0 CLEARED. No NBA prop has more than 2 counted sources (floor 5).",
+    "updated": "Prices pulled Fri Oct 30 5:39 PM CT (Pinnacle, FanDuel, Bovada, BetRivers only; 4 books) · ESPN status 5:43 PM CT · engine v1.2.0 · Screener audit 5:54 PM CT · order: main hit %, then sources",
     "NBA": {
-      "note": "NBA: 30 same-day videos + X send-it list (slips OCR'd; all were parlays/entries, count 0). Official report 7:00 PM CT: POR Shaedon Sharpe OUT, Robert Williams III doubtful; MEM none. No candidate OUT. All rows are MEM@POR (only unstarted game).",
+      "note": "NBA, Fri Oct 30: IND@MIA, HOU@DAL, LAC@MIN 7:00 PM CT; LAL@GS, DEN@PHX 9:00 PM CT. Screener-audited recount (Oct 30 5:54 PM CT): Cash Out Sports Picks excluded; PrizePicks entry legs count 0; 925 Sports McDaniels R+A is a lean (0). Sources: 45 same-day YouTube videos + X send-it list 1867962331566612965. ESPN: Ziaire Williams and Steven Adams OUT (off the board). Rows with no fair price are listed last.",
       "cols": [
         "#",
         "Label",
         "Sport",
-        "Player · stat · line",
-        "Tip CT",
-        "Hit % (fair)",
-        "Best price · book",
-        "EV (info only)",
-        "Sources",
-        "Blocker / flags"
+        "Player · stat · line (main)",
+        "Tip CT · game",
+        "Hit % (fair, main line)",
+        "Alt line · hit % range (Screener) · price",
+        "Best price · book (info)",
+        "Sources counted",
+        "Flags"
       ],
       "rows": [
         [
           1,
           "Near miss",
           "NBA",
-          "Cedric Coward Under 13.5 Points",
-          "9:00 PM",
-          "55.6% · Pinnacle no-vig",
-          "-165 Bovada",
-          "-10.78%",
-          "2 · Daft Previews, RichPicks",
-          "2 of 5 sources (publish floor)"
+          "Andrew Nembhard Over 8.5 Assists",
+          "7:00 PM · IND@MIA",
+          "59.0% · Pinnacle no-vig · 4-book 53.9–59.0%",
+          "o5.5 · 81.8–90.4% · -1100 FanDuel",
+          "-137 BetRivers",
+          "1 · YT 1 · X 0 · Kyeezyz Hitz · count 0: Chad Slivinski Picks",
+          "PARLAY SET (one per game); DAY-TO-DAY (ESPN); Game D2D (ESPN): Nembhard, Nesmith, Toppin (IND); 59.0% is Pinnacle-only, the high end of 4 books (53.9–59.0%); Pinnacle holds ~6–7% on props"
         ],
         [
           2,
           "Near miss",
           "NBA",
-          "Toumani Camara Over 3.5 Rebounds",
-          "9:00 PM",
-          "53.9% · Pinnacle no-vig",
-          "-160 Bovada",
-          "-12.51%",
-          "1 · Kyeezyz Hitz",
-          "1 of 5 sources (publish floor)"
+          "Andrew Nembhard Over 1.5 Threes",
+          "7:00 PM · IND@MIA",
+          "54.9% · Pinnacle no-vig · 4-book 52.0–54.9%",
+          "o0.5 · 76.9–84.1% · -620 FanDuel",
+          "-125 FanDuel",
+          "1 · YT 0 · X 1 · @austinsprops",
+          "DAY-TO-DAY (ESPN); Game D2D (ESPN): Nembhard, Nesmith, Toppin (IND)"
         ],
         [
           3,
           "Near miss",
           "NBA",
-          "Ja Morant Over 17.5 Points",
-          "9:00 PM",
-          "54.3% · Pinnacle no-vig",
-          "-150 Bovada",
-          "-9.60%",
-          "2 · Tony's Picks, Final Round Sports (o16.5, easier line)",
-          "2 of 5 sources (publish floor)"
+          "Quentin Grimes Over 8.5 Points",
+          "9:00 PM · LAL@GS",
+          "54.6% · Pinnacle no-vig · 4-book 51.9–54.6%",
+          "o5.5 · 73.6–86.1% · -470 FanDuel",
+          "-127 BetRivers",
+          "1 · YT 1 · X 0 · Kyeezyz Hitz (yt line 7.5)",
+          "PARLAY SET (one per game); Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT"
         ],
         [
           4,
           "Near miss",
           "NBA",
-          "Jrue Holiday Over 1.5 Threes",
-          "9:00 PM",
-          "58.7% · Pinnacle no-vig",
-          "-150 Bovada",
-          "-2.22%",
-          "1 · RiskMode",
-          "1 of 5 sources (publish floor); RiskMode templated flag"
+          "Fred VanVleet Over 11.5 Points",
+          "7:00 PM · HOU@DAL",
+          "53.8% · Pinnacle no-vig · 4-book 51.0–53.8%",
+          "o4.5 · 86.4–96.2% · -3000 FanDuel",
+          "-120 Bovada",
+          "1 · YT 1 · X 0 · 925 Sports (yt line 13.5)",
+          "PARLAY SET (one per game); Game D2D (ESPN): Sengun (HOU); Steven Adams OUT"
         ],
         [
           5,
           "Near miss",
           "NBA",
-          "Ja Morant Over 5.5 Assists",
-          "9:00 PM",
-          "55.9% · Pinnacle no-vig",
-          "-154 FanDuel",
-          "-7.65%",
-          "1 · Bag Report (o4.5, easier line)",
-          "1 of 5 sources (publish floor)"
+          "Kevin Durant Over 3.5 Assists",
+          "7:00 PM · HOU@DAL",
+          "53.8% · Pinnacle no-vig · 4-book 53.3–58.4%",
+          "o1.5 · 82.4–89.7% · -1200 FanDuel",
+          "-130 FanDuel",
+          "1 · YT 1 · X 0 · Kyeezyz Hitz",
+          "Game D2D (ESPN): Sengun (HOU); Steven Adams OUT"
+        ],
+        [
+          6,
+          "Near miss",
+          "NBA",
+          "Stephen Curry Over 24.5 Points",
+          "9:00 PM · LAL@GS",
+          "53.7% · Pinnacle no-vig · 4-book 50.3–53.7%",
+          "o19.5 · 71.1–81.3% · -390 FanDuel",
+          "-118 BetRivers",
+          "1 · YT 1 · X 0 · Final Round Sports · count 0: Cash Out Sports Picks",
+          "Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT"
+        ],
+        [
+          7,
+          "Near miss",
+          "NBA",
+          "Amen Thompson Over 7.5 Rebounds",
+          "7:00 PM · HOU@DAL",
+          "52.8% · Pinnacle no-vig · 4-book 51.0–52.8%",
+          "o5.5 · 74.9–79.6% · -520 FanDuel",
+          "-120 Bovada",
+          "1 · YT 1 · X 0 · Pick Time · count 0: Chad Slivinski Picks",
+          "Game D2D (ESPN): Sengun (HOU); Steven Adams OUT"
+        ],
+        [
+          8,
+          "Near miss",
+          "NBA",
+          "Jonathan Kuminga Over 14.5 Points",
+          "7:00 PM · LAC@MIN",
+          "52.8% · Pinnacle no-vig · 4-book 49.0–52.8%",
+          "o10.5 · 71.4–79.9% · -400 FanDuel",
+          "-112 BetRivers",
+          "1 · YT 1 · X 0 · 925 Sports",
+          "PARLAY SET (one per game); Game D2D (ESPN): Hachimura (LAC); 925 Sports source is borderline wording; fails 4-book lean check"
+        ],
+        [
+          9,
+          "Near miss",
+          "NBA",
+          "Jamal Murray Over 2.5 Threes",
+          "9:00 PM · DEN@PHX",
+          "52.8% · Pinnacle no-vig · 4-book 52.8–57.5%",
+          "o1.5 · 72.8–76.8% · -440 FanDuel",
+          "-138 FanDuel",
+          "1 · YT 1 · X 0 · Kyeezyz Hitz",
+          "SWAP for Kuminga (passes 4-book lean check); Game D2D (ESPN): Oso Ighodaro (PHX)"
+        ],
+        [
+          10,
+          "Near miss",
+          "NBA",
+          "Draymond Green Over 5.5 Assists",
+          "9:00 PM · LAL@GS",
+          "52.1% · Pinnacle no-vig · 4-book 51.0–54.9%",
+          "o3.5 · 78.1–83.0% · -700 FanDuel",
+          "-120 Bovada",
+          "1 · YT 1 · X 0 · Wise Guy Bets",
+          "Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT"
+        ],
+        [
+          11,
+          "Near miss",
+          "NBA",
+          "Kelly Oubre Jr. Over 11.5 Points",
+          "7:00 PM · IND@MIA",
+          "51.4% · Pinnacle no-vig · 4-book 49.0–51.4%",
+          "o4.5 · 85.9–96.0% · -2500 FanDuel",
+          "-110 Bovada",
+          "0 · YT 0 · X 0 · count 0: Chad Slivinski Picks",
+          "Game D2D (ESPN): Nembhard, Nesmith, Toppin (IND); fails 4-book lean check"
+        ],
+        [
+          12,
+          "Near miss",
+          "NBA",
+          "Luka Doncic Over 33.5 Points",
+          "9:00 PM · LAL@GS",
+          "51.2% · Pinnacle no-vig · 4-book 51.2–55.4%",
+          "o27.5 · 70.4–77.1% · -400 FanDuel",
+          "-127 BetRivers",
+          "1 · YT 0 · X 1 · @ActionNetworkHQ · count 0: GhostLocks",
+          "Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT; ActionNetworkHQ X post is borderline promo"
+        ],
+        [
+          13,
+          "Near miss",
+          "NBA",
+          "Cooper Flagg Over 35.5 Pts+Reb+Ast",
+          "7:00 PM · HOU@DAL",
+          "50.2% · median of 3 retail de-vigs · 4-book 50.0–50.9%",
+          "n/a",
+          "-115 Bovada",
+          "1 · YT 1 · X 0 · BankrollBrian (yt line 34.5)",
+          "Game D2D (ESPN): Sengun (HOU); Steven Adams OUT"
+        ],
+        [
+          14,
+          "Near miss",
+          "NBA",
+          "Pascal Siakam Over 35.5 Pts+Reb+Ast",
+          "7:00 PM · IND@MIA",
+          "50.2% · median of 3 retail de-vigs · 4-book 49.6–51.0%",
+          "n/a",
+          "-111 FanDuel",
+          "1 · YT 1 · X 0 · 925 Sports",
+          "Game D2D (ESPN): Nembhard, Nesmith, Toppin (IND); fails 4-book lean check"
+        ],
+        [
+          15,
+          "Near miss",
+          "NBA",
+          "LaMelo Ball Over 20.5 Points",
+          "7:00 PM · LAC@MIN",
+          "50.2% · Pinnacle no-vig · 4-book 47.6–53.1%",
+          "o14.5 · 73.0–88.0% · -450 FanDuel",
+          "-102 FanDuel",
+          "1 · YT 1 · X 0 · Kyeezyz Hitz (yt line 19.5)",
+          "Daft Previews has the Under 20.5 (conflicting side, not counted); Game D2D (ESPN): Hachimura (LAC); fails 4-book lean check"
+        ],
+        [
+          16,
+          "Near miss",
+          "NBA",
+          "Yaxel Lendeborg Over 19.5 Points",
+          "9:00 PM · LAL@GS",
+          "49.8% · Pinnacle no-vig · 4-book 48.0–49.8%",
+          "o13.5 · 73.0–80.9% · -490 FanDuel",
+          "-105 Bovada",
+          "1 · YT 0 · X 1 · @CallingOurShot (x line 17.5)",
+          "Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT; fails 4-book lean check"
+        ],
+        [
+          17,
+          "Near miss",
+          "NBA",
+          "Austin Reaves Over 33.5 Pts+Reb+Ast",
+          "9:00 PM · LAL@GS",
+          "49.7% · median of 3 retail de-vigs · 4-book 48.1–50.0%",
+          "o27.5 · 71.1–81.3% · -390 FanDuel",
+          "-104 FanDuel",
+          "1 · YT 1 · X 0 · 925 Sports (yt line 31.5)",
+          "Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT; fails 4-book lean check"
+        ],
+        [
+          18,
+          "Near miss",
+          "NBA",
+          "Isaiah Jackson Under 6.5 Rebounds",
+          "7:00 PM · LAC@MIN",
+          "49.3% · Pinnacle no-vig · 4-book 46.1–51.0%",
+          "u7.5 · 59.5–62.5% · -200 Bovada",
+          "+102 BetRivers",
+          "2 · YT 2 · X 0 · TestTheLimit (yt line 7.5), KazuPicks (yt line 7.5)",
+          "Game D2D (ESPN): Hachimura (LAC); fails 4-book lean check"
+        ],
+        [
+          19,
+          "Near miss",
+          "NBA",
+          "Jaden McDaniels Over 2.5 Assists",
+          "7:00 PM · LAC@MIN",
+          "48.6% · Pinnacle no-vig · 4-book 48.6–51.9%",
+          "o0.5 · 86.4–92.7% · -3000 FanDuel",
+          "-115 FanDuel",
+          "1 · YT 1 · X 0 · Chad Slivinski Picks",
+          "Game D2D (ESPN): Hachimura (LAC); fails 4-book lean check"
+        ],
+        [
+          20,
+          "Near miss",
+          "NBA",
+          "Jaden McDaniels Over 17.5 Points",
+          "7:00 PM · LAC@MIN",
+          "47.5% · Pinnacle no-vig · 4-book 47.5–51.0%",
+          "o12.5 · 70.1–78.0% · -470 FanDuel",
+          "-113 FanDuel",
+          "2 · YT 2 · X 0 · BankrollBrian (yt line 16.5), RichPicks (yt line 16.5)",
+          "Game D2D (ESPN): Hachimura (LAC); fails 4-book lean check"
+        ],
+        [
+          21,
+          "Near miss",
+          "NBA",
+          "P.J. Washington Over 13.5 Points",
+          "7:00 PM · HOU@DAL",
+          "47.2% · Pinnacle no-vig · 4-book 47.2–50.0%",
+          "o4.5 · 87.5–97.0% · -5000 FanDuel",
+          "-108 FanDuel",
+          "0 · YT 0 · X 0 · count 0: Chad Slivinski Picks",
+          "Game D2D (ESPN): Sengun (HOU); Steven Adams OUT; fails 4-book lean check"
+        ],
+        [
+          22,
+          "Near miss",
+          "NBA",
+          "Terrence Shannon Jr. Over 14.5 Points",
+          "7:00 PM · LAC@MIN",
+          "46.3% · Pinnacle no-vig · 4-book 45.9–49.7%",
+          "o9.5 · 72.8–82.2% · -440 FanDuel",
+          "+105 Bovada",
+          "2 · YT 1 · X 1 · Final Round Sports (yt line 12.5), @JoeDellera · count 0: Cash Out Sports Picks",
+          "Game D2D (ESPN): Hachimura (LAC); JoeDellera X post is borderline (no line stated); fails 4-book lean check"
+        ],
+        [
+          23,
+          "Near miss",
+          "NBA",
+          "Jay Huff Over 4.5 Rebounds",
+          "7:00 PM · IND@MIA",
+          "45.6% · Pinnacle no-vig · 4-book 42.2–46.5%",
+          "o3.5 · 56.7–64.7% · -174 FanDuel",
+          "+124 FanDuel",
+          "1 · YT 0 · X 1 · @MuggsyPlays",
+          "Game D2D (ESPN): Nembhard, Nesmith, Toppin (IND); fails 4-book lean check"
+        ],
+        [
+          24,
+          "Near miss",
+          "NBA",
+          "Walker Kessler Over 14.5 Points",
+          "9:00 PM · LAL@GS",
+          "45.4% · Pinnacle no-vig · 4-book 45.4–48.0%",
+          "o9.5 · 73.0–81.8% · -500 FanDuel",
+          "-102 FanDuel",
+          "1 · YT 0 · X 1 · @austinsprops (x line 13.5)",
+          "Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT; fails 4-book lean check"
+        ],
+        [
+          25,
+          "Near miss",
+          "NBA",
+          "P.J. Washington Over 6.5 Rebounds",
+          "7:00 PM · HOU@DAL",
+          "45.0% · Pinnacle no-vig · 4-book 44.6–48.6%",
+          "o3.5 · 80.8–87.7% · -950 FanDuel",
+          "+110 Bovada",
+          "1 · YT 1 · X 0 · 925 Sports (yt line 5.5)",
+          "Game D2D (ESPN): Sengun (HOU); Steven Adams OUT; fails 4-book lean check"
+        ],
+        [
+          26,
+          "Near miss",
+          "NBA",
+          "Max Christie Over 3.5 Rebounds",
+          "7:00 PM · HOU@DAL",
+          "42.3% · Pinnacle no-vig · 4-book 39.8–42.3%",
+          "n/a",
+          "+135 Bovada",
+          "1 · YT 1 · X 0 · 925 Sports (yt line 2.5)",
+          "Game D2D (ESPN): Sengun (HOU); Steven Adams OUT; fails 4-book lean check"
+        ],
+        [
+          27,
+          "Near miss",
+          "NBA",
+          "Aaron Nesmith Over 2.5 Threes",
+          "7:00 PM · IND@MIA",
+          "33.8% · Pinnacle no-vig · 4-book 32.9–33.8%",
+          "o0.5 · 79.9–87.2% · -850 FanDuel",
+          "+185 Bovada",
+          "1 · YT 1 · X 0 · Straight Fire Picks",
+          "DAY-TO-DAY (ESPN); Game D2D (ESPN): Nembhard, Nesmith, Toppin (IND); fails 4-book lean check"
+        ],
+        [
+          28,
+          "Near miss",
+          "NBA",
+          "Cooper Flagg Over 28.5 Pts+Ast",
+          "7:00 PM · HOU@DAL",
+          "n/a (no fair: <3 books / no Pinnacle)",
+          "n/a",
+          "-125 Bovada",
+          "2 · YT 2 · X 0 · Capper University, Calling Our Shot",
+          "Calling Our Shot also posted it on X; same capper counted once; Game D2D (ESPN): Sengun (HOU); Steven Adams OUT"
+        ],
+        [
+          29,
+          "Near miss",
+          "NBA",
+          "Austin Reaves Over 9.5 Reb+Ast",
+          "9:00 PM · LAL@GS",
+          "n/a (no fair: <3 books / no Pinnacle)",
+          "n/a",
+          "-140 FanDuel",
+          "1 · YT 1 · X 0 · Bag Report",
+          "Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT"
+        ],
+        [
+          30,
+          "Near miss",
+          "NBA",
+          "Yaxel Lendeborg Over 30.5 Pts+Reb+Ast",
+          "9:00 PM · LAL@GS",
+          "n/a (no fair: <3 books / no Pinnacle)",
+          "n/a",
+          "-111 FanDuel",
+          "1 · YT 1 · X 0 · Straight Fire Picks (yt line 34.5)",
+          "Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT; fails 4-book lean check"
+        ],
+        [
+          31,
+          "Near miss",
+          "NBA",
+          "Yaxel Lendeborg Over 26.5 Pts+Reb",
+          "9:00 PM · LAL@GS",
+          "n/a (no fair: <3 books / no Pinnacle)",
+          "n/a",
+          "-113 FanDuel",
+          "1 · YT 1 · X 0 · Just A Bet Outside (yt line 25.5)",
+          "Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT"
+        ],
+        [
+          32,
+          "Near miss",
+          "NBA",
+          "Jonathan Kuminga Over 20.5 Pts+Reb",
+          "7:00 PM · LAC@MIN",
+          "n/a (no fair: <3 books / no Pinnacle)",
+          "n/a",
+          "-106 FanDuel",
+          "1 · YT 1 · X 0 · Kyeezyz Hitz (yt line 19.5)",
+          "Game D2D (ESPN): Hachimura (LAC); fails 4-book lean check"
+        ],
+        [
+          33,
+          "Near miss",
+          "NBA",
+          "Pascal Siakam Over 31.5 Pts+Reb",
+          "7:00 PM · IND@MIA",
+          "n/a (no fair: <3 books / no Pinnacle)",
+          "n/a",
+          "-104 FanDuel",
+          "1 · YT 1 · X 0 · Kyeezyz Hitz (yt line 29.5)",
+          "Game D2D (ESPN): Nembhard, Nesmith, Toppin (IND); fails 4-book lean check"
+        ],
+        [
+          34,
+          "Near miss",
+          "NBA",
+          "Luka Doncic Over 14.5 Reb+Ast",
+          "9:00 PM · LAL@GS",
+          "n/a (no fair: <3 books / no Pinnacle)",
+          "n/a",
+          "-125 Bovada",
+          "1 · YT 1 · X 0 · Kyeezyz Hitz",
+          "Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT"
+        ],
+        [
+          35,
+          "Near miss",
+          "NBA",
+          "Luka Doncic Over 41.5 Pts+Reb",
+          "9:00 PM · LAL@GS",
+          "n/a (no fair: <3 books / no Pinnacle)",
+          "n/a",
+          "-113 FanDuel",
+          "1 · YT 1 · X 0 · DOMG Props",
+          "Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT"
         ]
       ]
-    },
-    "mc": {
-      "title": "Monte Carlo · tonight's NBA near-miss props (10,000 runs, seed 20261029)",
-      "cols": [
-        "List",
-        "Props",
-        "Win rate",
-        "Expected",
-        "p5 / p50 / p95",
-        "P(profit)"
-      ],
-      "rows": [
-        [
-          "NBA",
-          "10 priced props (3 Watch skipped)",
-          "50.7%",
-          "-0.50u",
-          "-5.1u / -0.6u / +4.7u",
-          "42.1% (copula 43.1%)"
-        ]
-      ],
-      "note": "1u each; win prob = sharp fair; paid at best same-line price. All 10 rows are one game; copula adds same-game correlation. The list as a whole is negative EV."
     },
     "caveat": "Caveat: Oct 26 overs went NFL 6-9, NBA 5-10. The sim uses market fair prices and cannot capture pick-quality error. Research, not picks. No bets placed.",
     "NFL": {
@@ -1240,7 +1639,8 @@ window.BET_BOARD_DATA = {
       "earlyLook": true,
       "graded": false,
       "caveat": "Early look only. Nothing here is a pick or a bet; it will not be graded. Lines will move before Sunday."
-    }
+    },
+    "noMc": true
   },
   "earlyLookNote": "NFL early look (Screener OK 7:38 PM CT Thu Oct 29): not picks, not graded, no tiers."
 };
