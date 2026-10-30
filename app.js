@@ -774,7 +774,7 @@
         (list.length ? '<ol class="pp-list">' + list.map(propCard).join("") + "</ol>" : '<p class="muted">' + escapeHtml((P.emptyText || {})[sp] || "No " + sp + " props reached the board today.") + "</p>") + "</section>";
     }).join("");
     return "<p class='page-kicker'>" + escapeHtml(siteName(data)) + "</p><h1>Player Props.</h1><p class='muted'>" + escapeHtml(P.note || "Research only. Ranked by engine tier, then combined sources. Start times CT.") + "</p>" +
-      "<p class='muted'>Updated " + escapeHtml(P.updatedAtLabel || "") + "</p>" + renderAttd(null, data) + renderOvers("NFL", data) + renderOvers("NBA", data) + body;
+      "<p class='muted'>Updated " + escapeHtml(P.updatedAtLabel || "") + "</p>" + renderAttd(null, data) + renderOvers("NBA", data) + renderOvers("NFL", data) + body;
   }
   var SITE_NAME = "Bearish Bulls Picks";
   function siteName(data) { return (data && data.siteName) || SITE_NAME; }
@@ -1048,14 +1048,15 @@
   function renderOvers(sp, data) {
     var o = data && data.oversNearMiss; if (!o || !o[sp]) return "";
     var L = o[sp];
-    return '<section class="near-miss overs-nm" id="overs-' + escapeHtml(sp) + '" aria-label="' + escapeHtml(o.title) + '">' +
-      '<h3 class="nm-head"><span class="nm-pill">NEAR MISS</span> ' + escapeHtml(o.title) + " · " + escapeHtml(sp) + "</h3>" +
-      '<p class="tg-noedge"><b>No edge today.</b> ' + escapeHtml(o.label || "") + "</p>" +
-      (o.updated ? '<p class="nm-note">' + escapeHtml(o.updated) + "</p>" : "") +
+    return '<section class="near-miss overs-nm" id="overs-' + escapeHtml(sp) + '" aria-label="' + escapeHtml(L.title || o.title) + '">' +
+      '<h3 class="nm-head"><span class="nm-pill">' + escapeHtml(L.pill || "NEAR MISS") + '</span> ' + escapeHtml(L.title || o.title) + " · " + escapeHtml(sp) + "</h3>" +
+      '<p class="tg-noedge"><b>' + escapeHtml(L.lead || "No edge today.") + '</b> ' + escapeHtml(L.label || o.label || "") + "</p>" +
+      ((L.updated || o.updated) ? '<p class="nm-note">' + escapeHtml(L.updated || o.updated) + "</p>" : "") +
       (L.note ? '<p class="nm-note">' + escapeHtml(L.note) + "</p>" : "") +
       ovTable(L) +
-      (o.mc ? '<h4 class="mc-block-title">' + escapeHtml(o.mc.title || "") + "</h4>" + ovTable(o.mc) + (o.mc.note ? '<p class="nm-note">' + escapeHtml(o.mc.note) + "</p>" : "") : "") +
-      (o.caveat ? '<p class="nm-note"><b>' + escapeHtml(o.caveat) + "</b></p>" : "") +
+      (o.mc && !L.noMc ? '<h4 class="mc-block-title">' + escapeHtml(o.mc.title || "") + "</h4>" + ovTable(o.mc) + (o.mc.note ? '<p class="nm-note">' + escapeHtml(o.mc.note) + "</p>" : "") : "") +
+      (L.caveat ? '<p class="nm-note"><b>' + escapeHtml(L.caveat) + "</b></p>" : "") +
+      (o.caveat && !L.noMc ? '<p class="nm-note"><b>' + escapeHtml(o.caveat) + "</b></p>" : "") +
       "</section>";
   }
   function renderAttd(sportId, data) {
