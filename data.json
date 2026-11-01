@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-30T17:55:40-05:00",
-  "updatedAtLabel": "Fri Oct 30, 5:55 PM CT",
+  "updatedAt": "2026-11-01T09:41:54-06:00",
+  "updatedAtLabel": "Sun Nov 1, 9:41 AM CT",
   "nearMiss": {
     "NBA-PROPS": []
   },
-  "slate": "Fri Oct 30 2026 — NBA player props (IND@MIA, HOU@DAL, LAC@MIN 7:00 PM CT; LAL@GS, DEN@PHX 9:00 PM CT) · engine v1.2.0 · near-miss board, Screener-audited",
+  "slate": "Sun Nov 1 2026 — NFL Week 8 noon CT (spreads + props) · engine v1.2.0 · Screener-signed with fixes",
   "sport": "multi",
-  "defaultSport": "NBA",
+  "defaultSport": "NFL",
   "status": "live",
-  "summary": "0 on the board tonight: 0 publishable, 0 CLEARED (max 2 counted sources, floor 5). Parlay candidates shown as near misses, none clear.",
+  "summary": "NFL noon: 3 Publish (not CLEARED): Falcons +2, Steelers -3.5, Cardinals +7. 0 CLEARED. All -EV vs Pinnacle fair.",
   "clearedCount": 0,
   "gaugeCount": 0,
   "sports": [
@@ -20,7 +20,7 @@
     },
     {
       "id": "NFL",
-      "label": "Football (NFL) · Sunday early look",
+      "label": "Football (NFL) · Sun Nov 1 noon pass",
       "nav": "NFL",
       "short": "NFL"
     }
@@ -30,7 +30,7 @@
       "note": "No edge today: nothing on this slate has 5+ combined sources with EV of -2% or better at the best shopped price vs the Pinnacle no-vig fair price. 75 NFL videos read plus the X send-it list. Closest: Texans -10.5 (Close -1.96%, 4.25 combined, one more independent source short), Seahawks -3 +100 (4.0, -0.99%), 49ers -2.5 (-0.91%). Started games are dropped or shown LIVE."
     },
     "NFL-PROPS": {
-      "note": "NFL Sunday Nov 1: early look only (not picks, not graded). Real NFL pass Sunday morning with same-day sources."
+      "note": "NFL Sun Nov 1 noon CT: 3 Publish (not CLEARED): Falcons +2, Steelers -3.5, Cardinals +7. Later games still early look until the afternoon pass."
     },
     "NBA": {
       "note": "No edge today: nothing on this slate has 5+ combined sources with EV of -2% or better at the best shopped price vs the Pinnacle no-vig fair price. NBA is player props only today."
@@ -58,73 +58,147 @@
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
-    "title": "Parlay candidates — near misses, none clear",
-    "label": "One leg per game (Nembhard, Grimes, VanVleet, Kuminga; Murray O2.5 3PM DEN@PHX is the swap for Kuminga that passes the 4-book lean check). Parlay hit %, main lines: 2 legs 32.2%, 3 legs 17.3%, 4 legs 9.2%. Alt lines: 2 legs 60.2–67.0%, 3 legs 52.0–61.2%, 4 legs 37.1–46.1%. Monte Carlo (10k, 1u flat singles at best price): recommended 5 legs −0.11u, P(profit) 58.7%, all hit 4.8%; full 27 legs −1.03u.",
+    "title": "NFL Sun Nov 1 · noon CT · 3 Publish (not CLEARED)",
+    "label": "Ranked by de-vigged hit % (Pinnacle no-vig), EV vs fair as tiebreak. Falcons +2, Steelers -3.5, Cardinals +7. 0 CLEARED: no row has 2+ X sources and booksAlign is False on every row (EV < 0 at the best price vs Pinnacle fair). Near misses: Vikings +3.5, Bengals -13, Jets -2, Jaguars -10.5, Ravens +3. Parlays (different games only; Screener numbers on 9:09 AM CT prices): main 2 legs 24.6% / 3 legs 11.9% / 4 legs 6.1% (Falcons +2, Steelers -3.5, Cardinals +7, + Vikings +3.5). +6 alt legs: 2 legs 41–50% / 3 legs 26–33% / 4 legs 18–24%. All -EV. Every alt rung fails R16 (priced past -200); +9.5 legs fail R1. No valid Wong teaser: Falcons +2→+8 is the only Wong leg. Monte Carlo (10k, Screener, 1u flat singles at best price): E -0.155u on 3u, P(profit) 48.4%, all 3 hit 12.2%. Illustrative only: stake 0 without an edge (R23).",
     "items": [
       {
         "rank": 1,
-        "tier": "NEAR MISS",
-        "sport": "NBA",
-        "pick": "Andrew Nembhard Over 8.5 Assists",
-        "line": "main 59.0% · alt o5.5 81.8–90.4%",
-        "game": "IND@MIA",
-        "timeCT": "7:00 PM CT",
-        "yt": 1,
+        "tier": "PUBLISH",
+        "sport": "NFL",
+        "pick": "Falcons +2",
+        "line": "main 49.9% · alt 66.4–74.3%",
+        "game": "ATL@TB",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-11-01T12:00:00-06:00",
+        "yt": 6,
         "x": 0,
-        "booksAlign": true,
-        "onBoard": false,
-        "rationale": "Main 59.0% · Pinnacle no-vig · 4-book 53.9–59.0%. Alt o5.5 · 81.8–90.4% · -1100 FanDuel. Best main price -137 BetRivers (info). Sources: 1 · YT 1 · X 0 · Kyeezyz Hitz · count 0: Chad Slivinski Picks.",
-        "blockedBy": "1 of 5 sources; DAY-TO-DAY (ESPN); Game D2D (ESPN): Nembhard, Nesmith, Toppin (IND); 59.0% is Pinnacle-only, the high end of 4 books (53.9–59.0%); Pinnacle holds ~6–7% on props"
+        "booksAlign": false,
+        "onBoard": true,
+        "evPct": -4.77,
+        "rationale": "Main 49.9% · Pinnacle no-vig fair · best -110 Bovada · EV -4.77% (info). Alt (+6 rung) +8 @ -360 BetRivers: hit 66.4–74.3% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (6): BettingPros (+2.5); Mayo Media Network (+2.5); Petey Picks (+2.5); Kyle Kirms (+2.5); JoJoSuave (+1.5); Bets and Regrets (+2.5). Count 0: JamalPicks 0 (engine-excluded); Between The Numbers 0 (side+total parlay/tease leg).",
+        "blockedBy": "Not CLEARED: X sources 0 (need 2+); booksAlign False (engine 10-book check, EV < 0 at best price). Only valid Wong teaser leg on the slate (+2 → +8 crosses 3 and 7), but no second Wong leg exists, so no valid 2-team teaser. Alt +8 fails R16 (past -200)."
       },
       {
         "rank": 2,
-        "tier": "NEAR MISS",
-        "sport": "NBA",
-        "pick": "Quentin Grimes Over 8.5 Points",
-        "line": "main 54.6% · alt o5.5 73.6–86.1%",
-        "game": "LAL@GS",
-        "timeCT": "9:00 PM CT",
-        "yt": 1,
+        "tier": "PUBLISH",
+        "sport": "NFL",
+        "pick": "Steelers -3.5",
+        "line": "main 49.3% · alt 62.2–66.7%",
+        "game": "CLE@PIT",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-11-01T12:00:00-06:00",
+        "yt": 6,
         "x": 0,
-        "booksAlign": true,
-        "onBoard": false,
-        "rationale": "Main 54.6% · Pinnacle no-vig · 4-book 51.9–54.6%. Alt o5.5 · 73.6–86.1% · -470 FanDuel. Best main price -127 BetRivers (info). Sources: 1 · YT 1 · X 0 · Kyeezyz Hitz (yt line 7.5).",
-        "blockedBy": "1 of 5 sources; Game D2D (ESPN): Gui Santos (GS); Ziaire Williams OUT"
+        "booksAlign": false,
+        "onBoard": true,
+        "evPct": -5.05,
+        "rationale": "Main 49.3% · Pinnacle no-vig fair · best -108 FanDuel · EV -5.05% (info). Alt (+6 rung) +2.5 @ -230 BetRivers: hit 62.2–66.7% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (6): Fantasy Aces (-2.5); Sports Parlay Picks (-2.5; name flag: singles, not a parlay); Fan Stream Sports (Chad) (-3.5); JoJoSuave (-3.5); Bets and Regrets (-3.5); Fanspeak Network (-3.5). Count 0: JamalPicks 0 (engine-excluded); Between The Numbers 0 (parlay/tease leg).",
+        "blockedBy": "Not CLEARED: X sources 0 (need 2+); booksAlign False (engine 10-book check, EV < 0 at best price). R1 key-number fail: lays the hook through 3. Alt +2.5 fails R16 (past -200) and R1 (hook). One side per game: Steelers 6 sources vs Browns +3.5 5 (engine R15 5.7 vs 5.0). Browns +3.5 has the higher hit %: Screener 50.5% vs 49.5%; re-pull 50.7% vs 49.3%."
       },
       {
         "rank": 3,
-        "tier": "NEAR MISS",
-        "sport": "NBA",
-        "pick": "Fred VanVleet Over 11.5 Points",
-        "line": "main 53.8% · alt o4.5 86.4–96.2%",
-        "game": "HOU@DAL",
-        "timeCT": "7:00 PM CT",
-        "yt": 1,
+        "tier": "PUBLISH",
+        "sport": "NFL",
+        "pick": "Cardinals +7",
+        "line": "main 46.8% · alt 63.4–67.3%",
+        "game": "ARI@DAL",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-11-01T12:00:00-06:00",
+        "yt": 6,
         "x": 0,
-        "booksAlign": true,
-        "onBoard": false,
-        "rationale": "Main 53.8% · Pinnacle no-vig · 4-book 51.0–53.8%. Alt o4.5 · 86.4–96.2% · -3000 FanDuel. Best main price -120 Bovada (info). Sources: 1 · YT 1 · X 0 · 925 Sports (yt line 13.5).",
-        "blockedBy": "1 of 5 sources; Game D2D (ESPN): Sengun (HOU); Steven Adams OUT"
+        "booksAlign": false,
+        "onBoard": true,
+        "evPct": -8.73,
+        "rationale": "Main 46.8% · Pinnacle no-vig fair · best -105 FanDuel · EV -8.73% (info). Alt (+6 rung) +13 @ -245 BetRivers: hit 63.4–67.3% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (6): Fanspeak Network (+7); Tony's Picks (+7); Mayo Media Network (+7); Free Picks PickDawgz (+7); Money Mitch (+7); Petey Picks / Simon (+7). Count 0: JamalPicks 0 (engine-excluded); The Bettor Mark 0 (lean: \"if I could get 7.5\").",
+        "blockedBy": "Not CLEARED: X sources 0 (need 2+); booksAlign False (engine 10-book check, EV < 0 at best price). Line moved: Pinnacle main is now Cardinals +7.5 (fair 50.5%, best +7.5 -120 Bovada, EV -7.49%). Posted pick stays +7 per the signed list. Alt +13 fails R16 (past -200)."
       },
       {
         "rank": 4,
         "tier": "NEAR MISS",
-        "sport": "NBA",
-        "pick": "Jonathan Kuminga Over 14.5 Points",
-        "line": "main 52.8% · alt o10.5 71.4–79.9%",
-        "game": "LAC@MIN",
-        "timeCT": "7:00 PM CT",
-        "yt": 1,
+        "sport": "NFL",
+        "pick": "Vikings +3.5",
+        "line": "main 51.6% · alt 66.7–70.3%",
+        "game": "MIN@DET",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-11-01T12:00:00-06:00",
+        "yt": 4,
         "x": 0,
         "booksAlign": false,
         "onBoard": false,
-        "rationale": "Main 52.8% · Pinnacle no-vig · 4-book 49.0–52.8%. Alt o10.5 · 71.4–79.9% · -400 FanDuel. Best main price -112 BetRivers (info). Sources: 1 · YT 1 · X 0 · 925 Sports.",
-        "blockedBy": "1 of 5 sources; Game D2D (ESPN): Hachimura (LAC); 925 Sports source is borderline wording; fails 4-book lean check"
+        "evPct": -4.26,
+        "rationale": "Main 51.6% · Pinnacle no-vig fair · best -117 Bovada · EV -4.26% (info). Alt (+6 rung) +9.5 @ -295 Bovada: hit 66.7–70.3% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (4): Fanspeak Network (+3.5); Money Mitch (+3.5); Kyle Kirms (+3.5); East Coast Edge (+3). Count 0: JamalPicks 0.",
+        "blockedBy": "Under the 5-source floor. 4 of 5 sources. booksAlign False (engine 10-book check: EV < 0). Alt +9.5 fails R16 and R1 (hook short of 10)."
+      },
+      {
+        "rank": 5,
+        "tier": "NEAR MISS",
+        "sport": "NFL",
+        "pick": "Bengals -13",
+        "line": "main 51.6% · alt 63.4–67.4%",
+        "game": "TEN@CIN",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-11-01T12:00:00-06:00",
+        "yt": 4,
+        "x": 0,
+        "booksAlign": false,
+        "onBoard": false,
+        "evPct": -0.16,
+        "rationale": "Main 51.6% · Pinnacle no-vig fair · best -107 BetRivers · EV -0.16% (info). Alt (+6 rung) -7 @ -245 BetRivers: hit 63.4–67.4% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (4): Free Picks PickDawgz (-12.5); StumpTheSpread (-12.5); Kyle Kirms (-10, easier line); JoJoSuave (-10.5, easier line). Count 0: JamalPicks 0.",
+        "blockedBy": "Under the 5-source floor. 4 of 5 sources. Pinnacle main now -13.5. Alt -7 lands on 7 (push risk) and fails R16."
+      },
+      {
+        "rank": 6,
+        "tier": "NEAR MISS",
+        "sport": "NFL",
+        "pick": "Jets -2",
+        "line": "main 49.3% · alt 62.2–66.1%",
+        "game": "LV@NYJ",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-11-01T12:00:00-06:00",
+        "yt": 3,
+        "x": 0,
+        "booksAlign": false,
+        "onBoard": false,
+        "evPct": -5.03,
+        "rationale": "Main 49.3% · Pinnacle no-vig fair · best -108 Bovada · EV -5.03% (info). Alt (+6 rung) +4 @ -230 BetRivers: hit 62.2–66.1% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (3): RollingPlayz (-1.5); Myles Hawk (-1.5); Kyle Kirms (-1.5). Count 0: Between The Numbers 0 (parlay/tease leg).",
+        "blockedBy": "Under the 5-source floor. 3 of 5 sources. Alt fails R16."
+      },
+      {
+        "rank": 7,
+        "tier": "NEAR MISS",
+        "sport": "NFL",
+        "pick": "Jaguars -10.5",
+        "line": "main 48.3% · alt 64.8–69.1%",
+        "game": "IND@JAX",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-11-01T12:00:00-06:00",
+        "yt": 3,
+        "x": 0,
+        "booksAlign": false,
+        "onBoard": false,
+        "evPct": -5.32,
+        "rationale": "Main 48.3% · Pinnacle no-vig fair · best -104 BetRivers · EV -5.32% (info). Alt (+6 rung) -4.5 @ -265 BetRivers: hit 64.8–69.1% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (3): Al Demarco (-10.5); SportsLine (-9.5); High Low Sports Podcast (-9.5).",
+        "blockedBy": "Under the 5-source floor. 3 of 5 sources. R1 key-number fail (hook through 10). Pinnacle main now -10. Alt fails R16."
+      },
+      {
+        "rank": 8,
+        "tier": "NEAR MISS",
+        "sport": "NFL",
+        "pick": "Ravens +3",
+        "line": "main 47.6% · alt 64.5–71.2%",
+        "game": "BAL@BUF",
+        "timeCT": "12:00 PM CT",
+        "startCT": "2026-11-01T12:00:00-06:00",
+        "yt": 4,
+        "x": 0,
+        "booksAlign": false,
+        "onBoard": false,
+        "evPct": -6.63,
+        "rationale": "Main 47.6% · Pinnacle no-vig fair · best -104 FanDuel · EV -6.63% (info). Alt (+6 rung) +9 @ -315 BetRivers: hit 64.5–71.2% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (4): Myles Hawk (+3.5); Sports Parlay Picks (+3.5; name flag: singles); JoJoSuave (+4.5); Free Picks PickDawgz (+3). Count 0: JamalPicks 0; Guy Boston Sports 0 (same host on both Ravens and Bills).",
+        "blockedBy": "Under the 5-source floor. 4 of 5 sources. One side per game: Ravens (R15 4.2) over Bills -3 (4.1; Bills 52.4% fair, booksAlign False). Alt fails R16."
       }
     ],
-    "noEdgeNote": "0 publishable, 0 CLEARED: no leg has more than 2 counted sources (floor 5) and none is above 59% at the main line. Nembhard's 59.0% is Pinnacle-only, the high end of 4 books (53.9–59.0%); Pinnacle holds ~6–7% on props. EV is negative at every alt line.",
-    "emptyText": "",
-    "note": "Main % = Pinnacle no-vig at the main line (4 books checked). Alt % = Screener range (12%-hold market to Poisson/NB/normal fit). Parlay % from the Screener (Gaussian copula; one-per-game legs have no same-game correlation). Books: WONG #10 and B24 put 4+ leg parlays on Watch only. LOGIC #11: alt lines and parlays stack the vig. LOGIC #12, B32 and THORP #5: same-game legs share one stake. KELLY #3: no edge means a stake of zero. Research only; no bets placed."
+    "note": "Prices re-pulled Sun Nov 1, 9:38–9:40 AM CT (Pinnacle guest API, FanDuel, Bovada, BetRivers; no paid Odds API). Screener sign-off 9:36 AM CT with fixes applied. Consensus is not an edge: every side is -EV vs Pinnacle fair. Research, not bets. No bets placed."
   },
   "performance": {
     "tally": {
@@ -700,6 +774,13 @@
       "close": 0,
       "cleared": 0,
       "nearMiss": 35
+    },
+    "NFL": {
+      "onBoard": 3,
+      "edge": 0,
+      "close": 0,
+      "cleared": 0,
+      "nearMiss": 17
     }
   },
   "playerProps": {
@@ -730,10 +811,31 @@
     ]
   },
   "monteCarlo": {
-    "title": "Monte Carlo · tonight's NBA props (10,000 runs)",
-    "sub": "Win prob = sharp fair; paid at best same-line price; 1u flat; props independent.",
-    "blocks": [],
-    "note": "See Tonight's NBA Props."
+    "title": "Monte Carlo · NFL noon Publish singles (10,000 runs, Screener)",
+    "sub": "Win prob = Pinnacle no-vig fair; paid at best price (9:09 AM CT); 1u flat; pushes not modelled.",
+    "blocks": [
+      {
+        "title": "Falcons +2, Steelers -3.5, Cardinals +7",
+        "cells": [
+          {
+            "label": "Expected",
+            "value": "-0.155u",
+            "meta": "on 3u staked"
+          },
+          {
+            "label": "P(profit)",
+            "value": "48.4%",
+            "meta": ""
+          },
+          {
+            "label": "All 3 hit",
+            "value": "12.2%",
+            "meta": ""
+          }
+        ]
+      }
+    ],
+    "note": "Illustrative only. Stake 0 without a documented edge (R23). No bets placed."
   },
   "lastResults": {
     "title": "Wednesday's results (Oct 28)",
@@ -1193,11 +1295,11 @@
     },
     "caveat": "Caveat: Oct 26 overs went NFL 6-9, NBA 5-10. The sim uses market fair prices and cannot capture pick-quality error. Research, not picks. No bets placed.",
     "NFL": {
-      "pill": "EARLY LOOK",
-      "title": "NFL Sunday Nov 1 (Week 8) · Early look",
-      "lead": "Early look, not picks.",
-      "label": "Not published picks, never graded, no tiers. Every source is a Mon–Thu upload, so 0 count toward the floors under the same-day rule (Sat/Sun uploads only for Sunday games). Ranked by fair hit %: Pinnacle no-vig at Pinnacle's line; anytime TD fair is the de-vigged median of the Yes-only books (FanDuel, Bovada, BetRivers). Yes-only TD markets naturally sit above 50%, so a high % on an anytime TD row is not a better spot. Best price is at the same line; best price and EV are info only. The real NFL pass runs Sunday morning.",
-      "note": "42 Week 8 videos transcribed (Mon Oct 26–Thu Oct 29 uploads) from a 120-video pool; mandatory query 'bets prop bets for NFL today' contributed 20 to the pool. Parlays, ladders, DFS/PrizePicks entries, model projections and leans listed nowhere (count 0). Josh Downs O34.5 rec yds and Rachaad White O59.5 rush+rec have no fair (no Pinnacle market) and are ranked last. Prices pulled Thu Oct 29 7:34 PM CT.",
+      "pill": "NOON PASS",
+      "title": "NFL Sunday Nov 1 (Week 8) · noon CT pass + later-game early look",
+      "lead": "3 Publish (not CLEARED), 0 CLEARED.",
+      "label": "Noon rows are the real same-day pass (Screener-signed with fixes): spreads one side per game, ranked by Pinnacle no-vig hit %, EV as tiebreak. Alt hit % is the Screener's range. All props are near misses (max 2 sources; floor 5). Later-game rows below are the Thu Oct 29 early look, labeled, not picks, until the afternoon pass replaces them.",
+      "note": "Spreads: 73 transcribed same-day videos (67 after engine exclusions) plus the X send-it list. Count 0: JamalPicks, Cash Out Sports Picks, Tipster Sports (engine-excluded), In The Green DFS (PrizePicks), Between The Numbers sides (parlay/tease legs; its straight props count), Guy Boston on Ravens/Bills/Lions (Browns +4.5 counts). Name flags: Sports Parlay Picks and @ItsParlayPete post singles despite the names; both count. Parlays (different games only; Screener numbers on 9:09 AM CT prices): main 2 legs 24.6% / 3 legs 11.9% / 4 legs 6.1% (Falcons +2, Steelers -3.5, Cardinals +7, + Vikings +3.5). +6 alt legs: 2 legs 41–50% / 3 legs 26–33% / 4 legs 18–24%. All -EV. Every alt rung fails R16 (priced past -200); +9.5 legs fail R1. No valid Wong teaser: Falcons +2→+8 is the only Wong leg. Monte Carlo (10k, Screener, 1u flat singles at best price): E -0.155u on 3u, P(profit) 48.4%, all 3 hit 12.2%. Illustrative only: stake 0 without an edge (R23). Injuries ~9:20 AM CT: Egbuka, Tate, Spears, Kerby Joseph out; Breece Hall not expected to play; Pickens, DJ Moore, Kincaid, Ridley questionable.",
       "cols": [
         "#",
         "Label",
@@ -1213,67 +1315,247 @@
       "rows": [
         [
           1,
-          "Early look",
+          "Publish (not CLEARED)",
           "NFL",
-          "Josh Allen Anytime TD",
-          "Sun 12:00 PM · BAL@BUF",
-          "59.7% · Yes de-vig median (3 books)",
-          "-157 Bovada",
-          "-2.33%",
-          "2 listed · Betting with Matt (Tue Oct 27 9:37 AM); BettingPros (Thu Oct 29 2:49 PM, stated standalone earlier in week)",
-          "0 counted (Mon–Thu uploads; same-day rule)"
+          "Falcons +2 (spread)",
+          "Sun 12:00 PM · ATL@TB",
+          "49.9% · Pinnacle no-vig · alt +8 66.4–74.3%",
+          "-110 Bovada",
+          "-4.77%",
+          "6 counted · BettingPros (+2.5); Mayo Media Network (+2.5); Petey Picks (+2.5); Kyle Kirms (+2.5); JoJoSuave (+1.5); Bets and Regrets (+2.5)",
+          "YT 6 / X 0 · booksAlign False (engine 10-book check) · Only valid Wong teaser leg on the slate (+2 → +8 crosses 3 and 7), but no second Wong leg exists, so no valid 2-team teaser. Alt +8 fails R16 (past -200). · Count 0: JamalPicks 0 (engine-excluded); Between The Numbers 0 (side+total parlay/tease leg)"
         ],
         [
           2,
-          "Early look",
+          "Publish (not CLEARED)",
           "NFL",
-          "Chase Brown Anytime TD",
-          "Sun 12:00 PM · TEN@CIN",
-          "58.4% · Yes de-vig median (3 books)",
-          "-160 FanDuel (BetRivers -125 dropped as stale)",
-          "-5.12%",
-          "1 listed · WEEKDAY WAGERS (Thu Oct 29 8:00 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule)"
+          "Steelers -3.5 (spread)",
+          "Sun 12:00 PM · CLE@PIT",
+          "49.3% · Pinnacle no-vig · alt +2.5 62.2–66.7%",
+          "-108 FanDuel",
+          "-5.05%",
+          "6 counted · Fantasy Aces (-2.5); Sports Parlay Picks (-2.5; name flag: singles, not a parlay); Fan Stream Sports (Chad) (-3.5); JoJoSuave (-3.5); Bets and Regrets (-3.5); Fanspeak Network (-3.5)",
+          "YT 6 / X 0 · booksAlign False (engine 10-book check) · R1 key-number fail: lays the hook through 3. Alt +2.5 fails R16 (past -200) and R1 (hook). One side per game: Steelers 6 sources vs Browns +3.5 5 (engine R15 5.7 vs 5.0). Browns +3.5 has the higher hit %: Screener 50.5% vs 49.5%; re-pull 50.7% vs 49.3%. · Count 0: JamalPicks 0 (engine-excluded); Between The Numbers 0 (parlay/tease leg)"
         ],
         [
           3,
-          "Early look",
+          "Publish (not CLEARED)",
           "NFL",
-          "Jonathan Taylor Under 16.5 Rush Attempts",
-          "Sun 12:00 PM · IND@JAX",
-          "55.1% · Pinnacle no-vig",
-          "none at Pinnacle's line (Pinnacle -144/+108 @ 16.5)",
-          "n/a",
-          "1 listed · Guy Boston Sports (Wed Oct 28 7:00 PM)",
-          "0 counted (Mon–Thu uploads; same-day rule); source line 17.5"
+          "Cardinals +7 (spread)",
+          "Sun 12:00 PM · ARI@DAL",
+          "46.8% · Pinnacle no-vig · alt +13 63.4–67.3%",
+          "-105 FanDuel",
+          "-8.73%",
+          "6 counted · Fanspeak Network (+7); Tony's Picks (+7); Mayo Media Network (+7); Free Picks PickDawgz (+7); Money Mitch (+7); Petey Picks / Simon (+7)",
+          "YT 6 / X 0 · booksAlign False (engine 10-book check) · Line moved: Pinnacle main is now Cardinals +7.5 (fair 50.5%, best +7.5 -120 Bovada, EV -7.49%). Posted pick stays +7 per the signed list. Alt +13 fails R16 (past -200). · Count 0: JamalPicks 0 (engine-excluded); The Bettor Mark 0 (lean: \"if I could get 7.5\")"
         ],
         [
           4,
-          "Early look",
+          "Near miss",
           "NFL",
-          "Jonathan Taylor Under 63.5 Rushing Yards",
-          "Sun 12:00 PM · IND@JAX",
-          "55.0% · Pinnacle no-vig",
-          "none at Pinnacle's line (Pinnacle -143/+108 @ 63.5)",
-          "n/a",
-          "1 listed · Start 'em Bet 'em (Thu Oct 29 11:24 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule)"
+          "Vikings +3.5 (spread)",
+          "Sun 12:00 PM · MIN@DET",
+          "51.6% · Pinnacle no-vig · alt +9.5 66.7–70.3%",
+          "-117 Bovada",
+          "-4.26%",
+          "4 counted · Fanspeak Network (+3.5); Money Mitch (+3.5); Kyle Kirms (+3.5); East Coast Edge (+3)",
+          "YT 4 / X 0 · booksAlign False (engine 10-book check) · 4 of 5 sources. booksAlign False (engine 10-book check: EV < 0). Alt +9.5 fails R16 and R1 (hook short of 10). · Count 0: JamalPicks 0"
         ],
         [
           5,
-          "Early look",
+          "Near miss",
           "NFL",
-          "CeeDee Lamb Anytime TD",
-          "Sun 12:00 PM · ARI@DAL",
-          "54.5% · Yes de-vig median (3 books)",
-          "-135 FanDuel",
-          "-5.12%",
-          "1 listed · Guy Boston Sports (Wed Oct 28 7:00 PM)",
-          "0 counted (Mon–Thu uploads; same-day rule)"
+          "Bengals -13 (spread)",
+          "Sun 12:00 PM · TEN@CIN",
+          "51.6% · Pinnacle no-vig · alt -7 63.4–67.4%",
+          "-107 BetRivers",
+          "-0.16%",
+          "4 counted · Free Picks PickDawgz (-12.5); StumpTheSpread (-12.5); Kyle Kirms (-10, easier line); JoJoSuave (-10.5, easier line)",
+          "YT 4 / X 0 · booksAlign False (engine 10-book check) · 4 of 5 sources. Pinnacle main now -13.5. Alt -7 lands on 7 (push risk) and fails R16. · Count 0: JamalPicks 0"
         ],
         [
           6,
-          "Early look",
+          "Near miss",
+          "NFL",
+          "Jets -2 (spread)",
+          "Sun 12:00 PM · LV@NYJ",
+          "49.3% · Pinnacle no-vig · alt +4 62.2–66.1%",
+          "-108 Bovada",
+          "-5.03%",
+          "3 counted · RollingPlayz (-1.5); Myles Hawk (-1.5); Kyle Kirms (-1.5)",
+          "YT 3 / X 0 · booksAlign False (engine 10-book check) · 3 of 5 sources. Alt fails R16. · Count 0: Between The Numbers 0 (parlay/tease leg)"
+        ],
+        [
+          7,
+          "Near miss",
+          "NFL",
+          "Jaguars -10.5 (spread)",
+          "Sun 12:00 PM · IND@JAX",
+          "48.3% · Pinnacle no-vig · alt -4.5 64.8–69.1%",
+          "-104 BetRivers",
+          "-5.32%",
+          "3 counted · Al Demarco (-10.5); SportsLine (-9.5); High Low Sports Podcast (-9.5)",
+          "YT 3 / X 0 · booksAlign False (engine 10-book check) · 3 of 5 sources. R1 key-number fail (hook through 10). Pinnacle main now -10. Alt fails R16."
+        ],
+        [
+          8,
+          "Near miss",
+          "NFL",
+          "Ravens +3 (spread)",
+          "Sun 12:00 PM · BAL@BUF",
+          "47.6% · Pinnacle no-vig · alt +9 64.5–71.2%",
+          "-104 FanDuel",
+          "-6.63%",
+          "4 counted · Myles Hawk (+3.5); Sports Parlay Picks (+3.5; name flag: singles); JoJoSuave (+4.5); Free Picks PickDawgz (+3)",
+          "YT 4 / X 0 · booksAlign False (engine 10-book check) · 4 of 5 sources. One side per game: Ravens (R15 4.2) over Bills -3 (4.1; Bills 52.4% fair, booksAlign False). Alt fails R16. · Count 0: JamalPicks 0; Guy Boston Sports 0 (same host on both Ravens and Bills)"
+        ],
+        [
+          9,
+          "Near miss (prop)",
+          "NFL",
+          "CeeDee Lamb Yes Anytime TD",
+          "Sun 12:00 PM · ARI@DAL",
+          "54.5% · Yes de-vig median",
+          "-132 Bovada",
+          "-4.21%",
+          "2 counted · 925 Sports; Cardio Plays",
+          "YT 2 / X 0 · near miss (max 2 sources, floor 5)"
+        ],
+        [
+          10,
+          "Near miss (prop)",
+          "NFL",
+          "Michael Wilson Over 56.5 Receiving Yards",
+          "Sun 12:00 PM · ARI@DAL",
+          "54.3% · Pinnacle no-vig",
+          "none at the fair line",
+          "n/a",
+          "1 counted · Fanspeak Network",
+          "YT 1 / X 0 · near miss (max 2 sources, floor 5) · removed: Cash Out Sports Picks (engine-excluded)"
+        ],
+        [
+          11,
+          "Near miss (prop)",
+          "NFL",
+          "DK Metcalf Over 52.5 Receiving Yards",
+          "Sun 12:00 PM · CLE@PIT",
+          "53.0% · Pinnacle no-vig",
+          "-114 BetRivers",
+          "-0.50%",
+          "1 counted · Between The Numbers",
+          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+        ],
+        [
+          12,
+          "Near miss (prop)",
+          "NFL",
+          "Ja'Marr Chase Over 6.5 Receptions",
+          "Sun 12:00 PM · TEN@CIN",
+          "52.9% · Pinnacle no-vig",
+          "-138 FanDuel",
+          "-8.74%",
+          "1 counted · @__LordPenguin",
+          "YT 0 / X 1 · near miss (max 2 sources, floor 5)"
+        ],
+        [
+          13,
+          "Near miss (prop)",
+          "NFL",
+          "Quinshon Judkins Over 9.5 Receiving Yards",
+          "Sun 12:00 PM · CLE@PIT",
+          "51.8% · Pinnacle no-vig",
+          "-110 Bovada",
+          "-1.05%",
+          "1 counted · Straight Fire Picks",
+          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+        ],
+        [
+          14,
+          "Near miss (prop)",
+          "NFL",
+          "Cam Ward Under 192.5 Passing Yards",
+          "Sun 12:00 PM · TEN@CIN",
+          "51.8% · Pinnacle no-vig",
+          "-113 FanDuel",
+          "-2.30%",
+          "1 counted · Any Given Sunday Australia",
+          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+        ],
+        [
+          15,
+          "Near miss (prop)",
+          "NFL",
+          "Brock Bowers Over 68.5 Receiving Yards",
+          "Sun 12:00 PM · LV@NYJ",
+          "51.7% · Pinnacle no-vig",
+          "-113 FanDuel",
+          "-2.48%",
+          "1 counted · Land Your Bets",
+          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+        ],
+        [
+          16,
+          "Near miss (prop)",
+          "NFL",
+          "Kendrick Bourne Over 3.5 Receptions",
+          "Sun 12:00 PM · ARI@DAL",
+          "51.7% · Pinnacle no-vig",
+          "-122 FanDuel",
+          "-5.86%",
+          "1 counted · Player Prop Savant",
+          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+        ],
+        [
+          17,
+          "Near miss (prop)",
+          "NFL",
+          "Bijan Robinson Over 31.5 Receiving Yards",
+          "Sun 12:00 PM · ATL@TB",
+          "51.6% · Pinnacle no-vig",
+          "none at the fair line",
+          "n/a",
+          "1 counted · Prop Lock or Drop It",
+          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+        ],
+        [
+          18,
+          "Near miss (prop)",
+          "NFL",
+          "Joe Burrow Over 272.5 Passing Yards",
+          "Sun 12:00 PM · TEN@CIN",
+          "51.5% · Pinnacle no-vig",
+          "-113 FanDuel",
+          "-2.89%",
+          "1 counted · @ItsParlayPete",
+          "YT 0 / X 1 · near miss (max 2 sources, floor 5) · name flag: @ItsParlayPete posts a numbered best-bets thread of singles (counted)"
+        ],
+        [
+          19,
+          "Near miss (prop)",
+          "NFL",
+          "Kyler Murray Over 224.5 Passing Yards",
+          "Sun 12:00 PM · ARI@DAL",
+          "51.3% · Pinnacle no-vig",
+          "-113 FanDuel",
+          "-3.30%",
+          "1 counted · Split Labs",
+          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+        ],
+        [
+          20,
+          "Near miss (prop)",
+          "NFL",
+          "James Cook Yes Anytime TD",
+          "Sun 12:00 PM · BAL@BUF",
+          "57.5% · NO sharp fair (2-book Yes-only mean; R10), not ranked on it",
+          "-155 FanDuel",
+          "-5.36%",
+          "1 counted · Guy Boston Sports",
+          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+        ],
+        [
+          21,
+          "Early look · later game (not yet replaced)",
           "NFL",
           "Kyren Williams Anytime TD",
           "Sun 3:05 PM · LAC@LAR",
@@ -1284,32 +1566,8 @@
           "0 counted (Mon–Thu uploads; same-day rule)"
         ],
         [
-          7,
-          "Early look",
-          "NFL",
-          "Zay Flowers Over 81.5 Receiving Yards",
-          "Sun 12:00 PM · BAL@BUF",
-          "53.0% · Pinnacle no-vig",
-          "-114 FanDuel",
-          "-0.47%",
-          "2 listed · Guy Boston Sports (Wed Oct 28 7:00 PM); The GOAT House (Thu Oct 29 1:19 PM, o74.5)",
-          "0 counted (Mon–Thu uploads; same-day rule); source line 76.5"
-        ],
-        [
-          8,
-          "Early look",
-          "NFL",
-          "Trey McBride Anytime TD",
-          "Sun 12:00 PM · ARI@DAL",
-          "52.7% · Yes de-vig median (3 books)",
-          "-112 BetRivers",
-          "-0.23%",
-          "1 listed · Betting with Matt (Tue Oct 27 9:37 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule)"
-        ],
-        [
-          9,
-          "Early look",
+          22,
+          "Early look · later game (not yet replaced)",
           "NFL",
           "Commanders -5.5 vs PHI",
           "Sun 7:20 PM · PHI@WSH",
@@ -1320,44 +1578,8 @@
           "0 counted (Mon–Thu uploads; same-day rule)"
         ],
         [
-          10,
-          "Early look",
-          "NFL",
-          "Brock Bowers Over 69.5 Receiving Yards",
-          "Sun 12:00 PM · LV@NYJ",
-          "52.4% · Pinnacle no-vig",
-          "-114 FanDuel",
-          "-1.62%",
-          "1 listed · sdpn (Thu Oct 29 10:38 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule); source line 68.5"
-        ],
-        [
-          11,
-          "Early look",
-          "NFL",
-          "Daniel Jones Over 188.5 Passing Yards",
-          "Sun 12:00 PM · IND@JAX",
-          "51.0% · Pinnacle no-vig",
-          "-114 FanDuel",
-          "-4.24%",
-          "1 listed · Start 'em Bet 'em (Thu Oct 29 11:24 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule); source line 189.5 is HARDER than posted, would not count"
-        ],
-        [
-          12,
-          "Early look",
-          "NFL",
-          "BAL@BUF Over 54",
-          "Sun 12:00 PM · BAL@BUF",
-          "50.9% · Pinnacle no-vig",
-          "-115 BetRivers",
-          "-4.86%",
-          "1 listed · Sports Betting Dime (Wed Oct 28 3:02 PM)",
-          "0 counted (Mon–Thu uploads; same-day rule)"
-        ],
-        [
-          13,
-          "Early look",
+          23,
+          "Early look · later game (not yet replaced)",
           "NFL",
           "Hunter Henry Over 3.5 Receptions",
           "Sun 3:25 PM · NE@MIA",
@@ -1368,44 +1590,8 @@
           "0 counted (Mon–Thu uploads; same-day rule)"
         ],
         [
-          14,
-          "Early look",
-          "NFL",
-          "ARI@DAL Over 54.5",
-          "Sun 12:00 PM · ARI@DAL",
-          "50.7% · Pinnacle no-vig",
-          "-109 BetRivers",
-          "-2.85%",
-          "1 listed · Sports Betting Dime (Wed Oct 28 3:02 PM)",
-          "0 counted (Mon–Thu uploads; same-day rule)"
-        ],
-        [
-          15,
-          "Early look",
-          "NFL",
-          "Bijan Robinson Over 26.5 Receiving Yards",
-          "Sun 12:00 PM · ATL@TB",
-          "50.4% · Pinnacle no-vig",
-          "-115 Bovada",
-          "-5.77%",
-          "1 listed · RotoWire (Thu Oct 29 2:51 PM)",
-          "0 counted (Mon–Thu uploads; same-day rule)"
-        ],
-        [
-          16,
-          "Early look",
-          "NFL",
-          "T.J. Hockenson Over 38.5 Receiving Yards",
-          "Sun 12:00 PM · MIN@DET",
-          "50.2% · Pinnacle no-vig",
-          "-114 BetRivers",
-          "-5.76%",
-          "1 listed · sdpn (Thu Oct 29 10:38 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule); source line 37.5"
-        ],
-        [
-          17,
-          "Early look",
+          24,
+          "Early look · later game (not yet replaced)",
           "NFL",
           "KC@DEN Under 40.5",
           "Sun 3:25 PM · KC@DEN",
@@ -1416,20 +1602,8 @@
           "0 counted (Mon–Thu uploads; same-day rule)"
         ],
         [
-          18,
-          "Early look",
-          "NFL",
-          "Geno Smith Over 219.5 Passing Yards",
-          "Sun 12:00 PM · LV@NYJ",
-          "50.0% · Pinnacle no-vig",
-          "none at Pinnacle's line (Pinnacle -114/-114 @ 219.5)",
-          "n/a",
-          "2 listed · RotoWire (Thu Oct 29 2:51 PM); Kunath (Thu Oct 29 11:40 AM, 220+)",
-          "0 counted (Mon–Thu uploads; same-day rule); source line 220.5 is HARDER than posted, would not count"
-        ],
-        [
-          19,
-          "Early look",
+          25,
+          "Early look · later game (not yet replaced)",
           "NFL",
           "J.K. Dobbins Over 22.5 Rushing Yards",
           "Sun 3:25 PM · KC@DEN",
@@ -1440,32 +1614,8 @@
           "0 counted (Mon–Thu uploads; same-day rule); source line 24.5 is HARDER than posted, would not count"
         ],
         [
-          20,
-          "Early look",
-          "NFL",
-          "Tee Higgins Over 68.5 Receiving Yards",
-          "Sun 12:00 PM · TEN@CIN",
-          "50.0% · Pinnacle no-vig",
-          "none at Pinnacle's line (Pinnacle -114/-114 @ 68.5)",
-          "n/a",
-          "1 listed · Old-Fashioned Football (Thu Oct 29 7:43 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule); source line 67.5"
-        ],
-        [
-          21,
-          "Early look",
-          "NFL",
-          "James Cook Over 86.5 Rushing Yards",
-          "Sun 12:00 PM · BAL@BUF",
-          "50.0% · Pinnacle no-vig",
-          "-114 FanDuel",
-          "-6.14%",
-          "1 listed · sdpn (Thu Oct 29 10:38 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule)"
-        ],
-        [
-          22,
-          "Early look",
+          26,
+          "Early look · later game (not yet replaced)",
           "NFL",
           "Patrick Mahomes Over 12.5 Rushing Yards",
           "Sun 3:25 PM · KC@DEN",
@@ -1476,32 +1626,8 @@
           "0 counted (Mon–Thu uploads; same-day rule)"
         ],
         [
-          23,
-          "Early look",
-          "NFL",
-          "Lamar Jackson Over 30.5 Passing Attempts",
-          "Sun 12:00 PM · BAL@BUF",
-          "50.0% · Pinnacle no-vig",
-          "-115 Bovada",
-          "-6.52%",
-          "1 listed · Start 'em Bet 'em (Thu Oct 29 11:24 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule); source line 29.5"
-        ],
-        [
-          24,
-          "Early look",
-          "NFL",
-          "Kyler Murray Over 224.5 Passing Yards",
-          "Sun 12:00 PM · MIN@DET",
-          "50.0% · Pinnacle no-vig",
-          "-114 FanDuel",
-          "-6.14%",
-          "1 listed · Start 'em Bet 'em (Thu Oct 29 11:24 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule); source line 221.5"
-        ],
-        [
-          25,
-          "Early look",
+          27,
+          "Early look · later game (not yet replaced)",
           "NFL",
           "Matthew Stafford Over 250.5 Passing Yards",
           "Sun 3:05 PM · LAC@LAR",
@@ -1512,20 +1638,8 @@
           "0 counted (Mon–Thu uploads; same-day rule); source line 248.5"
         ],
         [
-          26,
-          "Early look",
-          "NFL",
-          "Jaylen Warren Over 25.5 Receiving Yards",
-          "Sun 12:00 PM · CLE@PIT",
-          "49.3% · Pinnacle no-vig",
-          "-114 FanDuel",
-          "-7.46%",
-          "2 listed · RiskMode (Thu Oct 29 6:58 PM); FSAN (Thu Oct 29 5:15 PM)",
-          "0 counted (Mon–Thu uploads; same-day rule); source line 24.5"
-        ],
-        [
-          27,
-          "Early look",
+          28,
+          "Early look · later game (not yet replaced)",
           "NFL",
           "PHI@WSH Over 40.5",
           "Sun 7:20 PM · PHI@WSH",
@@ -1536,8 +1650,8 @@
           "0 counted (Mon–Thu uploads; same-day rule)"
         ],
         [
-          28,
-          "Early look",
+          29,
+          "Early look · later game (not yet replaced)",
           "NFL",
           "Patrick Mahomes Over 20.5 Completions",
           "Sun 3:25 PM · KC@DEN",
@@ -1548,8 +1662,8 @@
           "0 counted (Mon–Thu uploads; same-day rule)"
         ],
         [
-          29,
-          "Early look",
+          30,
+          "Early look · later game (not yet replaced)",
           "NFL",
           "Rhamondre Stevenson Over 2.5 Receptions",
           "Sun 3:25 PM · NE@MIA",
@@ -1558,87 +1672,15 @@
           "-3.27%",
           "2 listed · Sports Betting Dime (Wed Oct 28 3:02 PM); RiskMode (Thu Oct 29 6:58 PM)",
           "0 counted (Mon–Thu uploads; same-day rule)"
-        ],
-        [
-          30,
-          "Early look",
-          "NFL",
-          "Geno Smith Over 1.5 Passing Touchdowns",
-          "Sun 12:00 PM · LV@NYJ",
-          "47.2% · Pinnacle no-vig",
-          "+102 BetRivers",
-          "-4.69%",
-          "1 listed · Betting with Matt (Tue Oct 27 9:37 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule)"
-        ],
-        [
-          31,
-          "Early look",
-          "NFL",
-          "Baker Mayfield Over 1.5 Passing Touchdowns",
-          "Sun 12:00 PM · ATL@TB",
-          "47.2% · Pinnacle no-vig",
-          "+132 BetRivers",
-          "+9.47%",
-          "1 listed · Start 'em Bet 'em (Thu Oct 29 11:24 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule); BetRivers +132 is an outlier vs Bovada +120: recheck Sunday"
-        ],
-        [
-          32,
-          "Early look",
-          "NFL",
-          "Derrick Henry Over 80.5 Rushing Yards",
-          "Sun 12:00 PM · BAL@BUF",
-          "43.5% · Pinnacle no-vig",
-          "none at Pinnacle's line (Pinnacle +115/-153 @ 80.5)",
-          "n/a",
-          "2 listed · Sports Betting Dime (Wed Oct 28 3:02 PM); Kunath (Thu Oct 29 11:40 AM, 100+ alt, harder line)",
-          "0 counted (Mon–Thu uploads; same-day rule); source line 83.5 is HARDER than posted, would not count"
-        ],
-        [
-          33,
-          "Early look",
-          "NFL",
-          "T.J. Hockenson Anytime TD",
-          "Sun 12:00 PM · MIN@DET",
-          "25.2% · Yes de-vig median (3 books)",
-          "+295 BetRivers",
-          "-0.44%",
-          "2 listed · BettingPros (Thu Oct 29 2:49 PM, long shot); FSAN (Thu Oct 29 5:15 PM, long shot)",
-          "0 counted (Mon–Thu uploads; same-day rule)"
-        ],
-        [
-          34,
-          "Early look",
-          "NFL",
-          "Josh Downs Over 34.5 Receiving Yards",
-          "Sun 12:00 PM · IND@JAX",
-          "no fair (no Pinnacle market; <3 two-way books at one line)",
-          "n/a",
-          "n/a",
-          "2 listed · RiskMode (Thu Oct 29 6:58 PM); Start 'em Bet 'em (Thu Oct 29 11:24 AM)",
-          "0 counted (Mon–Thu uploads; same-day rule); no fair, ranked last"
-        ],
-        [
-          35,
-          "Early look",
-          "NFL",
-          "Rachaad White Over 59.5 Rushing & Receiving Yards",
-          "Sun · game n/a",
-          "no fair (no Pinnacle market; <3 two-way books at one line)",
-          "n/a",
-          "n/a",
-          "1 listed · RotoWire (Thu Oct 29 2:51 PM)",
-          "0 counted (Mon–Thu uploads; same-day rule); no fair, ranked last"
         ]
       ],
       "noMc": true,
-      "updated": "Prices pulled Thu Oct 29 7:34 PM CT (Pinnacle guest API, Bovada, FanDuel, BetRivers) · engine v1.2.0 · order: fair hit %, then sources; EV info only",
-      "earlyLook": true,
-      "graded": false,
-      "caveat": "Early look only. Nothing here is a pick or a bet; it will not be graded. Lines will move before Sunday."
+      "updated": "Noon prices re-pulled Sun Nov 1, 9:38–9:40 AM CT (Pinnacle, FanDuel, Bovada, BetRivers) · engine v1.2.0 · Screener 9:36 AM CT · early-look rows priced Thu Oct 29 7:34 PM CT",
+      "earlyLook": false,
+      "graded": true,
+      "caveat": "Every noon side is -EV vs Pinnacle fair (consensus is not an edge). Research, not bets. No bets placed."
     },
     "noMc": true
   },
-  "earlyLookNote": "NFL early look (Screener OK 7:38 PM CT Thu Oct 29): not picks, not graded, no tiers."
+  "earlyLookNote": "NFL later games (3:05/3:25 PM CT, SNF): Thu Oct 29 early look, labeled, until the afternoon pass."
 }
