@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-05T14:33:53-06:00",
-  "updatedAtLabel": "Thu Nov 5, 2:33 PM CT",
+  "updatedAt": "2026-11-05T17:55:25-06:00",
+  "updatedAtLabel": "Thu Nov 5, 5:55 PM CT",
   "nearMiss": {
     "NBA-PROPS": []
   },
@@ -661,7 +661,7 @@
     "emptyText": "No NBA props meet the rules tonight. Parlay candidates (near misses) are in the Gauge above and Tonight's NBA Props below."
   },
   "siteName": "Bearish Bulls Picks",
-  "propsNote": "NBA Thu Nov 5: 0 publishable, 0 CLEARED (max 3 counted sources, floor 5). TNF Thu Nov 5 JAC@BAL: 0 publishable, 0 CLEARED (near-miss only; max 4 counted sources). Official inactives not yet posted; watch Tuten / Walker / Wiggins / Randall. No bets placed.",
+  "propsNote": "NBA Thu Nov 5: 0 publishable, 0 CLEARED (max 3 counted sources, floor 5). TNF Thu Nov 5 JAC@BAL: 0 publishable, 0 CLEARED (near-miss only; max 4 counted sources). Official inactives posted: Tuten + Walker ACTIVE, Wiggins OUT, Randall not activated; no card player inactive. No bets placed.",
   "defaultSub": {
     "NBA": "props",
     "NFL": "props"
@@ -1092,9 +1092,9 @@
     "NFL": {
       "pill": "GAUGE · NEAR MISS",
       "title": "TNF player props · JAC@BAL · Thu Nov 5",
-      "lead": "Near-miss only — 0 CLEARED / 0 publishable. Kickoff 7:15 PM CT. Official inactives not yet posted (watch Tuten / Walker / Wiggins / Randall).",
+      "lead": "Near-miss only — 0 CLEARED / 0 publishable. Kickoff 7:15 PM CT. Official inactives posted: Tuten + Walker ACTIVE, Wiggins OUT, Randall not activated; no card player inactive.",
       "label": "Gauge near-miss board (Screener FINAL SIGN-OFF 2:30 PM CT). Ranked by de-vigged hit % at the main line (Pinnacle no-vig or Yes-only scaled for ATTD), EV vs fair as tiebreak. Safer alt = closest unflagged rung (R16 if priced past −200). Four splits withheld. No locks. Research, not picks. No bets placed.",
-      "note": "TNF Thu Nov 5: Jacksonville Jaguars at Baltimore Ravens, 7:15 PM CT / 8:15 PM ET, Prime Video, M&T Bank Stadium (ESPN 401873037). Screener FINAL SIGN-OFF 2:30 PM CT: AGREE, funnel PASS, 0 CLEARED / 0 publishable — near-miss board only. Official inactives not yet posted (typical ~5:45 PM CT, 90 min before kickoff). Watch: Bhayshul Tuten (ankle/foot, DNP all week, GTD — candidate-changer for Rodriguez), Travon Walker (rib), Nate Wiggins (stinger/illness), Adam Randall (neck, IR-R). Out: Lamar Jackson (IR, R thumb), Tyler Huntley (IR, turf toe), Jaylinn Hawkins (knee), Tyler Loop (IR groin; Jake Moody kicks). Start: Joe Fagnano (Brissett trade not in time, Week 10). Same-game parlay set Rodriguez O29.5 rush / Lawrence O1.5 pass TDs / Bateman O13.5 rec yds / Hunter U9.5 rec yds: Gaussian copula 2/3/4-leg 29.8 / 16.9 / 8.4% (decimals 2.945 / 5.507 / 10.38; all -EV; 4-leg Watch only, WONG #10 / B24). MC 4 singles (10k, seed 20261105): E −0.06u (analytic −0.039u), P(profit) 38.4%, all-hit 9.1%, SD 1.779u. Four splits are withheld (Andrews O2.5 rec, Flowers O4.5 rec, Henry rush yds, Henry rush att). No locks. Research, not bets. No bets placed.",
+      "note": "TNF Thu Nov 5: Jacksonville Jaguars at Baltimore Ravens, 7:15 PM CT / 8:15 PM ET, Prime Video, M&T Bank Stadium (ESPN 401873037). Screener FINAL SIGN-OFF 2:30 PM CT: AGREE, funnel PASS, 0 CLEARED / 0 publishable — near-miss board only. Official inactives posted ~5:45 PM CT: Tuten ACTIVE, Walker ACTIVE (Jaguars official in-and-out); Wiggins INACTIVE (illness); Randall not activated off IR-R. No card player inactive; no re-pricing (Tuten active, no role-growth boost). Watch: Bhayshul Tuten (ankle/foot, DNP all week, GTD — candidate-changer for Rodriguez), Travon Walker (rib), Nate Wiggins (stinger/illness), Adam Randall (neck, IR-R). Out: Lamar Jackson (IR, R thumb), Tyler Huntley (IR, turf toe), Jaylinn Hawkins (knee), Tyler Loop (IR groin; Jake Moody kicks). Start: Joe Fagnano (Brissett trade not in time, Week 10). Same-game parlay set Rodriguez O29.5 rush / Lawrence O1.5 pass TDs / Bateman O13.5 rec yds / Hunter U9.5 rec yds: Gaussian copula 2/3/4-leg 29.8 / 16.9 / 8.4% (decimals 2.945 / 5.507 / 10.38; all -EV; 4-leg Watch only, WONG #10 / B24). MC 4 singles (10k, seed 20261105): E −0.06u (analytic −0.039u), P(profit) 38.4%, all-hit 9.1%, SD 1.779u. Four splits are withheld (Andrews O2.5 rec, Flowers O4.5 rec, Henry rush yds, Henry rush att). No locks. Research, not bets. No bets placed.",
       "cols": [
         "#",
         "Label",
@@ -1118,7 +1118,7 @@
           "—",
           "Pinnacle-only (no public book) · EV -4.51%",
           "2 · YT 2 · X 0 · BettingPros, WagerTalk",
-          "2 of 5 sources (publish floor); Pinnacle-only (excluded from public best price); Tuten GTD — injury-dependent (watch official inactives ~5:45 PM CT); WagerTalk lean-borderline (counted 1, flagged); booksAlign yes; not CLEARED: sources 2<5; YT 2<3; X 0<2"
+          "2 of 5 sources (publish floor); Pinnacle-only (excluded from public best price); Tuten ACTIVE (official inactives ~5:45 PM CT) — GTD cleared; injury flag kept for context; no re-pricing; WagerTalk lean-borderline (counted 1, flagged); booksAlign yes; not CLEARED: sources 2<5; YT 2<3; X 0<2"
         ],
         [
           2,
@@ -1370,7 +1370,7 @@
           "—",
           "+108 Bally Bet · EV -1.70%",
           "1 · YT 1 · X 0 · DFSnDonuts",
-          "1 of 5 sources (publish floor); Tuten GTD — injury-dependent (watch official inactives ~5:45 PM CT); ATTD Yes-only scaled fair; not CLEARED: sources 1<5; YT 1<3; X 0<2; booksAlign not true"
+          "1 of 5 sources (publish floor); Tuten ACTIVE (official inactives ~5:45 PM CT) — GTD cleared; injury flag kept for context; no re-pricing; ATTD Yes-only scaled fair; not CLEARED: sources 1<5; YT 1<3; X 0<2; booksAlign not true"
         ],
         [
           23,
@@ -1461,9 +1461,9 @@
       "updated": "2026-11-05T14:33:53-06:00",
       "earlyLook": false,
       "graded": false,
-      "caveat": "0 CLEARED / 0 publishable (floor 5 sources; CLEARED needs 3 YT + 2 X + booksAlign). Consensus is not an edge. Same-game legs are correlated — do not multiply hit rates. Pinnacle excluded from public best price. Official inactives not yet posted; Tuten/Walker/Wiggins/Randall watch. No locks. Research, not bets. No bets placed."
+      "caveat": "0 CLEARED / 0 publishable (floor 5 sources; CLEARED needs 3 YT + 2 X + booksAlign). Consensus is not an edge. Same-game legs are correlated — do not multiply hit rates. Pinnacle excluded from public best price. Official inactives posted: Tuten ACTIVE, Walker ACTIVE, Wiggins OUT, Randall IR-R (not activated). No card player inactive. No locks. Research, not bets. No bets placed."
     },
     "noMc": true
   },
-  "earlyLookNote": "TNF official inactives typically post ~5:45 PM CT and have not posted yet. Watch: Bhayshul Tuten (GTD, DNP all week — Rodriguez flag), Travon Walker (rib), Nate Wiggins (stinger/illness), Adam Randall (neck). Sun Nov 1 noon + afternoon/SNF Publish rows have been replaced on the NFL tab by tonight's TNF board."
+  "earlyLookNote": "Official inactives posted ~5:45 PM CT: Tuten ACTIVE, Walker ACTIVE (Jaguars official in-and-out); Wiggins INACTIVE (illness); Randall not activated off IR-R. No card player inactive; no re-pricing (Tuten active, no role-growth boost)."
 }
