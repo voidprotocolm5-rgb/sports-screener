@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-11-05T14:11:44-06:00",
-  "updatedAtLabel": "Thu Nov 5, 2:11 PM CT",
+  "updatedAt": "2026-11-05T14:33:53-06:00",
+  "updatedAtLabel": "Thu Nov 5, 2:33 PM CT",
   "nearMiss": {
     "NBA-PROPS": []
   },
-  "slate": "Thu Nov 5 2026 — NBA player props (ORL@PHX 8:00 PM CT, MIA@GS 9:00 PM CT) · NFL Sun Nov 1 noon + afternoon/SNF still on the NFL tab (TNF not published) · engine v1.2.0 · Screener-signed",
+  "slate": "Thu Nov 5 2026 — NBA player props (ORL@PHX 8:00 PM CT, MIA@GS 9:00 PM CT) · NFL TNF JAC@BAL 7:15 PM CT (near-miss only; 0 CLEARED / 0 publishable) · engine v1.2.0 · Screener-signed",
   "sport": "multi",
   "defaultSport": "NBA",
   "status": "live",
-  "summary": "NBA Thu Nov 5: 0 publishable, 0 CLEARED (near-miss board; max 3 sources; floor 5). NFL: 7 Publish (not CLEARED). Noon: Falcons +2, Steelers -3.5, Cardinals +7. Afternoon/SNF: Chargers +6.5, Commanders -6, Broncos -1, Patriots -7. 0 CLEARED. All -EV vs Pinnacle fair.",
+  "summary": "NBA Thu Nov 5: 0 publishable, 0 CLEARED (near-miss board; max 3 sources; floor 5). NFL TNF JAC@BAL: 0 publishable, 0 CLEARED (near-miss board; max 4 sources — Lawrence O1.5 pass TDs and Henry ATTD). No locks. Research, not bets.",
   "clearedCount": 0,
   "gaugeCount": 0,
   "sports": [
@@ -20,7 +20,7 @@
     },
     {
       "id": "NFL",
-      "label": "Football (NFL) · Sun Nov 1 noon + afternoon/SNF",
+      "label": "Football (NFL) · TNF Thu Nov 5 · JAC@BAL 7:15 PM CT · near-miss",
       "nav": "NFL",
       "short": "NFL"
     }
@@ -30,7 +30,7 @@
       "note": "No edge today: nothing on this slate has 5+ combined sources with EV of -2% or better at the best shopped price vs the Pinnacle no-vig fair price. 75 NFL videos read plus the X send-it list. Closest: Texans -10.5 (Close -1.96%, 4.25 combined, one more independent source short), Seahawks -3 +100 (4.0, -0.99%), 49ers -2.5 (-0.91%). Started games are dropped or shown LIVE."
     },
     "NFL-PROPS": {
-      "note": "NFL Sun Nov 1: 7 Publish (not CLEARED). Noon: Falcons +2, Steelers -3.5, Cardinals +7. Afternoon/SNF: Chargers +6.5, Commanders -6, Broncos -1, Patriots -7."
+      "note": "TNF Thu Nov 5 JAC@BAL: near-miss board only (0 publishable, 0 CLEARED; max 4 sources). Sun Nov 1 (replaced on the live NFL tab): 7 Publish (not CLEARED). Noon: Falcons +2, Steelers -3.5, Cardinals +7. Afternoon/SNF: Chargers +6.5, Commanders -6, Broncos -1, Patriots -7."
     },
     "NBA": {
       "note": "NBA is player props only today (Thu Nov 5). See the NBA props near-miss board."
@@ -47,7 +47,7 @@
   },
   "researchOnly": true,
   "noBetsPlaced": true,
-  "skippedNote": "Thu Nov 5: no NBA games skipped (ORL@PHX 8:00 PM CT, MIA@GS 9:00 PM CT). TNF is not published.",
+  "skippedNote": "Thu Nov 5: no NBA games skipped (ORL@PHX 8:00 PM CT, MIA@GS 9:00 PM CT). TNF JAC@BAL published as a near-miss board only (0 CLEARED). Four splits withheld: Andrews O2.5 rec, Flowers O4.5 rec, Henry rush yds, Henry rush att.",
   "bets": [],
   "resultsTally": {
     "cleared": "4-5-0",
@@ -58,215 +58,11 @@
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
-    "title": "NFL Sun Nov 1 · noon CT 3 + afternoon/SNF 4 Publish (not CLEARED)",
-    "label": "Ranked by de-vigged hit % (Pinnacle no-vig), EV vs fair as tiebreak. Falcons +2, Steelers -3.5, Cardinals +7. 0 CLEARED: no row has 2+ X sources and booksAlign is False on every row (EV < 0 at the best price vs Pinnacle fair). Near misses: Vikings +3.5, Bengals -13, Jets -2, Jaguars -10.5, Ravens +3. Parlays (different games only; Screener numbers on 9:09 AM CT prices): main 2 legs 24.6% / 3 legs 11.9% / 4 legs 6.1% (Falcons +2, Steelers -3.5, Cardinals +7, + Vikings +3.5). +6 alt legs: 2 legs 41–50% / 3 legs 26–33% / 4 legs 18–24%. All -EV. Every alt rung fails R16 (priced past -200); +9.5 legs fail R1. No valid Wong teaser: Falcons +2→+8 is the only Wong leg. Monte Carlo (10k, Screener, 1u flat singles at best price): E -0.155u on 3u, P(profit) 48.4%, all 3 hit 12.2%. Illustrative only: stake 0 without an edge (R23). || Afternoon/SNF (Screener-signed 12:27 PM CT with fixes): Chargers +6.5, Commanders -6, Broncos -1, Patriots -7. 0 CLEARED (no row has 2+ X; booksAlign False on all). Chargers +6.5 carries an R1 key-number fail; Patriots -7 lands on 7 (push risk); Broncos sources took +1.5 (easier-line credit at -1). On every afternoon/SNF game the opposite side has the higher de-vig hit % (Eagles +6 50.5%, Rams -6.5 51.2%, Chiefs +1 51.3%, Dolphins +7 51.3%); one side per game is chosen by source count (R15). Props: 0 publishable (near misses: Goedert ATTD, Walker ATTD, Kyren ATTD, McKee, Henry, Stevenson, Maye, Diggs, Mahomes, Nacua, White, Gordon). Afternoon/SNF parlays (different games, Screener, info only): main 2/3/4 legs 24.2% / 11.8% / 5.75% (Commanders -6, Chargers +6.5, Broncos -1, Patriots -7); alt legs (Commanders +1, Chargers +12.5, Broncos +5, Patriots -1) 42.6–47.6% / 25.4–31.2% / 16.6–22.8%. All -EV; every alt leg except Broncos +5 @ -200 is past the R16 -200 cap. Glitch rungs (Commanders pk, Patriots pk) excluded. No teaser prices pulled. Near-miss prop parlays not published. Monte Carlo (10k, Screener, 1u flat singles at best price): E -0.102u on 4u, P(profit) 42.1%, all 4 hit 5.9%. Illustrative only: stake 0 without an edge (R23).",
-    "items": [
-      {
-        "rank": 1,
-        "tier": "PUBLISH",
-        "sport": "NFL",
-        "pick": "Falcons +2",
-        "line": "main 49.9% · alt 66.4–74.3%",
-        "game": "ATL@TB",
-        "timeCT": "12:00 PM CT",
-        "startCT": "2026-11-01T12:00:00-06:00",
-        "yt": 6,
-        "x": 0,
-        "booksAlign": false,
-        "onBoard": true,
-        "evPct": -4.77,
-        "rationale": "Main 49.9% · Pinnacle no-vig fair · best -110 Bovada · EV -4.77% (info). Alt (+6 rung) +8 @ -360 BetRivers: hit 66.4–74.3% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (6): BettingPros (+2.5); Mayo Media Network (+2.5); Petey Picks (+2.5); Kyle Kirms (+2.5); JoJoSuave (+1.5); Bets and Regrets (+2.5). Count 0: JamalPicks 0 (engine-excluded); Between The Numbers 0 (side+total parlay/tease leg).",
-        "blockedBy": "Not CLEARED: X sources 0 (need 2+); booksAlign False (engine 10-book check, EV < 0 at best price). Only valid Wong teaser leg on the slate (+2 → +8 crosses 3 and 7), but no second Wong leg exists, so no valid 2-team teaser. Alt +8 fails R16 (past -200)."
-      },
-      {
-        "rank": 2,
-        "tier": "PUBLISH",
-        "sport": "NFL",
-        "pick": "Steelers -3.5",
-        "line": "main 49.3% · alt 62.2–66.7%",
-        "game": "CLE@PIT",
-        "timeCT": "12:00 PM CT",
-        "startCT": "2026-11-01T12:00:00-06:00",
-        "yt": 6,
-        "x": 0,
-        "booksAlign": false,
-        "onBoard": true,
-        "evPct": -5.05,
-        "rationale": "Main 49.3% · Pinnacle no-vig fair · best -108 FanDuel · EV -5.05% (info). Alt (+6 rung) +2.5 @ -230 BetRivers: hit 62.2–66.7% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (6): Fantasy Aces (-2.5); Sports Parlay Picks (-2.5; name flag: singles, not a parlay); Fan Stream Sports (Chad) (-3.5); JoJoSuave (-3.5); Bets and Regrets (-3.5); Fanspeak Network (-3.5). Count 0: JamalPicks 0 (engine-excluded); Between The Numbers 0 (parlay/tease leg).",
-        "blockedBy": "Not CLEARED: X sources 0 (need 2+); booksAlign False (engine 10-book check, EV < 0 at best price). R1 key-number fail: lays the hook through 3. Alt +2.5 fails R16 (past -200) and R1 (hook). One side per game: Steelers 6 sources vs Browns +3.5 5 (engine R15 5.7 vs 5.0). Browns +3.5 has the higher hit %: Screener 50.5% vs 49.5%; re-pull 50.7% vs 49.3%."
-      },
-      {
-        "rank": 3,
-        "tier": "PUBLISH",
-        "sport": "NFL",
-        "pick": "Cardinals +7",
-        "line": "main 46.8% · alt 63.4–67.3%",
-        "game": "ARI@DAL",
-        "timeCT": "12:00 PM CT",
-        "startCT": "2026-11-01T12:00:00-06:00",
-        "yt": 6,
-        "x": 0,
-        "booksAlign": false,
-        "onBoard": true,
-        "evPct": -8.73,
-        "rationale": "Main 46.8% · Pinnacle no-vig fair · best -105 FanDuel · EV -8.73% (info). Alt (+6 rung) +13 @ -245 BetRivers: hit 63.4–67.3% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (6): Fanspeak Network (+7); Tony's Picks (+7); Mayo Media Network (+7); Free Picks PickDawgz (+7); Money Mitch (+7); Petey Picks / Simon (+7). Count 0: JamalPicks 0 (engine-excluded); The Bettor Mark 0 (lean: \"if I could get 7.5\").",
-        "blockedBy": "Not CLEARED: X sources 0 (need 2+); booksAlign False (engine 10-book check, EV < 0 at best price). Line moved: Pinnacle main is now Cardinals +7.5 (fair 50.5%, best +7.5 -120 Bovada, EV -7.49%). Posted pick stays +7 per the signed list. Alt +13 fails R16 (past -200)."
-      },
-      {
-        "rank": 4,
-        "tier": "NEAR MISS",
-        "sport": "NFL",
-        "pick": "Vikings +3.5",
-        "line": "main 51.6% · alt 66.7–70.3%",
-        "game": "MIN@DET",
-        "timeCT": "12:00 PM CT",
-        "startCT": "2026-11-01T12:00:00-06:00",
-        "yt": 4,
-        "x": 0,
-        "booksAlign": false,
-        "onBoard": false,
-        "evPct": -4.26,
-        "rationale": "Main 51.6% · Pinnacle no-vig fair · best -117 Bovada · EV -4.26% (info). Alt (+6 rung) +9.5 @ -295 Bovada: hit 66.7–70.3% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (4): Fanspeak Network (+3.5); Money Mitch (+3.5); Kyle Kirms (+3.5); East Coast Edge (+3). Count 0: JamalPicks 0.",
-        "blockedBy": "Under the 5-source floor. 4 of 5 sources. booksAlign False (engine 10-book check: EV < 0). Alt +9.5 fails R16 and R1 (hook short of 10)."
-      },
-      {
-        "rank": 5,
-        "tier": "NEAR MISS",
-        "sport": "NFL",
-        "pick": "Bengals -13",
-        "line": "main 51.6% · alt 63.4–67.4%",
-        "game": "TEN@CIN",
-        "timeCT": "12:00 PM CT",
-        "startCT": "2026-11-01T12:00:00-06:00",
-        "yt": 4,
-        "x": 0,
-        "booksAlign": false,
-        "onBoard": false,
-        "evPct": -0.16,
-        "rationale": "Main 51.6% · Pinnacle no-vig fair · best -107 BetRivers · EV -0.16% (info). Alt (+6 rung) -7 @ -245 BetRivers: hit 63.4–67.4% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (4): Free Picks PickDawgz (-12.5); StumpTheSpread (-12.5); Kyle Kirms (-10, easier line); JoJoSuave (-10.5, easier line). Count 0: JamalPicks 0.",
-        "blockedBy": "Under the 5-source floor. 4 of 5 sources. Pinnacle main now -13.5. Alt -7 lands on 7 (push risk) and fails R16."
-      },
-      {
-        "rank": 6,
-        "tier": "NEAR MISS",
-        "sport": "NFL",
-        "pick": "Jets -2",
-        "line": "main 49.3% · alt 62.2–66.1%",
-        "game": "LV@NYJ",
-        "timeCT": "12:00 PM CT",
-        "startCT": "2026-11-01T12:00:00-06:00",
-        "yt": 3,
-        "x": 0,
-        "booksAlign": false,
-        "onBoard": false,
-        "evPct": -5.03,
-        "rationale": "Main 49.3% · Pinnacle no-vig fair · best -108 Bovada · EV -5.03% (info). Alt (+6 rung) +4 @ -230 BetRivers: hit 62.2–66.1% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (3): RollingPlayz (-1.5); Myles Hawk (-1.5); Kyle Kirms (-1.5). Count 0: Between The Numbers 0 (parlay/tease leg).",
-        "blockedBy": "Under the 5-source floor. 3 of 5 sources. Alt fails R16."
-      },
-      {
-        "rank": 7,
-        "tier": "NEAR MISS",
-        "sport": "NFL",
-        "pick": "Jaguars -10.5",
-        "line": "main 48.3% · alt 64.8–69.1%",
-        "game": "IND@JAX",
-        "timeCT": "12:00 PM CT",
-        "startCT": "2026-11-01T12:00:00-06:00",
-        "yt": 3,
-        "x": 0,
-        "booksAlign": false,
-        "onBoard": false,
-        "evPct": -5.32,
-        "rationale": "Main 48.3% · Pinnacle no-vig fair · best -104 BetRivers · EV -5.32% (info). Alt (+6 rung) -4.5 @ -265 BetRivers: hit 64.8–69.1% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (3): Al Demarco (-10.5); SportsLine (-9.5); High Low Sports Podcast (-9.5).",
-        "blockedBy": "Under the 5-source floor. 3 of 5 sources. R1 key-number fail (hook through 10). Pinnacle main now -10. Alt fails R16."
-      },
-      {
-        "rank": 8,
-        "tier": "NEAR MISS",
-        "sport": "NFL",
-        "pick": "Ravens +3",
-        "line": "main 47.6% · alt 64.5–71.2%",
-        "game": "BAL@BUF",
-        "timeCT": "12:00 PM CT",
-        "startCT": "2026-11-01T12:00:00-06:00",
-        "yt": 4,
-        "x": 0,
-        "booksAlign": false,
-        "onBoard": false,
-        "evPct": -6.63,
-        "rationale": "Main 47.6% · Pinnacle no-vig fair · best -104 FanDuel · EV -6.63% (info). Alt (+6 rung) +9 @ -315 BetRivers: hit 64.5–71.2% (Screener range: 12% alt hold or normal-margin model, whichever is lower, to single-book de-vig). Counted (4): Myles Hawk (+3.5); Sports Parlay Picks (+3.5; name flag: singles); JoJoSuave (+4.5); Free Picks PickDawgz (+3). Count 0: JamalPicks 0; Guy Boston Sports 0 (same host on both Ravens and Bills).",
-        "blockedBy": "Under the 5-source floor. 4 of 5 sources. One side per game: Ravens (R15 4.2) over Bills -3 (4.1; Bills 52.4% fair, booksAlign False). Alt fails R16."
-      },
-      {
-        "rank": 9,
-        "tier": "PUBLISH",
-        "sport": "NFL",
-        "pick": "Chargers +6.5",
-        "line": "main 49.3% · alt 63.4–67.3%",
-        "game": "LAC@LAR",
-        "timeCT": "3:05 PM CT",
-        "startCT": "2026-11-01T15:05:00-06:00",
-        "yt": 7,
-        "x": 1,
-        "booksAlign": false,
-        "onBoard": true,
-        "evPct": -1.4,
-        "rationale": "Main 49.3% · Pinnacle no-vig fair · best +100 BetRivers · EV -1.40% (info). Alt +12.5 @ -245 BetRivers: hit 63.4–67.3% (Screener range). Counted (8): BettingPros (6.5); Guy Boston Sports (6.5); Myles Hawk (6.5); JoJoSuave (6.5); Money Mitch  and TheBottomLineView (6.5); Will @ 3rd & Long (6.5); Fantasy Bay (6.5); @jr_dimes (6.5). Count 0: Spence Locks 0 (\"either alt +7.5 or team total o18.5\" - ambiguous = 0); Raw Dawg Sports 0 (hosts split the game (host 1 Chargers +7, host 2 Rams ML) - a source on both sides = 0).",
-        "blockedBy": "Not CLEARED: X sources 1 (need 2+); booksAlign False (EV < 0 at best price vs Pinnacle fair). R1 KEY-NUMBER FAIL (takes +6.5, hook short of 7); alt +12.5 past R16 -200 cap; Rams -6.5 has the higher de-vig hit % (50.7%); one side per game chosen by source count (R15)"
-      },
-      {
-        "rank": 10,
-        "tier": "PUBLISH",
-        "sport": "NFL",
-        "pick": "Commanders -6",
-        "line": "main 48.8% · alt 67.2–70.7%",
-        "game": "PHI@WSH",
-        "timeCT": "7:20 PM CT",
-        "startCT": "2026-11-01T19:20:00-06:00",
-        "yt": 13,
-        "x": 1,
-        "booksAlign": false,
-        "onBoard": true,
-        "evPct": -4.65,
-        "rationale": "Main 48.8% · Pinnacle no-vig fair · best -105 Bovada · EV -4.65% (info). Alt +1 @ -275 BetRivers: hit 67.2–70.7% (Screener range). Counted (14): WagerTalk TV: Sports Picks and Betting Tips (-6); Doc's Sports Picks, Best Bets, Predictions & Odds (-6); Free Picks PickDawgz (-6); Money Mitch  and TheBottomLineView (-6); Greedo Plays (-6); Brock Page Productions (-6); JoJoSuave (-6); Pick Talk Sports Betting Podcast (-6); Will @ 3rd & Long (-6); Beating The Odds (-6); Fantasy Bay (-6); StumpTheSpread - Free Sports Picks Predictions (-6); Bag Report (-6); @ItsParlayPete (-6.5). Count 0: The Lock Talk 0 (AI-model pick + \"not my favorite\" lean = 0).",
-        "blockedBy": "Not CLEARED: X sources 1 (need 2+); booksAlign False (EV < 0 at best price vs Pinnacle fair). pk rung excluded (Screener: data glitch); alt +1 past R16 -200 cap; Eagles +6 has the higher de-vig hit % (51.2%); one side per game chosen by source count (R15)"
-      },
-      {
-        "rank": 11,
-        "tier": "PUBLISH",
-        "sport": "NFL",
-        "pick": "Broncos -1",
-        "line": "main 48.7% · alt 59.5–65.6%",
-        "game": "KC@DEN",
-        "timeCT": "3:25 PM CT",
-        "startCT": "2026-11-01T15:25:00-06:00",
-        "yt": 7,
-        "x": 0,
-        "booksAlign": false,
-        "onBoard": true,
-        "evPct": -0.59,
-        "rationale": "Main 48.7% · Pinnacle no-vig fair · best +104 BetRivers · EV -0.59% (info). Alt +5 @ -200 BetRivers: hit 59.5–65.6% (Screener range). Counted (7): Free Picks PickDawgz (1.5); Kyle Kirms (1.5); Will @ 3rd & Long (1.5); Pick Talk Sports Betting Podcast (1.5); Mayo Media Network  (1.5); Fanspeak Network (1.5); The Jay All Day NFL Show (1.5).",
-        "blockedBy": "Not CLEARED: X sources 0 (need 2+); booksAlign False (EV < 0 at best price vs Pinnacle fair). Line moved: all 7 sources took Broncos +1.5; credited at -1 under easier-line rule (same market); Chiefs +1 has the higher de-vig hit % (51.3%); one side per game chosen by source count (R15)"
-      },
-      {
-        "rank": 12,
-        "tier": "PUBLISH",
-        "sport": "NFL",
-        "pick": "Patriots -7",
-        "line": "main 48.4% · alt 65.6–73.2%",
-        "game": "NE@MIA",
-        "timeCT": "3:25 PM CT",
-        "startCT": "2026-11-01T15:25:00-06:00",
-        "yt": 12,
-        "x": 0,
-        "booksAlign": false,
-        "onBoard": true,
-        "evPct": -4.63,
-        "rationale": "Main 48.4% · Pinnacle no-vig fair · best -103 Bovada · EV -4.63% (info). Alt -1 @ -335 BetRivers: hit 65.6–73.2% (Screener range). Counted (12): Money Mitch  and TheBottomLineView (-6.5); Sports Parlay Picks (-6.5); Brock Page Productions (-6.5); High Low Sports Podcast (-6.5); Pick Talk Sports Betting Podcast (-6.5); The Milly Goats Sports Podcast (-6.5); Raw Dawg Sports (-6.5); Top Sports Debate (-6.5); Fantasy Bay (-6.5); Bets and Regrets (-6.5); Bag Report (-6.5); Mayo Media Network  (-7).",
-        "blockedBy": "Not CLEARED: X sources 0 (need 2+); booksAlign False (EV < 0 at best price vs Pinnacle fair). lands on key 7: push risk (R1 flag, not a fail); pk rung excluded (Screener: data glitch); alt -1 past R16 -200 cap; Dolphins +7 has the higher de-vig hit % (51.6%); one side per game chosen by source count (R15)"
-      }
-    ],
-    "note": "Prices re-pulled Sun Nov 1, 9:38–9:40 AM CT (Pinnacle guest API, FanDuel, Bovada, BetRivers; no paid Odds API). Screener sign-off 9:36 AM CT with fixes applied. Consensus is not an edge: every side is -EV vs Pinnacle fair. Research, not bets. No bets placed. || Afternoon prices re-pulled 2:04 PM CT (Pinnacle guest API, FanDuel, Bovada, BetRivers/Kambi; no paid Odds API). Inactives (ESPN game-day lists, checked 2:07 PM CT): LAC@LAR posted. LAC out: Donte Jackson (CB, was Q), Rodney Shelley (CB, was Q), Deane Leonard, Brenen Thompson, Theo Wease Jr. (Derwin James on IR). This thins the Chargers secondary, a negative for the Chargers +6.5 card, which already fails R1. LAR out: Parkinson (TE), Desjuan Johnson, Ty Simpson, Trost, Murray. Kyren, Puka and Herbert are active. NE@MIA posted. NE out: Henderson, A.J. Brown, Morton, Prunty, Canada. C. Davis and Elliss are active. MIA out: Proctor, Simpson, Wayne, Joly, Kromah. Brents and R. Taylor are active. Maye, Henry, Stevenson and Diggs are active. KC@DEN had not posted on ESPN by 2:07 PM CT (pre-game outs: Harvey, Hufanga, Delane, Norman-Lott). Bolles, Z. Allen, B. Jones and Mason Thomas are still questionable, so confirm before 3:25 PM CT. No card changed tier. Prices re-pulled at 2:04 PM CT. SNF (PHI@WSH) inactives post ~5:50 PM CT and have not posted yet (watch Saquon Barkley)."
+    "title": "Thu Nov 5 · NBA + NFL TNF",
+    "label": "0 publishable, 0 CLEARED on both slates",
+    "items": [],
+    "note": "NBA: max 3 counted sources. TNF: max 4 counted sources (Lawrence O1.5 pass TDs; Henry ATTD). Official inactives for JAC@BAL have not posted yet. No locks. Research, not bets. No bets placed.",
+    "emptyText": "Nothing reached the 5-source / CLEARED floor. See the NBA and NFL near-miss boards (Gauge)."
   },
   "performance": {
     "tally": {
@@ -828,9 +624,9 @@
     ],
     "note": "Flat 1u per card at the published price. Small sample; not predictive. Near misses tracked separately and excluded from totals."
   },
-  "xNote": "X send-it list 1867962331566612965 (Thu Nov 5 through ~1:36 PM CT): counted singles @austinsprops and @JoeDellera (Black O18.5 PA), @MuggsyPlays (Black O22.5 PRA, Gillespie U16.5 PRA); @tonyspicks / Millz Young counted once with the Tony's Picks video. Parlays/leans/models/promos count 0.",
-  "oddsApiNote": "Prices: NBA Thu Nov 5 free pulls ~1:08 PM CT from 4 books (Pinnacle guest API, FanDuel, Bovada, BetRivers). No paid Odds API calls. NFL tab prices remain from Sun Nov 1.",
-  "youtubeNote": "YouTube: 32 same-day NBA videos in-window Thu Nov 5 (27 captions + 5 local Whisper); Scout report was 28 (23+5). Mandatory queries ran. 15 videos with counting picks. TubeAlfred 0 credits; fallback yt-dlp + yt-asr.sh. Failed: Chad Slivinski. Upcoming: Bag Report.",
+  "xNote": "X send-it list 1867962331566612965 (Thu Nov 5 through ~1:36 PM CT): counted singles @austinsprops and @JoeDellera (Black O18.5 PA), @MuggsyPlays (Black O22.5 PRA, Gillespie U16.5 PRA); @tonyspicks / Millz Young counted once with the Tony's Picks video. Parlays/leans/models/promos count 0. TNF X send-it list 1867962331566612965 (Wed Nov 4 00:00 CT through publish): counted @Pickswise (Lawrence O1.5 pass TDs), @TheProfessor305 (Hill O2.5 rec), @ActionNetworkHQ (Henry ATTD). Flowers ATTD promo X dropped (Screener). Parlays/leans/models/promos/PrizePicks count 0.",
+  "oddsApiNote": "Prices: NBA Thu Nov 5 free pulls ~1:08 PM CT from 4 books (Pinnacle guest API, FanDuel, Bovada, BetRivers). No paid Odds API calls. NFL tab prices remain from Sun Nov 1. TNF prices: public books (Pinnacle guest league 889, FanDuel, Bovada, BetRivers/Kambi and other listed books). Pinnacle excluded from public best price. No paid Odds API calls.",
+  "youtubeNote": "YouTube: 32 same-day NBA videos in-window Thu Nov 5 (27 captions + 5 local Whisper); Scout report was 28 (23+5). Mandatory queries ran. 15 videos with counting picks. TubeAlfred 0 credits; fallback yt-dlp + yt-asr.sh. Failed: Chad Slivinski. Upcoming: Bag Report. TNF YouTube: search 38 · pool 111 · in-window listed 42 / strict 41 · transcribed real 30 (27 captions + 3 Whisper) · transcribed in-window strict 29 · usable non-PP 25 (funnel PASS). PP/DFS titles in transcribed count toward the 25 but 0 as sources (4). 12 desc-only remain in the raw pool. TubeAlfred 0 credits; fallback yt-dlp + local Whisper. Window: Wed Nov 4 00:00 CT through kickoff Thu Nov 5 7:15 PM CT.",
   "provisional": {
     "show": false
   },
@@ -844,11 +640,11 @@
       "onBoard": 0
     },
     "NFL": {
-      "onBoard": 7,
-      "edge": 0,
-      "close": 0,
       "cleared": 0,
-      "nearMiss": 30
+      "close": 0,
+      "edge": 0,
+      "nearMiss": 29,
+      "onBoard": 0
     }
   },
   "playerProps": {
@@ -865,7 +661,7 @@
     "emptyText": "No NBA props meet the rules tonight. Parlay candidates (near misses) are in the Gauge above and Tonight's NBA Props below."
   },
   "siteName": "Bearish Bulls Picks",
-  "propsNote": "NBA Thu Nov 5: 0 publishable, 0 CLEARED (max 3 counted sources, floor 5). Near-miss board and parlay hit % on the NBA tab. TNF is not published. No bets placed.",
+  "propsNote": "NBA Thu Nov 5: 0 publishable, 0 CLEARED (max 3 counted sources, floor 5). TNF Thu Nov 5 JAC@BAL: 0 publishable, 0 CLEARED (near-miss only; max 4 counted sources). Official inactives not yet posted; watch Tuten / Walker / Wiggins / Randall. No bets placed.",
   "defaultSub": {
     "NBA": "props",
     "NFL": "props"
@@ -879,71 +675,51 @@
     ]
   },
   "monteCarlo": {
-    "title": "Monte Carlo · NFL Publish singles (10,000 runs, Screener)",
-    "sub": "Win prob = Pinnacle no-vig fair; paid at best price (noon 9:09 AM CT, afternoon 12:16 PM CT); 1u flat; pushes not modelled.",
+    "title": "Monte Carlo · TNF near-miss singles (10,000 runs, Screener)",
+    "sub": "Same-game Gaussian copula (not independent). Win prob = Pinnacle no-vig / Yes-only scaled fair; paid at best public price (Pinnacle excluded). 1u flat. 0 publishable — info only.",
     "blocks": [
       {
-        "title": "Falcons +2, Steelers -3.5, Cardinals +7",
+        "title": "Rodriguez O29.5 rush / Lawrence O1.5 pass TDs / Bateman O13.5 / Hunter U9.5",
         "cells": [
           {
             "label": "Expected",
-            "value": "-0.155u",
-            "meta": "on 3u staked"
+            "value": "-0.06u",
+            "meta": "on 4u staked · analytic -0.039u"
           },
           {
             "label": "P(profit)",
-            "value": "48.4%",
-            "meta": ""
-          },
-          {
-            "label": "All 3 hit",
-            "value": "12.2%",
-            "meta": ""
-          }
-        ]
-      },
-      {
-        "title": "Afternoon/SNF: Commanders -6, Chargers +6.5, Broncos -1, Patriots -7",
-        "cells": [
-          {
-            "label": "Expected",
-            "value": "-0.102u",
-            "meta": "on 4u staked"
-          },
-          {
-            "label": "P(profit)",
-            "value": "42.1%",
+            "value": "38.4%",
             "meta": ""
           },
           {
             "label": "All 4 hit",
-            "value": "5.9%",
-            "meta": ""
+            "value": "9.1%",
+            "meta": "SD 1.779u"
           }
         ]
       },
       {
-        "title": "Afternoon/SNF: Chargers +6.5, Commanders -6, Broncos -1, Patriots -7",
+        "title": "Same-game parlays (copula) · all -EV",
         "cells": [
           {
-            "label": "Expected",
-            "value": "-0.102u",
-            "meta": "on 4u staked"
+            "label": "2-leg",
+            "value": "29.8%",
+            "meta": "decimal 2.945 · EV -12.11%"
           },
           {
-            "label": "P(profit)",
-            "value": "42.1%",
-            "meta": ""
+            "label": "3-leg",
+            "value": "16.9%",
+            "meta": "decimal 5.507 · EV -6.83%"
           },
           {
-            "label": "All 4 hit",
-            "value": "5.9%",
-            "meta": ""
+            "label": "4-leg Watch",
+            "value": "8.4%",
+            "meta": "decimal 10.38 · EV -12.7% · WONG #10 / B24"
           }
         ]
       }
     ],
-    "note": "Illustrative only. Stake 0 without a documented edge (R23). No bets placed."
+    "note": "Same-game correlation applied (not the independent product). 4-leg is Watch only. No locks. Research, not bets. No bets placed."
   },
   "lastResults": {
     "title": "Wednesday's results (Oct 28)",
@@ -1314,476 +1090,380 @@
     },
     "caveat": "Caveat: Oct 26 overs went NFL 6-9, NBA 5-10. The sim uses market fair prices and cannot capture pick-quality error. Research, not picks. No bets placed.",
     "NFL": {
-      "pill": "NOON + AFTERNOON",
-      "title": "NFL Sunday Nov 1 (Week 8) · noon CT pass + afternoon/SNF pass",
-      "lead": "7 Publish (not CLEARED: 3 noon, 4 afternoon/SNF), 0 CLEARED.",
-      "label": "Noon and afternoon/SNF rows are same-day passes (each Screener-signed with fixes): spreads one side per game, ranked by Pinnacle no-vig hit %, EV as tiebreak. Alt hit % is the Screener's range. All props are near misses (floor 5). The Thu Oct 29 early-look rows for the later games have been replaced.",
-      "note": "Spreads: 73 transcribed same-day videos (67 after engine exclusions) plus the X send-it list. Count 0: JamalPicks, Cash Out Sports Picks, Tipster Sports (engine-excluded), In The Green DFS (PrizePicks), Between The Numbers sides (parlay/tease legs; its straight props count), Guy Boston on Ravens/Bills/Lions (Browns +4.5 counts). Name flags: Sports Parlay Picks and @ItsParlayPete post singles despite the names; both count. Parlays (different games only; Screener numbers on 9:09 AM CT prices): main 2 legs 24.6% / 3 legs 11.9% / 4 legs 6.1% (Falcons +2, Steelers -3.5, Cardinals +7, + Vikings +3.5). +6 alt legs: 2 legs 41–50% / 3 legs 26–33% / 4 legs 18–24%. All -EV. Every alt rung fails R16 (priced past -200); +9.5 legs fail R1. No valid Wong teaser: Falcons +2→+8 is the only Wong leg. Monte Carlo (10k, Screener, 1u flat singles at best price): E -0.155u on 3u, P(profit) 48.4%, all 3 hit 12.2%. Illustrative only: stake 0 without an edge (R23). Injuries ~9:20 AM CT: Egbuka, Tate, Spears, Kerby Joseph out; Breece Hall not expected to play; Pickens, DJ Moore, Kincaid, Ridley questionable. || Afternoon/SNF: 86 (props) / 92 (spreads) transcribed in-window afternoon/SNF videos plus the X send-it list (834 posts, 118 posters). Count 0: JamalPicks, Cash Out Sports Picks, Tipster Sports, In The Green DFS, Between The Numbers side+total combos, X parlay/SGP/promo legs (all X ATTD legs on Walker, Kyren, Nacua, Diggs, Corum, Henry, White, M. Washington, Gordon; Sutton u3.5), AI/model accounts, leans, host splits (Raw Dawg, Jay All Day), Spence (ambiguous), The Lock Talk (AI pick). On every afternoon/SNF game the opposite side has the higher de-vig hit % (Eagles +6 50.5%, Rams -6.5 51.2%, Chiefs +1 51.3%, Dolphins +7 51.3%); one side per game is chosen by source count (R15). Afternoon/SNF parlays (different games, Screener, info only): main 2/3/4 legs 24.2% / 11.8% / 5.75% (Commanders -6, Chargers +6.5, Broncos -1, Patriots -7); alt legs (Commanders +1, Chargers +12.5, Broncos +5, Patriots -1) 42.6–47.6% / 25.4–31.2% / 16.6–22.8%. All -EV; every alt leg except Broncos +5 @ -200 is past the R16 -200 cap. Glitch rungs (Commanders pk, Patriots pk) excluded. No teaser prices pulled. Near-miss prop parlays not published. Monte Carlo (10k, Screener, 1u flat singles at best price): E -0.102u on 4u, P(profit) 42.1%, all 4 hit 5.9%. Illustrative only: stake 0 without an edge (R23). Weather: heavy rain in Miami; NE@MIA total moved 44.5 → 41.5. Inactives (ESPN game-day lists, checked 2:07 PM CT): LAC@LAR posted. LAC out: Donte Jackson (CB, was Q), Rodney Shelley (CB, was Q), Deane Leonard, Brenen Thompson, Theo Wease Jr. (Derwin James on IR). This thins the Chargers secondary, a negative for the Chargers +6.5 card, which already fails R1. LAR out: Parkinson (TE), Desjuan Johnson, Ty Simpson, Trost, Murray. Kyren, Puka and Herbert are active. NE@MIA posted. NE out: Henderson, A.J. Brown, Morton, Prunty, Canada. C. Davis and Elliss are active. MIA out: Proctor, Simpson, Wayne, Joly, Kromah. Brents and R. Taylor are active. Maye, Henry, Stevenson and Diggs are active. KC@DEN had not posted on ESPN by 2:07 PM CT (pre-game outs: Harvey, Hufanga, Delane, Norman-Lott). Bolles, Z. Allen, B. Jones and Mason Thomas are still questionable, so confirm before 3:25 PM CT. No card changed tier. Prices re-pulled at 2:04 PM CT. SNF (PHI@WSH) inactives post ~5:50 PM CT and have not posted yet (watch Saquon Barkley).",
+      "pill": "GAUGE · NEAR MISS",
+      "title": "TNF player props · JAC@BAL · Thu Nov 5",
+      "lead": "Near-miss only — 0 CLEARED / 0 publishable. Kickoff 7:15 PM CT. Official inactives not yet posted (watch Tuten / Walker / Wiggins / Randall).",
+      "label": "Gauge near-miss board (Screener FINAL SIGN-OFF 2:30 PM CT). Ranked by de-vigged hit % at the main line (Pinnacle no-vig or Yes-only scaled for ATTD), EV vs fair as tiebreak. Safer alt = closest unflagged rung (R16 if priced past −200). Four splits withheld. No locks. Research, not picks. No bets placed.",
+      "note": "TNF Thu Nov 5: Jacksonville Jaguars at Baltimore Ravens, 7:15 PM CT / 8:15 PM ET, Prime Video, M&T Bank Stadium (ESPN 401873037). Screener FINAL SIGN-OFF 2:30 PM CT: AGREE, funnel PASS, 0 CLEARED / 0 publishable — near-miss board only. Official inactives not yet posted (typical ~5:45 PM CT, 90 min before kickoff). Watch: Bhayshul Tuten (ankle/foot, DNP all week, GTD — candidate-changer for Rodriguez), Travon Walker (rib), Nate Wiggins (stinger/illness), Adam Randall (neck, IR-R). Out: Lamar Jackson (IR, R thumb), Tyler Huntley (IR, turf toe), Jaylinn Hawkins (knee), Tyler Loop (IR groin; Jake Moody kicks). Start: Joe Fagnano (Brissett trade not in time, Week 10). Same-game parlay set Rodriguez O29.5 rush / Lawrence O1.5 pass TDs / Bateman O13.5 rec yds / Hunter U9.5 rec yds: Gaussian copula 2/3/4-leg 29.8 / 16.9 / 8.4% (decimals 2.945 / 5.507 / 10.38; all -EV; 4-leg Watch only, WONG #10 / B24). MC 4 singles (10k, seed 20261105): E −0.06u (analytic −0.039u), P(profit) 38.4%, all-hit 9.1%, SD 1.779u. Four splits are withheld (Andrews O2.5 rec, Flowers O4.5 rec, Henry rush yds, Henry rush att). No locks. Research, not bets. No bets placed.",
       "cols": [
         "#",
         "Label",
         "Sport",
-        "Market",
-        "Kick CT",
-        "Hit % (fair)",
-        "Best price · book",
-        "EV (info only)",
-        "Sources listed (upload CT)",
-        "Counted / flags"
+        "Player · stat · line (main)",
+        "Tip CT · game",
+        "Hit % (main line)",
+        "Safer alt · hit % range · price",
+        "Best price · book · EV",
+        "Sources counted",
+        "Flags"
       ],
       "rows": [
         [
           1,
-          "Publish (not CLEARED)",
+          "Near miss",
           "NFL",
-          "Falcons +2 (spread)",
-          "Sun 12:00 PM · ATL@TB",
-          "49.9% · Pinnacle no-vig · alt +8 66.4–74.3%",
-          "-110 Bovada",
-          "-4.77%",
-          "6 counted · BettingPros (+2.5); Mayo Media Network (+2.5); Petey Picks (+2.5); Kyle Kirms (+2.5); JoJoSuave (+1.5); Bets and Regrets (+2.5)",
-          "YT 6 / X 0 · booksAlign False (engine 10-book check) · Only valid Wong teaser leg on the slate (+2 → +8 crosses 3 and 7), but no second Wong leg exists, so no valid 2-team teaser. Alt +8 fails R16 (past -200). · Count 0: JamalPicks 0 (engine-excluded); Between The Numbers 0 (side+total parlay/tease leg)"
+          "Chris Rodriguez Jr Over 29.5 rush yds",
+          "7:15 PM · JAC@BAL",
+          "57.8% · Pinnacle no-vig",
+          "—",
+          "Pinnacle-only (no public book) · EV -4.51%",
+          "2 · YT 2 · X 0 · BettingPros, WagerTalk",
+          "2 of 5 sources (publish floor); Pinnacle-only (excluded from public best price); Tuten GTD — injury-dependent (watch official inactives ~5:45 PM CT); WagerTalk lean-borderline (counted 1, flagged); booksAlign yes; not CLEARED: sources 2<5; YT 2<3; X 0<2"
         ],
         [
           2,
-          "Publish (not CLEARED)",
+          "Near miss",
           "NFL",
-          "Steelers -3.5 (spread)",
-          "Sun 12:00 PM · CLE@PIT",
-          "49.3% · Pinnacle no-vig · alt +2.5 62.2–66.7%",
-          "-108 FanDuel",
-          "-5.05%",
-          "6 counted · Fantasy Aces (-2.5); Sports Parlay Picks (-2.5; name flag: singles, not a parlay); Fan Stream Sports (Chad) (-3.5); JoJoSuave (-3.5); Bets and Regrets (-3.5); Fanspeak Network (-3.5)",
-          "YT 6 / X 0 · booksAlign False (engine 10-book check) · R1 key-number fail: lays the hook through 3. Alt +2.5 fails R16 (past -200) and R1 (hook). One side per game: Steelers 6 sources vs Browns +3.5 5 (engine R15 5.7 vs 5.0). Browns +3.5 has the higher hit %: Screener 50.5% vs 49.5%; re-pull 50.7% vs 49.3%. · Count 0: JamalPicks 0 (engine-excluded); Between The Numbers 0 (parlay/tease leg)"
+          "Trevor Lawrence Over 1.5 pass TDs",
+          "7:15 PM · JAC@BAL",
+          "55.8% · Pinnacle no-vig",
+          "—",
+          "-128 FanDuel · EV -0.69%",
+          "4 · YT 3 · X 1 · BettingPros, WagerTalk, Between The Numbers, @Pickswise",
+          "4 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 4<5; X 1<2"
         ],
         [
           3,
-          "Publish (not CLEARED)",
+          "Near miss",
           "NFL",
-          "Cardinals +7 (spread)",
-          "Sun 12:00 PM · ARI@DAL",
-          "46.8% · Pinnacle no-vig · alt +13 63.4–67.3%",
-          "-105 FanDuel",
-          "-8.73%",
-          "6 counted · Fanspeak Network (+7); Tony's Picks (+7); Mayo Media Network (+7); Free Picks PickDawgz (+7); Money Mitch (+7); Petey Picks / Simon (+7)",
-          "YT 6 / X 0 · booksAlign False (engine 10-book check) · Line moved: Pinnacle main is now Cardinals +7.5 (fair 50.5%, best +7.5 -120 Bovada, EV -7.49%). Posted pick stays +7 per the signed list. Alt +13 fails R16 (past -200). · Count 0: JamalPicks 0 (engine-excluded); The Bettor Mark 0 (lean: \"if I could get 7.5\")"
+          "Rashod Bateman Over 13.5 rec yds",
+          "7:15 PM · JAC@BAL",
+          "54.5% · Pinnacle no-vig",
+          "o12.5 · 50.0–50.0% · -113 FanDuel",
+          "-115 Hard Rock (FL) · EV +1.93%",
+          "2 · YT 2 · X 0 · StumpTheSpread, Fantasy Points",
+          "2 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 2<5; YT 2<3; X 0<2"
         ],
         [
           4,
           "Near miss",
           "NFL",
-          "Vikings +3.5 (spread)",
-          "Sun 12:00 PM · MIN@DET",
-          "51.6% · Pinnacle no-vig · alt +9.5 66.7–70.3%",
-          "-117 Bovada",
-          "-4.26%",
-          "4 counted · Fanspeak Network (+3.5); Money Mitch (+3.5); Kyle Kirms (+3.5); East Coast Edge (+3)",
-          "YT 4 / X 0 · booksAlign False (engine 10-book check) · 4 of 5 sources. booksAlign False (engine 10-book check: EV < 0). Alt +9.5 fails R16 and R1 (hook short of 10). · Count 0: JamalPicks 0"
+          "Travis Hunter Under 9.5 rec yds",
+          "7:15 PM · JAC@BAL",
+          "52.7% · Pinnacle no-vig",
+          "u10.5 · 49.2–49.2% · -110 BetParx",
+          "-113 FanDuel · EV -0.66%",
+          "1 · YT 1 · X 0 · Fantasy Points",
+          "1 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 1<5; YT 1<3; X 0<2"
         ],
         [
           5,
           "Near miss",
           "NFL",
-          "Bengals -13 (spread)",
-          "Sun 12:00 PM · TEN@CIN",
-          "51.6% · Pinnacle no-vig · alt -7 63.4–67.4%",
-          "-107 BetRivers",
-          "-0.16%",
-          "4 counted · Free Picks PickDawgz (-12.5); StumpTheSpread (-12.5); Kyle Kirms (-10, easier line); JoJoSuave (-10.5, easier line)",
-          "YT 4 / X 0 · booksAlign False (engine 10-book check) · 4 of 5 sources. Pinnacle main now -13.5. Alt -7 lands on 7 (push risk) and fails R16. · Count 0: JamalPicks 0"
+          "Justice Hill Over 2.5 receptions",
+          "7:15 PM · JAC@BAL",
+          "52.5% · Pinnacle no-vig",
+          "—",
+          "-125 BetOnline · EV -5.53%",
+          "3 · YT 2 · X 1 · Just A Bet Outside, 925 Sports, @TheProfessor305",
+          "3 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 3<5; YT 2<3; X 1<2"
         ],
         [
           6,
           "Near miss",
           "NFL",
-          "Jets -2 (spread)",
-          "Sun 12:00 PM · LV@NYJ",
-          "49.3% · Pinnacle no-vig · alt +4 62.2–66.1%",
-          "-108 Bovada",
-          "-5.03%",
-          "3 counted · RollingPlayz (-1.5); Myles Hawk (-1.5); Kyle Kirms (-1.5)",
-          "YT 3 / X 0 · booksAlign False (engine 10-book check) · 3 of 5 sources. Alt fails R16. · Count 0: Between The Numbers 0 (parlay/tease leg)"
+          "Brenton Strange Over 35.5 rec yds",
+          "7:15 PM · JAC@BAL",
+          "51.3% · Pinnacle no-vig",
+          "o34.5 · 50.5–50.5% · -114 DraftKings",
+          "-113 FanDuel · EV -3.30%",
+          "3 · YT 3 · X 0 · Stephie Smalls, BettingPros, BetQL",
+          "3 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 3<5; X 0<2"
         ],
         [
           7,
           "Near miss",
           "NFL",
-          "Jaguars -10.5 (spread)",
-          "Sun 12:00 PM · IND@JAX",
-          "48.3% · Pinnacle no-vig · alt -4.5 64.8–69.1%",
-          "-104 BetRivers",
-          "-5.32%",
-          "3 counted · Al Demarco (-10.5); SportsLine (-9.5); High Low Sports Podcast (-9.5)",
-          "YT 3 / X 0 · booksAlign False (engine 10-book check) · 3 of 5 sources. R1 key-number fail (hook through 10). Pinnacle main now -10. Alt fails R16."
+          "Nate Boerkircher Over 7.5 rec yds",
+          "7:15 PM · JAC@BAL",
+          "51.0% · single-book two-way",
+          "—",
+          "-120 BetMGM · EV -6.48%",
+          "1 · YT 1 · X 0 · Matty Chucks",
+          "1 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 1<5; YT 1<3; X 0<2"
         ],
         [
           8,
           "Near miss",
           "NFL",
-          "Ravens +3 (spread)",
-          "Sun 12:00 PM · BAL@BUF",
-          "47.6% · Pinnacle no-vig · alt +9 64.5–71.2%",
-          "-104 FanDuel",
-          "-6.63%",
-          "4 counted · Myles Hawk (+3.5); Sports Parlay Picks (+3.5; name flag: singles); JoJoSuave (+4.5); Free Picks PickDawgz (+3)",
-          "YT 4 / X 0 · booksAlign False (engine 10-book check) · 4 of 5 sources. One side per game: Ravens (R15 4.2) over Bills -3 (4.1; Bills 52.4% fair, booksAlign False). Alt fails R16. · Count 0: JamalPicks 0; Guy Boston Sports 0 (same host on both Ravens and Bills)"
+          "Brenton Strange Over 16.5 longest rec",
+          "7:15 PM · JAC@BAL",
+          "50.9% · 7-book two-way consensus",
+          "—",
+          "-114 Bally Bet · EV -4.36%",
+          "1 · YT 1 · X 0 · Stephie Smalls",
+          "1 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 1<5; YT 1<3; X 0<2"
         ],
         [
           9,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "CeeDee Lamb Yes Anytime TD",
-          "Sun 12:00 PM · ARI@DAL",
-          "54.5% · Yes de-vig median",
-          "-132 Bovada",
-          "-4.21%",
-          "2 counted · 925 Sports; Cardio Plays",
-          "YT 2 / X 0 · near miss (max 2 sources, floor 5)"
+          "Justice Hill Over 31.5 rush+rec yds",
+          "7:15 PM · JAC@BAL",
+          "50.8% · 2-book two-way consensus",
+          "—",
+          "-118 Bally Bet · EV -6.11%",
+          "2 · YT 1 · X 1 · Land Your Bets, @Pickswise",
+          "2 of 5 sources (publish floor); WagerTalk lean-borderline (counted 1, flagged); booksAlign yes; not CLEARED: sources 2<5; YT 1<3; X 1<2"
         ],
         [
           10,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Michael Wilson Over 56.5 Receiving Yards",
-          "Sun 12:00 PM · ARI@DAL",
-          "54.3% · Pinnacle no-vig",
-          "none at the fair line",
-          "n/a",
-          "1 counted · Fanspeak Network",
-          "YT 1 / X 0 · near miss (max 2 sources, floor 5) · removed: Cash Out Sports Picks (engine-excluded)"
+          "Zay Flowers Over 48.5 rec yds",
+          "7:15 PM · JAC@BAL",
+          "50.4% · Pinnacle no-vig",
+          "o47.5 · 49.8–49.8% · -113 BetParx",
+          "-113 FanDuel · EV -4.94%",
+          "2 · YT 1 · X 1 · BettingPros, @ItsParlayPete",
+          "2 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 2<5; YT 1<3; X 1<2"
         ],
         [
           11,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "DK Metcalf Over 52.5 Receiving Yards",
-          "Sun 12:00 PM · CLE@PIT",
-          "53.0% · Pinnacle no-vig",
-          "-114 BetRivers",
-          "-0.50%",
-          "1 counted · Between The Numbers",
-          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+          "Justice Hill Over 14.5 rec yds",
+          "7:15 PM · JAC@BAL",
+          "50.4% · Pinnacle no-vig",
+          "o13.5 · 55.1–55.1% · -140 ESPN BET",
+          "-113 FanDuel · EV -4.94%",
+          "2 · YT 2 · X 0 · SportsLine, Final Round Sports",
+          "2 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 2<5; YT 2<3; X 0<2"
         ],
         [
           12,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Ja'Marr Chase Over 6.5 Receptions",
-          "Sun 12:00 PM · TEN@CIN",
-          "52.9% · Pinnacle no-vig",
-          "-138 FanDuel",
-          "-8.74%",
-          "1 counted · @__LordPenguin",
-          "YT 0 / X 1 · near miss (max 2 sources, floor 5)"
+          "Mark Andrews Over 18.5 rec yds",
+          "7:15 PM · JAC@BAL",
+          "50.2% · Pinnacle no-vig",
+          "o17.5 · 49.2–49.2% · -110 BetParx",
+          "-113 FanDuel · EV -5.34%",
+          "1 · YT 0 · X 1 · @JoMaddenSports",
+          "1 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 1<5; YT 0<3; X 1<2"
         ],
         [
           13,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Quinshon Judkins Over 9.5 Receiving Yards",
-          "Sun 12:00 PM · CLE@PIT",
-          "51.8% · Pinnacle no-vig",
-          "-110 Bovada",
-          "-1.05%",
-          "1 counted · Straight Fire Picks",
-          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+          "Joe Fagnano Under 28.5 pass att",
+          "7:15 PM · JAC@BAL",
+          "50.0% · Pinnacle no-vig",
+          "u29.5 · 52.6–52.6% · -129 BetParx",
+          "-103 DraftKings · EV -1.46%",
+          "1 · YT 1 · X 0 · WagerTalk",
+          "1 of 5 sources (publish floor); mapped from completions wording → pass attempts; booksAlign no; not CLEARED: sources 1<5; YT 1<3; X 0<2; booksAlign not true"
         ],
         [
           14,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Cam Ward Under 192.5 Passing Yards",
-          "Sun 12:00 PM · TEN@CIN",
-          "51.8% · Pinnacle no-vig",
-          "-113 FanDuel",
-          "-2.30%",
-          "1 counted · Any Given Sunday Australia",
-          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+          "Trevor Lawrence Under 29.5 pass att",
+          "7:15 PM · JAC@BAL",
+          "50.0% · Pinnacle no-vig",
+          "—",
+          "-105 ESPN BET · EV -2.38%",
+          "2 · YT 2 · X 0 · Land Your Bets, Lineups",
+          "2 of 5 sources (publish floor); booksAlign no; not CLEARED: sources 2<5; YT 2<3; X 0<2; booksAlign not true"
         ],
         [
           15,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Brock Bowers Over 68.5 Receiving Yards",
-          "Sun 12:00 PM · LV@NYJ",
-          "51.7% · Pinnacle no-vig",
-          "-113 FanDuel",
-          "-2.48%",
-          "1 counted · Land Your Bets",
-          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+          "Trevor Lawrence Under 233.5 pass yds",
+          "7:15 PM · JAC@BAL",
+          "50.0% · Pinnacle no-vig",
+          "u235.5 · 50.0–50.0% · -115 Hard Rock (FL)",
+          "-105 BetMGM · EV -2.38%",
+          "1 · YT 0 · X 1 · @JoMaddenSports",
+          "1 of 5 sources (publish floor); booksAlign no; not CLEARED: sources 1<5; YT 0<3; X 1<2; booksAlign not true"
         ],
         [
           16,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Kendrick Bourne Over 3.5 Receptions",
-          "Sun 12:00 PM · ARI@DAL",
-          "51.7% · Pinnacle no-vig",
-          "-122 FanDuel",
-          "-5.86%",
-          "1 counted · Player Prop Savant",
-          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+          "Derrick Henry Over 80.5 rush+rec yds",
+          "7:15 PM · JAC@BAL",
+          "50.0% · single-book two-way",
+          "o79.5 · 50.0–50.0% · -120 Fliff",
+          "-113 FanDuel · EV -5.75%",
+          "1 · YT 1 · X 0 · WagerTalk",
+          "1 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 1<5; YT 1<3; X 0<2"
         ],
         [
           17,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Bijan Robinson Over 31.5 Receiving Yards",
-          "Sun 12:00 PM · ATL@TB",
-          "51.6% · Pinnacle no-vig",
-          "none at the fair line",
-          "n/a",
-          "1 counted · Prop Lock or Drop It",
-          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+          "Trevor Lawrence Over 247.5 pass+rush yds",
+          "7:15 PM · JAC@BAL",
+          "50.0% · 4-book two-way consensus",
+          "—",
+          "-114 Bally Bet · EV -6.14%",
+          "1 · YT 0 · X 1 · @__LordPenguin",
+          "1 of 5 sources (publish floor); booksAlign yes; not CLEARED: sources 1<5; YT 0<3; X 1<2"
         ],
         [
           18,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Joe Burrow Over 272.5 Passing Yards",
-          "Sun 12:00 PM · TEN@CIN",
-          "51.5% · Pinnacle no-vig",
-          "-113 FanDuel",
-          "-2.89%",
-          "1 counted · @ItsParlayPete",
-          "YT 0 / X 1 · near miss (max 2 sources, floor 5) · name flag: @ItsParlayPete posts a numbered best-bets thread of singles (counted)"
+          "Parker Washington Over 63.5 rec yds",
+          "7:15 PM · JAC@BAL",
+          "49.8% · Pinnacle no-vig",
+          "o62.5 · 50.0–50.0% · -114 DraftKings",
+          "-116 BetOnline · EV -7.30%",
+          "2 · YT 2 · X 0 · BettingPros, StumpTheSpread",
+          "2 of 5 sources (publish floor); booksAlign no; not CLEARED: sources 2<5; YT 2<3; X 0<2; booksAlign not true"
         ],
         [
           19,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Kyler Murray Over 224.5 Passing Yards",
-          "Sun 12:00 PM · ARI@DAL",
-          "51.3% · Pinnacle no-vig",
-          "-113 FanDuel",
-          "-3.30%",
-          "1 counted · Split Labs",
-          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+          "Derrick Henry Over 6.5 rec yds",
+          "7:15 PM · JAC@BAL",
+          "49.1% · Pinnacle no-vig",
+          "o5.5 · 50.0–50.0% · -114 BetParx",
+          "-112 BetOnline · EV -7.00%",
+          "3 · YT 2 · X 1 · WagerTalk, SportsLine, @JoMaddenSports",
+          "3 of 5 sources (publish floor); booksAlign no; not CLEARED: sources 3<5; YT 2<3; X 1<2; booksAlign not true"
         ],
         [
           20,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "James Cook Yes Anytime TD",
-          "Sun 12:00 PM · BAL@BUF",
-          "57.5% · NO sharp fair (2-book Yes-only mean; R10), not ranked on it",
-          "-155 FanDuel",
-          "-5.36%",
-          "1 counted · Guy Boston Sports",
-          "YT 1 / X 0 · near miss (max 2 sources, floor 5)"
+          "Rashod Bateman Over 11.5 longest rec",
+          "7:15 PM · JAC@BAL",
+          "49.0% · 8-book two-way consensus",
+          "o10.5 · 50.0–50.0% · -115 BetMGM",
+          "-105 Hard Rock (FL) · EV -4.36%",
+          "1 · YT 1 · X 0 · WagerTalk",
+          "1 of 5 sources (publish floor); booksAlign no; not CLEARED: sources 1<5; YT 1<3; X 0<2; booksAlign not true"
         ],
         [
           21,
-          "Publish (not CLEARED)",
+          "Near miss",
           "NFL",
-          "Chargers +6.5 (spread)",
-          "Sun 3:05 PM · LAC@LAR",
-          "49.3% · Pinnacle no-vig · alt +12.5 63.4–67.3%",
-          "+100 BetRivers",
-          "-1.40%",
-          "8 counted · BettingPros (6.5); Guy Boston Sports (6.5); Myles Hawk (6.5); JoJoSuave (6.5); Money Mitch  and TheBottomLineView (6.5); Will @ 3rd & Long (6.5); Fantasy Bay (6.5); @jr_dimes (6.5)",
-          "YT 7 / X 1 · booksAlign False · R1 KEY-NUMBER FAIL (takes +6.5, hook short of 7); alt +12.5 past R16 -200 cap; Rams -6.5 has the higher de-vig hit % (50.7%); one side per game chosen by source count (R15) · Count 0: Spence Locks 0 (\"either alt +7.5 or team total o18.5\" - ambiguous = 0); Raw Dawg Sports 0 (hosts split the game (host 1 Chargers +7, host 2 Rams ML) - a source on both sides = 0)"
+          "Joe Fagnano Under 0.5 pass TDs",
+          "7:15 PM · JAC@BAL",
+          "48.5% · Pinnacle no-vig",
+          "—",
+          "+110 BetParx · EV +1.81%",
+          "1 · YT 1 · X 0 · StumpTheSpread",
+          "1 of 5 sources (publish floor); booksAlign no; not CLEARED: sources 1<5; YT 1<3; X 0<2; booksAlign not true"
         ],
         [
           22,
-          "Publish (not CLEARED)",
+          "Near miss",
           "NFL",
-          "Commanders -6 (spread)",
-          "Sun 7:20 PM · PHI@WSH",
-          "48.8% · Pinnacle no-vig · alt +1 67.2–70.7%",
-          "-105 Bovada",
-          "-4.65%",
-          "14 counted · WagerTalk TV: Sports Picks and Betting Tips (-6); Doc's Sports Picks, Best Bets, Predictions & Odds (-6); Free Picks PickDawgz (-6); Money Mitch  and TheBottomLineView (-6); Greedo Plays (-6); Brock Page Productions (-6); JoJoSuave (-6); Pick Talk Sports Betting Podcast (-6); Will @ 3rd & Long (-6); Beating The Odds (-6); Fantasy Bay (-6); StumpTheSpread - Free Sports Picks Predictions (-6); Bag Report (-6); @ItsParlayPete (-6.5)",
-          "YT 13 / X 1 · booksAlign False · pk rung excluded (Screener: data glitch); alt +1 past R16 -200 cap; Eagles +6 has the higher de-vig hit % (51.2%); one side per game chosen by source count (R15) · Count 0: The Lock Talk 0 (AI-model pick + \"not my favorite\" lean = 0)"
+          "Chris Rodriguez Jr anytime TD",
+          "7:15 PM · JAC@BAL",
+          "47.3% · Yes-only scaled",
+          "—",
+          "+108 Bally Bet · EV -1.70%",
+          "1 · YT 1 · X 0 · DFSnDonuts",
+          "1 of 5 sources (publish floor); Tuten GTD — injury-dependent (watch official inactives ~5:45 PM CT); ATTD Yes-only scaled fair; not CLEARED: sources 1<5; YT 1<3; X 0<2; booksAlign not true"
         ],
         [
           23,
-          "Publish (not CLEARED)",
+          "Near miss",
           "NFL",
-          "Broncos -1 (spread)",
-          "Sun 3:25 PM · KC@DEN",
-          "48.7% · Pinnacle no-vig · alt +5 59.5–65.6%",
-          "+104 BetRivers",
-          "-0.59%",
-          "7 counted · Free Picks PickDawgz (1.5); Kyle Kirms (1.5); Will @ 3rd & Long (1.5); Pick Talk Sports Betting Podcast (1.5); Mayo Media Network  (1.5); Fanspeak Network (1.5); The Jay All Day NFL Show (1.5)",
-          "YT 7 / X 0 · booksAlign False · Line moved: all 7 sources took Broncos +1.5; credited at -1 under easier-line rule (same market); Chiefs +1 has the higher de-vig hit % (51.3%); one side per game chosen by source count (R15)"
+          "Trevor Lawrence Under 18.5 completions",
+          "7:15 PM · JAC@BAL",
+          "46.2% · Pinnacle no-vig",
+          "u19.5 · 53.5–53.5% · -131 DraftKings",
+          "+105 ESPN BET · EV -5.36%",
+          "1 · YT 1 · X 0 · WagerTalk",
+          "1 of 5 sources (publish floor); booksAlign no; not CLEARED: sources 1<5; YT 1<3; X 0<2; booksAlign not true"
         ],
         [
           24,
-          "Publish (not CLEARED)",
+          "Near miss",
           "NFL",
-          "Patriots -7 (spread)",
-          "Sun 3:25 PM · NE@MIA",
-          "48.4% · Pinnacle no-vig · alt -1 65.6–73.2%",
-          "-103 Bovada",
-          "-4.63%",
-          "12 counted · Money Mitch  and TheBottomLineView (-6.5); Sports Parlay Picks (-6.5); Brock Page Productions (-6.5); High Low Sports Podcast (-6.5); Pick Talk Sports Betting Podcast (-6.5); The Milly Goats Sports Podcast (-6.5); Raw Dawg Sports (-6.5); Top Sports Debate (-6.5); Fantasy Bay (-6.5); Bets and Regrets (-6.5); Bag Report (-6.5); Mayo Media Network  (-7)",
-          "YT 12 / X 0 · booksAlign False · lands on key 7: push risk (R1 flag, not a fail); pk rung excluded (Screener: data glitch); alt -1 past R16 -200 cap; Dolphins +7 has the higher de-vig hit % (51.6%); one side per game chosen by source count (R15)"
+          "Jakobi Meyers Over 3.5 receptions",
+          "7:15 PM · JAC@BAL",
+          "40.6% · Pinnacle no-vig",
+          "o2.5 · 60.6–60.6% · -182 BetRivers",
+          "+125 Hard Rock (FL) · EV -8.53%",
+          "1 · YT 1 · X 0 · StumpTheSpread",
+          "1 of 5 sources (publish floor); booksAlign no; not CLEARED: sources 1<5; YT 1<3; X 0<2; booksAlign not true"
         ],
         [
           25,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Hunter Henry Over 44.5 Receiving Yards",
-          "Sun 3:25 PM · NE@MIA",
-          "51.3% · Pinnacle no-vig",
-          "-116 Pinnacle",
-          "-4.47%",
-          "3 counted · SportsHawk; VegasTopDogs TV: Sports Picks and Wagering Tips; Prop Lock or Drop it",
-          "YT 3 / X 0 · near miss (floor 5) · Fanspeak (group card) and StatsDontLie (no line) = 0; easier lines 35.5–40.5 credited at the 44.5 main · count 0: Fanspeak Network, StatsDontLieButWeMight"
+          "Derrick Henry anytime TD",
+          "7:15 PM · JAC@BAL",
+          "40.4% · Yes-only scaled (Pin two-way 41.5%)",
+          "—",
+          "+135 DraftKings · EV -5.12%",
+          "4 · YT 3 · X 1 · BettingPros, DFSnDonuts, WagerTalk, @ActionNetworkHQ",
+          "4 of 5 sources (publish floor); ATTD Yes-only scaled fair; Pinnacle two-way 41.5%; not CLEARED: sources 4<5; X 1<2; booksAlign not true"
         ],
         [
           26,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Patrick Mahomes Over 13.5 Rushing Yards",
-          "Sun 3:25 PM · KC@DEN",
-          "50.2% · Pinnacle no-vig",
-          "-111 Pinnacle",
-          "-4.54%",
-          "3 counted · Sports Betting Across America; PickPlug; Guy Boston Sports",
-          "YT 3 / X 0 · near miss (floor 5)"
+          "Parker Washington anytime TD",
+          "7:15 PM · JAC@BAL",
+          "38.7% · Yes-only scaled (Pin two-way 38.5%)",
+          "—",
+          "+165 Bally Bet · EV +2.62%",
+          "3 · YT 3 · X 0 · DFSnDonuts, Just A Bet Outside, Between The Numbers",
+          "3 of 5 sources (publish floor); ATTD Yes-only scaled fair; Pinnacle two-way 38.5%; not CLEARED: sources 3<5; X 0<2; booksAlign not true"
         ],
         [
           27,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Tanner McKee Over 204.5 Passing Yards",
-          "Sun 7:20 PM · PHI@WSH",
-          "50.0% · Pinnacle no-vig",
-          "-110 Pinnacle",
-          "-4.55%",
-          "3 counted · Guy Boston Sports; Between The Numbers; SportsHawk",
-          "YT 3 / X 0 · near miss (floor 5) · Chad Slivinski (PrizePicks flex) and Any Given Sunday Australia (SGP) = 0; priced at the 204.5 main · count 0: Chad Slivinski Picks, Any Given Sunday Australia NFL Podcast"
+          "Brenton Strange anytime TD",
+          "7:15 PM · JAC@BAL",
+          "26.6% · Yes-only scaled (Pin two-way 27.0%)",
+          "—",
+          "+275 Bally Bet · EV -0.16%",
+          "1 · YT 1 · X 0 · Stephie Smalls",
+          "1 of 5 sources (publish floor); ATTD Yes-only scaled fair; Pinnacle two-way 27.0%; not CLEARED: sources 1<5; YT 1<3; X 0<2; booksAlign not true"
         ],
         [
           28,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Drake Maye Over 239.5 Passing Yards",
-          "Sun 3:25 PM · NE@MIA",
-          "48.3% · Pinnacle no-vig",
-          "-107 Pinnacle",
-          "-6.58%",
-          "3 counted · SportsHawk; Tickets with TJ; Sports Live! with Steve and Justin!",
-          "YT 3 / X 0 · near miss (floor 5) · count 0: @BretonPicks"
+          "Jakobi Meyers anytime TD",
+          "7:15 PM · JAC@BAL",
+          "22.5% · Yes-only scaled (Pin two-way 24.5%)",
+          "—",
+          "+360 Bally Bet · EV +3.52%",
+          "2 · YT 1 · X 1 · StumpTheSpread, @ActionNetworkHQ",
+          "2 of 5 sources (publish floor); ATTD Yes-only scaled fair; Pinnacle two-way 24.5%; not CLEARED: sources 2<5; YT 1<3; X 1<2; booksAlign not true"
         ],
         [
           29,
-          "Near miss (prop)",
+          "Near miss",
           "NFL",
-          "Dallas Goedert Yes Anytime TD",
-          "Sun 7:20 PM · PHI@WSH",
-          "27.1% · Yes de-vig median",
-          "+265 BetRivers",
-          "-1.06%",
-          "3 counted · Guy Boston Sports; Between The Numbers; @vsaaauce",
-          "YT 2 / X 1 · near miss (floor 5) · Scout had CLEARED; Screener: 3 sources. Fair = 3-book Yes-only consensus, no Pinnacle (R10 fallback, flagged) · count 0: Sports Betting Across America, @austinsprops, @cookitup31"
-        ],
-        [
-          30,
-          "Near miss (prop)",
-          "NFL",
-          "Rhamondre Stevenson Yes Anytime TD",
-          "Sun 3:25 PM · NE@MIA",
-          "54.5% · Yes de-vig median",
-          "-125 FanDuel",
-          "-1.96%",
-          "2 counted · APE; Rude Bets",
-          "YT 2 / X 0 · near miss (floor 5) · count 0: @CJ_Everydayy, @AllInAbe"
-        ],
-        [
-          31,
-          "Near miss (prop)",
-          "NFL",
-          "Kyren Williams Yes Anytime TD",
-          "Sun 3:05 PM · LAC@LAR",
-          "54.0% · Yes de-vig median",
-          "-132 Bovada",
-          "-5.11%",
-          "2 counted · The Bettor Mark; Petey Picks",
-          "YT 2 / X 0 · near miss (floor 5) · X 9 → 0 (every X post a parlay/combo/SGP/promo leg) · count 0: @BrookieJ07, @MattyChucks, @mattycoverss, @CJ_Everydayy, @Jokeeee_, @ZAYYYTHEGOAT, @__LordPenguin, @parlayportal, @AllInAbe"
-        ],
-        [
-          32,
-          "Near miss (prop)",
-          "NFL",
-          "Ollie Gordon Yes Anytime TD",
-          "Sun 3:25 PM · NE@MIA",
-          "36.7% · Yes de-vig median",
-          "+160 FanDuel",
-          "-4.59%",
-          "2 counted · Sports Live! with Steve and Justin!; Fins Faithful PodCast",
-          "YT 2 / X 0 · near miss (floor 5) · count 0: @austinsprops"
-        ],
-        [
-          33,
-          "Near miss (prop)",
-          "NFL",
-          "Hunter Henry Yes Anytime TD",
-          "Sun 3:25 PM · NE@MIA",
-          "34.5% · Yes de-vig median",
-          "+180 Bovada",
-          "-3.40%",
-          "2 counted · Rude Bets; Tony's Picks",
-          "YT 2 / X 0 · near miss (floor 5) · count 0: @Jimmy_the_Gent6"
-        ],
-        [
-          34,
-          "Near miss (prop)",
-          "NFL",
-          "Kenneth Walker Yes Anytime TD",
-          "Sun 3:25 PM · KC@DEN",
-          "54.5% · Yes de-vig median",
-          "-120 FanDuel",
-          "-0.14%",
-          "1 counted · Tony's Picks",
-          "YT 1 / X 0 · near miss (floor 5) · X 9 → 0 (every X post a parlay/combo/SGP/promo leg) · count 0: @BrookieJ07, @CallingOurShot, @Skunkii_Plays, @mattycoverss, @austinsprops, @ZAYYYTHEGOAT, @__LordPenguin, @JDGoldboys, @ChillyBets"
-        ],
-        [
-          35,
-          "Near miss (prop)",
-          "NFL",
-          "Puka Nacua Yes Anytime TD",
-          "Sun 3:05 PM · LAC@LAR",
-          "51.9% · Yes de-vig median",
-          "-122 Bovada",
-          "-5.48%",
-          "1 counted · Rude Bets",
-          "YT 1 / X 0 · near miss (floor 5) · count 0: @Skunkii_Plays, @mattycoverss"
-        ],
-        [
-          36,
-          "Near miss (prop)",
-          "NFL",
-          "Rachaad White Yes Anytime TD",
-          "Sun 7:20 PM · PHI@WSH",
-          "42.2% · Yes de-vig median",
-          "+125 FanDuel",
-          "-5.12%",
-          "1 counted · Sports Betting Across America",
-          "YT 1 / X 0 · near miss (floor 5) · count 0: @MattyChucks, @Covers"
-        ],
-        [
-          37,
-          "Near miss (prop)",
-          "NFL",
-          "Stefon Diggs Yes Anytime TD",
-          "Sun 3:25 PM · NE@MIA",
-          "32.0% · Yes de-vig median",
-          "+215 BetRivers",
-          "+0.93%",
-          "1 counted · Tony's Picks",
-          "YT 1 / X 0 · near miss (floor 5) · count 0: @BrookieJ07, @ChillyBets"
+          "Ameer Abdullah anytime TD",
+          "7:15 PM · JAC@BAL",
+          "13.5% · Yes-only scaled",
+          "—",
+          "+650 Bally Bet · EV +1.27%",
+          "1 · YT 1 · X 0 · BetQL",
+          "1 of 5 sources (publish floor); ATTD Yes-only scaled fair; promo flag; not CLEARED: sources 1<5; YT 1<3; X 0<2; booksAlign not true"
         ]
       ],
       "noMc": true,
-      "updated": "Noon prices 9:38–9:40 AM CT · afternoon/SNF prices 2:04 PM CT (Pinnacle, FanDuel, Bovada, BetRivers) · engine v1.2.0 · Screener 9:36 AM CT (noon) and 12:27 PM CT (afternoon)",
+      "updated": "2026-11-05T14:33:53-06:00",
       "earlyLook": false,
-      "graded": true,
-      "caveat": "Every published side is -EV vs Pinnacle fair (consensus is not an edge). Research, not bets. No bets placed. SNF (PHI@WSH) inactives post ~5:50 PM CT and have not posted yet (watch Saquon Barkley)."
+      "graded": false,
+      "caveat": "0 CLEARED / 0 publishable (floor 5 sources; CLEARED needs 3 YT + 2 X + booksAlign). Consensus is not an edge. Same-game legs are correlated — do not multiply hit rates. Pinnacle excluded from public best price. Official inactives not yet posted; Tuten/Walker/Wiggins/Randall watch. No locks. Research, not bets. No bets placed."
     },
     "noMc": true
   },
-  "earlyLookNote": "NFL: early-look rows replaced by the afternoon/SNF pass. SNF (PHI@WSH) inactives post ~5:50 PM CT and have not posted yet (watch Saquon Barkley)."
+  "earlyLookNote": "TNF official inactives typically post ~5:45 PM CT and have not posted yet. Watch: Bhayshul Tuten (GTD, DNP all week — Rodriguez flag), Travon Walker (rib), Nate Wiggins (stinger/illness), Adam Randall (neck). Sun Nov 1 noon + afternoon/SNF Publish rows have been replaced on the NFL tab by tonight's TNF board."
 }
