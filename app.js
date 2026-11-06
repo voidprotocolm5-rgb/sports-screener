@@ -927,6 +927,7 @@
     var sportRows=n3Visible(data), rows=sportRows.filter(function(r){return normalizeSport(r.sport)===normalizeSport(activeSport);});
     $("sport-empty").hidden=true;$("board-content").hidden=true;var slot=$("near-miss-slot");if(slot)slot.innerHTML="";
     var old=$("normalized-board");if(old)old.remove();
+    renderSportNavNormalized(data,sportRows);
     var host=document.createElement("div");host.id="normalized-board";
     host.innerHTML=n3FilterControls(data,rows)+n3Legend()+'<section class="n3-board"><div id="n3-results" aria-live="polite"></div><div id="n3-table-host"></div></section>'+n3Legacy(data,activeSport);
     var main=document.querySelector(".main");main.insertBefore(host,$("live-slot"));
@@ -967,7 +968,7 @@
     document.querySelectorAll("[data-n3-view]").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-n3-view")===n3State.view?"true":"false");});
   }
   function renderSportNavNormalized(data, rows) {
-    $("sport-nav").innerHTML=sportsList(data).map(function(s){var id=normalizeSport(s.id),n=rows.filter(function(r){return normalizeSport(r.sport)===id;}).length;return '<a id="tab-'+id+'" class="sport-tab" role="tab" href="#'+escapeHtml(id+'-PROPS')+'" data-sport="'+id+'" aria-selected="'+(activeSport===id)+'" aria-controls="normalized-board"><span>'+escapeHtml(s.nav||id)+'</span><span class="tab-count">'+n+'</span></a>';}).join("");
+    $("sport-nav").innerHTML=sportsList(data).map(function(sp){var id=normalizeSport(sp.id),n=rows.filter(function(r){return normalizeSport(r.sport)===id;}).length;return '<span class="sport-tab-static"><span>'+escapeHtml(sp.nav||id)+'</span><span class="tab-count">'+n+' rows</span></span>';}).join("");
   }
 
   function pageMethodology() {
