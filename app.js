@@ -680,28 +680,88 @@
       '</td><td class="' + (t.units >= 0 ? "up" : "down") + '">' + signed(t.units, "u") + "</td><td>" + signed(t.roiPct, "%") + "</td><td>" +
       (t.clvScored ? (t.clvBeat || 0) + "/" + t.clvScored : "—") + "</td></tr>";
   }
-  function pagePerformance(data) {
-    var p = data.performance || {}, T = p.tally;
-    if (!T) return "<h1>Performance</h1><p>No graded results yet.</p>";
-    var sports = Object.keys(T.bySport || {}).map(function (k) { return perfRow(k, T.bySport[k]); }).join("");
-    var recent = (p.recent || []).filter(function (r) { return r["class"] === "main"; }).map(function (r) {
-      var cls = r.result === "win" ? "res-win" : r.result === "loss" ? "res-loss" : "res-push";
-      return "<tr><td>" + escapeHtml(r.date) + "</td><td>" + escapeHtml(r.sport) + "</td><td>" + escapeHtml(String(r.tier).toUpperCase()) + "</td><td>" + escapeHtml(r.pick) +
-        "</td><td>" + escapeHtml(r.publishedAmerican == null ? "—" : r.publishedAmerican) + '</td><td><span class="res-badge ' + cls + '">' + escapeHtml(String(r.result).toUpperCase()) +
-        "</span></td><td>" + escapeHtml(r.final || "") + "</td><td>" + signed(r.clvPp, "pp") + "</td></tr>";
-    }).join("");
-    var head = "<tr><th></th><th>W-L-P</th><th>n</th><th>Hit</th><th>Units</th><th>ROI</th><th>CLV beat</th></tr>";
-    return '<p class="page-kicker">Track record</p><h1>Performance.</h1>' +
-      '<p class="page-lede">Every published card is graded automatically from ESPN finals against the exact line and price we published. Flat 1 unit per card. Nothing is hand-entered or guessed.</p>' +
-      '<div class="callout">Honest sample size: <b>n=' + ((T.all || {}).n || 0) + "</b> main cards since Oct 10, 2026. That is far too few to judge skill — treat these numbers as a ledger, not a promise.</div>" +
-      '<h2>By tier</h2><div class="table-wrap"><table class="ptable">' + head + perfRow("All main cards", T.all) + perfRow("CLEARED", (T.byTier || {}).cleared) + perfRow("GAUGE", (T.byTier || {}).gauge) + "</table></div>" +
-      '<h2>By sport (main cards)</h2><div class="table-wrap"><table class="ptable">' + head + sports + "</table></div>" +
-      '<h2>Near misses — tracked separately</h2><div class="table-wrap"><table class="ptable">' + head + perfRow("Near misses", T.nearMiss) + "</table></div>" +
-      '<div class="callout warn"><b>Inflation caveat:</b> the near-miss tally counts every near miss that appeared on any published version of the board during a day, including rows later removed, and some rows sit on opposite sides of the same game (e.g. both Over and Under, or the other side of a main card). It is not a playable record and is excluded from all totals.</div>' +
-      '<h2>Closing-line value</h2><p>CLV compares our published price with the closing price (ESPN / DraftKings feed; for finished games, the last line ESPN held is treated as the close). Beat ' + ((T.clvTags || {}).beat || 0) + ", match " + ((T.clvTags || {}).match || 0) + ", lose " + ((T.clvTags || {}).lose || 0) + ", no close available " + ((T.clvTags || {}).unobserved || 0) + ". Props, UFC and 3-way soccer have no close feed and are left unobserved.</p>" +
-      '<h2>Recent graded cards</h2><div class="table-wrap"><table class="ptable small"><tr><th>Date</th><th>Sport</th><th>Tier</th><th>Pick</th><th>Price</th><th>Result</th><th>Final</th><th>CLV</th></tr>' + recent + "</table></div>" +
-      '<p class="dr-muted">Ungraded: ' + (T.ungraded || 0) + " (mostly player props without an auto-grader) · pending: " + (T.pending || 0) + " · updated " + escapeHtml(T.updatedAt || "") + "</p>";
+  function sixTime(v) { if (!v) return "Not observed"; var d = new Date(v); return isNaN(d) ? "Not observed" : d.toLocaleString("en-US", {timeZone:"America/Chicago", dateStyle:"medium", timeStyle:"short"}) + " CT"; }
+  function sixNum(v, suffix, digits) { return typeof v !== "number" || !isFinite(v) ? "n/a" : (v > 0 ? "+" : "") + v.toFixed(digits == null ? 1 : digits) + (suffix || ""); }
+  function sixSafeUrl(url) { return typeof url === "string" && /^https:\/\/www\.espn\.com\//.test(url) ? url : ""; }
+  function sixLink(e) { var s = e && e.settlement, u = sixSafeUrl(s && s.url); return u ? '<a href="'+escapeHtml(u)+'" target="_blank" rel="noopener noreferrer">ESPN final ↗</a>' : "No cited final"; }
+  function sixEmptyStats() { return {record:"0-0-0",n:0,units:0,hitRatePct:null,roiPct:null,clv:{scored:0,beat:0,match:0,lose:0,pending:0,unobserved:0,avgPp:null}}; }
+  function sixLaneRow(label, t, tag) {
+    t = t || sixEmptyStats(); var c=t.clv||sixEmptyStats().clv;
+    return '<tr><th>'+escapeHtml(label)+(tag?'<span class="i6-tag">'+escapeHtml(tag)+'</span>':'')+'</th><td>'+escapeHtml(t.record)+'</td><td>'+Number(t.n||0)+'</td><td>'+sixNum(t.hitRatePct,"%")+'</td><td>'+sixNum(t.units,"u",2)+'</td><td>'+sixNum(t.roiPct,"%")+'</td><td>'+(c.scored?c.beat+" / "+c.scored:"Not observed")+'</td><td>'+sixNum(c.avgPp,"pp",2)+'</td></tr>';
   }
+  function sixSettlement(r) {
+    var e=r.entry||{},s=e.settlement||{},status=r.result;
+    if(status in {win:1,loss:1,push:1,void:1}) {
+      return '<details class="i6-settle"><summary><span class="res-badge res-'+escapeHtml(status)+'">FINAL · '+escapeHtml(status.toUpperCase())+'</span></summary><p>'+escapeHtml(e.grade_note||'ESPN final')+' · '+sixLink(e)+'</p><p><b>Reported final:</b> '+escapeHtml(s.final_score||'Not observed')+' <b>Stat:</b> '+escapeHtml(s.stat_value==null?'see cited settlement':s.stat_value)+'</p><small>Units are flat 1u at the recorded published price, not money wagered.</small></details>';
+    }
+    return '<span class="i6-unobserved">UNGRADED</span><br><small>'+escapeHtml(e.grade_note||'No cited settlement')+'</small>'+(e.settlement&&e.settlement.event_id?'<br>'+sixLink(e):'');
+  }
+  function sixLegacyRow(e) {
+    var d=e.date?new Date(e.date+'T12:00:00-06:00').toLocaleDateString("en-US",{timeZone:"America/Chicago",month:"short",day:"numeric",year:"numeric"}):'Date not observed';
+    var c=e.clv;
+    return '<tr><td>'+escapeHtml(d)+'</td><td>'+escapeHtml(e.sport||'n/a')+'</td><td>'+escapeHtml(String(e.lane_at_publish||'near miss').toUpperCase())+'</td><td>'+escapeHtml(e.pick||'Unavailable')+'</td><td>'+(e.published_american==null?'Not priced':(e.published_american>0?'+':'')+e.published_american)+'</td><td>'+sixSettlement({entry:e,result:e.result})+'</td><td>'+(e.units==null?'n/a':sixNum(e.units,'u',3))+'</td><td>'+(c?escapeHtml(c.clv_tag)+(c.clv_pp!=null?' '+sixNum(c.clv_pp,'pp',2):'')+'<br><small>'+escapeHtml(c.basis.replace(/_/g,' '))+'</small>':'Not observed')+'</td></tr>';
+  }
+  function sixFilters(kind) {
+    return '<div class="i6-filters'+(kind?'':' i6-filter-single')+'" role="group" aria-label="Settlement filters"><label>Population<select id="i6-population"><option value="published">Published picks</option><option value="near">Near misses — separate research</option></select></label><label>Sport<select id="i6-sport"><option value="">All sports</option></select></label><label>Lane<select id="i6-lane"><option value="">All recorded lanes</option></select></label><label class="i6-search">Find pick<input id="i6-find" type="search" placeholder="Player or team"></label></div>';
+  }
+  function pagePerformance(data) {
+    if(data.qiPerfInit) return data.qiPerfInit;
+    var f=data.performance_feed;
+    if(!f||!f.summary) return '<p class="page-kicker">Track record</p><h1>Performance.</h1><div class="callout warn"><b>Live ledger unavailable.</b> No headline or CLV totals inferred.</div>';
+    var u=f.summary,l=f.publication_policy||{},sc=f.source_scorecard||{};
+    data.qiPerfState={population:'published',sport:'',lane:'',find:''};data.qiPerfInit=true;
+    var head='<tr><th>Lane</th><th>W-L-P</th><th>n</th><th>Hit</th><th>Units</th><th>ROI</th><th>CLV beat / scored</th><th>Avg CLV pp</th></tr>';
+    var main=f.entries.filter(function(e){return e['class']==='main'&&['win','loss','push','void'].includes(e.result)});
+    var fresh=f.refresh_status==='success'?'Refresh completed':'Refresh degraded — retaining last cited ledger';
+    var diagnostics=(f.current_research||[]),curSport=diagnostics.map(function(r){return r.sport}).filter(function(v,i,a){return a.indexOf(v)===i}).sort();
+    var sportA=f.entries.map(function(e){return e.sport}).filter(Boolean).filter(function(v,i,a){return a.indexOf(v)===i}).sort();
+    var near=f.summary.near_miss_separate||sixEmptyStats();
+    var score=(sc.sources||[]).slice().sort(function(a,b){return Number(b.shrunkRoiPct||0)-Number(a.shrunkRoiPct||0)});
+    var html='<p class="page-kicker">Live ledger · Performance + closing-line value</p><h1>Performance.</h1><p class="page-lede">Published-pick record from the cited ledger—not from every research candidate. Results update on refresh when a final citation is observed; missing remains <b>n/a / Not observed</b>.</p>'+
+      '<section class="i6-status" aria-live="polite"><div><span class="i6-live-dot"></span><b>Auto LIVE → FINAL on refresh</b><p>Page checks every 60s · final must carry an ESPN schedule/box-score citation.</p></div><dl><dt>Ledger refreshed</dt><dd>'+escapeHtml(sixTime(f.generated_at))+'</dd><dt>Tool refresh</dt><dd>'+escapeHtml(fresh)+'</dd><dt>Ledger coverage</dt><dd>'+escapeHtml((u.coverage_start||'Not observed')+' → '+(u.coverage_end||'Not observed'))+'</dd></dl></section>'+
+      '<div class="callout warn"><b>Coverage ≠ every game.</b> '+escapeHtml(l.coverage_note||'')+' <b>Published-card ledger covers Oct 10–28, not today’s research.</b> '+escapeHtml(f.refresh_note||'')+'</div>'+
+      '<section class="i6-section"><div class="i6-section-head"><div><p class="page-kicker">Headline record</p><h2>Published picks only</h2></div><span class="i6-tag">Flat 1u · historical ledger</span></div><p>Includes settled <code>bets</code> main-card ledger records. Near misses, excluded/split rows, and current Highest likelihood props are <b>not in these totals</b>.</p><div class="table-wrap i6-table"><table class="ptable small">'+head+
+      sixLaneRow('All published picks',u.all)+sixLaneRow('CLEARED',(u.by_lane||{}).cleared,'historical lane-at-publish')+sixLaneRow('GAUGE',(u.by_lane||{}).gauge,'historical lane-at-publish')+
+      '</table></div><p class="i6-footnote">Columns share the ledger lane-at-publish. GAUGE is retained as a historical label, not promoted to a fourth current lane. Published picks: '+main.length+'. n includes pushes/voids; hit excludes pushes/voids. CLV only appears when observed.</p></section>'+
+      '<section class="i6-section i6-research"><h2>Near misses — separate research, not headline.</h2><p>These records belong to candidates rather than published picks. Their record is displayed only for completeness and cannot be added to the headline.</p><div class="table-wrap i6-table"><table class="ptable small">'+head+sixLaneRow('Near misses, all legacy research classes',near)+'</table></div></section>'+
+      '<section class="i6-section i6-research"><div class="i6-section-head"><div><h2>Current NBA/NFL research status</h2><p>Not the official published-card record · no actual published origin for these current research rows.</p></div><span class="i6-tag">Live game status</span></div>'+
+        '<p>Player props can become FINAL only with a matched final schedule <i>and</i> box-score stat. “Ungraded” is an honest state—not a win, loss, push or zero. ESPN does not provide a prop close; current prop CLV is <b>Not observed</b>.</p>'+
+        '<label class="i6-toggle"><input type="checkbox" id="i6-current"> Show current research diagnostics ('+diagnostics.length+' rows)</label><div id="i6-current-panel" hidden><label>Sport <select id="i6-current-sport"><option value="">All current sports</option>'+curSport.map(function(s){return '<option>'+escapeHtml(s)+'</option>'}).join('')+'</select></label><div class="table-wrap i6-table"><table class="ptable small"><thead><tr><th>Game / pick</th><th>Lane</th><th>Game event</th><th>Settlement</th><th>Published price</th><th>CLV</th></tr></thead><tbody id="i6-current-body"></tbody></table></div></div></section>'+
+      '<section class="i6-section"><h2>Ledger & cited settlement</h2><p>Filter ten historical samples at a time, or search the entire public ledger. Click FINAL details for its ESPN citation.</p>'+sixFilters('legacy')+
+        '<div class="table-wrap i6-table"><table class="ptable small"><thead><tr><th>Date</th><th>Sport</th><th>Lane at publish</th><th>Pick</th><th>Published price</th><th>Settlement</th><th>Units</th><th>CLV</th></tr></thead><tbody id="i6-ledger-body"></tbody></table></div><div class="i6-pagination"><button type="button" id="i6-prev" class="i6-button" aria-label="Previous settlements">← Previous</button><span id="i6-count"></span><button type="button" id="i6-next" class="i6-button" aria-label="Next settlements">Next →</button></div></section>'+
+      '<section class="i6-section" id="i6-scorecard"><div class="i6-section-head"><div><p class="page-kicker">Source scorecard</p><h2>Historical source performance</h2></div><span class="i6-tag">'+(sc.loaded?'HISTORICAL ONLY':'Not observed')+'</span></div><p>'+escapeHtml(sc.window||sc.note||'')+' · generated '+escapeHtml(sixTime(sc.asOf))+'. '+escapeHtml(sc.note||'')+'</p><div class="callout warn"><b>Small sample ≠ predictive.</b> '+escapeHtml(sc.shrinkage||'')+' '+escapeHtml(sc.autoCutRule||'')+'</div><details class="i6-score-details"><summary>Show '+(sc.sources||[]).length+' historically observed sources</summary><label class="i6-search">Filter source<input id="i6-score-find" type="search" placeholder="Channel or handle"></label><div id="i6-score-grid" class="i6-score-grid"></div></details></section>'+
+      '<section class="i6-section"><details><summary>Method, unit and CLV definitions</summary><p>'+escapeHtml(l.settlement_rule||'')+' '+escapeHtml(l.clv_rule||'')+' Units win at the actual published American price, risk 1u; loss −1u, push/void 0u. CLV percentage points use the legacy line comparison; same-line displayed percentage uses published/closing decimal, within 0.005 price tolerance for beat/match/lose.</p><p>No bets were placed. Historical results and source samples are not betting advice or proof of future performance.</p></details></section>';
+    data.qiPerfHtml=html;
+    if(!data.qiPerfBound){
+      document.addEventListener('change',function(ev){var id=ev.target.id;if(id==='i6-current'){document.getElementById('i6-current-panel').hidden=!ev.target.checked;}if(['i6-population','i6-sport','i6-lane'].includes(id)){data.qiPerfState[id.substring(3).toLowerCase()]=ev.target.value;data.qiPerfState.page=0;sixLedgerRender(data);}if(id==='i6-current-sport')sixCurrentRender(data,ev.target.value);});
+      document.addEventListener('input',function(ev){if(ev.target.id==='i6-find'){data.qiPerfState.find=ev.target.value;data.qiPerfState.page=0;sixLedgerRender(data);}if(ev.target.id==='i6-score-find')sixScoreRender(data,ev.target.value);});
+      document.addEventListener('click',function(ev){if(ev.target.id==='i6-next'||ev.target.id==='i6-prev'){data.qiPerfState.page=Math.max(0,(data.qiPerfState.page||0)+(ev.target.id==='i6-next'?1:-1));sixLedgerRender(data);}});
+      data.qiPerfBound=true;
+    }
+    setTimeout(function(){sixLedgerRender(data);sixCurrentRender(data,'');sixScoreRender(data,'');},0);return html;
+  }
+  function sixCurrentRender(data,sport) {
+    var host=document.getElementById('i6-current-body');if(!host)return;var rows=(data.performance_feed.current_research||[]).filter(function(e){return !sport||e.sport===sport});
+    host.innerHTML=rows.map(function(e){return '<tr><td>'+escapeHtml((e.game||'')+' · '+(e.selection||''))+'</td><td>'+escapeHtml(String(e.lane||'').replace('_',' '))+'</td><td><span class="i6-event-'+escapeHtml(e.status)+'">'+escapeHtml(e.status.toUpperCase())+'</span><br><small>'+escapeHtml(e.event_note||'')+'</small></td><td>'+sixSettlement({entry:{result:e.result,grade_note:e.gradeReason,settlement:e.settlement,units:e.units},result:e.result})+'</td><td>'+(e.priced?(e.published_american>0?'+':'')+e.published_american:'No action · unpriced')+'</td><td>Not observed</td></tr>'}).join('');
+  }
+  function sixLedgerRender(data) {
+    var f=data.performance_feed,st=data.qiPerfState||{},host=document.getElementById('i6-ledger-body');if(!host)return;
+    var sport=document.getElementById('i6-sport'),lane=document.getElementById('i6-lane'),kv={cleared:'CLEARED',gauge:'GAUGE','near miss':'Near miss','props near miss':'Props near miss'};
+    var rows=f.entries.filter(function(e){return st.population==='near'?e['class']!=='main':e['class']==='main'}).filter(function(e){return (!st.sport||e.sport===st.sport)&&(!st.lane||String(e.lane_at_publish||'').toLowerCase()===st.lane)&&(!st.find||String(e.pick+' '+e.game).toLowerCase().includes(st.find.toLowerCase()))});
+    rows.sort(function(a,b){return String(b.date)+String(b.key) > String(a.date)+String(a.key)?1:-1});
+    var sports=rows.map(function(e){return e.sport}).filter(function(v,i,a){return a.indexOf(v)===i}).sort(),lanes=rows.map(function(e){return String(e.lane_at_publish||'').toLowerCase()}).filter(function(v,i,a){return a.indexOf(v)===i}).sort();
+    sport.innerHTML='<option value="">All sports</option>'+sports.map(function(s){return '<option value="'+escapeHtml(s)+'" '+(st.sport===s?'selected':'')+'>'+escapeHtml(s)+'</option>'}).join('');
+    lane.innerHTML='<option value="">All recorded lanes</option>'+lanes.map(function(l){return '<option value="'+escapeHtml(l)+'" '+(st.lane===l?'selected':'')+'>'+escapeHtml(kv[l]||l)+'</option>'}).join('');
+    var pages=Math.max(1,Math.ceil(rows.length/10));st.page=Math.min(st.page||0,pages-1);
+    host.innerHTML=rows.slice(st.page*10,st.page*10+10).map(sixLegacyRow).join('')||'<tr><td colspan="8">No entries match · no totals inferred.</td></tr>';
+    document.getElementById('i6-count').textContent=(rows.length?(st.page*10+1)+'–'+Math.min((st.page+1)*10,rows.length):'0')+' of '+rows.length;
+    document.getElementById('i6-prev').disabled=st.page===0;document.getElementById('i6-next').disabled=st.page>=pages-1;
+  }
+  function sixScoreRender(data,find) {
+    var host=document.getElementById('i6-score-grid');if(!host)return;var sc=data.performance_feed.source_scorecard||{};
+    host.innerHTML=(sc.sources||[]).filter(function(e){return !find||e.name.toLowerCase().includes(find.toLowerCase())}).map(function(e){return '<article><span class="i6-tag">'+escapeHtml(e.platform.toUpperCase())+'</span><h3>'+escapeHtml(e.name)+'</h3><dl><dt>Record · sample</dt><dd>'+escapeHtml(e.record)+' · n='+e.picks+'</dd><dt>Units / ROI</dt><dd>'+sixNum(e.units,'u',2)+' / '+sixNum(e.roiPct,'%')+'</dd><dt>Shrunk ROI</dt><dd>'+sixNum(e.shrunkRoiPct,'%',2)+(e.nSmall?' · n<50':'')+'</dd><dt>CLV observations</dt><dd>'+e.clvN+' · '+sixNum(e.avgClvPp,'pp',2)+'</dd></dl>'+(e.autoCut?'<p><b>Cut proposal:</b> '+escapeHtml(e.autoCut)+'</p>':'')+'</article>'}).join('');
+  }
+
   function pageMethodology() {
     return '<p class="page-kicker">How it works</p><h1>Methodology.</h1><p class="page-lede">A normalized research view. Older payloads still render through the legacy reader without changing their source, price or gate outcomes.</p>'+
       '<h2>Three display lanes</h2><ul><li><b>CLEARED:</b> verified independent YouTube ≥3, unique X ≥2, combined sources ≥5, booksAlign, all applicable gates pass, valid sharp fair, and EV &gt; 0. The 25-transcript YouTube funnel applies per sport.</li><li><b>Highest likelihood:</b> ordered parlay research when requested, for sourced rows with sharp fair and an observed price; hit % first, EV as tiebreaker. Not a publish approval.</li><li><b>Near miss:</b> all other sourced in-scope research, including source gaps, nonpositive EV, split markets, R16, no sharp fair or no price. Four-lane/excluded diagnostics are not included in tab totals.</li></ul>'+
