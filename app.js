@@ -1037,7 +1037,7 @@
   }
 
 
-  // ---- v3 engine tiers (Clear/Soft/Watch, tier_engine v1.0.0, Oct 17 2026) ----
+  // Legacy engine tier reader; active v3 rows use the three display lanes above.
   function isFinalRow(o) { return !!o && (o.final === true || String(o.status || "").toUpperCase() === "FINAL"); }
   function isLiveRow(o) {
     if (!o || isFinalRow(o)) return false;
