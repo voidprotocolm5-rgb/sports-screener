@@ -91,6 +91,57 @@
       <p class="footer-sub">Bearish Bulls Picks · Auto-refresh 60s · UI v3.0 · normalized research · 2026-11-06</p>
     </footer>
   </div>
+  <script>
+// Overhaul item 4 source ledger: public, closed-by-default evidence only.
+(function(){
+ 'use strict';
+ var card=null, loading=false;
+ function pub(w){return w&&w.public?w.public:w;}
+ function esc(v){return window.escapeHtml?escapeHtml(v):String(v==null?'':v);}
+ function time(iso){return iso?n3Time({start_time:iso}):'Time not observed';}
+ function entry(w,zero){
+   var p=pub(w)||{},who=p.platform==='x'?p.handle:p.channel;
+   var z=zero===true||w.zero===true||p.weight===0;
+   return '<details class="n3-evidence-item"><summary><span>'+esc(p.platform==='x'?'X':'YT')+'</span><strong>'+esc(who||'Unavailable name')+'</strong><small>'+esc(p.posted_at?time(p.posted_at):'Time unavailable')+(z?'<b>ZERO</b>':'')+'</summary><div class="n3-evidence-copy"><p>'+(p.url?'<a href="'+esc(p.url)+'" target="_blank" rel="noopener noreferrer">Open public source ↗</a><br><small>'+esc(p.url)+'</small>':'Public link not observed.')+'</p><p><b>Posted:</b> '+esc(p.posted_at?time(p.posted_at):'Not observed.')+' <b>Independent weight:</b> '+esc(p.weight==null?0:p.weight)+'</p><p><b>Pick quote:</b> '+esc(p.pick_text||'No short verbatim pick quote was retained.')+'</p><p><b>Source line:</b> '+esc(p.line_taken==null?'Not observed':p.line_taken)+'</p>'+(z?'<p><b>Zero reason:</b> '+esc((p.reason||'other').replace(/_/g,' '))+'. '+esc(p.note||'')+'</p>':'')+(p.scorecard_shrunk===true?'<p><span class="n3-score-flag">Historical scorecard shrunk · n &lt;50</span></p>':'')+'</div></details>';
+ }
+ window.n3EvidenceEntry=entry;
+ window.n3SourceLedger=function(r){
+   var ev=r.evidence||{},accept=ev.counted||[],zero=ev.zeroed||[],dd=ev.dedup||[];
+   return '<div class="n3-ledger-body"><h4>Counted source ledger</h4><p>Every independent YouTube / X source retained in the signed-off audit. The number comes from Screener’s engine fields after identity collapse, not a recount of fragments.</p>'+(accept.length?accept.map(function(w){return entry(w,false);}).join(''):'<div class="n3-ledger-empty">No counted sources; this row is outside the three-lane population.</div>')+(dd.length?'<div class="n3-dedup"><h4>Independent-source dedup</h4>'+dd.map(function(d){return '<p>'+esc(d.type)+': '+esc(d.note||'Repeated identity gets zero additional independent credit.')+'</p>';}).join('')+'</div>':'')+'<h4>Zeroed mentions mapped to this row</h4>'+(zero.length?zero.map(function(w){return entry(w,true);}).join(''):'<div class="n3-ledger-empty">No row-specific rejected mentions were retained. Pass-level zeroes appear above and are not guessed onto this card.</div>')+'</div>';
+ };
+ function scorecard(data,zeroPayload){
+   return '<details class="n3-scorecard" id="n3-scorecard"><summary>Historical source scorecard · Oct 17–28, 2026 · stale</summary><p>Load actual graded historical values for relevant sources. This is not a live result feed and does not re-rank picks. Samples under 50 use shrinkage.</p><button type="button" id="n3-scorecard-open" '+(loading?'disabled':'')+'>'+(loading?'Loading historical scorecard…':'Load historical source scorecard')+'</button><div id="n3-scorecard-status" aria-live="polite"></div></details>';
+ }
+ function scoreTable(payload,sport){
+   if(!payload||!payload.loaded)return '<div class="n3-ledger-empty">Historical scorecard is not present in this payload.</div>';
+   var sources=(payload.sources||[]).filter(function(v){return sport==='all'||!sport||v.platform.toUpperCase()==='UNK'||true;});
+   return '<p class="n3-pass-note"><b>Historical, not fresh evidence:</b> '+esc(payload.note||'')+' '+esc(payload.window||'')+'</p><div class="n3-score-grid">'+sources.map(function(v){return '<article><h4>'+esc(v.name)+'</h4><p>'+esc(v.platform.toUpperCase())+' · <b>'+esc(v.record)+'</b> · '+esc(v.picks)+' picks</p><p>ROI '+n3Ev(v.roiPct)+' · shrunk '+n3Ev(v.shrunkRoiPct)+'</p><p>CLV '+esc(v.avgClvPp==null?'not observed':(v.avgClvPp>0?'+':'')+v.avgClvPp+'pp')+' · '+esc(v.clvN)+' observations</p><p>Observation dates '+esc(v.firstDate)+' → '+esc(v.lastDate)+'</p>'+(v.nSmall?'<p class="n3-score-flag">n &lt;50 · shrunk historical estimate</p>':'')+(v.autoCut?'<p>Cut proposal (never automatic): '+esc(v.autoCut)+'</p>':'')+'</article>';}).join('')+'</div>';
+ }
+ function loadCard(){
+   if(card||loading)return;
+   if(lastPayload&&lastPayload.source_scorecard&&lastPayload.source_scorecard.loaded){card=lastPayload.source_scorecard;openCard(card);return;}
+   loading=true;var b=$('n3-scorecard-open');if(b)b.textContent='Loading historical scorecard…';
+   fetch((window.SS_DATA_URL||'data.json').split('?')[0]+'?scorecard='+encodeURIComponent((lastPayload&&lastPayload.updatedAt)||Date.now()),{cache:'no-store'}).then(function(r){if(!r.ok)throw Error('HTTP '+r.status);return r.json();}).then(function(d){card=d.source_scorecard;openCard(card);}).catch(function(e){loading=false;var el=$('n3-scorecard-status');if(el)el.textContent='Could not load: '+e.message+' — retry below.';});
+ }
+ function openCard(payload){
+   loading=false;var root=document.createElement('section');root.id='n3-scorecard-result';root.innerHTML='<button type="button" class="n3-ledger-close" id="n3-scorecard-close">Close historical scorecard ×</button>'+scoreTable(payload,n3State.sport);var old=$('n3-scorecard-result');if(old)old.remove();var host=$('n3-scorecard');if(host)host.appendChild(root);
+ }
+ function passBlock(data,sp){
+   var p=data.pass_meta&&data.pass_meta[sp];if(!p)return '';
+   var f=p.yt_funnel||{},s=p.signoff||{},z=p.zero_inventory||{},entries=(z.youtube||[]).concat(z.x||[]);
+   var metrics=[['Found',f.found],['In window',f.in_window],['Transcribed · gate',f.transcribed],['Real transcript files',f.transcribed_files],['Usable with picks',f.usable],['Captions',f.captions],['Whisper',f.whisper],['Not transcribed',f.failed],['AI excluded',f.excluded_ai]];
+   return '<section class="n3-pass" data-pass-sport="'+sp+'"><h3>'+sp+' <span class="n3-funnel '+(f.pass===true?'is-pass':'is-fail')+'">25+ transcripts: '+(f.pass===true?'PASS':'FAIL')+'</span></h3><div class="n3-funnel-math"><b>'+esc(f.transcribed)+' / '+esc(f.floor==null?25:f.floor)+'</b><span>in-window after documented exclusions</span></div><dl class="n3-funnel-grid">'+metrics.map(function(m){return '<div><dt>'+m[0]+'</dt><dd>'+esc(m[1]==null?'Not observed':m[1])+'</dd></div>';}).join('')+'</dl><p class="n3-pass-note">'+esc(f.window_start?time(f.window_start):'Window start unavailable')+' → '+esc(f.window_end?time(f.window_end):'Window end unavailable')+'. '+esc((f.notes||[]).join(' '))+'</p><div class="n3-sign-stamp"><b>Screener sign-off · '+esc(s.status||'not observed')+'</b><span>'+esc(s.at?time(s.at):'Exact stamp unavailable')+'</span><small>'+esc(s.by||'—')+'</small></div><p class="n3-pass-note">'+esc((s.notes||[]).join(' '))+'</p><details class="n3-zero-inventory"><summary>Zeroed / rejected / duplicate source inventory · '+entries.length+' entries</summary><p>'+esc(z.scope||'')+' '+esc(z.youtube_note||z.x_note||'')+'</p>'+entries.map(function(w){return entry(w,true);}).join('')+'</details><details class="n3-excluded-pass"><summary>Excluded split / zero-source diagnostics</summary>'+n3Rows(data).filter(function(r){return r.lane==='excluded'&&r.sport===sp;}).map(function(r){return '<article><b>'+esc(r.selection)+'</b><p>'+n3Blockers(r)+'</p>'+window.n3SourceLedger(r)+'</article>';}).join('')+'</details></section>';
+ }
+ window.n3PassLedger=function(data,sport){
+   var s=sport==='all'?['NBA','NFL']:[sport||'NBA'];
+   return '<div class="n3-pass-ledger"><p class="page-kicker">Source ledger · per-pass audit</p><h2>Where every source count comes from.</h2><p>Quotes and handles remain behind closed expanders. Pass zero inventories do not belong to every row. Exact counted sources and row-specific rejections appear through each count button.</p>'+s.map(function(sp){return passBlock(data,sp);}).join('')+scorecard(data)+'</div>';
+ };
+ window.n3BindPassLedger=function(){
+   var current=$('n3-scorecard-open');if(current&&!current.dataset.bound){current.dataset.bound='1';current.addEventListener('click',loadCard);}
+   var close=$('n3-scorecard-close');if(close)close.addEventListener('click',function(){var x=$('n3-scorecard-result');if(x)x.remove();});
+ };
+})();
+</script>
   <script src="app.js?v=202611061140"></script>
 </body>
 </html>

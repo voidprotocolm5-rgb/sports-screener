@@ -881,21 +881,12 @@
       '<details class="n3-quote-note"><summary>Price provenance</summary><p>'+escapeHtml(p.quote_note||"No quote provenance text recorded.")+' '+(!p.line_move?'No same-market opening/current line observation was retained. ':'')+(p.best_is_sharp_only?'Best quote is Pinnacle-only and flagged accordingly.':'')+'</p></details></div>';
   }
   function n3SourcesButton(r) {
-    var c=(r.evidence||{}).counts||{},n=n3Num(c.combined_raw)||0;
-    if(!n)return '<strong>0</strong><div class="n3-subline no-source">No independent sources; this row is not counted on the board.</div>';
-    return '<button type="button" class="n3-source-count" data-n3-ledger="'+escapeHtml(r.row_id)+'" aria-expanded="false"><strong>'+escapeHtml(n)+'</strong><span>counted sources <b>Open ledger ↗</b></span></button><div class="n3-subline">YT '+escapeHtml(c.yt)+' · X '+escapeHtml(c.x)+'</div>';
+    var c=(r.evidence||{}).counts||{},n=n3Num(c.combined_raw);
+    if(n===null||n<=0)return '<strong>0</strong><div class="n3-subline no-source">No independent sources. This row is outside the board population.</div>';
+    return '<button type="button" class="n3-source-count" data-n3-ledger="'+escId(r.row_id)+'" aria-expanded="false"><strong>'+escId(n)+'</strong><span>counted sources <b>Open ledger ↗</b></span></button><div class="n3-subline">YT '+escId(c.yt)+' · X '+escId(c.x)+'</div>';
   }
-  function n3EvidenceEntry(w) {
-    var p=w.public,who=p.platform==="x"?p.handle:p.channel;
-    var title=(p.platform==="x"?"X ":"YouTube ")+(who||"source")+' · '+ (p.posted_at?n3Time({start_time:p.posted_at}):"time not observed");
-    return '<details class="n3-evidence-item"><summary><span>'+escapeHtml(p.platform==="x"?"X":"YT")+'</span><strong>'+escapeHtml(who||"Unavailable source name")+'</strong><small>'+(p.posted_at?escapeHtml(n3Time({start_time:p.posted_at})):"Time unavailable")+(w.zero?'<b>ZERO</b>':'')+'</summary><div class="n3-evidence-copy"><p>'+(p.url?'<a href="'+escapeHtml(p.url)+'" target="_blank" rel="noopener noreferrer">Open public '+escapeHtml(p.url)+'</a>':'Public link not observed.')+'</p><p><b>Posted:</b> '+escapeHtml(p.posted_at?n3Time({start_time:p.posted_at}):"Not observed.")+' <b>Weight:</b> '+escapeHtml(p.weight==null?0:p.weight)+'</p><p><b>Pick quote:</b> '+escapeHtml(p.pick_text||"No short verbatim pick quote was retained.")+'</p><p><b>Source line:</b> '+escapeHtml(p.line_taken==null?"Not observed":p.line_taken)+'</p>'+(w.zero?'<p><b>Zero reason:</b> '+escapeHtml((p.reason||"other").replace(/_/g," "))+'. '+escapeHtml(p.note||"")+'</p>':'')+(p.scorecard_shrunk===true?'<p><span class="n3-score-flag">Historical scorecard shrunk · n &lt;50</span></p>':'')+'</div></details>';
-  }
-  function n3Ledger(r) {
-    var ev=r.evidence||{}, counted=ev.counted||[], zeroed=ev.zeroed||[],dedup=ev.dedup||[];
-    return '<div class="n3-ledger-body"><h4>Counted source ledger</h4><p>Every counted independent YouTube / X source retained in the signed-off audit. Counts come from the Screener’s deduped engine fields, not a recount of mention fragments.</p>'+(counted.length?counted.map(function(w){return n3EvidenceEntry(Object.assign({zero:false},w));}).join(""):'<div class="n3-ledger-empty">No counted sources on this row.</div>')+
-      (dedup.length?'<div class="n3-dedup"><h4>Independent-source dedup</h4>'+dedup.map(function(d){return '<p>'+escapeHtml(d.type)+': '+escapeHtml(d.note||'Repeated/person/network credit removed; added zero independent source.')+'</p>';}).join("")+'</div>':'')+
-      '<h4>Zeroed mentions mapped to this row</h4>'+(zeroed.length?zeroed.map(function(w){return n3EvidenceEntry(Object.assign({zero:true},w));}).join(""):'<div class="n3-ledger-empty">No rejected mentions were retained on this exact row. Pass-level zeroes are in the Source ledger expander above; they are not guessed onto this card.</div>')+'</div>';
-  }
+  function escId(v){return escapeHtml(v==null?'':v);}
+  function n3Ledger(r){return typeof window.n3SourceLedger==='function'?window.n3SourceLedger(r):'<div class="n3-ledger-empty">Source ledger not loaded.</div>';}
   function n3RowHtml(r) {
     var hit=n3Fair(r)?r.price.fair_hit_pct:r.price.indicative_hit_pct,flags=(r.flags||[]).concat(r.migration_warnings||[]);
     return '<tr data-row-id="'+escapeHtml(r.row_id)+'" class="n3-row-'+(r.price.price_group||"sharp")+(r.example===true?' n3-demo-row':'')+'">'+
@@ -947,7 +938,7 @@
     var old=$("normalized-board");if(old)old.remove();
     renderSportNavNormalized(data,sportRows);
     var host=document.createElement("div");host.id="normalized-board";
-    host.innerHTML=n3FilterControls(data,rows)+n3Legend()+'<section class="n3-board"><div id="n3-results" aria-live="polite"></div><div id="n3-table-host"></div></section>'+n3Legacy(data,activeSport);
+    n3ScorecardPublic(data);host.innerHTML=n3FilterControls(data,rows)+n3Legend()+'<details id="n3-pass-ledger" class="n3-pass-shell"><summary>Pass source ledger · YouTube funnel · Screener sign-off</summary></details><section class="n3-board"><div id="n3-results" aria-live="polite"></div><div id="n3-table-host"></div></section>'+n3Legacy(data,activeSport);
     var main=document.querySelector(".main");main.insertBefore(host,$("live-slot"));
     renderSportNavNormalized(data,sportRows);
     var subNav=$("sub-nav");if(subNav){subNav.hidden=true;subNav.innerHTML="";}
@@ -956,9 +947,26 @@
     $("n3-min").value=n3State.minSources;$("n3-ev").checked=n3State.evPositive;$("n3-sharp").checked=n3State.sharp;$("n3-live").checked=n3State.hideLive;
     host.addEventListener("input",n3Update);host.addEventListener("change",n3Update);host.addEventListener("click",n3Click);
     n3Bound=true;
+    renderPassLedger(data);
     n3Update();
   }
+  function n3ScorecardPublic(data){window.n3Scorecard=data&&data.source_scorecard||null;}
+  function renderPassLedger(data){
+    var el=$("n3-pass-ledger");
+    if(!el)return;
+    var open=el.open;
+    el.innerHTML='<summary>Pass source ledger · YouTube funnel · Screener sign-off</summary><div id="n3-ledger-content">'+n3PassLedger(data,n3State.sport)+'</div>';
+    el.open=open;
+    if(typeof window.n3BindPassLedger==='function')window.n3BindPassLedger();
+  }
+  function toggleLedger(id){
+    var root=$("n3-table-host"),ledger=root&&Array.from(root.querySelectorAll('[data-ledger-id]')).filter(function(e){return e.getAttribute('data-ledger-id')===id;})[0];
+    var button=root&&Array.from(root.querySelectorAll('[data-n3-ledger]')).filter(function(e){return e.getAttribute('data-n3-ledger')===id;})[0];
+    if(ledger){var isOpen=!ledger.hidden;root.querySelectorAll('[data-ledger-id]').forEach(function(el){el.hidden=true;});root.querySelectorAll('[data-n3-ledger]').forEach(function(el){el.setAttribute('aria-expanded','false');});ledger.hidden=isOpen;if(button)button.setAttribute('aria-expanded',isOpen?'false':'true');if(!isOpen)ledger.scrollIntoView({block:'nearest',behavior:'smooth'});}
+  }
   function n3Click(e) {
+    var ledger=e.target.closest('[data-n3-ledger]');if(ledger){toggleLedger(ledger.getAttribute('data-n3-ledger'));return;}
+    if(e.target.closest('[data-n3-close-ledger]')){var row=e.target.closest('[data-ledger-id]');if(row)toggleLedger(row.getAttribute('data-ledger-id'));return;}
     var s=e.target.closest("[data-n3-sort]");
     if(s) {var k=s.getAttribute("data-n3-sort"); if(n3State.sort===k)n3State.direction=n3State.direction==="asc"?"desc":"asc";else{n3State.sort=k;n3State.direction=k==="start"?"asc":"desc";} n3Update();}
     var v=e.target.closest("[data-n3-view]");
@@ -970,7 +978,9 @@
   }
   function n3Update() {
     if(!$("normalized-board"))return;
+    var previousSport=n3State.sport;
     n3State.sport=$("n3-sport").value;
+    if(previousSport!==n3State.sport && $("n3-pass-ledger") && typeof window.n3PassLedger==="function")renderPassLedger(lastPayload);
     var scoped=n3Visible(lastPayload).filter(function(r){return n3State.sport==="all"||normalizeSport(r.sport)===normalizeSport(n3State.sport);});
     function options(id,values,label,formatter) {
       var el=$(id),old=el.value;
