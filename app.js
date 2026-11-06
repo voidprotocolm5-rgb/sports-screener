@@ -866,40 +866,58 @@
       return bn-an || String(a.row_id).localeCompare(String(b.row_id));
     });
   }
+  function n3QuoteClock(ts) {
+    if(!ts) return {label:"Not observed · stale age unavailable",cls:"n3-stale-unknown",title:"Exact quote timestamp was not observed; no elapsed clock can be calculated."};
+    var ms=Date.parse(ts);
+    if(!Number.isFinite(ms)||ms<=0) return {label:"Not observed · stale age unavailable",cls:"n3-stale-unknown",title:"Exact quote timestamp was not observed; no elapsed clock can be calculated."};
+    var mins=Math.max(0,Math.floor((Date.now()-ms)/60000)), age=mins<60?mins+"m old":Math.floor(mins/60)+"h "+mins%60+"m old";
+    return {label:n3Time({start_time:ts})+" · "+age,cls:mins>60?"n3-stale-old":"n3-stale-fresh",title:"Stale age is calculated only from the observed exact quote timestamp, never from payload generation time."};
+  }
+  function n3Price(r) {
+    var p=r.price||{},sharp=n3Fair(r),odd=p.best_price&&p.best_price.american!=null?(p.best_price.american>0?"+":"")+p.best_price.american:"Not observed";
+    var clock=n3QuoteClock(p.quote_ts),move=p.line_move?p.line_move.classification.replace(/_/g," "):"Not observed",fair=p.fair_source==="pinnacle"?"Pinnacle":p.fair_source==="exchange"?"Exchange":p.fair_source==="consensus3"?"3-book consensus":"No sharp fair";
+    return '<div class="n3-price"><dl><div><dt>Fair hit <i title="Canonical sharp de-vig probability. Indicative estimates remain separate.">?</i></dt><dd>'+n3Pct(p.fair_hit_pct)+(!sharp?'<span class="n3-no-fair">NO SHARP FAIR</span>':'')+'</dd></div><div><dt>Best price · book</dt><dd>'+escapeHtml(odd)+' <small>'+escapeHtml(p.best_book||"unpriced")+'</small></dd></div><div><dt>EV at best</dt><dd class="n3-numeric '+(n3Num(p.ev_pct)>0?"ev-pos":n3Num(p.ev_pct)<0?"ev-neg":"")+'">'+n3Ev(p.ev_pct)+'</dd></div><div><dt>Fair source</dt><dd>'+escapeHtml(fair)+'</dd></div><div><dt>Line move</dt><dd>'+escapeHtml(move)+'</dd></div><div><dt>Quote / stale clock <i title="'+escapeHtml(clock.title)+'">?</i></dt><dd class="n3-stale '+escapeHtml(clock.cls)+'">'+escapeHtml(clock.label)+'</dd></div></dl>'+
+      (!sharp?'<details class="n3-indicative-box"><summary>Indicative estimate — never sharp fair</summary><p><b>Hit '+n3Pct(p.indicative_hit_pct)+' · EV '+n3Ev(p.indicative_ev_pct)+'</b></p></details>':"")+
+      '<details class="n3-quote-note"><summary>Price provenance</summary><p>'+escapeHtml(p.quote_note||"No quote provenance text recorded.")+' '+(!p.line_move?'No same-market opening/current line observation was retained. ':'')+(p.best_is_sharp_only?'Best quote is Pinnacle-only and flagged accordingly.':'')+'</p></details></div>';
+  }
+  function n3SourcesButton(r) {
+    var c=(r.evidence||{}).counts||{},n=n3Num(c.combined_raw)||0;
+    if(!n)return '<strong>0</strong><div class="n3-subline no-source">No independent sources; this row is not counted on the board.</div>';
+    return '<button type="button" class="n3-source-count" data-n3-ledger="'+escapeHtml(r.row_id)+'" aria-expanded="false"><strong>'+escapeHtml(n)+'</strong><span>counted sources <b>Open ledger ↗</b></span></button><div class="n3-subline">YT '+escapeHtml(c.yt)+' · X '+escapeHtml(c.x)+'</div>';
+  }
+  function n3EvidenceEntry(w) {
+    var p=w.public,who=p.platform==="x"?p.handle:p.channel;
+    var title=(p.platform==="x"?"X ":"YouTube ")+(who||"source")+' · '+ (p.posted_at?n3Time({start_time:p.posted_at}):"time not observed");
+    return '<details class="n3-evidence-item"><summary><span>'+escapeHtml(p.platform==="x"?"X":"YT")+'</span><strong>'+escapeHtml(who||"Unavailable source name")+'</strong><small>'+(p.posted_at?escapeHtml(n3Time({start_time:p.posted_at})):"Time unavailable")+(w.zero?'<b>ZERO</b>':'')+'</summary><div class="n3-evidence-copy"><p>'+(p.url?'<a href="'+escapeHtml(p.url)+'" target="_blank" rel="noopener noreferrer">Open public '+escapeHtml(p.url)+'</a>':'Public link not observed.')+'</p><p><b>Posted:</b> '+escapeHtml(p.posted_at?n3Time({start_time:p.posted_at}):"Not observed.")+' <b>Weight:</b> '+escapeHtml(p.weight==null?0:p.weight)+'</p><p><b>Pick quote:</b> '+escapeHtml(p.pick_text||"No short verbatim pick quote was retained.")+'</p><p><b>Source line:</b> '+escapeHtml(p.line_taken==null?"Not observed":p.line_taken)+'</p>'+(w.zero?'<p><b>Zero reason:</b> '+escapeHtml((p.reason||"other").replace(/_/g," "))+'. '+escapeHtml(p.note||"")+'</p>':'')+(p.scorecard_shrunk===true?'<p><span class="n3-score-flag">Historical scorecard shrunk · n &lt;50</span></p>':'')+'</div></details>';
+  }
+  function n3Ledger(r) {
+    var ev=r.evidence||{}, counted=ev.counted||[], zeroed=ev.zeroed||[],dedup=ev.dedup||[];
+    return '<div class="n3-ledger-body"><h4>Counted source ledger</h4><p>Every counted independent YouTube / X source retained in the signed-off audit. Counts come from the Screener’s deduped engine fields, not a recount of mention fragments.</p>'+(counted.length?counted.map(function(w){return n3EvidenceEntry(Object.assign({zero:false},w));}).join(""):'<div class="n3-ledger-empty">No counted sources on this row.</div>')+
+      (dedup.length?'<div class="n3-dedup"><h4>Independent-source dedup</h4>'+dedup.map(function(d){return '<p>'+escapeHtml(d.type)+': '+escapeHtml(d.note||'Repeated/person/network credit removed; added zero independent source.')+'</p>';}).join("")+'</div>':'')+
+      '<h4>Zeroed mentions mapped to this row</h4>'+(zeroed.length?zeroed.map(function(w){return n3EvidenceEntry(Object.assign({zero:true},w));}).join(""):'<div class="n3-ledger-empty">No rejected mentions were retained on this exact row. Pass-level zeroes are in the Source ledger expander above; they are not guessed onto this card.</div>')+'</div>';
+  }
   function n3RowHtml(r) {
-    var price=r.price||{},counts=(r.evidence||{}).counts||{}, sharp=n3Fair(r), live=r.status==="live", example=r.example===true;
-    var hit=sharp?price.fair_hit_pct:price.indicative_hit_pct, ev=sharp?price.ev_pct:null;
-    var odd=price.best_price&&price.best_price.american!=null?(price.best_price.american>0?"+":"")+price.best_price.american:"—";
-    var flags=(r.flags||[]).concat(r.migration_warnings||[]);
-    var context='<div class="n3-subline">'+escapeHtml(r.market_type||"")+'</div>';
-    return '<tr data-row-id="'+escapeHtml(r.row_id)+'"'+(example?' class="n3-demo-row"':'')+'>'+
-      '<td data-label="Pick"><strong>'+escapeHtml(r.selection)+'</strong>'+(example?'<span class="n3-demo">DEMO</span>':'')+context+'</td>'+
-      '<td data-label="Game / start">'+escapeHtml(r.game||r.game_id)+'<div class="n3-subline">'+escapeHtml(n3Time(r))+(live?' · <span class="nm-live">LIVE</span>':'')+'</div></td>'+
+    var hit=n3Fair(r)?r.price.fair_hit_pct:r.price.indicative_hit_pct,flags=(r.flags||[]).concat(r.migration_warnings||[]);
+    return '<tr data-row-id="'+escapeHtml(r.row_id)+'" class="n3-row-'+(r.price.price_group||"sharp")+(r.example===true?' n3-demo-row':'')+'">'+
+      '<td data-label="Pick"><strong>'+escapeHtml(r.selection)+'</strong>'+(r.example===true?'<span class="n3-demo">DEMO</span>':'')+'<div class="n3-subline">'+escapeHtml(r.market_type||"")+'</div></td>'+
+      '<td data-label="Game / start">'+escapeHtml(r.game||r.game_id)+'<div class="n3-subline">'+escapeHtml(n3Time(r))+(r.status==="live"?' · <span class="nm-live">LIVE</span>':'')+'</div></td>'+
       '<td data-label="Market">'+escapeHtml(n3Market(r.market))+'</td>'+
       '<td data-label="Lane / why"><span class="n3-lane n3-'+r.lane+'">'+n3Lane(r.lane).label+'</span><div class="n3-blockers">'+n3Blockers(r)+'</div></td>'+
-      '<td data-label="Hit %" class="n3-numeric">'+n3Pct(hit)+(sharp?'<div class="n3-subline">sharp fair</div>':'<div class="n3-subline n3-indicative">indicative only</div>')+'</td>'+
-      '<td data-label="EV %" class="n3-numeric '+(n3Num(ev)>0?"ev-pos":n3Num(ev)<0?"ev-neg":"")+'">'+n3Ev(ev)+'</td>'+
-      '<td data-label="Sources" class="n3-numeric"><strong>'+escapeHtml(counts.combined_raw)+'</strong><div class="n3-subline">YT '+escapeHtml(counts.yt)+' · X '+escapeHtml(counts.x)+'</div></td>'+
-      '<td data-label="Best price"><strong>'+escapeHtml(odd)+'</strong><div class="n3-subline">'+escapeHtml(price.best_book||"unpriced")+(price.best_is_sharp_only?' · sharp only':'')+'</div>'+(flags.length?'<details class="n3-notes"><summary>Research notes</summary>'+flags.map(function(f){return '<p>'+escapeHtml(f)+'</p>';}).join("")+'</details>':'')+'</td></tr>';
+      '<td data-label="Price · fair / EV / quote">'+n3Price(r)+"</td>"+
+      '<td data-label="Sources" class="n3-numeric">'+n3SourcesButton(r)+'</td></tr>'+
+      '<tr class="n3-ledger-row" data-ledger-id="'+escapeHtml(r.row_id)+'" hidden><td colspan="6"><div><button type="button" class="n3-ledger-close" data-n3-close-ledger aria-label="Close source ledger">Close ×</button>'+n3Ledger(r)+(flags.length?'<details class="n3-notes"><summary>Research notes</summary>'+flags.map(function(f){return '<p>'+escapeHtml(f)+'</p>';}).join("")+'</details>':'')+'</div></td></tr>';
   }
   function n3Table(rows) {
-    var h='<div class="n3-table-scroll"><table class="n3-table"><caption class="sr-only">Normalized rows with source and price blockers</caption><thead><tr>';
-    [["Pick",null],["Game / start","start"],["Market",null],["Lane / why",null],["Hit %","hit"],["EV %","ev"],["Sources","sources"],["Best price",null]].forEach(function(c){
-      h+='<th scope="col">'+(c[1]?'<button type="button" data-n3-sort="'+c[1]+'">'+c[0]+'<span aria-hidden="true"> '+(n3State.sort===c[1]?(n3State.direction==="asc"?"↑":"↓"):"↕")+'</span></button>':c[0])+'</th>';
-    });
+    var h='<div class="n3-table-scroll"><table class="n3-table"><caption class="sr-only">Normalized rows with uniform fair price, best price, EV, fair source, line move, stale clock and public source ledger</caption><thead><tr>';
+    [["Pick",null],["Game / start","start"],["Market",null],["Lane / why",null],["Price · fair / EV / quote",null],["Sources","sources"]].forEach(function(c){h+='<th scope="col">'+(c[1]?'<button type="button" data-n3-sort="'+c[1]+'">'+c[0]+'<span aria-hidden="true"> '+(n3State.sort===c[1]?(n3State.direction==="asc"?"↑":"↓"):"↕")+'</span></button>':c[0])+'</th>';});
     h+='</tr></thead><tbody>';
-    N3_LANES.forEach(function(l){
-      var laneRows=rows.filter(function(r){return r.lane===l.id;});
-      h+='<tr class="n3-lane-heading" data-lane="'+l.id+'"><th colspan="8"><div><span>'+l.label+'</span><b>'+laneRows.length+'</b></div>';
-      if(l.id==='cleared') h+='<p>3+ verified YouTube · 2+ X · 5+ combined · booksAlign · all gates pass · sharp fair · EV &gt; 0.</p>';
-      else if(l.id==='likely') h+='<p>Parlay-research ordering by sharp fair hit %, then EV. Every blocker stays visible; this does not mean publishable.</p>';
-      else h+='<p>Sourced research missing a lane requirement, rough/unpriced markets, or other blockers. Sharp-fair rows rank before indicative-only rows.</p>';
-      h+='</th></tr>';
-      if(laneRows.length) h+=laneRows.map(n3RowHtml).join("");
-      else h+='<tr class="n3-empty-lane"><td colspan="8">'+(l.id==='cleared'?'No rows cleared: every candidate missed at least one required source, booksAlign, sharp-fair, gate or EV &gt; 0 condition. Read its blocker chips below.':'No rows match this lane and the current filters.')+'</td></tr>';
-    });
-    return h+'</tbody></table></div>';
+    var descriptions={cleared:'3+ verified YouTube · 2+ X · 5+ combined · booksAlign · all gates pass · sharp fair · EV > 0.',likely:'Parlay research, one leg per player. Sharp-fair hit % first, EV tiebreak. All blockers stay visible.',near_miss:'Every other in-scope candidate; fair-price groups are subordinate to this single Near miss lane.'};
+    N3_LANES.forEach(function(l){var total=rows.filter(function(r){return r.lane===l.id;}).length;h+='<tr class="n3-lane-heading" data-lane="'+l.id+'"><th colspan="6"><div><span>'+l.label+'</span><b>'+total+'</b></div><p>'+descriptions[l.id]+'</p></th></tr>';
+      if(!total){h+='<tr class="n3-empty-lane" data-lane="'+l.id+'"><td colspan="6">'+(l.id==='cleared'?'No rows cleared: every candidate missed at least one required source, booksAlign, sharp-fair, gate or EV &gt; 0 condition. Read its blocker chips below.':'No rows match this lane and current filters.')+'</td></tr>';return;}
+      [['sharp','Sharp fair','Validated Pinnacle or exchange fair; not automatically publishable.'],['no_sharp_fair','No sharp fair · indicative only','Aggregate or insufficient per-book de-vig; canonical fair hit and EV stay null.'],['unpriced','Unpriced / no same-line quote','No observed best same-line price; exact quote time remains unobserved.']].forEach(function(g){var gr=rows.filter(function(r){return r.lane===l.id&&r.price.price_group===g[0];});if(!gr.length)return;h+='<tr class="n3-price-group" data-price-group="'+g[0]+'"><th colspan="6"><b>'+g[1]+' <small>'+gr.length+'</small></b><p>'+g[2]+'</p></th></tr>'+gr.map(n3RowHtml).join("");});
+    });return h+'</tbody></table></div>';
   }
+
   function n3Legacy(data,sport) {
     var L=data.oversNearMiss&&data.oversNearMiss[sport];
     if(!L)return "";
