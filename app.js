@@ -967,8 +967,9 @@
     document.querySelectorAll("[data-n3-view]").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-n3-view")===n3State.view?"true":"false");});
   }
   function renderSportNavNormalized(data, rows) {
-    $("sport-nav").innerHTML=sportsList(data).map(function(s){var id=normalizeSport(s.id),n=rows.filter(function(r){return normalizeSport(r.sport)===id;}).length;return '<button type="button" id="tab-'+id+'" class="sport-tab" role="tab" data-sport="'+id+'" aria-selected="'+(activeSport===id)+'" aria-controls="normalized-board"><span>'+escapeHtml(s.nav||id)+'</span><span class="tab-count">'+n+'</span></button>';}).join("");
+    $("sport-nav").innerHTML=sportsList(data).map(function(s){var id=normalizeSport(s.id),n=rows.filter(function(r){return normalizeSport(r.sport)===id;}).length;return '<a id="tab-'+id+'" class="sport-tab" role="tab" href="#'+escapeHtml(id+'-PROPS')+'" data-sport="'+id+'" aria-selected="'+(activeSport===id)+'" aria-controls="normalized-board"><span>'+escapeHtml(s.nav||id)+'</span><span class="tab-count">'+n+'</span></a>';}).join("");
   }
+
   function pageMethodology() {
     return '<p class="page-kicker">How it works</p><h1>Methodology.</h1><p class="page-lede">A normalized view of Screener-signed research. The UI never re-derives a source floor, fair price, CLEARED result, or parlay outcome.</p>'+
       '<h2>Schema and lanes</h2><p>Payload contract: <b>SCHEMA v3.0.0</b>, engine v1.2.0. Three presentation lanes are CLEARED, Highest likelihood and Near miss. Historical performance retains the old tier labels only as historical ledger records.</p>'+
@@ -1545,9 +1546,14 @@
     var sport = btn.getAttribute("data-sport");
     if (!sport) return;
     activeSport = normalizeSport(sport);
-    n3State.sport=activeSport;
-    n3State.game=n3State.market=n3State.lane=n3State.time="";
     activeSub = hasSub(activeSport) ? (onlySubFor(lastPayload,activeSport) || "lines") : null;
+    if (n3Rows(lastPayload).length && $("normalized-board")) {
+      setHash(activeSport,activeSub);
+      n3State.sport=activeSport;
+      n3State.game=n3State.market=n3State.lane=n3State.time="";
+      n3Update();
+      return;
+    }
     setHash(activeSport, activeSub);
     render(lastPayload);
   }
@@ -1611,8 +1617,8 @@
     window.addEventListener("hashchange", function () {
       if (!lastPayload) return;
       if (pageRoute() || $("board-view").hidden) { render(lastPayload); if (pageRoute()) return; }
-      if (n3Rows(lastPayload).length && $("normalized-board")) return;
       var parsed = parseHash();
+      if (n3Rows(lastPayload).length && $("normalized-board")) { render(lastPayload); return; }
       if (parsed.sport) {
         activeSport = parsed.sport;
         activeSub = hasSub(parsed.sport) ? (onlySubFor(lastPayload, parsed.sport) || parsed.sub || "lines") : null;
