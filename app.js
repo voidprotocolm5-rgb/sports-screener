@@ -721,7 +721,7 @@
       "<li><b>One side per game:</b> only the stronger side of a game is kept, and the other is dropped.</li>" +
       "<li><b>Echo discount</b>, <b>model agreement</b>, <b>sharp move</b> and <b>no hot-hand credit</b> are also applied.</li></ul>" +
       "<h2>3. Tiers</h2><ul><li><b>CLEARED:</b> 3+ verified independent YouTube, 2+ X send-it posters <b>and</b> booksAlign (valid sharp fair price, no fails on B2/B3/B6/B8/B12/B16; B1 price edge is now a gate).</li><li><b>SOFT:</b> sourced, with 1\u20132 gate fails.</li><li><b>WATCH:</b> sourced, with 3+ gate fails.</li><li><b>PASS:</b> hidden.</li>" +
-      "<li><b>Main board floor:</b> 5+ combined sources AND an edge over the sharp fair price (or the Close - no edge yet band, EV \u22122% to 0); CLEARED also needs EV &gt; 0. 5+ combined sources = verified independent YouTube + X send-it posters (set by Atlas Oct 23, 2026; engine v1.1.x with book_enrich). Clear also needs every rule passing and a known fair price. Clear or Soft rows under the floor appear on the per-sport watch list, not the main board. Started games stay on the board with a LIVE badge and their pre-game tier and sources; only FINAL games are removed.</li></ul>" +
+      "<li><b>Main board floor:</b> 5+ combined sources AND an edge over the sharp fair price (or the Close - no edge yet band, EV \u22122% to 0); CLEARED also needs EV &gt; 0. 5+ combined sources = verified independent YouTube + X send-it posters (set by Atlas Oct 23, 2026; engine v1.1.x with book_enrich). Clear also needs every rule passing and a known fair price. CLEARED or Highest likelihood rows under the floor appear on the per-sport watch list, not the main board. Started games stay on the board with a LIVE badge and their pre-game tier and sources; only FINAL games are removed.</li></ul>" +
       "<p class='muted'>Clear definition settled by Atlas on Oct 17, 2026. Independent = distinct channels and networks with firm, same-market picks. Same-day = uploaded the previous calendar day (CT) or game day, before the game. Echo, AI/scripted, DFS-lineup and fan channels are excluded.</p>" +
       "<h2>4. Grading and CLV</h2><p>Betting Consensus Screener grades finals from ESPN against the published line and price, captures closing lines, and keeps the permanent ledger. Earlier cards keep their CLEARED/GAUGE labels in the track record.</p>" +
       "<h2>7. Own models &amp; calibration</h2><p>Phase 4: in-house, documented models built on free/public data only. Scripts live under <code>models/</code>; each is backtested out of sample before any use.</p><div class='table-wrap'><table class='ptable'><tr><th>Model</th><th>Method</th><th>Holdout n</th><th>Brier</th><th>Log loss</th><th>Hit rate</th><th>Baseline</th></tr><tr><th>NHL Elo v0.1</th><td>Elo with margin, home ice and back-to-back rest adjustment; moneyline incl. OT/SO</td><td>2,731</td><td>0.242</td><td>0.677</td><td>56.1%</td><td>Home-rate: Brier 0.248, LL 0.690</td></tr><tr><th>Soccer DC v0.1</th><td>Dixon–Coles Poisson, walk-forward 14-day refits, 9 domestic leagues (EPL, Championship, League One, Scottish Prem &amp; Champ, La Liga, Bundesliga, Serie A, Ligue 1)</td><td>7,042</td><td>0.611*</td><td>1.045</td><td>50.0%</td><td>Closing market: Brier 0.591*, LL 0.991, 51.8%</td></tr><tr><th>MLB v0.1</th><td>Pitcher-adjusted run model: team EWMA offense/defense + starter FIP, Pythagorean win%, Platt-calibrated</td><td>7,416</td><td>0.2435</td><td>0.680</td><td>56.3%</td><td>Home-rate: Brier 0.2491, LL 0.691</td></tr><tr><th>NFL Elo v0.1</th><td>Margin-of-victory Elo + home-field + rest differential; moneyline (spread/ATS experimental, unused)</td><td>1,498</td><td>0.2237</td><td>0.638</td><td>63.1%</td><td>Closing ML: Brier 0.2124, LL 0.612, 66.4%</td></tr><tr><th>CFB Elo v0.1</th><td>Same Elo stack; FBS vs pooled FCS rating; moneyline</td><td>4,999</td><td>0.1715</td><td>0.510</td><td>73.5%</td><td>FBS–FBS: Brier 0.1920, LL 0.564, 70.0%</td></tr><tr><th>NBA v0.1</th><td>MOV-Elo + home court + back-to-back/rest adjustment; moneyline</td><td>3,944</td><td>0.2093</td><td>0.606</td><td>67.0%</td><td>Home-rate: Brier 0.2476</td></tr></table></div><p class='muted'>*Soccer Brier is 3-way (home/draw/away) and not comparable to the 2-way NHL/MLB/NFL/CFB/NBA figures. CFB baseline column shows FBS–FBS subset (n=4,277); no free closing-line history for CFB or NBA.</p><h3>Caveats</h3><ul><li><b>NHL:</b> beats a home-win baseline but has not yet shown it beats closing lines (no free closing-line history). Slightly overconfident on favorites. Goalie adjustment tuned to 0 in v0.1; xG planned for v0.2.</li><li><b>Soccer:</b> trails the de-vigged closing market in every league tested. Domestic leagues only — no UCL/Europa.</li><li><b>MLB:</b> beats a home-win baseline (Brier 0.2435 vs 0.2491). No free closing-line history, so no market comparison yet. No bullpen, lineup, park or weather inputs; treat edges over ~5pp vs a real book as likely model error.</li><li><b>NFL:</b> trails the de-vigged closing moneyline (Brier 0.2237 vs 0.2124). Edge≥3pt flat bets at close lost ~6.8% ROI. ATS cover probs worse than a coin flip — unused. No EPA yet (nflverse PBP is a v0.2 candidate).</li><li><b>CFB:</b> well-calibrated vs results, but no free closing lines for a market test. FBS–FBS subset is the fairer read (Brier 0.1920). collegefootballdata.com skipped (API key required).</li><li><b>NBA:</b> beats a home-win baseline (Brier 0.2093 vs 0.2476). No free closing-line history, so no market comparison yet. Weak on home underdogs (low bins overrate them). No injuries/lineups in v0.1.</li></ul><h3>Policy</h3><p>These models <b>do not set books align</b> yet. NHL Elo is used as GAUGE context and as a fallback when GameLens shows its capped 65%. Soccer DC, MLB v0.1, NFL Elo v0.1, CFB Elo v0.1 and NBA v0.1 are GAUGE context only. A model replaces a cited model only after it beats it (and the market) in backtest. The weighted 6.0 floor and CLEARED floors are unchanged.</p><h3>Reliability charts</h3><div class='model-charts'><figure><img src='assets/models/nhl-reliability.png?v=202610151403' alt='NHL Elo v0.1 reliability chart' loading='lazy'><figcaption>NHL Elo v0.1: predicted vs actual win rate (holdout)</figcaption></figure><figure><img src='assets/models/soccer-reliability.png?v=202610151403' alt='Soccer DC v0.1 reliability chart' loading='lazy'><figcaption>Soccer DC v0.1: predicted vs actual outcome rate (holdout)</figcaption></figure><figure><img src='assets/models/mlb-reliability.png?v=202610151403' alt='MLB v0.1 reliability chart' loading='lazy'><figcaption>MLB v0.1: predicted vs actual win rate (holdout)</figcaption></figure><figure><img src='assets/models/nfl-reliability.png?v=202610151403' alt='NFL Elo v0.1 reliability chart' loading='lazy'><figcaption>NFL Elo v0.1: predicted vs actual win rate (holdout); ATS panel experimental</figcaption></figure><figure><img src='assets/models/cfb-reliability.png?v=202610151403' alt='CFB Elo v0.1 reliability chart' loading='lazy'><figcaption>CFB Elo v0.1: predicted vs actual win rate (holdout)</figcaption></figure><figure><img src='assets/models/nba-reliability.png?v=202610151403' alt='NBA v0.1 reliability chart' loading='lazy'><figcaption>NBA v0.1: predicted vs actual win rate (holdout)</figcaption></figure></div>" +
@@ -785,6 +785,217 @@
     var wm = document.querySelector(".wordmark");
     if (wm && wm.lastChild && wm.lastChild.nodeType === 3 && wm.lastChild.nodeValue !== n) { wm.lastChild.nodeValue = n; wm.setAttribute("aria-label", n + " home"); }
   }
+  // SCHEMA v3.0.0 normalized board — UI consumes Screener outcomes; no gate recomputation.
+  var N3_LANES = [
+    {id:"cleared", label:"CLEARED"},
+    {id:"likely", label:"Highest likelihood"},
+    {id:"near_miss", label:"Near miss"}
+  ];
+  var n3State = {sport:null,game:"",market:"",lane:"",minSources:0,evPositive:false,sharp:false,time:"",hideLive:false,sort:"hit",direction:"desc",view:"table"};
+  var n3Bound = false;
+
+  function n3Rows(data) {
+    var out=[];
+    if (Array.isArray(data.normalized_rows)) out = data.normalized_rows;
+    else if (Array.isArray(data.normalizedRows)) out = data.normalizedRows;
+    else if (String(data.schema_version||"").split(".")[0]==="3" && Array.isArray(data.rows)) out=data.rows;
+    else if (Array.isArray(data.normalized_passes)) {
+      data.normalized_passes.forEach(function(p){ if(p&&Array.isArray(p.rows)) out=out.concat(p.rows); });
+    }
+    // Public serialization never carries private evidence/provenance/ref paths.
+    return out.map(function(r){ return r; });
+  }
+  function n3Visible(data) { return n3Rows(data).filter(function(r){ return r.lane!=="excluded"; }); }
+  function n3Lane(id) { return N3_LANES.filter(function(l){return l.id===id;})[0] || N3_LANES[2]; }
+  function n3Time(r) {
+    if (!r.start_time) return "Start unavailable";
+    return new Date(r.start_time).toLocaleString("en-US",{timeZone:"America/Chicago",month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})+" CT";
+  }
+  function n3Market(m) { return String(m||"").replace(/_/g," ").replace(/\b\w/g,function(c){return c.toUpperCase();}); }
+  function n3Num(v) { return v==null || Number.isNaN(Number(v)) ? null : Number(v); }
+  function n3Pct(v) { var n=n3Num(v); return n==null ? "—" : n.toFixed(1)+"%"; }
+  function n3Ev(v) { var n=n3Num(v); return n==null ? "—" : (n>0?"+":"")+n.toFixed(2)+"%"; }
+  function n3Fair(r) { return r.price && r.price.fair_source && r.price.fair_source!=="none"; }
+  function n3Blockers(r) {
+    return (r.blockers||[]).map(function(b){return '<span class="n3-blocker" title="'+escapeHtml(b.gate||"")+(b.rule_id?" · "+escapeHtml(b.rule_id):"")+'">'+escapeHtml(b.human||b.code)+"</span>";}).join("") || '<span class="n3-blocker n3-pass">All CLEARED gates passed</span>';
+  }
+  function n3FilterControls(data, rows) {
+    var games=Array.from(new Set(rows.map(function(r){return r.game||r.game_id;}))).sort();
+    var markets=Array.from(new Set(rows.map(function(r){return r.market;}))).sort();
+    var times=Array.from(new Set(rows.map(function(r){return r.start_time;}).filter(Boolean))).sort();
+    var timeOpts='<option value="">All start times</option>';
+    if(times.length>1) {
+      var mid=times[Math.floor(times.length/2)];
+      timeOpts+='<option value="early">Before '+n3Time({start_time:mid})+'</option><option value="late">At/after '+n3Time({start_time:mid})+'</option>';
+    }
+    n3State.timeCutoff=times.length>1?times[Math.floor(times.length/2)]:null;
+    return '<section class="n3-controls" aria-label="Board filters">'+
+      '<div class="n3-controls-top"><div><p class="page-kicker">Normalized research board</p><h2>Every prop, one sortable view.</h2></div><div class="n3-view-switch" aria-label="Display mode"><button type="button" data-n3-view="table">Table</button><button type="button" data-n3-view="cards">Cards</button></div></div>'+
+      '<div class="n3-filter-grid">'+
+      '<label>Sport<select id="n3-sport"><option value="all">All sports</option>'+sportsList(data).map(function(s){return '<option value="'+escapeHtml(normalizeSport(s.id))+'">'+escapeHtml(s.nav||s.id)+'</option>';}).join("")+'</select></label>'+
+      '<label>Game<select id="n3-game"><option value="">All games</option>'+games.map(function(g){return '<option>'+escapeHtml(g)+'</option>';}).join("")+'</select></label>'+
+      '<label>Market<select id="n3-market"><option value="">All markets</option>'+markets.map(function(m){return '<option>'+escapeHtml(m)+'</option>';}).join("")+'</select></label>'+
+      '<label>Lane<select id="n3-lane"><option value="">All three lanes</option>'+N3_LANES.map(function(l){return '<option value="'+l.id+'">'+l.label+'</option>';}).join("")+'</select></label>'+
+      '<label>Minimum sources<input id="n3-min" type="number" min="0" step="1" value="0" inputmode="numeric"></label>'+
+      '<label>Start time<select id="n3-time">'+timeOpts+'</select></label>'+
+      '</div><div class="n3-checks"><label><input id="n3-ev" type="checkbox"> EV &gt; 0 only</label><label><input id="n3-sharp" type="checkbox"> Has sharp fair</label><label><input id="n3-live" type="checkbox"> Hide LIVE</label><button type="button" id="n3-reset">Reset filters</button></div>'+
+      '</section>';
+  }
+  function n3Apply(rows) {
+    n3State.sport = $("n3-sport") ? $("n3-sport").value||activeSport : activeSport;
+    n3State.game=$("n3-game").value; n3State.market=$("n3-market").value; n3State.lane=$("n3-lane").value;
+    n3State.minSources=Math.max(0,Number($("n3-min").value)||0); n3State.evPositive=$("n3-ev").checked;
+    n3State.sharp=$("n3-sharp").checked; n3State.time=$("n3-time").value; n3State.hideLive=$("n3-live").checked;
+    return rows.filter(function(r){
+      var price=r.price||{}, counts=(r.evidence||{}).counts||{};
+      if(n3State.sport!=="all" && normalizeSport(r.sport)!==normalizeSport(n3State.sport))return false;
+      if(n3State.game && (r.game||r.game_id)!==n3State.game)return false;
+      if(n3State.market && r.market!==n3State.market)return false;
+      if(n3State.lane && r.lane!==n3State.lane)return false;
+      if(Number(counts.combined_raw)<n3State.minSources)return false;
+      if(n3State.evPositive && !(n3Num(price.ev_pct)>0))return false;
+      if(n3State.sharp && !n3Fair(r))return false;
+      if(n3State.hideLive && r.status==="live")return false;
+      if(n3State.time && n3State.timeCutoff) {
+        if(n3State.time==="early" && r.start_time>=n3State.timeCutoff)return false;
+        if(n3State.time==="late" && r.start_time<n3State.timeCutoff)return false;
+      }
+      return true;
+    });
+  }
+  function n3SortRows(rows) {
+    var keyMap={hit:"hit_pct",ev:"ev_pct",sources:"combined_sources",start:"start_time"};
+    var key=keyMap[n3State.sort]||"hit_pct", dir=n3State.direction==="asc"?1:-1;
+    return rows.slice().sort(function(a,b){
+      if(n3State.sort==="hit"||n3State.sort==="ev") {
+        var pg={sharp:0,no_sharp_fair:1,unpriced:2};
+        var pd=(pg[a.price.price_group]||0)-(pg[b.price.price_group]||0);
+        if(pd)return pd;
+      }
+      var av=(a.sort||{})[key], bv=(b.sort||{})[key];
+      if(key==="start_time") {av=Date.parse(a.start_time);bv=Date.parse(b.start_time);}
+      av=n3Num(av);bv=n3Num(bv);
+      if(av===null&&bv!==null)return 1;if(bv===null&&av!==null)return -1;
+      if(av!==null&&bv!==null&&av!==bv)return (av-bv)*dir;
+      var an=(a.evidence.counts||{}).combined_raw||0,bn=(b.evidence.counts||{}).combined_raw||0;
+      return bn-an || String(a.row_id).localeCompare(String(b.row_id));
+    });
+  }
+  function n3RowHtml(r) {
+    var price=r.price||{},counts=(r.evidence||{}).counts||{}, sharp=n3Fair(r), live=r.status==="live", example=r.example===true;
+    var hit=sharp?price.fair_hit_pct:price.indicative_hit_pct, ev=sharp?price.ev_pct:null;
+    var odd=price.best_price&&price.best_price.american!=null?(price.best_price.american>0?"+":"")+price.best_price.american:"—";
+    var flags=(r.flags||[]).concat(r.migration_warnings||[]);
+    var context='<div class="n3-subline">'+escapeHtml(r.market_type||"")+'</div>';
+    return '<tr data-row-id="'+escapeHtml(r.row_id)+'"'+(example?' class="n3-demo-row"':'')+'>'+
+      '<td data-label="Pick"><strong>'+escapeHtml(r.selection)+'</strong>'+(example?'<span class="n3-demo">DEMO</span>':'')+context+'</td>'+
+      '<td data-label="Game / start">'+escapeHtml(r.game||r.game_id)+'<div class="n3-subline">'+escapeHtml(n3Time(r))+(live?' · <span class="nm-live">LIVE</span>':'')+'</div></td>'+
+      '<td data-label="Market">'+escapeHtml(n3Market(r.market))+'</td>'+
+      '<td data-label="Lane / why"><span class="n3-lane n3-'+r.lane+'">'+n3Lane(r.lane).label+'</span><div class="n3-blockers">'+n3Blockers(r)+'</div></td>'+
+      '<td data-label="Hit %" class="n3-numeric">'+n3Pct(hit)+(sharp?'<div class="n3-subline">sharp fair</div>':'<div class="n3-subline n3-indicative">indicative only</div>')+'</td>'+
+      '<td data-label="EV %" class="n3-numeric '+(n3Num(ev)>0?"ev-pos":n3Num(ev)<0?"ev-neg":"")+'">'+n3Ev(ev)+'</td>'+
+      '<td data-label="Sources" class="n3-numeric"><strong>'+escapeHtml(counts.combined_raw)+'</strong><div class="n3-subline">YT '+escapeHtml(counts.yt)+' · X '+escapeHtml(counts.x)+'</div></td>'+
+      '<td data-label="Best price"><strong>'+escapeHtml(odd)+'</strong><div class="n3-subline">'+escapeHtml(price.best_book||"unpriced")+(price.best_is_sharp_only?' · sharp only':'')+'</div>'+(flags.length?'<details class="n3-notes"><summary>Research notes</summary>'+flags.map(function(f){return '<p>'+escapeHtml(f)+'</p>';}).join("")+'</details>':'')+'</td></tr>';
+  }
+  function n3Table(rows) {
+    var h='<div class="n3-table-scroll"><table class="n3-table"><caption class="sr-only">Normalized rows with source and price blockers</caption><thead><tr>';
+    [["Pick",null],["Game / start","start"],["Market",null],["Lane / why",null],["Hit %","hit"],["EV %","ev"],["Sources","sources"],["Best price",null]].forEach(function(c){
+      h+='<th scope="col">'+(c[1]?'<button type="button" data-n3-sort="'+c[1]+'">'+c[0]+'<span aria-hidden="true"> '+(n3State.sort===c[1]?(n3State.direction==="asc"?"↑":"↓"):"↕")+'</span></button>':c[0])+'</th>';
+    });
+    h+='</tr></thead><tbody>';
+    N3_LANES.forEach(function(l){
+      var laneRows=rows.filter(function(r){return r.lane===l.id;});
+      h+='<tr class="n3-lane-heading" data-lane="'+l.id+'"><th colspan="8"><div><span>'+l.label+'</span><b>'+laneRows.length+'</b></div>';
+      if(l.id==='cleared') h+='<p>3+ verified YouTube · 2+ X · 5+ combined · booksAlign · all gates pass · sharp fair · EV &gt; 0.</p>';
+      else if(l.id==='likely') h+='<p>Parlay-research ordering by sharp fair hit %, then EV. Every blocker stays visible; this does not mean publishable.</p>';
+      else h+='<p>Sourced research missing a lane requirement, rough/unpriced markets, or other blockers. Sharp-fair rows rank before indicative-only rows.</p>';
+      h+='</th></tr>';
+      if(laneRows.length) h+=laneRows.map(n3RowHtml).join("");
+      else h+='<tr class="n3-empty-lane"><td colspan="8">'+(l.id==='cleared'?'No rows cleared: every candidate missed at least one required source, booksAlign, sharp-fair, gate or EV &gt; 0 condition. Read its blocker chips below.':'No rows match this lane and the current filters.')+'</td></tr>';
+    });
+    return h+'</tbody></table></div>';
+  }
+  function n3Legacy(data,sport) {
+    var L=data.oversNearMiss&&data.oversNearMiss[sport];
+    if(!L)return "";
+    return '<details class="n3-legacy"><summary>Original research notes · '+escapeHtml(L.title||sport)+'</summary>'+
+      '<p>'+escapeHtml(L.lead||"")+'</p><p>'+escapeHtml(L.updated||"")+'</p><p>'+escapeHtml(L.label||"")+'</p><p>'+escapeHtml(L.note||"")+'</p><p>'+escapeHtml(L.caveat||"")+'</p>'+
+      '<p class="n3-subline">This retains the signed-off narrative. The normalized table above is sourced from Screener’s structured audit, not from parsing these notes. Historical tier prose is replaced by the three-lane legend.</p></details>';
+  }
+  function n3Legend() {
+    return '<section class="n3-legend" aria-label="Lane definitions"><h2>One legend. Three research lanes.</h2><div class="n3-legend-grid">'+
+      '<div><span class="n3-lane n3-cleared">CLEARED</span><p>All source, book, gate, sharp-fair and positive-EV requirements passed. No row is upgraded by the UI.</p></div>'+
+      '<div><span class="n3-lane n3-likely">Highest likelihood</span><p>Sharp-fair parlay research ordered by hit %. It is not the publish floor and can still have source or EV blockers.</p></div>'+
+      '<div><span class="n3-lane n3-near_miss">Near miss</span><p>Other sourced in-scope research. Chips explain failed floors, price limits, splits or unvalidated fair prices.</p></div>'+
+      '</div></section>';
+  }
+  function renderNormalized(data) {
+    lastPayload=data; renderProvisional(data); renderPerformance(data); renderMonteCarlo(data);
+    $("hero-gauge").innerHTML='<div class="hg-empty"><p class="hg-empty-title">Read the blockers, not just the hit rate.</p><p>All existing Nov 5 NBA and TNF props are preserved below. No new picks, prices or gates were created by this layout change.</p></div>';
+    activeSport=resolveActiveSport(data); activeSub=hasSub(activeSport)?(onlySubFor(data,activeSport)||defaultSubFor(data,activeSport)):null; setHash(activeSport,activeSub);
+    $("slate-name").textContent=data.slate||"Normalized research slate";
+    var parsed=parseUpdatedAt(data.updatedAt);$("updated-at").textContent=data.updatedAtLabel||(parsed?parsed.toLocaleString():"—");$("age").textContent=formatAge(lastFetchAt||parsed);
+    $("summary").textContent="SCHEMA v3.0.0 · legacy research preserved · original publish and CLEARED floors unchanged.";
+    $("status-pill").textContent="RESEARCH";$("status-pill").className="status-pill status-live";
+    $("gauge-banner").hidden=true;$("example-banner").hidden=!hasExampleContent(data);
+    var sportRows=n3Visible(data), rows=sportRows.filter(function(r){return normalizeSport(r.sport)===normalizeSport(activeSport);});
+    $("sport-empty").hidden=true;$("board-content").hidden=true;var slot=$("near-miss-slot");if(slot)slot.innerHTML="";
+    var old=$("normalized-board");if(old)old.remove();
+    var host=document.createElement("div");host.id="normalized-board";
+    host.innerHTML=n3FilterControls(data,rows)+n3Legend()+'<section class="n3-board"><div id="n3-results" aria-live="polite"></div><div id="n3-table-host"></div></section>'+n3Legacy(data,activeSport);
+    var main=document.querySelector(".main");main.insertBefore(host,$("live-slot"));
+    renderSportNavNormalized(data,sportRows);renderSubNav(data);
+    $("n3-sport").value=n3State.sport&&Array.from($("n3-sport").options).some(function(o){return o.value===n3State.sport;})?n3State.sport:activeSport;
+    ["game","market","lane","time"].forEach(function(k){$("n3-"+k).value=n3State[k]||"";});
+    $("n3-min").value=n3State.minSources;$("n3-ev").checked=n3State.evPositive;$("n3-sharp").checked=n3State.sharp;$("n3-live").checked=n3State.hideLive;
+    if(!n3Bound) {
+      host.addEventListener("input",n3Update);host.addEventListener("change",n3Update);host.addEventListener("click",n3Click);
+      n3Bound=true;
+    } else { // Current node replaces the old delegated host on navigation.
+      host.addEventListener("input",n3Update);host.addEventListener("change",n3Update);host.addEventListener("click",n3Click);
+    }
+    n3Update();
+  }
+  function n3Click(e) {
+    var s=e.target.closest("[data-n3-sort]");
+    if(s) {var k=s.getAttribute("data-n3-sort"); if(n3State.sort===k)n3State.direction=n3State.direction==="asc"?"desc":"asc";else{n3State.sort=k;n3State.direction=k==="start"?"asc":"desc";} n3Update();}
+    var v=e.target.closest("[data-n3-view]");
+    if(v){n3State.view=v.getAttribute("data-n3-view");n3Update();}
+    if(e.target.closest("#n3-reset")) {
+      n3State.game=n3State.market=n3State.lane=n3State.time="";n3State.minSources=0;n3State.evPositive=n3State.sharp=n3State.hideLive=false;
+      ["game","market","lane","time"].forEach(function(k){$("n3-"+k).value="";});$("n3-min").value=0;$("n3-ev").checked=false;$("n3-sharp").checked=false;$("n3-live").checked=false;n3Update();
+    }
+  }
+  function n3Update() {
+    if(!$("normalized-board"))return;
+    n3State.sport=$("n3-sport").value;
+    var scoped=n3Visible(lastPayload).filter(function(r){return n3State.sport==="all"||normalizeSport(r.sport)===normalizeSport(n3State.sport);});
+    function options(id,values,label,formatter) {
+      var el=$(id),old=el.value;
+      el.innerHTML='<option value="">'+label+'</option>'+values.map(function(v){return '<option>'+escapeHtml(v)+'</option>';}).join("");
+      el.value=values.indexOf(old)!==-1?old:"";
+    }
+    options("n3-game",Array.from(new Set(scoped.map(function(r){return r.game||r.game_id;}))).sort(),"All games");
+    options("n3-market",Array.from(new Set(scoped.map(function(r){return r.market;}))).sort(),"All markets");
+    var filtered=n3SortRows(n3Apply(n3Visible(lastPayload)));
+    var table=$("n3-table-host");table.innerHTML=n3Table(filtered);table.className=n3State.view==="cards"?"n3-view-cards":"n3-view-table";
+    $("n3-results").innerHTML='<p><strong>'+filtered.length+'</strong> of '+scoped.length+' in-scope rows shown · sort: '+n3State.sort+' '+n3State.direction+'</p>'+(!filtered.length?'<div class="n3-no-results"><h3>No rows match these filters.</h3><p>Nothing was hidden by a source or publish gate. Reset filters to restore the preserved slate.</p><button type="button" id="n3-empty-reset">Reset filters</button></div>':"");
+    var er=$("n3-empty-reset");if(er)er.addEventListener("click",function(){$("n3-reset").click();});
+    document.querySelectorAll("[data-n3-view]").forEach(function(b){b.setAttribute("aria-pressed",b.getAttribute("data-n3-view")===n3State.view?"true":"false");});
+  }
+  function renderSportNavNormalized(data, rows) {
+    $("sport-nav").innerHTML=sportsList(data).map(function(s){var id=normalizeSport(s.id),n=rows.filter(function(r){return normalizeSport(r.sport)===id;}).length;return '<button type="button" id="tab-'+id+'" class="sport-tab" role="tab" data-sport="'+id+'" aria-selected="'+(activeSport===id)+'" aria-controls="normalized-board"><span>'+escapeHtml(s.nav||id)+'</span><span class="tab-count">'+n+'</span></button>';}).join("");
+  }
+  function pageMethodology() {
+    return '<p class="page-kicker">How it works</p><h1>Methodology.</h1><p class="page-lede">A normalized view of Screener-signed research. The UI never re-derives a source floor, fair price, CLEARED result, or parlay outcome.</p>'+
+      '<h2>Schema and lanes</h2><p>Payload contract: <b>SCHEMA v3.0.0</b>, engine v1.2.0. Three presentation lanes are CLEARED, Highest likelihood and Near miss. Historical performance retains the old tier labels only as historical ledger records.</p>'+
+      '<ul><li><b>CLEARED:</b> raw verified independent YT ≥3, unique X ≥2, combined raw ≥5, booksAlign v2, all applicable gates pass, valid sharp fair, EV &gt; 0 at best eligible same-line price, and the per-sport 25-transcript funnel passes.</li><li><b>Highest likelihood:</b> a parlay-research view for non-excluded rows with counted sources, a sharp fair probability, an observed same-line price and no R16 failure. This is not permission to publish and does not relax gates.</li><li><b>Near miss:</b> all remaining sourced in-scope rows, including rough no-sharp estimates. Splits and zero-source/removed rows are excluded from the three lanes.</li></ul>'+
+      '<h2>Sources and prices</h2><p>Previous CT day plus game-day YouTube uploads, verified and deduplicated by person/network; X send-it posters remain separate. Leans, parlay legs, demos and excluded sources do not become counted sources. Fair priority is Pinnacle no-vig → exchange no-vig → validated three-book consensus. Aggregate text is not enough to claim sharp fair; those rows remain indicative-only.</p>'+
+      '<p>EV uses signed-off percent values. No GUI sorting or filtering changes the original price, probability, source count, lane, blocker or price group. Unknown exact quote timestamps remain unknown.</p>'+
+      '<h2>Availability and grading</h2><p>LIVE/FINAL does not change a pregame lane at publication. Grading is separate, cited, and does not rewrite which gates failed. The frozen lane-at-publish is what future Performance/CLV reporting partitions on.</p>'+
+      '<h2>Research, not betting</h2><p>No sportsbook links or bets are placed. The source ledger, correlation-aware builder and Performance overhaul are later approved milestones, not silently inferred here.</p>';
+  }
+
   function renderPage(data) {
     var r = pageRoute(), pv = $("page-view"), bv = $("board-view");
     applySiteName(data, r);
@@ -1012,7 +1223,7 @@
     }).join("");
     return (
       '<section class="near-miss" aria-label="Near misses">' +
-        (list.some(function (n) { return n.engineTier; }) ? '<h3 class="nm-head"><span class="nm-pill">WATCH LIST</span> Rated by the engine, but under the board’s source floor, so not on the main board</h3>' : '<h3 class="nm-head"><span class="nm-pill">NEAR MISS</span> Near misses (under 6 sources), not on the main board</h3>') +
+        (list.some(function (n) { return n.engineTier; }) ? '<h3 class="nm-head"><span class="nm-pill">NEAR MISS</span> Rated by the engine, but under the board’s source floor, so not on the main board</h3>' : '<h3 class="nm-head"><span class="nm-pill">NEAR MISS</span> Near misses (under the 5-source floor), not in the CLEARED lane</h3>') +
         '<p class="nm-note">Research only. Not counted in gauge/cleared totals or board status.</p>' +
         '<ul class="nm-list">' + rows + "</ul>" +
       "</section>"
@@ -1160,7 +1371,7 @@
     var el = $("hero-gauge") || document.getElementById("tonight-gauge");
     var nav = $("sport-nav");
     if (!g || !g.items || !g.items.length) {
-      if (el && el.id === "hero-gauge") { el.innerHTML = '<div class="hg-empty"><p class="hg-empty-title">Nothing qualifies right now.</p><p>' + escapeHtml((g && g.emptyText) || "No unstarted play has four or more combined sources with a Clear or Soft tier. We would rather show nothing than a hollow pick.") + '</p></div>'; return; }
+      if (el && el.id === "hero-gauge") { el.innerHTML = '<div class="hg-empty"><p class="hg-empty-title">Nothing qualifies right now.</p><p>' + escapeHtml((g && g.emptyText) || "No unstarted play has four or more combined sources with a CLEARED or Highest likelihood tier. We would rather show nothing than a hollow pick.") + '</p></div>'; return; }
       if (el) el.remove(); return;
     }
     if (!el && nav && nav.parentNode) {
@@ -1206,8 +1417,10 @@
   function render(data) {
     if (DEMO) { data = demoData(); }
     lastPayload = data;
+    lastFetchAt = lastFetchAt || new Date();
     var db = $("demo-banner"); if (db) db.hidden = !DEMO;
     if (renderPage(data)) return;
+    if (n3Rows(data).length) { renderNormalized(data); return; }
     renderProvisional(data);
     renderTonightGauge(data);
     renderPerformance(data);
