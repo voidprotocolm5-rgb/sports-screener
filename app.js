@@ -90,7 +90,7 @@
   function statusLabel(status) {
     var s = String(status || "stale").toLowerCase();
     if (s === "example") return "EXAMPLE";
-    if (s === "gauge") return "GAUGE";
+    if (s === "gauge") return "NEAR MISS";
     return s.toUpperCase();
   }
 
@@ -703,30 +703,14 @@
       '<p class="dr-muted">Ungraded: ' + (T.ungraded || 0) + " (mostly player props without an auto-grader) · pending: " + (T.pending || 0) + " · updated " + escapeHtml(T.updatedAt || "") + "</p>";
   }
   function pageMethodology() {
-    return '<p class="page-kicker">How it works</p><h1>Methodology.</h1>' +
-      '<p class="page-lede">A pick reaches the board only when independent people put their name on it — and the price still makes sense.</p>' +
-      "<div class='method-note'><b>Spec v3 (Sat Oct 17, 2026).</b> Clear/Soft/Watch replaces CLEARED/GAUGE. <b>Betting Consensus Screener</b> owns the rulebook (<code>RULEBOOK.md</code>, 12 books merged) and the rule engine (<code>engine/tier_engine.py</code>). <b>Sports Scout</b> owns scraping and publishing. Clear's definition was <b>settled by Atlas</b> (Oct 17, 2026). <b>Engine v1.0.6</b> (Oct 18, 2026): board floor 3 combined sources, YouTube minimum 2 with X posters counting toward it; book rules unchanged.</div>" +
-      "<h2>1. Sources (ranked by independent agreeing sources)</h2><ul>" +
-      "<li><b>YouTube:</b> 25 search variants per sport (slate-wide best bets, every featured matchup, props, parlays, date-stamped queries), filtered to uploads from the last day. TubeAlfred is used first. When its credits run out, free yt-dlp search and caption pulls fill in. Firm spoken picks only. Leans, fan predictions, AI/scripted channels and simulations are excluded. Channels on the same network count once, and re-uploads or tails count as echoes (0.25).</li>" +
-      "<li><b>X send-it list</b> <code>1867962331566612965</code>: free <code>list:</code> search, read-only (never posts). Unique posters, current-day slips for unstarted games, slip images OCR'd.</li>" +
-      "<li><b>Line moves:</b> snapshot-to-snapshot moves from The Odds API: the current pass (Sun Oct 18, 9:10 AM CT) against the earliest prior snapshot of the same game (NFL from Thu Oct 15). Games with no prior snapshot show no move. A documented sharp move or reverse line move adds a small adjustment. Plain moves are not called sharp.</li>" +
-      "<li><b>The Odds API:</b> multi-book prices. Fair price = Pinnacle no-vig. Closing capture runs once per research pass. Auto-refresh stays <b>OFF</b>. The key stays on the box and is never shown.</li>" +
-      "<li><b>Free in-house models</b> (section 7): context for the <i>model agreement</i> rule when they're run.</li></ul>" +
-      "<h2>2. Book rules (each card lists pass / fail / n/a with a reason)</h2><ul>" +
-      "<li><b>Price edge (engine v1.2.0, Oct 23, 2026):</b> a sharp fair price must exist (Pinnacle no-vig, else an exchange, else a 3+ book consensus) and every price is shopped across books. A pick publishes only with an <b>edge over the sharp fair price</b> (EV &gt; 0 at the best shopped price). <b>Close - no edge yet</b> = EV between \u22122% and 0: still shown, below the edge picks, with its EV. Below \u22122% it is a near miss. Source weights only rank picks.</li>" +
-      "<li><b>Key numbers</b> (football 3, 7, 10, 14): laying through or giving up a key number is flagged.</li>" +
-      "<li><b>CLV:</b> closing-line value is tracked per card after close.</li>" +
-      "<li><b>Public bias:</b> a pick with 70%+ of tickets on its side fails. Splits come from the free Action Network public-betting pages, captured once per research pass.</li>" +
-      "<li><b>Home dogs:</b> lean home underdogs. <b>Long shots:</b> +300 or longer is flagged. <b>Favorite cap:</b> nothing shorter than \u2212200.</li>" +
-      "<li><b>One side per game:</b> only the stronger side of a game is kept, and the other is dropped.</li>" +
-      "<li><b>Echo discount</b>, <b>model agreement</b>, <b>sharp move</b> and <b>no hot-hand credit</b> are also applied.</li></ul>" +
-      "<h2>3. Tiers</h2><ul><li><b>CLEARED:</b> 3+ verified independent YouTube, 2+ X send-it posters <b>and</b> booksAlign (valid sharp fair price, no fails on B2/B3/B6/B8/B12/B16; B1 price edge is now a gate).</li><li><b>SOFT:</b> sourced, with 1\u20132 gate fails.</li><li><b>WATCH:</b> sourced, with 3+ gate fails.</li><li><b>PASS:</b> hidden.</li>" +
-      "<li><b>Main board floor:</b> 5+ combined sources AND an edge over the sharp fair price (or the Close - no edge yet band, EV \u22122% to 0); CLEARED also needs EV &gt; 0. 5+ combined sources = verified independent YouTube + X send-it posters (set by Atlas Oct 23, 2026; engine v1.1.x with book_enrich). Clear also needs every rule passing and a known fair price. CLEARED or Highest likelihood rows under the floor appear on the per-sport watch list, not the main board. Started games stay on the board with a LIVE badge and their pre-game tier and sources; only FINAL games are removed.</li></ul>" +
-      "<p class='muted'>Clear definition settled by Atlas on Oct 17, 2026. Independent = distinct channels and networks with firm, same-market picks. Same-day = uploaded the previous calendar day (CT) or game day, before the game. Echo, AI/scripted, DFS-lineup and fan channels are excluded.</p>" +
-      "<h2>4. Grading and CLV</h2><p>Betting Consensus Screener grades finals from ESPN against the published line and price, captures closing lines, and keeps the permanent ledger. Earlier cards keep their CLEARED/GAUGE labels in the track record.</p>" +
-      "<h2>7. Own models &amp; calibration</h2><p>Phase 4: in-house, documented models built on free/public data only. Scripts live under <code>models/</code>; each is backtested out of sample before any use.</p><div class='table-wrap'><table class='ptable'><tr><th>Model</th><th>Method</th><th>Holdout n</th><th>Brier</th><th>Log loss</th><th>Hit rate</th><th>Baseline</th></tr><tr><th>NHL Elo v0.1</th><td>Elo with margin, home ice and back-to-back rest adjustment; moneyline incl. OT/SO</td><td>2,731</td><td>0.242</td><td>0.677</td><td>56.1%</td><td>Home-rate: Brier 0.248, LL 0.690</td></tr><tr><th>Soccer DC v0.1</th><td>Dixon–Coles Poisson, walk-forward 14-day refits, 9 domestic leagues (EPL, Championship, League One, Scottish Prem &amp; Champ, La Liga, Bundesliga, Serie A, Ligue 1)</td><td>7,042</td><td>0.611*</td><td>1.045</td><td>50.0%</td><td>Closing market: Brier 0.591*, LL 0.991, 51.8%</td></tr><tr><th>MLB v0.1</th><td>Pitcher-adjusted run model: team EWMA offense/defense + starter FIP, Pythagorean win%, Platt-calibrated</td><td>7,416</td><td>0.2435</td><td>0.680</td><td>56.3%</td><td>Home-rate: Brier 0.2491, LL 0.691</td></tr><tr><th>NFL Elo v0.1</th><td>Margin-of-victory Elo + home-field + rest differential; moneyline (spread/ATS experimental, unused)</td><td>1,498</td><td>0.2237</td><td>0.638</td><td>63.1%</td><td>Closing ML: Brier 0.2124, LL 0.612, 66.4%</td></tr><tr><th>CFB Elo v0.1</th><td>Same Elo stack; FBS vs pooled FCS rating; moneyline</td><td>4,999</td><td>0.1715</td><td>0.510</td><td>73.5%</td><td>FBS–FBS: Brier 0.1920, LL 0.564, 70.0%</td></tr><tr><th>NBA v0.1</th><td>MOV-Elo + home court + back-to-back/rest adjustment; moneyline</td><td>3,944</td><td>0.2093</td><td>0.606</td><td>67.0%</td><td>Home-rate: Brier 0.2476</td></tr></table></div><p class='muted'>*Soccer Brier is 3-way (home/draw/away) and not comparable to the 2-way NHL/MLB/NFL/CFB/NBA figures. CFB baseline column shows FBS–FBS subset (n=4,277); no free closing-line history for CFB or NBA.</p><h3>Caveats</h3><ul><li><b>NHL:</b> beats a home-win baseline but has not yet shown it beats closing lines (no free closing-line history). Slightly overconfident on favorites. Goalie adjustment tuned to 0 in v0.1; xG planned for v0.2.</li><li><b>Soccer:</b> trails the de-vigged closing market in every league tested. Domestic leagues only — no UCL/Europa.</li><li><b>MLB:</b> beats a home-win baseline (Brier 0.2435 vs 0.2491). No free closing-line history, so no market comparison yet. No bullpen, lineup, park or weather inputs; treat edges over ~5pp vs a real book as likely model error.</li><li><b>NFL:</b> trails the de-vigged closing moneyline (Brier 0.2237 vs 0.2124). Edge≥3pt flat bets at close lost ~6.8% ROI. ATS cover probs worse than a coin flip — unused. No EPA yet (nflverse PBP is a v0.2 candidate).</li><li><b>CFB:</b> well-calibrated vs results, but no free closing lines for a market test. FBS–FBS subset is the fairer read (Brier 0.1920). collegefootballdata.com skipped (API key required).</li><li><b>NBA:</b> beats a home-win baseline (Brier 0.2093 vs 0.2476). No free closing-line history, so no market comparison yet. Weak on home underdogs (low bins overrate them). No injuries/lineups in v0.1.</li></ul><h3>Policy</h3><p>These models <b>do not set books align</b> yet. NHL Elo is used as GAUGE context and as a fallback when GameLens shows its capped 65%. Soccer DC, MLB v0.1, NFL Elo v0.1, CFB Elo v0.1 and NBA v0.1 are GAUGE context only. A model replaces a cited model only after it beats it (and the market) in backtest. The weighted 6.0 floor and CLEARED floors are unchanged.</p><h3>Reliability charts</h3><div class='model-charts'><figure><img src='assets/models/nhl-reliability.png?v=202610151403' alt='NHL Elo v0.1 reliability chart' loading='lazy'><figcaption>NHL Elo v0.1: predicted vs actual win rate (holdout)</figcaption></figure><figure><img src='assets/models/soccer-reliability.png?v=202610151403' alt='Soccer DC v0.1 reliability chart' loading='lazy'><figcaption>Soccer DC v0.1: predicted vs actual outcome rate (holdout)</figcaption></figure><figure><img src='assets/models/mlb-reliability.png?v=202610151403' alt='MLB v0.1 reliability chart' loading='lazy'><figcaption>MLB v0.1: predicted vs actual win rate (holdout)</figcaption></figure><figure><img src='assets/models/nfl-reliability.png?v=202610151403' alt='NFL Elo v0.1 reliability chart' loading='lazy'><figcaption>NFL Elo v0.1: predicted vs actual win rate (holdout); ATS panel experimental</figcaption></figure><figure><img src='assets/models/cfb-reliability.png?v=202610151403' alt='CFB Elo v0.1 reliability chart' loading='lazy'><figcaption>CFB Elo v0.1: predicted vs actual win rate (holdout)</figcaption></figure><figure><img src='assets/models/nba-reliability.png?v=202610151403' alt='NBA v0.1 reliability chart' loading='lazy'><figcaption>NBA v0.1: predicted vs actual win rate (holdout)</figcaption></figure></div>" +
-      "<h2>6. Reading list</h2><p>Approach informed by <i>The Logic of Sports Betting</i>, <i>Sharp Sports Betting</i>, quantitative-trading practice, and Hausch &amp; Ziemba on market efficiency: consensus alone is not edge; price and closing-line value matter.</p>";
+    return '<p class="page-kicker">How it works</p><h1>Methodology.</h1><p class="page-lede">A normalized research view. Older payloads still render through the legacy reader without changing their source, price or gate outcomes.</p>'+
+      '<h2>Three display lanes</h2><ul><li><b>CLEARED:</b> verified independent YouTube ≥3, unique X ≥2, combined sources ≥5, booksAlign, all applicable gates pass, valid sharp fair, and EV &gt; 0. The 25-transcript YouTube funnel applies per sport.</li><li><b>Highest likelihood:</b> ordered parlay research when requested, for sourced rows with sharp fair and an observed price; hit % first, EV as tiebreaker. Not a publish approval.</li><li><b>Near miss:</b> all other sourced in-scope research, including source gaps, nonpositive EV, split markets, R16, no sharp fair or no price. Four-lane/excluded diagnostics are not included in tab totals.</li></ul>'+
+      '<p><b>Publish rule remains 5+ combined sources and the required price edge; CLEARED maintains the additional 3 YouTube + 2 X + booksAlign requirement.</b> Filters and sorting never delimit or promote a pick.</p>'+
+      '<h2>Fair prices and availability</h2><p>Prefer Pinnacle no-vig, then an exchange, then a validated three-book de-vig consensus. A rough estimate cannot enter Highest likelihood and is labeled indicative-only. Unknown quote times and opening lines stay unknown; the UI does not infer them.</p>'+
+      '<h2>Live and historical records</h2><p>Started rows retain their pre-publication lane. Live/final status does not rewrite why a row failed. Earlier performance labels, including GAUGE, are historical ledger fields and not a fourth active lane.</p>'+
+      '<h2>Research only</h2><p>No sportsbook links, betting instructions or bets placed. Details on fair de-vig, sources and blocked gates are shown per row. Model skepticism and independent source verification stay unchanged.</p>';
   }
+
   function pageDisclaimer() {
     return '<p class="page-kicker">Please read</p><h1>Disclaimer.</h1>' +
       '<div class="callout warn"><b>21+ only.</b> Gambling problem? Call <a href="tel:18004262537">1-800-GAMBLER</a> (1-800-426-2537) or visit <a href="https://www.ncpgambling.org" rel="noopener">ncpgambling.org</a>.</div>' +
@@ -1022,7 +1006,7 @@
             sendIt: { whoOdds: ["@example1: Team A −125", "@example2: Team A ML", "@example3: Team A −120"] },
             minEdge: { bestLine: "A −125", bestSource: "Example Book", breakEvenPct: 55.6, modelWinPct: 61.0, modelSource: "Example Model", edgeVsBePct: 5.4 } } }),
         ex({ id: "demo-2", sport: "NHL", tier: "gauge", marketType: "spread", pick: "Over 6.5", line: "o6.5 −110", game: "Example C @ Example D · 8:00 PM CT", consensusPct: 67, simWinPct: "n/a", ev: "n/a",
-          why: "EXAMPLE: 6 sources, but no cited model clears break-even, so it is GAUGE.", sources: { youtube: 4, xSendIt: 2, booksAlign: false },
+          why: "EXAMPLE: no cited model clears break-even, so it is a near miss.", sources: { youtube: 4, xSendIt: 2, booksAlign: false },
           splits: { publicBetsPct: 72, moneyPct: 70, side: "Over", source: "Example splits feed" }, rlm: { flag: false },
           ledger: { booksAlign: false, booksAlignWhy: "EXAMPLE: best o6.5 −110 → BE 52.4%; no cited model." } }),
         ex({ id: "demo-3", sport: "NHL", tier: "gauge", marketType: "prop", pick: "Example Player o2.5 SOG", line: "−130", game: "Example C @ Example D · 8:00 PM CT", consensusPct: 100, ev: "n/a",
@@ -1030,9 +1014,9 @@
       ],
       nearMiss: { NHL: [{ pick: "Example Team E ML", game: "Example E @ Example F · 9:00 PM CT", yt: 3, x: 1, total: 4, booksAlign: true, booksAlignWhy: "EXAMPLE: model +3.1pp", gap: "EXAMPLE: needs 2 more sources.",
         consensus: [{ site: "Example Consensus Site", pick: "Team E ML" }], splits: { publicBetsPct: 45, moneyPct: 52, side: "Team E", source: "Example splits feed" } }] },
-      todaysGauge: { title: "Today's Gauge", label: "EXAMPLE DATA", items: [
+      todaysGauge: { title: "Today's research", label: "EXAMPLE DATA", items: [
         { rank: 1, tier: "CLEARED", pick: "Example Team A ML", line: "−125", sport: "NHL", game: "Example A @ Example B", timeCT: "7:00 PM CT", yt: 5, x: 3, booksAlign: true, edge: "+5.4pp", rationale: "EXAMPLE rationale." },
-        { rank: 2, tier: "GAUGE", pick: "Over 6.5", line: "−110", sport: "NHL", game: "Example C @ Example D", timeCT: "8:00 PM CT", yt: 4, x: 2, booksAlign: false, rationale: "EXAMPLE rationale." }] },
+        { rank: 2, tier: "NEAR MISS", pick: "Over 6.5", line: "−110", sport: "NHL", game: "Example C @ Example D", timeCT: "8:00 PM CT", yt: 4, x: 2, booksAlign: false, rationale: "EXAMPLE rationale." }] },
       performance: { note: "EXAMPLE DATA — invented track record for layout only.", tally: {
         all: { record: "12-8-1", n: 21, hitRate: 60, units: 2.4, roiPct: 11.4, clvScored: 15, clvBeat: 9, clvN: 15, avgClvPp: 1.2 },
         byTier: { cleared: { record: "5-2-0", n: 7, hitRate: 71.4, units: 2.6, roiPct: 37.1 }, gauge: { record: "7-6-1", n: 14, hitRate: 53.8, units: -0.2, roiPct: -1.4 } },
@@ -1142,7 +1126,7 @@
     var badges = "";
     if (isEx) badges += '<span class="example-tag">EXAMPLE</span>';
     if (tier === "cleared") badges += '<span class="tier-tag tier-cleared">CLEARED</span>';
-    else if (isGauge || tier === "gauge") badges += '<span class="tier-tag tier-gauge">GAUGE</span>';
+    else if (isGauge || tier === "gauge") badges += '<span class="tier-tag tier-gauge">NEAR MISS</span>';
     if (bet.rank != null) badges += '<span class="rank-badge">#' + escapeHtml(bet.rank) + "</span>";
     badges += renderResultBadge(bet.result);
 
@@ -1370,14 +1354,14 @@
     var el = $("hero-gauge") || document.getElementById("tonight-gauge");
     var nav = $("sport-nav");
     if (!g || !g.items || !g.items.length) {
-      if (el && el.id === "hero-gauge") { el.innerHTML = '<div class="hg-empty"><p class="hg-empty-title">Nothing qualifies right now.</p><p>' + escapeHtml((g && g.emptyText) || "No unstarted play has four or more combined sources with a CLEARED or Highest likelihood tier. We would rather show nothing than a hollow pick.") + '</p></div>'; return; }
+      if (el && el.id === "hero-gauge") { el.innerHTML = '<div class="hg-empty"><p class="hg-empty-title">Nothing qualifies right now.</p><p>' + escapeHtml((g && g.emptyText) || "No unstarted play meets all CLEARED requirements. Near misses and likelihood research remain visible below with their blockers.") + '</p></div>'; return; }
       if (el) el.remove(); return;
     }
     if (!el && nav && nav.parentNode) {
       el = document.createElement("section");
       el.id = "tonight-gauge";
       el.className = "tonight-gauge";
-      el.setAttribute("aria-label", (g.title || "Today's Gauge"));
+      el.setAttribute("aria-label", (g.title || "Today's research"));
       nav.parentNode.insertBefore(el, nav);
     }
     if (!el) return;
@@ -1394,7 +1378,7 @@
               '<strong class="tg-pick">' + escapeHtml(it.pick || "") + "</strong>" +
               (it.line ? ' <span class="tg-line">' + escapeHtml(it.line) + "</span>" : "") + "</div>" +
             '<div class="tg-meta">' + escapeHtml((it.sport ? it.sport + " · " : "") + (it.game || "") + (it.timeCT ? " · " + it.timeCT : "")) + "</div>" +
-            (it.onBoard !== undefined ? '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) + (it.edge ? " · edge+" : "") + " · " + (it.onBoard ? "on the board" : "under the source floor, watch list") + "</div>" :
+            (it.onBoard !== undefined ? '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) + (it.edge ? " · edge+" : "") + " · " + (it.onBoard ? "on the board" : "near miss") + "</div>" :
             '<div class="tg-meta">YT ' + escapeHtml(String(it.yt)) + " · X " + escapeHtml(String(it.x)) +
               " · booksAlign " + (it.booksAlign ? "✓" : "✗") + " · " + escapeHtml(String(edge)) + "</div>") +
             (it.blockedBy ? '<div class="tg-why tg-blocked"><b>Blocked by:</b> ' + escapeHtml(it.blockedBy) + "</div>" : "") +
@@ -1406,7 +1390,7 @@
       );
     }).join("");
     el.innerHTML =
-      '<div class="tg-head"><h2 class="tg-title">' + escapeHtml(g.title || "Today\u2019s Gauge") + '</h2>' +
+      '<div class="tg-head"><h2 class="tg-title">' + escapeHtml(g.title || "Today\u2019s research") + '</h2>' +
       '<span class="tg-sub">' + escapeHtml(g.label || "") + "</span></div>" +
       (g.noEdgeNote ? '<p class="tg-noedge"><b>No edge today.</b> ' + escapeHtml(g.noEdgeNote) + "</p>" : "") +
       '<ol class="tg-list">' + rows + "</ol>" +
@@ -1461,7 +1445,7 @@
     if (tallyEl) {
       var rt = data.resultsTally;
       tallyEl.hidden = !rt;
-      tallyEl.textContent = rt ? (rt.label || ("CLEARED " + rt.cleared + " · GAUGE " + rt.gauge + " · Near misses " + rt.nearMiss)) : "";
+      tallyEl.textContent = rt ? (rt.label || ("CLEARED " + rt.cleared + " · published research " + rt.gauge + " · Near misses " + rt.nearMiss)) : "";
     }
     renderProcessBar(data);
     renderLive(activeSport, data);
@@ -1491,10 +1475,10 @@
           cleared = data.clearedCount != null ? data.clearedCount : 0;
           gaugeN = data.gaugeCount != null ? data.gaugeCount : sportBets.length;
         }
-        gaugeEl.textContent = "GAUGE BOARD — " +
+        gaugeEl.textContent = "RESEARCH BOARD — " +
           cleared + " cleared floors · " +
           gaugeN +
-          " best-available for sizing. Not full-floor consensus.";
+          " sourced non-CLEARED rows. Not full-floor consensus.";
       }
     }
 
