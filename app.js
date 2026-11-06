@@ -1031,7 +1031,7 @@
     if(parlayState.ids.indexOf(id)>=0){parlayState.ids=parlayState.ids.filter(function(x){return x!==id;});parlayState.errors=[];parlayState.result=null;parlayState.computedRules=null;parlayState.warnings=[];return renderParlay(lastPayload);}
     if(parlayState.ids.length>=4){parlayState.errors=['Maximum four legs. Deselect a leg before adding another.'];return renderParlay(lastPayload);}
     var next=parlayState.ids.concat(id);parlayState.result=null;parlayState.computedRules=null;
-    try{parlayRules(next.map(function(x){return rows.find(function(r){return r.row_id===x;});}),lastPayload.parlay_builder);parlayState.ids=next;parlayState.errors=[];}
+    try{if(next.length>=2)parlayRules(next.map(function(x){return rows.find(function(r){return r.row_id===x;});}),lastPayload.parlay_builder);parlayState.ids=next;parlayState.errors=[];}
     catch(err){parlayState.errors=[err.message];}
     renderParlay(lastPayload);
   };
@@ -1111,7 +1111,7 @@
     var old=$("normalized-board");if(old)old.remove();
     renderSportNavNormalized(data,sportRows);
     var host=document.createElement("div");host.id="normalized-board";
-    n3ScorecardPublic(data);host.innerHTML=n3FilterControls(data,rows)+n3Legend()+'<details id="n3-pass-ledger" class="n3-pass-shell"><summary>Pass source ledger · YouTube funnel · Screener sign-off</summary></details><section class="n3-board"><div id="n3-results" aria-live="polite"></div><div id="n3-table-host"></div></section>'+n3Legacy(data,activeSport);
+    n3ScorecardPublic(data);host.innerHTML=n3FilterControls(data,rows)+n3Legend()+'<details id="parlay-research" class="parlay-research" aria-label="Research-only parlay builder"></details><details id="n3-pass-ledger" class="n3-pass-shell"><summary>Pass source ledger · YouTube funnel · Screener sign-off</summary></details><section class="n3-board"><div id="n3-results" aria-live="polite"></div><div id="n3-table-host"></div></section>'+n3Legacy(data,activeSport);
     var main=document.querySelector(".main");main.insertBefore(host,$("live-slot"));
     renderSportNavNormalized(data,sportRows);
     var subNav=$("sub-nav");if(subNav){subNav.hidden=true;subNav.innerHTML="";}
