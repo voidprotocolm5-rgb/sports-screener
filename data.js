@@ -55,8 +55,8 @@ window.BET_BOARD_DATA = {
     "cleared": "4-5-0",
     "gauge": "30-27-0",
     "nearMiss": "207-190-3",
-    "checkedAt": "10:15 AM CT",
-    "checkedAtIso": "2026-11-06T10:15:43-06:00",
+    "checkedAt": "10:20 AM CT",
+    "checkedAtIso": "2026-11-06T10:20:16-06:00",
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
@@ -253,7 +253,7 @@ window.BET_BOARD_DATA = {
       },
       "pending": 9,
       "ungraded": 55,
-      "updatedAt": "2026-11-06T10:15:43-06:00"
+      "updatedAt": "2026-11-06T10:20:16-06:00"
     },
     "recent": [
       {
@@ -1580,7 +1580,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:13-06:00",
+        "graded_at": "2026-11-06T10:20:07-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -1790,7 +1790,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -1969,7 +1969,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2180,7 +2180,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -2392,7 +2392,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2569,7 +2569,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -2747,7 +2747,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2925,7 +2925,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -3119,7 +3119,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -3367,7 +3367,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -3536,7 +3536,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -3761,7 +3761,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -3973,13 +3973,13 @@ window.BET_BOARD_DATA = {
         "rank": 12
       },
       "grading": {
-        "result": "win",
-        "units": 1.05,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -4243,7 +4243,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -4431,7 +4431,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -4612,13 +4612,13 @@ window.BET_BOARD_DATA = {
         "rank": 15
       },
       "grading": {
-        "result": "win",
-        "units": 1.04,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -4838,13 +4838,13 @@ window.BET_BOARD_DATA = {
         "rank": 16
       },
       "grading": {
-        "result": "loss",
-        "units": -1.0,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5033,7 +5033,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5208,7 +5208,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5395,7 +5395,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5584,7 +5584,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5765,7 +5765,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5937,7 +5937,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -6142,7 +6142,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -6325,13 +6325,13 @@ window.BET_BOARD_DATA = {
         "rank": 24
       },
       "grading": {
-        "result": "win",
-        "units": 1.0,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -6520,7 +6520,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -6742,7 +6742,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:14-06:00",
+        "graded_at": "2026-11-06T10:20:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -6927,7 +6927,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7137,13 +7137,13 @@ window.BET_BOARD_DATA = {
         "rank": "SP2"
       },
       "grading": {
-        "result": "loss",
-        "units": -1.0,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7366,7 +7366,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7567,13 +7567,13 @@ window.BET_BOARD_DATA = {
         "rank": "SP4"
       },
       "grading": {
-        "result": "loss",
-        "units": -1.0,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7759,7 +7759,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7957,7 +7957,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8132,7 +8132,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8306,7 +8306,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8497,7 +8497,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8694,7 +8694,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8885,7 +8885,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9059,7 +9059,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9443,7 +9443,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9673,7 +9673,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9848,13 +9848,13 @@ window.BET_BOARD_DATA = {
         "rank": 12
       },
       "grading": {
-        "result": "win",
-        "units": 1.25,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10061,7 +10061,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10431,7 +10431,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10577,13 +10577,13 @@ window.BET_BOARD_DATA = {
         "rank": 16
       },
       "grading": {
-        "result": "win",
-        "units": 1.1,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10762,13 +10762,13 @@ window.BET_BOARD_DATA = {
         "rank": 17
       },
       "grading": {
-        "result": "win",
-        "units": 1.05,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10936,7 +10936,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -11293,7 +11293,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -11479,7 +11479,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": "2026-11-06T10:20:10-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -11999,13 +11999,13 @@ window.BET_BOARD_DATA = {
         "rank": 24
       },
       "grading": {
-        "result": "win",
-        "units": 1.08,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -12230,13 +12230,13 @@ window.BET_BOARD_DATA = {
         "rank": 25
       },
       "grading": {
-        "result": "loss",
-        "units": -1.0,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -12407,13 +12407,13 @@ window.BET_BOARD_DATA = {
         "rank": 26
       },
       "grading": {
-        "result": "win",
-        "units": 1.65,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -12580,13 +12580,13 @@ window.BET_BOARD_DATA = {
         "rank": 27
       },
       "grading": {
-        "result": "loss",
-        "units": -1.0,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -12750,13 +12750,13 @@ window.BET_BOARD_DATA = {
         "rank": 28
       },
       "grading": {
-        "result": "loss",
-        "units": -1.0,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -12905,13 +12905,13 @@ window.BET_BOARD_DATA = {
         "rank": 29
       },
       "grading": {
-        "result": "loss",
-        "units": -1.0,
+        "result": null,
+        "units": null,
         "closing_price": null,
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-06T10:11:15-06:00",
+        "graded_at": null,
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -14700,10 +14700,10 @@ window.BET_BOARD_DATA = {
       }
     ]
   },
-  "normalized_generated_at": "2026-11-06T10:11:15-06:00",
+  "normalized_generated_at": "2026-11-06T10:20:10-06:00",
   "performance_feed": {
     "schema_version": "3.0.0",
-    "generated_at": "2026-11-06T10:11:15-06:00",
+    "generated_at": "2026-11-06T10:20:10-06:00",
     "grading_version": "1u-flat-v1",
     "entries": [
       {
@@ -14728,10 +14728,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 21 vs -7"
         },
+        "event_id": "401864516",
         "clv_tag": "lose",
-        "clv_pp": -2.34,
-        "clv_pct": -4.42,
-        "clv_pts": null,
         "closing_price": {
           "line": "-7",
           "american": -102,
@@ -14740,7 +14738,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:20-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -4.42,
+        "clv_pp": -2.34,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|arizona state 21  21 |hawaii   arizona state  9 30 pm ct",
@@ -14764,10 +14766,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 21 vs -21"
         },
+        "event_id": "401856823",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -17.5,
         "closing_price": {
           "line": "-3.5",
           "american": -105,
@@ -14776,7 +14776,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:27-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -17.5
       },
       {
         "key": "2026-10-10|CFB|arkansas +13.5  +13.5 |tennessee   arkansas  3 15 pm ct",
@@ -14800,10 +14804,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -7 vs +13.5"
         },
+        "event_id": "401856713",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "+13.5",
           "american": -105,
@@ -14812,7 +14814,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:36-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|central michigan +2.5  +2.5 |central michigan   ohio",
@@ -14836,10 +14842,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -17 vs +2.5"
         },
+        "event_id": "401866438",
         "clv_tag": "lose",
-        "clv_pp": -0.91,
-        "clv_pct": -1.72,
-        "clv_pts": null,
         "closing_price": {
           "line": "+2.5",
           "american": -108,
@@ -14848,7 +14852,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:39-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.72,
+        "clv_pp": -0.91,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|coastal carolina +4.5  +4.5 |coastal carolina   marshall  6 00 pm ct",
@@ -14872,10 +14880,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 6 vs +4.5"
         },
+        "event_id": "401869943",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "+4.5",
           "american": -112,
@@ -14884,7 +14890,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:35-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|duke 4.5  4.5 |duke   georgia tech  2 30 pm ct",
@@ -14908,10 +14918,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs -4.5"
         },
+        "event_id": "401858255",
         "clv_tag": "lose",
-        "clv_pp": -0.66,
-        "clv_pct": -1.23,
-        "clv_pts": null,
         "closing_price": {
           "line": "-4.5",
           "american": -112,
@@ -14920,7 +14928,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:22-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.23,
+        "clv_pp": -0.66,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|eastern michigan 5.5  5.5 |eastern michigan   akron",
@@ -14944,10 +14956,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 2 vs -5.5"
         },
+        "event_id": "401866435",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -1.0,
         "closing_price": {
           "line": "-4.5",
           "american": -110,
@@ -14956,7 +14966,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:21-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -1.0
       },
       {
         "key": "2026-10-10|CFB|florida 10.5  10.5 |south carolina   florida  11 45 am ct",
@@ -14980,10 +14994,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -19 vs -10.5"
         },
+        "event_id": "401856714",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "-10.5",
           "american": -112,
@@ -14992,7 +15004,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:24-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|fresno state +7  +7 |boise state   fresno state  9 30 pm ct",
@@ -15016,10 +15032,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -7 vs +7"
         },
+        "event_id": "401860901",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -1.5,
         "closing_price": {
           "line": "+8.5",
           "american": -110,
@@ -15028,7 +15042,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:11-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -1.5
       },
       {
         "key": "2026-10-10|CFB|georgia +2.5  +2.5 |georgia   alabama  6 30 pm ct",
@@ -15052,10 +15070,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs +2.5"
         },
+        "event_id": "401856712",
         "clv_tag": "beat",
-        "clv_pp": 0.45,
-        "clv_pct": 0.86,
-        "clv_pts": null,
         "closing_price": {
           "line": "+2.5",
           "american": -112,
@@ -15064,7 +15080,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:11-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.86,
+        "clv_pp": 0.45,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|houston ml  +114 |houston   kansas state  2 30 pm ct",
@@ -15088,7 +15108,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "35-16"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856825",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|CFB|illinois 2.5  2.5 |illinois   michigan state  2 30 pm ct",
@@ -15112,10 +15137,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 1 vs -2.5"
         },
+        "event_id": "401858480",
         "clv_tag": "lose",
-        "clv_pp": -1.06,
-        "clv_pct": -1.94,
-        "clv_pts": null,
         "closing_price": {
           "line": "-2.5",
           "american": -115,
@@ -15124,7 +15147,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:16-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.94,
+        "clv_pp": -1.06,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|james madison 7.5  7.5 |james madison   georgia southern  6 30 pm ct",
@@ -15148,10 +15175,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs -7.5"
         },
+        "event_id": "401869949",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -0.5,
         "closing_price": {
           "line": "-7",
           "american": -112,
@@ -15160,7 +15185,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:38-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -0.5
       },
       {
         "key": "2026-10-10|CFB|kent state +14  +14 |kent state   western michigan",
@@ -15184,10 +15213,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -31 vs +14"
         },
+        "event_id": "401866439",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 0.5,
         "closing_price": {
           "line": "+13.5",
           "american": -105,
@@ -15196,7 +15223,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:38-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 0.5
       },
       {
         "key": "2026-10-10|CFB|louisiana +3  +3 |louisiana   louisiana tech  6 30 pm ct",
@@ -15220,10 +15251,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -1 vs +3"
         },
+        "event_id": "401869965",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "+3",
           "american": -108,
@@ -15232,7 +15261,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:19-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|lsu 9.5  9.5 |lsu   kentucky  6 00 pm ct",
@@ -15256,10 +15289,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -1 vs -9.5"
         },
+        "event_id": "401856715",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "-9.5",
           "american": -110,
@@ -15268,7 +15299,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:25-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|maryland +33.5  +33.5 |maryland   ohio state  3 15 pm ct",
@@ -15292,10 +15327,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -29 vs +33.5"
         },
+        "event_id": "401858483",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 2.0,
         "closing_price": {
           "line": "+31.5",
           "american": -115,
@@ -15304,7 +15337,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:18-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 2.0
       },
       {
         "key": "2026-10-10|CFB|minnesota 2.5  2.5 |minnesota   purdue  7 00 pm ct",
@@ -15328,10 +15365,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -28 vs -2.5"
         },
+        "event_id": "401858486",
         "clv_tag": "beat",
-        "clv_pp": 0.64,
-        "clv_pct": 1.2,
-        "clv_pts": null,
         "closing_price": {
           "line": "-2.5",
           "american": -118,
@@ -15340,7 +15375,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:23-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.2,
+        "clv_pp": 0.64,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|missouri 4  4 |texas a m   missouri  11 00 am ct",
@@ -15364,10 +15403,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 21 vs -4"
         },
+        "event_id": "401856716",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 0.5,
         "closing_price": {
           "line": "-4.5",
           "american": -110,
@@ -15376,7 +15413,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:24-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 0.5
       },
       {
         "key": "2026-10-10|CFB|nc state +3.5  +3.5 |wake forest   nc state  11 00 am ct",
@@ -15400,10 +15441,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -24 vs +3.5"
         },
+        "event_id": "401858260",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -0.5,
         "closing_price": {
           "line": "+4",
           "american": -108,
@@ -15412,7 +15451,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:14-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -0.5
       },
       {
         "key": "2026-10-10|CFB|nebraska +8.5  +8.5 |indiana   nebraska  11 00 am ct",
@@ -15436,10 +15479,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs +8.5"
         },
+        "event_id": "401858481",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -1.0,
         "closing_price": {
           "line": "+9.5",
           "american": -112,
@@ -15448,7 +15489,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:24-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -1.0
       },
       {
         "key": "2026-10-10|CFB|north carolina +3.5  +3.5 |north carolina   pittsburgh  11 00 am ct",
@@ -15472,10 +15517,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 4 vs +3.5"
         },
+        "event_id": "401858256",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "+3.5",
           "american": -112,
@@ -15484,7 +15527,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:26-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|north dakota state 2.5  2.5 |north dakota state   unlv  6 00 pm ct",
@@ -15508,6 +15555,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -6 vs -2.5"
         },
+        "event_id": "401864518",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -15536,10 +15584,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs +7.5"
         },
+        "event_id": "401856717",
         "clv_tag": "lose",
-        "clv_pp": -1.16,
-        "clv_pct": -2.22,
-        "clv_pts": null,
         "closing_price": {
           "line": "+7.5",
           "american": -105,
@@ -15548,7 +15594,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:26-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -2.22,
+        "clv_pp": -1.16,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|oklahoma state 10.5  10.5 |ucf   oklahoma state  11 00 am ct",
@@ -15572,10 +15622,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 14 vs -10.5"
         },
+        "event_id": "401856824",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "-10.5",
           "american": -112,
@@ -15584,7 +15632,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:13-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|ole miss 9.5  9.5 |ole miss   vanderbilt  2 30 pm ct",
@@ -15608,10 +15660,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 35 vs -9.5"
         },
+        "event_id": "401856718",
         "clv_tag": "lose",
-        "clv_pp": -0.91,
-        "clv_pct": -1.72,
-        "clv_pts": null,
         "closing_price": {
           "line": "-9.5",
           "american": -108,
@@ -15620,7 +15670,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:24-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.72,
+        "clv_pp": -0.91,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|oregon state 16.5  16.5 |san diego state   oregon state  5 00 pm ct",
@@ -15644,10 +15698,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 52 vs -16.5"
         },
+        "event_id": "401860902",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -2.0,
         "closing_price": {
           "line": "-14.5",
           "american": -110,
@@ -15656,7 +15708,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:26-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -2.0
       },
       {
         "key": "2026-10-10|CFB|over 48.5  o48.5 |indiana   nebraska  11 00 am ct",
@@ -15680,10 +15736,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 37 vs 48.5"
         },
+        "event_id": "401858481",
         "clv_tag": "beat",
-        "clv_pp": 0.7,
-        "clv_pct": 1.37,
-        "clv_pts": null,
         "closing_price": {
           "line": "o48.5",
           "american": -108,
@@ -15692,7 +15746,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:29-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.37,
+        "clv_pp": 0.7,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|over 51.5  o51.5 |georgia   alabama  6 30 pm ct",
@@ -15716,10 +15774,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 37 vs 51.5"
         },
+        "event_id": "401856712",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "o51.5",
           "american": -115,
@@ -15728,7 +15784,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:26-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|over 57.5  o57.5 |ucla   oregon  2 30 pm ct",
@@ -15752,10 +15812,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 32 vs 57.5"
         },
+        "event_id": "401858484",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "o57.5",
           "american": -115,
@@ -15764,7 +15822,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:26-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|over 59.5  o59.5 |south carolina   florida  11 45 am ct",
@@ -15788,10 +15850,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 57 vs 59.5"
         },
+        "event_id": "401856714",
         "clv_tag": "beat",
-        "clv_pp": 1.16,
-        "clv_pct": 2.27,
-        "clv_pts": null,
         "closing_price": {
           "line": "o59.5",
           "american": -110,
@@ -15800,7 +15860,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:28-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.27,
+        "clv_pp": 1.16,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|over 60.5  o60.5 |arizona   west virginia  11 00 am ct",
@@ -15824,10 +15888,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 83 vs 60.5"
         },
+        "event_id": "401856823",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 1.0,
         "closing_price": {
           "line": "o61.5",
           "american": -110,
@@ -15836,7 +15898,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:28-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 1.0
       },
       {
         "key": "2026-10-10|CFB|rice +10  +10 |rice   east carolina  12 00 pm ct",
@@ -15860,10 +15926,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -16 vs +10"
         },
+        "event_id": "401862797",
         "clv_tag": "beat",
-        "clv_pp": 0.45,
-        "clv_pct": 0.86,
-        "clv_pts": null,
         "closing_price": {
           "line": "+10",
           "american": -112,
@@ -15872,7 +15936,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:31-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.86,
+        "clv_pp": 0.45,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|sacramento state +9.5  +9.5 |sacramento state   bowling green  11 00 am ct",
@@ -15896,10 +15964,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -28 vs +9.5"
         },
+        "event_id": "401866436",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "+9.5",
           "american": -112,
@@ -15908,7 +15974,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:30-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|san diego state +16.5  +16.5 |san diego state   oregon state  5 00 pm ct",
@@ -15932,10 +16002,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -52 vs +16.5"
         },
+        "event_id": "401860902",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 2.0,
         "closing_price": {
           "line": "+14.5",
           "american": -110,
@@ -15944,7 +16012,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:40-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 2.0
       },
       {
         "key": "2026-10-10|CFB|sat-cfb-1",
@@ -15968,10 +16040,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs -8.5"
         },
+        "event_id": "401858481",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 1.0,
         "closing_price": {
           "line": "-9.5",
           "american": -108,
@@ -15980,7 +16050,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:08-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 1.0
       },
       {
         "key": "2026-10-10|CFB|sat-cfb-2",
@@ -16004,10 +16078,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs -7.5"
         },
+        "event_id": "401856717",
         "clv_tag": "beat",
-        "clv_pp": 1.11,
-        "clv_pct": 2.11,
-        "clv_pts": null,
         "closing_price": {
           "line": "-7.5",
           "american": -115,
@@ -16016,7 +16088,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:04-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.11,
+        "clv_pp": 1.11,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|sat-cfb-3",
@@ -16040,10 +16116,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "17-20"
         },
+        "event_id": "401856712",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -125,
@@ -16052,7 +16126,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:05-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|sat-cfb-4",
@@ -16076,6 +16154,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "23-31"
         },
+        "event_id": "401858485",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -16104,10 +16183,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 19 vs +2.5"
         },
+        "event_id": "401856825",
         "clv_tag": "lose",
-        "clv_pp": -1.16,
-        "clv_pct": -2.22,
-        "clv_pts": null,
         "closing_price": {
           "line": "+2.5",
           "american": -105,
@@ -16116,7 +16193,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:06-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -2.22,
+        "clv_pp": -1.16,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|sat-cfb-6",
@@ -16140,10 +16221,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 2 vs +10.5"
         },
+        "event_id": "401858484",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 0.5,
         "closing_price": {
           "line": "+10",
           "american": -112,
@@ -16152,7 +16231,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:07-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 0.5
       },
       {
         "key": "2026-10-10|CFB|south carolina +10.5  +10.5 |south carolina   florida  11 45 am ct",
@@ -16176,10 +16259,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 19 vs +10.5"
         },
+        "event_id": "401856714",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "+10.5",
           "american": -108,
@@ -16188,7 +16269,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:28-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|stanford +40.5  +40.5 |stanford   notre dame  2 30 pm ct",
@@ -16212,10 +16297,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -51 vs +40.5"
         },
+        "event_id": "401858257",
         "clv_tag": "beat",
-        "clv_pp": 1.3,
-        "clv_pct": 2.46,
-        "clv_pts": null,
         "closing_price": {
           "line": "+40.5",
           "american": -118,
@@ -16224,7 +16307,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:37-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.46,
+        "clv_pp": 1.3,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|texas a m +4  +4 |texas a m   missouri  11 00 am ct",
@@ -16248,10 +16335,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -21 vs +4"
         },
+        "event_id": "401856716",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -0.5,
         "closing_price": {
           "line": "+4.5",
           "american": -110,
@@ -16260,7 +16345,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:18-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -0.5
       },
       {
         "key": "2026-10-10|CFB|texas a m ml  +154 |texas a m   missouri  11 00 am ct",
@@ -16284,7 +16373,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-27"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856716",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|CFB|texas ml  325 |texas vs oklahoma  dallas   2 30 pm ct",
@@ -16308,10 +16402,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "24-27"
         },
+        "event_id": "401856717",
         "clv_tag": "beat",
-        "clv_pp": 1.06,
-        "clv_pct": 1.38,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -345,
@@ -16320,7 +16412,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:18-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.38,
+        "clv_pp": 1.06,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|tulane +4  +4 |tulane   army  11 00 am ct",
@@ -16344,10 +16440,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs +4"
         },
+        "event_id": "401862795",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -1.5,
         "closing_price": {
           "line": "+5.5",
           "american": -115,
@@ -16356,7 +16450,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:29-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -1.5
       },
       {
         "key": "2026-10-10|CFB|tulsa +3  +3 |tulsa   navy",
@@ -16380,10 +16478,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -8 vs +3"
         },
+        "event_id": "401862799",
         "clv_tag": "lose",
-        "clv_pp": -1.57,
-        "clv_pct": -2.93,
-        "clv_pts": null,
         "closing_price": {
           "line": "+3",
           "american": -108,
@@ -16392,7 +16488,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:34-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -2.93,
+        "clv_pp": -1.57,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|uconn +3.5  +3.5 |uconn   temple",
@@ -16416,10 +16516,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 14 vs +3.5"
         },
+        "event_id": "401861964",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "+3.5",
           "american": -108,
@@ -16428,7 +16526,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:33-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|umass +6  +6 |miami  oh    umass  1 00 pm ct",
@@ -16452,10 +16554,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -1 vs +6"
         },
+        "event_id": "401866440",
         "clv_tag": "lose",
-        "clv_pp": -0.46,
-        "clv_pct": -0.87,
-        "clv_pts": null,
         "closing_price": {
           "line": "+6",
           "american": -108,
@@ -16464,7 +16564,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:32-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -0.87,
+        "clv_pp": -0.46,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|under 51.5  u51.5 |georgia   alabama  6 30 pm ct",
@@ -16488,10 +16592,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 37 vs 51.5"
         },
+        "event_id": "401856712",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "u51.5",
           "american": -105,
@@ -16500,7 +16602,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:26-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|under 51.5  u51.5 |james madison   georgia southern  6 30 pm ct",
@@ -16524,10 +16630,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 51 vs 51.5"
         },
+        "event_id": "401869949",
         "clv_tag": "lose",
-        "clv_pp": -0.66,
-        "clv_pct": -1.23,
-        "clv_pts": null,
         "closing_price": {
           "line": "u51.5",
           "american": -112,
@@ -16536,7 +16640,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:28-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.23,
+        "clv_pp": -0.66,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|usc +2.5  +2.5 |usc   penn state  6 30 pm ct",
@@ -16560,10 +16668,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 8 vs +2.5"
         },
+        "event_id": "401858485",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 4.0,
         "closing_price": {
           "line": "-1.5",
           "american": -110,
@@ -16572,7 +16678,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:29-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 4.0
       },
       {
         "key": "2026-10-10|CFB|usc ml  +105 |usc   penn state  6 30 pm ct",
@@ -16596,7 +16706,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "31-23"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858485",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|CFB|utah 15.5  15.5 |kansas   utah  7 00 pm ct",
@@ -16620,10 +16735,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 17 vs -15.5"
         },
+        "event_id": "401856827",
         "clv_tag": "beat",
-        "clv_pp": 1.11,
-        "clv_pct": 2.11,
-        "clv_pts": null,
         "closing_price": {
           "line": "-15.5",
           "american": -115,
@@ -16632,7 +16745,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:15-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.11,
+        "clv_pp": 1.11,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|CFB|vanderbilt +9.5  +9.5 |ole miss   vanderbilt  2 30 pm ct",
@@ -16656,10 +16773,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -35 vs +9.5"
         },
+        "event_id": "401856718",
         "clv_tag": "beat",
-        "clv_pp": 0.91,
-        "clv_pct": 1.75,
-        "clv_pts": null,
         "closing_price": {
           "line": "+9.5",
           "american": -112,
@@ -16668,7 +16783,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:14-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.75,
+        "clv_pp": 0.91,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|MLB|over 7  o7 |alds game 5  white sox   guardians  7 00 pm ct",
@@ -16692,10 +16811,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 2 vs 7"
         },
+        "event_id": "401907994",
         "clv_tag": "match",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": null,
         "closing_price": {
           "line": "o7.0",
           "american": -122,
@@ -16704,7 +16821,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:02-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|MLB|sat-mlb-7",
@@ -16728,10 +16849,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-0"
         },
+        "event_id": "401907994",
         "clv_tag": "lose",
-        "clv_pp": -0.52,
-        "clv_pct": -0.88,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -139,
@@ -16740,7 +16859,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:55:10-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -0.88,
+        "clv_pp": -0.52,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|MLB|under 7  u7 |alds game 5  white sox   guardians  7 00 pm ct",
@@ -16764,7 +16887,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 2 vs 7"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401907994",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|MLB|white sox ml  +118 |alds game 5  white sox   guardians  7 00 pm ct",
@@ -16788,7 +16916,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-2"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401907994",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|anaheim ml  118 |anaheim   calgary  9 00 pm ct",
@@ -16812,10 +16945,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-2"
         },
+        "event_id": "401892480",
         "clv_tag": "beat",
-        "clv_pp": 0.83,
-        "clv_pct": 1.53,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -122,
@@ -16824,7 +16955,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:08-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.53,
+        "clv_pp": 0.83,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|anaheim ml  122 |anaheim   calgary  9 00 pm ct",
@@ -16848,10 +16983,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-2"
         },
+        "event_id": "401892480",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -122,
@@ -16860,7 +16993,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:03-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|calgary ml  +106 |anaheim   calgary  9 00 pm ct",
@@ -16884,7 +17021,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-4"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892480",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|carolina 1.5  +105 |carolina   chicago  6 00 pm ct",
@@ -16908,7 +17050,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs -1.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892476",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|carolina 1.5  1.5 |carolina   chicago  6 00 pm ct",
@@ -16932,7 +17079,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs -1.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892476",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|charlie coyle anytime goal|columbus   st. louis  6 00 pm ct",
@@ -16956,7 +17108,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892477",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|cole caufield anytime goal|detroit   montreal  6 00 pm ct",
@@ -16980,7 +17137,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892473",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|columbus ml  +102 |columbus   st. louis  6 00 pm ct",
@@ -17004,7 +17166,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892477",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|detroit +1.5  148 |detroit   montreal  6 00 pm ct",
@@ -17028,10 +17195,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -1 vs +1.5"
         },
+        "event_id": "401892473",
         "clv_tag": "beat",
-        "clv_pp": 1.11,
-        "clv_pct": 1.85,
-        "clv_pts": null,
         "closing_price": {
           "line": "+1.5",
           "american": -155,
@@ -17040,7 +17205,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:12-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.85,
+        "clv_pp": 1.11,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|florida ml  130 |minnesota   florida  5 00 pm ct",
@@ -17064,10 +17233,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-4"
         },
+        "event_id": "401891805",
         "clv_tag": "beat",
-        "clv_pp": 0.93,
-        "clv_pct": 1.64,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -135,
@@ -17076,7 +17243,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:12-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.64,
+        "clv_pp": 0.93,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|islanders ml  +142 |tampa bay   ny islanders  6 30 pm ct",
@@ -17100,7 +17271,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892479",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|islanders ml  +150 |tampa bay   ny islanders  6 30 pm ct",
@@ -17124,7 +17300,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892479",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|jack eichel 3+ shots on goal|los angeles   vegas  9 00 pm ct",
@@ -17148,7 +17329,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892481",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|jackson blake anytime goal|carolina   chicago  6 00 pm ct",
@@ -17172,7 +17358,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892476",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|jason robertson anytime goal|dallas   pittsburgh  6 00 pm ct",
@@ -17196,7 +17387,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892475",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|kirill kaprizov anytime goal|minnesota   florida  5 00 pm ct",
@@ -17220,7 +17416,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401891805",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|minnesota ml  +118 |minnesota   florida  5 00 pm ct",
@@ -17244,7 +17445,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401891805",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|nathan mackinnon 5+ shots on goal|toronto   colorado  6 00 pm ct",
@@ -17268,7 +17474,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892478",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|over 5.5  130 |nashville   ottawa  6 00 pm ct",
@@ -17292,10 +17503,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs 5.5"
         },
+        "event_id": "401892474",
         "clv_tag": "beat",
-        "clv_pp": 0.93,
-        "clv_pct": 1.64,
-        "clv_pts": null,
         "closing_price": {
           "line": "o5.5",
           "american": -135,
@@ -17304,7 +17513,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:13-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.64,
+        "clv_pp": 0.93,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|over 5.5  135 |carolina   chicago  6 00 pm ct",
@@ -17328,10 +17541,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 7 vs 5.5"
         },
+        "event_id": "401892476",
         "clv_tag": "lose",
-        "clv_pp": -0.93,
-        "clv_pct": -1.61,
-        "clv_pts": null,
         "closing_price": {
           "line": "o5.5",
           "american": -130,
@@ -17340,7 +17551,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:11-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.61,
+        "clv_pp": -0.93,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|over 6.5  125 |toronto   colorado  6 00 pm ct",
@@ -17364,10 +17579,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 9 vs 6.5"
         },
+        "event_id": "401892478",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "o6.5",
           "american": -125,
@@ -17376,7 +17589,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:11-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|quinn hughes  min  anytime goal|minnesota   florida  5 00 pm ct",
@@ -17400,7 +17617,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401891805",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|sebastian aho  car  anytime goal|carolina   chicago  6 00 pm ct",
@@ -17424,7 +17646,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892476",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|tim stutzle anytime goal|nashville   ottawa  6 00 pm ct",
@@ -17448,7 +17675,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892474",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|tim washe anytime goal|anaheim   calgary  9 00 pm ct",
@@ -17472,7 +17704,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892480",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|toronto ml  +195 |toronto   colorado  6 00 pm ct",
@@ -17496,7 +17733,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-3"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892478",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|under 5.5  +102 |minnesota   florida  5 00 pm ct",
@@ -17520,7 +17762,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs 5.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401891805",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|under 5.5  +110 |nashville   ottawa  6 00 pm ct",
@@ -17544,7 +17791,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs 5.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892474",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|NHL|under 5.5  108 |tampa bay   ny islanders  6 30 pm ct",
@@ -17568,10 +17820,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 8 vs 5.5"
         },
+        "event_id": "401892479",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "u5.5",
           "american": -108,
@@ -17580,7 +17830,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:12-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|under 6.5  u6.5 |vancouver   new jersey  2 30 pm ct",
@@ -17604,10 +17858,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs 6.5"
         },
+        "event_id": "401892470",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "u6.5",
           "american": -118,
@@ -17616,7 +17868,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:06-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|utah ml  107 |utah   buffalo  6 00 pm ct",
@@ -17640,10 +17896,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1"
         },
+        "event_id": "401892472",
         "clv_tag": "beat",
-        "clv_pp": 1.14,
-        "clv_pct": 2.2,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -112,
@@ -17652,7 +17906,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:09-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.2,
+        "clv_pp": 1.14,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|utah ml  108 |utah   buffalo  6 00 pm ct",
@@ -17676,10 +17934,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1"
         },
+        "event_id": "401892472",
         "clv_tag": "beat",
-        "clv_pp": 0.91,
-        "clv_pct": 1.75,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -112,
@@ -17688,7 +17944,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:03-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.75,
+        "clv_pp": 0.91,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|vancouver +1.5  +1.5 |vancouver   new jersey  2 30 pm ct",
@@ -17712,10 +17972,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs +1.5"
         },
+        "event_id": "401892470",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "+1.5",
           "american": -108,
@@ -17724,7 +17982,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:05-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|vegas ml  162 |los angeles   vegas  9 00 pm ct",
@@ -17748,10 +18010,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-1"
         },
+        "event_id": "401892481",
         "clv_tag": "beat",
-        "clv_pp": 1.13,
-        "clv_pct": 1.83,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -170,
@@ -17760,7 +18020,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:04-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.83,
+        "clv_pp": 1.13,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|NHL|vegas ml  170 |los angeles   vegas  9 00 pm ct",
@@ -17784,10 +18048,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-1"
         },
+        "event_id": "401892481",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -170,
@@ -17796,7 +18058,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:08-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-10|SOCCER|both teams to score  yes  btts |tottenham   manchester united  11 30 am ct",
@@ -17820,7 +18086,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|SOCCER|inter miami ml  240 |d.c. united   inter miami  6 30 pm ct",
@@ -17844,6 +18115,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-0"
         },
+        "event_id": "761847",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -17872,6 +18144,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "draw (3-way ML)"
         },
+        "event_id": "401878773",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -17900,6 +18173,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "draw (3-way ML)"
         },
+        "event_id": "401876444",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -17928,6 +18202,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-0"
         },
+        "event_id": "401882848",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -17956,7 +18231,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|TENNIS|frances tiafoe ml  -109 |shanghai r3  tiafoe vs davidovich fokina  sun 6 30 am ct",
@@ -17980,7 +18260,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|TENNIS|francisco cerundolo ml  +140 |shanghai r3  f. cerundolo vs mensik  sun 2 00 am ct",
@@ -18004,7 +18289,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|TENNIS|hubert hurkacz ml  -699 |shanghai r3  hurkacz vs zhou yi  sun 12 30 am ct",
@@ -18028,7 +18318,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|TENNIS|rafael jodar ml  +110 |shanghai r3  lehecka vs jodar",
@@ -18052,7 +18347,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|allen   duncan under 3.5 rds  105 |allen vs duncan   8 45 pm ct",
@@ -18076,7 +18376,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|allen by submission|allen vs duncan   8 45 pm ct",
@@ -18100,7 +18405,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|brendan allen takedowns over|allen vs duncan   8 45 pm ct",
@@ -18124,7 +18434,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "winner"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600061541",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|camilo by ko tko or inside the distance|herbert vs camilo   8 15 pm ct",
@@ -18148,7 +18463,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|christian leroy duncan ml  +100 |allen vs duncan  main event   8 45 pm ct",
@@ -18172,7 +18492,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "opponent won"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600061541",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|fight doesn t go the distance   under 1.5 rds  herbert vs camilo|herbert vs camilo   8 15 pm ct",
@@ -18196,7 +18521,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|fili   kamaka under 2.5 rds  +154 |fili vs kamaka   7 25 pm ct",
@@ -18220,7 +18550,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|gerald meerschaert ml  +252 |walker vs meerschaert   6 30 pm ct",
@@ -18244,7 +18579,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "opponent won"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600061541",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|jai herbert ml  +165 |herbert vs camilo  co-main   8 15 pm ct",
@@ -18268,7 +18608,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "winner"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600061541",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|kai kamaka iii ml  +128 |fili vs kamaka   7 25 pm ct",
@@ -18292,7 +18637,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "opponent won"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600061541",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|ketlen souza ml  +200 |souza vs godinez   7 40 pm ct",
@@ -18316,7 +18666,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "opponent won"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600061541",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|meerschaert by submission|walker vs meerschaert   6 30 pm ct",
@@ -18340,7 +18695,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|otari tanzilovi ml  +180 |wellmaker vs tanzilovi   7 00 pm ct",
@@ -18364,7 +18724,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "winner"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600061541",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|otari tanzilovi takedowns over|wellmaker vs tanzilovi   7 00 pm ct",
@@ -18388,7 +18753,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "winner"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600061541",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|sat-ufc-1",
@@ -18412,6 +18782,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "opponent won"
         },
+        "event_id": "600061541",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -18440,6 +18811,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "winner"
         },
+        "event_id": "600061541",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -18468,6 +18840,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "opponent won"
         },
+        "event_id": "600061541",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -18496,6 +18869,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "winner"
         },
+        "event_id": "600061541",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -18524,6 +18898,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "winner"
         },
+        "event_id": "600061541",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -18552,6 +18927,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "winner"
         },
+        "event_id": "600061541",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -18580,6 +18956,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "opponent won"
         },
+        "event_id": "600061541",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -18608,7 +18985,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "winner"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600061541",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|wellmaker by decision  +310 |wellmaker vs tanzilovi   7 00 pm ct",
@@ -18632,7 +19014,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-10|UFC|wellmaker by ko tko|wellmaker vs tanzilovi   7 00 pm ct",
@@ -18656,7 +19043,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|MLB|brewers ml|dodgers   brewers  nlcs game 1  7 00 pm ct",
@@ -18680,10 +19072,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-1"
         },
+        "event_id": "401908030",
         "clv_tag": "beat",
-        "clv_pp": 1.15,
-        "clv_pct": 2.24,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -111,
@@ -18692,7 +19082,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:22-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.24,
+        "clv_pp": 1.15,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|MLB|dodgers ml|dodgers   brewers  nlcs game 1  7 00 pm ct",
@@ -18716,10 +19110,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-2"
         },
+        "event_id": "401908030",
         "clv_tag": "lose",
-        "clv_pp": -0.73,
-        "clv_pct": -1.44,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -101,
@@ -18728,7 +19120,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:24-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.44,
+        "clv_pp": -0.73,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|MLB|sun-mlb-1",
@@ -18752,10 +19148,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 3 vs 6"
         },
+        "event_id": "401908030",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": null,
         "closing_price": {
           "line": "u6.0",
           "american": -112,
@@ -18764,7 +19158,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:32-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|MLB|under 6|dodgers   brewers  nlcs game 1  7 00 pm ct",
@@ -18788,10 +19186,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 3 vs 6"
         },
+        "event_id": "401908030",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": null,
         "closing_price": {
           "line": "u6.0",
           "american": -112,
@@ -18800,7 +19196,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:24-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|NFL|aaron jones anytime td|vikings   saints  12 00 pm ct",
@@ -18824,7 +19224,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872987",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|aaron jones over rushing yards  59.569.5 |vikings   saints  12 00 pm ct",
@@ -18848,7 +19253,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872987",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|aaron rodgers over 229.5 passing yards|colts   steelers  12 00 pm ct",
@@ -18872,7 +19282,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 56 vs 229.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872985",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|bears 1.5|bears   packers  12 00 pm ct",
@@ -18896,10 +19311,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -24 vs -1.5"
         },
+        "event_id": "401872990",
         "clv_tag": "beat",
-        "clv_pp": 1.75,
-        "clv_pct": 3.34,
-        "clv_pts": null,
         "closing_price": {
           "line": "-1.5",
           "american": -118,
@@ -18908,7 +19321,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:24-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 3.34,
+        "clv_pp": 1.75,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|NFL|bengals 7|bengals   dolphins  12 00 pm ct",
@@ -18932,10 +19349,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 7 vs -7"
         },
+        "event_id": "401872982",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 0.5,
         "closing_price": {
           "line": "-7.5",
           "american": -108,
@@ -18944,7 +19359,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:27-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 0.5
       },
       {
         "key": "2026-10-11|NFL|bhayshul tuten anytime td  as transcribed |raiders   patriots  12 00 pm ct",
@@ -18968,7 +19387,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "player Bhayshul Tuten not in ESPN box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872986",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|brock bowers anytime td|raiders   patriots  12 00 pm ct",
@@ -18992,7 +19416,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872986",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|broncos   chargers under 42  best u42.5 |broncos   chargers  3 05 pm ct",
@@ -19016,7 +19445,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 40 vs 42"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872989",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|carnell tate anytime td|texans   titans  12 00 pm ct",
@@ -19040,7 +19474,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872984",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|chase brown anytime td|bengals   dolphins  12 00 pm ct",
@@ -19064,7 +19503,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872982",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|chris olave anytime td|vikings   saints  12 00 pm ct",
@@ -19088,7 +19532,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872987",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|christian mccaffrey anytime td|49ers   seahawks  3 25 pm ct",
@@ -19112,7 +19561,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872992",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|christian watson anytime td|bears   packers  12 00 pm ct",
@@ -19136,7 +19590,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872990",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|colston loveland anytime td|bears   packers  12 00 pm ct",
@@ -19160,7 +19619,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872990",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|courtland sutton anytime td|broncos   chargers  3 05 pm ct",
@@ -19184,7 +19648,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872989",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|d andre swift anytime td|bears   packers  12 00 pm ct",
@@ -19208,7 +19677,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872990",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|drake maye over rushing yards  29.532.5 |raiders   patriots  12 00 pm ct",
@@ -19232,7 +19706,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872986",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|falcons team total over 22.5 23.5|ravens   falcons  7 20 pm ct  snf ",
@@ -19256,7 +19735,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 53 vs 22.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872993",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|garrett wilson anytime td|browns   jets  12 00 pm ct",
@@ -19280,7 +19764,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872983",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|giants +3.5|giants   commanders  12 00 pm ct",
@@ -19304,10 +19793,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 0 vs +3.5"
         },
+        "event_id": "401872988",
         "clv_tag": "beat",
-        "clv_pp": 0.45,
-        "clv_pct": 0.86,
-        "clv_pts": null,
         "closing_price": {
           "line": "+3.5",
           "american": -112,
@@ -19316,7 +19803,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:24-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.86,
+        "clv_pp": 0.45,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|NFL|isaiah likely anytime td|giants   commanders  12 00 pm ct",
@@ -19340,7 +19831,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872988",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|isaiah likely over receiving yards  41.5   50+   60+ alt |giants   commanders  12 00 pm ct",
@@ -19364,7 +19860,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872988",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|ja marr chase anytime td|bengals   dolphins  12 00 pm ct",
@@ -19388,7 +19889,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872982",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|jacoby brissett 2+ passing tds  o1.5 |lions   cardinals  3 25 pm ct",
@@ -19412,7 +19918,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872991",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|jameis winston over 1.5 passing tds|giants   commanders  12 00 pm ct",
@@ -19436,7 +19947,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 54 vs 1.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872988",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|jaylen warren over rushing yards  61.564.5 |colts   steelers  12 00 pm ct",
@@ -19460,7 +19976,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872985",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|joe burrow 2+ passing tds  o1.5 |bengals   dolphins  12 00 pm ct",
@@ -19484,7 +20005,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872982",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|jonathan taylor anytime td|colts   steelers  12 00 pm ct",
@@ -19508,7 +20034,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872985",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|lions   cardinals over 54.5|lions   cardinals  3 25 pm ct",
@@ -19532,7 +20063,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 66 vs 54.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872991",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|lions 5.5|lions   cardinals  3 25 pm ct",
@@ -19556,10 +20092,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 24 vs -5.5"
         },
+        "event_id": "401872991",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -1.0,
         "closing_price": {
           "line": "-4.5",
           "american": -115,
@@ -19568,7 +20102,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:26-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -1.0
       },
       {
         "key": "2026-10-11|NFL|malik washington over receiving yards  41.545.5 |bengals   dolphins  12 00 pm ct",
@@ -19592,7 +20130,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872982",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|mike gesicki over receiving yards  40+   50+ alt |bengals   dolphins  12 00 pm ct",
@@ -19616,7 +20159,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872982",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|omarion hampton anytime td|broncos   chargers  3 05 pm ct",
@@ -19640,7 +20188,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872989",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|omarion hampton over rushing yards  38.5   60+ ladder |broncos   chargers  3 05 pm ct",
@@ -19664,7 +20217,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872989",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|ravens +3.5|ravens   falcons  7 20 pm ct  snf ",
@@ -19688,10 +20246,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 7 vs +3.5"
         },
+        "event_id": "401872993",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 0.5,
         "closing_price": {
           "line": "+3",
           "american": -102,
@@ -19700,7 +20256,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:24-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 0.5
       },
       {
         "key": "2026-10-11|NFL|rome odunze over 40.5 receiving yards|bears   packers  12 00 pm ct",
@@ -19724,7 +20284,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 38 vs 40.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872990",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|steelers 2.5|colts   steelers  12 00 pm ct",
@@ -19748,10 +20313,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 12 vs -2.5"
         },
+        "event_id": "401872985",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 0.5,
         "closing_price": {
           "line": "-3",
           "american": -108,
@@ -19760,7 +20323,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:25-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 0.5
       },
       {
         "key": "2026-10-11|NFL|sun-nfl-1",
@@ -19784,10 +20351,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -7 vs -3.5"
         },
+        "event_id": "401872993",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -0.5,
         "closing_price": {
           "line": "-3",
           "american": -118,
@@ -19796,7 +20361,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:16-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -0.5
       },
       {
         "key": "2026-10-11|NFL|sun-nfl-2",
@@ -19820,10 +20389,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -28 vs +3.5"
         },
+        "event_id": "401872986",
         "clv_tag": "beat",
-        "clv_pp": 0.45,
-        "clv_pct": 0.86,
-        "clv_pts": null,
         "closing_price": {
           "line": "+3.5",
           "american": -112,
@@ -19832,7 +20399,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:19-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.86,
+        "clv_pp": 0.45,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|NFL|sun-nfl-3",
@@ -19856,10 +20427,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -10 vs +1.5"
         },
+        "event_id": "401872987",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -1.0,
         "closing_price": {
           "line": "+2.5",
           "american": -115,
@@ -19868,7 +20437,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:17-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -1.0
       },
       {
         "key": "2026-10-11|NFL|sun-nfl-4",
@@ -19892,10 +20465,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -23 vs +6.5"
         },
+        "event_id": "401872984",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "+6.5",
           "american": -110,
@@ -19904,7 +20475,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:18-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|NFL|sun-nfl-5",
@@ -19928,10 +20503,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -5 vs +2.5"
         },
+        "event_id": "401872983",
         "clv_tag": "lose",
-        "clv_pp": -1.16,
-        "clv_pct": -2.22,
-        "clv_pts": null,
         "closing_price": {
           "line": "+2.5",
           "american": -105,
@@ -19940,7 +20513,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:20-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -2.22,
+        "clv_pp": -1.16,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|NFL|sun-nfl-6",
@@ -19964,10 +20541,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs +3"
         },
+        "event_id": "401872992",
         "clv_tag": "beat",
-        "clv_pp": 1.4,
-        "clv_pct": 2.75,
-        "clv_pts": null,
         "closing_price": {
           "line": "+3",
           "american": -110,
@@ -19976,7 +20551,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:21-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.75,
+        "clv_pp": 1.4,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|NFL|sun-nfl-7",
@@ -20000,10 +20579,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 12 vs -2.5"
         },
+        "event_id": "401872985",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 0.5,
         "closing_price": {
           "line": "-3",
           "american": -108,
@@ -20012,7 +20589,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:32-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 0.5
       },
       {
         "key": "2026-10-11|NFL|sun-nfl-p1",
@@ -20036,7 +20617,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872984",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|t.j. hockenson over receiving yards  50+ alt |vikings   saints  12 00 pm ct",
@@ -20060,7 +20646,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872987",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|trey mcbride anytime td|lions   cardinals  3 25 pm ct",
@@ -20084,7 +20675,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872991",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NFL|wan dale robinson over 35.5 receiving yards|texans   titans  12 00 pm ct",
@@ -20108,7 +20704,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 29 vs 35.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872984",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NHL|flyers +1.5|hurricanes   flyers  6 00 pm ct",
@@ -20132,10 +20733,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs +1.5"
         },
+        "event_id": "401892484",
         "clv_tag": "beat",
-        "clv_pp": 0.34,
-        "clv_pct": 0.59,
-        "clv_pts": null,
         "closing_price": {
           "line": "+1.5",
           "american": -142,
@@ -20144,7 +20743,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:32-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.59,
+        "clv_pp": 0.34,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|NHL|flyers ml|hurricanes   flyers  6 00 pm ct",
@@ -20168,7 +20771,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-4"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892484",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-11|NHL|kraken +1.5|kraken   capitals  4 00 pm ct",
@@ -20192,10 +20800,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 2 vs +1.5"
         },
+        "event_id": "401892482",
         "clv_tag": "beat",
-        "clv_pp": 1.23,
-        "clv_pct": 2.14,
-        "clv_pts": null,
         "closing_price": {
           "line": "+1.5",
           "american": -142,
@@ -20204,7 +20810,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:31-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.14,
+        "clv_pp": 1.23,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|NHL|rangers 1.5|canucks   rangers  5 00 pm ct",
@@ -20228,10 +20838,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 4 vs -1.5"
         },
+        "event_id": "401892483",
         "clv_tag": "beat",
-        "clv_pp": 1.22,
-        "clv_pct": 2.44,
-        "clv_pts": null,
         "closing_price": {
           "line": "-1.5",
           "american": -105,
@@ -20240,7 +20848,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:32-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.44,
+        "clv_pp": 1.22,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-11|NHL|rangers ml|canucks   rangers  5 00 pm ct",
@@ -20264,10 +20876,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-2"
         },
+        "event_id": "401892483",
         "clv_tag": "beat",
-        "clv_pp": 1.76,
-        "clv_pct": 2.42,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -290,
@@ -20276,7 +20886,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:32-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.42,
+        "clv_pp": 1.76,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-12|MLB|rays 1.5|guardians   rays  alcs game 1  7 00 pm ct",
@@ -20300,7 +20914,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -4 vs -1.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908023",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-12|MLB|rays ml|guardians   rays  alcs game 1  7 00 pm ct",
@@ -20324,10 +20943,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-7"
         },
+        "event_id": "401908023",
         "clv_tag": "lose",
-        "clv_pp": -0.99,
-        "clv_pct": -1.57,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -163,
@@ -20336,7 +20953,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:35-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.57,
+        "clv_pp": -0.99,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-12|MLB|under 6.5   7|guardians   rays  alcs game 1  7 00 pm ct",
@@ -20360,7 +20981,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 10 vs 6.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908023",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-12|NFL|bills +3.5|bills   rams  mnf  7 15 pm ct",
@@ -20384,10 +21010,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs +3.5"
         },
+        "event_id": "401872994",
         "clv_tag": "beat",
-        "clv_pp": 1.57,
-        "clv_pct": 3.01,
-        "clv_pts": null,
         "closing_price": {
           "line": "+3.5",
           "american": -115,
@@ -20396,7 +21020,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:33-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 3.01,
+        "clv_pp": 1.57,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-12|NFL|dalton kincaid anytime td|bills   rams  mnf  7 15 pm ct",
@@ -20420,7 +21048,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872994",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-12|NFL|davante adams anytime td|bills   rams  mnf  7 15 pm ct",
@@ -20444,7 +21077,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872994",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-12|NFL|kyren williams anytime td|bills   rams  mnf  7 15 pm ct",
@@ -20468,7 +21106,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872994",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-12|NFL|mon-nfl-p1",
@@ -20492,6 +21135,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
+        "event_id": "401872994",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -20520,7 +21164,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 71 vs 54.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872994",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-12|NHL|drake batherson over 1.5 sog|senators   devils  6 00 pm ct",
@@ -20544,7 +21193,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs 1.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892486",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-12|NHL|golden knights ml|golden knights   wild  7 00 pm ct",
@@ -20568,10 +21222,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-4"
         },
+        "event_id": "401892487",
         "clv_tag": "beat",
-        "clv_pp": 0.7,
-        "clv_pct": 1.37,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -108,
@@ -20580,7 +21232,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:37-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.37,
+        "clv_pp": 0.7,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-12|NHL|senators ml|senators   devils  6 00 pm ct",
@@ -20604,7 +21260,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892486",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-12|NHL|shane pinto anytime goal|senators   devils  6 00 pm ct",
@@ -20628,7 +21289,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892486",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-12|NHL|timo meier over 2.5 sog|senators   devils  6 00 pm ct",
@@ -20652,7 +21318,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs 2.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892486",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|MLB|guardians ml|guardians   rays  alcs g2  7 00 pm ct",
@@ -20676,7 +21347,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-3"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908024",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|MLB|junior caminero hr|guardians   rays  alcs g2  7 00 pm ct",
@@ -20700,7 +21376,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "player prop: no auto-grader (needs box-score stat)"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908024",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|MLB|live  under 6 sources  info only  pass  guardians   rays |guardians   rays  alcs g2  live  started 7 00 pm ct ",
@@ -20724,7 +21405,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "not graded yet"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|MLB|parker messick o14.5 outs|guardians   rays  alcs g2  7 00 pm ct",
@@ -20748,7 +21434,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "player prop: no auto-grader (needs box-score stat)"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908024",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|MLB|rays ml|guardians   rays  alcs g2  7 00 pm ct",
@@ -20772,10 +21463,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-1"
         },
+        "event_id": "401908024",
         "clv_tag": "beat",
-        "clv_pp": 0.57,
-        "clv_pct": 1.01,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -131,
@@ -20784,7 +21473,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:59-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.01,
+        "clv_pp": 0.57,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-13|MLB|under 6.5|guardians   rays  alcs g2  7 00 pm ct",
@@ -20808,7 +21501,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 4 vs 6.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908024",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|NHL|avalanche   stars under 6|avalanche   stars  7 30 pm ct",
@@ -20832,7 +21530,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs 6"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892498",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|NHL|bruins ml|bruins   sharks  10 00 pm ct",
@@ -20856,10 +21559,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-3"
         },
+        "event_id": "401892503",
         "clv_tag": "beat",
-        "clv_pp": 2.9,
-        "clv_pct": 5.32,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -135,
@@ -20868,7 +21569,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-14T08:37:45-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 5.32,
+        "clv_pp": 2.9,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-13|NHL|flyers ml|kraken   flyers  6 00 pm ct",
@@ -20892,7 +21597,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-3"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892492",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|NHL|jets ml|wild   jets  7 15 pm ct",
@@ -20916,10 +21626,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "5-2"
         },
+        "event_id": "401892497",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -110,
@@ -20928,7 +21636,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:49-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-13|NHL|lightning ml|lightning   rangers  6 15 pm ct",
@@ -20952,10 +21664,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-4"
         },
+        "event_id": "401892493",
         "clv_tag": "beat",
-        "clv_pp": 0.89,
-        "clv_pct": 1.47,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -162,
@@ -20964,7 +21674,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-13T19:56:51-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.47,
+        "clv_pp": 0.89,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-13|NHL|maple leafs   mammoth over 6.5|maple leafs   mammoth  8 00 pm ct",
@@ -20988,10 +21702,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 9 vs 6.5"
         },
+        "event_id": "401892500",
         "clv_tag": "beat",
-        "clv_pp": 1.3,
-        "clv_pct": 2.46,
-        "clv_pts": null,
         "closing_price": {
           "line": "o6.5",
           "american": -118,
@@ -21000,7 +21712,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-14T08:37:46-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.46,
+        "clv_pp": 1.3,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-13|NHL|mason mctavish o1.5 sog|blues   senators  6 30 pm ct",
@@ -21024,7 +21740,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "player prop: no auto-grader (needs box-score stat)"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892494",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|NHL|oilers ml|oilers   kings  9 30 pm ct",
@@ -21048,10 +21769,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1"
         },
+        "event_id": "401892502",
         "clv_tag": "lose",
-        "clv_pp": -0.58,
-        "clv_pct": -1.04,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -125,
@@ -21060,7 +21779,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-10-14T08:37:44-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.04,
+        "clv_pp": -0.58,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-13|NHL|panthers ml|panthers   blue jackets  5 15 pm ct",
@@ -21084,7 +21807,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "7-3"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892489",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|NHL|william nylander o2.5 sog|maple leafs   mammoth  8 00 pm ct",
@@ -21108,7 +21836,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "player prop: no auto-grader (needs box-score stat)"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892500",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|SOCCER|atletico madrid ml|man united   atletico  2 00 pm ct",
@@ -21132,7 +21865,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-0"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915412",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|SOCCER|barcelona to win  3-way |barcelona   galatasaray  2 00 pm ct",
@@ -21156,7 +21894,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915435",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|SOCCER|inter vs club brugge btts  yes|club brugge   inter  2 00 pm ct",
@@ -21180,7 +21923,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "BTTS yes"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915413",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|SOCCER|inter vs club brugge over 2.5|club brugge   inter  2 00 pm ct",
@@ -21204,7 +21952,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 7 vs 2.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915413",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|SOCCER|leipzig vs psv over 3.5|psv   rb leipzig  2 00 pm ct",
@@ -21228,7 +21981,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 1 vs 3.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915434",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-13|SOCCER|tue-ucl-ars",
@@ -21252,6 +22010,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-0"
         },
+        "event_id": "401915417",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -21280,7 +22039,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs -3"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401871054",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|CFB|ksumost under 52.5 53.5|kennesaw state   missouri state  6 30 pm ct",
@@ -21304,7 +22068,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 45 vs 52.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401871054",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|CFB|ksumost under 53.5|kennesaw state   missouri state  6 30 pm ct",
@@ -21328,7 +22097,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 45 vs 53.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401871054",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|CFB|missouri state +3.5|kennesaw state   missouri state  6 30 pm ct",
@@ -21352,7 +22126,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs +3.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401871054",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|CFB|sam houston +2.5   ml|western kentucky   sam houston  7 00 pm ct",
@@ -21376,7 +22155,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-16"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401871068",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|CFB|sam houston ml   +1.5|western kentucky   sam houston  7 00 pm ct",
@@ -21400,7 +22184,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-16"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401871068",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|CFB|wed-cfb-shsu",
@@ -21424,7 +22213,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-16"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401871068",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|CFB|western kentucky 1.5|western kentucky   sam houston  7 00 pm ct",
@@ -21448,7 +22242,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 13 vs -1.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401871068",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|MLB|brewers +1.5  run line |brewers   dodgers  nlcs g3  7 00 pm ct",
@@ -21472,6 +22271,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 4 vs +1.5"
         },
+        "event_id": "401908032",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -21500,7 +22300,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-2"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908032",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|MLB|dodgers team total over 3.5|brewers   dodgers  nlcs g3  7 00 pm ct",
@@ -21524,7 +22329,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 8 vs 3.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908032",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|MLB|jackson chourio single  +105 |brewers   dodgers  nlcs g3  7 00 pm ct",
@@ -21548,7 +22358,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908032",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|MLB|nrfi|brewers   dodgers  nlcs g3  7 00 pm ct",
@@ -21572,7 +22387,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908032",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|MLB|robert gasser over 2.5 strikeouts|brewers   dodgers  nlcs g3  7 00 pm ct",
@@ -21596,7 +22416,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "player prop: no auto-grader (needs box-score stat)"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908032",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|MLB|under 7.5|brewers   dodgers  nlcs g3  7 00 pm ct",
@@ -21620,6 +22445,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 8 vs 7.5"
         },
+        "event_id": "401908032",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -21648,6 +22474,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 229 vs 233.5"
         },
+        "event_id": "401908942",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -21676,6 +22503,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 207 vs 224.5"
         },
+        "event_id": "401898405",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -21704,10 +22532,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -21 vs +6.5"
         },
+        "event_id": "401898405",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -2.0,
         "closing_price": {
           "line": "+8.5",
           "american": -115,
@@ -21716,7 +22542,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-15T08:58:08-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -2.0
       },
       {
         "key": "2026-10-14|NBA|hornets +7.5|hornets   celtics  preseason   6 30 pm ct",
@@ -21740,7 +22570,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -21 vs +7.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401898405",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NBA|spurs 8.5|suns   spurs  preseason   7 00 pm ct",
@@ -21764,6 +22599,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 20 vs -8.5"
         },
+        "event_id": "401898722",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -21792,6 +22628,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -22 vs -3.5"
         },
+        "event_id": "401914125",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -21820,7 +22657,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892504",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NHL|avalanche ml|stars   avalanche  7 30 pm ct",
@@ -21844,7 +22686,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-3"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892505",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NHL|boone jenner anytime goal|canadiens   capitals  6 30 pm ct",
@@ -21868,7 +22715,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892504",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NHL|canadiens ml|canadiens   capitals  6 30 pm ct",
@@ -21892,7 +22744,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892504",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NHL|capitals ml|canadiens   capitals  6 30 pm ct",
@@ -21916,7 +22773,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "5-4"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892504",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NHL|juraj slafkovsky anytime goal|canadiens   capitals  6 30 pm ct",
@@ -21940,7 +22802,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892504",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NHL|mikko rantanen anytime goal|stars   avalanche  7 30 pm ct",
@@ -21964,7 +22831,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892505",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NHL|nathan mackinnon 2+ goals  +650 |stars   avalanche  7 30 pm ct",
@@ -21988,7 +22860,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892505",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NHL|nick suzuki anytime goal|canadiens   capitals  6 30 pm ct",
@@ -22012,7 +22889,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892504",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NHL|over 5.5|stars   avalanche  7 30 pm ct",
@@ -22036,10 +22918,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs 5.5"
         },
+        "event_id": "401892505",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "o5.5",
           "american": -135,
@@ -22048,7 +22928,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:10-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-14|NHL|over 6.5|canadiens   capitals  6 30 pm ct",
@@ -22072,10 +22956,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 9 vs 6.5"
         },
+        "event_id": "401892504",
         "clv_tag": "beat",
-        "clv_pp": 1.75,
-        "clv_pct": 3.34,
-        "clv_pts": null,
         "closing_price": {
           "line": "o6.5",
           "american": -118,
@@ -22084,7 +22966,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-15T08:58:02-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 3.34,
+        "clv_pp": 1.75,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-14|NHL|stars ml|stars   avalanche  7 30 pm ct",
@@ -22108,7 +22994,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-2"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892505",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NHL|tom wilson over 1.5 points|canadiens   capitals  6 30 pm ct",
@@ -22132,7 +23023,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "player prop: no auto-grader (needs box-score stat)"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892504",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|NHL|under 6|stars   avalanche  7 30 pm ct",
@@ -22156,6 +23052,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs 6"
         },
+        "event_id": "401892505",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -22184,10 +23081,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-3"
         },
+        "event_id": "401892505",
         "clv_tag": "beat",
-        "clv_pp": 4.39,
-        "clv_pct": 7.63,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -162,
@@ -22196,7 +23091,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-15T08:58:01-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 7.63,
+        "clv_pp": 4.39,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-14|NHL|wed-nhl-mtl-wsh-o65",
@@ -22220,10 +23119,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 9 vs 6.5"
         },
+        "event_id": "401892504",
         "clv_tag": "beat",
-        "clv_pp": 0.64,
-        "clv_pct": 1.2,
-        "clv_pts": null,
         "closing_price": {
           "line": "o6.5",
           "american": -118,
@@ -22232,7 +23129,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-15T08:58:08-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.2,
+        "clv_pp": 0.64,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-14|NHL|wed-nhl-wsh-ml",
@@ -22256,10 +23157,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "5-4"
         },
+        "event_id": "401892504",
         "clv_tag": "lose",
-        "clv_pp": -2.98,
-        "clv_pct": -5.38,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -110,
@@ -22268,7 +23167,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-10-15T08:58:08-05:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -5.38,
+        "clv_pp": -2.98,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-14|SOCCER|aston villa to win|fenerbahce   aston villa  ucl  2 00 pm ct",
@@ -22292,7 +23195,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-0"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915409",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|betisporto over 2.5|fc porto   real betis  ucl  2 00 pm ct",
@@ -22316,7 +23224,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs 2.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915408",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|bod glimt +0.5  double chance |dortmund   bod glimt  ucl  2 00 pm ct",
@@ -22340,7 +23253,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|boddortmund over 2.5|dortmund   bod glimt  ucl  2 00 pm ct",
@@ -22364,7 +23282,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no ESPN event matched"
         },
-        "clv_tag": "unobserved"
+        "event_id": null,
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|both teams to score|como   feyenoord  ucl  11 45 am ct",
@@ -22388,7 +23311,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "BTTS yes"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915416",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|como to win|como   feyenoord  ucl  11 45 am ct",
@@ -22412,6 +23340,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-3"
         },
+        "event_id": "401915416",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -22440,7 +23369,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "BTTS yes"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915416",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|ny red bulls draw-no-bet draw  +185 |red bull new york   d.c. united  mls  6 30 pm ct",
@@ -22464,7 +23398,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "could not identify picked side"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761863",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|over 1.5 goals|fc porto   real betis  ucl  2 00 pm ct",
@@ -22488,7 +23427,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs 1.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915408",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|real madrid to win   dnb|real madrid   roma  ucl  2 00 pm ct",
@@ -22512,7 +23456,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-3"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915414",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|real madrid to win|real madrid   roma  ucl  2 00 pm ct",
@@ -22536,7 +23485,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-3"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915414",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|romareal madrid over 2.5 + rm 2+ goals|real madrid   roma  ucl  2 00 pm ct",
@@ -22560,7 +23514,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 7 vs 2.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915414",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|romareal madrid under 3.5|real madrid   roma  ucl  2 00 pm ct",
@@ -22584,7 +23543,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 7 vs 3.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915414",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|stuttgart to win|stuttgart   slovan bratislava  ucl  2 00 pm ct",
@@ -22608,6 +23572,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-0"
         },
+        "event_id": "401915405",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -22636,7 +23601,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 6 vs 2.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915409",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-14|SOCCER|wed-ucl-avl-ml",
@@ -22660,6 +23630,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-0"
         },
+        "event_id": "401915409",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -22688,6 +23659,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "BTTS yes"
         },
+        "event_id": "401915416",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -22716,6 +23688,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "BTTS yes"
         },
+        "event_id": "401915407",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -22744,6 +23717,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-3"
         },
+        "event_id": "401915414",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -22772,6 +23746,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-0"
         },
+        "event_id": "401915405",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -22800,10 +23775,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -39 vs +14.5"
         },
+        "event_id": "401860923",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -1.0,
         "closing_price": {
           "line": "+15.5",
           "american": -112,
@@ -22812,7 +23785,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:18-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -1.0
       },
       {
         "key": "2026-10-15|CFB|thu-cfb-csu-txst-over",
@@ -22836,10 +23813,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 93 vs 68.5"
         },
+        "event_id": "401860923",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 1.0,
         "closing_price": {
           "line": "o69.5",
           "american": -112,
@@ -22848,7 +23823,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:19-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 1.0
       },
       {
         "key": "2026-10-15|CFB|thu-cfb-ecu-spread",
@@ -22872,10 +23851,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -13 vs -4.5"
         },
+        "event_id": "401862800",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 1.0,
         "closing_price": {
           "line": "-5.5",
           "american": -105,
@@ -22884,7 +23861,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:17-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 1.0
       },
       {
         "key": "2026-10-15|CFB|thu-cfb-ecu-uab-under",
@@ -22908,7 +23889,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 47 vs 48.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401862800",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|CFB|thu-cfb-gaso",
@@ -22932,10 +23918,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 8 vs -3.5"
         },
+        "event_id": "401869950",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -0.5,
         "closing_price": {
           "line": "-3",
           "american": -110,
@@ -22944,7 +23928,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:17-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -0.5
       },
       {
         "key": "2026-10-15|CFB|thu-cfb-uab-plus",
@@ -22968,7 +23956,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 13 vs +4.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401862800",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|MLB|thu-mlb-chourio-hr",
@@ -22992,7 +23985,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score: Chourio 0 HR [manual box-score grade 2026-10-17, Betting Consensus Screener]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908033",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|MLB|thu-mlb-mil-lad-o7.5",
@@ -23016,10 +24014,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 10 vs 7.5"
         },
+        "event_id": "401908033",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 0.5,
         "closing_price": {
           "line": "o8.0",
           "american": -105,
@@ -23028,7 +24024,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:27-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 0.5
       },
       {
         "key": "2026-10-15|MLB|thu-mlb-mil-ml",
@@ -23052,7 +24052,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-4"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908033",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|MLB|thu-mlb-ohtani-hr",
@@ -23076,7 +24081,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score: Ohtani 1 HR [manual box-score grade 2026-10-17, Betting Consensus Screener]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908033",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NFL|thu-nfl-1h-u20.5",
@@ -23100,7 +24110,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 31 vs 20.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872995",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NFL|thu-nfl-barner-rec",
@@ -23124,7 +24139,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score: Barner 3-16 rec yds vs alt 20+ (lowest rung) [manual box-score grade 2026-10-17, Betting Consensus Screener]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872995",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NFL|thu-nfl-den-plus",
@@ -23148,7 +24168,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs +2.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872995",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NFL|thu-nfl-harvey-rec",
@@ -23172,7 +24197,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "player prop: no auto-grader (needs box-score stat)"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872995",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NFL|thu-nfl-jsn-atd",
@@ -23196,7 +24226,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872995",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NFL|thu-nfl-jsn-rec",
@@ -23220,7 +24255,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score: JSN 12-134 rec yds clears alt 50+ and 80+ [manual box-score grade 2026-10-17, Betting Consensus Screener]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872995",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NFL|thu-nfl-o40.5",
@@ -23244,7 +24284,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 31 vs 40.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872995",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NFL|thu-nfl-sea-2.5",
@@ -23268,6 +24313,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs -2.5"
         },
+        "event_id": "401872995",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -23296,7 +24342,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score: Sutton 2-19 rec yds vs alt 20+ (lowest rung) [manual box-score grade 2026-10-17, Betting Consensus Screener]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872995",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NFL|thu-nfl-u40.5",
@@ -23320,10 +24371,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 31 vs 40.5"
         },
+        "event_id": "401872995",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "u40.5",
           "american": -105,
@@ -23332,7 +24381,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:17-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-15|NFL|thu-nfl-wilson-rush",
@@ -23356,7 +24409,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score: Wilson 14-52 rush yds vs o66.5 primary (alt 50+ would win; o78.5 rush+rec 52 also loss) [manual box-score grade 2026-10-17, Betting Consensus Screener]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872995",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NHL|thu-nhl-buf-tor-o6.5",
@@ -23380,10 +24438,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 9 vs 6.5"
         },
+        "event_id": "401892506",
         "clv_tag": "beat",
-        "clv_pp": 1.57,
-        "clv_pct": 2.85,
-        "clv_pts": null,
         "closing_price": {
           "line": "o6.5",
           "american": -130,
@@ -23392,7 +24448,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:20-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.85,
+        "clv_pp": 1.57,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-15|NHL|thu-nhl-debrincat",
@@ -23416,7 +24476,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score: DeBrincat 0 G (graded as primary ATG leg) [manual box-score grade 2026-10-17, Betting Consensus Screener]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892508",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NHL|thu-nhl-fla",
@@ -23440,10 +24505,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-2"
         },
+        "event_id": "401892510",
         "clv_tag": "beat",
-        "clv_pp": 1.19,
-        "clv_pct": 1.62,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -298,
@@ -23452,7 +24515,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:25-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.62,
+        "clv_pp": 1.19,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-15|NHL|thu-nhl-hughes",
@@ -23476,7 +24543,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score: Jack Hughes 0 G (graded as primary ATG leg) [manual box-score grade 2026-10-17, Betting Consensus Screener]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892511",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NHL|thu-nhl-min",
@@ -23500,10 +24572,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "5-4"
         },
+        "event_id": "401892514",
         "clv_tag": "beat",
-        "clv_pp": 0.69,
-        "clv_pct": 1.2,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -142,
@@ -23512,7 +24582,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:22-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.2,
+        "clv_pp": 0.69,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-15|NHL|thu-nhl-nyr",
@@ -23536,7 +24610,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-7"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892511",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NHL|thu-nhl-ott",
@@ -23560,10 +24639,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-1"
         },
+        "event_id": "401892507",
         "clv_tag": "beat",
-        "clv_pp": 0.74,
-        "clv_pct": 1.22,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -162,
@@ -23572,7 +24649,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:23-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.22,
+        "clv_pp": 0.74,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-15|NHL|thu-nhl-phi",
@@ -23596,7 +24677,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-2"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892508",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NHL|thu-nhl-raddysh",
@@ -23620,7 +24706,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score: Raddysh 0 G [manual box-score grade 2026-10-17, Betting Consensus Screener]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892506",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NHL|thu-nhl-tkachuk",
@@ -23644,7 +24735,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "box score: M. Tkachuk 0 G (graded as primary ATG leg) [manual box-score grade 2026-10-17, Betting Consensus Screener]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892510",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-15|NHL|thu-nhl-tor",
@@ -23668,7 +24764,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892506",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-akron zips   miami  oh  redhawks|miami  oh  -9.5",
@@ -23692,7 +24793,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 20 vs -9.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401866478",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-alabama crimson tide   tennessee volunteers|tennessee +7.5",
@@ -23716,7 +24822,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 16 vs +7.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856723",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-arizona state sun devils   texas tech red raiders|arizona state +16",
@@ -23740,7 +24851,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -28 vs +16 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856828",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-arkansas razorbacks   vanderbilt commodores|arkansas +6.5",
@@ -23764,7 +24880,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 10 vs +6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856726",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-arkansas state red wolves   southern mississippi golden eagles|arkansas state -6.5",
@@ -23788,7 +24909,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 10 vs -6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401869934",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-auburn tigers   georgia bulldogs|georgia -20",
@@ -23812,7 +24938,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs -20 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856719",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-cincinnati bearcats   west virginia mountaineers|west virginia -1.5",
@@ -23836,7 +24967,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs -1.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856829",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-citadel bulldogs   texas a m aggies|citadel +45.5",
@@ -23860,7 +24996,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -41 vs +45.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856725",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-florida gators   texas longhorns|texas -12.5",
@@ -23884,7 +25025,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs -12.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856724",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-florida state seminoles   miami hurricanes|florida state +20",
@@ -23908,7 +25054,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -8 vs +20 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858263",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-fresno state bulldogs   san diego state aztecs|san diego state aztecs +7.5",
@@ -23932,7 +25083,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs +7.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401860904",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-georgia state panthers   james madison dukes|georgia state +8",
@@ -23956,7 +25112,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -27 vs +8 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401869957",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-georgia tech yellow jackets   virginia tech hokies|virginia tech -8",
@@ -23980,7 +25141,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 10 vs -8 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858264",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-kansas jayhawks   kansas state wildcats|kansas +3.5",
@@ -24004,7 +25170,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -11 vs +3.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856830",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-kentucky wildcats   oklahoma sooners|oklahoma -6.5",
@@ -24028,7 +25199,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -8 vs -6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856722",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-louisiana tech bulldogs   ul monroe warhawks|louisiana tech -14.5",
@@ -24052,7 +25228,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 24 vs -14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401871091",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-louisville cardinals   syracuse orange|louisville -14.5",
@@ -24076,7 +25257,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 8 vs -14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858265",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-mississippi state bulldogs   lsu tigers|lsu -17.5",
@@ -24100,7 +25286,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 31 vs -17.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856720",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-missouri tigers   ole miss rebels|missouri +5.5",
@@ -24124,7 +25315,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -28 vs +5.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856721",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-navy midshipmen   utsa roadrunners|utsa -6.5",
@@ -24148,7 +25344,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 4 vs -6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401862804",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-nebraska cornhuskers   oregon ducks|oregon -7",
@@ -24172,7 +25373,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs -7 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858492",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-new mexico lobos   hawaii rainbow warriors|new mexico -14.5",
@@ -24196,7 +25402,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 11 vs -14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401864521",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-north carolina tar heels   duke blue devils|duke -3",
@@ -24220,7 +25431,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -4 vs -3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858266",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-northern illinois huskies   wyoming cowboys|wyoming -7.5",
@@ -24244,7 +25460,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 18 vs -7.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401864522",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-northwestern wildcats   michigan state spartans|michigan state +7",
@@ -24268,7 +25489,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs +7 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858491",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-notre dame fighting irish   byu cougars|notre dame -10.5",
@@ -24292,7 +25518,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -4 vs -10.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856809",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-ohio bobcats   sacramento state hornets|ohio -14.5",
@@ -24316,7 +25547,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 41 vs -14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401866445",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-ohio state buckeyes   indiana hoosiers|indiana +2.5",
@@ -24340,7 +25576,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -4 vs +2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858488",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-oklahoma state cowboys   houston cougars|oklahoma state +4.5",
@@ -24364,7 +25605,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs +4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856831",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-penn state nittany lions   michigan wolverines|penn state +6",
@@ -24388,7 +25634,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs +6 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858490",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-pittsburgh panthers   boston college eagles|pittsburgh -6.5",
@@ -24412,7 +25663,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -6 vs -6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858267",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-tcu horned frogs   baylor bears|baylor -6",
@@ -24436,7 +25692,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -11 vs -6 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856832",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-toledo rockets   eastern michigan eagles|over 52.5",
@@ -24460,7 +25721,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 48 vs over 52.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401866444",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-tulsa golden hurricane   rice owls|tulsa -4",
@@ -24484,7 +25750,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 21 vs -4 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401862805",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-unlv rebels   air force falcons|air force +1",
@@ -24508,7 +25779,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 10 vs +1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401864524",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-utah utes   colorado buffaloes|utah -14.5",
@@ -24532,7 +25808,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs -14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856833",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-virginia cavaliers   smu mustangs|virginia +10",
@@ -24556,7 +25837,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -10 vs +10 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858268",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-wake forest demon deacons   california golden bears|wake forest -10",
@@ -24580,7 +25866,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 34 vs -10 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858269",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-washington state cougars   oregon state beavers|oregon state -18.5",
@@ -24604,7 +25895,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 18 vs -18.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401860903",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-western michigan broncos   central michigan chippewas|western michigan -7.5",
@@ -24628,7 +25924,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 7 vs -7.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401866443",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|CFB|bt-wisconsin badgers   ucla bruins|ucla -2.5",
@@ -24652,7 +25953,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 10 vs -2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858494",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|MLB|bt-tampa bay rays   cleveland guardians|tampa bay rays ml",
@@ -24676,7 +25982,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "7-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908027",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-boston bruins   los angeles kings|boston bruins ml",
@@ -24700,7 +26011,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892530",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-buffalo sabres   montreal canadiens|over 6.5",
@@ -24724,7 +26040,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 7 vs over 6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892524",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-carolina hurricanes   winnipeg jets|carolina hurricanes ml",
@@ -24748,7 +26069,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892520",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-dallas stars   chicago blackhawks|dallas stars ml",
@@ -24772,7 +26098,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892528",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-edmonton oilers   utah mammoth|utah mammoth ml",
@@ -24796,7 +26127,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-6 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892531",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-new jersey devils   washington capitals|devils ml",
@@ -24820,7 +26156,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-4 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892519",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-new york islanders   toronto maple leafs|new york islanders ml",
@@ -24844,7 +26185,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892523",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-new york rangers   columbus blue jackets|over 6.5",
@@ -24868,7 +26214,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 1 vs over 6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892527",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-ottawa senators   philadelphia flyers|ottawa senators ml",
@@ -24892,7 +26243,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892526",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-pittsburgh penguins   vegas golden knights|vegas golden knights ml",
@@ -24916,7 +26272,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892532",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-san jose sharks   detroit red wings|san jose sharks ml",
@@ -24940,7 +26301,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-4 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892525",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-seattle kraken   florida panthers|seattle kraken ml",
@@ -24964,7 +26330,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-8 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892522",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-st louis blues   nashville predators|st louis blues ml",
@@ -24988,7 +26359,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892529",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|NHL|bt-vancouver canucks   tampa bay lightning|vancouver canucks ml",
@@ -25012,7 +26388,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-4 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892521",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-aston villa   newcastle united|aston villa ml",
@@ -25036,7 +26417,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401879258",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-athletic bilbao   valencia|valencia ml",
@@ -25060,7 +26446,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401882838",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-barcelona   real betis|real betis ml",
@@ -25084,7 +26475,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401882846",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-charlotte fc   philadelphia union|over 3.75",
@@ -25108,7 +26504,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 4 vs over 3.75 (Asian quarter line: half-win) [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761875",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-chicago fire   new england revolution|chicago fire ml",
@@ -25132,7 +26533,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761879",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-colorado rapids   portland timbers|portland timbers ml",
@@ -25156,7 +26562,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761888",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-d.c. united   orlando city sc|over 3.75",
@@ -25180,7 +26591,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs over 3.75 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761881",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-fc dallas   houston dynamo|houston dynamo ml",
@@ -25204,7 +26620,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761883",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-genoa   as roma|as roma ml",
@@ -25228,7 +26649,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401874935",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-inter miami cf   atlanta united fc|atlanta united fc ml",
@@ -25252,7 +26678,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761880",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-inter milan   bologna|inter milan ml",
@@ -25276,7 +26707,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401874953",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-los angeles fc   new york city fc|new york city fc ml",
@@ -25300,7 +26736,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761877",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-nashville sc   san jose earthquakes|san jose earthquakes ml",
@@ -25324,7 +26765,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761886",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-paris saint germain   strasbourg|paris saint germain ml",
@@ -25348,7 +26794,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401876432",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-rb leipzig   bayern munich|rb leipzig ml",
@@ -25372,7 +26823,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-6 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401884772",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-san diego fc   la galaxy|la galaxy ml",
@@ -25396,7 +26852,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761887",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-st. louis city sc   minnesota united fc|st. louis city sc ml",
@@ -25420,7 +26881,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761876",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|SOCCER|bt-vancouver whitecaps fc   austin fc|over 3.25",
@@ -25444,7 +26910,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 3 vs over 3.25 (Asian quarter line: half-loss) [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761882",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|UFC|bt-chelsea chandler   melissa croden|chelsea chandler ml",
@@ -25468,7 +26939,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600060773",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|UFC|bt-cristian perez   kyle nelson|kyle nelson ml",
@@ -25492,7 +26968,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600060773",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|UFC|bt-jasmine jasudavicius   erin blanchfield|erin blanchfield ml",
@@ -25516,7 +26997,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600060773",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|UFC|bt-javad mahjoub   joel faglier|joel faglier ml",
@@ -25540,7 +27026,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600060773",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|UFC|bt-jhonata diniz   tanner boser|jhonata diniz ml",
@@ -25564,7 +27055,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600060773",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|UFC|bt-kyle daukaus   marc-andre barriault|kyle daukaus ml",
@@ -25588,7 +27084,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600060773",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|UFC|bt-mike malott   joaquin buckley|joaquin buckley ml",
@@ -25612,7 +27113,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600060773",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|UFC|bt-nate landwehr   mandel nallo|nate landwehr ml",
@@ -25636,7 +27142,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600060773",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|UFC|bt-nick galanti   julien leblanc|julien leblanc ml",
@@ -25660,7 +27171,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600060773",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|UFC|bt-steven koslow   chad anheliger|steven koslow ml",
@@ -25684,7 +27200,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600060773",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-17|UFC|bt-timothy cuamba   louis jourdain|louis jourdain ml",
@@ -25708,7 +27229,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "600060773",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|MLB|bt-tampa bay rays   cleveland guardians|tampa bay rays ml",
@@ -25732,7 +27258,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401930515",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-arizona cardinals   los angeles rams  blake corum anytime td|blake corum anytime td",
@@ -25756,7 +27287,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Blake Corum TDs=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873004",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-arizona cardinals   los angeles rams  jacoby brissett completions|jacoby brissett over 22.5 completions",
@@ -25780,7 +27316,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 24.0,
           "note": "Jacoby Brissett pass_completions=24 vs o22.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873004",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-arizona cardinals   los angeles rams  kyren williams anytime td|kyren williams anytime td",
@@ -25804,7 +27345,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Kyren Williams TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873004",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-arizona cardinals   los angeles rams  matthew stafford pass yds|matthew stafford over 279.5 pass yds",
@@ -25828,7 +27374,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 222.0,
           "note": "Matthew Stafford pass_yds=222 vs o279.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873004",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-arizona cardinals   los angeles rams  michael wilson anytime td|michael wilson anytime td",
@@ -25852,7 +27403,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Michael Wilson TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873004",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-arizona cardinals   los angeles rams  trey mcbride anytime td|trey mcbride anytime td",
@@ -25876,7 +27432,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Trey McBride TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873004",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-arizona cardinals   los angeles rams  tyler allgeier receptions|tyler allgeier over 2.5 receptions",
@@ -25900,7 +27461,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Tyler Allgeier receptions=1 vs o2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873004",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-arizona cardinals   los angeles rams|los angeles rams -13.5",
@@ -25924,7 +27490,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -2 vs -13.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873004",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-baltimore ravens   cleveland browns  denzel boston rec yds|denzel boston under 50.5 rec yds",
@@ -25948,7 +27519,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 15.0,
           "note": "Denzel Boston reception_yds=15 vs u50.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872997",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-baltimore ravens   cleveland browns  denzel boston rush yds|denzel boston over 59.5 rush yds",
@@ -25972,7 +27548,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Denzel Boston rush_yds=0 vs o59.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872997",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-baltimore ravens   cleveland browns  derrick henry anytime td|derrick henry anytime td",
@@ -25996,7 +27577,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Derrick Henry TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872997",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-baltimore ravens   cleveland browns  derrick henry rush yds|derrick henry over 89.5 rush yds",
@@ -26020,7 +27606,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 58.0,
           "note": "Derrick Henry rush_yds=58 vs o89.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872997",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-baltimore ravens   cleveland browns  deshaun watson rec yds|deshaun watson under 28.5 rec yds",
@@ -26044,7 +27635,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Deshaun Watson reception_yds=0 vs u28.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872997",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-baltimore ravens   cleveland browns  deshaun watson rush yds|deshaun watson under 28.5 rush yds",
@@ -26068,7 +27664,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 29.0,
           "note": "Deshaun Watson rush_yds=29 vs u28.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872997",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-baltimore ravens   cleveland browns  kc concepcion rec yds|kc concepcion over 14.5 rec yds",
@@ -26092,7 +27693,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 37.0,
           "note": "KC Concepcion reception_yds=37 vs o14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872997",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-baltimore ravens   cleveland browns  mark andrews rec yds|mark andrews over 14.5 rec yds",
@@ -26116,7 +27722,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Mark Andrews reception_yds=4 vs o14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872997",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-baltimore ravens   cleveland browns  zay flowers anytime td|zay flowers anytime td",
@@ -26140,7 +27751,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Zay Flowers TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872997",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-baltimore ravens   cleveland browns|cleveland browns +3",
@@ -26164,7 +27780,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs +3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872997",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-buffalo bills   las vegas raiders  brock bowers anytime td|brock bowers anytime td",
@@ -26188,7 +27809,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Brock Bowers TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873005",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-buffalo bills   las vegas raiders  brock bowers rec yds|brock bowers over 79.5 rec yds",
@@ -26212,7 +27838,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 70.0,
           "note": "Brock Bowers reception_yds=70 vs o79.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873005",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-buffalo bills   las vegas raiders  brock bowers receptions|brock bowers over 7.5 receptions",
@@ -26236,7 +27867,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Brock Bowers receptions=4 vs o7.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873005",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-buffalo bills   las vegas raiders  dj moore receptions|dj moore over 4.5 receptions",
@@ -26260,7 +27896,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "DJ Moore not in ESPN box score (DNP/no action) [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873005",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-buffalo bills   las vegas raiders  josh allen anytime td|josh allen anytime td",
@@ -26284,7 +27925,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Josh Allen TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873005",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-buffalo bills   las vegas raiders  kirk cousins pass yds|kirk cousins over 243.5 pass yds",
@@ -26308,7 +27954,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 313.0,
           "note": "Kirk Cousins pass_yds=313 vs o243.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873005",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-buffalo bills   las vegas raiders  tre tucker anytime td|tre tucker anytime td",
@@ -26332,7 +27983,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "Tre Tucker TDs=2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873005",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-buffalo bills   las vegas raiders|buffalo bills -4.5",
@@ -26356,7 +28012,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs -4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873005",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  bryce young pass tds|bryce young over 1.5 pass tds",
@@ -26380,7 +28041,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "Bryce Young pass_tds=2 vs o1.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  bryce young pass yds|bryce young over 237.5 pass yds",
@@ -26404,7 +28070,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 281.0,
           "note": "Bryce Young pass_yds=281 vs o237.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  chuba hubbard anytime td|chuba hubbard anytime td",
@@ -26428,7 +28099,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Chuba Hubbard TDs=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  chuba hubbard rec yds|chuba hubbard over 88.5 rec yds",
@@ -26452,7 +28128,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Chuba Hubbard reception_yds=1 vs o88.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  chuba hubbard rush yds|chuba hubbard over 49.5 rush yds",
@@ -26476,7 +28157,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 120.0,
           "note": "Chuba Hubbard rush_yds=120 vs o49.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  dallas goedert rec yds|dallas goedert over 14.5 rec yds",
@@ -26500,7 +28186,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 61.0,
           "note": "Dallas Goedert reception_yds=61 vs o14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  dallas goedert receptions|dallas goedert over 3.5 receptions",
@@ -26524,7 +28215,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "Dallas Goedert receptions=6 vs o3.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  darren waller rec yds|darren waller over 14.5 rec yds",
@@ -26548,7 +28244,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Darren Waller reception_yds=0 vs o14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  devonta smith rec yds|devonta smith over 29.5 rec yds",
@@ -26572,7 +28273,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 75.0,
           "note": "DeVonta Smith reception_yds=75 vs o29.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  dontayvion wicks rec yds|dontayvion wicks over 14.5 rec yds",
@@ -26596,7 +28302,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 24.0,
           "note": "Dontayvion Wicks reception_yds=24 vs o14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  jalen coker anytime td|jalen coker anytime td",
@@ -26620,7 +28331,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Jalen Coker TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  jalen coker rec yds|jalen coker over 55.5 rec yds",
@@ -26644,7 +28360,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 97.0,
           "note": "Jalen Coker reception_yds=97 vs o55.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  makai lemon rec yds|makai lemon over 4.5 rec yds",
@@ -26668,7 +28389,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 19.0,
           "note": "Makai Lemon reception_yds=19 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles  tetairoa mcmillan rec yds|tetairoa mcmillan over 39.5 rec yds",
@@ -26692,7 +28418,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 86.0,
           "note": "Tetairoa McMillan reception_yds=86 vs o39.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-carolina panthers   philadelphia eagles|carolina panthers -3",
@@ -26716,7 +28447,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 11 vs -3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872998",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-chicago bears   atlanta falcons  bijan robinson rush yds|bijan robinson over 89.5 rush yds",
@@ -26740,7 +28476,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 61.0,
           "note": "Bijan Robinson rush_yds=61 vs o89.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872999",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-chicago bears   atlanta falcons  caleb williams pass yds|caleb williams under 228.5 pass yds",
@@ -26764,7 +28505,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 305.0,
           "note": "Caleb Williams pass_yds=305 vs u228.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872999",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-chicago bears   atlanta falcons  drake london anytime td|drake london anytime td",
@@ -26788,7 +28534,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Drake London TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872999",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-chicago bears   atlanta falcons  drake london rec yds|drake london over 89.5 rec yds",
@@ -26812,7 +28563,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 62.0,
           "note": "Drake London reception_yds=62 vs o89.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872999",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-chicago bears   atlanta falcons  luther burden iii anytime td|luther burden iii anytime td",
@@ -26836,7 +28592,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Luther Burden III TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872999",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-chicago bears   atlanta falcons|atlanta falcons ml",
@@ -26860,7 +28621,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "23-31 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401872999",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-dallas cowboys   green bay packers  ceedee lamb rec yds|ceedee lamb over 80.5 rec yds",
@@ -26884,7 +28650,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 70.0,
           "note": "CeeDee Lamb reception_yds=70 vs o80.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873007",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-dallas cowboys   green bay packers  christian watson anytime td|christian watson anytime td",
@@ -26908,7 +28679,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Christian Watson TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873007",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-dallas cowboys   green bay packers  christian watson first td|christian watson first td",
@@ -26932,7 +28708,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "first TD: Matthew Golden 9 Yd pass from Jordan Love (Trey Smack Kick) [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873007",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-dallas cowboys   green bay packers  jake ferguson rec yds|jake ferguson over 24.5 rec yds",
@@ -26956,7 +28737,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 13.0,
           "note": "Jake Ferguson reception_yds=13 vs o24.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873007",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-dallas cowboys   green bay packers  javonte williams anytime td|javonte williams anytime td",
@@ -26980,7 +28766,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Javonte Williams TDs=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873007",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-dallas cowboys   green bay packers  jordan love pass yds|jordan love under 274.5 pass yds",
@@ -27004,7 +28795,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 276.0,
           "note": "Jordan Love pass_yds=276 vs u274.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873007",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-dallas cowboys   green bay packers  jordan love rush yds|jordan love over 9.5 rush yds",
@@ -27028,7 +28824,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 12.0,
           "note": "Jordan Love rush_yds=12 vs o9.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873007",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-dallas cowboys   green bay packers  marshawn lloyd anytime td|marshawn lloyd anytime td",
@@ -27052,7 +28853,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "MarShawn Lloyd TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873007",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-dallas cowboys   green bay packers  matthew golden anytime td|matthew golden anytime td",
@@ -27076,7 +28882,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Matthew Golden TDs=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873007",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-dallas cowboys   green bay packers  tucker kraft anytime td|tucker kraft anytime td",
@@ -27100,7 +28911,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Tucker Kraft TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873007",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-dallas cowboys   green bay packers|dallas cowboys +1",
@@ -27124,7 +28940,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -10 vs +1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873007",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-los angeles chargers   kansas city chiefs  kenneth walker iii anytime td|kenneth walker iii anytime td",
@@ -27148,7 +28969,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "Kenneth Walker III TDs=2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873006",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-los angeles chargers   kansas city chiefs  kenneth walker iii rush att|kenneth walker iii over 19.5 rush att",
@@ -27172,7 +28998,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 19.0,
           "note": "Kenneth Walker III rush_attempts=19 vs o19.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873006",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-los angeles chargers   kansas city chiefs  travis kelce rec yds|travis kelce over 52.5 rec yds",
@@ -27196,7 +29027,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 53.0,
           "note": "Travis Kelce reception_yds=53 vs o52.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873006",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-los angeles chargers   kansas city chiefs  xavier worthy receptions|xavier worthy over 2.5 receptions",
@@ -27220,7 +29056,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 7.0,
           "note": "Xavier Worthy receptions=7 vs o2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873006",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-los angeles chargers   kansas city chiefs|los angeles chargers +8",
@@ -27244,7 +29085,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -16 vs +8 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873006",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new orleans saints   new york giants  cam skattebo rush yds|cam skattebo over 56.5 rush yds",
@@ -27268,7 +29114,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "Cam Skattebo not in ESPN box score (DNP/no action) [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873000",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new orleans saints   new york giants  chris olave anytime td|chris olave anytime td",
@@ -27292,7 +29143,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Chris Olave TDs=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873000",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new orleans saints   new york giants  darnell mooney rec yds|darnell mooney under 21.5 rec yds",
@@ -27316,7 +29172,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Darnell Mooney reception_yds=0 vs u21.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873000",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new orleans saints   new york giants  isaiah likely anytime td|isaiah likely anytime td",
@@ -27340,7 +29201,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Isaiah Likely TDs=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873000",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new orleans saints   new york giants  isaiah likely rec yds|isaiah likely over 49.5 rec yds",
@@ -27364,7 +29230,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 99.0,
           "note": "Isaiah Likely reception_yds=99 vs o49.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873000",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new orleans saints   new york giants  isaiah likely receptions|isaiah likely over 5.5 receptions",
@@ -27388,7 +29259,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "Isaiah Likely receptions=6 vs o5.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873000",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new orleans saints   new york giants  malik nabers anytime td|malik nabers anytime td",
@@ -27412,7 +29288,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Malik Nabers TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873000",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new orleans saints   new york giants  noah fant receptions|noah fant over 1.5 receptions",
@@ -27436,7 +29317,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Noah Fant receptions=0 vs o1.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873000",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new orleans saints   new york giants|new orleans saints -1",
@@ -27460,7 +29346,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 7 vs -1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873000",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new york jets   new england patriots  mason taylor rec yds|mason taylor over 13.5 rec yds",
@@ -27484,7 +29375,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 33.0,
           "note": "Mason Taylor reception_yds=33 vs o13.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873001",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new york jets   new england patriots  rhamondre stevenson anytime td|rhamondre stevenson anytime td",
@@ -27508,7 +29404,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Rhamondre Stevenson TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873001",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new york jets   new england patriots  rhamondre stevenson rec yds|rhamondre stevenson over 19.5 rec yds",
@@ -27532,7 +29433,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Rhamondre Stevenson reception_yds=0 vs o19.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873001",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-new york jets   new england patriots|new york jets +7.5",
@@ -27556,7 +29462,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -7 vs +7.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873001",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-pittsburgh steelers   tampa bay buccaneers  aaron rodgers pass yds|aaron rodgers over 174.5 pass yds",
@@ -27580,7 +29491,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 253.0,
           "note": "Aaron Rodgers pass_yds=253 vs o174.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873002",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-pittsburgh steelers   tampa bay buccaneers  bucky irving anytime td|bucky irving anytime td",
@@ -27604,7 +29520,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Bucky Irving TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873002",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-pittsburgh steelers   tampa bay buccaneers  bucky irving rec yds|bucky irving over 10.5 rec yds",
@@ -27628,7 +29549,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Bucky Irving reception_yds=3 vs o10.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873002",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-pittsburgh steelers   tampa bay buccaneers  bucky irving rush att|bucky irving over 15.5 rush att",
@@ -27652,7 +29578,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 19.0,
           "note": "Bucky Irving rush_attempts=19 vs o15.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873002",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-pittsburgh steelers   tampa bay buccaneers  bucky irving rush yds|bucky irving over 39.5 rush yds",
@@ -27676,7 +29607,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 46.0,
           "note": "Bucky Irving rush_yds=46 vs o39.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873002",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-pittsburgh steelers   tampa bay buccaneers  jaylen warren rec yds|jaylen warren over 28.5 rec yds",
@@ -27700,7 +29636,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 28.0,
           "note": "Jaylen Warren reception_yds=28 vs o28.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873002",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-pittsburgh steelers   tampa bay buccaneers  jaylen warren rush yds|jaylen warren over 39.5 rush yds",
@@ -27724,7 +29665,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 50.0,
           "note": "Jaylen Warren rush_yds=50 vs o39.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873002",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-pittsburgh steelers   tampa bay buccaneers  pat freiermuth anytime td|pat freiermuth anytime td",
@@ -27748,7 +29694,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Pat Freiermuth TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873002",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-pittsburgh steelers   tampa bay buccaneers|pittsburgh steelers -2.5",
@@ -27772,7 +29723,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 7 vs -2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873002",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-tennessee titans   indianapolis colts  carnell tate rec yds|carnell tate over 51.5 rec yds",
@@ -27796,7 +29752,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 70.0,
           "note": "Carnell Tate reception_yds=70 vs o51.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873003",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-tennessee titans   indianapolis colts  carnell tate receptions|carnell tate under 4.5 receptions",
@@ -27820,7 +29781,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "Carnell Tate receptions=6 vs u4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873003",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-tennessee titans   indianapolis colts  daniel bellinger anytime td|daniel bellinger anytime td",
@@ -27844,7 +29810,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Daniel Bellinger TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873003",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-tennessee titans   indianapolis colts  jonathan taylor rush yds|jonathan taylor over 19.5 rush yds",
@@ -27868,7 +29839,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 94.0,
           "note": "Jonathan Taylor rush_yds=94 vs o19.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873003",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-tennessee titans   indianapolis colts  wan dale robinson rec yds|wan dale robinson over 35.5 rec yds",
@@ -27892,7 +29868,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 22.0,
           "note": "Wan'Dale Robinson reception_yds=22 vs o35.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873003",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NFL|bt-tennessee titans   indianapolis colts|indianapolis colts -6.5",
@@ -27916,7 +29897,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -6 vs -6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873003",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NHL|bt-carolina hurricanes   calgary flames|carolina hurricanes ml",
@@ -27940,7 +29926,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892534",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|NHL|bt-columbus blue jackets   minnesota wild|minnesota wild ml",
@@ -27964,7 +29955,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892533",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|SOCCER|bt-ajax   groningen|ajax ml",
@@ -27988,7 +29984,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "5-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401875575",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|SOCCER|bt-arsenal   nottingham forest|under 2.5",
@@ -28012,7 +30013,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 1 vs under 2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401878769",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|SOCCER|bt-as monaco   lorient|as monaco ml",
@@ -28036,7 +30042,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401876435",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|SOCCER|bt-atalanta bc   ac milan|ac milan ml",
@@ -28060,7 +30071,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401874978",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|SOCCER|bt-columbus crew sc   fc cincinnati|fc cincinnati ml",
@@ -28084,7 +30100,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "761889",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|SOCCER|bt-fortuna sittard   nec nijmegen|fortuna sittard +0.75",
@@ -28108,7 +30129,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 0 vs +0.75 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401875581",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|SOCCER|bt-lazio   juventus|lazio ml",
@@ -28132,7 +30158,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401874765",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|SOCCER|bt-real sociedad   malaga|malaga ml",
@@ -28156,7 +30187,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401882841",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-18|SOCCER|bt-sevilla   real madrid|real madrid ml",
@@ -28180,7 +30216,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401882839",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|MLB|mon1019-mlb-tampa-bay-rays-ml",
@@ -28204,10 +30245,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "7-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401908028",
         "clv_tag": "match",
-        "clv_pp": 0.16,
-        "clv_pct": 0.27,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -151,
@@ -28216,7 +30255,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:44-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.27,
+        "clv_pp": 0.16,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-19|NFL|bt-washington commanders   san francisco 49ers  brandin cooks anytime td|brandin cooks anytime td",
@@ -28240,7 +30283,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Brandin Cooks TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|bt-washington commanders   san francisco 49ers  brock purdy pass yds|brock purdy over 239.5 pass yds",
@@ -28264,7 +30312,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 264.0,
           "note": "Brock Purdy pass_yds=264 vs o239.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|bt-washington commanders   san francisco 49ers  jayden daniels first td|jayden daniels first td",
@@ -28288,7 +30341,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "first TD: George Kittle 11 Yd pass from Brock Purdy (Eddy Pineiro Kick [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|bt-washington commanders   san francisco 49ers  jayden daniels pass yds|jayden daniels over 207.5 pass yds",
@@ -28312,7 +30370,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 300.0,
           "note": "Jayden Daniels pass_yds=300 vs o207.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|bt-washington commanders   san francisco 49ers  mike evans first td|mike evans first td",
@@ -28336,7 +30399,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "first TD: George Kittle 11 Yd pass from Brock Purdy (Eddy Pineiro Kick [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|bt-washington commanders   san francisco 49ers  rachaad white rush yds|rachaad white under 44.5 rush yds",
@@ -28360,7 +30428,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 27.0,
           "note": "Rachaad White rush_yds=27 vs u44.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-antonio-williams-anytime-td",
@@ -28384,7 +30457,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Antonio Williams TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-antonio-williams-over-1-5-receptions",
@@ -28408,7 +30486,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Antonio Williams receptions=3 vs o1.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-antonio-williams-over-21-5-rec-yds",
@@ -28432,6 +30515,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 50.0,
           "note": "Antonio Williams reception_yds=50 vs o21.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873008",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -28460,6 +30544,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Austin Ekeler reception_yds=4 vs o7.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873008",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -28488,7 +30573,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "first TD: George Kittle 11 Yd pass from Brock Purdy (Eddy Pineiro Kick [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-brock-purdy-over-1-5-receptions",
@@ -28512,7 +30602,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Brock Purdy receptions=0 vs o1.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-brock-purdy-over-20-5-rush-yds",
@@ -28536,6 +30631,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 28.0,
           "note": "Brock Purdy rush_yds=28 vs o20.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873008",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -28564,6 +30660,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "Christian McCaffrey TDs=2 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873008",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -28592,7 +30689,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 9.0,
           "note": "Christian McCaffrey receptions=9 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-christian-mccaffrey-over-62-5-rush-yds",
@@ -28616,6 +30718,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 64.0,
           "note": "Christian McCaffrey rush_yds=64 vs o62.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873008",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -28644,7 +30747,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "George Kittle TDs=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-george-kittle-over-66-5-rec-yds",
@@ -28668,6 +30776,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 69.0,
           "note": "George Kittle reception_yds=69 vs o66.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873008",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -28696,7 +30805,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Jayden Daniels TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-jayden-daniels-over-38-5-rush-yds",
@@ -28720,6 +30834,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 10.0,
           "note": "Jayden Daniels rush_yds=10 vs o38.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873008",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -28748,7 +30863,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "Luke Farrell not in box score (no action) [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-luke-farrell-over-0-5-rec-yds",
@@ -28772,7 +30892,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "Luke Farrell not in ESPN box score (DNP/no action) [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-mike-evans-anytime-td",
@@ -28796,6 +30921,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Mike Evans TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873008",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -28824,6 +30950,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 30.0,
           "note": "Rachaad White reception_yds=30 vs o13.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873008",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -28852,7 +30979,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Rachaad White receptions=4 vs o2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-stefon-diggs-anytime-td",
@@ -28876,7 +31008,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Stefon Diggs TDs=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-stefon-diggs-over-4-5-receptions",
@@ -28900,7 +31037,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "Stefon Diggs receptions=6 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-terry-mclaurin-anytime-td",
@@ -28924,7 +31066,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Terry McLaurin TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-terry-mclaurin-over-49-5-rec-yds",
@@ -28948,7 +31095,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 27.0,
           "note": "Terry McLaurin reception_yds=27 vs o49.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873008",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-19|NFL|mon1019-nfl-washington-commanders-7-5",
@@ -28972,10 +31124,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -6 vs +7.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873008",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "+7.5",
           "american": -118,
@@ -28984,7 +31134,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:42-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-19|NHL|mon1019-nhl-utah-mammoth-ml",
@@ -29008,10 +31162,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "5-4 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401892538",
         "clv_tag": "match",
-        "clv_pp": 0.25,
-        "clv_pct": 0.38,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -185,
@@ -29020,7 +31172,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:45-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.38,
+        "clv_pp": 0.25,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  ausar thompson points|ausar thompson under 9.5 points",
@@ -29044,7 +31200,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 11.0,
           "note": "Ausar Thompson points=11 vs u9.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  ausar thompson rebounds|ausar thompson over 6.5 rebounds",
@@ -29068,7 +31229,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 11.0,
           "note": "Ausar Thompson rebounds=11 vs o6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  cade cunningham assists|cade cunningham over 8.5 assists",
@@ -29092,7 +31258,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 8.0,
           "note": "Cade Cunningham assists=8 vs o8.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  cade cunningham points|cade cunningham over 24.5 points",
@@ -29116,7 +31287,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 22.0,
           "note": "Cade Cunningham points=22 vs o24.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  cade cunningham rebounds|cade cunningham over 4.5 rebounds",
@@ -29140,7 +31316,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Cade Cunningham rebounds=4 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  cade cunningham threes made|cade cunningham over 2.5 threes made",
@@ -29164,7 +31345,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Cade Cunningham threes=1 vs o2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  derrick white assists|derrick white over 4.5 assists",
@@ -29188,7 +31374,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 8.0,
           "note": "Derrick White assists=8 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  derrick white points|derrick white over 15.5 points",
@@ -29212,7 +31403,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 17.0,
           "note": "Derrick White points=17 vs o15.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  derrick white pts+reb+ast|derrick white under 23.5 pts+reb+ast",
@@ -29236,7 +31432,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 26.0,
           "note": "Derrick White points_rebounds_assists=26 vs u23.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  derrick white reb+ast|derrick white over 7.5 reb+ast",
@@ -29260,7 +31461,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 9.0,
           "note": "Derrick White rebounds_assists=9 vs o7.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  duncan robinson points|duncan robinson under 10.5 points",
@@ -29284,7 +31490,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 21.0,
           "note": "Duncan Robinson points=21 vs u10.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  duncan robinson threes made|duncan robinson over 2.5 threes made",
@@ -29308,7 +31519,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 5.0,
           "note": "Duncan Robinson threes=5 vs o2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  jalen duren pts+reb+ast|jalen duren over 28.5 pts+reb+ast",
@@ -29332,7 +31548,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 32.0,
           "note": "Jalen Duren points_rebounds_assists=32 vs o28.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  jalen duren rebounds|jalen duren over 9.5 rebounds",
@@ -29356,7 +31577,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 9.0,
           "note": "Jalen Duren rebounds=9 vs o9.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  jayson tatum assists|jayson tatum over 5.5 assists",
@@ -29380,7 +31606,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 11.0,
           "note": "Jayson Tatum assists=11 vs o5.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  jayson tatum points|jayson tatum over 26.5 points",
@@ -29404,7 +31635,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 13.0,
           "note": "Jayson Tatum points=13 vs o26.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  jayson tatum pts+reb+ast|jayson tatum under 41.5 pts+reb+ast",
@@ -29428,7 +31664,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 28.0,
           "note": "Jayson Tatum points_rebounds_assists=28 vs u41.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  jayson tatum reb+ast|jayson tatum over 14.5 reb+ast",
@@ -29452,7 +31693,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 15.0,
           "note": "Jayson Tatum rebounds_assists=15 vs o14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  jayson tatum rebounds|jayson tatum over 8.5 rebounds",
@@ -29476,7 +31722,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Jayson Tatum rebounds=4 vs o8.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  john collins points|john collins over 12.5 points",
@@ -29500,7 +31751,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "John Collins points=6 vs o12.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  john collins rebounds|john collins over 5.5 rebounds",
@@ -29524,7 +31780,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 5.0,
           "note": "John Collins rebounds=5 vs o5.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  jordan walsh points|jordan walsh over 4.5 points",
@@ -29548,7 +31809,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Jordan Walsh points=0 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  paul george points|paul george over 16.5 points",
@@ -29572,7 +31838,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 38.0,
           "note": "Paul George points=38 vs o16.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  paul george pts+reb+ast|paul george over 23.5 pts+reb+ast",
@@ -29596,7 +31867,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 46.0,
           "note": "Paul George points_rebounds_assists=46 vs o23.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  paul george rebounds|paul george over 4.5 rebounds",
@@ -29620,7 +31896,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 5.0,
           "note": "Paul George rebounds=5 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  paul george threes made|paul george over 2.5 threes made",
@@ -29644,7 +31925,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 7.0,
           "note": "Paul George threes=7 vs o2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  payton pritchard assists|payton pritchard over 4.5 assists",
@@ -29668,7 +31954,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Payton Pritchard assists=1 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  payton pritchard points|payton pritchard over 16.5 points",
@@ -29692,7 +31983,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 17.0,
           "note": "Payton Pritchard points=17 vs o16.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-boston celtics   detroit pistons  payton pritchard reb+ast|payton pritchard over 7.5 reb+ast",
@@ -29716,7 +32012,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 5.0,
           "note": "Payton Pritchard rebounds_assists=5 vs o7.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909088",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  cason wallace threes made|cason wallace over 1.5 threes made",
@@ -29740,7 +32041,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Cason Wallace threes=0 vs o1.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  chet holmgren points|chet holmgren under 12.5 points",
@@ -29764,7 +32070,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 14.0,
           "note": "Chet Holmgren points=14 vs u12.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  de aaron fox points|de aaron fox over 14.5 points",
@@ -29788,7 +32099,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 14.0,
           "note": "De'Aaron Fox points=14 vs o14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  devin vassell rebounds|devin vassell over 3.5 rebounds",
@@ -29812,7 +32128,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Devin Vassell rebounds=3 vs o3.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  devin vassell threes made|devin vassell over 2.5 threes made",
@@ -29836,7 +32157,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Devin Vassell threes=1 vs o2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  dylan harper points|dylan harper over 15.5 points",
@@ -29860,7 +32186,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 18.0,
           "note": "Dylan Harper points=18 vs o15.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  dylan harper rebounds|dylan harper over 4.5 rebounds",
@@ -29884,7 +32215,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 7.0,
           "note": "Dylan Harper rebounds=7 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  jalen williams points|jalen williams under 18.5 points",
@@ -29908,7 +32244,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 12.0,
           "note": "Jalen Williams points=12 vs u18.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  jalen williams threes made|jalen williams under 1.5 threes made",
@@ -29932,7 +32273,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Jalen Williams threes=1 vs u1.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  jared mccain points|jared mccain over 9.5 points",
@@ -29956,7 +32302,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 20.0,
           "note": "Jared McCain points=20 vs o9.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  jared mccain threes made|jared mccain over 1.5 threes made",
@@ -29980,7 +32331,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "Jared McCain threes=6 vs o1.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  julian champagnie threes made|julian champagnie over 1.5 threes mad",
@@ -30004,7 +32360,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "Julian Champagnie threes=2 vs o1.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  keldon johnson rebounds|keldon johnson over 3.5 rebounds",
@@ -30028,7 +32389,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Keldon Johnson rebounds=4 vs o3.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  keldon johnson threes made|keldon johnson over 0.5 threes made",
@@ -30052,7 +32418,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Keldon Johnson threes=1 vs o0.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  shai gilgeous-alexander points|shai gilgeous-alexander under 29.5 p",
@@ -30076,7 +32447,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 32.0,
           "note": "Shai Gilgeous-Alexander points=32 vs u29.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  shai gilgeous-alexander rebounds|shai gilgeous-alexander under 3.5 ",
@@ -30100,7 +32476,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "Shai Gilgeous-Alexander rebounds=6 vs u3.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  stephon castle rebounds|stephon castle over 5.5 rebounds",
@@ -30124,7 +32505,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 7.0,
           "note": "Stephon Castle rebounds=7 vs o5.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-oklahoma city thunder   san antonio spurs  victor wembanyama rebounds|victor wembanyama over 11.5 rebounds",
@@ -30148,7 +32534,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 13.0,
           "note": "Victor Wembanyama rebounds=13 vs o11.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909090",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  jalen brunson assists|jalen brunson over 6.5 assists",
@@ -30172,7 +32563,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Jalen Brunson assists=3 vs o6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  jalen brunson points|jalen brunson over 26.5 points",
@@ -30196,7 +32592,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 21.0,
           "note": "Jalen Brunson points=21 vs o26.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  jaylen brown assists|jaylen brown under 3.5 assists",
@@ -30220,7 +32621,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "Jaylen Brown assists=6 vs u3.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  jaylen brown points|jaylen brown over 20.5 points",
@@ -30244,7 +32650,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 19.0,
           "note": "Jaylen Brown points=19 vs o20.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  jaylen brown pts+ast|jaylen brown over 24.5 pts+ast",
@@ -30268,7 +32679,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 25.0,
           "note": "Jaylen Brown points_assists=25 vs o24.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  joel embiid points|joel embiid over 22.5 points",
@@ -30292,7 +32708,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 13.0,
           "note": "Joel Embiid points=13 vs o22.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  joel embiid pts+ast|joel embiid over 26.5 pts+ast",
@@ -30316,7 +32737,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 19.0,
           "note": "Joel Embiid points_assists=19 vs o26.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  josh hart assists|josh hart over 4.5 assists",
@@ -30340,7 +32766,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Josh Hart assists=3 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  karl-anthony towns assists|karl-anthony towns over 4.5 assists",
@@ -30364,7 +32795,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Karl-Anthony Towns assists=1 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  lebron james assists|lebron james over 7.5 assists",
@@ -30388,7 +32824,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 7.0,
           "note": "LeBron James assists=7 vs o7.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  lebron james points|lebron james under 15.5 points",
@@ -30412,7 +32853,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 14.0,
           "note": "LeBron James points=14 vs u15.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  lebron james pts+ast|lebron james over 23.5 pts+ast",
@@ -30436,7 +32882,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 21.0,
           "note": "LeBron James points_assists=21 vs o23.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  og anunoby points|og anunoby over 16.5 points",
@@ -30460,7 +32911,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 10.0,
           "note": "OG Anunoby points=10 vs o16.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  tyrese maxey assists|tyrese maxey over 4.5 assists",
@@ -30484,7 +32940,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 5.0,
           "note": "Tyrese Maxey assists=5 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  tyrese maxey points|tyrese maxey under 20.5 points",
@@ -30508,7 +32969,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 28.0,
           "note": "Tyrese Maxey points=28 vs u20.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|bt-philadelphia 76ers   new york knicks  vj edgecombe points|vj edgecombe over 11.5 points",
@@ -30532,7 +32998,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 9.0,
           "note": "VJ Edgecombe points=9 vs o11.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909089",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NBA|tue1020-nba-boston-celtics-ml",
@@ -30556,10 +33027,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "113-121 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401909088",
         "clv_tag": "beat",
-        "clv_pp": 1.01,
-        "clv_pct": 1.85,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -125,
@@ -30568,7 +33037,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:58-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.85,
+        "clv_pp": 1.01,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-20|NBA|tue1020-nba-new-york-knicks-4-5",
@@ -30592,10 +33065,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -6 vs -4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401909089",
         "clv_tag": "beat",
-        "clv_pp": 0.47,
-        "clv_pct": 0.91,
-        "clv_pts": null,
         "closing_price": {
           "line": "-4.5",
           "american": -108,
@@ -30604,7 +33075,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:56-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.91,
+        "clv_pp": 0.47,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-20|NBA|tue1020-nba-san-antonio-spurs-ml",
@@ -30628,10 +33103,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "104-116 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401909090",
         "clv_tag": "lose",
-        "clv_pp": -2.11,
-        "clv_pct": -4.01,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -102,
@@ -30640,7 +33113,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:57-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -4.01,
+        "clv_pp": -2.11,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-20|NHL|bt-san jose sharks   montreal canadiens  juraj slafkovsky anytime goalscorer|juraj slafkovsky anytime goalscorer",
@@ -30664,7 +33141,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Juraj Slafkovsky goals=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892539",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NHL|bt-san jose sharks   montreal canadiens  macklin celebrini anytime goalscorer|macklin celebrini anytime goalscore",
@@ -30688,7 +33170,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "Macklin Celebrini goals=2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892539",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NHL|bt-san jose sharks   montreal canadiens  mason marchment anytime goalscorer|mason marchment anytime goalscorer",
@@ -30712,7 +33199,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Mason Marchment goals=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892539",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NHL|bt-toronto maple leafs   columbus blue jackets  auston matthews anytime goalscorer|auston matthews anytime goalsc",
@@ -30736,7 +33228,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Auston Matthews goals=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892543",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NHL|bt-toronto maple leafs   columbus blue jackets  gavin mckenna anytime goalscorer|gavin mckenna anytime goalscorer",
@@ -30760,7 +33257,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Gavin McKenna goals=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892543",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NHL|bt-toronto maple leafs   columbus blue jackets  matthew knies anytime goalscorer|matthew knies anytime goalscorer",
@@ -30784,7 +33286,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Matthew Knies goals=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892543",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NHL|bt-winnipeg jets   st louis blues  kyle connor anytime goalscorer|kyle connor anytime goalscorer",
@@ -30808,7 +33315,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Kyle Connor goals=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892544",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NHL|tue1020-nhl-boston-bruins-ml",
@@ -30832,7 +33344,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892545",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NHL|tue1020-nhl-carolina-hurricanes-ml",
@@ -30856,10 +33373,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401892548",
         "clv_tag": "lose",
-        "clv_pp": -0.85,
-        "clv_pct": -1.13,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -285,
@@ -30868,7 +33383,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:58:17-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.13,
+        "clv_pp": -0.85,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-20|NHL|tue1020-nhl-minnesota-wild-ml",
@@ -30892,7 +33411,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-4 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892546",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NHL|tue1020-nhl-new-jersey-devils-ml",
@@ -30916,10 +33440,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401892540",
         "clv_tag": "beat",
-        "clv_pp": 0.44,
-        "clv_pct": 0.82,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -115,
@@ -30928,7 +33450,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:58:10-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.82,
+        "clv_pp": 0.44,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-20|NHL|tue1020-nhl-new-york-islanders-ml",
@@ -30952,10 +33478,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401892541",
         "clv_tag": "beat",
-        "clv_pp": 0.78,
-        "clv_pct": 1.31,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -155,
@@ -30964,7 +33488,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:58:15-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.31,
+        "clv_pp": 0.78,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-20|NHL|tue1020-nhl-over-6-5",
@@ -30988,10 +33516,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 7 vs over 6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401892539",
         "clv_tag": "beat",
-        "clv_pp": 0.83,
-        "clv_pct": 1.53,
-        "clv_pts": null,
         "closing_price": {
           "line": "o6.5",
           "american": -122,
@@ -31000,7 +33526,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:58:15-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.53,
+        "clv_pp": 0.83,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-20|NHL|tue1020-nhl-seattle-kraken-ml",
@@ -31024,7 +33554,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892547",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NHL|tue1020-nhl-st-louis-blues-ml",
@@ -31048,10 +33583,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401892544",
         "clv_tag": "lose",
-        "clv_pp": -0.89,
-        "clv_pct": -1.52,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -135,
@@ -31060,7 +33593,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:58:14-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.52,
+        "clv_pp": -0.89,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-20|NHL|tue1020-nhl-toronto-maple-leafs-ml",
@@ -31084,7 +33621,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892543",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|NHL|tue1020-nhl-vegas-golden-knights-ml",
@@ -31108,10 +33650,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-6 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401892549",
         "clv_tag": "beat",
-        "clv_pp": 0.92,
-        "clv_pct": 1.8,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -110,
@@ -31120,7 +33660,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:58:00-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.8,
+        "clv_pp": 0.92,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-20|NHL|tue1020-nhl-washington-capitals-ml",
@@ -31144,10 +33688,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401892542",
         "clv_tag": "beat",
-        "clv_pp": 1.2,
-        "clv_pct": 1.98,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -162,
@@ -31156,7 +33698,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:58:09-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.98,
+        "clv_pp": 1.2,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-20|SOCCER|bt-villarreal   liverpool|liverpool ml",
@@ -31180,7 +33726,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915397",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|SOCCER|tue1020-soccer-as-roma-ml",
@@ -31204,6 +33755,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401915402",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -31232,7 +33784,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915392",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|SOCCER|tue1020-soccer-barcelona-ml",
@@ -31256,7 +33813,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-4 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915399",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-20|SOCCER|tue1020-soccer-manchester-city-ml",
@@ -31280,6 +33842,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "5-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401915401",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -31308,6 +33871,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401915400",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -31336,6 +33900,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401915398",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -31364,7 +33929,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401880277",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-atlanta hawks   orlando magic|orlando magic ml",
@@ -31388,7 +33958,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "125-132 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909834",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-charlotte hornets   brooklyn nets|brooklyn nets ml",
@@ -31412,7 +33987,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "103-110 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909836",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-charlotte hornets at brooklyn nets  brandon miller points|brandon miller over 24.5 points",
@@ -31436,7 +34016,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 18.0,
           "note": "Brandon Miller points=18 vs o24.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909836",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-chicago bulls   toronto raptors|chicago bulls ml",
@@ -31460,7 +34045,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "92-135 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909837",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-chicago bulls at toronto raptors  zach collins points|zach collins over 11.5 points",
@@ -31484,7 +34074,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Zach Collins points=0 vs o11.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909837",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-dallas mavericks   houston rockets|dallas mavericks +9.5",
@@ -31508,7 +34103,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -18 vs +9.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909840",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-golden state warriors   los angeles lakers|golden state warriors +6.5",
@@ -31532,7 +34132,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -22 vs +6.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909092",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-indiana pacers   new orleans pelicans|indiana pacers ml",
@@ -31556,7 +34161,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "123-120 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909839",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-indiana pacers at new orleans pelicans  pascal siakam points|pascal siakam over 20 points",
@@ -31580,7 +34190,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 30.0,
           "note": "Pascal Siakam points=30 vs o20 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909839",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-milwaukee bucks   washington wizards|washington wizards -4.5",
@@ -31604,7 +34219,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 12 vs -4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909835",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-milwaukee bucks at washington wizards  anthony davis points|anthony davis over 19.5 points",
@@ -31628,7 +34248,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 34.0,
           "note": "Anthony Davis points=34 vs o19.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909835",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-minnesota timberwolves   miami heat|minnesota timberwolves ml",
@@ -31652,7 +34277,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "131-106 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909091",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-minnesota timberwolves at miami heat  jaden mcdaniels points|jaden mcdaniels over 14.5 points",
@@ -31676,7 +34306,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 17.0,
           "note": "Jaden McDaniels points=17 vs o14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909091",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-phoenix suns   portland trail blazers|phoenix suns +2.5",
@@ -31700,7 +34335,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -41 vs +2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909841",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-sacramento kings   los angeles clippers|sacramento kings +5",
@@ -31724,7 +34364,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -25 vs +5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909842",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NBA|bt-utah jazz   memphis grizzlies|utah jazz ml",
@@ -31748,7 +34393,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "103-123 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909838",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NHL|bt-florida panthers   ottawa senators|florida panthers ml",
@@ -31772,7 +34422,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892551",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|NHL|bt-philadelphia flyers   buffalo sabres|buffalo sabres ml",
@@ -31796,7 +34451,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892550",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|SOCCER|bt-arsenal   bayern munich|arsenal ml",
@@ -31820,7 +34480,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915312",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|SOCCER|bt-arsenal at bayern munich  harry kane anytime goal|harry kane anytime goal",
@@ -31844,7 +34509,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Harry Kane goals=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915312",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|SOCCER|bt-feyenoord   real betis|real betis ml",
@@ -31868,7 +34538,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915389",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|SOCCER|bt-lask   sporting lisbon|lask ml",
@@ -31892,7 +34567,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915391",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|SOCCER|bt-rb leipzig   real madrid|real madrid ml",
@@ -31916,7 +34596,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915313",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|SOCCER|bt-rc lens   club brugge|rc lens ml",
@@ -31940,7 +34625,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915388",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|SOCCER|bt-shakhtar donetsk   inter milan|over 3.5",
@@ -31964,7 +34654,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 1 vs over 3.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915390",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-21|SOCCER|bt-viking fk   aston villa|viking fk ml",
@@ -31988,7 +34683,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915394",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|CFB|thu1022-cfb-appalachian-state-mountaineers-11-5",
@@ -32012,10 +34712,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs +11.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401869845",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -1.0,
         "closing_price": {
           "line": "+12.5",
           "american": -108,
@@ -32024,7 +34722,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:40-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -1.0
       },
       {
         "key": "2026-10-22|CFB|thu1022-cfb-kennesaw-state-owls-9-5",
@@ -32048,10 +34750,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -28 vs +9.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401871056",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 1.0,
         "closing_price": {
           "line": "+8.5",
           "american": -112,
@@ -32060,7 +34760,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:41-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 1.0
       },
       {
         "key": "2026-10-22|CFB|thu1022-cfb-memphis-tigers-10-5",
@@ -32084,10 +34788,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 7 vs -10.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401862807",
         "clv_tag": "lose",
-        "clv_pp": -0.7,
-        "clv_pct": -1.36,
-        "clv_pts": null,
         "closing_price": {
           "line": "-10.5",
           "american": -105,
@@ -32096,7 +34798,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:32-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -1.36,
+        "clv_pp": -0.7,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-22|NBA|cleveland cavaliers +3.5|cleveland cavaliers   philadelphia 76ers",
@@ -32120,7 +34826,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -8 vs +3.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909093",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NBA|oklahoma city thunder -8.5|denver nuggets   oklahoma city thunder",
@@ -32144,7 +34855,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 12 vs -8.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909094",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NBA|thu1022-nba-aaron-gordon-over-20-5-pts-reb",
@@ -32168,6 +34884,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 26.0,
           "note": "Aaron Gordon points_rebounds=26 vs o20.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401909094",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32196,6 +34913,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 13.0,
           "note": "Christian Braun points_rebounds=13 vs o14.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401909094",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32224,10 +34942,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -12 vs +8.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401909094",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 1.0,
         "closing_price": {
           "line": "+7.5",
           "american": -102,
@@ -32236,7 +34952,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:28-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 1.0
       },
       {
         "key": "2026-10-22|NBA|thu1022-nba-donovan-mitchell-over-26-5-points",
@@ -32260,6 +34980,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 32.0,
           "note": "Donovan Mitchell points=32 vs o26.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401909093",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32288,6 +35009,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Jared McCain points=4 vs o9.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401909094",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32316,6 +35038,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 21.0,
           "note": "Jaylen Brown points=21 vs o20.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401909093",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32344,10 +35067,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 8 vs -3.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401909093",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -1.0,
         "closing_price": {
           "line": "-2.5",
           "american": -110,
@@ -32356,7 +35077,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:31-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -1.0
       },
       {
         "key": "2026-10-22|NFL|a.j. brown anytime td|new england patriots   chicago bears",
@@ -32380,7 +35105,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "A.J. Brown TDs=0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873010",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|a.j. brown over 68.5 receiving yds|new england patriots   chicago bears",
@@ -32404,6 +35134,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 48.0,
           "note": "A.J. Brown reception_yds=48 vs o68.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873010",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32432,7 +35163,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 18.0,
           "note": "Caleb Williams rush_yds=18 vs o19.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873010",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|chicago bears ml|new england patriots   chicago bears",
@@ -32456,7 +35192,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "30-24 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873010",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|cleveland browns ml|cleveland browns   tennessee titans",
@@ -32480,7 +35221,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "27-24 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873013",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|d andre swift anytime td|new england patriots   chicago bears",
@@ -32504,6 +35250,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "D'Andre Swift TDs=1 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873010",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32532,6 +35279,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 12.0,
           "note": "D'Andre Swift reception_yds=12 vs o19.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873010",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32560,6 +35308,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "38-21 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32588,6 +35337,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 23.0,
           "note": "DeMario Douglas reception_yds=23 vs o37.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873010",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32616,7 +35366,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs -3.5 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873020",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|drake maye over 1.5 passing tds|new england patriots   chicago bears",
@@ -32640,7 +35395,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "Drake Maye pass_tds=2 vs o1.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873010",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|germie bernard over 52.5 receiving yds|pittsburgh steelers   new orleans saints",
@@ -32664,6 +35424,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 27.0,
           "note": "Germie Bernard reception_yds=27 vs o52.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873011",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32692,6 +35453,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Jahmyr Gibbs TDs=0 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873020",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32720,6 +35482,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Kenneth Walker III TDs=0 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873022",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32748,6 +35511,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Luther Burden III receptions=4 vs o4.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873010",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32776,6 +35540,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 130.0,
           "note": "Luther Burden III reception_yds=130 vs o56.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401873010",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -32804,7 +35569,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "Marvin Harrison Jr. not in ESPN box score (DNP/no action) [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873019",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|matthew golden anytime td|green bay packers   detroit lions",
@@ -32828,7 +35598,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Matthew Golden TDs=0 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873020",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|minnesota vikings ml|indianapolis colts   minnesota vikings",
@@ -32852,7 +35627,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "16-10 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873014",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|new england patriots +3|new england patriots   chicago bears",
@@ -32876,7 +35656,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -6 vs +3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873010",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|new york giants +10.5|new york giants   houston texans",
@@ -32900,7 +35685,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 6 vs +10.5 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873016",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|new york jets -4.5|miami dolphins   new york jets",
@@ -32924,7 +35714,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs -4.5 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873015",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|nflwk-nfl-carolina-panthers-3",
@@ -32948,7 +35743,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -30 vs -3 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873018",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|nflwk-nfl-cleveland-browns-1-5",
@@ -32972,6 +35772,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs -1.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873013",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -33000,6 +35801,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 14 vs -4.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873019",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -33028,7 +35830,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "17-20 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873020",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|nflwk-nfl-houston-texans-10-5",
@@ -33052,6 +35859,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -6 vs -10.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873016",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -33080,7 +35888,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-20 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873022",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|nflwk-nfl-los-angeles-rams-ml",
@@ -33104,6 +35917,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "35-21 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873021",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -33132,6 +35946,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs +4.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873015",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -33160,7 +35975,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 6 vs -6.5 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873014",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|nflwk-nfl-new-orleans-saints-3-5",
@@ -33184,6 +36004,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -6 vs +3.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873011",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -33212,6 +36033,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -17 vs +4.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -33240,6 +36062,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -9 vs -2.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873017",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -33268,7 +36091,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 54 vs over 50.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873010",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|rhamondre stevenson over 10.5 rush attempts|new england patriots   chicago bears",
@@ -33292,7 +36120,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "Rhamondre Stevenson rush_attempts=6 vs o10.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873010",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NFL|thu1022-nfl-chicago-bears-3",
@@ -33316,7 +36149,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 6 vs -3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873010",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NHL|bt-anaheim ducks   new jersey devils|new jersey devils ml",
@@ -33340,7 +36178,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892555",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NHL|bt-carolina hurricanes   edmonton oilers|edmonton oilers ml",
@@ -33364,7 +36207,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892561",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NHL|bt-detroit red wings   vancouver canucks|detroit red wings ml",
@@ -33388,7 +36236,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "5-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892563",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NHL|bt-minnesota wild   calgary flames|minnesota wild ml",
@@ -33412,7 +36265,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892560",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NHL|bt-new york rangers   toronto maple leafs|toronto maple leafs ml",
@@ -33436,7 +36294,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "5-4 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892553",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NHL|bt-utah mammoth   seattle kraken|utah mammoth ml",
@@ -33460,7 +36323,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892562",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NHL|bt-winnipeg jets   dallas stars|winnipeg jets +1.5",
@@ -33484,7 +36352,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -1 vs +1.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892559",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NHL|thu1022-nhl-boston-bruins-ml",
@@ -33508,10 +36381,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401892552",
         "clv_tag": "lose",
-        "clv_pp": -0.32,
-        "clv_pct": -0.54,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -148,
@@ -33520,7 +36391,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:36-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -0.54,
+        "clv_pp": -0.32,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-22|NHL|thu1022-nhl-florida-panthers-ml",
@@ -33544,10 +36419,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-4 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401892556",
         "clv_tag": "beat",
-        "clv_pp": 2.58,
-        "clv_pct": 5.14,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -112,
@@ -33556,7 +36429,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:37-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 5.14,
+        "clv_pp": 2.58,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-22|NHL|thu1022-nhl-los-angeles-kings-ml",
@@ -33580,7 +36457,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892557",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NHL|thu1022-nhl-san-jose-sharks-ml",
@@ -33604,7 +36486,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "6-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401892554",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|NHL|thu1022-nhl-vegas-golden-knights-ml",
@@ -33628,10 +36515,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-6 [ESPN auto-grade, backtest 2026-10-23]"
         },
+        "event_id": "401892558",
         "clv_tag": "beat",
-        "clv_pp": 1.01,
-        "clv_pct": 1.85,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -125,
@@ -33640,7 +36525,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T09:57:39-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.85,
+        "clv_pp": 1.01,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-22|SOCCER|bt-ac milan   bournemouth|ac milan ml",
@@ -33664,7 +36553,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915552",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-anderlecht   jagiellonia biaystok|anderlecht ml",
@@ -33688,7 +36582,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915542",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-atalanta bc   ajax|atalanta bc ml",
@@ -33712,7 +36611,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915837",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-az alkmaar   fc ararat-armenia|az alkmaar ml",
@@ -33736,7 +36640,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915548",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-bayer leverkusen   ofi crete|bayer leverkusen ml",
@@ -33760,7 +36669,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915559",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-benfica   omonoia fc|benfica ml",
@@ -33784,7 +36698,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915544",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-brighton and hove albion   fk jablonec|brighton and hove albion ml",
@@ -33808,7 +36727,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915842",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-celta vigo   celtic|celta vigo ml",
@@ -33832,7 +36756,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915555",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-crystal palace   besiktas jk|besiktas jk ml",
@@ -33856,7 +36785,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915553",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-fc lugano   getafe|getafe ml",
@@ -33880,7 +36814,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915840",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-fc twente enschede   lincoln red imps fc|fc twente enschede ml",
@@ -33904,7 +36843,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915833",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-hapoel be er sheva   union saint-gilloise|union saint-gilloise ml",
@@ -33928,7 +36872,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915545",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-hearts   trabzonspor|trabzonspor ml",
@@ -33952,7 +36901,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-0 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915745",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-lyon   tsg hoffenheim|lyon ml",
@@ -33976,7 +36930,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-3 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915543",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-marseille   sk sturm graz|marseille ml",
@@ -34000,7 +36959,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915557",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-nec nijmegen   dinamo zagreb|over 3.5",
@@ -34024,7 +36988,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 6 vs over 3.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915556",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-panathinaikos fc   fc kairat|panathinaikos fc ml",
@@ -34048,7 +37017,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "5-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915846",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-pfc cska sofia   fc nordsjaelland|fc nordsjaelland ml",
@@ -34072,7 +37046,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915844",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-pfc levski sofia   viktoria plzen|viktoria plzen ml",
@@ -34096,7 +37075,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915539",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-real sociedad   lillestrom|lillestrom ml",
@@ -34120,7 +37104,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-6 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915540",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-rennes   juventus|juventus ml",
@@ -34144,7 +37133,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-2 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915547",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-salzburg   nk celje|under 2.5",
@@ -34168,7 +37162,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 4 vs under 2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915541",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-sc freiburg   as monaco|over 2.5",
@@ -34192,7 +37191,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 3 vs over 2.5 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915836",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-sint truiden   fc midtjylland|fc midtjylland ml",
@@ -34216,7 +37220,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915835",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-sparta prague   olympiakos piraeus|sparta prague ml",
@@ -34240,7 +37249,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915554",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-22|SOCCER|bt-sunderland   lech poznan|sunderland ml",
@@ -34264,7 +37278,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-1 [ESPN auto-grade, backtest 2026-10-23]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401915546",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-23|CFB|fri1023-cfb-air-force-falcons-5-5",
@@ -34288,10 +37307,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -14 vs -5.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401864525",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 1.5,
         "closing_price": {
           "line": "-7",
           "american": -102,
@@ -34300,7 +37317,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:24-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 1.5
       },
       {
         "key": "2026-10-23|CFB|fri1023-cfb-nc-state-wolfpack-7-5",
@@ -34324,10 +37345,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs -7.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401858272",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": "-7.5",
           "american": -105,
@@ -34336,7 +37355,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:23-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-23|CFB|fri1023-cfb-umass-minutemen-13-5",
@@ -34360,10 +37383,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -19 vs +13.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401861965",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 1.0,
         "closing_price": {
           "line": "+12.5",
           "american": -108,
@@ -34372,7 +37393,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:22-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 1.0
       },
       {
         "key": "2026-10-23|MLB|fri1023-mlb-milwaukee-brewers-ml",
@@ -34396,10 +37421,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "3-2 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401908042",
         "clv_tag": "beat",
-        "clv_pp": 0.37,
-        "clv_pct": 0.57,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -186,
@@ -34408,7 +37431,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:17-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.57,
+        "clv_pp": 0.37,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-23|MLB|fri1023-mlb-under-6-5",
@@ -34432,10 +37459,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 5 vs under 6.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401908042",
         "clv_tag": "beat",
-        "clv_pp": 0.72,
-        "clv_pct": 1.43,
-        "clv_pts": null,
         "closing_price": {
           "line": "u6.5",
           "american": -105,
@@ -34444,7 +37469,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (DraftKings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:34-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.43,
+        "clv_pp": 0.72,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-23|NBA|fri1023-nba-amen-thompson-over-15-5-points",
@@ -34468,6 +37497,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 20.0,
           "note": "Amen Thompson points=20 vs o15.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909096",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34496,6 +37526,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 9.0,
           "note": "Anthony Davis points=9 vs o20.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909846",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34524,6 +37555,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 15.0,
           "note": "Anthony Edwards points=15 vs o29.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909845",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34552,10 +37584,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 4 vs -2.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909095",
         "clv_tag": "beat",
-        "clv_pp": 1.57,
-        "clv_pct": 3.01,
-        "clv_pts": null,
         "closing_price": {
           "line": "-2.5",
           "american": -115,
@@ -34564,7 +37594,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:21-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 3.01,
+        "clv_pp": 1.57,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-23|NBA|fri1023-nba-cade-cunningham-over-24-5-points",
@@ -34588,6 +37622,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 16.0,
           "note": "Cade Cunningham points=16 vs o24.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909847",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34616,7 +37651,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 21.0,
           "note": "Caleb Wilson points=21 vs o17.5 [ESPN auto-grade 2026-10-24]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909848",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-23|NBA|fri1023-nba-chicago-bulls-ml",
@@ -34640,7 +37680,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "132-125 [ESPN auto-grade 2026-10-24]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909848",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-23|NBA|fri1023-nba-dejounte-murray-over-23-5-pts-ast",
@@ -34664,6 +37709,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 22.0,
           "note": "Dejounte Murray points_assists=22 vs o23.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909849",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34692,10 +37738,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "128-111 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909847",
         "clv_tag": "beat",
-        "clv_pp": 3.69,
-        "clv_pct": 6.99,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -130,
@@ -34704,7 +37748,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:15-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 6.99,
+        "clv_pp": 3.69,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-23|NBA|fri1023-nba-jabari-smith-jr-over-13-5-points",
@@ -34728,6 +37776,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 7.0,
           "note": "Jabari Smith Jr. points=7 vs o13.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909096",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34756,6 +37805,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 19.0,
           "note": "Jalen Brunson points=19 vs o25.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909095",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34784,6 +37834,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 36.0,
           "note": "Jayson Tatum points=36 vs o25.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909095",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34812,6 +37863,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 8.0,
           "note": "Jeremiah Fears points_rebounds_assists=8 vs o17.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909849",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34840,6 +37892,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 9.0,
           "note": "Josh Giddey assists=9 vs o8.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909848",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34868,6 +37921,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 16.0,
           "note": "Kawhi Leonard points=16 vs o24.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909846",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34896,6 +37950,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 20.0,
           "note": "Kevin Durant points=20 vs o23.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909096",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34924,6 +37979,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 12.0,
           "note": "LaMelo Ball points=12 vs o19.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909845",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -34952,10 +38008,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "125-117 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909851",
         "clv_tag": "lose",
-        "clv_pp": -0.46,
-        "clv_pct": -0.59,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -360,
@@ -34964,7 +38018,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:20-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -0.59,
+        "clv_pp": -0.46,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-23|NBA|fri1023-nba-miami-heat-ml",
@@ -34988,7 +38046,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "111-128 [ESPN auto-grade 2026-10-24]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909847",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-23|NBA|fri1023-nba-minnesota-timberwolves-ml",
@@ -35012,6 +38075,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "115-93 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909845",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35040,7 +38104,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 14.0,
           "note": "Paolo Banchero points=14 vs o22.5 [ESPN auto-grade 2026-10-24]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909845",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-23|NBA|fri1023-nba-paul-george-over-17-5-points",
@@ -35064,6 +38133,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 15.0,
           "note": "Paul George points=15 vs o17.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909095",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35092,6 +38162,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 24.0,
           "note": "Stephen Curry points=24 vs o24.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909850",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35120,7 +38191,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "Tyler Herro not in ESPN box score (DNP/no action) [ESPN auto-grade 2026-10-24]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909847",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-23|NBA|fri1023-nba-victor-wembanyama-over-24-5-points",
@@ -35144,6 +38220,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 25.0,
           "note": "Victor Wembanyama points=25 vs o24.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909096",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35172,6 +38249,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 20.0,
           "note": "Wendell Carter Jr. points=20 vs o10.5 [ESPN auto-grade 2026-10-24]"
         },
+        "event_id": "401909845",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35200,6 +38278,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "0-2 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401878767",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35228,10 +38307,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 11 vs +1 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401856839",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -0.5,
         "closing_price": {
           "line": "+1.5",
           "american": -115,
@@ -35240,7 +38317,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:44-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -0.5
       },
       {
         "key": "2026-10-24|CFB|sat1024-cfb-ball-state-cardinals-14-5",
@@ -35264,10 +38345,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 17 vs -14.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401866447",
         "clv_tag": "beat",
-        "clv_pp": 1.18,
-        "clv_pct": 2.33,
-        "clv_pts": null,
         "closing_price": {
           "line": "-14.5",
           "american": -108,
@@ -35276,7 +38355,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:38-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.33,
+        "clv_pp": 1.18,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-24|CFB|sat1024-cfb-baylor-bears-ml",
@@ -35300,10 +38383,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "24-25 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401856834",
         "clv_tag": "lose",
-        "clv_pp": -0.49,
-        "clv_pct": -0.95,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -102,
@@ -35312,7 +38393,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:46-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": -0.95,
+        "clv_pp": -0.49,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-24|CFB|sat1024-cfb-boise-state-broncos-ml",
@@ -35336,10 +38421,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "31-10 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401860907",
         "clv_tag": "match",
-        "clv_pp": 0.0,
-        "clv_pct": 0.0,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -625,
@@ -35348,7 +38431,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:45-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.0,
+        "clv_pp": 0.0,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-24|CFB|sat1024-cfb-dylan-edwards-over-19-5-reception-yds",
@@ -35372,6 +38459,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 15.0,
           "note": "Dylan Edwards reception_yds=15 vs o19.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401856834",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35400,6 +38488,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 123.0,
           "note": "Gavin Freeman reception_yds=123 vs o80.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401856834",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35428,10 +38517,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -6 vs -2.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401869935",
         "clv_tag": "beat",
-        "clv_pp": 1.11,
-        "clv_pct": 2.11,
-        "clv_pts": null,
         "closing_price": {
           "line": "-2.5",
           "american": -115,
@@ -35440,7 +38527,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:42-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.11,
+        "clv_pp": 1.11,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-24|CFB|sat1024-cfb-houston-cougars-6-5",
@@ -35464,7 +38555,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -8 vs +6.5 [ESPN auto-grade 2026-10-25]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856837",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-24|CFB|sat1024-cfb-oklahoma-sooners-ml",
@@ -35488,10 +38584,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "23-15 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401856730",
         "clv_tag": "beat",
-        "clv_pp": 0.83,
-        "clv_pct": 1.53,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -122,
@@ -35500,7 +38594,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:39-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.53,
+        "clv_pp": 0.83,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-24|CFB|sat1024-cfb-oklahoma-state-cowboys-13-5",
@@ -35524,10 +38622,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 33 vs -13.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401856836",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -1.0,
         "closing_price": {
           "line": "-12.5",
           "american": -112,
@@ -35536,7 +38632,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:40-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -1.0
       },
       {
         "key": "2026-10-24|CFB|sat1024-cfb-texas-longhorns-ml",
@@ -35560,10 +38660,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "34-27 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401856732",
         "clv_tag": "beat",
-        "clv_pp": 2.96,
-        "clv_pct": 4.94,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -170,
@@ -35572,7 +38670,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:41-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 4.94,
+        "clv_pp": 2.96,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-24|CFB|sat1024-cfb-ucf-knights-7",
@@ -35596,7 +38698,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 8 vs +7 [ESPN auto-grade 2026-10-25]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401856835",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-24|CFB|sat1024-cfb-ucla-bruins-16",
@@ -35620,10 +38727,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 18 vs -16 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401858499",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 0.5,
         "closing_price": {
           "line": "-16.5",
           "american": -112,
@@ -35632,7 +38737,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:43-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 0.5
       },
       {
         "key": "2026-10-24|CFB|sat1024-cfb-wisconsin-badgers-2-5",
@@ -35656,7 +38765,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 17 vs +2.5 [ESPN auto-grade 2026-10-25]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401858500",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-24|MLB|sat1024-mlb-christian-yelich-over-0-5-hits",
@@ -35680,6 +38794,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Christian Yelich hits=1 vs o0.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401908043",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35708,6 +38823,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Jackson Chourio hits_runs_rbis=3 vs o1.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401908043",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35736,6 +38852,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "Jake Bauers TB bounds 1-3 (H 1, HR 0) vs o0.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401908043",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35764,7 +38881,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "4-5 [ESPN auto-grade 2026-10-25]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908043",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-24|MLB|sat1024-mlb-william-contreras-over-0-5-hits",
@@ -35788,6 +38910,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "William Contreras hits=2 vs o0.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401908043",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35816,7 +38939,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Yandy Diaz hits_runs_rbis=1 vs o1.5 [ESPN auto-grade 2026-10-25]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401908043",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-24|NBA|sat1024-nba-alex-sarr-over-3-5-assists",
@@ -35840,7 +38968,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Alex Sarr assists=3 vs o3.5 [ESPN auto-grade 2026-10-25]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909857",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-24|NBA|sat1024-nba-amen-thompson-over-5-5-assists",
@@ -35864,7 +38997,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "Amen Thompson assists=6 vs o5.5 [ESPN auto-grade 2026-10-25]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909856",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-24|NBA|sat1024-nba-amen-thompson-under-16-5-points",
@@ -35888,6 +39026,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 17.0,
           "note": "Amen Thompson points=17 vs u16.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401909856",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35916,6 +39055,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Andrew Wiggins points=4 vs o12.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401909853",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35944,7 +39084,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Andrew Wiggins assists=1 vs o3.5 [ESPN auto-grade 2026-10-25]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909853",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-24|NBA|sat1024-nba-anthony-davis-over-23-5-points",
@@ -35968,6 +39113,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 19.0,
           "note": "Anthony Davis points=19 vs o23.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401909857",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -35996,6 +39142,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 30.0,
           "note": "Caleb Wilson points=30 vs o17.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401909857",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36024,6 +39171,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 18.0,
           "note": "DeMar DeRozan points_rebounds_assists=18 vs o21.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401909859",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36052,7 +39200,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Jalen Smith rebounds=3 vs o8.5 [ESPN auto-grade 2026-10-25]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909857",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-24|NBA|sat1024-nba-kevin-durant-over-23-5-points",
@@ -36076,6 +39229,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 22.0,
           "note": "Kevin Durant points=22 vs o23.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401909856",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36104,7 +39258,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Klay Thompson threes=4 vs o3.5 [ESPN auto-grade 2026-10-25]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909853",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-24|NBA|sat1024-nba-klay-thompson-under-10-5-points",
@@ -36128,6 +39287,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 14.0,
           "note": "Klay Thompson points=14 vs u10.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401909853",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36156,6 +39316,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Nickeil Alexander-Walker threes=4 vs o2.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401909856",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36184,6 +39345,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 15.0,
           "note": "Nikola Jokic rebounds=15 vs o12.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401909859",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36212,6 +39374,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 18.0,
           "note": "Norman Powell points=18 vs o20.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401909857",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36240,7 +39403,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Norman Powell threes=3 vs o3.5 [ESPN auto-grade 2026-10-25]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909857",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-24|NBA|sat1024-nba-zion-williamson-under-19-5-points",
@@ -36264,6 +39432,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 17.0,
           "note": "Zion Williamson points=17 vs u19.5 [ESPN auto-grade 2026-10-25]"
         },
+        "event_id": "401909859",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36292,6 +39461,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 8.0,
           "note": "Cade Cunningham assists=8 vs o9.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401909866",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36320,6 +39490,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 20.0,
           "note": "Jaren Jackson Jr. points=20 vs o17.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401909861",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36348,6 +39519,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 24.0,
           "note": "Keyonte George points=24 vs o19.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401909861",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36376,6 +39548,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 15.0,
           "note": "LaMelo Ball points=15 vs o18.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401909864",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36404,6 +39577,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 23.0,
           "note": "LaMelo Ball points_assists=23 vs o25.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401909864",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36432,7 +39606,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 52.0,
           "note": "Luka Doncic points=52 vs u31.5 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909861",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-25|NBA|sun1025-nba-paul-reed-over-13-5-points",
@@ -36456,6 +39635,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 8.0,
           "note": "Paul Reed points=8 vs o13.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401909866",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36484,6 +39664,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 21.0,
           "note": "Rudy Gobert points_rebounds_assists=21 vs u21.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401909864",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36512,6 +39693,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 31.0,
           "note": "Ty Jerome points=31 vs o22.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401909867",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36540,6 +39722,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 29.0,
           "note": "Tyrese Maxey points=29 vs o26.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401909866",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36568,10 +39751,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 9 vs +2.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873017",
         "clv_tag": "beat",
-        "clv_pp": 1.18,
-        "clv_pct": 2.33,
-        "clv_pts": null,
         "closing_price": {
           "line": "+2.5",
           "american": -108,
@@ -36580,7 +39761,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:58-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.33,
+        "clv_pp": 1.18,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-baltimore-ravens-3",
@@ -36604,10 +39789,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -22 vs +3 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873012",
         "clv_tag": "beat",
-        "clv_pp": 0.45,
-        "clv_pct": 0.86,
-        "clv_pts": null,
         "closing_price": {
           "line": "+3",
           "american": -112,
@@ -36616,7 +39799,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:59-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 0.86,
+        "clv_pp": 0.45,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-bijan-robinson-over-88-5-rush-yds",
@@ -36640,6 +39827,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 63.0,
           "note": "Bijan Robinson rush_yds=63 vs o88.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873017",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36668,6 +39856,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 163.0,
           "note": "Bryce Young pass_yds=163 vs o253.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873018",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36696,6 +39885,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 153.0,
           "note": "C.J. Stroud pass_yds=153 vs u255.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873016",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36724,7 +39914,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -30 vs -3 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873018",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-cooper-kupp-over-24-5-reception-yds",
@@ -36748,6 +39943,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 20.0,
           "note": "Cooper Kupp reception_yds=20 vs o24.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873022",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36776,10 +39972,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 14 vs -4.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873019",
         "clv_tag": "beat",
-        "clv_pp": 1.85,
-        "clv_pct": 3.63,
-        "clv_pts": null,
         "closing_price": {
           "line": "-4.5",
           "american": -112,
@@ -36788,7 +39982,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:59-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 3.63,
+        "clv_pp": 1.85,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-detroit-lions-3-5",
@@ -36812,10 +40010,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs -3.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873020",
         "clv_tag": "beat",
-        "clv_pp": 0.91,
-        "clv_pct": 1.75,
-        "clv_pts": null,
         "closing_price": {
           "line": "-3.5",
           "american": -112,
@@ -36824,7 +40020,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:54-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.75,
+        "clv_pp": 0.91,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-drake-london-over-84-5-receiving-yds-player-prop",
@@ -36848,6 +40048,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 66.0,
           "note": "Drake London reception_yds=66 vs o84.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873017",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36876,10 +40077,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -6 vs -10.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873016",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -0.5,
         "closing_price": {
           "line": "-10",
           "american": -112,
@@ -36888,7 +40087,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:52-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -0.5
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-j-k-dobbins-over-47-5-rush-yds",
@@ -36912,6 +40115,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 23.0,
           "note": "J.K. Dobbins rush_yds=23 vs o47.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873019",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36940,6 +40144,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 150.0,
           "note": "Jaxon Smith-Njigba reception_yds=150 vs o92.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873022",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36968,6 +40173,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 63.0,
           "note": "Kaelon Black rush_yds=63 vs u28.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873017",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -36996,10 +40202,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -17 vs +3 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873022",
         "clv_tag": "beat",
-        "clv_pp": 0.91,
-        "clv_pct": 1.75,
-        "clv_pts": null,
         "closing_price": {
           "line": "+3",
           "american": -112,
@@ -37008,7 +40212,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:53-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.75,
+        "clv_pp": 0.91,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-kenneth-walker-over-78-5-rush-yds",
@@ -37032,6 +40240,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 36.0,
           "note": "Kenneth Walker rush_yds=36 vs o78.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873022",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37060,7 +40269,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Kenneth Walker TDs=0 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873022",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-kenny-gainwell-over-2-5-receptions",
@@ -37084,7 +40298,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Kenny Gainwell receptions=0 vs o2.5 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873018",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-kirk-cousins-under-21-5-pass-completions",
@@ -37108,6 +40327,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 26.0,
           "note": "Kirk Cousins pass_completions=26 vs u21.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873021",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37136,7 +40356,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 150.0,
           "note": "Kyler Murray pass_yds=150 vs u205.5 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873014",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-las-vegas-raiders-3-5",
@@ -37160,10 +40385,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -14 vs +3.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873021",
         "clv_tag": "beat",
-        "clv_pp": 0.64,
-        "clv_pct": 1.2,
-        "clv_pts": null,
         "closing_price": {
           "line": "+3.5",
           "american": -118,
@@ -37172,7 +40395,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:56-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 1.2,
+        "clv_pp": 0.64,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-malik-nabers-under-5-5-receptions",
@@ -37196,7 +40423,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 7.0,
           "note": "Malik Nabers receptions=7 vs u5.5 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873016",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-miami-dolphins-4",
@@ -37220,6 +40452,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 3 vs +4 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873015",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37248,10 +40481,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 6 vs -7 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873014",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -0.5,
         "closing_price": {
           "line": "-6.5",
           "american": -120,
@@ -37260,7 +40491,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:58-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -0.5
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-new-york-jets-4",
@@ -37284,10 +40519,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -3 vs -4 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873015",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -0.5,
         "closing_price": {
           "line": "-3.5",
           "american": -120,
@@ -37296,7 +40529,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:57-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -0.5
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-nico-collins-over-68-5-reception-yds",
@@ -37320,6 +40557,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "Nico Collins reception_yds=6 vs o68.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873016",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37348,10 +40586,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 23 vs over 42.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873022",
         "clv_tag": "beat",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": 1.0,
         "closing_price": {
           "line": "o43.5",
           "american": -105,
@@ -37360,7 +40596,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:55-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": 1.0
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-over-50-5",
@@ -37384,10 +40624,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "total 49 vs over 50.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873017",
         "clv_tag": "lose",
-        "clv_pp": null,
-        "clv_pct": null,
-        "clv_pts": -1.0,
         "closing_price": {
           "line": "o49.5",
           "american": -115,
@@ -37396,7 +40634,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:58-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed",
+        "clv_pts": -1.0
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-patrick-mahomes-over-17-5-rush-yds",
@@ -37420,6 +40662,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 14.0,
           "note": "Patrick Mahomes rush_yds=14 vs o17.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873022",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37448,6 +40691,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 165.0,
           "note": "Patrick Mahomes pass_yds=165 vs u216.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873022",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37476,6 +40720,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 257.0,
           "note": "Sam Darnold pass_yds=257 vs o225.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873022",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37504,7 +40749,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Sam LaPorta receptions=1 vs u4.5 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873020",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-san-francisco-49ers-2-5",
@@ -37528,10 +40778,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin -9 vs -2.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873017",
         "clv_tag": "beat",
-        "clv_pp": 1.14,
-        "clv_pct": 2.2,
-        "clv_pts": null,
         "closing_price": {
           "line": "-2.5",
           "american": -112,
@@ -37540,7 +40788,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:55-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 2.2,
+        "clv_pp": 1.14,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-seattle-seahawks-3",
@@ -37564,7 +40816,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "margin 17 vs -3 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873022",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-seattle-seahawks-ml",
@@ -37588,10 +40845,8 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "20-3 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873022",
         "clv_tag": "beat",
-        "clv_pp": 2.98,
-        "clv_pct": 5.07,
-        "clv_pts": null,
         "closing_price": {
           "line": null,
           "american": -162,
@@ -37600,7 +40855,11 @@ window.BET_BOARD_DATA = {
           "source": "ESPN summary pickcenter (Draft Kings), last line held = treated as close",
           "quote_ts": "2026-11-06T10:01:55-06:00",
           "basis": "last_shop_not_verified_close"
-        }
+        },
+        "clv_pct": 5.07,
+        "clv_pp": 2.98,
+        "note": "Close not observed",
+        "clv_pts": null
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-tony-pollard-over-66-5-rush-yds",
@@ -37624,6 +40883,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 129.0,
           "note": "Tony Pollard rush_yds=129 vs o66.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873013",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37652,6 +40912,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Tucker Kraft receptions=4 vs o4.5 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401873020",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37680,7 +40941,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 48.0,
           "note": "Tucker Kraft reception_yds=48 vs o49.5 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873020",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-25|NFL|sun1025-nfl-tyler-allgeier-over-9-5-rush-attempts",
@@ -37704,7 +40970,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 8.0,
           "note": "Tyler Allgeier rush_attempts=8 vs o9.5 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873019",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-25|SOCCER|sun1025-soccer-levante-ml",
@@ -37728,7 +40999,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "1-2 [ESPN auto-grade 2026-10-26]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401882829",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-25|SOCCER|sun1025-soccer-real-sociedad-ml",
@@ -37752,6 +41028,7 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "2-1 [ESPN auto-grade 2026-10-26]"
         },
+        "event_id": "401882829",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37780,6 +41057,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 7.0,
           "note": "Aaron Gordon points=7 vs o15.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401909876",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37808,7 +41086,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 9.0,
           "note": "Alperen Sengun rebounds=9 vs o9.5 [ESPN auto-grade 2026-10-28]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909874",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-26|NBA|overs-top15|brandon miller over 23.5 points",
@@ -37832,6 +41115,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 39.0,
           "note": "Brandon Miller points=39 vs o23.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401909868",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37860,6 +41144,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 14.0,
           "note": "Darryn Peterson points=14 vs o11.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401909875",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37888,6 +41173,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 21.0,
           "note": "Davion Mitchell points=21 vs o10.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401909871",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37916,6 +41202,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "Davion Mitchell assists=2 vs o6.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401909871",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37944,6 +41231,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Devin Booker points=3 vs o22.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401909873",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -37972,7 +41260,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "Devin Booker rebounds=2 vs o4.5 [ESPN auto-grade 2026-10-28]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909873",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-26|NBA|overs-top15|jaden mcdaniels over 13.5 points",
@@ -37996,6 +41289,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 14.0,
           "note": "Jaden McDaniels points=14 vs o13.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401909869",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38024,6 +41318,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 19.0,
           "note": "James Harden points=19 vs o16.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401909869",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38052,6 +41347,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 6.0,
           "note": "Jayson Tatum assists=6 vs o6.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401909870",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38080,7 +41376,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "Kyshawn George assists=2 vs o3.5 [ESPN auto-grade 2026-10-28]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909868",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-26|NBA|overs-top15|lamelo ball over 3.5 threes",
@@ -38104,7 +41405,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "LaMelo Ball threes=1 vs o3.5 [ESPN auto-grade 2026-10-28]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909869",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-26|NBA|overs-top15|pascal siakam over 23.5 points",
@@ -38128,6 +41434,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 20.0,
           "note": "Pascal Siakam points=20 vs o23.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401909872",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38156,7 +41463,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 10.0,
           "note": "Trae Young assists=10 vs o10.5 [ESPN auto-grade 2026-10-28]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909868",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-26|NFL|overs-top15|ceedee lamb over 6.5 receptions",
@@ -38180,6 +41492,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 5.0,
           "note": "CeeDee Lamb receptions=5 vs o6.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38208,6 +41521,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 74.0,
           "note": "CeeDee Lamb reception_yds=74 vs o78.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38236,6 +41550,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Dak Prescott pass_tds=3 vs o1.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38264,7 +41579,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 5.0,
           "note": "Dallas Goedert receptions=5 vs o5.5 [ESPN auto-grade 2026-10-28]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873009",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-26|NFL|overs-top15|george pickens over 64.5 reception yds",
@@ -38288,6 +41608,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 57.0,
           "note": "George Pickens reception_yds=57 vs o64.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38316,6 +41637,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Jake Ferguson reception_yds=0 vs o17.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38344,6 +41666,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Jake Ferguson receptions=0 vs o2.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38372,6 +41695,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 25.0,
           "note": "Javonte Williams rush_attempts=25 vs o16.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38400,6 +41724,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 7.0,
           "note": "Makai Lemon receptions=7 vs o3.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38428,7 +41753,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Ryan Flournoy receptions=4 vs o3.5 [ESPN auto-grade 2026-10-28]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401873009",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-26|NFL|overs-top15|saquon barkley over 14.5 reception yds",
@@ -38452,6 +41782,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 9.0,
           "note": "Saquon Barkley reception_yds=9 vs o14.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38480,6 +41811,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 2.0,
           "note": "Saquon Barkley receptions=2 vs o2.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38508,6 +41840,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 62.0,
           "note": "Saquon Barkley rush_yds=62 vs o68.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38536,6 +41869,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 211.0,
           "note": "Tanner McKee pass_yds=211 vs o196.5 [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38564,6 +41898,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 35.0,
           "note": "Tanner McKee pass_attempts=35 vs o33.5 (ESPN C/ATT) [ESPN auto-grade 2026-10-28]"
         },
+        "event_id": "401873009",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38592,6 +41927,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 20.0,
           "note": "Caleb Wilson points=20 vs o16.5 [ESPN auto-grade 2026-10-29]"
         },
+        "event_id": "401909886",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38620,6 +41956,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 10.0,
           "note": "Dejounte Murray points=10 vs o17.5 [ESPN auto-grade 2026-10-29]"
         },
+        "event_id": "401909889",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38648,6 +41985,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 14.0,
           "note": "Isaiah Hartenstein rebounds=14 vs o8.5 [ESPN auto-grade 2026-10-29]"
         },
+        "event_id": "401909891",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38676,7 +42014,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Ja'Kobe Walter threes=3 vs o2.5 [ESPN auto-grade 2026-10-29]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909885",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-28|NBA|props-top15|jabari smith over 15.5 points",
@@ -38700,6 +42043,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 14.0,
           "note": "Jabari Smith points=14 vs o15.5 [ESPN auto-grade 2026-10-29]"
         },
+        "event_id": "401909887",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38728,6 +42072,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 20.0,
           "note": "Jonathan Kuminga points=20 vs o14.5 [ESPN auto-grade 2026-10-29]"
         },
+        "event_id": "401909888",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38756,6 +42101,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 23.0,
           "note": "Nickeil Alexander-Walker points=23 vs o18.5 [ESPN auto-grade 2026-10-29]"
         },
+        "event_id": "401909881",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38784,7 +42130,12 @@ window.BET_BOARD_DATA = {
           "stat_value": 11.0,
           "note": "Pascal Siakam rebounds=11 vs o7.5 [ESPN auto-grade 2026-10-29]"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909884",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       },
       {
         "key": "2026-10-28|NBA|props-top15|paul reed under 8.5 rebounds",
@@ -38808,6 +42159,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Paul Reed rebounds=4 vs u8.5 [ESPN auto-grade 2026-10-29]"
         },
+        "event_id": "401909883",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38836,6 +42188,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 14.0,
           "note": "Trae Young points=14 vs u20.5 [ESPN auto-grade 2026-10-29]"
         },
+        "event_id": "401909882",
         "clv_tag": "unobserved",
         "closing_price": null,
         "clv_pct": null,
@@ -38864,7 +42217,12 @@ window.BET_BOARD_DATA = {
           "stat_value": null,
           "note": "no action: no retail price at the line, so unpriced rows are pending/no-action and kept out of W-L (Javonte Williams Oct 25 precedent). ESPN: Kessler points=11 vs o12.5"
         },
-        "clv_tag": "unobserved"
+        "event_id": "401909892",
+        "clv_tag": "unobserved",
+        "closing_price": null,
+        "clv_pct": null,
+        "clv_pp": null,
+        "note": "Close not observed"
       }
     ],
     "source_scorecard": {
@@ -38882,6 +42240,7 @@ window.BET_BOARD_DATA = {
           "picks": 1,
           "record": "0-1-0",
           "units": null,
+          "unpricedN": 1,
           "incomplete": true
         },
         {
@@ -38890,6 +42249,7 @@ window.BET_BOARD_DATA = {
           "picks": 1,
           "record": "1-0-0",
           "units": null,
+          "unpricedN": 1,
           "incomplete": true
         },
         {
@@ -38898,6 +42258,7 @@ window.BET_BOARD_DATA = {
           "picks": 1,
           "record": "0-1-0",
           "units": null,
+          "unpricedN": 1,
           "incomplete": true
         },
         {
@@ -38906,6 +42267,7 @@ window.BET_BOARD_DATA = {
           "picks": 1,
           "record": "1-0-0",
           "units": null,
+          "unpricedN": 1,
           "incomplete": true
         },
         {
@@ -38914,6 +42276,7 @@ window.BET_BOARD_DATA = {
           "picks": 1,
           "record": "1-0-0",
           "units": null,
+          "unpricedN": 1,
           "incomplete": true
         },
         {
@@ -38922,6 +42285,7 @@ window.BET_BOARD_DATA = {
           "picks": 1,
           "record": "1-0-0",
           "units": null,
+          "unpricedN": 1,
           "incomplete": true
         },
         {
@@ -38930,6 +42294,7 @@ window.BET_BOARD_DATA = {
           "picks": 1,
           "record": "1-0-0",
           "units": null,
+          "unpricedN": 1,
           "incomplete": true
         },
         {
@@ -38938,6 +42303,7 @@ window.BET_BOARD_DATA = {
           "picks": 1,
           "record": "1-0-0",
           "units": null,
+          "unpricedN": 1,
           "incomplete": true
         },
         {
@@ -38946,6 +42312,7 @@ window.BET_BOARD_DATA = {
           "picks": 1,
           "record": "0-1-0",
           "units": null,
+          "unpricedN": 1,
           "incomplete": true
         },
         {
@@ -38954,6 +42321,7 @@ window.BET_BOARD_DATA = {
           "picks": 1,
           "record": "0-1-0",
           "units": null,
+          "unpricedN": 1,
           "incomplete": true
         },
         {
@@ -38962,6 +42330,7 @@ window.BET_BOARD_DATA = {
           "picks": 2,
           "record": "1-1-0",
           "units": null,
+          "unpricedN": 2,
           "incomplete": true
         },
         {
@@ -38970,10 +42339,11 @@ window.BET_BOARD_DATA = {
           "picks": 1,
           "record": "1-0-0",
           "units": null,
+          "unpricedN": 1,
           "incomplete": true
         }
       ],
-      "shrinkage": "Record uses pricedN × ROI/(pricedN+50); do not apply the schema'shorthand n if unpriced selections exist. Inconsistent/empty values are shown as incomplete; n<50 flags small samples; auto-cut proposals only.",
+      "shrinkage": "Shrunk ROI uses pricedN × ROI/(pricedN+50); do not apply the schema'shorthand n if unpriced selections exist. Inconsistent/empty values are shown as incomplete; n<50 flags small samples; auto-cut proposals only.",
       "sources": [
         {
           "source_id": "scorecard-yt-fantasypointsbetting",
@@ -45465,7 +48835,7 @@ window.BET_BOARD_DATA = {
     "publication_policy": {
       "headline": "Only settled legacy `bets` main published-card entries; near misses and ineligible current research never enter headline.",
       "lane_note": "CLEARED / GAUGE are preserved historical lane-at-publish stats, not new lane assignments.",
-      "coverage_note": "Published-card ledger is historical Oct 10–28. No Nov 5 main picks published. Current research final-stat evidence is separate; unsupported stats and no-action draining props stay unobserved.",
+      "coverage_note": "Published-card ledger is historical with limited coverage; dates below are the settled ledger, not a complete slate. No Nov 5 main picks published. Current research final-stat evidence is separate; unsupported stats and no-action draining props stay unobserved.",
       "settlement_rule": "A matched final ESPN game and full stat citation are required before finish; never infer from a score alone.",
       "clv_rule": "The original tool creates last-shop observations using game lines. Label those last-shop-not-verified-close; no verified close is claimed for legacy props or current normalized props. Absent values n/a."
     },
@@ -45558,57 +48928,57 @@ window.BET_BOARD_DATA = {
       },
       "current_research_separate": {
         "likely": {
-          "wins": 13,
+          "wins": 11,
           "losses": 10,
           "pushes": 0,
           "voids": 0,
-          "n": 23,
-          "record": "13-10-0",
-          "hitRatePct": 56.5,
-          "units": 0.98,
-          "pricedN": 23,
-          "roiPct": 4.3,
+          "n": 21,
+          "record": "11-10-0",
+          "hitRatePct": 52.4,
+          "units": -1.32,
+          "pricedN": 21,
+          "roiPct": -6.3,
           "clv": {
             "scored": 0,
             "beat": 0,
             "match": 0,
             "lose": 0,
             "pending": 0,
-            "unobserved": 23,
+            "unobserved": 21,
             "avgPp": null
           }
         },
         "near_miss": {
-          "wins": 14,
-          "losses": 13,
+          "wins": 8,
+          "losses": 8,
           "pushes": 0,
           "voids": 0,
-          "n": 27,
-          "record": "14-13-0",
-          "hitRatePct": 51.9,
-          "units": 1.05,
-          "pricedN": 27,
-          "roiPct": 3.9,
+          "n": 16,
+          "record": "8-8-0",
+          "hitRatePct": 50.0,
+          "units": -0.87,
+          "pricedN": 16,
+          "roiPct": -5.4,
           "clv": {
             "scored": 0,
             "beat": 0,
             "match": 0,
             "lose": 0,
             "pending": 0,
-            "unobserved": 27,
+            "unobserved": 16,
             "avgPp": null
           }
         },
         "excluded": {
           "wins": 0,
-          "losses": 5,
+          "losses": 3,
           "pushes": 0,
           "voids": 0,
-          "n": 5,
-          "record": "0-5-0",
+          "n": 3,
+          "record": "0-3-0",
           "hitRatePct": 0.0,
-          "units": -5.0,
-          "pricedN": 5,
+          "units": -3.0,
+          "pricedN": 3,
           "roiPct": -100.0,
           "clv": {
             "scored": 0,
@@ -45616,7 +48986,7 @@ window.BET_BOARD_DATA = {
             "match": 0,
             "lose": 0,
             "pending": 0,
-            "unobserved": 5,
+            "unobserved": 3,
             "avgPp": null
           }
         }
@@ -45984,12 +49354,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Tristan da Silva Over 2.5 threes",
         "status": "final",
-        "event_note": "Tristan da Silva threes=4 vs o2.5",
-        "result": "win",
-        "units": 1.05,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 105,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -46002,7 +49372,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Tristan da Silva threes=4 vs o2.5"
         },
-        "gradeReason": "Tristan da Silva threes=4 vs o2.5"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nba-2026-11-05-mia-gs:stephen-curry:points:over:27.5",
@@ -46071,12 +49441,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Tristan da Silva Over 12.5 points",
         "status": "final",
-        "event_note": "Tristan da Silva points=18 vs o12.5",
-        "result": "win",
-        "units": 1.04,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 104,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -46089,7 +49459,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 18.0,
           "note": "Tristan da Silva points=18 vs o12.5"
         },
-        "gradeReason": "Tristan da Silva points=18 vs o12.5"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nba-2026-11-05-orl-phx:desmond-bane:threes:over:3.5",
@@ -46100,12 +49470,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Desmond Bane Over 3.5 threes",
         "status": "final",
-        "event_note": "Desmond Bane threes=3 vs o3.5",
-        "result": "loss",
-        "units": -1.0,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 135,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -46118,7 +49488,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Desmond Bane threes=3 vs o3.5"
         },
-        "gradeReason": "Desmond Bane threes=3 vs o3.5"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nba-2026-11-05-orl-phx:oso-ighodaro:assists:over:2.5",
@@ -46332,12 +49702,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Tristan da Silva Over 18.5 points rebounds assists",
         "status": "final",
-        "event_note": "Tristan da Silva points_rebounds_assists=21 vs o18.5",
-        "result": "win",
-        "units": 1.0,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 100,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -46350,7 +49720,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 21.0,
           "note": "Tristan da Silva points_rebounds_assists=21 vs o18.5"
         },
-        "gradeReason": "Tristan da Silva points_rebounds_assists=21 vs o18.5"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nba-2026-11-05-orl-phx:collin-gillespie:points_rebounds_assists:under:16.5",
@@ -46448,12 +49818,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Zay Flowers Over 4.5 receptions",
         "status": "final",
-        "event_note": "Zay Flowers receptions=3 vs o4.5",
-        "result": "loss",
-        "units": -1.0,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 100,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -46466,7 +49836,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 3.0,
           "note": "Zay Flowers receptions=3 vs o4.5"
         },
-        "gradeReason": "Zay Flowers receptions=3 vs o4.5"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nfl-2026-11-05-jac-bal:derrick-henry:rush_yds:over:68.5",
@@ -46506,12 +49876,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Derrick Henry Over 17.5 rush att",
         "status": "final",
-        "event_note": "Derrick Henry rush_attempts=17 vs o17.5",
-        "result": "loss",
-        "units": -1.0,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 105,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -46524,7 +49894,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 17.0,
           "note": "Derrick Henry rush_attempts=17 vs o17.5"
         },
-        "gradeReason": "Derrick Henry rush_attempts=17 vs o17.5"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nfl-2026-11-05-jac-bal:chris-rodriguez-jr:rush_yds:over:29.5",
@@ -46854,12 +50224,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Jakobi Meyers Over 3.5 receptions",
         "status": "final",
-        "event_note": "Jakobi Meyers receptions=4 vs o3.5",
-        "result": "win",
-        "units": 1.25,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 125,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -46872,7 +50242,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 4.0,
           "note": "Jakobi Meyers receptions=4 vs o3.5"
         },
-        "gradeReason": "Jakobi Meyers receptions=4 vs o3.5"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nfl-2026-11-05-jac-bal:justice-hill:reception_yds:over:14.5",
@@ -46970,12 +50340,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Joe Fagnano Under 0.5 pass TDs",
         "status": "final",
-        "event_note": "Joe Fagnano pass_tds=0 vs u0.5",
-        "result": "win",
-        "units": 1.1,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 110,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -46988,7 +50358,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Joe Fagnano pass_tds=0 vs u0.5"
         },
-        "gradeReason": "Joe Fagnano pass_tds=0 vs u0.5"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nfl-2026-11-05-jac-bal:trevor-lawrence:pass_completions:under:18.5",
@@ -46999,12 +50369,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Trevor Lawrence Under 18.5 completions",
         "status": "final",
-        "event_note": "Trevor Lawrence pass_completions=16 vs u18.5",
-        "result": "win",
-        "units": 1.05,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 105,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -47017,7 +50387,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 16.0,
           "note": "Trevor Lawrence pass_completions=16 vs u18.5"
         },
-        "gradeReason": "Trevor Lawrence pass_completions=16 vs u18.5"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nfl-2026-11-05-jac-bal:nate-boerkircher:reception_yds:over:7.5",
@@ -47202,12 +50572,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Chris Rodriguez Jr anytime TD",
         "status": "final",
-        "event_note": "Chris Rodriguez Jr TDs=1",
-        "result": "win",
-        "units": 1.08,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 108,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -47220,7 +50590,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Chris Rodriguez Jr TDs=1"
         },
-        "gradeReason": "Chris Rodriguez Jr TDs=1"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nfl-2026-11-05-jac-bal:derrick-henry:attd:yes:0.5",
@@ -47231,12 +50601,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Derrick Henry anytime TD",
         "status": "final",
-        "event_note": "Derrick Henry TDs=0",
-        "result": "loss",
-        "units": -1.0,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 135,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -47249,7 +50619,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Derrick Henry TDs=0"
         },
-        "gradeReason": "Derrick Henry TDs=0"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nfl-2026-11-05-jac-bal:parker-washington:attd:yes:0.5",
@@ -47260,12 +50630,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Parker Washington anytime TD",
         "status": "final",
-        "event_note": "Parker Washington TDs=1",
-        "result": "win",
-        "units": 1.65,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 165,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -47278,7 +50648,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 1.0,
           "note": "Parker Washington TDs=1"
         },
-        "gradeReason": "Parker Washington TDs=1"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nfl-2026-11-05-jac-bal:brenton-strange:attd:yes:0.5",
@@ -47289,12 +50659,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Brenton Strange anytime TD",
         "status": "final",
-        "event_note": "Brenton Strange TDs=0",
-        "result": "loss",
-        "units": -1.0,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 275,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -47307,7 +50677,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Brenton Strange TDs=0"
         },
-        "gradeReason": "Brenton Strange TDs=0"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nfl-2026-11-05-jac-bal:jakobi-meyers:attd:yes:0.5",
@@ -47318,12 +50688,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Jakobi Meyers anytime TD",
         "status": "final",
-        "event_note": "Jakobi Meyers TDs=0",
-        "result": "loss",
-        "units": -1.0,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 360,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -47336,7 +50706,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Jakobi Meyers TDs=0"
         },
-        "gradeReason": "Jakobi Meyers TDs=0"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nfl-2026-11-05-jac-bal:ameer-abdullah:attd:yes:0.5",
@@ -47347,12 +50717,12 @@ window.BET_BOARD_DATA = {
         "lane_at_publish": null,
         "selection": "Ameer Abdullah anytime TD",
         "status": "final",
-        "event_note": "Ameer Abdullah TDs=0",
-        "result": "loss",
-        "units": -1.0,
+        "event_note": "Final stat cited; no eligible published price, so no action and no units.",
+        "result": null,
+        "units": null,
         "official_record_eligible": false,
-        "priced": true,
-        "published_american": 650,
+        "priced": false,
+        "published_american": null,
         "clv_tag": "unobserved",
         "clv_pct": null,
         "clv_pp": null,
@@ -47365,7 +50735,7 @@ window.BET_BOARD_DATA = {
           "stat_value": 0.0,
           "note": "Ameer Abdullah TDs=0"
         },
-        "gradeReason": "Ameer Abdullah TDs=0"
+        "gradeReason": "Final stat cited; no eligible published price, so no action and no units."
       },
       {
         "row_id": "nfl-2026-11-05-jac-bal:brenton-strange:q1_reception_yds:over:nil",
@@ -47426,6 +50796,7 @@ window.BET_BOARD_DATA = {
         "gradeReason": "unparsed prop side (q1_receptions)"
       }
     ],
+    "coverage_label": "2026-10-10 / 2026-10-24",
     "current_research_note": "Current research row ids have no lane_at_publish proving official publication; these final-stat outcomes cannot inflate published-pick headline.",
     "data_warnings": {
       "scorecard_unpriced_sources": 12,
@@ -47434,14 +50805,10 @@ window.BET_BOARD_DATA = {
     },
     "refresh": {
       "grade": {
-        "status": "success",
-        "returncode": 0,
-        "finished_at": "2026-11-06T10:07:44-06:00"
+        "status": "not_run"
       },
       "closeline": {
-        "status": "success",
-        "returncode": 0,
-        "finished_at": "2026-11-06T10:11:11-06:00"
+        "status": "not_run"
       }
     },
     "refresh_status": "success",
