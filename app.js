@@ -842,7 +842,8 @@
       '</section>';
   }
   function n3Apply(rows) {
-    n3State.sport = $("n3-sport") ? $("n3-sport").value||activeSport : activeSport;
+    
+    n3State.sport=$("n3-sport").value;
     n3State.game=$("n3-game").value; n3State.market=$("n3-market").value; n3State.lane=$("n3-lane").value;
     n3State.minSources=Math.max(0,Number($("n3-min").value)||0); n3State.evPositive=$("n3-ev").checked;
     n3State.sharp=$("n3-sharp").checked; n3State.time=$("n3-time").value; n3State.hideLive=$("n3-live").checked;
@@ -852,7 +853,7 @@
       if(n3State.game && (r.game||r.game_id)!==n3State.game)return false;
       if(n3State.market && r.market!==n3State.market)return false;
       if(n3State.lane && r.lane!==n3State.lane)return false;
-      if(Number(counts.combined_raw)<n3State.minSources)return false;
+      var combined=n3Num(counts.combined_raw);if(combined===null || combined<n3State.minSources)return false;
       if(n3State.evPositive && !(n3Num(price.ev_pct)>0))return false;
       if(n3State.sharp && !n3Fair(r))return false;
       if(n3State.hideLive && r.status==="live")return false;
@@ -938,22 +939,20 @@
     $("summary").textContent="SCHEMA v3.0.0 · legacy research preserved · original publish and CLEARED floors unchanged.";
     $("status-pill").textContent="RESEARCH";$("status-pill").className="status-pill status-live";
     $("gauge-banner").hidden=true;$("example-banner").hidden=!hasExampleContent(data);
+    n3State.sport=activeSport;
     var sportRows=n3Visible(data), rows=sportRows.filter(function(r){return normalizeSport(r.sport)===normalizeSport(activeSport);});
     $("sport-empty").hidden=true;$("board-content").hidden=true;var slot=$("near-miss-slot");if(slot)slot.innerHTML="";
     var old=$("normalized-board");if(old)old.remove();
     var host=document.createElement("div");host.id="normalized-board";
     host.innerHTML=n3FilterControls(data,rows)+n3Legend()+'<section class="n3-board"><div id="n3-results" aria-live="polite"></div><div id="n3-table-host"></div></section>'+n3Legacy(data,activeSport);
     var main=document.querySelector(".main");main.insertBefore(host,$("live-slot"));
-    renderSportNavNormalized(data,sportRows);renderSubNav(data);
+    renderSportNavNormalized(data,sportRows);
+    var subNav=$("sub-nav");if(subNav){subNav.hidden=true;subNav.innerHTML="";}
     $("n3-sport").value=n3State.sport&&Array.from($("n3-sport").options).some(function(o){return o.value===n3State.sport;})?n3State.sport:activeSport;
     ["game","market","lane","time"].forEach(function(k){$("n3-"+k).value=n3State[k]||"";});
     $("n3-min").value=n3State.minSources;$("n3-ev").checked=n3State.evPositive;$("n3-sharp").checked=n3State.sharp;$("n3-live").checked=n3State.hideLive;
-    if(!n3Bound) {
-      host.addEventListener("input",n3Update);host.addEventListener("change",n3Update);host.addEventListener("click",n3Click);
-      n3Bound=true;
-    } else { // Current node replaces the old delegated host on navigation.
-      host.addEventListener("input",n3Update);host.addEventListener("change",n3Update);host.addEventListener("click",n3Click);
-    }
+    host.addEventListener("input",n3Update);host.addEventListener("change",n3Update);host.addEventListener("click",n3Click);
+    n3Bound=true;
     n3Update();
   }
   function n3Click(e) {
@@ -1562,7 +1561,9 @@
     var sport = btn.getAttribute("data-sport");
     if (!sport) return;
     activeSport = normalizeSport(sport);
-    activeSub = hasSub(activeSport) ? "lines" : null;
+    n3State.sport=activeSport;
+    n3State.game=n3State.market=n3State.lane=n3State.time="";
+    activeSub = hasSub(activeSport) ? (onlySubFor(lastPayload,activeSport) || "lines") : null;
     setHash(activeSport, activeSub);
     render(lastPayload);
   }
@@ -1626,6 +1627,7 @@
     window.addEventListener("hashchange", function () {
       if (!lastPayload) return;
       if (pageRoute() || $("board-view").hidden) { render(lastPayload); if (pageRoute()) return; }
+      if (n3Rows(lastPayload).length && $("normalized-board")) return;
       var parsed = parseHash();
       if (parsed.sport) {
         activeSport = parsed.sport;
