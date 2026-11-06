@@ -967,6 +967,121 @@
     });return h+'</tbody></table></div>';
   }
 
+  var parlayState={ids:[],filter:"all",errors:[]};
+  function parlayData(data){return data&&data.parlay_builder||null;}
+  function clearParlay() {parlayState={ids:[],filter:parlayState.filter||"all",errors:[]};renderParlay(lastPayload);}
+  window.parlaySelect=function(id){
+    if(parlayState.ids.indexOf(id)>=0){parlayState.ids=parlayState.ids.filter(function(x){return x!==id;});parlayState.errors=[];return renderParlay(lastPayload);}
+    if(parlayState.ids.length>=4){parlayState.errors=["Maximum 4 unique Highest-likelihood legs. Remove a leg before adding another."];return renderParlay(lastPayload);}
+    var rows=n3Rows(lastPayload),r=rows.find(function(row){return row.row_id===id;});if(!r||r.lane!=="likely")return;
+    var selected=parlayState.ids.map(function(x){return rows.find(function(row){return row.row_id===x;});});
+    if(r.example===true||r.status==="example"||r.side!=="over"&&r.side!=="under"&&r.side!=="yes"&&r.side!=="no")return;
+    if(!r.price||!r.price.best_price||r.price.fair_hit_pct==null)return;
+    var duplicate=selected.find(function(row){return row.game_id===r.game_id&&row.player===r.player&&row.market===r.market&&row.line===r.line;});
+    if(duplicate) { if(duplicate.side!==r.side) {parlayState.errors=["BLOCKED OPPOSITE SIDE: "+r.player+" "+n3Market(r.market)+", with the same game and line. Choose one side; no prohibited R15 combination is computed."];renderParlay(lastPayload);}return; }
+    parlayState.ids=parlayState.ids.concat([id]);parlayState.errors=[];renderParlay(lastPayload);
+  };
+  window.parlayRules=function(rows,model){
+    if(!Array.isArray(rows)||rows.length<2||rows.length>4)throw new Error("Between two and four unique legs required.");
+    var ids=rows.map(function(r){return r.row_id;}),games=rows.map(function(r){return r.game_id;});
+    if(new Set(ids).size!==ids.length)throw new Error("Blocked exact duplicate row_id.");
+    if(rows.some(function(r){return !r||r.lane!=="likely";}))throw new Error("Only existing Highest-likelihood canonical rows are eligible.");
+    if(new Set(games).size!==1&&new Set(games).size!==rows.length&&new Set(games.map(function(g){return model&&model.game_catalog&&model.game_catalog[g];})).size===0){
+      // Mix of same- and cross-game is supported. IDs are directly resolved individually below.
+    }
+    var pairs=[],matrix=[],matrixSig=[],rowsByPlayer={};
+    for(var i=0;i<rows.length;i++){
+      var r=rows[i],id=r.row_id, player=String(r.player),oldName=player.slice(0);
+      if(!Object.prototype.hasOwnProperty.call(rowsByPlayer,player))rowsByPlayer[player]=[];
+      rowsByPlayer[player].push(r);matrix[i]=[];
+      for(var j=i+1;j<rows.length;j++){
+        var b=rows[j];if(r.game_id===b.game_id&&r.player===b.player&&r.market===b.market&&r.line===b.line&&r.side!==b.side)throw new Error("BLOCKED OPPOSITE SIDE: "+r.player+" "+n3Market(r.market)+". No prohibited combination was computed.");
+      }
+    }
+    var repeated=[];
+    Object.keys(rowsByPlayer).forEach(function(p){if(rowsByPlayer[p].length>1)repeated.push({player:p,markets:Array.from(new Set(rowsByPlayer[p].map(function(r){return r.market;}))),legs:rowsByPlayer[p].map(function(r){return r.row_id;})});});
+    var productP=1,d=1,gamesToScale=[];
+    games.forEach(function(g){if(gamesToScale.indexOf(g)<0)gamesToScale.push(g);});
+    var pooledCorr=model&&model.signed_matrices&&model.signed_matrices[gamesToScale[0]]||null;
+    for(var i=0;i<rows.length;i++){
+      productP*=rows[i].price.fair_hit_pct/100;d*=rows[i].price.best_price.decimal;matrix[i]=[];
+      for(var j=0;j<rows.length;j++){
+        if(i===j){matrix[i][j]=1;continue;}
+        if(i>j){matrix[i][j]=matrix[j][i];continue;}
+        var a=rows[i],b=rows[j],relation=a.game_id!==b.game_id?"independent":a.team&&a.team===b.team?"same_team":"same_game",rho=relation==="independent"?0:a.player===b.player?.15:relation==="same_team"?-.05:.1;
+        if(model&&a.sport==="NFL"&&b.sport==="NFL"&&a.game_id===b.game_id){
+          var pair=(model.same_game_pair_rho||{})[a.player+"|"+a.market+"|"+b.player+"|"+b.market],reverse=(model.same_game_pair_rho||{})[b.player+"|"+b.market+"|"+a.player+"|"+a.market];
+          if(pair!==undefined)rho=pair;else if(reverse!==undefined)rho=reverse;
+        }
+        if(pooledCorr&&a.game_id===b.game_id){var signedKey=a.row_id+"|"+b.row_id,signedReverse=b.row_id+"|"+a.row_id; if(pooledCorr.rho[signedKey]!==undefined)rho=pooledCorr.rho[signedKey];else if(pooledCorr.rho[signedReverse]!==undefined)rho=pooledCorr.rho[signedReverse];}
+        matrix[i][j]=rho;
+        pairs.push({left_row_id:a.row_id,right_row_id:b.row_id,relation:relation,rho:rho,basis:relation==="independent"?"different game: rho 0":"Gaussian copula: documented same-game model"});
+      }
+    }
+    var method=pairs.every(function(p){return p.relation==="independent";})?"product":"copula";
+    return {ids:ids,games:gamesToScale,productP:productP,decimal:d,pairs:pairs,matrix:matrix,method:method,repeated:repeated};
+  };
+  function parlaySignature(ids){return ids.slice().sort().join("|");}
+  function parlayLookup(feed,ids){return feed.ticket_catalog[parlaySignature(ids)];}
+  window.parlayCODSeeds={};
+  window.parlayPlayerFlags=function(rows){return window.parlayRules(rows,lastPayload.parlay_builder.model).repeated;}
+  window.parlayRenderSelection=function(feed,rules){
+    if(rules.repeated.length) return 'REPEATED PLAYER (flagged; not silently blocked): '+rules.repeated.map(function(x){return escapeHtml(x.player)+' · '+x.markets.map(n3Market).join(' + ');}).join('; ');
+    return 'No repeated player.';
+  };
+  function parlayFallback(rules){return {p_all:rules.productP,decimal:rules.decimal,ev_units:rules.productP*rules.decimal-1,mc_expected_units:null,mc_p_all_hit:null,basis:'PRODUCT ACROSS GAMES: no same-game correlation. Signed product probabilities. This calculation contains no same-game leg pair.',source_kind:'deterministic_independent_product'};}
+  window.parlayTextExport=function(){
+    var data=lastPayload,feed=parlayData(data);if(!feed)return;
+    var rows=parlayState.ids.map(function(id){return n3Rows(data).find(function(r){return r.row_id===id;});});
+    if(rows.length<2)return;
+    try{
+      var rules=parlayRules(rows,feed.model),result=parlayLookup(feed,parlayState.ids);
+      if(!result&&!rules.pairs.every(function(p){return p.relation==="independent";}))throw new Error('Correlated result unavailable; no fabricated output.');
+      if(!result)result=parlayFallback(rules);
+      var lines=["BEARISH BULLS PICKS — RESEARCH-ONLY PARLAY","Frozen Nov 5, 2026 audited inputs. Not a wager, offer, recommendation, or sportsbook link.","","LEGS"];
+      rows.forEach(function(r,i){lines.push((i+1)+". "+r.selection+" | "+r.game+" | game_id "+r.game_id+" | fair hit "+r.price.fair_hit_pct.toFixed(2)+"% | decimal "+r.price.best_price.decimal.toFixed(6));var b=(r.blockers||[]).map(function(x){return x.code;}).join(', ');if(b)lines.push("   Existing row blockers: "+b);});
+      lines=lines.concat(["","METHOD: "+(rules.method==="copula"?"Gaussian copula including same-game legs; zero cross-game rho":"straight product across independent games"),"Correlation tags: "+rules.pairs.map(function(p){return p.left_row_id+" / "+p.right_row_id+" = "+p.relation+", rho "+p.rho;}).join('; '),"Ticket decimal: "+rules.decimal.toFixed(6),"P(all hit): "+(100*result.p_all).toFixed(4)+"%","Independent comparison: "+(100*rules.productP).toFixed(4)+"%","Monte Carlo ticket: "+(result.mc_expected_units==null?"not source-verified for this signed NBA set":result.mc_sims+" sims; seed "+result.mc_seed+"; EV "+result.mc_expected_units.toFixed(3)+"u; actual all-hit "+(100*result.mc_p_all_hit).toFixed(2)+"%"),"Analytic 1u ticket EV: "+result.ev_units.toFixed(6)+"u","Not the flat-singles portfolio estimate. One-unit full ticket only.",""]);
+      lines.push(rules.ids.length===4?"WATCH ONLY — four legs. No placement / no protection kicker.":"RESEARCH ONLY — existing gates unchanged; no clearance assigned.");
+      if(rules.repeated.length)lines.push('REPEATED PLAYER FLAG: '+rules.repeated.map(function(x){return x.player+' ('+x.markets.join(', ')+')';}).join('; ')+'. Correlation modeled; not blocked.');
+      var blockers=Array.from(new Set(rows.reduce(function(a,r){return a.concat((r.blockers||[]).map(function(b){return b.code;}));},[])));
+      lines.push("Underlying row blocker codes: "+blockers.join(', '));
+      if(result.source_kind&&result.source_kind.indexOf('signed_')===0)lines.push("SCREENER parity: see page methods; exact selected combination reference retained.");
+      lines.push('No sportsbook links. Values are model estimates, not guarantees. Monte Carlo at model probabilities cannot validate stale prices or source edges.');
+      var text=lines.join("\n");window.__parlayLastExport=text;
+      var blob=new Blob([text],{type:"text/plain;charset=utf-8"}),a=document.createElement('a'),url=URL.createObjectURL(blob);a.href=url;a.download="parlay-research-2026-11-05.txt";a.textContent='Download plain text';document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},2000);
+      var f=$("parlay-export-feedback");if(f)f.textContent='Plain-text export prepared. Sportsbook links and share shortcuts are intentionally absent.';
+      return text;
+    }catch(err){parlayState.errors=[err.message];renderParlay(lastPayload);}
+  };
+  function renderParlay(data){
+    var el=$("parlay-research");if(!el||!data)return;
+    var feed=parlayData(data),all=n3Rows(data).filter(function(r){return r.lane==="likely"&&!feed.model.excluded_ids.includes(r.row_id);}),selected=parlayState.ids.map(function(id){return all.find(function(r){return r.row_id===id;});});
+    var legend='<div class="parlay-heading"><div><h2>Research-only parlay builder</h2><p>Choose 2–4 legs from this frozen Highest-likelihood lane. This is a modeling worksheet, not a bet, recommendation or clearance.</p></div><div class="parlay-toolbar"><button type="button" id="parlay-clear" '+(parlayState.ids.length?'':'disabled')+'>Clear</button><button type="button" id="parlay-export" '+(parlayState.ids.length>=2?'':'disabled')+'>Export plain text</button></div></div>';
+    var chips=all.map(function(r){return '<label class="parlay-leg '+(parlayState.ids.includes(r.row_id)?'is-selected':'')+'"><input type="checkbox" data-parlay-leg="'+escapeHtml(r.row_id)+'" '+(parlayState.ids.includes(r.row_id)?'checked':'')+(parlayState.ids.length===4&&!parlayState.ids.includes(r.row_id)?' disabled':'')+'>'+escapeHtml(r.selection)+'<span class="pl-sub">'+escapeHtml(r.game_id)+' · '+escapeHtml(r.sport)+' · fair '+r.price.fair_hit_pct+'% · '+r.price.best_price.american+'</span></label>';}).join('');
+    var ticket='<p>Select two legs to calculate a ticket. Up to four legs; no color, sort, level or publish floors are assigned here.</p>';
+    if(parlayState.errors.length)ticket='<div class="parlay-risk" role="alert">'+parlayState.errors.map(escapeHtml).join('<br>')+'</div>';
+    if(selected.length!==parlayState.ids.length){parlayState.ids=[];parlayState.errors=[];}
+    if(selected.length&&selected.length<2)ticket='<p>'+escapeHtml(selected[0].selection)+' selected. Add one more eligible leg to calculate full-ticket MC.</p>';
+    if(selected.length>=2){
+      try{var rules=parlayRules(selected,feed.model),result=parlayLookup(feed,parlayState.ids),blockers=Array.from(new Set(selected.reduce(function(a,r){return a.concat((r.blockers||[]).map(function(b){return b.code;}));},[])));
+        if(!result&&rules.method==='copula')throw new Error('Model/parity unavailable for this correlated set; not a result of 0. Check source payload.');
+        if(!result)result=parlayFallback(rules);
+        ticket='<div class="parlay-games">Games: '+escapeHtml(rules.games.join(' · '))+'<br>Method: <b>'+rules.method+'</b>; decimals <b>'+rules.decimal.toFixed(6)+'</b>. '+escapeHtml(result.calculation_basis||'Frozen canonical model input; not live pricing.')+'</div>';
+        if(selected.length===4)ticket+='<div class="parlay-risk"><span class="parlay-watch">WATCH ONLY — four legs (WONG #10 / B24).</span> No 4-leg protective kicker is added; no wager button exists.</div>';
+        ticket+='<dl class="parlay-metrics"><div><dt>Copula / product P(all)</dt><dd>'+(100*result.p_all).toFixed(2)+'%</dd></div><div><dt>Independent comparison</dt><dd>'+(100*rules.productP).toFixed(2)+'%</dd></div><div><dt>1u ticket EV<br>(analytic)</dt><dd>'+result.ev_units.toFixed(3)+'u</dd></div><div><dt>MC ticket EV</dt><dd>'+(result.mc_expected_units==null?'n/a':result.mc_expected_units.toFixed(3)+'u')+'</dd></div><div><dt>MC actual all-hit</dt><dd>'+(result.mc_p_all_hit==null?'n/a':(100*result.mc_p_all_hit).toFixed(2)+'%')+'</dd></div><div><dt>Series limits</dt><dd>'+(result.mc_sims==null?'analytic':'10,000')+'</dd></div></dl>';
+        if(rules.pairs.some(function(p){return p.relation!=="independent";})&&result.mc_expected_units==null)ticket+='<p class="parlay-risk">Source copula parity is retained. Fresh MC ticket EV will be unavailable until this signed correlated set is projected; no substitute singles EV is shown.</p>';
+        if(result.mc_expected_units!=null)ticket+='<p class="parlay-explain">MC ticket seed '+result.mc_seed+'; 10,000 draws. Actual all-hit is sampled ticket RNG; do not confuse it with signed copula P(all). Monte Carlo at model probabilities is not proof of edge.</p>';
+        ticket+='<div class="parlay-duplicate">'+parlayRenderSelection(feed,rules)+'</div>';
+        ticket+='<p class="parlay-explain">Existing row blocker codes remain: '+escapeHtml(blockers.join(', '))+'. A hit rate never bypasses a source, price or publish gate.</p>';
+        if(result.source_kind)ticket+='<p class="parlay-explain">Reference class: '+escapeHtml(result.source_kind)+'; '+escapeHtml(result.parity_note||'Screener retains authority for signed source parity.')+'</p>';
+        ticket+='<details class="parlay-research-details"><summary>Game IDs, pair correlations & assumptions</summary><div class="parlay-basis"><table class="parlay-pairs"><thead><tr><th>Left · right</th><th>Relation / rho</th></tr></thead><tbody>'+rules.pairs.map(function(p){return '<tr><td>'+escapeHtml(p.left_row_id)+'<br>'+escapeHtml(p.right_row_id)+'</td><td>'+escapeHtml(p.relation)+'<br>rho '+p.rho+'</td></tr>';}).join('')+'</tbody></table></div><ul>'+feed.model.assumptions.map(function(a){return '<li>'+escapeHtml(a)+'</li>';}).join('')+'</ul></details>';
+      }catch(err){ticket='<div class="parlay-risk" role="alert">'+escapeHtml(err.message)+'</div>';}
+    }
+    var oldOpen=el.open; el.innerHTML='<summary>Parlay research <small>'+parlayState.ids.length+' / 4 legs selected · model probabilities and old prices, not a wager or book link</small></summary>'+legend+'<p class="parlay-status" id="parlay-selection-status" aria-live="polite">'+parlayState.ids.length+' eligible legs selected. '+all.length+' eligible candidates.</p><div class="parlay-grid"><div class="parlay-legs">'+chips+'</div><section class="parlay-ticket" aria-label="Research parlay ticket">'+ticket+'</section></div><p id="parlay-export-feedback" role="status"></p><p class="parlay-disclaimer">Inputs are the fixed Nov 5 audit snapshot; they do not refresh as a new slate or change lanes. Cross-game legs use straight product. Same-game legs use Gaussian copula across the whole ticket with zero cross-game rho. Exact duplicates and opposite sides are rejected; repeated players are flagged and can use +0.15 within-game rho. 4+ is Watch only. No sportsbook links and no wagers.</p>';
+    el.open=oldOpen;
+    el.querySelectorAll('[data-parlay-leg]').forEach(function(box){box.addEventListener('change',function(){parlaySelect(box.getAttribute('data-parlay-leg'));});});
+    var clear=$('parlay-clear');if(clear)clear.addEventListener('click',clearParlay);var ex=$('parlay-export');if(ex)ex.addEventListener('click',parlayTextExport);
+  }
   function n3Legacy(data,sport) {
     var L=data.oversNearMiss&&data.oversNearMiss[sport];
     if(!L)return "";
@@ -1005,7 +1120,7 @@
     $("n3-min").value=n3State.minSources;$("n3-ev").checked=n3State.evPositive;$("n3-sharp").checked=n3State.sharp;$("n3-live").checked=n3State.hideLive;
     host.addEventListener("input",n3Update);host.addEventListener("change",n3Update);host.addEventListener("click",n3Click);
     n3Bound=true;
-    renderPassLedger(data);
+    renderPassLedger(data);renderParlay(data);
     n3Update();
   }
   function n3ScorecardPublic(data){window.n3Scorecard=data&&data.source_scorecard||null;}
@@ -1064,7 +1179,7 @@
       '<h2>Sources and prices</h2><p>Previous CT day plus game-day YouTube uploads, verified and deduplicated by person/network; X send-it posters remain separate. Leans, parlay legs, demos and excluded sources do not become counted sources. Fair priority is Pinnacle no-vig → exchange no-vig → validated three-book consensus. Aggregate text is not enough to claim sharp fair; those rows remain indicative-only.</p>'+
       '<p>EV uses signed-off percent values. No GUI sorting or filtering changes the original price, probability, source count, lane, blocker or price group. Unknown exact quote timestamps remain unknown.</p>'+
       '<h2>Availability and grading</h2><p>LIVE/FINAL does not change a pregame lane at publication. Grading is separate, cited, and does not rewrite which gates failed. The frozen lane-at-publish is what future Performance/CLV reporting partitions on.</p>'+
-      '<h2>Research, not betting</h2><p>No sportsbook links or bets are placed. The source ledger, correlation-aware builder and Performance overhaul are later approved milestones, not silently inferred here.</p>';
+      '<h2>Research, not betting</h2><p>No sportsbook links or bets are placed. The correlation-aware research builder uses only frozen Highest-likelihood canonical rows, with straight cross-game products and Gaussian copula for every same-game component. Four-leg Watch-only composition, opposite-side rejection and explicit repeated-player flags are enforced without changing any source gate. The public export is plain research text with no sportsbook links.</p>';
   }
 
   function renderPage(data) {
