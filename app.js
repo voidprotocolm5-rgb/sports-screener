@@ -1542,21 +1542,11 @@
   }
 
   function onNavClick(e) {
-    var btn = e.target.closest && e.target.closest(".sport-tab");
-    if (!btn || !lastPayload) return;
-    var sport = btn.getAttribute("data-sport");
-    if (!sport) return;
-    activeSport = normalizeSport(sport);
-    activeSub = hasSub(activeSport) ? (onlySubFor(lastPayload,activeSport) || "lines") : null;
-    if (n3Rows(lastPayload).length && $("normalized-board")) {
-      setHash(activeSport,activeSub);
-      n3State.sport=activeSport;
-      n3State.game=n3State.market=n3State.lane=n3State.time="";
-      n3Update();
-      return;
-    }
-    setHash(activeSport, activeSub);
-    render(lastPayload);
+    var btn=e.target.closest&&e.target.closest(".sport-tab");
+    if(!btn||!lastPayload)return;
+    var sport=btn.getAttribute("data-sport");if(!sport)return;
+    activeSport=normalizeSport(sport);activeSub=hasSub(activeSport)?(onlySubFor(lastPayload,activeSport)||"lines"):null;
+    setHash(activeSport,activeSub);render(lastPayload);
   }
 
   function onSubNavClick(e) {
