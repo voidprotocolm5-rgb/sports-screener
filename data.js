@@ -56,7 +56,7 @@ window.BET_BOARD_DATA = {
     "gauge": "30-27-0",
     "nearMiss": "207-190-3",
     "checkedAt": "8:43 AM CT",
-    "checkedAtIso": "2026-11-10T08:43:22-06:00",
+    "checkedAtIso": "2026-11-10T08:48:41-06:00",
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
@@ -255,359 +255,8 @@ window.BET_BOARD_DATA = {
       "ungraded": 55,
       "updatedAt": "2026-11-10T08:43:22-06:00"
     },
-    "recent": [
-      {
-        "date": "2026-10-28",
-        "sport": "NBA",
-        "tier": "props near miss",
-        "class": "oversNearMiss",
-        "pick": "Trae Young Under 20.5 Points",
-        "game": "Washington Wizards @ Cleveland Cavaliers",
-        "publishedAmerican": -102,
-        "result": "win",
-        "units": 0.98,
-        "gradeNote": "Trae Young points=14 vs u20.5 [ESPN auto-grade 2026-10-29]",
-        "final": "CLE 121 - WSH 111",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-28",
-        "sport": "NBA",
-        "tier": "props near miss",
-        "class": "oversNearMiss",
-        "pick": "Paul Reed Under 8.5 Rebounds",
-        "game": "Charlotte Hornets @ Detroit Pistons",
-        "publishedAmerican": -104,
-        "result": "win",
-        "units": 0.962,
-        "gradeNote": "Paul Reed rebounds=4 vs u8.5 [ESPN auto-grade 2026-10-29]",
-        "final": "DET 97 - CHA 89",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-28",
-        "sport": "NBA",
-        "tier": "props near miss",
-        "class": "oversNearMiss",
-        "pick": "Pascal Siakam Over 7.5 Rebounds",
-        "game": "Philadelphia 76ers @ Indiana Pacers",
-        "publishedAmerican": 116,
-        "result": "win",
-        "units": 1.16,
-        "gradeNote": "Pascal Siakam rebounds=11 vs o7.5 [ESPN auto-grade 2026-10-29]",
-        "final": "IND 109 - PHI 114",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-28",
-        "sport": "NBA",
-        "tier": "props near miss",
-        "class": "oversNearMiss",
-        "pick": "Nickeil Alexander-Walker Over 18.5 Points",
-        "game": "Miami Heat @ Atlanta Hawks",
-        "publishedAmerican": -112,
-        "result": "win",
-        "units": 0.893,
-        "gradeNote": "Nickeil Alexander-Walker points=23 vs o18.5 [ESPN auto-grade 2026-10-29]",
-        "final": "ATL 117 - MIA 129",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-28",
-        "sport": "NBA",
-        "tier": "props near miss",
-        "class": "oversNearMiss",
-        "pick": "Jonathan Kuminga Over 14.5 Points",
-        "game": "Golden State Warriors @ Minnesota Timberwolves",
-        "publishedAmerican": -115,
-        "result": "win",
-        "units": 0.87,
-        "gradeNote": "Jonathan Kuminga points=20 vs o14.5 [ESPN auto-grade 2026-10-29]",
-        "final": "MIN 114 - GS 119",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-28",
-        "sport": "NBA",
-        "tier": "props near miss",
-        "class": "oversNearMiss",
-        "pick": "Jabari Smith Over 15.5 Points",
-        "game": "Houston Rockets @ Milwaukee Bucks",
-        "publishedAmerican": -117,
-        "result": "loss",
-        "units": -1.0,
-        "gradeNote": "Jabari Smith points=14 vs o15.5 [ESPN auto-grade 2026-10-29]",
-        "final": "MIL 100 - HOU 132",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-28",
-        "sport": "NBA",
-        "tier": "props near miss",
-        "class": "oversNearMiss",
-        "pick": "Ja'Kobe Walter Over 2.5 Threes",
-        "game": "Orlando Magic @ Toronto Raptors",
-        "publishedAmerican": 145,
-        "result": "win",
-        "units": 1.45,
-        "gradeNote": "Ja'Kobe Walter threes=3 vs o2.5 [ESPN auto-grade 2026-10-29]",
-        "final": "TOR 129 - ORL 99",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-28",
-        "sport": "NBA",
-        "tier": "props near miss",
-        "class": "oversNearMiss",
-        "pick": "Isaiah Hartenstein Over 8.5 Rebounds",
-        "game": "Oklahoma City Thunder @ Dallas Mavericks",
-        "publishedAmerican": -250,
-        "result": "win",
-        "units": 0.4,
-        "gradeNote": "Isaiah Hartenstein rebounds=14 vs o8.5 [ESPN auto-grade 2026-10-29]",
-        "final": "DAL 120 - OKC 96",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-28",
-        "sport": "NBA",
-        "tier": "props near miss",
-        "class": "oversNearMiss",
-        "pick": "Dejounte Murray Over 17.5 Points",
-        "game": "Denver Nuggets @ New Orleans Pelicans",
-        "publishedAmerican": -102,
-        "result": "loss",
-        "units": -1.0,
-        "gradeNote": "Dejounte Murray points=10 vs o17.5 [ESPN auto-grade 2026-10-29]",
-        "final": "NO 91 - DEN 104",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-28",
-        "sport": "NBA",
-        "tier": "props near miss",
-        "class": "oversNearMiss",
-        "pick": "Caleb Wilson Over 16.5 Points",
-        "game": "New York Knicks @ Chicago Bulls",
-        "publishedAmerican": -128,
-        "result": "win",
-        "units": 0.781,
-        "gradeNote": "Caleb Wilson points=20 vs o16.5 [ESPN auto-grade 2026-10-29]",
-        "final": "CHI 127 - NY 133",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Tanner McKee Over 33.5 Pass Attempts",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -110,
-        "result": "win",
-        "units": 0.909,
-        "gradeNote": "Tanner McKee pass_attempts=35 vs o33.5 (ESPN C/ATT) [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Tanner McKee Over 196.5 Pass Yds",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -113,
-        "result": "win",
-        "units": 0.885,
-        "gradeNote": "Tanner McKee pass_yds=211 vs o196.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Saquon Barkley Over 68.5 Rush Yds",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -113,
-        "result": "loss",
-        "units": -1.0,
-        "gradeNote": "Saquon Barkley rush_yds=62 vs o68.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Saquon Barkley Over 2.5 Receptions",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -110,
-        "result": "loss",
-        "units": -1.0,
-        "gradeNote": "Saquon Barkley receptions=2 vs o2.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Saquon Barkley Over 14.5 Reception Yds",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -112,
-        "result": "loss",
-        "units": -1.0,
-        "gradeNote": "Saquon Barkley reception_yds=9 vs o14.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Ryan Flournoy Over 3.5 Receptions",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": 105,
-        "result": "win",
-        "units": 1.05,
-        "gradeNote": "Ryan Flournoy receptions=4 vs o3.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Makai Lemon Over 3.5 Receptions",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -180,
-        "result": "win",
-        "units": 0.556,
-        "gradeNote": "Makai Lemon receptions=7 vs o3.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Javonte Williams Over 16.5 Rush Attempts",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -110,
-        "result": "win",
-        "units": 0.909,
-        "gradeNote": "Javonte Williams rush_attempts=25 vs o16.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Jake Ferguson Over 2.5 Receptions",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -118,
-        "result": "loss",
-        "units": -1.0,
-        "gradeNote": "Jake Ferguson receptions=0 vs o2.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Jake Ferguson Over 17.5 Reception Yds",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -113,
-        "result": "loss",
-        "units": -1.0,
-        "gradeNote": "Jake Ferguson reception_yds=0 vs o17.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "George Pickens Over 64.5 Reception Yds",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -113,
-        "result": "loss",
-        "units": -1.0,
-        "gradeNote": "George Pickens reception_yds=57 vs o64.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Dallas Goedert Over 5.5 Receptions",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": 115,
-        "result": "loss",
-        "units": -1.0,
-        "gradeNote": "Dallas Goedert receptions=5 vs o5.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "Dak Prescott Over 1.5 Pass Tds",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -135,
-        "result": "win",
-        "units": 0.741,
-        "gradeNote": "Dak Prescott pass_tds=3 vs o1.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "CeeDee Lamb Over 78.5 Reception Yds",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -113,
-        "result": "loss",
-        "units": -1.0,
-        "gradeNote": "CeeDee Lamb reception_yds=74 vs o78.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      },
-      {
-        "date": "2026-10-26",
-        "sport": "NFL",
-        "tier": "overs near miss",
-        "class": "oversNearMiss",
-        "pick": "CeeDee Lamb Over 6.5 Receptions",
-        "game": "Dallas Cowboys @ Philadelphia Eagles",
-        "publishedAmerican": -130,
-        "result": "loss",
-        "units": -1.0,
-        "gradeNote": "CeeDee Lamb receptions=5 vs o6.5 [ESPN auto-grade 2026-10-28]",
-        "final": "PHI 21 - DAL 38",
-        "clvPp": null
-      }
-    ],
-    "note": "Flat 1u per card at the published price. Small sample; not predictive. Near misses tracked separately and excluded from totals."
+    "recent": [],
+    "note": "Published picks only; near misses separate. Public performance_feed holds the full cited ledger and refreshed current evidence."
   },
   "xNote": "X send-it list 1867962331566612965 (Thu Nov 5 through ~1:36 PM CT): counted singles @austinsprops and @JoeDellera (Black O18.5 PA), @MuggsyPlays (Black O22.5 PRA, Gillespie U16.5 PRA); @tonyspicks / Millz Young counted once with the Tony's Picks video. Parlays/leans/models/promos count 0. TNF X send-it list 1867962331566612965 (Wed Nov 4 00:00 CT through publish): counted @Pickswise (Lawrence O1.5 pass TDs), @TheProfessor305 (Hill O2.5 rec), @ActionNetworkHQ (Henry ATTD). Flowers ATTD promo X dropped (Screener). Parlays/leans/models/promos/PrizePicks count 0.",
   "oddsApiNote": "Prices: NBA Thu Nov 5 free pulls ~1:08 PM CT from 4 books (Pinnacle guest API, FanDuel, Bovada, BetRivers). No paid Odds API calls. NFL tab prices remain from Sun Nov 1. TNF prices: public books (Pinnacle guest league 889, FanDuel, Bovada, BetRivers/Kambi and other listed books). Pinnacle excluded from public best price. No paid Odds API calls.",
@@ -1580,7 +1229,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:30-06:00",
+        "graded_at": "2026-11-10T08:48:39-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -1790,7 +1439,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -1969,7 +1618,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2180,7 +1829,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -2392,7 +2041,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2569,7 +2218,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -2747,7 +2396,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2925,7 +2574,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -3119,7 +2768,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -3367,7 +3016,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -3536,7 +3185,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -3761,7 +3410,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -4243,7 +3892,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -4431,7 +4080,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -5033,7 +4682,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5208,7 +4857,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5395,7 +5044,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5584,7 +5233,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5765,7 +5414,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5937,7 +5586,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -6142,7 +5791,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -6520,7 +6169,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -6742,7 +6391,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:31-06:00",
+        "graded_at": "2026-11-10T08:48:40-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -6927,7 +6576,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7366,7 +7015,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7759,7 +7408,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7957,7 +7606,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8132,7 +7781,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8306,7 +7955,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8497,7 +8146,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8694,7 +8343,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8885,7 +8534,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9059,7 +8708,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9443,7 +9092,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9673,7 +9322,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10061,7 +9710,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10431,7 +10080,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10936,7 +10585,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -11293,7 +10942,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -11479,7 +11128,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-10T08:38:33-06:00",
+        "graded_at": "2026-11-10T08:48:41-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -14700,10 +14349,10 @@ window.BET_BOARD_DATA = {
       }
     ]
   },
-  "normalized_generated_at": "2026-11-10T08:38:33-06:00",
+  "normalized_generated_at": "2026-11-10T08:48:41-06:00",
   "performance_feed": {
     "schema_version": "3.0.0",
-    "generated_at": "2026-11-10T08:38:33-06:00",
+    "generated_at": "2026-11-10T08:48:41-06:00",
     "grading_version": "1u-flat-v1",
     "entries": [
       {
@@ -50807,12 +50456,12 @@ window.BET_BOARD_DATA = {
       "grade": {
         "status": "success",
         "returncode": 0,
-        "finished_at": "2026-11-10T08:33:41-06:00"
+        "finished_at": "2026-11-10T08:43:23-06:00"
       },
       "closeline": {
         "status": "success",
         "returncode": 0,
-        "finished_at": "2026-11-10T08:37:39-06:00"
+        "finished_at": "2026-11-10T08:47:46-06:00"
       }
     },
     "refresh_status": "success",
