@@ -55,8 +55,8 @@ window.BET_BOARD_DATA = {
     "cleared": "4-5-0",
     "gauge": "30-27-0",
     "nearMiss": "207-190-3",
-    "checkedAt": "11:56 AM CT",
-    "checkedAtIso": "2026-11-13T11:57:36-06:00",
+    "checkedAt": "12:02 PM CT",
+    "checkedAtIso": "2026-11-13T12:04:09-06:00",
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
@@ -253,7 +253,7 @@ window.BET_BOARD_DATA = {
       },
       "pending": 9,
       "ungraded": 55,
-      "updatedAt": "2026-11-13T11:56:08-06:00"
+      "updatedAt": "2026-11-13T12:02:41-06:00"
     },
     "recent": [],
     "note": "Published picks only; near misses separate. Public performance_feed holds the full cited ledger and refreshed current evidence."
@@ -1229,7 +1229,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:08-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -1439,7 +1439,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -1618,7 +1618,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -1829,7 +1829,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -2041,7 +2041,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2218,7 +2218,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -2396,7 +2396,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2574,7 +2574,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2768,7 +2768,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -3016,7 +3016,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -3185,7 +3185,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -3410,7 +3410,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -3892,7 +3892,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -4080,7 +4080,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -4682,7 +4682,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -4857,7 +4857,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5044,7 +5044,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5233,7 +5233,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5414,7 +5414,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5586,7 +5586,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -5791,7 +5791,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -6169,7 +6169,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -6391,7 +6391,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -6576,7 +6576,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7015,7 +7015,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7408,7 +7408,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7606,7 +7606,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7781,7 +7781,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7955,7 +7955,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8146,7 +8146,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8343,7 +8343,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8534,7 +8534,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8708,7 +8708,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9092,7 +9092,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9322,7 +9322,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9710,7 +9710,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10080,7 +10080,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10585,7 +10585,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10942,7 +10942,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -11128,7 +11128,7 @@ window.BET_BOARD_DATA = {
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T11:57:36-06:00",
+        "graded_at": "2026-11-13T12:04:09-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -14349,10 +14349,10 @@ window.BET_BOARD_DATA = {
       }
     ]
   },
-  "normalized_generated_at": "2026-11-13T11:57:36-06:00",
+  "normalized_generated_at": "2026-11-13T12:04:09-06:00",
   "performance_feed": {
     "schema_version": "3.0.0",
-    "generated_at": "2026-11-13T11:57:36-06:00",
+    "generated_at": "2026-11-13T12:04:09-06:00",
     "grading_version": "1u-flat-v1",
     "entries": [
       {
@@ -50456,12 +50456,12 @@ window.BET_BOARD_DATA = {
       "grade": {
         "status": "success",
         "returncode": 0,
-        "finished_at": "2026-11-13T11:56:09-06:00"
+        "finished_at": "2026-11-13T12:02:42-06:00"
       },
       "closeline": {
         "status": "success",
         "returncode": 0,
-        "finished_at": "2026-11-13T11:56:47-06:00"
+        "finished_at": "2026-11-13T12:03:21-06:00"
       }
     },
     "refresh_status": "success",
