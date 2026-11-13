@@ -53,8 +53,8 @@
     "cleared": "4-5-0",
     "gauge": "30-27-0",
     "nearMiss": "207-190-3",
-    "checkedAt": "8:37 AM CT",
-    "checkedAtIso": "2026-11-13T08:38:41-06:00",
+    "checkedAt": "8:44 AM CT",
+    "checkedAtIso": "2026-11-13T08:45:27-06:00",
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
@@ -251,7 +251,7 @@
       },
       "pending": 9,
       "ungraded": 55,
-      "updatedAt": "2026-11-13T08:37:17-06:00"
+      "updatedAt": "2026-11-13T08:44:07-06:00"
     },
     "recent": [],
     "note": "Published picks only; near misses separate. Public performance_feed holds the full cited ledger and refreshed current evidence."
@@ -1227,7 +1227,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -1437,7 +1437,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -1616,7 +1616,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -1827,7 +1827,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -2039,7 +2039,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2216,7 +2216,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -2394,7 +2394,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2572,7 +2572,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -2766,7 +2766,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -3014,7 +3014,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -3183,7 +3183,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -3408,7 +3408,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -3890,7 +3890,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -4078,7 +4078,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -4680,7 +4680,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -4855,7 +4855,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5042,7 +5042,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5231,7 +5231,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5412,7 +5412,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -5584,7 +5584,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -5789,7 +5789,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909937",
@@ -6167,7 +6167,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -6389,7 +6389,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/basketball/nba/summary?event=401909936",
@@ -6574,7 +6574,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7013,7 +7013,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7406,7 +7406,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7604,7 +7604,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7779,7 +7779,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -7953,7 +7953,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8144,7 +8144,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8341,7 +8341,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8532,7 +8532,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -8706,7 +8706,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9090,7 +9090,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9320,7 +9320,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -9708,7 +9708,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10078,7 +10078,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10583,7 +10583,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -10940,7 +10940,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -11126,7 +11126,7 @@
         "clv_pct": null,
         "clv_pp": null,
         "clv_tag": "unobserved",
-        "graded_at": "2026-11-13T08:38:41-06:00",
+        "graded_at": "2026-11-13T08:45:27-06:00",
         "settlement": {
           "source": "ESPN scoreboard + box score",
           "url": "https://www.espn.com/football/nfl/summary?event=401873037",
@@ -14347,10 +14347,10 @@
       }
     ]
   },
-  "normalized_generated_at": "2026-11-13T08:38:41-06:00",
+  "normalized_generated_at": "2026-11-13T08:45:27-06:00",
   "performance_feed": {
     "schema_version": "3.0.0",
-    "generated_at": "2026-11-13T08:38:41-06:00",
+    "generated_at": "2026-11-13T08:45:27-06:00",
     "grading_version": "1u-flat-v1",
     "entries": [
       {
@@ -50454,12 +50454,12 @@
       "grade": {
         "status": "success",
         "returncode": 0,
-        "finished_at": "2026-11-13T08:37:19-06:00"
+        "finished_at": "2026-11-13T08:44:09-06:00"
       },
       "closeline": {
         "status": "success",
         "returncode": 0,
-        "finished_at": "2026-11-13T08:37:52-06:00"
+        "finished_at": "2026-11-13T08:44:39-06:00"
       }
     },
     "refresh_status": "success",
