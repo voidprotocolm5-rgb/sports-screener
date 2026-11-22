@@ -49,8 +49,8 @@ window.BET_BOARD_DATA = {
     "cleared": "4-5-0",
     "gauge": "30-27-0",
     "nearMiss": "207-190-3",
-    "checkedAt": "11:35 AM CT",
-    "checkedAtIso": "2026-11-22T11:35:26-06:00",
+    "checkedAt": "11:37 AM CT",
+    "checkedAtIso": "2026-11-22T11:37:36-06:00",
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
@@ -247,7 +247,7 @@ window.BET_BOARD_DATA = {
       },
       "pending": 9,
       "ungraded": 55,
-      "updatedAt": "2026-11-22T11:35:26-06:00"
+      "updatedAt": "2026-11-22T11:37:36-06:00"
     },
     "recent": [
       {

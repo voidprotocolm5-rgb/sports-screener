@@ -1098,7 +1098,7 @@
   }
   function renderNormalized(data) {
     lastPayload=data; renderProvisional(data); renderPerformance(data); renderMonteCarlo(data);
-    $("hero-gauge").innerHTML='<div class="hg-empty"><p class="hg-empty-title">Read the blockers, not just the hit rate.</p><p>All existing Nov 5 NBA and TNF props are preserved below. No new picks, prices or gates were created by this layout change.</p></div>';
+    $("hero-gauge").innerHTML='<div class="hg-empty"><p class="hg-empty-title">Read the blockers, not just the hit rate.</p><p>'+escapeHtml(data.summary||'')+'</p></div>';
     activeSport=resolveActiveSport(data); activeSub=hasSub(activeSport)?(onlySubFor(data,activeSport)||defaultSubFor(data,activeSport)):null; setHash(activeSport,activeSub);
     $("slate-name").textContent=data.slate||"Normalized research slate";
     var parsed=parseUpdatedAt(data.updatedAt);$("updated-at").textContent=data.updatedAtLabel||(parsed?parsed.toLocaleString():"—");$("age").textContent=formatAge(lastFetchAt||parsed);
