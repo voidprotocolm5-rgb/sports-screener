@@ -1,18 +1,18 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Publishers must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-11-22T18:57:53-06:00",
-  "updatedAtLabel": "Sun Nov 22, 6:57 PM CT",
+  "updatedAt": "2026-11-26T11:13:41-06:00",
+  "updatedAtLabel": "Thu Nov 26, 11:13 AM CT",
   "nearMiss": {
     "NBA-PROPS": []
   },
-  "slate": "Sun Nov 22 2026 — SNF MIN vs SF (Mexico City, 7:20 PM CT) · player props · Kalshi framing · engine v1.2.0",
+  "slate": "Thu Nov 26 2026 — Thanksgiving NFL (CHI @ DET 12:00 PM CT, PHI @ DAL 3:30 PM CT, KC @ BUF 7:20 PM CT) · player props · FanDuel framing · engine v1.0.6 floors",
   "sport": "NFL",
   "defaultSport": "NFL",
   "status": "live",
-  "summary": "SNF MIN vs SF (Mexico City, 7:20 PM CT): 0 CLEARED. Kalshi is priced within about 1-2c of Pinnacle fair on almost every prop, so after fees most picks are near-zero or negative EV. Best value: Kaelon Black rushing (25+/20+), Cousins 275+ pass yds, McCaffrey receiving 25-30+. Consensus pick Jefferson ATD is fair at 43-44% but costs 43c + fee; limit 40c. Game lines: Pinnacle backs SF -2.5/-3; Kalshi \"Minnesota wins by over 2.5\" No 70c is +2.3c. Research only, no bets placed.",
+  "summary": "Thanksgiving NFL, Thu Nov 26: CHI @ DET 12:00 PM CT, PHI @ DAL 3:30 PM CT, KC @ BUF 7:20 PM CT. 0 CLEARED, 11 GAUGE, 14 Near-Miss on the Top 25 (v1.0.6 floors + 10-book gates). Best priced GAUGE vs FanDuel: Dalton Kincaid over 34.5 receiving yards (SportsLine; Pin 39.5 vs FD 34.5; fair 55.8%, EV +5.2%). Isaac TeSlaa over 16.5 receiving yards is +3.3% EV at FD but form is weak (L5 mostly under). Saquon Barkley is questionable — treat both of his board sides as GAUGE only. FanDuel lines from GetOdds ~10:54 AM CT. Research only, no bets placed.",
   "clearedCount": 0,
-  "gaugeCount": 0,
+  "gaugeCount": 11,
   "sports": [
     {
       "id": "NFL",
@@ -49,8 +49,8 @@ window.BET_BOARD_DATA = {
     "cleared": "4-5-0",
     "gauge": "30-27-0",
     "nearMiss": "207-190-3",
-    "checkedAt": "11:08 AM CT",
-    "checkedAtIso": "2026-11-26T11:08:15-06:00",
+    "checkedAt": "11:14 AM CT",
+    "checkedAtIso": "2026-11-26T11:14:03-06:00",
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
@@ -247,7 +247,7 @@ window.BET_BOARD_DATA = {
       },
       "pending": 9,
       "ungraded": 55,
-      "updatedAt": "2026-11-26T11:08:15-06:00"
+      "updatedAt": "2026-11-26T11:14:03-06:00"
     },
     "recent": [
       {
@@ -603,9 +603,9 @@ window.BET_BOARD_DATA = {
     ],
     "note": "Flat 1u per card at the published price. Small sample; not predictive. Near misses tracked separately and excluded from totals."
   },
-  "xNote": "X send-it list 1867962331566612965 via search_posts_all (read-only), Sat 2 PM CT through Sun ~6:50 PM CT, SNF keyword filter, 25 posts returned. Counted: @PropBomb, @Covers, @parlay_bae (Jefferson ATD); @HolzSportsCo (Cousins o274.5 pass yds); @BretonPicks (Purdy 242+ pass yds); @waveswizdom (Purdy 2 pass TDs); @__LordPenguin (CMC rush+rec o89.5, mapped to rush and rec yds rungs); @parlay_bae (CMC, Kittle ATD). Not mappable on Kalshi: @G5Jake 1Q Kittle 1+ rec / A. Jones 2+ carries.",
-  "oddsApiNote": "Prices: Kalshi public API (markets + order books) and Pinnacle guest API, Kalshi + Pinnacle pulled 6:57 PM CT; order books 6:58 PM CT. No paid Odds API calls.",
-  "youtubeNote": "YouTube (free yt-dlp + yt-asr; TubeAlfred not used): 10 searches with today-upload filter, 86 unique videos scanned, 32 SNF-relevant candidates, 22 transcribed (20 via YouTube captions, 2 via local Whisper or earlier cache); stopped at this count for kickoff. Short of 25 props + 25 game-line videos because only ~32 same-day SNF videos existed and 9 were news/DFS/parlay-only. 8 videos contributed counted prop picks.",
+  "xNote": "X send-it list 1867962331566612965 via search_posts_all (read-only), plus public Thanksgiving prop posts as context only. Counted list singles: @austinsprops (Kyle Monangai o8.5 rush att — no matching FanDuel main-board market in today's GetOdds snapshot); @ActionNetworkHQ Jameson Williams ATD (single best-bet post); @ActionNetworkHQ Darius Cooper ATD (separate single best-bet post). Public/non-list X was not counted toward the X floor.",
+  "oddsApiNote": "FanDuel player-prop and Pinnacle two-way prices from the public GetOdds board (~10:54 AM CT). FanDuel game lines from RG.org Thanksgiving morning (FanDuel column). Observed FanDuel ATD prices from FanDuel Research / endzone / a public FD cite (Kelce +210, Javonte -180, Saquon +105, Jameson +200). Odds API key was not in the environment; the stale October quota.json was not used and no paid Odds API calls were made. No prices were invented. A few GetOdds \"Pinnacle\" cells (some rush+rec rows, Jashaun Corbin) were actually Novig and were dropped from sharp fair.",
+  "youtubeNote": "YouTube (free yt-dlp + yt-asr.sh, TubeAlfred not used — nearly out of credits): 25 searches including the required query \"bets prop bets for NFL today\" plus Thanksgiving/game-specific prop queries; 187 unique videos scanned, 33 unique-speaker videos queued, 30 were uploaded Nov 25-26. 27 of those 30 were transcribed (captions-first). Missing at publish: DFSnDonuts and Mayo Media (audio still downloading) and Marky Picks (no captions). Three queued videos from Nov 23-24 were excluded by date. Firm singles only; parlays/leans/ladders counted 0. Unique channels only.",
   "provisional": {
     "show": false
   },
@@ -635,460 +635,1528 @@ window.BET_BOARD_DATA = {
       "NFL": [
         {
           "rank": 1,
-          "tier": "Likely",
+          "tier": "GAUGE",
           "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "Kaelon Black",
-          "prop": "25+ rushing yards Yes (pick: over 28.5)",
-          "odds": "59c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "61.8%",
-          "evPct": 1.8,
-          "game": "MIN@SF (Mexico City) · limit 59c for +1c EV · depth 3522 @ ask",
+          "startCT": "2026-11-26T15:30:00-06:00",
+          "timeCT": "3:30 PM CT",
+          "player": "Saquon Barkley",
+          "prop": "over 62.5 Rushing yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5200.0%",
+          "evPct": -2.1,
+          "game": "PHI @ DAL · 3:30 PM CT · SiMple Bets+Warren Sharp; L5 [75.0, 22.0, 30.0, 62.0, 8.0]; Pin 64.5 vs FD 62.5; FOX listed Saquon questionable; last game 8 rush yds on 2 att; form MC 13% vs pin-cal 52%; MC 52.0%",
           "yt": 2,
           "ytWho": [
-            "Straight Fire Picks",
-            "Sports Fans USA"
+            "SiMple Bets",
+            "Warren Sharp"
           ],
           "xList": [],
           "xOutside": [],
           "rules": [
             {
               "result": "pass",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "1.1c"
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle"
             },
             {
               "result": "fail",
-              "rule": "YT >= 3"
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -2.07%"
             },
             {
               "result": "fail",
-              "rule": "X >= 2"
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-1.10pp"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
             }
           ],
-          "passCount": 2,
+          "passCount": 3,
           "failCount": 2,
-          "combined": 2
+          "combined": 2,
+          "rationale": "SiMple Bets+Warren Sharp; L5 [75.0, 22.0, 30.0, 62.0, 8.0]; Pin 64.5 vs FD 62.5; FOX listed Saquon questionable; last game 8 rush yds on 2 att; form MC 13% vs pin-cal 52%; MC 52.0%  EV -2.1%",
+          "booksAlign": false,
+          "blockers": [
+            "combined sources 2 < 3 floor",
+            "B1: EV -2.07% ≤ 0 at FanDuel",
+            "MinEdge: -1.10pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 63.87092903429131,
+          "mcP25": 45.03256077660407,
+          "mcP75": 82.99385732312432,
+          "pinLine": 64.5
         },
         {
           "rank": 2,
-          "tier": "Likely",
+          "tier": "GAUGE",
           "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "Justin Jefferson",
-          "prop": "1+ touchdowns Yes (pick: over 0.5)",
-          "odds": "43c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "43.6%",
-          "evPct": -2.7,
-          "game": "MIN@SF (Mexico City) · limit 40c for +1c EV · depth 205447 @ ask",
-          "yt": 1,
+          "startCT": "2026-11-26T15:30:00-06:00",
+          "timeCT": "3:30 PM CT",
+          "player": "Dallas Goedert",
+          "prop": "over 30.5 Receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5060.0%",
+          "evPct": -4.5,
+          "game": "PHI @ DAL · 3:30 PM CT · Sheisty Sports+StumpTheSpread - Free Sports Picks Predictions; L5 [38.0, 50.0, 30.0, 48.0, 61.0]; form MC 93% vs pin-cal 51%; MC 50.3%  EV -4.5%",
+          "yt": 2,
           "ytWho": [
-            "Guy Boston Sports"
+            "Sheisty Sports",
+            "StumpTheSpread - Free Sports Picks Predictions"
           ],
-          "xList": [
-            "PropBomb",
-            "Covers",
-            "parlay_bae"
-          ],
+          "xList": [],
           "xOutside": [],
           "rules": [
             {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-1.2c"
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
             },
             {
               "result": "fail",
-              "rule": "YT >= 3"
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -4.53%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-2.40pp"
             },
             {
               "result": "pass",
-              "rule": "X >= 2"
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
             }
           ],
-          "passCount": 2,
+          "passCount": 3,
           "failCount": 2,
-          "combined": 4
+          "combined": 2,
+          "rationale": "Sheisty Sports+StumpTheSpread - Free Sports Picks Predictions; L5 [38.0, 50.0, 30.0, 48.0, 61.0]; form MC 93% vs pin-cal 51%; MC 50.3%  EV -4.5%",
+          "booksAlign": false,
+          "blockers": [
+            "combined sources 2 < 3 floor",
+            "B1: EV -4.53% ≤ 0 at FanDuel",
+            "MinEdge: -2.40pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 30.57729760922269,
+          "mcP25": 22.59832848004552,
+          "mcP75": 38.68286456432024,
+          "pinLine": 30.5
         },
         {
           "rank": 3,
-          "tier": "Likely",
+          "tier": "GAUGE",
           "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
+          "startCT": "2026-11-26T19:20:00-06:00",
           "timeCT": "7:20 PM CT",
-          "player": "Christian McCaffrey",
-          "prop": "25+ receiving yards Yes (pick: over 33.5)",
-          "odds": "63c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "64.7%",
-          "evPct": 0.0,
-          "game": "MIN@SF (Mexico City) · limit 62c for +1c EV · depth 70 @ ask",
+          "player": "Dalton Kincaid",
+          "prop": "over 34.5 Receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5580.0%",
+          "evPct": 5.2,
+          "game": "KC @ BUF · 7:20 PM CT · SportsLine; L5 [58.0, 28.0, 86.0, 38.0, 7.0]; Pin 39.5 vs FD 34.5; MC 55.8%  EV +5.2%",
           "yt": 1,
           "ytWho": [
-            "The Bettor Mark"
+            "SportsLine"
           ],
-          "xList": [
-            "__LordPenguin"
-          ],
+          "xList": [],
           "xOutside": [],
           "rules": [
             {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "0.0c"
-            },
-            {
-              "result": "fail",
-              "rule": "YT >= 3"
-            },
-            {
-              "result": "fail",
-              "rule": "X >= 2"
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV 5.21%"
+            },
+            {
+              "result": "pass",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "2.76pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
             }
           ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 2
+          "passCount": 5,
+          "failCount": 0,
+          "combined": 1,
+          "rationale": "SportsLine; L5 [58.0, 28.0, 86.0, 38.0, 7.0]; Pin 39.5 vs FD 34.5; MC 55.8%  EV +5.2%",
+          "booksAlign": true,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor"
+          ],
+          "mcMedian": 38.83781239763467,
+          "mcP25": 18.758430554031673,
+          "mcP75": 59.20005048881178,
+          "pinLine": 39.5
         },
         {
           "rank": 4,
-          "tier": "Near miss",
+          "tier": "GAUGE",
           "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "Christian McCaffrey",
-          "prop": "70+ rushing yards Yes (pick: over 49.5)",
-          "odds": "30c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "29.8%",
-          "evPct": -5.4,
-          "game": "MIN@SF (Mexico City) · limit 27c for +1c EV · depth 8204 @ ask",
-          "yt": 2,
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Isaac TeSlaa",
+          "prop": "over 16.5 Receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5480.0%",
+          "evPct": 3.3,
+          "game": "CHI @ DET · 12:00 PM CT · VSiN; L5 [0.0, 19.0, 9.0, 0.0, 10.0]; Pin 17.5 vs FD 16.5; form MC 13% vs pin-cal 55%; MC 54.8%  EV +3.3%",
+          "yt": 1,
           "ytWho": [
-            "The Bettor Mark",
-            "Joe Holka"
+            "VSiN"
           ],
-          "xList": [
-            "__LordPenguin"
-          ],
+          "xList": [],
           "xOutside": [],
           "rules": [
             {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-1.7c"
-            },
-            {
-              "result": "fail",
-              "rule": "YT >= 3"
-            },
-            {
-              "result": "fail",
-              "rule": "X >= 2"
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV 3.28%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "1.74pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
             }
           ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 3
+          "passCount": 4,
+          "failCount": 1,
+          "combined": 1,
+          "rationale": "VSiN; L5 [0.0, 19.0, 9.0, 0.0, 10.0]; Pin 17.5 vs FD 16.5; form MC 13% vs pin-cal 55%; MC 54.8%  EV +3.3%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "MinEdge: 1.74pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 17.45737679646752,
+          "mcP25": 12.093160211690927,
+          "mcP75": 22.841492764836403,
+          "pinLine": 17.5
         },
         {
           "rank": 5,
-          "tier": "Near miss",
+          "tier": "GAUGE",
           "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "Brock Purdy",
-          "prop": "275+ passing yards Yes (pick: over 249.5)",
-          "odds": "32c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "33.0%",
-          "evPct": -1.8,
-          "game": "MIN@SF (Mexico City) · limit 30c for +1c EV · depth 713 @ ask",
+          "startCT": "2026-11-26T15:30:00-06:00",
+          "timeCT": "3:30 PM CT",
+          "player": "Javonte Williams",
+          "prop": "over 73.5 Rushing yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5270.0%",
+          "evPct": -0.7,
+          "game": "PHI @ DAL · 3:30 PM CT · PregameTV; L5 [67.0, 63.0, 101.0, 56.0, 155.0]; Pin 76.5 vs FD 73.5; form MC 66% vs pin-cal 53%; MC 52.7%  EV -0.7%",
           "yt": 1,
           "ytWho": [
-            "Sports Fans USA"
+            "PregameTV"
           ],
-          "xList": [
-            "BretonPicks"
-          ],
+          "xList": [],
           "xOutside": [],
           "rules": [
             {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-0.6c"
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle"
             },
             {
               "result": "fail",
-              "rule": "YT >= 3"
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -0.67%"
             },
             {
               "result": "fail",
-              "rule": "X >= 2"
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-0.36pp"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
             }
           ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 2
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "PregameTV; L5 [67.0, 63.0, 101.0, 56.0, 155.0]; Pin 76.5 vs FD 73.5; form MC 66% vs pin-cal 53%; MC 52.7%  EV -0.7%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -0.67% ≤ 0 at FanDuel",
+            "MinEdge: -0.36pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 76.29485026809553,
+          "mcP25": 48.8424732739997,
+          "mcP75": 103.94983366540265,
+          "pinLine": 76.5
         },
         {
           "rank": 6,
-          "tier": "Near miss",
+          "tier": "GAUGE",
           "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "Mike Evans",
-          "prop": "1+ touchdowns Yes (pick: over 0.5)",
-          "odds": "32c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "33.5%",
-          "evPct": -0.3,
-          "game": "MIN@SF (Mexico City) · limit 31c for +1c EV · depth 181870 @ ask",
+          "startCT": "2026-11-26T15:30:00-06:00",
+          "timeCT": "3:30 PM CT",
+          "player": "Dak Prescott",
+          "prop": "over 9.5 Rushing yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5110.0%",
+          "evPct": -3.7,
+          "game": "PHI @ DAL · 3:30 PM CT · Just Gridiron; L5 [9.0, 7.0, 1.0, 20.0, 8.0]; MC 51.5%  EV -3.7%",
           "yt": 1,
           "ytWho": [
-            "925 Sports"
+            "Just Gridiron"
           ],
           "xList": [],
           "xOutside": [],
           "rules": [
             {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-0.1c"
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
             },
             {
               "result": "fail",
-              "rule": "YT >= 3"
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -3.71%"
             },
             {
               "result": "fail",
-              "rule": "X >= 2"
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-1.97pp"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
             }
           ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 1
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "Just Gridiron; L5 [9.0, 7.0, 1.0, 20.0, 8.0]; MC 51.5%  EV -3.7%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -3.71% ≤ 0 at FanDuel",
+            "MinEdge: -1.97pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 9.804669499821536,
+          "mcP25": 4.322877822105924,
+          "mcP75": 15.177272676136171,
+          "pinLine": 9.5
         },
         {
           "rank": 7,
-          "tier": "Likely",
+          "tier": "GAUGE",
           "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "Kirk Cousins",
-          "prop": "275+ passing yards Yes (pick: over 274.5)",
-          "odds": "27c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "30.1%",
-          "evPct": 6.0,
-          "game": "MIN@SF (Mexico City) · limit 27c for +1c EV · depth 16828 @ ask",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [
-            "HolzSportsCo"
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Jahmyr Gibbs",
+          "prop": "over 94.5 Rushing yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5100.0%",
+          "evPct": -3.9,
+          "game": "CHI @ DET · 12:00 PM CT · StumpTheSpread - Free Sports Picks Predictions; L5 [98.0, 153.0, 74.0, 153.0, 116.0]; Pin 95.5 vs FD 94.5; form MC 79% vs pin-cal 51%; MC 51.0%  EV -3.9%",
+          "yt": 1,
+          "ytWho": [
+            "StumpTheSpread - Free Sports Picks Predictions"
           ],
+          "xList": [],
           "xOutside": [],
           "rules": [
             {
               "result": "pass",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "1.7c"
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle"
             },
             {
               "result": "fail",
-              "rule": "YT >= 3"
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -3.87%"
             },
             {
               "result": "fail",
-              "rule": "X >= 2"
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-2.06pp"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
             }
           ],
-          "passCount": 2,
+          "passCount": 3,
           "failCount": 2,
-          "combined": 1
+          "combined": 1,
+          "rationale": "StumpTheSpread - Free Sports Picks Predictions; L5 [98.0, 153.0, 74.0, 153.0, 116.0]; Pin 95.5 vs FD 94.5; form MC 79% vs pin-cal 51%; MC 51.0%  EV -3.9%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -3.87% ≤ 0 at FanDuel",
+            "MinEdge: -2.06pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 95.37342609359516,
+          "mcP25": 71.97835959514342,
+          "mcP75": 119.02600745685828,
+          "pinLine": 95.5
         },
         {
           "rank": 8,
-          "tier": "Near miss",
+          "tier": "GAUGE",
           "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
+          "startCT": "2026-11-26T19:20:00-06:00",
           "timeCT": "7:20 PM CT",
-          "player": "George Kittle",
-          "prop": "1+ touchdowns Yes (pick: over 0.5)",
-          "odds": "34c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "34.5%",
-          "evPct": -3.1,
-          "game": "MIN@SF (Mexico City) · limit 31c for +1c EV · depth 331402 @ ask",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [
-            "parlay_bae"
+          "player": "Patrick Mahomes",
+          "prop": "over 232.5 Passing yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5050.0%",
+          "evPct": -4.8,
+          "game": "KC @ BUF · 7:20 PM CT · Sheisty Sports; L5 [324.0, 348.0, 242.0, 321.0, 165.0]; Pin 235.5 vs FD 232.5; Orchard Park rain/wind; total down from 50.5 to 45.5; form MC 68% vs pin-cal 51%; MC 50.5%  EV -4.8%",
+          "yt": 1,
+          "ytWho": [
+            "Sheisty Sports"
           ],
+          "xList": [],
           "xOutside": [],
           "rules": [
             {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-1.1c"
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle"
             },
             {
               "result": "fail",
-              "rule": "YT >= 3"
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -4.80%"
             },
             {
               "result": "fail",
-              "rule": "X >= 2"
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-2.55pp"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
             }
           ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 1
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "Sheisty Sports; L5 [324.0, 348.0, 242.0, 321.0, 165.0]; Pin 235.5 vs FD 232.5; Orchard Park rain/wind; total down from 50.5 to 45.5; form MC 68% vs pin-cal 51%; MC 50.5%  EV -4.8%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -4.80% ≤ 0 at FanDuel",
+            "MinEdge: -2.55pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 233.45401416125165,
+          "mcP25": 182.3839278720703,
+          "mcP75": 284.1476445943764,
+          "pinLine": 235.5
         },
         {
           "rank": 9,
-          "tier": "Near miss",
+          "tier": "GAUGE",
           "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "Keenan Allen",
-          "prop": "3+ receptions Yes (pick: over 2.5)",
-          "odds": "52c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "51.8%",
-          "evPct": -3.7,
-          "game": "MIN@SF (Mexico City) · limit 48c for +1c EV · depth 979 @ ask",
+          "startCT": "2026-11-26T15:30:00-06:00",
+          "timeCT": "3:30 PM CT",
+          "player": "Saquon Barkley",
+          "prop": "under 73.5 Rush + Rec yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "form only",
+          "fair": "form 8870.0%",
+          "evPct": null,
+          "game": "PHI @ DAL · 3:30 PM CT · Sheisty Sports; L5 [75.0, 22.0, 54.0, 71.0, 10.0]; FOX listed Saquon questionable; last game 8 rush yds on 2 att; MC 88.7%",
           "yt": 1,
           "ytWho": [
-            "Dante's Sports Data Clips"
+            "Sheisty Sports"
           ],
           "xList": [],
           "xOutside": [],
           "rules": [
             {
               "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-2.0c"
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "no Pinnacle two-way"
             },
             {
               "result": "fail",
-              "rule": "YT >= 3"
-            },
-            {
-              "result": "fail",
-              "rule": "X >= 2"
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV n/a"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "35.64pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
             }
           ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 1
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "Sheisty Sports; L5 [75.0, 22.0, 54.0, 71.0, 10.0]; FOX listed Saquon questionable; last game 8 rush yds on 2 att; MC 88.7%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B2/B6: no Pinnacle (or 3-book) sharp fair",
+            "B1: no EV (missing FD price or fair)"
+          ],
+          "mcMedian": 38.59785834960294,
+          "mcP25": 18.931293916888716,
+          "mcP75": 58.202175560459764,
+          "pinLine": null
         },
         {
           "rank": 10,
-          "tier": "Near miss",
+          "tier": "GAUGE",
           "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "Brock Purdy",
-          "prop": "3+ passing touchdowns Yes (pick: over 1.5)",
-          "odds": "23c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "24.1%",
-          "evPct": -0.8,
-          "game": "MIN@SF (Mexico City) · limit 21c for +1c EV · depth 3224 @ ask",
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Jameson Williams",
+          "prop": "over 0.5 Anytime TD",
+          "odds": "+200",
+          "book": "FanDuel",
+          "fairLabel": "TD rate (no Pin two-way)",
+          "fair": "6020.0%",
+          "evPct": null,
+          "game": "CHI @ DET · 12:00 PM CT · ActionNetworkHQ; recent TD rate / fair 60%; MC 60.2%",
           "yt": 0,
           "ytWho": [],
           "xList": [
-            "waveswizdom"
+            "ActionNetworkHQ"
           ],
           "xOutside": [],
           "rules": [
             {
               "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-0.2c"
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "no Pinnacle two-way"
             },
             {
               "result": "fail",
-              "rule": "YT >= 3"
-            },
-            {
-              "result": "fail",
-              "rule": "X >= 2"
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV n/a"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "26.87pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "200"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
             }
           ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 1
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "ActionNetworkHQ; recent TD rate / fair 60%; MC 60.2%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 0 < 2",
+            "combined sources 1 < 3 floor",
+            "B2/B6: no Pinnacle (or 3-book) sharp fair",
+            "B1: no EV (missing FD price or fair)"
+          ],
+          "mcMedian": 1,
+          "mcP25": 0,
+          "mcP75": 1,
+          "pinLine": 0.5
         },
         {
           "rank": 11,
-          "tier": "Near miss",
+          "tier": "GAUGE",
           "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
+          "startCT": "2026-11-26T19:20:00-06:00",
           "timeCT": "7:20 PM CT",
-          "player": "Jordan Mason",
-          "prop": "40+ rushing yards Yes (pick: over 38.5)",
-          "odds": "51c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "49.4%",
+          "player": "Travis Kelce",
+          "prop": "over 0.5 Anytime TD",
+          "odds": "+210",
+          "book": "FanDuel",
+          "fairLabel": "TD rate (no Pin two-way)",
+          "fair": "4030.0%",
+          "evPct": null,
+          "game": "KC @ BUF · 7:20 PM CT · WagerTalk TV: Sports Picks and Betting Tips; recent TD rate / fair 40%; MC 40.3%",
+          "yt": 1,
+          "ytWho": [
+            "WagerTalk TV: Sports Picks and Betting Tips"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "fail",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "no Pinnacle two-way"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV n/a"
+            },
+            {
+              "result": "pass",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "8.07pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "210"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "WagerTalk TV: Sports Picks and Betting Tips; recent TD rate / fair 40%; MC 40.3%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B2/B6: no Pinnacle (or 3-book) sharp fair",
+            "B1: no EV (missing FD price or fair)"
+          ],
+          "mcMedian": 0,
+          "mcP25": 0,
+          "mcP75": 1,
+          "pinLine": 0.5
+        },
+        {
+          "rank": 12,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T15:30:00-06:00",
+          "timeCT": "3:30 PM CT",
+          "player": "DeVonta Smith",
+          "prop": "over 66.5 Receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "4870.0%",
+          "evPct": -8.2,
+          "game": "PHI @ DAL · 3:30 PM CT · Cash Out Sports Picks+Land Your Bets+PregameTV+VSiN; L5 [41.0, 75.0, 65.0, 117.0, 53.0]; Pin 65.5 vs FD 66.5; form MC 60% vs pin-cal 49%; MC 48.7%  EV -8.2%",
+          "yt": 4,
+          "ytWho": [
+            "Cash Out Sports Picks",
+            "Land Your Bets",
+            "PregameTV",
+            "VSiN"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -8.24%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-4.37pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 4,
+          "rationale": "Cash Out Sports Picks+Land Your Bets+PregameTV+VSiN; L5 [41.0, 75.0, 65.0, 117.0, 53.0]; Pin 65.5 vs FD 66.5; form MC 60% vs pin-cal 49%; MC 48.7%  EV -8.2%",
+          "booksAlign": false,
+          "blockers": [
+            "B1: EV -8.24% ≤ 0 at FanDuel",
+            "MinEdge: -4.37pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 65.46942919002451,
+          "mcP25": 45.695638052621995,
+          "mcP75": 85.05765875479456,
+          "pinLine": 65.5
+        },
+        {
+          "rank": 13,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Colston Loveland",
+          "prop": "over 53.5 Receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "4860.0%",
+          "evPct": -8.4,
+          "game": "CHI @ DET · 12:00 PM CT · Dante's Sports Data+Land Your Bets+PregameTV; L5 [29.0, 54.0, 65.0, 69.0, 65.0]; Pin 52.5 vs FD 53.5; form MC 57% vs pin-cal 49%; MC 48.6%  EV -8.4%",
+          "yt": 3,
+          "ytWho": [
+            "Dante's Sports Data",
+            "Land Your Bets",
+            "PregameTV"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -8.44%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-4.48pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 3,
+          "rationale": "Dante's Sports Data+Land Your Bets+PregameTV; L5 [29.0, 54.0, 65.0, 69.0, 65.0]; Pin 52.5 vs FD 53.5; form MC 57% vs pin-cal 49%; MC 48.6%  EV -8.4%",
+          "booksAlign": false,
+          "blockers": [
+            "B1: EV -8.44% ≤ 0 at FanDuel",
+            "MinEdge: -4.48pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 52.94049590870745,
+          "mcP25": 41.94185712549483,
+          "mcP75": 64.12235976601511,
+          "pinLine": 52.5
+        },
+        {
+          "rank": 14,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Amon-Ra St. Brown",
+          "prop": "over 6.5 Receptions",
+          "odds": "-158",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5800.0%",
+          "evPct": -5.3,
+          "game": "CHI @ DET · 12:00 PM CT · VSiN; L5 [5.0, 4.0, 8.0, 7.0, 9.0]; form MC 49% vs pin-cal 58%; MC 62.7%  EV -5.3%",
+          "yt": 1,
+          "ytWho": [
+            "VSiN"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -5.32%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-3.26pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-158"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "VSiN; L5 [5.0, 4.0, 8.0, 7.0, 9.0]; form MC 49% vs pin-cal 58%; MC 62.7%  EV -5.3%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -5.32% ≤ 0 at FanDuel",
+            "MinEdge: -3.26pp vs BE 61.2% (need 2.5)"
+          ],
+          "mcMedian": 7.0,
+          "mcP25": 6.0,
+          "mcP75": 9.0,
+          "pinLine": 6.5
+        },
+        {
+          "rank": 15,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Caleb Williams",
+          "prop": "under 22.5 Rushing yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5000.0%",
+          "evPct": -5.8,
+          "game": "CHI @ DET · 12:00 PM CT · Sheisty Sports; L5 [11.0, 16.0, 1.0, 18.0, 3.0]; form MC 98% vs pin-cal 50%; MC 50.2%  EV -5.8%",
+          "yt": 1,
+          "ytWho": [
+            "Sheisty Sports"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -5.75%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-3.05pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "Sheisty Sports; L5 [11.0, 16.0, 1.0, 18.0, 3.0]; form MC 98% vs pin-cal 50%; MC 50.2%  EV -5.8%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -5.75% ≤ 0 at FanDuel",
+            "MinEdge: -3.05pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 22.45932469515813,
+          "mcP25": 17.11006511311405,
+          "mcP75": 27.860840791933654,
+          "pinLine": 22.5
+        },
+        {
+          "rank": 16,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Jahmyr Gibbs",
+          "prop": "over 35.5 Receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5000.0%",
+          "evPct": -5.8,
+          "game": "CHI @ DET · 12:00 PM CT · VSiN; L5 [20.0, 99.0, 0.0, 15.0, 27.0]; MC 49.8%  EV -5.8%",
+          "yt": 1,
+          "ytWho": [
+            "VSiN"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -5.75%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-3.05pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "VSiN; L5 [20.0, 99.0, 0.0, 15.0, 27.0]; MC 49.8%  EV -5.8%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -5.75% ≤ 0 at FanDuel",
+            "MinEdge: -3.05pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 35.26731825199657,
+          "mcP25": 9.386224143275726,
+          "mcP75": 61.574597340778055,
+          "pinLine": 35.5
+        },
+        {
+          "rank": 17,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Luther Burden III",
+          "prop": "over 62.5 Receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5000.0%",
+          "evPct": -5.8,
+          "game": "CHI @ DET · 12:00 PM CT · VSiN; L5 [10.0, 97.0, 56.0, 130.0, 95.0]; form MC 65% vs pin-cal 50%; MC 50.3%  EV -5.8%",
+          "yt": 1,
+          "ytWho": [
+            "VSiN"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -5.75%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-3.05pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "VSiN; L5 [10.0, 97.0, 56.0, 130.0, 95.0]; form MC 65% vs pin-cal 50%; MC 50.3%  EV -5.8%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -5.75% ≤ 0 at FanDuel",
+            "MinEdge: -3.05pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 62.90468038592102,
+          "mcP25": 31.94230434586528,
+          "mcP75": 93.48395528933949,
+          "pinLine": 62.5
+        },
+        {
+          "rank": 18,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "D'Andre Swift",
+          "prop": "over 15.5 Receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5000.0%",
+          "evPct": -5.8,
+          "game": "CHI @ DET · 12:00 PM CT · SiMple Bets; L5 [8.0, 0.0, 10.0, 12.0, 26.0]; form MC 33% vs pin-cal 50%; MC 50.1%  EV -5.8%",
+          "yt": 1,
+          "ytWho": [
+            "SiMple Bets"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -5.75%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-3.05pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "SiMple Bets; L5 [8.0, 0.0, 10.0, 12.0, 26.0]; form MC 33% vs pin-cal 50%; MC 50.1%  EV -5.8%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -5.75% ≤ 0 at FanDuel",
+            "MinEdge: -3.05pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 15.510199300071449,
+          "mcP25": 9.135900123036533,
+          "mcP75": 21.92595038984651,
+          "pinLine": 15.5
+        },
+        {
+          "rank": 19,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Sam LaPorta",
+          "prop": "under 48.5 Receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5000.0%",
+          "evPct": -5.8,
+          "game": "CHI @ DET · 12:00 PM CT · BettingPros; L5 [62.0, 16.0, 32.0, 33.0, 18.0]; form MC 87% vs pin-cal 50%; MC 50.1%  EV -5.8%",
+          "yt": 1,
+          "ytWho": [
+            "BettingPros"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -5.75%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-3.05pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "BettingPros; L5 [62.0, 16.0, 32.0, 33.0, 18.0]; form MC 87% vs pin-cal 50%; MC 50.1%  EV -5.8%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -5.75% ≤ 0 at FanDuel",
+            "MinEdge: -3.05pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 48.44316143522199,
+          "mcP25": 36.11270813452076,
+          "mcP75": 60.92932912363945,
+          "pinLine": 48.5
+        },
+        {
+          "rank": 20,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T19:20:00-06:00",
+          "timeCT": "7:20 PM CT",
+          "player": "Emmett Johnson",
+          "prop": "over 80.5 Rushing yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5000.0%",
+          "evPct": -5.8,
+          "game": "KC @ BUF · 7:20 PM CT · BettingPros; L5 [105.0, 101.0, 34.0, 15.0, 0.0]; Walker OUT; last 2: 105 and 101 rush yds on 23/22 att; form MC 41% vs pin-cal 50%; MC 49.9%  EV -5.8%",
+          "yt": 1,
+          "ytWho": [
+            "BettingPros"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -5.75%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-3.05pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "BettingPros; L5 [105.0, 101.0, 34.0, 15.0, 0.0]; Walker OUT; last 2: 105 and 101 rush yds on 23/22 att; form MC 41% vs pin-cal 50%; MC 49.9%  EV -5.8%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -5.75% ≤ 0 at FanDuel",
+            "MinEdge: -3.05pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 80.4235318373868,
+          "mcP25": 47.478987425659334,
+          "mcP75": 113.6914897970759,
+          "pinLine": 80.5
+        },
+        {
+          "rank": 21,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T19:20:00-06:00",
+          "timeCT": "7:20 PM CT",
+          "player": "Josh Allen",
+          "prop": "under 38.5 Rushing yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5000.0%",
+          "evPct": -5.8,
+          "game": "KC @ BUF · 7:20 PM CT · Frank Sturgis; L5 [0.0, 5.0, 15.0, 30.0, 1.0]; L5 rush only 0/5/15/30/1; line 38.5 looks high vs form; form MC 100% vs pin-cal 50%; MC 49.9%  EV -5.8%",
+          "yt": 1,
+          "ytWho": [
+            "Frank Sturgis"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -5.75%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-3.05pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "Frank Sturgis; L5 [0.0, 5.0, 15.0, 30.0, 1.0]; L5 rush only 0/5/15/30/1; line 38.5 looks high vs form; form MC 100% vs pin-cal 50%; MC 49.9%  EV -5.8%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -5.75% ≤ 0 at FanDuel",
+            "MinEdge: -3.05pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 38.543019982567856,
+          "mcP25": 30.066402799752773,
+          "mcP75": 46.88960748006919,
+          "pinLine": 38.5
+        },
+        {
+          "rank": 22,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Jameson Williams",
+          "prop": "over 57.5 Receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "4980.0%",
+          "evPct": -6.2,
+          "game": "CHI @ DET · 12:00 PM CT · BettingPros; L5 [93.0, 50.0, 31.0, 70.0, 91.0]; form MC 64% vs pin-cal 50%; MC 49.7%  EV -6.2%",
+          "yt": 1,
+          "ytWho": [
+            "BettingPros"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -6.16%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-3.27pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "BettingPros; L5 [93.0, 50.0, 31.0, 70.0, 91.0]; form MC 64% vs pin-cal 50%; MC 49.7%  EV -6.2%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -6.16% ≤ 0 at FanDuel",
+            "MinEdge: -3.27pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 57.27401084893975,
+          "mcP25": 39.41464951838239,
+          "mcP75": 75.31426143625006,
+          "pinLine": 57.5
+        },
+        {
+          "rank": 23,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T15:30:00-06:00",
+          "timeCT": "3:30 PM CT",
+          "player": "Brevyn Spann-Ford",
+          "prop": "under 13.5 Receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "4980.0%",
+          "evPct": -6.2,
+          "game": "PHI @ DAL · 3:30 PM CT · Lineups; MC 49.5%  EV -6.2%",
+          "yt": 1,
+          "ytWho": [
+            "Lineups"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -6.16%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-3.27pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "Lineups; MC 49.5%  EV -6.2%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -6.16% ≤ 0 at FanDuel",
+            "MinEdge: -3.27pp vs BE 53.1% (need 2.5)"
+          ],
+          "mcMedian": 13.632977202088954,
+          "mcP25": 5.535052247938264,
+          "mcP75": 21.695754080881557,
+          "pinLine": 13.5
+        },
+        {
+          "rank": 24,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Sam LaPorta",
+          "prop": "under 4.5 Receptions",
+          "odds": "-130",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5290.0%",
           "evPct": -6.4,
-          "game": "MIN@SF (Mexico City) · limit 46c for +1c EV · depth 4937 @ ask",
+          "game": "CHI @ DET · 12:00 PM CT · Frank Sturgis; L5 [3.0, 1.0, 4.0, 3.0, 1.0]; form MC 94% vs pin-cal 53%; MC 46.8%  EV -6.4%",
+          "yt": 1,
+          "ytWho": [
+            "Frank Sturgis"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -6.38%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-3.61pp"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-130"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "Frank Sturgis; L5 [3.0, 1.0, 4.0, 3.0, 1.0]; form MC 94% vs pin-cal 53%; MC 46.8%  EV -6.4%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -6.38% ≤ 0 at FanDuel",
+            "MinEdge: -3.61pp vs BE 56.5% (need 2.5)"
+          ],
+          "mcMedian": 5.0,
+          "mcP25": 3.0,
+          "mcP75": 6.0,
+          "pinLine": 4.5
+        },
+        {
+          "rank": 25,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-26T12:00:00-06:00",
+          "timeCT": "12:00 PM CT",
+          "player": "Jameson Williams",
+          "prop": "over 3.5 Receptions",
+          "odds": "-130",
+          "book": "FanDuel",
+          "fairLabel": "fair (Pin-cal)",
+          "fair": "5250.0%",
+          "evPct": -7.1,
+          "game": "CHI @ DET · 12:00 PM CT · 925 Sports; L5 [4.0, 4.0, 1.0, 4.0, 5.0]; MC 59.1%  EV -7.1%",
           "yt": 1,
           "ytWho": [
             "925 Sports"
@@ -1097,252 +2165,59 @@ window.BET_BOARD_DATA = {
           "xOutside": [],
           "rules": [
             {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-3.4c"
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "pinnacle_devig_same_line"
             },
             {
               "result": "fail",
-              "rule": "YT >= 3"
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "EV -7.14%"
             },
             {
               "result": "fail",
-              "rule": "X >= 2"
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-4.04pp"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
-            }
-          ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 1
-        },
-        {
-          "rank": 12,
-          "tier": "Near miss",
-          "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "Christian McCaffrey",
-          "prop": "1+ touchdowns Yes (pick: over 0.5)",
-          "odds": "59c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "57.8%",
-          "evPct": -4.8,
-          "game": "MIN@SF (Mexico City) · limit 54c for +1c EV · depth 77672 @ ask",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [
-            "parlay_bae"
-          ],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-2.9c"
-            },
-            {
-              "result": "fail",
-              "rule": "YT >= 3"
-            },
-            {
-              "result": "fail",
-              "rule": "X >= 2"
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-130"
             },
             {
               "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
             }
           ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 1
-        },
-        {
-          "rank": 13,
-          "tier": "Near miss",
-          "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "T.J. Hockenson",
-          "prop": "5+ receptions Yes (pick: over 4.5)",
-          "odds": "55c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "53.9%",
-          "evPct": -5.1,
-          "game": "MIN@SF (Mexico City) · limit 51c for +1c EV · depth 3577 @ ask",
-          "yt": 1,
-          "ytWho": [
-            "The Bettor Mark"
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "925 Sports; L5 [4.0, 4.0, 1.0, 4.0, 5.0]; MC 59.1%  EV -7.1%",
+          "booksAlign": false,
+          "blockers": [
+            "verified independent YT 1 < 2",
+            "combined sources 1 < 3 floor",
+            "B1: EV -7.14% ≤ 0 at FanDuel",
+            "MinEdge: -4.04pp vs BE 56.5% (need 2.5)"
           ],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-2.9c"
-            },
-            {
-              "result": "fail",
-              "rule": "YT >= 3"
-            },
-            {
-              "result": "fail",
-              "rule": "X >= 2"
-            },
-            {
-              "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
-            }
-          ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 1
-        },
-        {
-          "rank": 14,
-          "tier": "Near miss",
-          "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "Jordan Mason",
-          "prop": "1+ receptions No (pick: under)",
-          "odds": "37c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "35.4%",
-          "evPct": -8.5,
-          "game": "MIN@SF (Mexico City) · limit 32c for +1c EV · depth 461 @ ask",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-3.3c"
-            },
-            {
-              "result": "fail",
-              "rule": "YT >= 3"
-            },
-            {
-              "result": "fail",
-              "rule": "X >= 2"
-            },
-            {
-              "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
-            }
-          ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 0
-        },
-        {
-          "rank": 15,
-          "tier": "Near miss",
-          "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "George Kittle",
-          "prop": "5+ receptions No (pick: under 4.5)",
-          "odds": "58c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "55.6%",
-          "evPct": -7.0,
-          "game": "MIN@SF (Mexico City) · limit 52c for +1c EV · depth 5775 @ ask",
-          "yt": 1,
-          "ytWho": [
-            "Just A Bet Outside"
-          ],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-4.2c"
-            },
-            {
-              "result": "fail",
-              "rule": "YT >= 3"
-            },
-            {
-              "result": "fail",
-              "rule": "X >= 2"
-            },
-            {
-              "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
-            }
-          ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 1
-        },
-        {
-          "rank": 16,
-          "tier": "Near miss",
-          "gameState": "pre",
-          "startCT": "2026-11-22T19:20:00-06:00",
-          "timeCT": "7:20 PM CT",
-          "player": "Myles Price",
-          "prop": "10+ receiving yards Yes (pick: over 7.5)",
-          "odds": "46c",
-          "book": "Kalshi",
-          "fairLabel": "fair",
-          "fair": "38.3%",
-          "evPct": -19.9,
-          "game": "MIN@SF (Mexico City) · limit 35c for +1c EV · depth 4448 @ ask",
-          "yt": 1,
-          "ytWho": [
-            "Straight Fire Picks"
-          ],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "fail",
-              "rule": "EV > 0 at Kalshi ask after fee",
-              "reason": "-9.5c"
-            },
-            {
-              "result": "fail",
-              "rule": "YT >= 3"
-            },
-            {
-              "result": "fail",
-              "rule": "X >= 2"
-            },
-            {
-              "result": "pass",
-              "rule": "-200 cap (cost <= 66.7c)"
-            }
-          ],
-          "passCount": 1,
-          "failCount": 3,
-          "combined": 1
+          "mcMedian": 4.0,
+          "mcP25": 3.0,
+          "mcP75": 5.0,
+          "pinLine": 3.5
         }
       ]
     },
-    "updatedAtLabel": "Sun Nov 22, 6:57 PM CT",
-    "engine": "1.2.0",
-    "note": "Kalshi framing: price in cents = implied chance. Fair = Pinnacle no-vig main line, laddered to Kalshi strikes. EV in cents per contract after Kalshi fee. Limit = price that gives +1c EV.",
-    "noEdgeNote": "0 CLEARED today.",
+    "updatedAtLabel": "Thu Nov 26, 11:13 AM CT",
+    "engine": "v1.0.6 floors (YT≥2, combined≥3, book gates) — this Thanksgiving pass. Site methodology remains v1.2.0; 0 CLEARED under both.",
+    "note": "FanDuel framing: American odds on the ticket. Fair = Pinnacle no-vig or a 50,000-trial Monte Carlo calibrated to Pinnacle, evaluated at the FanDuel line. EV is vs FanDuel's actual price. Research only; no bets placed. 0 CLEARED.",
+    "noEdgeNote": "0 CLEARED today. 11 GAUGE (source-backed, book gates not fully aligned). Highest-source consensus (DeVonta 4 YT, Loveland 3 YT) is juiced at FD -113 and fails MinEdge/B1.",
     "emptyText": {
       "NFL": "No NFL props today."
     }
   },
   "siteName": "Bearish Bulls Picks",
-  "propsNote": "SNF MIN vs SF (Mexico City): 16 ranked props. 0 LIVE at publish. Noon-window board archived at nfl-20261122-board.json.",
+  "propsNote": "Thanksgiving NFL (three games only; Packers @ Rams was Wednesday). FanDuel framing. Engine floors for this pass are v1.0.6 as specified (combined ≥3, verified independent YT ≥2, X counts toward the combined floor, all 10 book rules as gates). The live site methodology page still describes v1.2.0 (YT≥3, X≥2, combined≥5); 0 props CLEARED under either standard. Official fair/EV is Pinnacle no-vig or a 50,000-trial MC distribution calibrated to that Pinnacle line, then evaluated at the FanDuel number. EV is not computed from raw game-log form. Highest-source consensus plays (DeVonta Smith o66.5 rec yds, 4 YT; Colston Loveland o53.5 rec yds, 3 YT) fail B1/MinEdge because Pin-cal fair is ~48.6-48.7% at FD -113. Saquon is listed Q by FOX; his over 62.5 rush (2 YT) conflicts with Sheisty's under 73.5 rush+rec (form-only, no sharp fair). Official inactives ~90 min before each kick.",
   "defaultSub": {
     "NFL": "props"
   },
@@ -1352,46 +2227,186 @@ window.BET_BOARD_DATA = {
     ]
   },
   "monteCarlo": {
-    "title": "Monte Carlo · best parlays from alt rungs (10,000 runs, Gaussian copula)",
-    "sub": "Legs = best alt rung per prop with fair >= 55%. Same-game legs use rho estimates (QB/WR same team +0.35, same team +0.10, cross-team same game +0.05). Each parlay has at least half its legs from YT/X-backed props.",
+    "title": "Thanksgiving FanDuel SGP / parlay Monte Carlo (50,000 trials, Gaussian copula)",
+    "sub": "No FanDuel SGP ticket prices were observed, so only model fair hit % and fair decimal payouts are shown. Check the live FanDuel SGP price before using. Same-game CHI-DET stacks preferred. QB-WR +0.40, same player +0.55, cross-team rush -0.15, multi-game 0.",
     "blocks": [
       {
-        "title": "2-leg: Kaelon Black 20+ rushing yards Yes @67c / Jordan Mason 2+ receptions No @68c",
+        "title": "2-leg MC (no FD SGP price observed): Isaac TeSlaa over 16.5 Receiving yards / Amon-Ra St. Brown over 6.5 Receptions",
         "cells": [
           {
-            "label": "True hit",
-            "value": "53.0%",
-            "meta": "indep 53.0%"
+            "label": "MC hit (corr)",
+            "value": "36.4%",
+            "meta": "indep 34.3% · same-game CHIDET"
           },
           {
-            "label": "Payout",
-            "value": "2.09x",
-            "meta": "cost 47.7c"
+            "label": "Fair payout",
+            "value": "2.74x",
+            "meta": "model fair; check FanDuel SGP price before using"
           },
           {
-            "label": "EV",
-            "value": "+11.1%",
-            "meta": "Kaelon Black~Jordan Mason rho +0.05"
+            "label": "Corr note",
+            "value": "same-game",
+            "meta": "QB-WR +0.40, same player +0.55, cross-team rush -0.15, multi-game 0"
           }
         ]
       },
       {
-        "title": "3-leg: Kaelon Black 20+ rushing yards Yes @67c / Christian McCaffrey 30+ receiving yards Yes @55c / Jordan Mason 2+ receptions No @68c",
+        "title": "2-leg MC (no FD SGP price observed): Jahmyr Gibbs over 94.5 Rushing yards / Jahmyr Gibbs over 35.5 Receiving yards",
         "cells": [
           {
-            "label": "True hit",
-            "value": "29.1%",
-            "meta": "indep 29.9%"
+            "label": "MC hit (corr)",
+            "value": "34.8%",
+            "meta": "indep 25.4% · same-game CHIDET"
           },
           {
-            "label": "Payout",
-            "value": "3.69x",
-            "meta": "cost 27.1c"
+            "label": "Fair payout",
+            "value": "2.87x",
+            "meta": "model fair; check FanDuel SGP price before using"
           },
           {
-            "label": "EV",
-            "value": "+7.3%",
-            "meta": "Kaelon Black~Christian McCaffrey rho -0.15; Kaelon Black~Jordan Mason rho +0.05; Christian McCaffrey~Jordan Mason rho +0.05"
+            "label": "Corr note",
+            "value": "same-game",
+            "meta": "QB-WR +0.40, same player +0.55, cross-team rush -0.15, multi-game 0"
+          }
+        ]
+      },
+      {
+        "title": "2-leg MC (no FD SGP price observed): Jahmyr Gibbs over 94.5 Rushing yards / Amon-Ra St. Brown over 6.5 Receptions",
+        "cells": [
+          {
+            "label": "MC hit (corr)",
+            "value": "33.9%",
+            "meta": "indep 32.0% · same-game CHIDET"
+          },
+          {
+            "label": "Fair payout",
+            "value": "2.95x",
+            "meta": "model fair; check FanDuel SGP price before using"
+          },
+          {
+            "label": "Corr note",
+            "value": "same-game",
+            "meta": "QB-WR +0.40, same player +0.55, cross-team rush -0.15, multi-game 0"
+          }
+        ]
+      },
+      {
+        "title": "3-leg MC (no FD SGP price observed): Jahmyr Gibbs over 94.5 Rushing yards / Amon-Ra St. Brown over 6.5 Receptions / Jahmyr Gibbs over 35.5 Receiving yards",
+        "cells": [
+          {
+            "label": "MC hit (corr)",
+            "value": "23.4%",
+            "meta": "indep 15.9% · same-game CHIDET"
+          },
+          {
+            "label": "Fair payout",
+            "value": "4.27x",
+            "meta": "model fair; check FanDuel SGP price before using"
+          },
+          {
+            "label": "Corr note",
+            "value": "same-game",
+            "meta": "QB-WR +0.40, same player +0.55, cross-team rush -0.15, multi-game 0"
+          }
+        ]
+      },
+      {
+        "title": "3-leg MC (no FD SGP price observed): Isaac TeSlaa over 16.5 Receiving yards / Jahmyr Gibbs over 94.5 Rushing yards / Jahmyr Gibbs over 35.5 Receiving yards",
+        "cells": [
+          {
+            "label": "MC hit (corr)",
+            "value": "21.2%",
+            "meta": "indep 13.9% · same-game CHIDET"
+          },
+          {
+            "label": "Fair payout",
+            "value": "4.72x",
+            "meta": "model fair; check FanDuel SGP price before using"
+          },
+          {
+            "label": "Corr note",
+            "value": "same-game",
+            "meta": "QB-WR +0.40, same player +0.55, cross-team rush -0.15, multi-game 0"
+          }
+        ]
+      },
+      {
+        "title": "3-leg MC (no FD SGP price observed): Isaac TeSlaa over 16.5 Receiving yards / Amon-Ra St. Brown over 6.5 Receptions / Jahmyr Gibbs over 35.5 Receiving yards",
+        "cells": [
+          {
+            "label": "MC hit (corr)",
+            "value": "20.3%",
+            "meta": "indep 17.1% · same-game CHIDET"
+          },
+          {
+            "label": "Fair payout",
+            "value": "4.91x",
+            "meta": "model fair; check FanDuel SGP price before using"
+          },
+          {
+            "label": "Corr note",
+            "value": "same-game",
+            "meta": "QB-WR +0.40, same player +0.55, cross-team rush -0.15, multi-game 0"
+          }
+        ]
+      },
+      {
+        "title": "4-leg MC (no FD SGP price observed): Isaac TeSlaa over 16.5 Receiving yards / Jahmyr Gibbs over 94.5 Rushing yards / Amon-Ra St. Brown over 6.5 Receptions / Jahmyr Gibbs over 35.5 Receiving yards",
+        "cells": [
+          {
+            "label": "MC hit (corr)",
+            "value": "14.8%",
+            "meta": "indep 8.7% · same-game CHIDET"
+          },
+          {
+            "label": "Fair payout",
+            "value": "6.73x",
+            "meta": "model fair; check FanDuel SGP price before using"
+          },
+          {
+            "label": "Corr note",
+            "value": "same-game",
+            "meta": "QB-WR +0.40, same player +0.55, cross-team rush -0.15, multi-game 0"
+          }
+        ]
+      },
+      {
+        "title": "4-leg MC (no FD SGP price observed): Jahmyr Gibbs over 94.5 Rushing yards / Amon-Ra St. Brown over 6.5 Receptions / Jahmyr Gibbs over 35.5 Receiving yards / Luther Burden III over 62.5 Receiving yards",
+        "cells": [
+          {
+            "label": "MC hit (corr)",
+            "value": "12.6%",
+            "meta": "indep 8.0% · same-game CHIDET"
+          },
+          {
+            "label": "Fair payout",
+            "value": "7.92x",
+            "meta": "model fair; check FanDuel SGP price before using"
+          },
+          {
+            "label": "Corr note",
+            "value": "same-game",
+            "meta": "QB-WR +0.40, same player +0.55, cross-team rush -0.15, multi-game 0"
+          }
+        ]
+      },
+      {
+        "title": "4-leg MC (no FD SGP price observed): Jahmyr Gibbs over 94.5 Rushing yards / Amon-Ra St. Brown over 6.5 Receptions / Jahmyr Gibbs over 35.5 Receiving yards / D'Andre Swift over 15.5 Receiving yards",
+        "cells": [
+          {
+            "label": "MC hit (corr)",
+            "value": "12.4%",
+            "meta": "indep 8.0% · same-game CHIDET"
+          },
+          {
+            "label": "Fair payout",
+            "value": "8.07x",
+            "meta": "model fair; check FanDuel SGP price before using"
+          },
+          {
+            "label": "Corr note",
+            "value": "same-game",
+            "meta": "QB-WR +0.40, same player +0.55, cross-team rush -0.15, multi-game 0"
           }
         ]
       }
@@ -2141,7 +3156,7 @@ window.BET_BOARD_DATA = {
     },
     "noMc": true
   },
-  "earlyLookNote": "Official inactives posted ~5:45 PM CT: Tuten ACTIVE, Walker ACTIVE (Jaguars official in-and-out); Wiggins INACTIVE (illness); Randall not activated off IR-R. No card player inactive; no re-pricing (Tuten active, no role-growth boost).",
+  "earlyLookNote": "Inactives are still unofficial (post ~90 min before each kick). CHI OUT: CB Kyler Gordon (shoulder), S Elijah Hicks (concussion), RB Roschon Johnson (ankle). TE Cole Kmet and OT Braxton Jones IR — Loveland is TE1. DET OUT: CB Ennis Rakestraw Jr. DT Skyler Gill-Howard IR. IR leftovers: Aidan Hutchinson (knee), LB Jack Campbell (neck) — major defensive hole. Inactives official ~90 min before kick. | PHI: Jalen Hurts IR (blood clots) — Joe Milton III starts (1-1 as starter; last week 19-16 vs PIT). LB Zack Baun IR. CB Jonathan Jones OUT, LB Arnold Ebiketie OUT. CB Quinyon Mitchell upgraded, expected to play. FOX listed Saquon Barkley questionable (last game 8 rush yds on 2 att). DAL OUT: TE Jake Ferguson (knee/ankle), WR Jonathan Mingo, S P.J. Locke (concussion), G Tyler Booker. CB DaRon Bland IR. | KC OUT: RB Kenneth Walker III (groin) — Emmett Johnson is the lead back (105 and 101 rush last two on 23/22 att). OT Jaylon Moore (ankle), DT Omarr Norman-Lott. TE Noah Gray questionable. BUF: no one listed Out on the latest Thursday ESPN/CLEATZ report. Q: TE Dalton Kincaid (thumb/ankle), CB Christian Benford (groin), DT T.J. Sanders, LB Dorian Williams, G O'Cyrus Torrence. Joshua Palmer IR. D.J. Moore is now a Bill.",
   "normalized_rows": [
     {
       "game_id": "nfl-2026-11-22-minsf",
@@ -183568,5 +184583,76 @@ window.BET_BOARD_DATA = {
       }
     ],
     "scope_note": "Only existing 24 Highest-likelihood canonical rows used. Every row ID and game/correlation classification originates in normalized_rows. UI does not grant gates, link books, or generate new recommendations."
-  }
+  },
+  "thanksgivingGames": {
+    "CHIDET": {
+      "away": "CHI",
+      "home": "DET",
+      "start": "2026-11-26T12:00:00-06:00",
+      "timeCT": "12:00 PM CT",
+      "kick_et": "1:00 PM ET",
+      "tv": "CBS",
+      "records": {
+        "CHI": "8-2",
+        "DET": "8-2"
+      },
+      "fd_spread": "CHI -1.5 (-120) / DET +1.5 (+100)",
+      "fd_ml": "CHI -133 / DET +114",
+      "fd_total": 56.5,
+      "fd_tot_odds": "o-104 / u-116",
+      "implied": {
+        "CHI": 29.0,
+        "DET": 27.5
+      },
+      "note": "Line flipped from DET -2.5 in May to CHI -1.5. Highest total on the slate. Lions 6-0 at home."
+    },
+    "PHIDAL": {
+      "away": "PHI",
+      "home": "DAL",
+      "start": "2026-11-26T15:30:00-06:00",
+      "timeCT": "3:30 PM CT",
+      "kick_et": "4:30 PM ET",
+      "tv": "FOX",
+      "records": {
+        "PHI": "3-7",
+        "DAL": "5-6"
+      },
+      "fd_spread": "DAL -8.5 (-110) / PHI +8.5 (-110)",
+      "fd_ml": "DAL -476 / PHI +360",
+      "fd_total": 47.5,
+      "fd_tot_odds": "o-120 / u+100",
+      "implied": {
+        "DAL": 28.0,
+        "PHI": 19.5
+      },
+      "note": "Jalen Hurts IR (blood clots). Joe Milton starts. Dallas won first meeting 38-21. Spread moved from DAL -1.5 in May to -8.5."
+    },
+    "KCBUF": {
+      "away": "KC",
+      "home": "BUF",
+      "start": "2026-11-26T19:20:00-06:00",
+      "timeCT": "7:20 PM CT",
+      "kick_et": "8:20 PM ET",
+      "tv": "NBC",
+      "records": {
+        "KC": "8-2",
+        "BUF": "9-1"
+      },
+      "fd_spread": "BUF -3 (-112) / KC +3 (-108)",
+      "fd_ml": "BUF -161 / KC +136",
+      "fd_total": 45.5,
+      "fd_tot_odds": "o-110 / u-110",
+      "implied": {
+        "BUF": 24.25,
+        "KC": 21.25
+      },
+      "note": "Buffalo first Thanksgiving home game. Total dropped from 50.5 toward 45.5-46.5 on rain/wind (upper 30s, gusts ~28 mph). Kenneth Walker III OUT."
+    }
+  },
+  "thanksgivingInjuries": {
+    "CHIDET": "CHI OUT: CB Kyler Gordon (shoulder), S Elijah Hicks (concussion), RB Roschon Johnson (ankle). TE Cole Kmet and OT Braxton Jones IR — Loveland is TE1. DET OUT: CB Ennis Rakestraw Jr. DT Skyler Gill-Howard IR. IR leftovers: Aidan Hutchinson (knee), LB Jack Campbell (neck) — major defensive hole. Inactives official ~90 min before kick.",
+    "PHIDAL": "PHI: Jalen Hurts IR (blood clots) — Joe Milton III starts (1-1 as starter; last week 19-16 vs PIT). LB Zack Baun IR. CB Jonathan Jones OUT, LB Arnold Ebiketie OUT. CB Quinyon Mitchell upgraded, expected to play. FOX listed Saquon Barkley questionable (last game 8 rush yds on 2 att). DAL OUT: TE Jake Ferguson (knee/ankle), WR Jonathan Mingo, S P.J. Locke (concussion), G Tyler Booker. CB DaRon Bland IR.",
+    "KCBUF": "KC OUT: RB Kenneth Walker III (groin) — Emmett Johnson is the lead back (105 and 101 rush last two on 23/22 att). OT Jaylon Moore (ankle), DT Omarr Norman-Lott. TE Noah Gray questionable. BUF: no one listed Out on the latest Thursday ESPN/CLEATZ report. Q: TE Dalton Kincaid (thumb/ankle), CB Christian Benford (groin), DT T.J. Sanders, LB Dorian Williams, G O'Cyrus Torrence. Joshua Palmer IR. D.J. Moore is now a Bill."
+  },
+  "nflBoardPath": "nfl-20261126-board.json"
 };
