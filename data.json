@@ -47,8 +47,8 @@
     "cleared": "4-5-0",
     "gauge": "30-27-0",
     "nearMiss": "207-190-3",
-    "checkedAt": "7:30 AM CT",
-    "checkedAtIso": "2026-11-26T07:30:54-06:00",
+    "checkedAt": "10:56 AM CT",
+    "checkedAtIso": "2026-11-26T10:56:37-06:00",
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
@@ -245,7 +245,7 @@
       },
       "pending": 9,
       "ungraded": 55,
-      "updatedAt": "2026-11-26T07:30:54-06:00"
+      "updatedAt": "2026-11-26T10:56:37-06:00"
     },
     "recent": [
       {
