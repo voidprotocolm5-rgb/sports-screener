@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-27T12:06:58-06:00",
-  "updatedAtLabel": "Fri Nov 27, 12:06 PM CT",
+  "updatedAt": "2026-11-27T12:10:35-06:00",
+  "updatedAtLabel": "Fri Nov 27, 12:10 PM CT",
   "nearMiss": 10,
   "slate": "Fri Nov 27 2026 — Black Friday NFL (only game: DEN @ PIT 2:00 PM CT, Prime Video, Acrisure Stadium)",
   "sport": "NFL",
@@ -45,8 +45,8 @@
     "cleared": "4-5-0",
     "gauge": "30-27-0",
     "nearMiss": "207-190-3",
-    "checkedAt": "12:07 PM CT",
-    "checkedAtIso": "2026-11-27T12:07:36-06:00",
+    "checkedAt": "12:10 PM CT",
+    "checkedAtIso": "2026-11-27T12:10:47-06:00",
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
@@ -243,7 +243,7 @@
       },
       "pending": 9,
       "ungraded": 55,
-      "updatedAt": "2026-11-27T12:07:36-06:00"
+      "updatedAt": "2026-11-27T12:10:47-06:00"
     },
     "recent": [
       {
@@ -601,7 +601,7 @@
   },
   "xNote": "X send-it list 1867962331566612965 via search_posts_all (read-only) since 2026-11-26T18:00:00Z. Firm current-day singles counted: @ActionNetworkHQ / @GDAWG5000 Pat Freiermuth ATD +600 FanDuel and Pat Bryant ATD +500 FanDuel. Not counted: @G5Jake Jonah Coleman o0.5 rec yards (1Q), @__LordPenguin and @Skunkii_Plays SGPs, @ParlayPiecesAI lotto. @dimerscom ATD percentages are a cited projection (not a slip): Coleman 56.6, Warren 26.3, Waddle 21.1, Freiermuth 20.3, Dowdle 19.4, Metcalf 18.2, Sutton 17.6, Bryant 17.3, Washington 15.1, Nix 14.2, Bernard 13.6.",
   "oddsApiNote": "FanDuel player-prop and Pinnacle two-way prices from the public GetOdds board (~11:32 AM CT, 63 rows; attribution: Data: getoddsapi.com). FanDuel game lines from Rotowire (~11:45 AM CT). The Odds API key was not in the environment (same as Thanksgiving); no prices were invented. Kalshi public API (api.elections.kalshi.com) DENPIT event markets + order books for key rungs were pulled late morning CT. KXNFLANYTD was empty — no Kalshi anytime-TD board today. Closest Kalshi rungs that are not exact FD equivalents (e.g. 70+ vs FD 73.5) are flagged and are not used as the FD price.",
-  "youtubeNote": "YouTube (free yt-dlp + /workspace/bin/yt-asr.sh; TubeAlfred not used — nearly out of credits): 27 searches (including the required \"bets prop bets for NFL today\" plus Black Friday / DEN-PIT prop queries) returned 331 unique video IDs. Date metadata was recovered for 148 of them; 63 were uploaded Nov 26–27 (40 on Nov 27, 23 on Nov 26). A unique-speaker queue of 43 videos was sent to ASR; 25 had usable transcripts at publish, with several long shows still running (925 Sports, StumpTheSpread Friday, In The Green, Kyle Kirms, DFSnDonuts, SportsLine, Action Network playground, Cash Out Friday, Just Gridiron ATD, Mayo). Short of a clean 25-of-25 finish because this is a single-game Black Friday recency pool and some Nov 27 uploads were still transcribing before the 2:00 PM CT kick. Firm singles only (easier-line sources count; parlays, PrizePicks legs, ladders, and leans count 0). No saved source-accuracy weight files were found under /workspace/bet-board/.",
+  "youtubeNote": "YouTube (free yt-dlp + /workspace/bin/yt-asr.sh; TubeAlfred not used — nearly out of credits): 27 searches (including the required \"bets prop bets for NFL today\" plus Black Friday / DEN-PIT prop queries) returned 331 unique video IDs. Date metadata was recovered for 148 of them; 63 were uploaded Nov 26–27 (40 on Nov 27, 23 on Nov 26). A unique-speaker queue of 43 videos was sent to ASR; 36 had usable transcripts at publish, with several long shows still running (925 Sports, StumpTheSpread Friday, In The Green, Kyle Kirms, DFSnDonuts, SportsLine, Action Network playground, Cash Out Friday, Just Gridiron ATD, Mayo). Short of a clean 25-of-25 finish because this is a single-game Black Friday recency pool and some Nov 27 uploads were still transcribing before the 2:00 PM CT kick. Firm singles only (easier-line sources count; parlays, PrizePicks legs, ladders, and leans count 0). No saved source-accuracy weight files were found under /workspace/bet-board/.",
   "provisional": {
     "show": false
   },
@@ -699,11 +699,12 @@
           "fairLabel": "Pin-cal 50k MC",
           "fair": "52.7%",
           "evPct": -3.4,
-          "game": "DEN @ PIT · 2:00 PM CT · Beating The Odds+The Bettor Mark; L5 [2.0, 5.0, 1.0, 3.0, 2.0]; Pin 2.5 nv 52.7%; FD 2.5 -120; Kalshi 52¢ (YES) after-fee EV -2.8%; form MC 48.2% vs pin-cal 52.7%; FD EV -3.4%",
-          "yt": 2,
+          "game": "DEN @ PIT · 2:00 PM CT · Beating The Odds+The Bettor Mark+The Lock Talk; L5 [2.0, 5.0, 1.0, 3.0, 2.0]; Pin 2.5 nv 52.7%; FD 2.5 -120; Kalshi 52¢ (YES) after-fee EV -2.8%; form MC 48.2% vs pin-cal 52.7%; FD EV -3.4%",
+          "yt": 3,
           "ytWho": [
             "Beating The Odds",
-            "The Bettor Mark"
+            "The Bettor Mark",
+            "The Lock Talk"
           ],
           "xList": [],
           "xOutside": [],
@@ -736,13 +737,12 @@
           ],
           "passCount": 3,
           "failCount": 2,
-          "combined": 2,
-          "rationale": "Beating The Odds+The Bettor Mark; L5 [2.0, 5.0, 1.0, 3.0, 2.0]; Pin 2.5 nv 52.7%; FD 2.5 -120; Kalshi 52¢ (YES) after-fee EV -2.8%; form MC 48.2% vs pin-cal 52.7%; FD EV -3.4%",
+          "combined": 3,
+          "rationale": "Beating The Odds+The Bettor Mark+The Lock Talk; L5 [2.0, 5.0, 1.0, 3.0, 2.0]; Pin 2.5 nv 52.7%; FD 2.5 -120; Kalshi 52¢ (YES) after-fee EV -2.8%; form MC 48.2% vs pin-cal 52.7%; FD EV -3.4%",
           "booksAlign": false,
           "blockers": [
             "B1: FD EV -3.38%; Kalshi after-fee EV -2.85%",
-            "MinEdge: -1.85pp vs FD BE 54.5%; Kalshi -1.55pp vs cost 0.542",
-            "combined sources 2 < 3 floor"
+            "MinEdge: -1.85pp vs FD BE 54.5%; Kalshi -1.55pp vs cost 0.542"
           ],
           "mcMedian": 3.0,
           "mcP25": 2.0,
@@ -905,11 +905,12 @@
           "fairLabel": "Pin-cal 50k MC",
           "fair": "51.5%",
           "evPct": -2.9,
-          "game": "DEN @ PIT · 2:00 PM CT · Straight Fire Picks+Guy Boston Sports; L5 [1.0, 26.0, 0.0, 36.0, 28.0]; Pin 18.5 nv 51.5%; FD 18.5 -113; nearest Kalshi Jaylen Warren: 20+ receiving yards Jaylen Warren: 20+ (strike 20.0) vs FD 18.5 — not an equivalent rung; do not use this mid as the FD price; form MC 49.0% vs pin-cal 51.5%; FD EV -2.9%",
-          "yt": 2,
+          "game": "DEN @ PIT · 2:00 PM CT · Straight Fire Picks+Guy Boston Sports+In The Green DFS; L5 [1.0, 26.0, 0.0, 36.0, 28.0]; Pin 18.5 nv 51.5%; FD 18.5 -113; nearest Kalshi Jaylen Warren: 20+ receiving yards Jaylen Warren: 20+ (strike 20.0) vs FD 18.5 — not an equivalent rung; do not use this mid as the FD price; form MC 49.0% vs pin-cal 51.5%; FD EV -2.9%",
+          "yt": 3,
           "ytWho": [
             "Straight Fire Picks",
-            "Guy Boston Sports"
+            "Guy Boston Sports",
+            "In The Green DFS"
           ],
           "xList": [],
           "xOutside": [],
@@ -942,13 +943,12 @@
           ],
           "passCount": 3,
           "failCount": 2,
-          "combined": 2,
-          "rationale": "Straight Fire Picks+Guy Boston Sports; L5 [1.0, 26.0, 0.0, 36.0, 28.0]; Pin 18.5 nv 51.5%; FD 18.5 -113; nearest Kalshi Jaylen Warren: 20+ receiving yards Jaylen Warren: 20+ (strike 20.0) vs FD 18.5 — not an equivalent rung; do not use this mid as the FD price; form MC 49.0% vs pin-cal 51.5%; FD EV -2.9%",
+          "combined": 3,
+          "rationale": "Straight Fire Picks+Guy Boston Sports+In The Green DFS; L5 [1.0, 26.0, 0.0, 36.0, 28.0]; Pin 18.5 nv 51.5%; FD 18.5 -113; nearest Kalshi Jaylen Warren: 20+ receiving yards Jaylen Warren: 20+ (strike 20.0) vs FD 18.5 — not an equivalent rung; do not use this mid as the FD price; form MC 49.0% vs pin-cal 51.5%; FD EV -2.9%",
           "booksAlign": false,
           "blockers": [
             "B1: FD EV -2.92% (no exact Kalshi rung)",
-            "MinEdge: -1.55pp vs FD BE 53.1%",
-            "combined sources 2 < 3 floor"
+            "MinEdge: -1.55pp vs FD BE 53.1%"
           ],
           "mcMedian": 19.223921524248354,
           "mcP25": 8.013019013262594,
@@ -974,10 +974,11 @@
           "fairLabel": "Pin-cal 50k MC",
           "fair": "51.3%",
           "evPct": -3.3,
-          "game": "DEN @ PIT · 2:00 PM CT · Straight Fire Picks; L5 [18.0, 31.0, 63.0, 15.0, 19.0]; Pin 21.5 nv 51.3%; FD 21.5 -113; nearest Kalshi Jonah Coleman: 20+ receiving yards Jonah Coleman: 20+ (strike 20.0) vs FD 21.5 — not an equivalent rung; do not use this mid as the FD price; form MC 65.1% vs pin-cal 51.3%; FD EV -3.3%; FORM vs PIN DIVERGENCE: form MC 65.1% vs pin-cal 51.3% (+13.8pp)",
-          "yt": 1,
+          "game": "DEN @ PIT · 2:00 PM CT · Straight Fire Picks+In The Green DFS; L5 [18.0, 31.0, 63.0, 15.0, 19.0]; Pin 21.5 nv 51.3%; FD 21.5 -113; nearest Kalshi Jonah Coleman: 20+ receiving yards Jonah Coleman: 20+ (strike 20.0) vs FD 21.5 — not an equivalent rung; do not use this mid as the FD price; form MC 65.1% vs pin-cal 51.3%; FD EV -3.3%; FORM vs PIN DIVERGENCE: form MC 65.1% vs pin-cal 51.3% (+13.8pp)",
+          "yt": 2,
           "ytWho": [
-            "Straight Fire Picks"
+            "Straight Fire Picks",
+            "In The Green DFS"
           ],
           "xList": [],
           "xOutside": [],
@@ -1010,13 +1011,13 @@
           ],
           "passCount": 3,
           "failCount": 2,
-          "combined": 1,
-          "rationale": "Straight Fire Picks; L5 [18.0, 31.0, 63.0, 15.0, 19.0]; Pin 21.5 nv 51.3%; FD 21.5 -113; nearest Kalshi Jonah Coleman: 20+ receiving yards Jonah Coleman: 20+ (strike 20.0) vs FD 21.5 — not an equivalent rung; do not use this mid as the FD price; form MC 65.1% vs pin-cal 51.3%; FD EV -3.3%; FORM vs PIN DIVERGENCE: form MC 65.1% vs pin-cal 51.3% (+13.8pp)",
+          "combined": 2,
+          "rationale": "Straight Fire Picks+In The Green DFS; L5 [18.0, 31.0, 63.0, 15.0, 19.0]; Pin 21.5 nv 51.3%; FD 21.5 -113; nearest Kalshi Jonah Coleman: 20+ receiving yards Jonah Coleman: 20+ (strike 20.0) vs FD 21.5 — not an equivalent rung; do not use this mid as the FD price; form MC 65.1% vs pin-cal 51.3%; FD EV -3.3%; FORM vs PIN DIVERGENCE: form MC 65.1% vs pin-cal 51.3% (+13.8pp)",
           "booksAlign": false,
           "blockers": [
             "B1: FD EV -3.30% (no exact Kalshi rung)",
             "MinEdge: -1.75pp vs FD BE 53.1%",
-            "combined sources 1 < 3 floor"
+            "combined sources 2 < 3 floor"
           ],
           "mcMedian": 22.390947765380666,
           "mcP25": 8.886398521523196,
@@ -2304,7 +2305,7 @@
         }
       ]
     },
-    "updatedAtLabel": "Fri Nov 27, 12:06 PM CT",
+    "updatedAtLabel": "Fri Nov 27, 12:10 PM CT",
     "engine": "v2-books + Kalshi fee + 50k Pin-cal MC + form/matchup flag (2026-11-27 Black Friday)",
     "note": "Black Friday NFL — only game is DEN @ PIT at 2:00 PM CT. Kalshi is the standing primary frame (cents, quadratic fee 0.07*p*(1-p), order-book limits, strike ladders); FanDuel is the sportsbook price; Pinnacle two-way no-vig is the sharp fair. Gates: B1 EV>0 (after Kalshi fee and vs FanDuel), B2/B6 Pin no-vig or 50k Pin-cal when the number differs, MinEdge/H1 ≥ +2.5pp, R16 no worse than −200. CLEARED needs YT≥2 AND combined (YT + unique X send-it) ≥3 AND booksAlign. 50,000-trial Monte Carlo: Pin-calibrated official fair plus a form/matchup-adjusted distribution (flags divergences). Official 53-man inactives typically post ~12:30 PM CT — recheck before kickoff. Tyler Badie and Cole Holcomb were still questionable at research time.",
     "noEdgeNote": "0 CLEARED if no card beat both the source floors and the 10-book price gates at the observed FanDuel / Kalshi prices.",
