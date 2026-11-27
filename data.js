@@ -1,8 +1,8 @@
 /* Auto-generated companion to data.json for file:// fallback.
    Publishers must update BOTH data.json and this file together. */
 window.BET_BOARD_DATA = {
-  "updatedAt": "2026-11-27T12:04:38-06:00",
-  "updatedAtLabel": "Fri Nov 27, 12:04 PM CT",
+  "updatedAt": "2026-11-27T12:06:58-06:00",
+  "updatedAtLabel": "Fri Nov 27, 12:06 PM CT",
   "nearMiss": 10,
   "slate": "Fri Nov 27 2026 — Black Friday NFL (only game: DEN @ PIT 2:00 PM CT, Prime Video, Acrisure Stadium)",
   "sport": "NFL",
@@ -47,8 +47,8 @@ window.BET_BOARD_DATA = {
     "cleared": "4-5-0",
     "gauge": "30-27-0",
     "nearMiss": "207-190-3",
-    "checkedAt": "12:05 PM CT",
-    "checkedAtIso": "2026-11-27T12:05:10-06:00",
+    "checkedAt": "12:07 PM CT",
+    "checkedAtIso": "2026-11-27T12:07:36-06:00",
     "label": "Graded record (ESPN finals): CLEARED 4-5-0 · GAUGE 30-27-0 · Near misses 207-190-3 (separate) · n=66"
   },
   "todaysGauge": {
@@ -245,7 +245,7 @@ window.BET_BOARD_DATA = {
       },
       "pending": 9,
       "ungraded": 55,
-      "updatedAt": "2026-11-27T12:05:10-06:00"
+      "updatedAt": "2026-11-27T12:07:36-06:00"
     },
     "recent": [
       {
@@ -622,667 +622,6 @@ window.BET_BOARD_DATA = {
       "NFL": [
         {
           "rank": 1,
-          "tier": "Near-Miss",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Marvin Mims Jr.",
-          "prop": "under 1.5 receptions",
-          "odds": "-205",
-          "book": "FanDuel + Kalshi",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "61.5%",
-          "evPct": -8.6,
-          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [1.0, 1.0, 2.0, 2.0, 2.0]; Pin 1.5 nv 38.5%; FD 1.5 -205; Kalshi 62¢ (NO) after-fee EV -4.2%; form MC 52.2% vs pin-cal 61.5%; FD EV -8.6%; FORM vs PIN DIVERGENCE: form MC 52.2% vs pin-cal 61.5% (-9.2pp)",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 38.5% at 1.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -8.55%; Kalshi after-fee EV -4.17%"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-5.75pp vs FD BE 67.2%; Kalshi -2.68pp vs cost 0.641"
-            },
-            {
-              "result": "fail",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-205 exceeds juice cap"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 2,
-          "failCount": 3,
-          "combined": 0,
-          "rationale": "unsourced; L5 [1.0, 1.0, 2.0, 2.0, 2.0]; Pin 1.5 nv 38.5%; FD 1.5 -205; Kalshi 62¢ (NO) after-fee EV -4.2%; form MC 52.2% vs pin-cal 61.5%; FD EV -8.6%; FORM vs PIN DIVERGENCE: form MC 52.2% vs pin-cal 61.5% (-9.2pp)",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -8.55%; Kalshi after-fee EV -4.17%",
-            "MinEdge: -5.75pp vs FD BE 67.2%; Kalshi -2.68pp vs cost 0.641",
-            "R16: -205 exceeds juice cap",
-            "unsourced (no firm YouTube / X send-it single)"
-          ],
-          "mcMedian": 1.0,
-          "mcP25": 0.0,
-          "mcP75": 2.0,
-          "pinLine": 1.5,
-          "kalshiCents": 62,
-          "kalshiEvPct": -4.2,
-          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-DENMMIMS19-2",
-          "kalshiNote": "exact: Kalshi 2+ ≈ FD 1.5 over — priced as Kalshi NO on 2+",
-          "formMcPct": 52.2,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 52.2% vs pin-cal 61.5% (-9.2pp)"
-        },
-        {
-          "rank": 2,
-          "tier": "Near-Miss",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Adam Trautman",
-          "prop": "over 0.5 receptions",
-          "odds": "-188",
-          "book": "FanDuel + Kalshi",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "58.1%",
-          "evPct": -11.0,
-          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [1.0, 2.0, 2.0, 0.0, 0.0]; Pin 0.5 nv 58.3%; FD 0.5 -188; Kalshi 60¢ (YES) after-fee EV -5.0%; form MC 63.1% vs pin-cal 58.1%; FD EV -11.0%",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 58.3% at 0.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -10.97%; Kalshi after-fee EV -5.02%"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-7.16pp vs FD BE 65.3%; Kalshi -3.07pp vs cost 0.612"
-            },
-            {
-              "result": "pass",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-188"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 3,
-          "failCount": 2,
-          "combined": 0,
-          "rationale": "unsourced; L5 [1.0, 2.0, 2.0, 0.0, 0.0]; Pin 0.5 nv 58.3%; FD 0.5 -188; Kalshi 60¢ (YES) after-fee EV -5.0%; form MC 63.1% vs pin-cal 58.1%; FD EV -11.0%",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -10.97%; Kalshi after-fee EV -5.02%",
-            "MinEdge: -7.16pp vs FD BE 65.3%; Kalshi -3.07pp vs cost 0.612",
-            "unsourced (no firm YouTube / X send-it single)"
-          ],
-          "mcMedian": 1.0,
-          "mcP25": 0.0,
-          "mcP75": 1.0,
-          "pinLine": 0.5,
-          "kalshiCents": 60,
-          "kalshiEvPct": -5.0,
-          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-DENATRAUTMAN82-1",
-          "kalshiNote": "exact: Kalshi 1+ ≈ FD 0.5 over",
-          "formMcPct": 63.1,
-          "formDivergence": null
-        },
-        {
-          "rank": 3,
-          "tier": "Near-Miss",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Germie Bernard",
-          "prop": "over 2.5 receptions",
-          "odds": "-148",
-          "book": "FanDuel + Kalshi",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "57.3%",
-          "evPct": -3.9,
-          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [6.0, 0.0, 5.0, 3.0, 11.0]; Pin 2.5 nv 57.2%; FD 2.5 -148; Kalshi 56¢ (YES) after-fee EV -1.5%; form MC 87.3% vs pin-cal 57.3%; FD EV -3.9%; FORM vs PIN DIVERGENCE: form MC 87.3% vs pin-cal 57.3% (+30.0pp)",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 57.2% at 2.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -3.94%; Kalshi after-fee EV -1.54%"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-2.35pp vs FD BE 59.7%; Kalshi -0.89pp vs cost 0.582"
-            },
-            {
-              "result": "pass",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-148"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 3,
-          "failCount": 2,
-          "combined": 0,
-          "rationale": "unsourced; L5 [6.0, 0.0, 5.0, 3.0, 11.0]; Pin 2.5 nv 57.2%; FD 2.5 -148; Kalshi 56¢ (YES) after-fee EV -1.5%; form MC 87.3% vs pin-cal 57.3%; FD EV -3.9%; FORM vs PIN DIVERGENCE: form MC 87.3% vs pin-cal 57.3% (+30.0pp)",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -3.94%; Kalshi after-fee EV -1.54%",
-            "MinEdge: -2.35pp vs FD BE 59.7%; Kalshi -0.89pp vs cost 0.582",
-            "unsourced (no firm YouTube / X send-it single)"
-          ],
-          "mcMedian": 3.0,
-          "mcP25": 2.0,
-          "mcP75": 4.0,
-          "pinLine": 2.5,
-          "kalshiCents": 56,
-          "kalshiEvPct": -1.5,
-          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-PITGBERNARD17-3",
-          "kalshiNote": "exact: Kalshi 3+ ≈ FD 2.5 over",
-          "formMcPct": 87.3,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 87.3% vs pin-cal 57.3% (+30.0pp)"
-        },
-        {
-          "rank": 4,
-          "tier": "Near-Miss",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Pat Bryant",
-          "prop": "under 2.5 receptions",
-          "odds": "-148",
-          "book": "FanDuel + Kalshi",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "56.7%",
-          "evPct": -4.9,
-          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [3.0, 4.0, 3.0, 2.0, 0.0]; Pin 2.5 nv 43.2%; FD 2.5 -148; Kalshi 56¢ (NO) after-fee EV -0.9%; form MC 56.7% vs pin-cal 56.7%; FD EV -4.9%",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 43.2% at 2.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -4.95%; Kalshi after-fee EV -0.88%"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-2.95pp vs FD BE 59.7%; Kalshi -0.50pp vs cost 0.572"
-            },
-            {
-              "result": "pass",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-148"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 3,
-          "failCount": 2,
-          "combined": 0,
-          "rationale": "unsourced; L5 [3.0, 4.0, 3.0, 2.0, 0.0]; Pin 2.5 nv 43.2%; FD 2.5 -148; Kalshi 56¢ (NO) after-fee EV -0.9%; form MC 56.7% vs pin-cal 56.7%; FD EV -4.9%",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -4.95%; Kalshi after-fee EV -0.88%",
-            "MinEdge: -2.95pp vs FD BE 59.7%; Kalshi -0.50pp vs cost 0.572",
-            "unsourced (no firm YouTube / X send-it single)"
-          ],
-          "mcMedian": 2.0,
-          "mcP25": 1.0,
-          "mcP75": 3.0,
-          "pinLine": 2.5,
-          "kalshiCents": 56,
-          "kalshiEvPct": -0.9,
-          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-DENPBRYANT13-3",
-          "kalshiNote": "exact: Kalshi 3+ ≈ FD 2.5 over — priced as Kalshi NO on 3+",
-          "formMcPct": 56.7,
-          "formDivergence": null
-        },
-        {
-          "rank": 5,
-          "tier": "Near-Miss",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Courtland Sutton",
-          "prop": "over 2.5 receptions",
-          "odds": "-138",
-          "book": "FanDuel + Kalshi",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "56.4%",
-          "evPct": -2.7,
-          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [0.0, 5.0, 4.0, 3.0, 2.0]; Pin 2.5 nv 56.2%; FD 2.5 -138; Kalshi 54¢ (YES) after-fee EV +2.1%; form MC 53.4% vs pin-cal 56.4%; FD EV -2.7%",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 56.2% at 2.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -2.74%; Kalshi after-fee EV +2.09%"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-1.59pp vs FD BE 58.0%; Kalshi +1.15pp vs cost 0.552"
-            },
-            {
-              "result": "pass",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-138"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 3,
-          "failCount": 2,
-          "combined": 0,
-          "rationale": "unsourced; L5 [0.0, 5.0, 4.0, 3.0, 2.0]; Pin 2.5 nv 56.2%; FD 2.5 -138; Kalshi 54¢ (YES) after-fee EV +2.1%; form MC 53.4% vs pin-cal 56.4%; FD EV -2.7%",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -2.74%; Kalshi after-fee EV +2.09%",
-            "MinEdge: -1.59pp vs FD BE 58.0%; Kalshi +1.15pp vs cost 0.552",
-            "unsourced (no firm YouTube / X send-it single)"
-          ],
-          "mcMedian": 3.0,
-          "mcP25": 2.0,
-          "mcP75": 4.0,
-          "pinLine": 2.5,
-          "kalshiCents": 54,
-          "kalshiEvPct": 2.1,
-          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-DENCSUTTON14-3",
-          "kalshiNote": "exact: Kalshi 3+ ≈ FD 2.5 over",
-          "formMcPct": 53.4,
-          "formDivergence": null
-        },
-        {
-          "rank": 6,
-          "tier": "Near-Miss",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Jaylen Waddle",
-          "prop": "over 3.5 receptions",
-          "odds": "-148",
-          "book": "FanDuel + Kalshi",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "56.1%",
-          "evPct": -6.0,
-          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [3.0, 1.0, 3.0, 4.0, 4.0]; Pin 3.5 nv 56.0%; FD 3.5 -148; Kalshi 54¢ (YES) after-fee EV +1.6%; form MC 35.4% vs pin-cal 56.1%; FD EV -6.0%; FORM vs PIN DIVERGENCE: form MC 35.4% vs pin-cal 56.1% (-20.7pp)",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 56.0% at 3.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -5.97%; Kalshi after-fee EV +1.58%"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-3.56pp vs FD BE 59.7%; Kalshi +0.87pp vs cost 0.552"
-            },
-            {
-              "result": "pass",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-148"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 3,
-          "failCount": 2,
-          "combined": 0,
-          "rationale": "unsourced; L5 [3.0, 1.0, 3.0, 4.0, 4.0]; Pin 3.5 nv 56.0%; FD 3.5 -148; Kalshi 54¢ (YES) after-fee EV +1.6%; form MC 35.4% vs pin-cal 56.1%; FD EV -6.0%; FORM vs PIN DIVERGENCE: form MC 35.4% vs pin-cal 56.1% (-20.7pp)",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -5.97%; Kalshi after-fee EV +1.58%",
-            "MinEdge: -3.56pp vs FD BE 59.7%; Kalshi +0.87pp vs cost 0.552",
-            "unsourced (no firm YouTube / X send-it single)"
-          ],
-          "mcMedian": 4.0,
-          "mcP25": 3.0,
-          "mcP75": 5.0,
-          "pinLine": 3.5,
-          "kalshiCents": 54,
-          "kalshiEvPct": 1.6,
-          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-DENJWADDLE17-4",
-          "kalshiNote": "exact: Kalshi 4+ ≈ FD 3.5 over",
-          "formMcPct": 35.4,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 35.4% vs pin-cal 56.1% (-20.7pp)"
-        },
-        {
-          "rank": 7,
-          "tier": "Near-Miss",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Roman Wilson",
-          "prop": "under 1.5 receptions",
-          "odds": "-138",
-          "book": "FanDuel + Kalshi",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "55.8%",
-          "evPct": -3.8,
-          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [3.0, 0.0, 3.0, 3.0, 5.0]; Pin 1.5 nv 44.6%; FD 1.5 -138; Kalshi 56¢ (NO) after-fee EV -2.5%; form MC 23.2% vs pin-cal 55.8%; FD EV -3.8%; FORM vs PIN DIVERGENCE: form MC 23.2% vs pin-cal 55.8% (-32.6pp)",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 44.6% at 1.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -3.79%; Kalshi after-fee EV -2.52%"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-2.20pp vs FD BE 58.0%; Kalshi -1.44pp vs cost 0.572"
-            },
-            {
-              "result": "pass",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-138"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 3,
-          "failCount": 2,
-          "combined": 0,
-          "rationale": "unsourced; L5 [3.0, 0.0, 3.0, 3.0, 5.0]; Pin 1.5 nv 44.6%; FD 1.5 -138; Kalshi 56¢ (NO) after-fee EV -2.5%; form MC 23.2% vs pin-cal 55.8%; FD EV -3.8%; FORM vs PIN DIVERGENCE: form MC 23.2% vs pin-cal 55.8% (-32.6pp)",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -3.79%; Kalshi after-fee EV -2.52%",
-            "MinEdge: -2.20pp vs FD BE 58.0%; Kalshi -1.44pp vs cost 0.572",
-            "unsourced (no firm YouTube / X send-it single)"
-          ],
-          "mcMedian": 1.0,
-          "mcP25": 1.0,
-          "mcP75": 2.0,
-          "pinLine": 1.5,
-          "kalshiCents": 56,
-          "kalshiEvPct": -2.5,
-          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-PITRWILSON14-2",
-          "kalshiNote": "exact: Kalshi 2+ ≈ FD 1.5 over — priced as Kalshi NO on 2+",
-          "formMcPct": 23.2,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 23.2% vs pin-cal 55.8% (-32.6pp)"
-        },
-        {
-          "rank": 8,
-          "tier": "Near-Miss",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Troy Franklin",
-          "prop": "over 0.5 receptions",
-          "odds": "-166",
-          "book": "FanDuel + Kalshi",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "55.6%",
-          "evPct": -10.9,
-          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [0.0, 3.0, 1.0, 0.0, 1.0]; Pin 0.5 nv 55.6%; FD 0.5 -166; Kalshi 56¢ (YES) after-fee EV -4.4%; form MC 63.3% vs pin-cal 55.6%; FD EV -10.9%",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 55.6% at 0.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -10.85%; Kalshi after-fee EV -4.45%"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-6.77pp vs FD BE 62.4%; Kalshi -2.59pp vs cost 0.582"
-            },
-            {
-              "result": "pass",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-166"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 3,
-          "failCount": 2,
-          "combined": 0,
-          "rationale": "unsourced; L5 [0.0, 3.0, 1.0, 0.0, 1.0]; Pin 0.5 nv 55.6%; FD 0.5 -166; Kalshi 56¢ (YES) after-fee EV -4.4%; form MC 63.3% vs pin-cal 55.6%; FD EV -10.9%",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -10.85%; Kalshi after-fee EV -4.45%",
-            "MinEdge: -6.77pp vs FD BE 62.4%; Kalshi -2.59pp vs cost 0.582",
-            "unsourced (no firm YouTube / X send-it single)"
-          ],
-          "mcMedian": 1.0,
-          "mcP25": 0.0,
-          "mcP75": 1.0,
-          "pinLine": 0.5,
-          "kalshiCents": 56,
-          "kalshiEvPct": -4.4,
-          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-DENTFRANKLIN11-1",
-          "kalshiNote": "exact: Kalshi 1+ ≈ FD 0.5 over",
-          "formMcPct": 63.3,
-          "formDivergence": null
-        },
-        {
-          "rank": 9,
-          "tier": "Near-Miss",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Rico Dowdle",
-          "prop": "over 1.5 receptions",
-          "odds": "-148",
-          "book": "FanDuel + Kalshi",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "54.2%",
-          "evPct": -9.2,
-          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [4.0, 2.0, 0.0, 6.0, 3.0]; Pin 1.5 nv 53.9%; FD 1.5 -148; Kalshi 56¢ (YES) after-fee EV -5.3%; form MC 80.5% vs pin-cal 54.2%; FD EV -9.2%; FORM vs PIN DIVERGENCE: form MC 80.5% vs pin-cal 54.2% (+26.3pp)",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 53.9% at 1.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -9.22%; Kalshi after-fee EV -5.33%"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-5.50pp vs FD BE 59.7%; Kalshi -3.05pp vs cost 0.572"
-            },
-            {
-              "result": "pass",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-148"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 3,
-          "failCount": 2,
-          "combined": 0,
-          "rationale": "unsourced; L5 [4.0, 2.0, 0.0, 6.0, 3.0]; Pin 1.5 nv 53.9%; FD 1.5 -148; Kalshi 56¢ (YES) after-fee EV -5.3%; form MC 80.5% vs pin-cal 54.2%; FD EV -9.2%; FORM vs PIN DIVERGENCE: form MC 80.5% vs pin-cal 54.2% (+26.3pp)",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -9.22%; Kalshi after-fee EV -5.33%",
-            "MinEdge: -5.50pp vs FD BE 59.7%; Kalshi -3.05pp vs cost 0.572",
-            "unsourced (no firm YouTube / X send-it single)"
-          ],
-          "mcMedian": 2.0,
-          "mcP25": 1.0,
-          "mcP75": 3.0,
-          "pinLine": 1.5,
-          "kalshiCents": 56,
-          "kalshiEvPct": -5.3,
-          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-PITRDOWDLE13-2",
-          "kalshiNote": "exact: Kalshi 2+ ≈ FD 1.5 over",
-          "formMcPct": 80.5,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 80.5% vs pin-cal 54.2% (+26.3pp)"
-        },
-        {
-          "rank": 10,
-          "tier": "Near-Miss",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Pat Freiermuth",
-          "prop": "under 2.5 receptions",
-          "odds": "-154",
-          "book": "FanDuel + Kalshi",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "54.0%",
-          "evPct": -10.9,
-          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [5.0, 2.0, 2.0, 2.0, 2.0]; Pin 2.5 nv 45.5%; FD 2.5 -154; Kalshi 55¢ (NO) after-fee EV -3.9%; form MC 52.1% vs pin-cal 54.0%; FD EV -10.9%",
-          "yt": 0,
-          "ytWho": [],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 45.5% at 2.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -10.88%; Kalshi after-fee EV -3.91%"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-6.59pp vs FD BE 60.6%; Kalshi -2.20pp vs cost 0.562"
-            },
-            {
-              "result": "pass",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-154"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 3,
-          "failCount": 2,
-          "combined": 0,
-          "rationale": "unsourced; L5 [5.0, 2.0, 2.0, 2.0, 2.0]; Pin 2.5 nv 45.5%; FD 2.5 -154; Kalshi 55¢ (NO) after-fee EV -3.9%; form MC 52.1% vs pin-cal 54.0%; FD EV -10.9%",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -10.88%; Kalshi after-fee EV -3.91%",
-            "MinEdge: -6.59pp vs FD BE 60.6%; Kalshi -2.20pp vs cost 0.562",
-            "unsourced (no firm YouTube / X send-it single)"
-          ],
-          "mcMedian": 2.0,
-          "mcP25": 1.0,
-          "mcP75": 3.0,
-          "pinLine": 2.5,
-          "kalshiCents": 55,
-          "kalshiEvPct": -3.9,
-          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-PITPFREIERMUTH88-3",
-          "kalshiNote": "exact: Kalshi 3+ ≈ FD 2.5 over — priced as Kalshi NO on 3+",
-          "formMcPct": 52.1,
-          "formDivergence": null
-        },
-        {
-          "rank": 11,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -1310,12 +649,12 @@ window.BET_BOARD_DATA = {
             {
               "result": "fail",
               "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -4.31% (no exact Kalshi rung)"
+              "reason": "FD EV -4.35% (no exact Kalshi rung)"
             },
             {
               "result": "fail",
               "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-2.42pp vs FD BE 56.1%"
+              "reason": "-2.44pp vs FD BE 56.1%"
             },
             {
               "result": "pass",
@@ -1334,8 +673,8 @@ window.BET_BOARD_DATA = {
           "rationale": "Just Gridiron; L5 [9.0, 0.0, -2.0, 0.0, 0.0]; Pin 5.5 nv 53.7%; FD 5.5 -128; nearest Kalshi Mason Rudolph: 5+ rushing yards Mason Rudolph: 5+ (strike 5.0) vs FD 5.5 — not an equivalent rung; do not use this mid as the FD price; form MC 40.3% vs pin-cal 53.7%; FD EV -4.3%; FORM vs PIN DIVERGENCE: form MC 40.3% vs pin-cal 53.7% (-13.4pp); Form MC unreliable — Rudolph has only mop-up 2026 snaps (released Rodgers; first 2026 start).",
           "booksAlign": false,
           "blockers": [
-            "B1: FD EV -4.31% (no exact Kalshi rung)",
-            "MinEdge: -2.42pp vs FD BE 56.1%",
+            "B1: FD EV -4.35% (no exact Kalshi rung)",
+            "MinEdge: -2.44pp vs FD BE 56.1%",
             "combined sources 1 < 3 floor"
           ],
           "mcMedian": 7.066060869637491,
@@ -1350,7 +689,7 @@ window.BET_BOARD_DATA = {
           "formDivergence": "FORM vs PIN DIVERGENCE: form MC 40.3% vs pin-cal 53.7% (-13.4pp); Form MC unreliable — Rudolph has only mop-up 2026 snaps (released Rodgers; first 2026 start)."
         },
         {
-          "rank": 12,
+          "rank": 2,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -1360,9 +699,9 @@ window.BET_BOARD_DATA = {
           "odds": "-120",
           "book": "FanDuel + Kalshi",
           "fairLabel": "Pin-cal 50k MC",
-          "fair": "52.5%",
-          "evPct": -3.7,
-          "game": "DEN @ PIT · 2:00 PM CT · Beating The Odds+The Bettor Mark; L5 [2.0, 5.0, 1.0, 3.0, 2.0]; Pin 2.5 nv 52.7%; FD 2.5 -120; Kalshi 52¢ (YES) after-fee EV -3.2%; form MC 48.2% vs pin-cal 52.5%; FD EV -3.7%",
+          "fair": "52.7%",
+          "evPct": -3.4,
+          "game": "DEN @ PIT · 2:00 PM CT · Beating The Odds+The Bettor Mark; L5 [2.0, 5.0, 1.0, 3.0, 2.0]; Pin 2.5 nv 52.7%; FD 2.5 -120; Kalshi 52¢ (YES) after-fee EV -2.8%; form MC 48.2% vs pin-cal 52.7%; FD EV -3.4%",
           "yt": 2,
           "ytWho": [
             "Beating The Odds",
@@ -1379,12 +718,12 @@ window.BET_BOARD_DATA = {
             {
               "result": "fail",
               "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -3.71%; Kalshi after-fee EV -3.18%"
+              "reason": "FD EV -3.38%; Kalshi after-fee EV -2.85%"
             },
             {
               "result": "fail",
               "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-2.03pp vs FD BE 54.5%; Kalshi -1.73pp vs cost 0.542"
+              "reason": "-1.85pp vs FD BE 54.5%; Kalshi -1.55pp vs cost 0.542"
             },
             {
               "result": "pass",
@@ -1400,11 +739,11 @@ window.BET_BOARD_DATA = {
           "passCount": 3,
           "failCount": 2,
           "combined": 2,
-          "rationale": "Beating The Odds+The Bettor Mark; L5 [2.0, 5.0, 1.0, 3.0, 2.0]; Pin 2.5 nv 52.7%; FD 2.5 -120; Kalshi 52¢ (YES) after-fee EV -3.2%; form MC 48.2% vs pin-cal 52.5%; FD EV -3.7%",
+          "rationale": "Beating The Odds+The Bettor Mark; L5 [2.0, 5.0, 1.0, 3.0, 2.0]; Pin 2.5 nv 52.7%; FD 2.5 -120; Kalshi 52¢ (YES) after-fee EV -2.8%; form MC 48.2% vs pin-cal 52.7%; FD EV -3.4%",
           "booksAlign": false,
           "blockers": [
-            "B1: FD EV -3.71%; Kalshi after-fee EV -3.18%",
-            "MinEdge: -2.03pp vs FD BE 54.5%; Kalshi -1.73pp vs cost 0.542",
+            "B1: FD EV -3.38%; Kalshi after-fee EV -2.85%",
+            "MinEdge: -1.85pp vs FD BE 54.5%; Kalshi -1.55pp vs cost 0.542",
             "combined sources 2 < 3 floor"
           ],
           "mcMedian": 3.0,
@@ -1412,151 +751,14 @@ window.BET_BOARD_DATA = {
           "mcP75": 4.0,
           "pinLine": 2.5,
           "kalshiCents": 52,
-          "kalshiEvPct": -3.2,
+          "kalshiEvPct": -2.8,
           "kalshiTicker": "KXNFLREC-26NOV27DENPIT-PITJWARREN30-3",
           "kalshiNote": "exact: Kalshi 3+ ≈ FD 2.5 over",
           "formMcPct": 48.2,
           "formDivergence": null
         },
         {
-          "rank": 13,
-          "tier": "GAUGE",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Jonah Coleman",
-          "prop": "over 21.5 receiving yards",
-          "odds": "-113",
-          "book": "FanDuel",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "51.7%",
-          "evPct": -2.5,
-          "game": "DEN @ PIT · 2:00 PM CT · Straight Fire Picks; L5 [18.0, 31.0, 63.0, 15.0, 19.0]; Pin 21.5 nv 51.3%; FD 21.5 -113; nearest Kalshi Jonah Coleman: 20+ receiving yards Jonah Coleman: 20+ (strike 20.0) vs FD 21.5 — not an equivalent rung; do not use this mid as the FD price; form MC 65.1% vs pin-cal 51.7%; FD EV -2.5%; FORM vs PIN DIVERGENCE: form MC 65.1% vs pin-cal 51.7% (+13.4pp)",
-          "yt": 1,
-          "ytWho": [
-            "Straight Fire Picks"
-          ],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 51.3% at 21.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -2.51% (no exact Kalshi rung)"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-1.33pp vs FD BE 53.1%"
-            },
-            {
-              "result": "pass",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-113"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 3,
-          "failCount": 2,
-          "combined": 1,
-          "rationale": "Straight Fire Picks; L5 [18.0, 31.0, 63.0, 15.0, 19.0]; Pin 21.5 nv 51.3%; FD 21.5 -113; nearest Kalshi Jonah Coleman: 20+ receiving yards Jonah Coleman: 20+ (strike 20.0) vs FD 21.5 — not an equivalent rung; do not use this mid as the FD price; form MC 65.1% vs pin-cal 51.7%; FD EV -2.5%; FORM vs PIN DIVERGENCE: form MC 65.1% vs pin-cal 51.7% (+13.4pp)",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -2.51% (no exact Kalshi rung)",
-            "MinEdge: -1.33pp vs FD BE 53.1%",
-            "combined sources 1 < 3 floor"
-          ],
-          "mcMedian": 22.390947765380666,
-          "mcP25": 8.886398521523196,
-          "mcP75": 35.859771392503085,
-          "pinLine": 21.5,
-          "kalshiCents": 55,
-          "kalshiEvPct": null,
-          "kalshiTicker": "KXNFLRECYDS-26NOV27DENPIT-DENJCOLEMAN20-20",
-          "kalshiNote": "nearest Kalshi Jonah Coleman: 20+ receiving yards Jonah Coleman: 20+ (strike 20.0) vs FD 21.5 — not an equivalent rung; do not use this mid as the FD price",
-          "formMcPct": 65.1,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 65.1% vs pin-cal 51.7% (+13.4pp)"
-        },
-        {
-          "rank": 14,
-          "tier": "GAUGE",
-          "gameState": "pre",
-          "startCT": "2026-11-27T14:00:00-06:00",
-          "timeCT": "2:00 PM CT",
-          "player": "Jaylen Warren",
-          "prop": "over 18.5 receiving yards",
-          "odds": "-113",
-          "book": "FanDuel",
-          "fairLabel": "Pin-cal 50k MC",
-          "fair": "51.6%",
-          "evPct": -2.7,
-          "game": "DEN @ PIT · 2:00 PM CT · Straight Fire Picks+Guy Boston Sports; L5 [1.0, 26.0, 0.0, 36.0, 28.0]; Pin 18.5 nv 51.5%; FD 18.5 -113; nearest Kalshi Jaylen Warren: 20+ receiving yards Jaylen Warren: 20+ (strike 20.0) vs FD 18.5 — not an equivalent rung; do not use this mid as the FD price; form MC 49.0% vs pin-cal 51.6%; FD EV -2.7%",
-          "yt": 2,
-          "ytWho": [
-            "Straight Fire Picks",
-            "Guy Boston Sports"
-          ],
-          "xList": [],
-          "xOutside": [],
-          "rules": [
-            {
-              "result": "pass",
-              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
-              "reason": "mc_calibrated_to_pinnacle nv 51.5% at 18.5"
-            },
-            {
-              "result": "fail",
-              "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -2.67% (no exact Kalshi rung)"
-            },
-            {
-              "result": "fail",
-              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-1.42pp vs FD BE 53.1%"
-            },
-            {
-              "result": "pass",
-              "rule": "R16/CBSB juice cap (~-200)",
-              "reason": "-113"
-            },
-            {
-              "result": "pass",
-              "rule": "LOGIC weak-market / prop (H5 info)",
-              "reason": "player prop, not NFL side"
-            }
-          ],
-          "passCount": 3,
-          "failCount": 2,
-          "combined": 2,
-          "rationale": "Straight Fire Picks+Guy Boston Sports; L5 [1.0, 26.0, 0.0, 36.0, 28.0]; Pin 18.5 nv 51.5%; FD 18.5 -113; nearest Kalshi Jaylen Warren: 20+ receiving yards Jaylen Warren: 20+ (strike 20.0) vs FD 18.5 — not an equivalent rung; do not use this mid as the FD price; form MC 49.0% vs pin-cal 51.6%; FD EV -2.7%",
-          "booksAlign": false,
-          "blockers": [
-            "B1: FD EV -2.67% (no exact Kalshi rung)",
-            "MinEdge: -1.42pp vs FD BE 53.1%",
-            "combined sources 2 < 3 floor"
-          ],
-          "mcMedian": 19.223921524248354,
-          "mcP25": 8.013019013262594,
-          "mcP75": 30.389677328871365,
-          "pinLine": 18.5,
-          "kalshiCents": 48,
-          "kalshiEvPct": null,
-          "kalshiTicker": "KXNFLRECYDS-26NOV27DENPIT-PITJWARREN30-20",
-          "kalshiNote": "nearest Kalshi Jaylen Warren: 20+ receiving yards Jaylen Warren: 20+ (strike 20.0) vs FD 18.5 — not an equivalent rung; do not use this mid as the FD price",
-          "formMcPct": 49.0,
-          "formDivergence": null
-        },
-        {
-          "rank": 15,
+          "rank": 3,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -1566,9 +768,9 @@ window.BET_BOARD_DATA = {
           "odds": "-113",
           "book": "FanDuel",
           "fairLabel": "Pin-cal 50k MC",
-          "fair": "51.6%",
-          "evPct": -2.7,
-          "game": "DEN @ PIT · 2:00 PM CT · LayTheHouseRM; L5 [39.0, 35.0, 35.0, 20.0, 11.0]; Pin 20.5 nv 51.8%; FD 20.5 -113; nearest Kalshi Pat Freiermuth: 20+ receiving yards Pat Freiermuth: 20+ (strike 20.0) vs FD 20.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -2 to form mean; form MC 65.9% vs pin-cal 51.6%; FD EV -2.7%; FORM vs PIN DIVERGENCE: form MC 65.9% vs pin-cal 51.6% (+14.3pp)",
+          "fair": "51.8%",
+          "evPct": -2.4,
+          "game": "DEN @ PIT · 2:00 PM CT · LayTheHouseRM; L5 [39.0, 35.0, 35.0, 20.0, 11.0]; Pin 20.5 nv 51.8%; FD 20.5 -113; nearest Kalshi Pat Freiermuth: 20+ receiving yards Pat Freiermuth: 20+ (strike 20.0) vs FD 20.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -2 to form mean; form MC 65.9% vs pin-cal 51.8%; FD EV -2.4%; FORM vs PIN DIVERGENCE: form MC 65.9% vs pin-cal 51.8% (+14.1pp)",
           "yt": 1,
           "ytWho": [
             "LayTheHouseRM"
@@ -1584,12 +786,12 @@ window.BET_BOARD_DATA = {
             {
               "result": "fail",
               "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -2.67% (no exact Kalshi rung)"
+              "reason": "FD EV -2.36% (no exact Kalshi rung)"
             },
             {
               "result": "fail",
               "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-1.42pp vs FD BE 53.1%"
+              "reason": "-1.25pp vs FD BE 53.1%"
             },
             {
               "result": "pass",
@@ -1605,11 +807,11 @@ window.BET_BOARD_DATA = {
           "passCount": 3,
           "failCount": 2,
           "combined": 1,
-          "rationale": "LayTheHouseRM; L5 [39.0, 35.0, 35.0, 20.0, 11.0]; Pin 20.5 nv 51.8%; FD 20.5 -113; nearest Kalshi Pat Freiermuth: 20+ receiving yards Pat Freiermuth: 20+ (strike 20.0) vs FD 20.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -2 to form mean; form MC 65.9% vs pin-cal 51.6%; FD EV -2.7%; FORM vs PIN DIVERGENCE: form MC 65.9% vs pin-cal 51.6% (+14.3pp)",
+          "rationale": "LayTheHouseRM; L5 [39.0, 35.0, 35.0, 20.0, 11.0]; Pin 20.5 nv 51.8%; FD 20.5 -113; nearest Kalshi Pat Freiermuth: 20+ receiving yards Pat Freiermuth: 20+ (strike 20.0) vs FD 20.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -2 to form mean; form MC 65.9% vs pin-cal 51.8%; FD EV -2.4%; FORM vs PIN DIVERGENCE: form MC 65.9% vs pin-cal 51.8% (+14.1pp)",
           "booksAlign": false,
           "blockers": [
-            "B1: FD EV -2.67% (no exact Kalshi rung)",
-            "MinEdge: -1.42pp vs FD BE 53.1%",
+            "B1: FD EV -2.36% (no exact Kalshi rung)",
+            "MinEdge: -1.25pp vs FD BE 53.1%",
             "combined sources 1 < 3 floor"
           ],
           "mcMedian": 21.034934661533406,
@@ -1621,10 +823,10 @@ window.BET_BOARD_DATA = {
           "kalshiTicker": "KXNFLRECYDS-26NOV27DENPIT-PITPFREIERMUTH88-20",
           "kalshiNote": "nearest Kalshi Pat Freiermuth: 20+ receiving yards Pat Freiermuth: 20+ (strike 20.0) vs FD 20.5 — not an equivalent rung; do not use this mid as the FD price",
           "formMcPct": 65.9,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 65.9% vs pin-cal 51.6% (+14.3pp)"
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 65.9% vs pin-cal 51.8% (+14.1pp)"
         },
         {
-          "rank": 16,
+          "rank": 4,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -1634,9 +836,9 @@ window.BET_BOARD_DATA = {
           "odds": "-113",
           "book": "FanDuel",
           "fairLabel": "Pin-cal 50k MC",
-          "fair": "51.6%",
-          "evPct": -2.7,
-          "game": "DEN @ PIT · 2:00 PM CT · Sheisty Sports+Calling Our Shot+LayTheHouseRM; L5 [111.0, 57.0, 41.0, 54.0, 39.0]; Pin 73.5 nv 48.5%; FD 73.5 -113; nearest Kalshi Jonah Coleman: 70+ rushing yards Jonah Coleman: 70+ (strike 70.0) vs FD 73.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -10 to form mean; form MC 79.0% vs pin-cal 51.6%; FD EV -2.7%; FORM vs PIN DIVERGENCE: form MC 79.0% vs pin-cal 51.6% (+27.4pp)",
+          "fair": "51.5%",
+          "evPct": -2.9,
+          "game": "DEN @ PIT · 2:00 PM CT · Sheisty Sports+Calling Our Shot+LayTheHouseRM; L5 [111.0, 57.0, 41.0, 54.0, 39.0]; Pin 73.5 nv 48.5%; FD 73.5 -113; nearest Kalshi Jonah Coleman: 70+ rushing yards Jonah Coleman: 70+ (strike 70.0) vs FD 73.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -10 to form mean; form MC 79.0% vs pin-cal 51.5%; FD EV -2.9%; FORM vs PIN DIVERGENCE: form MC 79.0% vs pin-cal 51.5% (+27.5pp)",
           "yt": 3,
           "ytWho": [
             "Sheisty Sports",
@@ -1654,12 +856,12 @@ window.BET_BOARD_DATA = {
             {
               "result": "fail",
               "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -2.69% (no exact Kalshi rung)"
+              "reason": "FD EV -2.92% (no exact Kalshi rung)"
             },
             {
               "result": "fail",
               "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-1.43pp vs FD BE 53.1%"
+              "reason": "-1.55pp vs FD BE 53.1%"
             },
             {
               "result": "pass",
@@ -1675,11 +877,11 @@ window.BET_BOARD_DATA = {
           "passCount": 3,
           "failCount": 2,
           "combined": 3,
-          "rationale": "Sheisty Sports+Calling Our Shot+LayTheHouseRM; L5 [111.0, 57.0, 41.0, 54.0, 39.0]; Pin 73.5 nv 48.5%; FD 73.5 -113; nearest Kalshi Jonah Coleman: 70+ rushing yards Jonah Coleman: 70+ (strike 70.0) vs FD 73.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -10 to form mean; form MC 79.0% vs pin-cal 51.6%; FD EV -2.7%; FORM vs PIN DIVERGENCE: form MC 79.0% vs pin-cal 51.6% (+27.4pp)",
+          "rationale": "Sheisty Sports+Calling Our Shot+LayTheHouseRM; L5 [111.0, 57.0, 41.0, 54.0, 39.0]; Pin 73.5 nv 48.5%; FD 73.5 -113; nearest Kalshi Jonah Coleman: 70+ rushing yards Jonah Coleman: 70+ (strike 70.0) vs FD 73.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -10 to form mean; form MC 79.0% vs pin-cal 51.5%; FD EV -2.9%; FORM vs PIN DIVERGENCE: form MC 79.0% vs pin-cal 51.5% (+27.5pp)",
           "booksAlign": false,
           "blockers": [
-            "B1: FD EV -2.69% (no exact Kalshi rung)",
-            "MinEdge: -1.43pp vs FD BE 53.1%"
+            "B1: FD EV -2.92% (no exact Kalshi rung)",
+            "MinEdge: -1.55pp vs FD BE 53.1%"
           ],
           "mcMedian": 72.31789269577004,
           "mcP25": 52.31956013591898,
@@ -1690,10 +892,147 @@ window.BET_BOARD_DATA = {
           "kalshiTicker": "KXNFLRSHYDS-26NOV27DENPIT-DENJCOLEMAN20-70",
           "kalshiNote": "nearest Kalshi Jonah Coleman: 70+ rushing yards Jonah Coleman: 70+ (strike 70.0) vs FD 73.5 — not an equivalent rung; do not use this mid as the FD price",
           "formMcPct": 79.0,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 79.0% vs pin-cal 51.6% (+27.4pp)"
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 79.0% vs pin-cal 51.5% (+27.5pp)"
         },
         {
-          "rank": 17,
+          "rank": 5,
+          "tier": "GAUGE",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Jaylen Warren",
+          "prop": "over 18.5 receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "51.5%",
+          "evPct": -2.9,
+          "game": "DEN @ PIT · 2:00 PM CT · Straight Fire Picks+Guy Boston Sports; L5 [1.0, 26.0, 0.0, 36.0, 28.0]; Pin 18.5 nv 51.5%; FD 18.5 -113; nearest Kalshi Jaylen Warren: 20+ receiving yards Jaylen Warren: 20+ (strike 20.0) vs FD 18.5 — not an equivalent rung; do not use this mid as the FD price; form MC 49.0% vs pin-cal 51.5%; FD EV -2.9%",
+          "yt": 2,
+          "ytWho": [
+            "Straight Fire Picks",
+            "Guy Boston Sports"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 51.5% at 18.5"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV -2.92% (no exact Kalshi rung)"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-1.55pp vs FD BE 53.1%"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 2,
+          "rationale": "Straight Fire Picks+Guy Boston Sports; L5 [1.0, 26.0, 0.0, 36.0, 28.0]; Pin 18.5 nv 51.5%; FD 18.5 -113; nearest Kalshi Jaylen Warren: 20+ receiving yards Jaylen Warren: 20+ (strike 20.0) vs FD 18.5 — not an equivalent rung; do not use this mid as the FD price; form MC 49.0% vs pin-cal 51.5%; FD EV -2.9%",
+          "booksAlign": false,
+          "blockers": [
+            "B1: FD EV -2.92% (no exact Kalshi rung)",
+            "MinEdge: -1.55pp vs FD BE 53.1%",
+            "combined sources 2 < 3 floor"
+          ],
+          "mcMedian": 19.223921524248354,
+          "mcP25": 8.013019013262594,
+          "mcP75": 30.389677328871365,
+          "pinLine": 18.5,
+          "kalshiCents": 48,
+          "kalshiEvPct": null,
+          "kalshiTicker": "KXNFLRECYDS-26NOV27DENPIT-PITJWARREN30-20",
+          "kalshiNote": "nearest Kalshi Jaylen Warren: 20+ receiving yards Jaylen Warren: 20+ (strike 20.0) vs FD 18.5 — not an equivalent rung; do not use this mid as the FD price",
+          "formMcPct": 49.0,
+          "formDivergence": null
+        },
+        {
+          "rank": 6,
+          "tier": "GAUGE",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Jonah Coleman",
+          "prop": "over 21.5 receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "51.3%",
+          "evPct": -3.3,
+          "game": "DEN @ PIT · 2:00 PM CT · Straight Fire Picks; L5 [18.0, 31.0, 63.0, 15.0, 19.0]; Pin 21.5 nv 51.3%; FD 21.5 -113; nearest Kalshi Jonah Coleman: 20+ receiving yards Jonah Coleman: 20+ (strike 20.0) vs FD 21.5 — not an equivalent rung; do not use this mid as the FD price; form MC 65.1% vs pin-cal 51.3%; FD EV -3.3%; FORM vs PIN DIVERGENCE: form MC 65.1% vs pin-cal 51.3% (+13.8pp)",
+          "yt": 1,
+          "ytWho": [
+            "Straight Fire Picks"
+          ],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 51.3% at 21.5"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV -3.30% (no exact Kalshi rung)"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-1.75pp vs FD BE 53.1%"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 1,
+          "rationale": "Straight Fire Picks; L5 [18.0, 31.0, 63.0, 15.0, 19.0]; Pin 21.5 nv 51.3%; FD 21.5 -113; nearest Kalshi Jonah Coleman: 20+ receiving yards Jonah Coleman: 20+ (strike 20.0) vs FD 21.5 — not an equivalent rung; do not use this mid as the FD price; form MC 65.1% vs pin-cal 51.3%; FD EV -3.3%; FORM vs PIN DIVERGENCE: form MC 65.1% vs pin-cal 51.3% (+13.8pp)",
+          "booksAlign": false,
+          "blockers": [
+            "B1: FD EV -3.30% (no exact Kalshi rung)",
+            "MinEdge: -1.75pp vs FD BE 53.1%",
+            "combined sources 1 < 3 floor"
+          ],
+          "mcMedian": 22.390947765380666,
+          "mcP25": 8.886398521523196,
+          "mcP75": 35.859771392503085,
+          "pinLine": 21.5,
+          "kalshiCents": 55,
+          "kalshiEvPct": null,
+          "kalshiTicker": "KXNFLRECYDS-26NOV27DENPIT-DENJCOLEMAN20-20",
+          "kalshiNote": "nearest Kalshi Jonah Coleman: 20+ receiving yards Jonah Coleman: 20+ (strike 20.0) vs FD 21.5 — not an equivalent rung; do not use this mid as the FD price",
+          "formMcPct": 65.1,
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 65.1% vs pin-cal 51.3% (+13.8pp)"
+        },
+        {
+          "rank": 7,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -1703,9 +1042,9 @@ window.BET_BOARD_DATA = {
           "odds": "n/a",
           "book": "FanDuel",
           "fairLabel": "Pin-cal 50k MC",
-          "fair": "51.3%",
+          "fair": "51.1%",
           "evPct": null,
-          "game": "DEN @ PIT · 2:00 PM CT · Bag Report; L5 [35.0, 37.0, 32.0, 29.0, 27.0]; Pin 31.5 nv 51.1%; no FD price in GetOdds snapshot; form MC 52.4% vs pin-cal 51.3%",
+          "game": "DEN @ PIT · 2:00 PM CT · Bag Report; L5 [35.0, 37.0, 32.0, 29.0, 27.0]; Pin 31.5 nv 51.1%; no FD price in GetOdds snapshot; form MC 52.4% vs pin-cal 51.1%",
           "yt": 1,
           "ytWho": [
             "Bag Report"
@@ -1742,7 +1081,7 @@ window.BET_BOARD_DATA = {
           "passCount": 3,
           "failCount": 2,
           "combined": 1,
-          "rationale": "Bag Report; L5 [35.0, 37.0, 32.0, 29.0, 27.0]; Pin 31.5 nv 51.1%; no FD price in GetOdds snapshot; form MC 52.4% vs pin-cal 51.3%",
+          "rationale": "Bag Report; L5 [35.0, 37.0, 32.0, 29.0, 27.0]; Pin 31.5 nv 51.1%; no FD price in GetOdds snapshot; form MC 52.4% vs pin-cal 51.1%",
           "booksAlign": false,
           "blockers": [
             "B1: no priced EV vs sharp fair",
@@ -1761,7 +1100,7 @@ window.BET_BOARD_DATA = {
           "formDivergence": null
         },
         {
-          "rank": 18,
+          "rank": 8,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -1771,9 +1110,9 @@ window.BET_BOARD_DATA = {
           "odds": "-113",
           "book": "FanDuel",
           "fairLabel": "Pin-cal 50k MC",
-          "fair": "50.9%",
-          "evPct": -4.1,
-          "game": "DEN @ PIT · 2:00 PM CT · Sheisty Sports; L5 [43.0, 0.0, 74.0, 60.0, 28.0]; Pin 12.5 nv 50.4%; FD 12.5 -113; nearest Kalshi Roman Wilson: 15+ receiving yards Roman Wilson: 15+ (strike 15.0) vs FD 12.5 — not an equivalent rung; do not use this mid as the FD price; form MC 84.0% vs pin-cal 50.9%; FD EV -4.1%; FORM vs PIN DIVERGENCE: form MC 84.0% vs pin-cal 50.9% (+33.2pp)",
+          "fair": "50.4%",
+          "evPct": -5.0,
+          "game": "DEN @ PIT · 2:00 PM CT · Sheisty Sports; L5 [43.0, 0.0, 74.0, 60.0, 28.0]; Pin 12.5 nv 50.4%; FD 12.5 -113; nearest Kalshi Roman Wilson: 15+ receiving yards Roman Wilson: 15+ (strike 15.0) vs FD 12.5 — not an equivalent rung; do not use this mid as the FD price; form MC 84.0% vs pin-cal 50.4%; FD EV -5.0%; FORM vs PIN DIVERGENCE: form MC 84.0% vs pin-cal 50.4% (+33.6pp)",
           "yt": 1,
           "ytWho": [
             "Sheisty Sports"
@@ -1789,12 +1128,12 @@ window.BET_BOARD_DATA = {
             {
               "result": "fail",
               "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -4.08% (no exact Kalshi rung)"
+              "reason": "FD EV -5.00% (no exact Kalshi rung)"
             },
             {
               "result": "fail",
               "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-2.16pp vs FD BE 53.1%"
+              "reason": "-2.65pp vs FD BE 53.1%"
             },
             {
               "result": "pass",
@@ -1810,11 +1149,11 @@ window.BET_BOARD_DATA = {
           "passCount": 3,
           "failCount": 2,
           "combined": 1,
-          "rationale": "Sheisty Sports; L5 [43.0, 0.0, 74.0, 60.0, 28.0]; Pin 12.5 nv 50.4%; FD 12.5 -113; nearest Kalshi Roman Wilson: 15+ receiving yards Roman Wilson: 15+ (strike 15.0) vs FD 12.5 — not an equivalent rung; do not use this mid as the FD price; form MC 84.0% vs pin-cal 50.9%; FD EV -4.1%; FORM vs PIN DIVERGENCE: form MC 84.0% vs pin-cal 50.9% (+33.2pp)",
+          "rationale": "Sheisty Sports; L5 [43.0, 0.0, 74.0, 60.0, 28.0]; Pin 12.5 nv 50.4%; FD 12.5 -113; nearest Kalshi Roman Wilson: 15+ receiving yards Roman Wilson: 15+ (strike 15.0) vs FD 12.5 — not an equivalent rung; do not use this mid as the FD price; form MC 84.0% vs pin-cal 50.4%; FD EV -5.0%; FORM vs PIN DIVERGENCE: form MC 84.0% vs pin-cal 50.4% (+33.6pp)",
           "booksAlign": false,
           "blockers": [
-            "B1: FD EV -4.08% (no exact Kalshi rung)",
-            "MinEdge: -2.16pp vs FD BE 53.1%",
+            "B1: FD EV -5.00% (no exact Kalshi rung)",
+            "MinEdge: -2.65pp vs FD BE 53.1%",
             "combined sources 1 < 3 floor"
           ],
           "mcMedian": 13.148260810623249,
@@ -1826,10 +1165,10 @@ window.BET_BOARD_DATA = {
           "kalshiTicker": "KXNFLRECYDS-26NOV27DENPIT-PITRWILSON14-15",
           "kalshiNote": "nearest Kalshi Roman Wilson: 15+ receiving yards Roman Wilson: 15+ (strike 15.0) vs FD 12.5 — not an equivalent rung; do not use this mid as the FD price",
           "formMcPct": 84.0,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 84.0% vs pin-cal 50.9% (+33.2pp)"
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 84.0% vs pin-cal 50.4% (+33.6pp)"
         },
         {
-          "rank": 19,
+          "rank": 9,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -1839,9 +1178,9 @@ window.BET_BOARD_DATA = {
           "odds": "-113",
           "book": "FanDuel",
           "fairLabel": "Pin-cal 50k MC",
-          "fair": "50.1%",
-          "evPct": -5.5,
-          "game": "DEN @ PIT · 2:00 PM CT · Sheisty Sports; L5 [40.0, 0.0, 30.0, 27.0, 87.0]; Pin 22.5 nv 50.0%; FD 22.5 -113; nearest Kalshi Germie Bernard: 25+ receiving yards Germie Bernard: 25+ (strike 25.0) vs FD 22.5 — not an equivalent rung; do not use this mid as the FD price; form MC 67.3% vs pin-cal 50.1%; FD EV -5.5%; FORM vs PIN DIVERGENCE: form MC 67.3% vs pin-cal 50.1% (+17.2pp)",
+          "fair": "50.0%",
+          "evPct": -5.8,
+          "game": "DEN @ PIT · 2:00 PM CT · Sheisty Sports; L5 [40.0, 0.0, 30.0, 27.0, 87.0]; Pin 22.5 nv 50.0%; FD 22.5 -113; nearest Kalshi Germie Bernard: 25+ receiving yards Germie Bernard: 25+ (strike 25.0) vs FD 22.5 — not an equivalent rung; do not use this mid as the FD price; form MC 67.3% vs pin-cal 50.0%; FD EV -5.8%; FORM vs PIN DIVERGENCE: form MC 67.3% vs pin-cal 50.0% (+17.3pp)",
           "yt": 1,
           "ytWho": [
             "Sheisty Sports"
@@ -1857,12 +1196,12 @@ window.BET_BOARD_DATA = {
             {
               "result": "fail",
               "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -5.51% (no exact Kalshi rung)"
+              "reason": "FD EV -5.75% (no exact Kalshi rung)"
             },
             {
               "result": "fail",
               "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-2.92pp vs FD BE 53.1%"
+              "reason": "-3.05pp vs FD BE 53.1%"
             },
             {
               "result": "pass",
@@ -1878,11 +1217,11 @@ window.BET_BOARD_DATA = {
           "passCount": 3,
           "failCount": 2,
           "combined": 1,
-          "rationale": "Sheisty Sports; L5 [40.0, 0.0, 30.0, 27.0, 87.0]; Pin 22.5 nv 50.0%; FD 22.5 -113; nearest Kalshi Germie Bernard: 25+ receiving yards Germie Bernard: 25+ (strike 25.0) vs FD 22.5 — not an equivalent rung; do not use this mid as the FD price; form MC 67.3% vs pin-cal 50.1%; FD EV -5.5%; FORM vs PIN DIVERGENCE: form MC 67.3% vs pin-cal 50.1% (+17.2pp)",
+          "rationale": "Sheisty Sports; L5 [40.0, 0.0, 30.0, 27.0, 87.0]; Pin 22.5 nv 50.0%; FD 22.5 -113; nearest Kalshi Germie Bernard: 25+ receiving yards Germie Bernard: 25+ (strike 25.0) vs FD 22.5 — not an equivalent rung; do not use this mid as the FD price; form MC 67.3% vs pin-cal 50.0%; FD EV -5.8%; FORM vs PIN DIVERGENCE: form MC 67.3% vs pin-cal 50.0% (+17.3pp)",
           "booksAlign": false,
           "blockers": [
-            "B1: FD EV -5.51% (no exact Kalshi rung)",
-            "MinEdge: -2.92pp vs FD BE 53.1%",
+            "B1: FD EV -5.75% (no exact Kalshi rung)",
+            "MinEdge: -3.05pp vs FD BE 53.1%",
             "combined sources 1 < 3 floor"
           ],
           "mcMedian": 22.633718287832,
@@ -1894,10 +1233,10 @@ window.BET_BOARD_DATA = {
           "kalshiTicker": "KXNFLRECYDS-26NOV27DENPIT-PITGBERNARD17-25",
           "kalshiNote": "nearest Kalshi Germie Bernard: 25+ receiving yards Germie Bernard: 25+ (strike 25.0) vs FD 22.5 — not an equivalent rung; do not use this mid as the FD price",
           "formMcPct": 67.3,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 67.3% vs pin-cal 50.1% (+17.2pp)"
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 67.3% vs pin-cal 50.0% (+17.3pp)"
         },
         {
-          "rank": 20,
+          "rank": 10,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -1907,9 +1246,9 @@ window.BET_BOARD_DATA = {
           "odds": "-113",
           "book": "FanDuel",
           "fairLabel": "Pin-cal 50k MC",
-          "fair": "49.1%",
-          "evPct": -7.5,
-          "game": "DEN @ PIT · 2:00 PM CT · Sheisty Sports+Guy Boston Sports; L5 [32.0, 56.0, 47.0, 44.0, 0.0]; Pin 23.5 nv 49.4%; FD 23.5 -113; nearest Kalshi Pat Bryant: 25+ receiving yards Pat Bryant: 25+ (strike 25.0) vs FD 23.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -2 to form mean; form MC 67.9% vs pin-cal 49.1%; FD EV -7.5%; FORM vs PIN DIVERGENCE: form MC 67.9% vs pin-cal 49.1% (+18.8pp)",
+          "fair": "49.4%",
+          "evPct": -6.9,
+          "game": "DEN @ PIT · 2:00 PM CT · Sheisty Sports+Guy Boston Sports; L5 [32.0, 56.0, 47.0, 44.0, 0.0]; Pin 23.5 nv 49.4%; FD 23.5 -113; nearest Kalshi Pat Bryant: 25+ receiving yards Pat Bryant: 25+ (strike 25.0) vs FD 23.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -2 to form mean; form MC 67.9% vs pin-cal 49.4%; FD EV -6.9%; FORM vs PIN DIVERGENCE: form MC 67.9% vs pin-cal 49.4% (+18.5pp)",
           "yt": 2,
           "ytWho": [
             "Sheisty Sports",
@@ -1926,12 +1265,12 @@ window.BET_BOARD_DATA = {
             {
               "result": "fail",
               "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -7.48% (no exact Kalshi rung)"
+              "reason": "FD EV -6.88% (no exact Kalshi rung)"
             },
             {
               "result": "fail",
               "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-3.97pp vs FD BE 53.1%"
+              "reason": "-3.65pp vs FD BE 53.1%"
             },
             {
               "result": "pass",
@@ -1947,11 +1286,11 @@ window.BET_BOARD_DATA = {
           "passCount": 3,
           "failCount": 2,
           "combined": 2,
-          "rationale": "Sheisty Sports+Guy Boston Sports; L5 [32.0, 56.0, 47.0, 44.0, 0.0]; Pin 23.5 nv 49.4%; FD 23.5 -113; nearest Kalshi Pat Bryant: 25+ receiving yards Pat Bryant: 25+ (strike 25.0) vs FD 23.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -2 to form mean; form MC 67.9% vs pin-cal 49.1%; FD EV -7.5%; FORM vs PIN DIVERGENCE: form MC 67.9% vs pin-cal 49.1% (+18.8pp)",
+          "rationale": "Sheisty Sports+Guy Boston Sports; L5 [32.0, 56.0, 47.0, 44.0, 0.0]; Pin 23.5 nv 49.4%; FD 23.5 -113; nearest Kalshi Pat Bryant: 25+ receiving yards Pat Bryant: 25+ (strike 25.0) vs FD 23.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -2 to form mean; form MC 67.9% vs pin-cal 49.4%; FD EV -6.9%; FORM vs PIN DIVERGENCE: form MC 67.9% vs pin-cal 49.4% (+18.5pp)",
           "booksAlign": false,
           "blockers": [
-            "B1: FD EV -7.48% (no exact Kalshi rung)",
-            "MinEdge: -3.97pp vs FD BE 53.1%",
+            "B1: FD EV -6.88% (no exact Kalshi rung)",
+            "MinEdge: -3.65pp vs FD BE 53.1%",
             "combined sources 2 < 3 floor"
           ],
           "mcMedian": 22.98113937870653,
@@ -1963,10 +1302,10 @@ window.BET_BOARD_DATA = {
           "kalshiTicker": "KXNFLRECYDS-26NOV27DENPIT-DENPBRYANT13-25",
           "kalshiNote": "nearest Kalshi Pat Bryant: 25+ receiving yards Pat Bryant: 25+ (strike 25.0) vs FD 23.5 — not an equivalent rung; do not use this mid as the FD price",
           "formMcPct": 67.9,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 67.9% vs pin-cal 49.1% (+18.8pp)"
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 67.9% vs pin-cal 49.4% (+18.5pp)"
         },
         {
-          "rank": 21,
+          "rank": 11,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -1994,12 +1333,12 @@ window.BET_BOARD_DATA = {
             {
               "result": "fail",
               "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -8.62% (no exact Kalshi rung)"
+              "reason": "FD EV -8.58% (no exact Kalshi rung)"
             },
             {
               "result": "fail",
               "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-4.58pp vs FD BE 53.1%"
+              "reason": "-4.55pp vs FD BE 53.1%"
             },
             {
               "result": "pass",
@@ -2018,8 +1357,8 @@ window.BET_BOARD_DATA = {
           "rationale": "Beating The Odds; L5 [111.0, 57.0, 41.0, 54.0, 39.0]; Pin 73.5 nv 48.5%; FD 73.5 -113; nearest Kalshi Jonah Coleman: 70+ rushing yards Jonah Coleman: 70+ (strike 70.0) vs FD 73.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -10 to form mean; form MC 21.8% vs pin-cal 48.5%; FD EV -8.6%; FORM vs PIN DIVERGENCE: form MC 21.8% vs pin-cal 48.5% (-26.7pp)",
           "booksAlign": false,
           "blockers": [
-            "B1: FD EV -8.62% (no exact Kalshi rung)",
-            "MinEdge: -4.58pp vs FD BE 53.1%",
+            "B1: FD EV -8.58% (no exact Kalshi rung)",
+            "MinEdge: -4.55pp vs FD BE 53.1%",
             "combined sources 1 < 3 floor"
           ],
           "mcMedian": 72.34648515528548,
@@ -2034,7 +1373,7 @@ window.BET_BOARD_DATA = {
           "formDivergence": "FORM vs PIN DIVERGENCE: form MC 21.8% vs pin-cal 48.5% (-26.7pp)"
         },
         {
-          "rank": 22,
+          "rank": 12,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -2044,9 +1383,9 @@ window.BET_BOARD_DATA = {
           "odds": "-113",
           "book": "FanDuel",
           "fairLabel": "Pin-cal 50k MC",
-          "fair": "48.2%",
-          "evPct": -9.1,
-          "game": "DEN @ PIT · 2:00 PM CT · Just A Bet Outside; L5 [2.0, 0.0, 0.0, 0.0, 0.0]; Pin 175.5 nv 46.8%; FD 171.5 -113; nearest Kalshi Mason Rudolph: 175+ passing yards Mason Rudolph: 175+ (strike 175.0) vs FD 171.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -12 to form mean; form MC 100.0% vs pin-cal 48.2%; FD EV -9.1%; FORM vs PIN DIVERGENCE: form MC 100.0% vs pin-cal 48.2% (+51.8pp); Form MC unreliable — Rudolph has only mop-up 2026 snaps (released Rodgers; first 2026 start).",
+          "fair": "48.4%",
+          "evPct": -8.8,
+          "game": "DEN @ PIT · 2:00 PM CT · Just A Bet Outside; L5 [2.0, 0.0, 0.0, 0.0, 0.0]; Pin 175.5 nv 46.8%; FD 171.5 -113; nearest Kalshi Mason Rudolph: 175+ passing yards Mason Rudolph: 175+ (strike 175.0) vs FD 171.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -12 to form mean; form MC 100.0% vs pin-cal 48.4%; FD EV -8.8%; FORM vs PIN DIVERGENCE: form MC 100.0% vs pin-cal 48.4% (+51.6pp); Form MC unreliable — Rudolph has only mop-up 2026 snaps (released Rodgers; first 2026 start).",
           "yt": 1,
           "ytWho": [
             "Just A Bet Outside"
@@ -2062,12 +1401,12 @@ window.BET_BOARD_DATA = {
             {
               "result": "fail",
               "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -9.15% (no exact Kalshi rung)"
+              "reason": "FD EV -8.83% (no exact Kalshi rung)"
             },
             {
               "result": "fail",
               "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-4.85pp vs FD BE 53.1%"
+              "reason": "-4.68pp vs FD BE 53.1%"
             },
             {
               "result": "pass",
@@ -2083,11 +1422,11 @@ window.BET_BOARD_DATA = {
           "passCount": 3,
           "failCount": 2,
           "combined": 1,
-          "rationale": "Just A Bet Outside; L5 [2.0, 0.0, 0.0, 0.0, 0.0]; Pin 175.5 nv 46.8%; FD 171.5 -113; nearest Kalshi Mason Rudolph: 175+ passing yards Mason Rudolph: 175+ (strike 175.0) vs FD 171.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -12 to form mean; form MC 100.0% vs pin-cal 48.2%; FD EV -9.1%; FORM vs PIN DIVERGENCE: form MC 100.0% vs pin-cal 48.2% (+51.8pp); Form MC unreliable — Rudolph has only mop-up 2026 snaps (released Rodgers; first 2026 start).",
+          "rationale": "Just A Bet Outside; L5 [2.0, 0.0, 0.0, 0.0, 0.0]; Pin 175.5 nv 46.8%; FD 171.5 -113; nearest Kalshi Mason Rudolph: 175+ passing yards Mason Rudolph: 175+ (strike 175.0) vs FD 171.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -12 to form mean; form MC 100.0% vs pin-cal 48.4%; FD EV -8.8%; FORM vs PIN DIVERGENCE: form MC 100.0% vs pin-cal 48.4% (+51.6pp); Form MC unreliable — Rudolph has only mop-up 2026 snaps (released Rodgers; first 2026 start).",
           "booksAlign": false,
           "blockers": [
-            "B1: FD EV -9.15% (no exact Kalshi rung)",
-            "MinEdge: -4.85pp vs FD BE 53.1%",
+            "B1: FD EV -8.83% (no exact Kalshi rung)",
+            "MinEdge: -4.68pp vs FD BE 53.1%",
             "combined sources 1 < 3 floor"
           ],
           "mcMedian": 172.95040478632433,
@@ -2099,10 +1438,10 @@ window.BET_BOARD_DATA = {
           "kalshiTicker": "KXNFLPASSYDS-26NOV27DENPIT-PITMRUDOLPH2-175",
           "kalshiNote": "nearest Kalshi Mason Rudolph: 175+ passing yards Mason Rudolph: 175+ (strike 175.0) vs FD 171.5 — not an equivalent rung; do not use this mid as the FD price",
           "formMcPct": 100.0,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 100.0% vs pin-cal 48.2% (+51.8pp); Form MC unreliable — Rudolph has only mop-up 2026 snaps (released Rodgers; first 2026 start)."
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 100.0% vs pin-cal 48.4% (+51.6pp); Form MC unreliable — Rudolph has only mop-up 2026 snaps (released Rodgers; first 2026 start)."
         },
         {
-          "rank": 23,
+          "rank": 13,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -2112,9 +1451,9 @@ window.BET_BOARD_DATA = {
           "odds": "-113",
           "book": "FanDuel + Kalshi",
           "fairLabel": "Pin-cal 50k MC",
-          "fair": "46.9%",
-          "evPct": -11.6,
-          "game": "DEN @ PIT · 2:00 PM CT · Sheisty Sports; L5 [36.0, 0.0, 10.0, 53.0, 13.0]; Pin 8.5 nv 49.1%; FD 9.5 -113; Kalshi 48¢ (YES) after-fee EV -4.8%; form MC 72.4% vs pin-cal 46.9%; FD EV -11.6%; FORM vs PIN DIVERGENCE: form MC 72.4% vs pin-cal 46.9% (+25.5pp)",
+          "fair": "47.3%",
+          "evPct": -10.9,
+          "game": "DEN @ PIT · 2:00 PM CT · Sheisty Sports; L5 [36.0, 0.0, 10.0, 53.0, 13.0]; Pin 8.5 nv 49.1%; FD 9.5 -113; Kalshi 48¢ (YES) after-fee EV -4.0%; form MC 72.4% vs pin-cal 47.3%; FD EV -10.9%; FORM vs PIN DIVERGENCE: form MC 72.4% vs pin-cal 47.3% (+25.2pp)",
           "yt": 1,
           "ytWho": [
             "Sheisty Sports"
@@ -2130,12 +1469,12 @@ window.BET_BOARD_DATA = {
             {
               "result": "fail",
               "rule": "B1 price edge vs sharp fair",
-              "reason": "FD EV -11.58%; Kalshi after-fee EV -4.75%"
+              "reason": "FD EV -10.93%; Kalshi after-fee EV -4.04%"
             },
             {
               "result": "fail",
               "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
-              "reason": "-6.15pp vs FD BE 53.1%; Kalshi -2.34pp vs cost 0.492"
+              "reason": "-5.80pp vs FD BE 53.1%; Kalshi -1.99pp vs cost 0.492"
             },
             {
               "result": "pass",
@@ -2151,11 +1490,11 @@ window.BET_BOARD_DATA = {
           "passCount": 3,
           "failCount": 2,
           "combined": 1,
-          "rationale": "Sheisty Sports; L5 [36.0, 0.0, 10.0, 53.0, 13.0]; Pin 8.5 nv 49.1%; FD 9.5 -113; Kalshi 48¢ (YES) after-fee EV -4.8%; form MC 72.4% vs pin-cal 46.9%; FD EV -11.6%; FORM vs PIN DIVERGENCE: form MC 72.4% vs pin-cal 46.9% (+25.5pp)",
+          "rationale": "Sheisty Sports; L5 [36.0, 0.0, 10.0, 53.0, 13.0]; Pin 8.5 nv 49.1%; FD 9.5 -113; Kalshi 48¢ (YES) after-fee EV -4.0%; form MC 72.4% vs pin-cal 47.3%; FD EV -10.9%; FORM vs PIN DIVERGENCE: form MC 72.4% vs pin-cal 47.3% (+25.2pp)",
           "booksAlign": false,
           "blockers": [
-            "B1: FD EV -11.58%; Kalshi after-fee EV -4.75%",
-            "MinEdge: -6.15pp vs FD BE 53.1%; Kalshi -2.34pp vs cost 0.492",
+            "B1: FD EV -10.93%; Kalshi after-fee EV -4.04%",
+            "MinEdge: -5.80pp vs FD BE 53.1%; Kalshi -1.99pp vs cost 0.492",
             "combined sources 1 < 3 floor"
           ],
           "mcMedian": 7.881052159570603,
@@ -2163,14 +1502,14 @@ window.BET_BOARD_DATA = {
           "mcP75": 22.36653210745319,
           "pinLine": 8.5,
           "kalshiCents": 48,
-          "kalshiEvPct": -4.8,
+          "kalshiEvPct": -4.0,
           "kalshiTicker": "KXNFLRECYDS-26NOV27DENPIT-DENMMIMS19-10",
           "kalshiNote": "exact: Kalshi 10+ ≈ FD 9.5 over",
           "formMcPct": 72.4,
-          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 72.4% vs pin-cal 46.9% (+25.5pp)"
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 72.4% vs pin-cal 47.3% (+25.2pp)"
         },
         {
-          "rank": 24,
+          "rank": 14,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -2239,7 +1578,7 @@ window.BET_BOARD_DATA = {
           "formDivergence": null
         },
         {
-          "rank": 25,
+          "rank": 15,
           "tier": "GAUGE",
           "gameState": "pre",
           "startCT": "2026-11-27T14:00:00-06:00",
@@ -2305,10 +1644,669 @@ window.BET_BOARD_DATA = {
           "kalshiNote": "No Kalshi market matched this prop (KXNFLANYTD series was empty today).",
           "formMcPct": 17.3,
           "formDivergence": null
+        },
+        {
+          "rank": 16,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Marvin Mims Jr.",
+          "prop": "over 3.5 rushing yards",
+          "odds": "-102",
+          "book": "FanDuel",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "52.3%",
+          "evPct": 3.6,
+          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [11.0, 5.0, 19.0, 3.0, 0.0]; Pin 3.5 nv 52.3%; FD 3.5 -102; nearest Kalshi Marvin Mims Jr.: 10+ rushing yards Marvin Mims Jr.: 10+ (strike 10.0) vs FD 3.5 — not an equivalent rung; do not use this mid as the FD price; form MC 59.7% vs pin-cal 52.3%; FD EV +3.6%",
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 52.3% at 3.5"
+            },
+            {
+              "result": "pass",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV +3.57% (no exact Kalshi rung)"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "+1.80pp vs FD BE 50.5%"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-102"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 4,
+          "failCount": 1,
+          "combined": 0,
+          "rationale": "unsourced; L5 [11.0, 5.0, 19.0, 3.0, 0.0]; Pin 3.5 nv 52.3%; FD 3.5 -102; nearest Kalshi Marvin Mims Jr.: 10+ rushing yards Marvin Mims Jr.: 10+ (strike 10.0) vs FD 3.5 — not an equivalent rung; do not use this mid as the FD price; form MC 59.7% vs pin-cal 52.3%; FD EV +3.6%",
+          "booksAlign": false,
+          "blockers": [
+            "MinEdge: +1.80pp vs FD BE 50.5%",
+            "unsourced (no firm YouTube / X send-it single)"
+          ],
+          "mcMedian": 4.468073663343345,
+          "mcP25": -6.744888601645036,
+          "mcP75": 15.8483568077446,
+          "pinLine": 3.5,
+          "kalshiCents": 28,
+          "kalshiEvPct": null,
+          "kalshiTicker": "KXNFLRSHYDS-26NOV27DENPIT-DENMMIMS19-10",
+          "kalshiNote": "nearest Kalshi Marvin Mims Jr.: 10+ rushing yards Marvin Mims Jr.: 10+ (strike 10.0) vs FD 3.5 — not an equivalent rung; do not use this mid as the FD price",
+          "formMcPct": 59.7,
+          "formDivergence": null
+        },
+        {
+          "rank": 17,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Adam Trautman",
+          "prop": "under 0.5 receptions",
+          "odds": "+140",
+          "book": "FanDuel + Kalshi",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "41.7%",
+          "evPct": 0.1,
+          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [1.0, 2.0, 2.0, 0.0, 0.0]; Pin 0.5 nv 58.3%; FD 0.5 +140; Kalshi 40¢ (NO) after-fee EV -1.2%; form MC 36.6% vs pin-cal 41.7%; FD EV +0.1%",
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 58.3% at 0.5"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV +0.08%; Kalshi after-fee EV -1.15%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "+0.03pp vs FD BE 41.7%; Kalshi -0.49pp vs cost 0.422"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "+140"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 0,
+          "rationale": "unsourced; L5 [1.0, 2.0, 2.0, 0.0, 0.0]; Pin 0.5 nv 58.3%; FD 0.5 +140; Kalshi 40¢ (NO) after-fee EV -1.2%; form MC 36.6% vs pin-cal 41.7%; FD EV +0.1%",
+          "booksAlign": false,
+          "blockers": [
+            "B1: FD EV +0.08%; Kalshi after-fee EV -1.15%",
+            "MinEdge: +0.03pp vs FD BE 41.7%; Kalshi -0.49pp vs cost 0.422",
+            "unsourced (no firm YouTube / X send-it single)"
+          ],
+          "mcMedian": 1.0,
+          "mcP25": 0.0,
+          "mcP75": 1.0,
+          "pinLine": 0.5,
+          "kalshiCents": 40,
+          "kalshiEvPct": -1.2,
+          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-DENATRAUTMAN82-1",
+          "kalshiNote": "exact: Kalshi 1+ ≈ FD 0.5 over — priced as Kalshi NO on 1+",
+          "formMcPct": 36.6,
+          "formDivergence": null
+        },
+        {
+          "rank": 18,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Rico Dowdle",
+          "prop": "under 32.5 rushing yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "52.8%",
+          "evPct": -0.5,
+          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [15.0, 26.0, 56.0, 41.0, 40.0]; Pin 31.5 nv 49.6%; FD 32.5 -113; nearest Kalshi Rico Dowdle: 30+ rushing yards Rico Dowdle: 30+ (strike 30.0) vs FD 32.5 — not an equivalent rung; do not use this mid as the FD price; form MC 42.8% vs pin-cal 52.8%; FD EV -0.5%; FORM vs PIN DIVERGENCE: form MC 42.8% vs pin-cal 52.8% (-9.9pp)",
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 49.6% at 31.5"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV -0.53% (no exact Kalshi rung)"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-0.28pp vs FD BE 53.1%"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 0,
+          "rationale": "unsourced; L5 [15.0, 26.0, 56.0, 41.0, 40.0]; Pin 31.5 nv 49.6%; FD 32.5 -113; nearest Kalshi Rico Dowdle: 30+ rushing yards Rico Dowdle: 30+ (strike 30.0) vs FD 32.5 — not an equivalent rung; do not use this mid as the FD price; form MC 42.8% vs pin-cal 52.8%; FD EV -0.5%; FORM vs PIN DIVERGENCE: form MC 42.8% vs pin-cal 52.8% (-9.9pp)",
+          "booksAlign": false,
+          "blockers": [
+            "B1: FD EV -0.53% (no exact Kalshi rung)",
+            "MinEdge: -0.28pp vs FD BE 53.1%",
+            "unsourced (no firm YouTube / X send-it single)"
+          ],
+          "mcMedian": 31.415790019751693,
+          "mcP25": 20.009121586922884,
+          "mcP75": 42.62829126234002,
+          "pinLine": 31.5,
+          "kalshiCents": 50,
+          "kalshiEvPct": null,
+          "kalshiTicker": "KXNFLRSHYDS-26NOV27DENPIT-PITRDOWDLE13-30",
+          "kalshiNote": "nearest Kalshi Rico Dowdle: 30+ rushing yards Rico Dowdle: 30+ (strike 30.0) vs FD 32.5 — not an equivalent rung; do not use this mid as the FD price",
+          "formMcPct": 42.8,
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 42.8% vs pin-cal 52.8% (-9.9pp)"
+        },
+        {
+          "rank": 19,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Troy Franklin",
+          "prop": "under 0.5 receptions",
+          "odds": "+124",
+          "book": "FanDuel + Kalshi",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "44.4%",
+          "evPct": -0.5,
+          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [0.0, 3.0, 1.0, 0.0, 1.0]; Pin 0.5 nv 55.6%; FD 0.5 +124; Kalshi 44¢ (NO) after-fee EV -1.8%; form MC 36.7% vs pin-cal 44.4%; FD EV -0.5%",
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 55.6% at 0.5"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV -0.54%; Kalshi after-fee EV -1.81%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-0.24pp vs FD BE 44.6%; Kalshi -0.82pp vs cost 0.452"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "+124"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 0,
+          "rationale": "unsourced; L5 [0.0, 3.0, 1.0, 0.0, 1.0]; Pin 0.5 nv 55.6%; FD 0.5 +124; Kalshi 44¢ (NO) after-fee EV -1.8%; form MC 36.7% vs pin-cal 44.4%; FD EV -0.5%",
+          "booksAlign": false,
+          "blockers": [
+            "B1: FD EV -0.54%; Kalshi after-fee EV -1.81%",
+            "MinEdge: -0.24pp vs FD BE 44.6%; Kalshi -0.82pp vs cost 0.452",
+            "unsourced (no firm YouTube / X send-it single)"
+          ],
+          "mcMedian": 1.0,
+          "mcP25": 0.0,
+          "mcP75": 1.0,
+          "pinLine": 0.5,
+          "kalshiCents": 44,
+          "kalshiEvPct": -1.8,
+          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-DENTFRANKLIN11-1",
+          "kalshiNote": "exact: Kalshi 1+ ≈ FD 0.5 over — priced as Kalshi NO on 1+",
+          "formMcPct": 36.7,
+          "formDivergence": null
+        },
+        {
+          "rank": 20,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Jaylen Waddle",
+          "prop": "over 43.5 receiving yards",
+          "odds": "-113",
+          "book": "FanDuel",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "52.2%",
+          "evPct": -1.6,
+          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [61.0, 22.0, 39.0, 48.0, 24.0]; Pin 44.5 nv 49.8%; FD 43.5 -113; nearest Kalshi Jaylen Waddle: 40+ receiving yards Jaylen Waddle: 40+ (strike 40.0) vs FD 43.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -3 to form mean; form MC 32.1% vs pin-cal 52.2%; FD EV -1.6%; FORM vs PIN DIVERGENCE: form MC 32.1% vs pin-cal 52.2% (-20.1pp)",
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 49.8% at 44.5"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV -1.55% (no exact Kalshi rung)"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-0.82pp vs FD BE 53.1%"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "-113"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 0,
+          "rationale": "unsourced; L5 [61.0, 22.0, 39.0, 48.0, 24.0]; Pin 44.5 nv 49.8%; FD 43.5 -113; nearest Kalshi Jaylen Waddle: 40+ receiving yards Jaylen Waddle: 40+ (strike 40.0) vs FD 43.5 — not an equivalent rung; do not use this mid as the FD price; matchup adj -3 to form mean; form MC 32.1% vs pin-cal 52.2%; FD EV -1.6%; FORM vs PIN DIVERGENCE: form MC 32.1% vs pin-cal 52.2% (-20.1pp)",
+          "booksAlign": false,
+          "blockers": [
+            "B1: FD EV -1.55% (no exact Kalshi rung)",
+            "MinEdge: -0.82pp vs FD BE 53.1%",
+            "unsourced (no firm YouTube / X send-it single)"
+          ],
+          "mcMedian": 44.37040395201659,
+          "mcP25": 33.400041294770105,
+          "mcP75": 55.54390516072347,
+          "pinLine": 44.5,
+          "kalshiCents": 55,
+          "kalshiEvPct": null,
+          "kalshiTicker": "KXNFLRECYDS-26NOV27DENPIT-DENJWADDLE17-40",
+          "kalshiNote": "nearest Kalshi Jaylen Waddle: 40+ receiving yards Jaylen Waddle: 40+ (strike 40.0) vs FD 43.5 — not an equivalent rung; do not use this mid as the FD price",
+          "formMcPct": 32.1,
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 32.1% vs pin-cal 52.2% (-20.1pp)"
+        },
+        {
+          "rank": 21,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Pat Freiermuth",
+          "prop": "over 2.5 receptions",
+          "odds": "+116",
+          "book": "FanDuel + Kalshi",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "45.5%",
+          "evPct": -1.7,
+          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [5.0, 2.0, 2.0, 2.0, 2.0]; Pin 2.5 nv 45.5%; FD 2.5 +116; Kalshi 46¢ (YES) after-fee EV -3.7%; form MC 48.2% vs pin-cal 45.5%; FD EV -1.7%",
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 45.5% at 2.5"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV -1.72%; Kalshi after-fee EV -3.67%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-0.80pp vs FD BE 46.3%; Kalshi -1.74pp vs cost 0.472"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "+116"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 0,
+          "rationale": "unsourced; L5 [5.0, 2.0, 2.0, 2.0, 2.0]; Pin 2.5 nv 45.5%; FD 2.5 +116; Kalshi 46¢ (YES) after-fee EV -3.7%; form MC 48.2% vs pin-cal 45.5%; FD EV -1.7%",
+          "booksAlign": false,
+          "blockers": [
+            "B1: FD EV -1.72%; Kalshi after-fee EV -3.67%",
+            "MinEdge: -0.80pp vs FD BE 46.3%; Kalshi -1.74pp vs cost 0.472",
+            "unsourced (no firm YouTube / X send-it single)"
+          ],
+          "mcMedian": 2.0,
+          "mcP25": 1.0,
+          "mcP75": 3.0,
+          "pinLine": 2.5,
+          "kalshiCents": 46,
+          "kalshiEvPct": -3.7,
+          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-PITPFREIERMUTH88-3",
+          "kalshiNote": "exact: Kalshi 3+ ≈ FD 2.5 over",
+          "formMcPct": 48.2,
+          "formDivergence": null
+        },
+        {
+          "rank": 22,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Jonah Coleman",
+          "prop": "over 3.5 receptions",
+          "odds": "+102",
+          "book": "FanDuel + Kalshi",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "48.5%",
+          "evPct": -2.0,
+          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [4.0, 4.0, 4.0, 2.0, 3.0]; Pin 3.5 nv 48.5%; FD 3.5 +102; Kalshi 46¢ (YES) after-fee EV +0.5%; form MC 44.3% vs pin-cal 48.5%; FD EV -2.0%",
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 48.5% at 3.5"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV -2.03%; Kalshi after-fee EV +0.54%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-1.00pp vs FD BE 49.5%; Kalshi +0.26pp vs cost 0.482"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "+102"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 0,
+          "rationale": "unsourced; L5 [4.0, 4.0, 4.0, 2.0, 3.0]; Pin 3.5 nv 48.5%; FD 3.5 +102; Kalshi 46¢ (YES) after-fee EV +0.5%; form MC 44.3% vs pin-cal 48.5%; FD EV -2.0%",
+          "booksAlign": false,
+          "blockers": [
+            "B1: FD EV -2.03%; Kalshi after-fee EV +0.54%",
+            "MinEdge: -1.00pp vs FD BE 49.5%; Kalshi +0.26pp vs cost 0.482",
+            "unsourced (no firm YouTube / X send-it single)"
+          ],
+          "mcMedian": 3.0,
+          "mcP25": 2.0,
+          "mcP75": 5.0,
+          "pinLine": 3.5,
+          "kalshiCents": 46,
+          "kalshiEvPct": 0.5,
+          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-DENJCOLEMAN20-4",
+          "kalshiNote": "exact: Kalshi 4+ ≈ FD 3.5 over",
+          "formMcPct": 44.3,
+          "formDivergence": null
+        },
+        {
+          "rank": 23,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Darnell Washington",
+          "prop": "under 1.5 receptions",
+          "odds": "+112",
+          "book": "FanDuel + Kalshi",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "46.1%",
+          "evPct": -2.3,
+          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [3.0, 1.0, 3.0, 1.0, 4.0]; Pin 1.5 nv 53.9%; FD 1.5 +112; Kalshi 44¢ (NO) after-fee EV -0.3%; form MC 30.8% vs pin-cal 46.1%; FD EV -2.3%; FORM vs PIN DIVERGENCE: form MC 30.8% vs pin-cal 46.1% (-15.3pp)",
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 53.9% at 1.5"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV -2.27%; Kalshi after-fee EV -0.28%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-1.07pp vs FD BE 47.2%; Kalshi -0.13pp vs cost 0.462"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "+112"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 0,
+          "rationale": "unsourced; L5 [3.0, 1.0, 3.0, 1.0, 4.0]; Pin 1.5 nv 53.9%; FD 1.5 +112; Kalshi 44¢ (NO) after-fee EV -0.3%; form MC 30.8% vs pin-cal 46.1%; FD EV -2.3%; FORM vs PIN DIVERGENCE: form MC 30.8% vs pin-cal 46.1% (-15.3pp)",
+          "booksAlign": false,
+          "blockers": [
+            "B1: FD EV -2.27%; Kalshi after-fee EV -0.28%",
+            "MinEdge: -1.07pp vs FD BE 47.2%; Kalshi -0.13pp vs cost 0.462",
+            "unsourced (no firm YouTube / X send-it single)"
+          ],
+          "mcMedian": 2.0,
+          "mcP25": 1.0,
+          "mcP75": 3.0,
+          "pinLine": 1.5,
+          "kalshiCents": 44,
+          "kalshiEvPct": -0.3,
+          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-PITDWASHINGTON80-2",
+          "kalshiNote": "exact: Kalshi 2+ ≈ FD 1.5 over — priced as Kalshi NO on 2+",
+          "formMcPct": 30.8,
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 30.8% vs pin-cal 46.1% (-15.3pp)"
+        },
+        {
+          "rank": 24,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Rico Dowdle",
+          "prop": "under 1.5 receptions",
+          "odds": "+112",
+          "book": "FanDuel + Kalshi",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "46.1%",
+          "evPct": -2.3,
+          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [4.0, 2.0, 0.0, 6.0, 3.0]; Pin 1.5 nv 53.9%; FD 1.5 +112; Kalshi 44¢ (NO) after-fee EV -0.3%; form MC 20.1% vs pin-cal 46.1%; FD EV -2.3%; FORM vs PIN DIVERGENCE: form MC 20.1% vs pin-cal 46.1% (-26.0pp)",
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 53.9% at 1.5"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV -2.27%; Kalshi after-fee EV -0.28%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-1.07pp vs FD BE 47.2%; Kalshi -0.13pp vs cost 0.462"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "+112"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 0,
+          "rationale": "unsourced; L5 [4.0, 2.0, 0.0, 6.0, 3.0]; Pin 1.5 nv 53.9%; FD 1.5 +112; Kalshi 44¢ (NO) after-fee EV -0.3%; form MC 20.1% vs pin-cal 46.1%; FD EV -2.3%; FORM vs PIN DIVERGENCE: form MC 20.1% vs pin-cal 46.1% (-26.0pp)",
+          "booksAlign": false,
+          "blockers": [
+            "B1: FD EV -2.27%; Kalshi after-fee EV -0.28%",
+            "MinEdge: -1.07pp vs FD BE 47.2%; Kalshi -0.13pp vs cost 0.462",
+            "unsourced (no firm YouTube / X send-it single)"
+          ],
+          "mcMedian": 2.0,
+          "mcP25": 1.0,
+          "mcP75": 3.0,
+          "pinLine": 1.5,
+          "kalshiCents": 44,
+          "kalshiEvPct": -0.3,
+          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-PITRDOWDLE13-2",
+          "kalshiNote": "exact: Kalshi 2+ ≈ FD 1.5 over — priced as Kalshi NO on 2+",
+          "formMcPct": 20.1,
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 20.1% vs pin-cal 46.1% (-26.0pp)"
+        },
+        {
+          "rank": 25,
+          "tier": "Near-Miss",
+          "gameState": "pre",
+          "startCT": "2026-11-27T14:00:00-06:00",
+          "timeCT": "2:00 PM CT",
+          "player": "Marvin Mims Jr.",
+          "prop": "over 1.5 receptions",
+          "odds": "+152",
+          "book": "FanDuel + Kalshi",
+          "fairLabel": "Pin-cal 50k MC",
+          "fair": "38.5%",
+          "evPct": -3.0,
+          "game": "DEN @ PIT · 2:00 PM CT · unsourced; L5 [1.0, 1.0, 2.0, 2.0, 2.0]; Pin 1.5 nv 38.5%; FD 1.5 +152; Kalshi 38¢ (YES) after-fee EV -1.6%; form MC 48.0% vs pin-cal 38.5%; FD EV -3.0%; FORM vs PIN DIVERGENCE: form MC 48.0% vs pin-cal 38.5% (+9.5pp)",
+          "yt": 0,
+          "ytWho": [],
+          "xList": [],
+          "xOutside": [],
+          "rules": [
+            {
+              "result": "pass",
+              "rule": "B2/B6 sharp fair (Pinnacle / 3+ books)",
+              "reason": "mc_calibrated_to_pinnacle nv 38.5% at 1.5"
+            },
+            {
+              "result": "fail",
+              "rule": "B1 price edge vs sharp fair",
+              "reason": "FD EV -2.98%; Kalshi after-fee EV -1.64%"
+            },
+            {
+              "result": "fail",
+              "rule": "MinEdge ≥ 2.5pp vs break-even (H1)",
+              "reason": "-1.18pp vs FD BE 39.7%; Kalshi -0.64pp vs cost 0.391"
+            },
+            {
+              "result": "pass",
+              "rule": "R16/CBSB juice cap (~-200)",
+              "reason": "+152"
+            },
+            {
+              "result": "pass",
+              "rule": "LOGIC weak-market / prop (H5 info)",
+              "reason": "player prop, not NFL side"
+            }
+          ],
+          "passCount": 3,
+          "failCount": 2,
+          "combined": 0,
+          "rationale": "unsourced; L5 [1.0, 1.0, 2.0, 2.0, 2.0]; Pin 1.5 nv 38.5%; FD 1.5 +152; Kalshi 38¢ (YES) after-fee EV -1.6%; form MC 48.0% vs pin-cal 38.5%; FD EV -3.0%; FORM vs PIN DIVERGENCE: form MC 48.0% vs pin-cal 38.5% (+9.5pp)",
+          "booksAlign": false,
+          "blockers": [
+            "B1: FD EV -2.98%; Kalshi after-fee EV -1.64%",
+            "MinEdge: -1.18pp vs FD BE 39.7%; Kalshi -0.64pp vs cost 0.391",
+            "unsourced (no firm YouTube / X send-it single)"
+          ],
+          "mcMedian": 1.0,
+          "mcP25": 0.0,
+          "mcP75": 2.0,
+          "pinLine": 1.5,
+          "kalshiCents": 38,
+          "kalshiEvPct": -1.6,
+          "kalshiTicker": "KXNFLREC-26NOV27DENPIT-DENMMIMS19-2",
+          "kalshiNote": "exact: Kalshi 2+ ≈ FD 1.5 over",
+          "formMcPct": 48.0,
+          "formDivergence": "FORM vs PIN DIVERGENCE: form MC 48.0% vs pin-cal 38.5% (+9.5pp)"
         }
       ]
     },
-    "updatedAtLabel": "Fri Nov 27, 12:04 PM CT",
+    "updatedAtLabel": "Fri Nov 27, 12:06 PM CT",
     "engine": "v2-books + Kalshi fee + 50k Pin-cal MC + form/matchup flag (2026-11-27 Black Friday)",
     "note": "Black Friday NFL — only game is DEN @ PIT at 2:00 PM CT. Kalshi is the standing primary frame (cents, quadratic fee 0.07*p*(1-p), order-book limits, strike ladders); FanDuel is the sportsbook price; Pinnacle two-way no-vig is the sharp fair. Gates: B1 EV>0 (after Kalshi fee and vs FanDuel), B2/B6 Pin no-vig or 50k Pin-cal when the number differs, MinEdge/H1 ≥ +2.5pp, R16 no worse than −200. CLEARED needs YT≥2 AND combined (YT + unique X send-it) ≥3 AND booksAlign. 50,000-trial Monte Carlo: Pin-calibrated official fair plus a form/matchup-adjusted distribution (flags divergences). Official 53-man inactives typically post ~12:30 PM CT — recheck before kickoff. Tyler Badie and Cole Holcomb were still questionable at research time.",
     "noEdgeNote": "0 CLEARED if no card beat both the source floors and the 10-book price gates at the observed FanDuel / Kalshi prices.",
@@ -2329,7 +2327,7 @@ window.BET_BOARD_DATA = {
         "cells": [
           {
             "label": "MC hit (corr)",
-            "value": "36.1%"
+            "value": "36.3%"
           },
           {
             "label": "MC hit (indep)",
@@ -2337,7 +2335,7 @@ window.BET_BOARD_DATA = {
           },
           {
             "label": "Fair payout",
-            "value": "2.77x"
+            "value": "2.75x"
           },
           {
             "label": "Corr note",
@@ -2350,7 +2348,7 @@ window.BET_BOARD_DATA = {
         "cells": [
           {
             "label": "MC hit (corr)",
-            "value": "30.6%"
+            "value": "30.8%"
           },
           {
             "label": "MC hit (indep)",
@@ -2358,7 +2356,7 @@ window.BET_BOARD_DATA = {
           },
           {
             "label": "Fair payout",
-            "value": "3.27x"
+            "value": "3.25x"
           },
           {
             "label": "Corr note",
@@ -2367,19 +2365,19 @@ window.BET_BOARD_DATA = {
         ]
       },
       {
-        "title": "Bryant o23.5 receiving yards + Jr. o9.5 receiving yards",
+        "title": "Bryant o23.5 receiving yards + Mims o9.5 receiving yards",
         "cells": [
           {
             "label": "MC hit (corr)",
-            "value": "26.9%"
+            "value": "27.5%"
           },
           {
             "label": "MC hit (indep)",
-            "value": "23.0%"
+            "value": "23.3%"
           },
           {
             "label": "Fair payout",
-            "value": "3.72x"
+            "value": "3.64x"
           },
           {
             "label": "Corr note",
@@ -2392,15 +2390,15 @@ window.BET_BOARD_DATA = {
         "cells": [
           {
             "label": "MC hit (corr)",
-            "value": "31.6%"
+            "value": "31.8%"
           },
           {
             "label": "MC hit (indep)",
-            "value": "25.3%"
+            "value": "25.5%"
           },
           {
             "label": "Fair payout",
-            "value": "3.17x"
+            "value": "3.14x"
           },
           {
             "label": "Corr note",
@@ -2413,15 +2411,15 @@ window.BET_BOARD_DATA = {
         "cells": [
           {
             "label": "MC hit (corr)",
-            "value": "23.1%"
+            "value": "22.8%"
           },
           {
             "label": "MC hit (indep)",
-            "value": "14.0%"
+            "value": "14.1%"
           },
           {
             "label": "Fair payout",
-            "value": "4.33x"
+            "value": "4.38x"
           },
           {
             "label": "Corr note",
